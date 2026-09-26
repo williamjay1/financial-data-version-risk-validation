@@ -1,5 +1,5 @@
 {
-  "word_count": 7553,
+  "word_count": 7556,
   "pages": 13,
   "abstract_words": 190,
   "checks": [
@@ -49,7 +49,7 @@
     ],
     [
       "Word count within the 10,000 word guidance",
-      "7,553 words of main text before references"
+      "7,556 words of main text before references"
     ],
     [
       "All figures and tables inside the main PDF",
