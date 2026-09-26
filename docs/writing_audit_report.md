@@ -7,7 +7,7 @@ Revision round `revision_20260924_audited`. Every change below is a wording chan
 - Wording edits applied: **38**
 - Wording edits that failed to match: **0**
 - Abstract length: **197 words** (target 150 to 200)
-- Main text length: **7,556 words** before references
+- Main text length: **7,547 words** before references
 - Quantified claims retained: **200**
 - Compliance failures: **0**
 
