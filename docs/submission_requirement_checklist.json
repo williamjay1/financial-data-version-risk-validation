@@ -1,7 +1,7 @@
 {
-  "word_count": 7445,
+  "word_count": 7553,
   "pages": 13,
-  "abstract_words": 180,
+  "abstract_words": 190,
   "checks": [
     [
       "PDF format only for the manuscript",
@@ -25,7 +25,7 @@
     ],
     [
       "Abstract between 150 and 200 words, one paragraph, no references",
-      "180 words"
+      "190 words"
     ],
     [
       "4 to 6 keywords",
@@ -49,7 +49,7 @@
     ],
     [
       "Word count within the 10,000 word guidance",
-      "7,445 words of main text before references"
+      "7,553 words of main text before references"
     ],
     [
       "All figures and tables inside the main PDF",

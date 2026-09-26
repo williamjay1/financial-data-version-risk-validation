@@ -1,0 +1,33 @@
+{
+  "title": "Financial data version risk in bankruptcy model validation: separating scoring, development and evaluation effects",
+  "running_head": "Financial data version risk in model validation",
+  "author": {
+    "name_en": "Junjie Zhang",
+    "name_zh": "张俊杰",
+    "orcid": "0009-0004-8821-4018",
+    "email": "junjiezhang2024@shisu.edu.cn",
+    "postal_address": "Shanghai International Studies University, 1550 Wenxiang Road, Songjiang District, Shanghai 201620, China",
+    "corresponding": "Junjie Zhang, junjiezhang2024@shisu.edu.cn"
+  },
+  "affiliations": [
+    "Shanghai Academy of Global Governance and Area Studies, Shanghai International Studies University, Shanghai 201620, China",
+    "School of Economics and Finance, Shanghai International Studies University, Shanghai 201620, China"
+  ],
+  "keywords": [
+    "Model validation",
+    "Model risk",
+    "Credit risk",
+    "Bankruptcy prediction",
+    "Data versioning",
+    "Backtesting"
+  ],
+  "key_messages": [
+    "Data versions are a validation design choice, not a data cleaning step.",
+    "Rescoring and redevelopment can move a version contrast in opposite directions.",
+    "A development domain change reversed one version contrast from +2.85 to -16.01.",
+    "Reports should record the input version rule, not only the extraction date."
+  ],
+  "abstract": "Financial risk models are validated on historical data whose values are revised after disclosure, so one accounting period can carry several recorded values. A train and test split leaves the version of each input open, which makes the result depend on a version rule that shapes model development and scoring alike. We develop a crossed version validation protocol that holds observation identities, outcome labels, design weights and initial missingness fixed while version selection varies separately at development and at scoring, separating substitution of scoring inputs, redevelopment of the fitted pipeline and selection of the evaluated population. Applied to 5,502 annual filing windows with 188 linked bankruptcy registry events, the protocol shows the reported difference and its sources diverging: the direct substitution contrast ran from -2.78 to +0.11 average precision points while redevelopment contributed +1.90 to +4.95 points. Development choices carried the larger influence, with a development domain change moving one version contrast from +2.85 to -16.01 points while the evaluation sample stayed fixed. Financial data versioning is a model validation and governance risk, and a validation report becomes reproducible once it records the input version rule alongside the extraction date.",
+  "funding": "No external funding supported this work.",
+  "conflicts": "The author reports no conflicts of interest. The author alone is responsible for the content and writing of the paper."
+}

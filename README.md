@@ -27,13 +27,23 @@ scoring, together with the frozen inputs and outputs of the bankruptcy applicati
 | Path | Contents |
 | --- | --- |
 | `manuscript/` | Final manuscript (PDF and Word), supplementary document, submission copies, five figures as SVG and vector PDF, six tables as CSV, and the LaTeX source |
+| `manuscript/source/` | Editable manuscript sources: the template with display placeholders, the assembled Markdown, and the front matter that drives the title page |
 | `code/datasets/` | Frozen derived analysis inputs: sampling frame, model cohort, version panel and source-corrected arms |
 | `code/datasets_round2/` | Fit date reconstruction panels and the source verified correction panel |
 | `code/scripts/` | Original analysis pipeline: sampling, version pairing, modelling and descriptive figures |
 | `code/scripts_round1/`, `code/scripts_round2/` | Revision rounds: fit date reconstruction, development controls, evaluation diagnostics, source semantics and assembly |
-| `code/scripts_final/` | Final round: publication figures with a layout audit, manuscript assembly with compliance gates, submission pack, PDF production and quality assurance |
-| `results/round1/`, `results/round2/`, `results/final/` | Frozen metrics, four cell decompositions, audits, saved predictions and figures for each round |
-| `docs/` | Data dictionary, environment lock, portable reproduction script, build reports and the submission requirement check |
+| `code/scripts_round3/` | Publication round: figures with a layout audit, manuscript assembly with compliance gates, submission pack, PDF production and quality assurance |
+| `code/scripts_round4/` | Writing audit round: wording revisions with a before and after record, abstract length control, and the compliance audit |
+| `results/round1/`, `results/round2/` | Frozen metrics, four cell decompositions, audits, saved predictions and figures for the first two rounds |
+| `results/round4/` | Compliance audit, wording edit record, abstract finalization, submission checks and the writing audit report |
+| `docs/` | Data dictionary, environment lock, portable reproduction script, build reports, the writing audit report and the submission requirement check |
+
+## Revision history
+
+| Version | Change |
+| --- | --- |
+| v1.0.1 | First public release: frozen inputs, code, results, manuscript, submission files and the archived DOI |
+| v1.1.0 | Writing audit applied to the manuscript: defensive wording removed across the text and consolidated into one scope subsection, the abstract rewritten to 190 words in positive form, the contribution and scope statements made explicit, and the full before and after record added as `docs/audit_edits.json` and `docs/writing_audit_report.md` |
 
 ## Reproducing the reported results
 
