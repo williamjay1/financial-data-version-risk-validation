@@ -1,0 +1,79 @@
+{
+  "years": [
+    2009,
+    2011,
+    2013,
+    2015,
+    2017,
+    2019,
+    2021,
+    2022
+  ],
+  "rule": "For each fixed year, choose earliest DateFiled, then lowest normalized CIK, then PrimaryKey; skip already selected CIK. No filtering on API or fact availability. Eight different CIK. This is an access audit of positive cases, not a prevalence sample.",
+  "companies": [
+    {
+      "PrimaryKey": "193",
+      "NameCorp": "Lyondell Chemical Company",
+      "cik": "0000842635",
+      "DateFiled": "1/6/2009",
+      "Date10kBefore": "12/31/2007",
+      "Date10kBeforeLink": "12/31/2007#http://edgar.sec.gov/Archives/edgar/data/842635/000084263508000019/0000842635-08-000019-index.htm#"
+    },
+    {
+      "PrimaryKey": "908",
+      "NameCorp": "Constar International Inc. (2011)",
+      "cik": "0000029806",
+      "DateFiled": "1/11/2011",
+      "Date10kBefore": "12/31/2009",
+      "Date10kBeforeLink": "12/31/2009#http://www.sec.gov/Archives/edgar/data/29806/000095012310027798/0000950123-10-027798-index.htm#"
+    },
+    {
+      "PrimaryKey": "978",
+      "NameCorp": "Penson Worldwide, Inc.",
+      "cik": "0001123541",
+      "DateFiled": "1/11/2013",
+      "Date10kBefore": "12/31/2011",
+      "Date10kBeforeLink": "12/31/2011#http://www.sec.gov/Archives/edgar/data/1123541/000119312512117406/0001193125-12-117406-index.htm#"
+    },
+    {
+      "PrimaryKey": "1020",
+      "NameCorp": "Caesars Entertainment Operating Company, Inc.",
+      "cik": "0000858395",
+      "DateFiled": "1/12/2015",
+      "Date10kBefore": "9/30/2014",
+      "Date10kBeforeLink": "9/30/2014#http://www.sec.gov/Archives/edgar/data/858395/000085839514000024/0000858395-14-000024-index.htm#"
+    },
+    {
+      "PrimaryKey": "1095",
+      "NameCorp": "Bonanza Creek Energy, Inc.",
+      "cik": "0001509589",
+      "DateFiled": "1/4/2017",
+      "Date10kBefore": "12/31/2016",
+      "Date10kBeforeLink": "12/31/2016#https://www.sec.gov/Archives/edgar/data/1509589/000150958917000005/0001509589-17-000005-index.htm#"
+    },
+    {
+      "PrimaryKey": "1140",
+      "NameCorp": "Gymboree Corporation (2019)",
+      "cik": "0000786110",
+      "DateFiled": "1/16/2019",
+      "Date10kBefore": "7/30/2016",
+      "Date10kBeforeLink": "7/30/2016#https://www.sec.gov/Archives/edgar/data/786110/000119312516751374/0001193125-16-751374-index.htm#"
+    },
+    {
+      "PrimaryKey": "1223",
+      "NameCorp": "Ferrellgas Partners, L.P. (Ferrellgas Partners Finance Corp.)",
+      "cik": "0000922358",
+      "DateFiled": "1/11/2021",
+      "Date10kBefore": "7/31/2020",
+      "Date10kBeforeLink": "7/31/2020#https://www.sec.gov/Archives/edgar/data/922358/000155837020011490/0001558370-20-011490-index.htm#"
+    },
+    {
+      "PrimaryKey": "1231",
+      "NameCorp": "GWG Holdings, Inc.",
+      "cik": "0001522690",
+      "DateFiled": "4/20/2022",
+      "Date10kBefore": "12/31/2020",
+      "Date10kBeforeLink": "12/31/2020#https://www.sec.gov/Archives/edgar/data/1522690/000152269021000008/0001522690-21-000008-index.htm#"
+    }
+  ]
+}

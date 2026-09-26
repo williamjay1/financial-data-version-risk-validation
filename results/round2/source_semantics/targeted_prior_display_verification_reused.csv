@@ -1,0 +1,145 @@
+audit_id,audit_role,stratum,audit_N_h,audit_n_h,audit_pi,audit_weight,sample_weight,cik,company_name,feature,tag,start,end,unit,arm,source_accession,api_value,display_normalized_value,display_scale_multiplier,display_status,original_xbrl_status,source_url,source_raw_path,source_raw_sha256,source_text_path,row_char_offset,display_excerpt,heading_excerpt,scope_and_access_notes,verification_mode,reuse_status
+P20,probability,2020_2021|event=0|changed=1,131.0,2.0,0.015267175572519,65.5,14.546,0001632970,"American Healthcare REIT, Inc.",assets,Assets,,2020-12-31,USD,A,0001632970-21-000028,1092773000.0,1092773000.0,1,display_consistent,unknown_not_context_certified,https://www.sec.gov/Archives/edgar/data/1632970/000163297021000028/gahr-20201231.htm,<archived-record-root>/...,dfe42537236e21b4fd620d1c7b122b5f206595ef8520362e7b41d85f9d1d14b5,<working-tree-root>/...,435234,"| |
+| Identified intangible assets, net | 64,101,000 | | 74,023,000 | |
+| Operating lease right-of-use assets, net | 14,133,000 | | 14,255,000 | |
+| Other assets, net | 72,199,000 | | 62,620,000 | |
+| Total assets | $ | 1,092,773,000 | $ | 1,068,327,000 |
+| LIABILITIES, REDEEMABLE NONCONTROLLING INTERESTS AND EQUITY | | | | |
+| Liabilities: | | | | |
+| Mortgage loans payable, net(1) | $ | 17,827,000 | $ | 26,070,000 |
+| Line of credit and term loans(1) | 476,900,000 | | 396,800,000 | |
+| Accounts payable and accrued liabilities(1) | 23,057,000 | | 32,033,000 | |
+| Accounts payable due to affiliates(1) | 1,046,000","CONSOLIDATED BALANCE SHEETS As of December 31, 2020 and 2019  | | December 31, | | | | | --- | --- | --- | --- | --- | | | 2020 | | 2019 | | | ASSETS | | | | | | Real estate investments, net | $ | 921,580,000 | $ | 895,0","Currency, sign, reporting period and displayed consolidated/attributable row checked; no original XBRL certification. B Note1: GAHR IV is legal acquiror, GAHR III accounting acquiror; pre-merger comparative information reflects GAHR III, hence scope is not constant.",AI_assisted_SEC_clean_text_review_not_human_manual_audit,prior_frozen_display_verification; mechanism passages re-read round2; not originalXBRL certification
+P20,probability,2020_2021|event=0|changed=1,131.0,2.0,0.015267175572519,65.5,14.546,0001632970,"American Healthcare REIT, Inc.",assets,Assets,,2020-12-31,USD,B,0001632970-22-000020,3234937000.0,3234937000.0,1,display_consistent,unknown_not_context_certified,https://www.sec.gov/Archives/edgar/data/1632970/000163297022000020/ahr-20211231.htm,<archived-record-root>/...,58965c3def73820111f17aab268a659798e91f7cb941776c45b8651cfa1dff5f,<working-tree-root>/...,377448,"| |
+| Goodwill | 209,898,000 | | 75,309,000 | |
+| Operating lease right-of-use assets, net | 158,157,000 | | 203,988,000 | |
+| Other assets, net | 121,148,000 | | 118,356,000 | |
+| Total assets | $ | 4,580,339,000 | $ | 3,234,937,000 |
+| LIABILITIES, REDEEMABLE NONCONTROLLING INTERESTS AND EQUITY | | | | |
+| Liabilities: | | | | |
+| Mortgage loans payable, net(1) | $ | 1,095,594,000 | $ | 810,478,000 |
+| Lines of credit and term loans(1) | 1,226,634,000 | | 843,634,000 | |
+| Accounts payable and accrued liabilities(1) | 187,254,000 | | 186,651,000 | |
+| Accounts payable due to affiliates(1) | 866,000 | | 8,026,00","CONSOLIDATED BALANCE SHEETS As of December 31, 2021 and 2020  | | December 31, | | | | | --- | --- | --- | --- | --- | | | 2021 | | 2020 | | | ASSETS | | | | | | Real estate investments, net | $ | 3,514,686,000 | $ | 2,3","Currency, sign, reporting period and displayed consolidated/attributable row checked; no original XBRL certification. B Note1: GAHR IV is legal acquiror, GAHR III accounting acquiror; pre-merger comparative information reflects GAHR III, hence scope is not constant.",AI_assisted_SEC_clean_text_review_not_human_manual_audit,prior_frozen_display_verification; mechanism passages re-read round2; not originalXBRL certification
+P20,probability,2020_2021|event=0|changed=1,131.0,2.0,0.015267175572519,65.5,14.546,0001632970,"American Healthcare REIT, Inc.",net_income,NetIncomeLoss,2020-01-01,2020-12-31,USD,A,0001632970-21-000028,-18057000.0,-18057000.0,1,display_consistent,unknown_not_context_certified,https://www.sec.gov/Archives/edgar/data/1632970/000163297021000028/gahr-20201231.htm,<archived-record-root>/...,dfe42537236e21b4fd620d1c7b122b5f206595ef8520362e7b41d85f9d1d14b5,<working-tree-root>/...,438966,"0) | |
+| Net loss | (18,942,000) | | (18,851,000) | | (8,586,000) | |
+| Less: net loss attributable to noncontrolling interests | 885,000 | | 82,000 | | 232,000 | |
+| Net loss attributable to controlling interest | $ | (18,057,000) | $ | (18,769,000) | $ | (8,354,000) |
+| Net loss per Class T and Class I common share attributable to controlling interest — basic and diluted | $ | (0.22) | $ | (0.24) | $ | (0.15) |
+| Weighted average number of Class T and Class I common shares outstanding — basic and diluted | 80,661,645 | | 78,396,077 | | 54,847,197 | |
+
+The accompanying notes are an integral part of these consoli","CONSOLIDATED BALANCE SHEETS As of December 31, 2020 and 2019  | | December 31, | | | | | --- | --- | --- | --- | --- | | | 2020 | | 2019 | | | ASSETS | | | | | | Real estate investments, net | $ | 921,580,000 | $ | 895,0 | Years Ended December 31, | | | | | | | --- | --- | --- | --- | --- | --- | --- | | | 2020 | | 2019 | | 2018 | | | Revenues and grant income: | | | | | | | | Real estate revenue | $ | 86,321,000 | $ | 74,610,000 | $ | 47,","Currency, sign, reporting period and displayed consolidated/attributable row checked; no original XBRL certification. B Note1: GAHR IV is legal acquiror, GAHR III accounting acquiror; pre-merger comparative information reflects GAHR III, hence scope is not constant.",AI_assisted_SEC_clean_text_review_not_human_manual_audit,prior_frozen_display_verification; mechanism passages re-read round2; not originalXBRL certification
+P20,probability,2020_2021|event=0|changed=1,131.0,2.0,0.015267175572519,65.5,14.546,0001632970,"American Healthcare REIT, Inc.",net_income,NetIncomeLoss,2020-01-01,2020-12-31,USD,B,0001632970-22-000020,2163000.0,2163000.0,1,display_consistent,unknown_not_context_certified,https://www.sec.gov/Archives/edgar/data/1632970/000163297022000020/ahr-20211231.htm,<archived-record-root>/...,58965c3def73820111f17aab268a659798e91f7cb941776c45b8651cfa1dff5f,<working-tree-root>/...,382836,",000 | | (852,000) | |
+| Less: net loss (income) attributable to noncontrolling interests | 5,475,000 | | (6,700,000) | | (4,113,000) | |
+| Net (loss) income attributable to controlling interest | $ | (47,794,000) | $ | 2,163,000 | $ | (4,965,000) |
+| Net (loss) income per Class T and Class I common share attributable to controlling interest — basic and diluted | $ | (0.24) | $ | 0.01 | $ | (0.03) |
+| Weighted average number of Class T and Class I common shares outstanding — basic and diluted | 200,324,561 | | 179,916,841 | | 181,931,306 | |
+| Net (loss) income | $ | (53,269,000) | $ | 8,863,000 | $ | (852,000) |","CONSOLIDATED STATEMENTS OF OPERATIONS AND COMPREHENSIVE INCOME (LOSS)  For the Years Ended December 31, 2021, 2020 and 2019  | | Years Ended December 31, | | | | | | | --- | --- | --- | --- | --- | --- | --- | | | 2021 | | Years Ended December 31, 2021, 2020 and 2019  | | Years Ended December 31, | | | | | | | --- | --- | --- | --- | --- | --- | --- | | | 2021 | | 2020 | | 2019 | | | Revenues and grant income: | | | | | | | | Resident fees | Years Ended December 31, | | | | | | | --- | --- | --- | --- | --- | --- | --- | | | 2021 | | 2020 | | 2019 | | | Revenues and grant income: | | | | | | | | Resident fees and services | $ | 1,123,935,000 | $ | 1,069,073,","Currency, sign, reporting period and displayed consolidated/attributable row checked; no original XBRL certification. B Note1: GAHR IV is legal acquiror, GAHR III accounting acquiror; pre-merger comparative information reflects GAHR III, hence scope is not constant.",AI_assisted_SEC_clean_text_review_not_human_manual_audit,prior_frozen_display_verification; mechanism passages re-read round2; not originalXBRL certification
+P22,probability,2020_2021|event=1|changed=0,41.0,2.0,0.048780487804878,20.5,1.0,0001211351,"RTW Retailwinds, Inc.",assets,Assets,,2020-02-01,USD,A,0001047469-20-003464,411984000.0,411984000.0,1000,display_consistent,unknown_not_context_certified,https://www.sec.gov/Archives/edgar/data/1211351/000104746920003464/a2241712z10-k.htm,<archived-record-root>/...,b7472b69a05e85a53de735e695b47fe2d16d3778fc22c2faf7e7fd15a48f08d5,<working-tree-root>/...,190025," | |
+| Property and equipment, net | | 44,896 | | | 63,791 | |
+| Operating lease assets | | 189,794 | | |  | |
+| Intangible assets | | 16,625 | | | 16,813 | |
+| Other assets | | 938 | | | 1,311 | |
+| Total assets | $ | 411,984 | | $ | 288,878 | |
+| Liabilities and stockholders' equity | | | | | | |
+| Current liabilities: | | | | | | |
+| Accounts payable | $ | 70,172 | | $ | 77,050 | |
+| Accrued expenses | | 70,543 | | | 68,585 | |
+| Current operating lease liabilities | | 40,350 | | |  | |
+| Income taxes payable | | 110 | | | 375 | |
+| Total current liabilities | | 181,175 | | | 146,010 | |
+| Non-current operat","Amounts in thousands) | Fiscal year ended February 1, 2020 (52 weeks) | | | Fiscal year ended February 2, 2019 (52 weeks) | | | | --- | --- | --- | --- | --- | --- | --- | | Net (loss) income | $ | (61,623 | ) | $ | 4,23 | year ended February 1, 2020 (52 weeks) | | | Fiscal year ended February 2, 2019 (52 weeks) | | | | --- | --- | --- | --- | --- | --- | --- | | Net (loss) income | $ | (61,623 | ) | $ | 4,230 | | | Other comprehensive inc | Consolidated Balance Sheets  | (Amounts in thousands, except per share amounts) | February 1, 2020 | | | February 2, 2019 | | | | --- | --- | --- | --- | --- | --- | --- | | Assets | | | | | | | | Current assets: | | | | | Amounts in thousands, except per share amounts) | February 1, 2020 | | | February 2, 2019 | | | | --- | --- | --- | --- | --- | --- | --- | | Assets | | | | | | | | Current assets: | | | | | | | | Cash and cash equivalen","Currency, sign, reporting period and displayed consolidated/attributable row checked; no original XBRL certification.",AI_assisted_SEC_clean_text_review_not_human_manual_audit,prior_frozen_display_verification; mechanism passages re-read round2; not originalXBRL certification
+P22,probability,2020_2021|event=1|changed=0,41.0,2.0,0.048780487804878,20.5,1.0,0001211351,"RTW Retailwinds, Inc.",assets,Assets,,2020-02-01,USD,B,0001047469-20-003464,411984000.0,411984000.0,1000,display_consistent,unknown_not_context_certified,https://www.sec.gov/Archives/edgar/data/1211351/000104746920003464/a2241712z10-k.htm,<archived-record-root>/...,b7472b69a05e85a53de735e695b47fe2d16d3778fc22c2faf7e7fd15a48f08d5,<working-tree-root>/...,190025," | |
+| Property and equipment, net | | 44,896 | | | 63,791 | |
+| Operating lease assets | | 189,794 | | |  | |
+| Intangible assets | | 16,625 | | | 16,813 | |
+| Other assets | | 938 | | | 1,311 | |
+| Total assets | $ | 411,984 | | $ | 288,878 | |
+| Liabilities and stockholders' equity | | | | | | |
+| Current liabilities: | | | | | | |
+| Accounts payable | $ | 70,172 | | $ | 77,050 | |
+| Accrued expenses | | 70,543 | | | 68,585 | |
+| Current operating lease liabilities | | 40,350 | | |  | |
+| Income taxes payable | | 110 | | | 375 | |
+| Total current liabilities | | 181,175 | | | 146,010 | |
+| Non-current operat","Amounts in thousands) | Fiscal year ended February 1, 2020 (52 weeks) | | | Fiscal year ended February 2, 2019 (52 weeks) | | | | --- | --- | --- | --- | --- | --- | --- | | Net (loss) income | $ | (61,623 | ) | $ | 4,23 | year ended February 1, 2020 (52 weeks) | | | Fiscal year ended February 2, 2019 (52 weeks) | | | | --- | --- | --- | --- | --- | --- | --- | | Net (loss) income | $ | (61,623 | ) | $ | 4,230 | | | Other comprehensive inc | Consolidated Balance Sheets  | (Amounts in thousands, except per share amounts) | February 1, 2020 | | | February 2, 2019 | | | | --- | --- | --- | --- | --- | --- | --- | | Assets | | | | | | | | Current assets: | | | | | Amounts in thousands, except per share amounts) | February 1, 2020 | | | February 2, 2019 | | | | --- | --- | --- | --- | --- | --- | --- | | Assets | | | | | | | | Current assets: | | | | | | | | Cash and cash equivalen","Currency, sign, reporting period and displayed consolidated/attributable row checked; no original XBRL certification.",AI_assisted_SEC_clean_text_review_not_human_manual_audit,prior_frozen_display_verification; mechanism passages re-read round2; not originalXBRL certification
+P22,probability,2020_2021|event=1|changed=0,41.0,2.0,0.048780487804878,20.5,1.0,0001211351,"RTW Retailwinds, Inc.",liabilities,Liabilities,,2020-02-01,USD,A,0001047469-20-003464,396027000.0,396027000.0,1000,display_consistent,unknown_not_context_certified,https://www.sec.gov/Archives/edgar/data/1211351/000104746920003464/a2241712z10-k.htm,<archived-record-root>/...,b7472b69a05e85a53de735e695b47fe2d16d3778fc22c2faf7e7fd15a48f08d5,<working-tree-root>/...,190582," liabilities | | 181,175 | | | 146,010 | |
+| Non-current operating lease liabilities | | 189,154 | | |  | |
+| Deferred rent | |  | | | 25,090 | |
+| Other liabilities | | 25,698 | | | 31,165 | |
+| Total liabilities | | 396,027 | | | 202,265 | |
+| Commitments and contingencies | | | | | | |
+| Stockholders' equity: | | | | | | |
+| Common stock, voting, par value $0.001; 300,000 shares authorized; 67,054 and 66,649 shares issued and 65,223 and 64,818 shares outstanding at February 1, 2020 and February 2, 2019, respectively | | 67 | | | 67 | |
+| Additional paid-in capital | | 187,021 | | | 185,020 | |
+| Retained def","Amounts in thousands) | Fiscal year ended February 1, 2020 (52 weeks) | | | Fiscal year ended February 2, 2019 (52 weeks) | | | | --- | --- | --- | --- | --- | --- | --- | | Net (loss) income | $ | (61,623 | ) | $ | 4,23 | year ended February 1, 2020 (52 weeks) | | | Fiscal year ended February 2, 2019 (52 weeks) | | | | --- | --- | --- | --- | --- | --- | --- | | Net (loss) income | $ | (61,623 | ) | $ | 4,230 | | | Other comprehensive inc | Consolidated Balance Sheets  | (Amounts in thousands, except per share amounts) | February 1, 2020 | | | February 2, 2019 | | | | --- | --- | --- | --- | --- | --- | --- | | Assets | | | | | | | | Current assets: | | | | | Amounts in thousands, except per share amounts) | February 1, 2020 | | | February 2, 2019 | | | | --- | --- | --- | --- | --- | --- | --- | | Assets | | | | | | | | Current assets: | | | | | | | | Cash and cash equivalen","Currency, sign, reporting period and displayed consolidated/attributable row checked; no original XBRL certification.",AI_assisted_SEC_clean_text_review_not_human_manual_audit,prior_frozen_display_verification; mechanism passages re-read round2; not originalXBRL certification
+P22,probability,2020_2021|event=1|changed=0,41.0,2.0,0.048780487804878,20.5,1.0,0001211351,"RTW Retailwinds, Inc.",liabilities,Liabilities,,2020-02-01,USD,B,0001047469-20-003464,396027000.0,396027000.0,1000,display_consistent,unknown_not_context_certified,https://www.sec.gov/Archives/edgar/data/1211351/000104746920003464/a2241712z10-k.htm,<archived-record-root>/...,b7472b69a05e85a53de735e695b47fe2d16d3778fc22c2faf7e7fd15a48f08d5,<working-tree-root>/...,190582," liabilities | | 181,175 | | | 146,010 | |
+| Non-current operating lease liabilities | | 189,154 | | |  | |
+| Deferred rent | |  | | | 25,090 | |
+| Other liabilities | | 25,698 | | | 31,165 | |
+| Total liabilities | | 396,027 | | | 202,265 | |
+| Commitments and contingencies | | | | | | |
+| Stockholders' equity: | | | | | | |
+| Common stock, voting, par value $0.001; 300,000 shares authorized; 67,054 and 66,649 shares issued and 65,223 and 64,818 shares outstanding at February 1, 2020 and February 2, 2019, respectively | | 67 | | | 67 | |
+| Additional paid-in capital | | 187,021 | | | 185,020 | |
+| Retained def","Amounts in thousands) | Fiscal year ended February 1, 2020 (52 weeks) | | | Fiscal year ended February 2, 2019 (52 weeks) | | | | --- | --- | --- | --- | --- | --- | --- | | Net (loss) income | $ | (61,623 | ) | $ | 4,23 | year ended February 1, 2020 (52 weeks) | | | Fiscal year ended February 2, 2019 (52 weeks) | | | | --- | --- | --- | --- | --- | --- | --- | | Net (loss) income | $ | (61,623 | ) | $ | 4,230 | | | Other comprehensive inc | Consolidated Balance Sheets  | (Amounts in thousands, except per share amounts) | February 1, 2020 | | | February 2, 2019 | | | | --- | --- | --- | --- | --- | --- | --- | | Assets | | | | | | | | Current assets: | | | | | Amounts in thousands, except per share amounts) | February 1, 2020 | | | February 2, 2019 | | | | --- | --- | --- | --- | --- | --- | --- | | Assets | | | | | | | | Current assets: | | | | | | | | Cash and cash equivalen","Currency, sign, reporting period and displayed consolidated/attributable row checked; no original XBRL certification.",AI_assisted_SEC_clean_text_review_not_human_manual_audit,prior_frozen_display_verification; mechanism passages re-read round2; not originalXBRL certification
+E02,purposive_extreme,outside_test|event=0|changed=1,,,,,1.0,0001568832,RCS Capital Corp,assets,Assets,,2013-12-31,USD,A,0001445305-14-000765,111127000.0,111127000.0,1000,display_consistent,unknown_not_context_certified,https://www.sec.gov/Archives/edgar/data/1568832/000144530514000765/rcap-20131231x10k.htm,<archived-record-root>/...,8c31462e75b9bae513b8957457e66900b51e8a2b98df1a9a2b4311060973f39c,<working-tree-root>/...,334898,"perty and equipment (net of accumulated depreciation: 2013 - $198; 2012 - $48) | 458 | | | 113 | |
+| Prepaid expenses and other assets | 1,372 | | | 509 | |
+| Deferred income taxes | 126 | | | — | |
+| Total assets | $ | 111,127 | | $ | 16,211 |
+| Liabilities and Stockholders' Equity | | | | | |
+| Accounts payable | $ | 4,695 | | $ | 1,303 |
+| Accrued expenses: | | | | | |
+| Due to related parties | 16,736 | | | — | |
+| Due to non-related parties | 5,894 | | | 4,175 | |
+| Payable to broker-dealers | 1,259 | | | 5,007 | |
+| Deferred revenue (related party) | 2,567 | | | — | |
+| Dividends payable | 450 | | | — | |
+|","Year Ended December 31, 2013 | F- 6 | | Consolidated Statements of Cash Flows for the Years Ended December 31, 2013, 2012 and 2011 | F- 7 | | Notes to Consolidated Financial Statements | F- 8 |  F- 1  ---  REPORT OF INDE | Consolidated Statements of Cash Flows for the Years Ended December 31, 2013, 2012 and 2011 | F- 7 | | Notes to Consolidated Financial Statements | F- 8 |  F- 1  ---  REPORT OF INDEPENDENT REGISTERED PUBLIC ACCOUNTING FIR | Years Ended December 31, 2013, 2012 and 2011 | F- 7 | | Notes to Consolidated Financial Statements | F- 8 |  F- 1  ---  REPORT OF INDEPENDENT REGISTERED PUBLIC ACCOUNTING FIRM  To the Board of Directors and Stockholders  | Dollars in thousands, except shares presented at par value)  | | December 31, 2013 | | | December 31, 2012 | | | --- | --- | --- | --- | --- | --- | | Assets | | | | | | | Cash and cash equivalents | $ | 45,744 | | $ | 1","Currency, sign, reporting period and displayed consolidated/attributable row checked; no original XBRL certification.",AI_assisted_SEC_clean_text_review_not_human_manual_audit,prior_frozen_display_verification; mechanism passages re-read round2; not originalXBRL certification
+E02,purposive_extreme,outside_test|event=0|changed=1,,,,,1.0,0001568832,RCS Capital Corp,assets,Assets,,2013-12-31,USD,B,0001568832-15-000014,336525000.0,336525000.0,1000,display_consistent,unknown_not_context_certified,https://www.sec.gov/Archives/edgar/data/1568832/000156883215000014/rcap-20141231x10ka.htm,<archived-record-root>/...,6a41c8b4ad26136bba846fc17340f357a57cedfcd4e90bbe71a74be30ba24f88,<working-tree-root>/...,400515,"7,808 | | | — | | |
+| Intangible assets (net of accumulated amortization of $68,106 and $1,892, respectively) | 1,243,525 | | | 83,005 | | |
+| Goodwill | 519,361 | | | 79,986 | | |
+| Total assets | $ | 2,466,628 | | $ | 336,525 | |
+| Liabilities, Mezzanine Equity and Stockholders’ Equity | | | | | | |
+| Payable to customers | $ | 13,832 | | $ | — | |
+| Payable to broker-dealers | 1,240 | | | 1,259 | | |
+| Commissions payable | 100,816 | | | 17,440 | | |
+| Accrued expenses and accounts payable: | | | | | | |
+| Due to related parties | 2,479 | | | 5,894 | | |
+| Due to non-related parties | 93,898 | | | 31,602 | | |","year ended December 31, 2014. The most significant of these acquisitions, representing approximately 15% of consolidated total assets and 41% of consolidated total revenues was Cetera.  /s/ PricewaterhouseCoopers LLP  Ne | year ended December 31, 2013, and the related consolidated statements of income, comprehensive income, and cash flows for each of the two years in the period ended December 31, 2013, prior to their restatement for the 20 | year ended December 31, 2013, after restatement for the acquisition of First Allied; in our opinion, such consolidated statements have been properly combined on the basis described in Note 2 of the notes to consolidated  | consolidated statements of operations, changes in stockholder’s equity and cash flows for the period from September 25, 2013 to December 31, 2013. These financial statements are the responsibility of the Company’s manage","Currency, sign, reporting period and displayed consolidated/attributable row checked; no original XBRL certification.",AI_assisted_SEC_clean_text_review_not_human_manual_audit,prior_frozen_display_verification; mechanism passages re-read round2; not originalXBRL certification
+E02,purposive_extreme,outside_test|event=0|changed=1,,,,,1.0,0001568832,RCS Capital Corp,equity,StockholdersEquity,,2013-12-31,USD,A,0001445305-14-000765,44856000.0,44856000.0,1000,display_consistent,unknown_not_context_certified,https://www.sec.gov/Archives/edgar/data/1568832/000144530514000765/rcap-20131231x10k.htm,<archived-record-root>/...,8c31462e75b9bae513b8957457e66900b51e8a2b98df1a9a2b4311060973f39c,<working-tree-root>/...,336001,"|
+| Additional paid-in capital | 43,376 | | | — | |
+| Accumulated other comprehensive loss | (46 | | ) | — | |
+| Retained earnings | 1,499 | | | — | |
+| Member's equity | — | | | 5,726 | |
+| Total stockholders' equity | 44,856 | | | 5,726 | |
+| Non-controlling interest | 34,670 | | | — | |
+| Total liabilities and equity | $ | 111,127 | | $ | 16,211 |
+
+See Notes to Consolidated Financial Statements.
+
+F- 3
+
+---
+
+RCS CAPITAL CORPORATION AND SUBSIDIARIES
+
+Consolidated Statements of Income
+
+(Dollars in thousands, except share and per share data)
+
+| | Year Ended December 31, | | | | | | | | |
+| --- | --- | --- | --- | ","Year Ended December 31, 2013 | F- 6 | | Consolidated Statements of Cash Flows for the Years Ended December 31, 2013, 2012 and 2011 | F- 7 | | Notes to Consolidated Financial Statements | F- 8 |  F- 1  ---  REPORT OF INDE | Consolidated Statements of Cash Flows for the Years Ended December 31, 2013, 2012 and 2011 | F- 7 | | Notes to Consolidated Financial Statements | F- 8 |  F- 1  ---  REPORT OF INDEPENDENT REGISTERED PUBLIC ACCOUNTING FIR | Years Ended December 31, 2013, 2012 and 2011 | F- 7 | | Notes to Consolidated Financial Statements | F- 8 |  F- 1  ---  REPORT OF INDEPENDENT REGISTERED PUBLIC ACCOUNTING FIRM  To the Board of Directors and Stockholders  | Dollars in thousands, except shares presented at par value)  | | December 31, 2013 | | | December 31, 2012 | | | --- | --- | --- | --- | --- | --- | | Assets | | | | | | | Cash and cash equivalents | $ | 45,744 | | $ | 1","Currency, sign, reporting period and displayed consolidated/attributable row checked; no original XBRL certification.",AI_assisted_SEC_clean_text_review_not_human_manual_audit,prior_frozen_display_verification; mechanism passages re-read round2; not originalXBRL certification
+E02,purposive_extreme,outside_test|event=0|changed=1,,,,,1.0,0001568832,RCS Capital Corp,equity,StockholdersEquity,,2013-12-31,USD,B,0001568832-15-000014,181684000.0,181684000.0,1000,display_consistent,unknown_not_context_certified,https://www.sec.gov/Archives/edgar/data/1568832/000156883215000014/rcap-20141231x10ka.htm,<archived-record-root>/...,6a41c8b4ad26136bba846fc17340f357a57cedfcd4e90bbe71a74be30ba24f88,<working-tree-root>/...,402779," Additional paid-in capital | 723,113 | | | 180,528 | | |
+| Accumulated other comprehensive loss | (120 | | ) | (46 | | ) |
+| Retained earnings | (179,804 | | ) | 1,164 | | |
+| Total stockholders’ equity | 543,260 | | | 181,684 | | |
+| Non-controlling interests | 34,041 | | | 34,670 | | |
+| Total liabilities, mezzanine and equity | $ | 2,466,628 | | $ | 336,525 | |
+
+| | Year Ended December 31, | | | | | | | | |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| | 2014 | | | 2013 | | | 2012 | | |
+| Revenues: | | | | | | | | | |
+| Selling commissions: | | | | | | | | | |
+| Related party products | $ | ","consolidated statements of operations, changes in stockholder’s equity and cash flows for the period from September 25, 2013 to December 31, 2013. These financial statements are the responsibility of the Company’s manage","Currency, sign, reporting period and displayed consolidated/attributable row checked; no original XBRL certification.",AI_assisted_SEC_clean_text_review_not_human_manual_audit,prior_frozen_display_verification; mechanism passages re-read round2; not originalXBRL certification

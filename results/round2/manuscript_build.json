@@ -1,0 +1,12 @@
+{
+  "output": "D:\\MLWork\\scie_small_sample_topics_20260920\\finance_reframe_20260921\\revision_20260922_round2\\manuscript\\Financial_Data_Version_Evaluation.docx",
+  "paragraphs": 153,
+  "tables": 6,
+  "inline_shapes": 4,
+  "native_equations": 25,
+  "word_count_markdown": 6829,
+  "visual_qa": "PASS_ALL_RENDERED_PAGES_INSPECTED",
+  "pdf_pages": 18,
+  "final_pdf_sha256": "3210b32b919d4ce09ad781d6247db18ccf3ce194a5357b993616e50a9a96dd1e",
+  "final_docx_sha256": "037b3762eb3d404735719ff10a520c88edf9da03bd6374b02dfc9afc96995e98"
+}

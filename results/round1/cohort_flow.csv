@@ -1,0 +1,7 @@
+stage,rows,ciks,positive_windows
+selected CIKs with parsed annual filings and accessible facts,9789,1203,233
+decision date 2010–2021,8398,1203,209
+CIK/accession/date exists in historical annual frame,8398,1203,209
+strictly before first directly linked registry event,7426,1120,209
+original-accession positive assets,5502,990,188
+nonnegative reporting lag,5502,990,188

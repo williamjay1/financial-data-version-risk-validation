@@ -1,0 +1,571 @@
+{
+  "sources": {
+    "datasets/model_cohort.parquet": "724122d3ca7a0a123de244112aa604d6da7a008497cc6ce526f8f07327916e21",
+    "revision_20260922_round2/results/development_controls/split_audit.json": "bef976953d4d0ed0d9bf8085587cbed95f70223d8778db624b38aeb9ce2a9ce7",
+    "revision_20260922/results/models/metrics.csv": "94dd77b426c6b6d0f469873659741cc8127c4acc741f21571d981fb4062f02d2",
+    "revision_20260922_round2/results/development_controls/metrics.csv": "1e06696449c7f6fc6dc23bb36eac38a15a2bfad1e785175f1246f6a94809303d",
+    "revision_20260922_round2/results/evaluation_diagnostics/four_cell_decomposition_unrounded.csv": "40d682811a9b1413bc02d28859a4989707ed3c517da2116c24cf1319239636ed",
+    "results/models_20260921T093517075175Z_metrics.csv": "6e0776bf96981159a5d20fd5059051cf478d891722e559860764d9747f7c1a54",
+    "results/models_20260921T093517075175Z_tuning.jsonl": "b2714d8e38fa007c85bcd06e624fb8d03765e4575c7ef9c1f9e8d153e2a74595",
+    "revision_20260922_round2/results/development_controls/identical_input_audit.json": "c4cd9f01cb14592b6f98bb4e9ff4124e2ba6df8099fd7ad179477834ce06d33f",
+    "revision_20260922_round2/results/development_controls/algorithm_seed_summary.csv": "3fb91124be31f4282bdb3433cd59dd0153bdc134038990e4decf5720bf2b7d3d",
+    "revision_20260922_round2/results/development_controls/algorithm_seed_settings.json": "269f7b2691d2aac93eeabe621269f77503a419604f296e6618c8edff12701f7a",
+    "revision_20260922/results/models/transition_records.csv": "371948e3a214931af137053a227fccd5bfc53503be14a567b4ceee88569e833f",
+    "revision_20260922_round2/results/development_controls/matched_deletion_comparison.csv": "d7eefeb1bd7d1aa0b3a5089e4c84793786d8c7e0af47f8f0367b4bf673ae3abf",
+    "revision_20260922_round2/results/development_controls/matched_deleted_weight_mass.csv": "8445f51c22c3161f6476577664cb89600dc3f827e8099ab70f30e03d0d54e683",
+    "revision_20260922_round2/results/development_controls/matched_selected_records.csv": "39718c626ea5e5c72b7ece33454f5269d5b4c3f1c1c4d539aba0d1a1547a1837",
+    "revision_20260922_round2/results/fit_date/fit_date_comparisons.csv": "64bfc86d049299740fad9515de64b00f6460430c3cd878eb385c0016a0e7968b",
+    "revision_20260922_round2/results/development_controls/CPI_domain_metrics.csv": "ea1b801b2f225f5201122f9905b6f4fc62fa2b2a01829eba73e7ce9e32f356d2",
+    "revision_20260922_round2/results/evaluation_diagnostics/independent_conditional_1000_summary.csv": "0b4b1703e9d20594cb5744665932ec7677e4a090006b65e67f11da5f6ff8603f",
+    "revision_20260922_round2/results/evaluation_diagnostics/perturbation_modes_distribution_summary.csv": "09f805f2f1c8dc7b3e2e53b4cec0d7f0c74aad736fe3545b081baa179e67254c",
+    "revision_20260922/results/uncertainty/event_cluster_leave_one_out_summary.csv": "f53c8d125954ba8f891e98fc646f70f7b8c11c8345707c5e4d95d902a2679aaf",
+    "revision_20260922/results/uncertainty/score_rank_group_summary.csv": "191ee0b577c736c697c867879b075804369fc09b033a0f329de63e6452ac8651",
+    "revision_20260922/results/cap_models/90/metrics.csv": "c6291dd8675264acdfcdba6183293e4f413e84f74e1326fddd173ab18cd1c47b",
+    "revision_20260922/results/cap_models/365/metrics.csv": "c58cb4f15b48c0c6e5aa50f81e15351446ee9a511cc4d5749cd03449c061a832",
+    "revision_20260922/results/cap_models/730/metrics.csv": "44b7145549d3f6395a46d93b63ad1e02a0e64b8a4b2be355abf8de33b72a65e8",
+    "revision_20260922_round2/results/evaluation_diagnostics/adjacent_horizon_summary.csv": "9224f9386f6de2998bad0718e7adf3d443f88e1d500bdc106458f3ad7c2d518e",
+    "revision_20260922_round2/results/evaluation_diagnostics/version_exposure_summary.csv": "1d38e09aa48c675c2bb97a19d0086fd65395d0dc7910ec953a6b56bba6b4f4cf",
+    "revision_20260922_round2/results/evaluation_diagnostics/continuity_cache_audit.json": "0ec9339ac7942e90fc2c605cab90f122850b7400d8fb6f01ca9d5d3e96b68a6b",
+    "revision_20260922_round2/results/evaluation_diagnostics/raw_component_magnitude_summary.csv": "e0f9991597bff231ba1631b2751f98bfb43f9225f5fd89731469d3b4ee53e95e",
+    "revision_20260922_round2/results/evaluation_diagnostics/raw_component_sign_categories.csv": "2eb82c5fce2ec9b34d23ac2d819667115623b3432af5cfbaafc2e63c4015afa8",
+    "revision_20260922_round2/results/scale_only/metrics.csv": "6cc4f37176f626fb655f7e77cc403be5bb44da55f64897e5b1412dda975abb89",
+    "revision_20260922/results/corrected_models_v2/metrics.csv": "cc281f9bcd4041302d664720725eb76517795286c2a7530718fbc2e2be9643ad",
+    "revision_20260922_round2/results/source_semantics/source_keys_to_components_features_stages.csv": "28ce1d9423cab6c64199007acdb4aea973560e1e428c5057cdd191f86522f36c",
+    "revision_20260922/results/uncertainty/candidate_pair_selection_summary.csv": "ab5e8f4dd4332c139aae1e0a1d1e931a6a2c957ad0b114f95806dace961b9d2c",
+    "results/sampling_frame_summary.json": "35d2b29478a2bbedb36f88fc5d1ebc84d7fece10ed623e55ba0c85a8dcb2851b",
+    "results/universe_summary.json": "32ec833a6694a901995c11f1e4912a63c43606831aa7c9278687d6f402fc1896",
+    "results/cohort_summary.json": "355902af2d8ea15bd055d1c7e3486f7b6f20584ec406a9d4a07c7f07933e7c42",
+    "revision_20260922_round2/results/fit_date/fit_date_coverage.csv": "f89b69a925db15b45d636499ce63c17181ab8a099ee01715b301845fabc1ea7b",
+    "revision_20260922_round2/results/evaluation_diagnostics/training_B_source_timing_summary.csv": "0cc721e1ce0c959b4e1ffb626903d7fb0278c7b85963346139f563d478911e66",
+    "revision_20260922_round2/results/development_controls/matched_deletion_plan.json": "a4dc6403d133cfefaa2b89aa7a32b1228d1c23dfcad8c203f0f7f17099102658",
+    "revision_20260922_round2/results/scale_only/changed_features.csv": "7c54bfb346d8bcc6019f57be979a1497f64a615db252eda7697a7b7d896208cd",
+    "revision_20260922_round2/results/source_semantics/scale22_prediction_effect_summary.csv": "268c427372876a944257aa358dff004e7c870029f7ccfb31533a91fbdb7186af",
+    "scripts/build_vintage_panel.py": "a913fb08b3b432032c1f6400e4d65a91c97d8701ebece0131f1629328f5ec6e6",
+    "scripts/run_vintage_models.py": "b302cf8a561cd8c0ea6fe099ee7981e61083c5a4a0f80dced8f9654ea02a1125",
+    "scripts/uncertainty_vintage.py": "3cf54d8a511b1aff6755895be0918541678847e096fd189defd6880fb65c3a26",
+    "revision_20260922/scripts/revision_models.py": "5b7f7b6ce743cf99b6ccbd35a2fd9c1a287ed08c8f637981a2d374f2f8b84ed5",
+    "revision_20260922/scripts/revision_uncertainty.py": "99ad004894e4e3c683dd01996494b713f7a4cbb7d2386339d1c77cb1713b5ef9",
+    "revision_20260922_round2/scripts/evaluation_diagnostics.py": "86309792bbe6b4c9ffe5f5c40f76517d4e3aef19ef3c4b2a28a405d119a075e4",
+    "revision_20260922_round2/literature/manuscript_source_notes.md": "c8995f85bf1f99e9aca45e0a8091af566c98fa5146415de418b5a770b1313bf7"
+  },
+  "tables": [
+    {
+      "table": "S1",
+      "key": "annual",
+      "title": "Annual eligible observations.",
+      "sources": [
+        "datasets/model_cohort.parquet"
+      ],
+      "operation": "Group frozen cohort by origin calendar year; sum design weights and direct-CIK labels.",
+      "rows": 12,
+      "display_columns": [
+        "Year",
+        "N",
+        "CIKs",
+        "Clusters",
+        "Weighted N",
+        "+ windows",
+        "Event CIKs"
+      ],
+      "machine_table": "S1_annual.csv"
+    },
+    {
+      "table": "S2",
+      "key": "splits",
+      "title": "Temporal development denominators.",
+      "sources": [
+        "revision_20260922_round2/results/development_controls/split_audit.json"
+      ],
+      "operation": "Select identical_input_tuned stage audit, one row per block/stage.",
+      "rows": 12,
+      "display_columns": [
+        "Block",
+        "Stage",
+        "N",
+        "+",
+        "CIKs",
+        "Clusters",
+        "Weighted N"
+      ],
+      "machine_table": "S2_splits.csv"
+    },
+    {
+      "table": "S3",
+      "key": "four_cell",
+      "title": "Complete tuned AP comparison.",
+      "sources": [
+        "revision_20260922_round2/results/evaluation_diagnostics/four_cell_decomposition_unrounded.csv"
+      ],
+      "operation": "Select AP; display exact independently recomputed four cells and contrasts.",
+      "rows": 6,
+      "display_columns": [
+        "Block",
+        "Learner",
+        "AA",
+        "AB",
+        "BA",
+        "BB",
+        "I",
+        "F",
+        "J",
+        "Total"
+      ],
+      "machine_table": "S3_four_cell.csv"
+    },
+    {
+      "table": "S4",
+      "key": "main_metrics",
+      "title": "Original tuned probability and screening results.",
+      "sources": [
+        "results/models_20260921T093517075175Z_metrics.csv"
+      ],
+      "operation": "All original metrics, including constant reference; no filtering on outcome or performance.",
+      "rows": 15,
+      "display_columns": [
+        "Block",
+        "Learner",
+        "Arm",
+        "AP (%)",
+        "ROC",
+        "Brier",
+        "Recall 5% (%)"
+      ],
+      "machine_table": "S4_main_metrics.csv"
+    },
+    {
+      "table": "S5",
+      "key": "calibration",
+      "title": "Held-out calibration diagnostics.",
+      "sources": [
+        "results/models_20260921T093517075175Z_metrics.csv"
+      ],
+      "operation": "Use original held-out calibration estimates; retain constant-model missing estimates.",
+      "rows": 15,
+      "display_columns": [
+        "Block",
+        "Learner",
+        "Arm",
+        "CIL",
+        "Joint intercept",
+        "Joint slope"
+      ],
+      "machine_table": "S5_calibration.csv"
+    },
+    {
+      "table": "S6",
+      "key": "validation_grid",
+      "title": "All original validation candidates.",
+      "sources": [
+        "results/models_20260921T093517075175Z_tuning.jsonl"
+      ],
+      "operation": "Join A/B tuning records by block, learner, candidate and parameters. Absolute validation AP/Brier.",
+      "rows": 24,
+      "display_columns": [
+        "Block",
+        "Learner",
+        "Candidate",
+        "A AP (%)",
+        "B AP (%)",
+        "A Brier",
+        "B Brier"
+      ],
+      "machine_table": "S6_validation_grid.csv"
+    },
+    {
+      "table": "S7",
+      "key": "fixed_grid",
+      "title": "Four common LightGBM configurations.",
+      "sources": [
+        "revision_20260922_round2/results/development_controls/metrics.csv"
+      ],
+      "operation": "Select all grid_fixed_LGBM experiments and join AA/BB.",
+      "rows": 12,
+      "display_columns": [
+        "Block",
+        "Leaves / min N",
+        "AA AP (%)",
+        "BB AP (%)",
+        "ΔAP (pp)",
+        "AA Brier",
+        "BB Brier"
+      ],
+      "machine_table": "S7_fixed_grid.csv"
+    },
+    {
+      "table": "S8",
+      "key": "alternative_learners",
+      "title": "Other development procedures and learners.",
+      "sources": [
+        "revision_20260922/results/models/metrics.csv"
+      ],
+      "operation": "All AA/BB for fixed_full, rolling_three_year and fixed_spline_rf; no best-result selection.",
+      "rows": 16,
+      "display_columns": [
+        "Block",
+        "Learner",
+        "Procedure",
+        "AA AP (%)",
+        "BB AP (%)",
+        "ΔAP (pp)",
+        "AA Brier",
+        "BB Brier"
+      ],
+      "machine_table": "S8_alternative_learners.csv"
+    },
+    {
+      "table": "S9",
+      "key": "identical",
+      "title": "Identical-input controls.",
+      "sources": [
+        "revision_20260922_round2/results/development_controls/identical_input_audit.json"
+      ],
+      "operation": "All six block/learner checks.",
+      "rows": 6,
+      "display_columns": [
+        "Block",
+        "Learner",
+        "Preprocess equal",
+        "Grid equal",
+        "Selection equal",
+        "Max score difference"
+      ],
+      "machine_table": "S9_identical.csv"
+    },
+    {
+      "table": "S10",
+      "key": "seeds",
+      "title": "Prespecified seed checks on A.",
+      "sources": [
+        "revision_20260922_round2/results/development_controls/algorithm_seed_summary.csv",
+        "revision_20260922_round2/results/development_controls/algorithm_seed_settings.json"
+      ],
+      "operation": "All seed summaries; no distributional inference from five seeds.",
+      "rows": 6,
+      "display_columns": [
+        "Block",
+        "Learner",
+        "AP min (%)",
+        "AP max (%)",
+        "Brier min",
+        "Brier max",
+        "Max score span"
+      ],
+      "machine_table": "S10_seeds.csv"
+    },
+    {
+      "table": "S11",
+      "key": "transition_records",
+      "title": "Every transition-report landmark.",
+      "sources": [
+        "revision_20260922/results/models/transition_records.csv"
+      ],
+      "operation": "Collapse three stage rows per landmark; retain every transition landmark.",
+      "rows": 12,
+      "display_columns": [
+        "CIK",
+        "Origin",
+        "+",
+        "Missing",
+        "Changed",
+        "Stages"
+      ],
+      "machine_table": "S11_transition_records.csv"
+    },
+    {
+      "table": "S12",
+      "key": "transition_stage",
+      "title": "Development and evaluation transition exclusions.",
+      "sources": [
+        "revision_20260922/results/models/metrics.csv"
+      ],
+      "operation": "All four transition-stage experiments, both learners, all blocks.",
+      "rows": 24,
+      "display_columns": [
+        "Block",
+        "Learner",
+        "Deletion",
+        "AA AP (%)",
+        "BB AP (%)",
+        "ΔAP (pp)",
+        "AA Brier",
+        "BB Brier"
+      ],
+      "machine_table": "S12_transition_stage.csv"
+    },
+    {
+      "table": "S13",
+      "key": "matched_deletions",
+      "title": "All transition-group and ordinary-deletion summaries.",
+      "sources": [
+        "revision_20260922_round2/results/development_controls/matched_deletion_comparison.csv",
+        "revision_20260922_round2/results/development_controls/matched_deleted_weight_mass.csv",
+        "revision_20260922_round2/results/development_controls/matched_selected_records.csv"
+      ],
+      "operation": "All 18 group/block/learner summaries; preserve empty inactive comparisons.",
+      "rows": 18,
+      "display_columns": [
+        "Block",
+        "Learner",
+        "Group",
+        "AA (%)",
+        "BB (%)",
+        "Effect (pp)",
+        "Matched median [min, max] (pp)",
+        "At least as large (%)"
+      ],
+      "machine_table": "S13_matched_deletions.csv"
+    },
+    {
+      "table": "S14",
+      "key": "fit_date",
+      "title": "Filing-date restricted training, scored on A.",
+      "sources": [
+        "revision_20260922_round2/results/fit_date/fit_date_comparisons.csv"
+      ],
+      "operation": "Join AP and Brier rows for three fits; no test-set domain change.",
+      "rows": 6,
+      "display_columns": [
+        "Block",
+        "Learner",
+        "A fit AP (%)",
+        "A fit Brier",
+        "As-of fit AP (%)",
+        "As-of fit Brier",
+        "Latest fit AP (%)",
+        "Latest fit Brier"
+      ],
+      "machine_table": "S14_fit_date.csv"
+    },
+    {
+      "table": "S15",
+      "key": "CPI_domains",
+      "title": "Development and evaluation size domains.",
+      "sources": [
+        "revision_20260922_round2/results/development_controls/CPI_domain_metrics.csv"
+      ],
+      "operation": "Join AA/BB in all three domain combinations, both learners and all blocks.",
+      "rows": 18,
+      "display_columns": [
+        "Block",
+        "Learner",
+        "Train / test",
+        "AA AP (%)",
+        "BB AP (%)",
+        "ΔAP (pp)",
+        "AA Brier",
+        "BB Brier"
+      ],
+      "machine_table": "S15_CPI_domains.csv"
+    },
+    {
+      "table": "S16",
+      "key": "conditional_intervals",
+      "title": "Original conditional 95% intervals.",
+      "sources": [
+        "revision_20260922_round2/results/evaluation_diagnostics/independent_conditional_1000_summary.csv"
+      ],
+      "operation": "Independent recomputation of original conditional draws; display all four metrics.",
+      "rows": 24,
+      "display_columns": [
+        "Block",
+        "Learner",
+        "ΔAP (pp)",
+        "ΔBrier",
+        "ΔROC",
+        "ΔRecall (pp)"
+      ],
+      "machine_table": "S16_conditional_intervals.csv"
+    },
+    {
+      "table": "S17",
+      "key": "AP_modes",
+      "title": "AP distributions under three perturbation modes.",
+      "sources": [
+        "revision_20260922_round2/results/evaluation_diagnostics/perturbation_modes_distribution_summary.csv"
+      ],
+      "operation": "Select metric; retain AA, BB and delta for all three modes, both learners and all blocks.",
+      "rows": 54,
+      "display_columns": [
+        "Block",
+        "Learner",
+        "Mode",
+        "AA",
+        "BB",
+        "Δ",
+        "Δ > 0 (%)"
+      ],
+      "machine_table": "S17_AP_modes.csv"
+    },
+    {
+      "table": "S18",
+      "key": "Brier_modes",
+      "title": "Brier distributions under three perturbation modes.",
+      "sources": [
+        "revision_20260922_round2/results/evaluation_diagnostics/perturbation_modes_distribution_summary.csv"
+      ],
+      "operation": "Select metric; retain AA, BB and delta for all three modes, both learners and all blocks.",
+      "rows": 54,
+      "display_columns": [
+        "Block",
+        "Learner",
+        "Mode",
+        "AA",
+        "BB",
+        "Δ",
+        "Δ > 0 (%)"
+      ],
+      "machine_table": "S18_Brier_modes.csv"
+    },
+    {
+      "table": "S19",
+      "key": "event_influence",
+      "title": "Positive-associated cluster deletion under fixed predictions.",
+      "sources": [
+        "revision_20260922/results/uncertainty/event_cluster_leave_one_out_summary.csv"
+      ],
+      "operation": "Select main refit-vintage prediction comparison; AP and recall for every block/learner.",
+      "rows": 12,
+      "display_columns": [
+        "Block",
+        "Learner",
+        "Metric",
+        "Clusters",
+        "Original Δ (pp)",
+        "Minimum Δ (pp)",
+        "Maximum Δ (pp)",
+        "Sign changes"
+      ],
+      "machine_table": "S19_event_influence.csv"
+    },
+    {
+      "table": "S20",
+      "key": "score_propagation",
+      "title": "Score and rank propagation by input change.",
+      "sources": [
+        "revision_20260922/results/uncertainty/score_rank_group_summary.csv"
+      ],
+      "operation": "Select both comparisons and both input groups, pooled recorded outcomes; every block/learner.",
+      "rows": 24,
+      "display_columns": [
+        "Block",
+        "Learner",
+        "Comparison",
+        "Inputs",
+        "N",
+        "Score changed (%)",
+        "Rank changed (%)",
+        "Mean abs Δp"
+      ],
+      "machine_table": "S20_score_propagation.csv"
+    },
+    {
+      "table": "S21",
+      "key": "cap_metrics",
+      "title": "Absolute finite-horizon version results.",
+      "sources": [
+        "revision_20260922/results/cap_models/90/metrics.csv",
+        "revision_20260922/results/cap_models/365/metrics.csv",
+        "revision_20260922/results/cap_models/730/metrics.csv"
+      ],
+      "operation": "AA/BB for every capped experiment, both learners, all blocks.",
+      "rows": 18,
+      "display_columns": [
+        "Block",
+        "Learner",
+        "Days",
+        "AA AP (%)",
+        "BB AP (%)",
+        "ΔAP (pp)",
+        "AA Brier",
+        "BB Brier"
+      ],
+      "machine_table": "S21_cap_metrics.csv"
+    },
+    {
+      "table": "S22",
+      "key": "cap_transitions",
+      "title": "Adjacent source-horizon changes.",
+      "sources": [
+        "revision_20260922_round2/results/evaluation_diagnostics/adjacent_horizon_summary.csv"
+      ],
+      "operation": "Full cohort, all outcomes; use declared numerical tolerance for raw changes.",
+      "rows": 3,
+      "display_columns": [
+        "Horizon",
+        "New bundle",
+        "Existing source switch",
+        "Raw changed N",
+        "Feature changed N",
+        "Same-source value changes"
+      ],
+      "machine_table": "S22_cap_transitions.csv"
+    },
+    {
+      "table": "S23",
+      "key": "exposure_covariates",
+      "title": "Exposure groups, original observability and subsequent filing.",
+      "sources": [
+        "revision_20260922_round2/results/evaluation_diagnostics/version_exposure_summary.csv",
+        "revision_20260922_round2/results/evaluation_diagnostics/continuity_cache_audit.json"
+      ],
+      "operation": "All full-cohort and test-block outcome/exposure cells, without selecting successful reporters for eligibility.",
+      "rows": 24,
+      "display_columns": [
+        "Domain",
+        "Y",
+        "Exposure",
+        "N",
+        "Within Y (%)",
+        "Missing raw mean",
+        "A assets median ($m)",
+        "Next annual (%)"
+      ],
+      "machine_table": "S23_exposure_covariates.csv"
+    },
+    {
+      "table": "S24",
+      "key": "magnitude",
+      "title": "Raw-component magnitude and sign diagnostics.",
+      "sources": [
+        "revision_20260922_round2/results/evaluation_diagnostics/raw_component_magnitude_summary.csv",
+        "revision_20260922_round2/results/evaluation_diagnostics/raw_component_sign_categories.csv"
+      ],
+      "operation": "Join same-sign changed fold, all changed-pair amplitude, and sign-flip counts by component.",
+      "rows": 11,
+      "display_columns": [
+        "Component",
+        "Same-sign changed N",
+        "Median fold",
+        "95th fold",
+        "Max fold",
+        "Sign flips",
+        "Bounded median",
+        "Bounded 95th"
+      ],
+      "machine_table": "S24_magnitude.csv"
+    },
+    {
+      "table": "S25",
+      "key": "source_sensitivity",
+      "title": "Source-adjustment evidence levels.",
+      "sources": [
+        "revision_20260922_round2/results/scale_only/metrics.csv",
+        "revision_20260922/results/corrected_models_v2/metrics.csv"
+      ],
+      "operation": "Retain all AA/BB tuned and fixed results for both evidence sets.",
+      "rows": 24,
+      "display_columns": [
+        "Block",
+        "Learner",
+        "Procedure",
+        "Adjustment",
+        "AA AP (%)",
+        "BB AP (%)",
+        "ΔAP (pp)",
+        "AA Brier",
+        "BB Brier"
+      ],
+      "machine_table": "S25_source_sensitivity.csv"
+    }
+  ]
+}

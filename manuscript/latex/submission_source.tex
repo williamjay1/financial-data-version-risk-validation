@@ -1,0 +1,455 @@
+\documentclass[10pt,a4paper,twocolumn]{article}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{newtxtext,newtxmath}
+\usepackage{booktabs}
+\usepackage{graphicx}
+\usepackage{amsmath}
+\usepackage[margin=20mm,columnsep=6mm]{geometry}
+\usepackage{caption}
+\captionsetup{font=small,labelfont=bf,justification=raggedright,singlelinecheck=false}
+\usepackage{enumitem}
+\usepackage{flafter}
+\usepackage{titlesec}
+\titlespacing*{\section}{0pt}{10pt}{4pt}
+\titlespacing*{\subsection}{0pt}{8pt}{3pt}
+\setlist[enumerate]{leftmargin=*,itemsep=1pt,topsep=2pt}
+\usepackage[colorlinks=false,hidelinks]{hyperref}
+\renewcommand{\arraystretch}{1.05}
+\setlength{\textfloatsep}{7pt plus 2pt minus 2pt}
+\setlength{\floatsep}{7pt plus 2pt minus 2pt}
+\setlength{\intextsep}{7pt plus 2pt minus 2pt}
+\setlength{\abovecaptionskip}{4pt}
+\setlength{\belowcaptionskip}{2pt}
+\setlength{\parskip}{1pt}
+\frenchspacing
+\title{\vspace{-12mm}\bfseries Financial data version risk in bankruptcy model validation: separating scoring, development and evaluation effects}
+\author{}
+\date{}
+\begin{document}
+\twocolumn[{\centering\bfseries\large Financial data version risk in bankruptcy model validation: separating scoring, development and evaluation effects\par}\vspace{5pt}]
+\begin{center}
+{\normalsize Junjie Zhang$^{1,2,*}$}\\[2pt]
+{\footnotesize $^1$Shanghai Academy of Global Governance and Area Studies, Shanghai International Studies University, Shanghai 201620, China\\[1pt]
+$^2$School of Economics and Finance, Shanghai International Studies University, Shanghai 201620, China\\[2pt]
+ORCID: 0009-0004-8821-4018\\[1pt]
+$^*$Corresponding author: junjiezhang2024@shisu.edu.cn}
+\end{center}\vspace{2pt}
+\renewcommand{\thefootnote}{\fnsymbol{footnote}}
+\footnotetext[3]{Corresponding author: junjiezhang2024@shisu.edu.cn}
+\renewcommand{\thefootnote}{\arabic{footnote}}
+\begin{center}\small\textit{Running head: Financial data version risk in model validation}\end{center}\vspace{4pt}
+\noindent\textbf{Abstract}\par\vspace{2pt}
+Financial risk models are validated on historical data whose values can change after their original disclosure, and a chronological train and test split does not specify which version of an input the development and the scoring exercise use. We develop a crossed version validation protocol that holds observation identities, outcome labels, design weights and initial missingness fixed while version selection varies separately at development and at scoring, so that substitution of scoring inputs, redevelopment of the fitted pipeline and selection of the evaluated population can be separated. Applied to 5,502 annual filing windows with 188 linked bankruptcy registry events, the protocol shows that favorable differences between independently redeveloped pipelines need not reflect improved scoring inputs: the direct substitution contrast was -2.78, +1.37 and +0.11 average precision points across three test blocks, against +4.95, +1.43 and +1.90 points for redevelopment. Changing the development domain while holding the evaluation sample fixed altered one contrast from +2.85 to -16.01 points. Financial data versioning is therefore a validation and governance risk, and validation reports should record the input version rule alongside the extraction date.
+\par\vspace{4pt}\noindent\textbf{Keywords:} Model validation; Model risk; Credit risk; Bankruptcy prediction; Data versioning; Backtesting\par
+\vspace{4pt}\noindent\textbf{Key messages}\par\vspace{2pt}
+\begin{itemize}[leftmargin=*,itemsep=1pt,topsep=2pt]
+\item Data versions are a validation design choice, not a data cleaning step.
+\item Rescoring and redevelopment can move a version contrast in opposite directions.
+\item A development domain change reversed one version contrast from +2.85 to -16.01.
+\item Reports should record the input version rule, not only the extraction date.
+\end{itemize}
+\vspace{6pt}\noindent\textbf{Table legends}\par\vspace{2pt}
+\noindent\textbf{Table 1.} Sequential formation of the financial analysis cohort.
+\noindent\textbf{Table 2.} Crossed version validation matrix and decomposition of the tuned LightGBM difference.
+\noindent\textbf{Table 3.} Separating the size restriction on development from its restriction on evaluation.
+\noindent\textbf{Table 4.} Later version exposure by test block and recorded outcome.
+\noindent\textbf{Table 5.} Fixed LightGBM trained under different disclosure time rules and scored exclusively on original accession inputs.
+\noindent\textbf{Table 6.} Tuned LightGBM under source supported and adjusted scenarios.
+\vspace{6pt}\noindent\textbf{Figure legends}\par\vspace{2pt}
+\noindent\textbf{Figure 1.} Information clocks and the crossed version validation design Version A is anchored to the original accession, version B may contain later disclosure, and the fit date control restricts development sources while retaining original inputs at scoring.
+\noindent\textbf{Figure 2.} Crossed version performance and decomposition of the tuned LightGBM difference Panel a reports average precision in the four evaluations, and panel b reports the reported difference together with the substitution contrast, the redevelopment contrast and the interaction.
+\noindent\textbf{Figure 3.} Development influence of selected observations against matched deletions Diamonds mark the change in the common fixed contrast after a transition deletion and gray points mark twenty matched ordinary deletions in the same block and group.
+\noindent\textbf{Figure 4.} Development and evaluation domains under a size restriction Bars report the common fixed contrast in average precision points, and the middle and right conditions in each block share an identical evaluation sample.
+\noindent\textbf{Figure 5.} Evidence level and model consequence of the source adjustments Panel a reports the number of source keys or checks at each evidence level and panel b reports the tuned contrast under the unadjusted, scale supported and combined scenarios.
+\section{Introduction}
+A financial predictor indexed by company and fiscal year can have several reported values. An original annual filing, an amendment and a later comparative statement may associate different amounts with the same accounting period. Some differences are corrections. Others reflect reporting scope, presentation, units or the path from a filing into a database. A historical machine learning dataset therefore contains a version selection rule in addition to its familiar rules for observations, features and outcomes, and a chronological train and test split does not specify that rule. (SEC 2026b)
+
+The consequences enter at stages that validation practice treats as separate. (Board of Governors 2011; European Central Bank 2019) Replacing a scoring input changes the score produced by an existing model for an observation whose label and features are otherwise untouched. Replacing development inputs can change preprocessing thresholds, candidate selection and fitted parameters, including predictions for observations whose own inputs remain unchanged. Restricting the comparison to firms with accessible later reports changes the evaluated population. When events are rare, a few development observations or one highly ranked event can move average precision substantially. A single difference between two fully redeveloped pipelines combines all three routes and cannot identify which one matters.
+
+We therefore treat version selection as a validation design problem and ask how a specified version rule changes evaluation while observations, labels, weights and initial missingness stay fixed. The design reported here separates the information available when a model is fitted from the information available when it is scored. A model fitted at a given date may legitimately use historical values that were revised before that date, even when those revisions follow the original prediction origin of a training observation. Scoring at a prediction origin requires values available at that origin. These are different boundaries, and collapsing them into one leakage rule misclassifies revisions that a historical development process could observe. (Kapoor and Narayanan 2023)
+
+The application is a bankruptcy risk model fitted to financial statement components that can be reconstructed from several accessions. Four evaluations cross two development versions with two scoring versions on identical observations. This yields an arithmetic identity for the reported difference: a substitution contrast, a redevelopment contrast and a residual interaction. The identity is an organizing device rather than a new statistical theorem, and its value lies in locating a difference in checklist entries that a validator can inspect.
+
+Three additions follow from that design. First, the crossed version protocol makes the source of a performance difference identifiable while holding the observation set, labels, weights and initial missingness fixed, and it locates the largest single contrast in the development domain rather than in the scored inputs. Second, the two information clocks separate fit time admissibility from scoring time availability, which keeps a legitimate historical revision out of the leakage category. Third, the empirical results show that the substitution contrast between two versions can have the opposite sign to the reported difference between two redeveloped pipelines, which means a favorable validation outcome may not indicate that later or alternative inputs are better for the deployed model.
+\section{Literature review}
+Accounting based failure prediction progressed from financial ratios and discriminant scores to probability models and machine learning. (Beaver 1966; Altman 1968; Ohlson 1980; Shumway 2001; Barboza et al. 2017) Financial reporting attributes and the availability of accounting information are established determinants of predictive usefulness, and textual disclosures and explicit treatment of missing values extend the available information. (Beaver et al. 2012; Correia 2025; Mai et al. 2019; Bargagli-Stoffi et al. 2024) Mattos and Shasha study low quality information among firms already in reorganization, which is a different target from a prospective registry event. (Mattos and Shasha 2024) This literature establishes that the meaning and accessibility of inputs matter. It does not settle which recorded value belongs in a reconstruction of a historical information set.
+
+Comparison of original and restated bankruptcy inputs also has a direct precedent. Hashemi and Jonsson compare the two versions using fixed accounting models for 52 enforcement firms in a master's thesis. (Hashemi and Jonsson 2017) Their study establishes the prior idea of paired financial input comparisons within an earnings manipulation and valuation analysis. It does not estimate the chronological observed event evaluation studied here. The contribution claimed below concerns the construction and interpretation of a reproducible validation protocol rather than priority in comparing original and restated amounts.
+
+Recent evaluation work emphasizes timing and selection. Zavitsanos and coauthors preserve rarity, chronology and delayed discovery in misstatement detection, and Yang and Zhu examine misstatement discovery lag. (Zavitsanos et al. 2021; Yang and Zhu 2026) Kozodoi and coauthors study selective credit labels using independently observed validation outcomes. (Kozodoi et al. 2025) Leakage can persist despite apparently sensible validation procedures. (Kapoor and Narayanan 2023) The bankruptcy application of Zhang and coauthors aligns prediction windows with filing dates and matches financial facts with accessions and report dates where available. (Zhang et al. 2026) Filing date alignment, accession matching and realistic label timing are existing foundations rather than innovations claimed here. Model risk guidance in credit risk also places data quality and documentation of inputs inside the validation obligation, although it does not specify how a version rule should be crossed with a development pipeline. (Board of Governors 2011; Basel Committee on Banking Supervision 2016; European Central Bank 2019)
+\section{Data}
+\subsection{2.1 Historical frame, sampling and registered outcome}
+
+The historical frame contains original Forms 10-K and 10-KT filed during 2010 to 2021: 93,677 company filing records, 90,338 accessions and 15,631 Central Index Keys, obtained from an archived SEC master index mirror. (kapilrao 2024) Counts agree with an independent index archive in all 48 year and form comparisons, and a convenience check of 1,780 official submissions records from 162 Central Index Keys agrees on accession, form and filing date. (Loughran and McDonald 2026; SEC 2026a) Selecting from historical filings avoids defining the sample through a current ticker list.
+
+Central Index Keys that share an original annual accession anywhere in the fixed frame form 14,929 connected cofiling clusters. They are sampling units built from observed filing relationships rather than reconstructed legal corporate groups. All 383 clusters that contain a directly linked registry case are selected with certainty. A simple random sample without replacement selects 1,000 of the other 14,546 clusters, and every Central Index Key in a selected cluster is retained, giving 1,518 identifiers of which 438 belong to the certainty stratum. Reciprocal inclusion weights are 1 and 14.546. (Horvitz and Thompson 1952)
+
+The outcome comes from a registry of large public company bankruptcy cases whose update series ends in December 2022. (Florida-UCLA-LoPucki Bankruptcy Research Database 2022) A positive outcome is the first directly linked event strictly after the prediction origin and within 365 days. The label is not propagated to other Central Index Keys in a cofiling cluster. A zero means that no directly linked registry event falls inside the window, and it is not independently confirmed survival against every bankruptcy definition.
+
+For each identifier and fiscal year end, the first original annual filing defines a landmark and the prediction origin is the following day. Origins must lie in 2010 to 2021, precede the first linked event, have nonnegative reporting delay, and carry positive original accession assets. $V_j$ denotes the observed component set of landmark $j$, and the eligible later source bundle is
+
+$\mathcal{C}_j=\bigcap_{k\in V_j}\mathcal{C}_{jk},$
+
+where $\mathcal{C}_{jk}$ contains later accessions that carry the same concept, currency unit and period boundaries for component $k$ with a unique matched value. The bundle that maximizes filing date is selected, with accession order breaking equal date ties.
+
+Table 1 records the sequential formation of the analysis sample. The positive asset gate removes 1,924 windows, including 21 positive windows, and that attrition combines unavailable or unusable original asset values, so it is not random missingness. The final cohort contains 5,502 landmarks, 990 Central Index Keys and 973 cofiling clusters with 188 positive windows belonging to 188 event linked identifiers.
+
+\begin{table}[tbp]
+\centering
+\small
+\caption{Table 1. Sequential formation of the financial analysis cohort.}
+\label{main-tab-1}
+\begin{tabular}{lrrr}
+\toprule
+Sequential eligibility stage & Windows & CIKs & Positive windows \\
+\midrule
+selected CIKs with parsed annual filings and accessible facts & 9,789 & 1,203 & 233 \\
+decision date 2010-2021 & 8,398 & 1,203 & 209 \\
+CIK/accession/date exists in historical annual frame & 8,398 & 1,203 & 209 \\
+strictly before first directly linked registry event & 7,426 & 1,120 & 209 \\
+original-accession positive assets & 5,502 & 990 & 188 \\
+nonnegative reporting lag & 5,502 & 990 & 188 \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+Note: Counts are unweighted. The first row is the parsed annual report candidate pool among selected identifiers with accessible facts, not the complete historical frame. Positive assets is the implemented eligibility gate. The 188 event linked identifiers are not necessarily independent legal corporate group cases.
+
+Request resolution for official submissions and company fact records covers 3,347 required requests, with 3,032 usable responses and 315 missing records. Standard tag coverage and source accessibility further restrict the observed domain. Sampling weights describe selection from the historical frame inside this accessible domain and do not correct missing source selection.
+
+\subsection{2.2 Two financial versions and outcome related exposure}
+
+Eleven raw US GAAP components in US dollars produce ten financial predictors: log assets; liabilities, equity, cash, net income, revenue, operating income, operating cash flow and retained earnings relative to assets; and working capital relative to assets. Reporting delay adds an eleventh numeric input. All eleven carry missingness indicators. A fixed concept hierarchy is applied before pairing, custom tag only values can remain missing, and a selected standard concept is never silently exchanged for a concept with a different scope.
+
+Version A is reconstructed from the company fact record associated with the original annual accession. The reporting end must equal the fiscal year end and the fact filed date cannot follow the original filing date. Flow components must cover 330 to 400 days and preserve the period start, so a short transition filing can supply balance sheet amounts while annual flows remain missing. Identical duplicate contexts are collapsed, and conflicting values or period starts are treated as ambiguous rather than resolved by record order.
+
+Version B uses the latest single later accession, filed by 21 September 2026, that contains a unique value for every component observed in A. Where no complete bundle exists, the entire vector remains A. Initially missing components remain missing and each arm uses its own assets denominator for ratios. This rule does not apply the same update to every firm: it combines the existence of later disclosure, complete matching and numerical change. We therefore report three exposure groups, namely no later bundle, a later bundle with unchanged raw values, and a later bundle with at least one change, and the results section reports their composition by test block and recorded outcome.
+
+Two boundary observations follow from that rule. Later version availability differs markedly by outcome, and it rises with the disclosure horizon in a way that is not proportional to the number of newly exposed observations. We report both, because a version rule that requires a later bundle conditions the evaluation on a reporting process that is related to the outcome. The filing continuity variable used to describe exposure groups is retrospective information and is not a deployable feature.
+
+\subsection{2.3 Evidence levels for source differences}
+
+Accession association alone does not establish that a difference is an accounting correction, and it does not authenticate a historical retrieval. Official documentation describes continuing updates and retrospective processing of related financial datasets. (SEC 2026a; SEC 2026b) We therefore distinguish three evidence levels: agreement with a displayed statement, authentication of the original extensible business reporting language context, and the current recorded value. Concept definitions, units, scale, period and accounting scope enter that distinction. Sign guidance from the securities regulator requires accounting semantics, so parentheses in a displayed table do not by themselves establish the sign appropriate to a tagged concept. (SEC 2017)
+
+Two additional checks support the interpretation. A stratified audit samples two landmarks from each of twelve strata defined by test block, outcome and change status, giving 24 landmarks whose assets and one prespecified secondary component are examined in both arms. Separate purposive checks examine scale differences, sign questions, changed transition observations and influential unchanged events, and they are reported as chosen cases rather than as a prevalence estimate. Source records retain accessible files or clean text captures, row and period locators, retrieval mode and unresolved fields.
+\section{Methodology}
+\subsection{3.1 Two information clocks and the crossed version protocol}
+
+A model fitted at time $T$ may legitimately use revisions disclosed before $T$ even when those revisions follow the original prediction origin of a training observation. A test observation scored at origin $o_i$ requires inputs available at that origin. The main comparison reported below is explicitly retrospective and an unrestricted later version can cross either boundary. A separate fit date reconstruction restricts historical training bundles to disclosures strictly before the start of each test block and scores every test observation with original accession inputs. It reconstructs disclosure timing rather than certifying historical retrieval availability. Figure 1 shows the two clocks and the crossed comparison.
+
+\par\vspace{4pt}\noindent{\small\textbf{Figure 1.} Validation design under two information clocks. Original accession facts anchor version A, and version B may contain later disclosure relative to both the original observation and the fitting date. The fit date control restricts training disclosures while retaining original accession inputs at scoring. Observation identities, outcome labels, design weights and initial missingness are held fixed in all four evaluations.}\par\vspace{4pt}
+
+\textbf{Algorithm 1. Crossed version validation.}
+
+\begin{enumerate}
+\item Freeze the historical sampling frame, outcome links, source cutoff, concept hierarchy, filing metadata and raw fact records. Record observation keys and provenance before modeling.
+\item Construct version A for each original filing under explicit concept, unit and period rules. Collapse identical duplicates, mark conflicting contexts missing, and exclude a landmark whose original assets fail the positive asset gate.
+\item Intersect later accession candidates across all observed A components. Select the latest eligible complete bundle, or retain A in full where none exists, and preserve the original missingness mask. For a fit date experiment, impose the disclosure date boundary before selecting the bundle.
+\item Form ratios and assert identical observation keys, labels, weights and missingness. A changed mask or an invalid denominator is a validation failure; do not silently drop one arm. Resolve a failure in the source layer before admitting a matched comparison.
+\item Enforce temporal maturity, fit preprocessing on development data only, and select or fix candidates under the stated design. Fit separate A and B pipelines on the same eligible observations.
+\item Score both test versions with each fitted pipeline. Export four prediction vectors, absolute metrics and contrasts, and retain unchanged pairs because a fitted pipeline change can still alter their scores.
+\item Run an equal input control through the complete pipeline, recompute metrics from saved predictions, vary development and evaluation conditions separately, and trace material numerical discrepancies to source records.
+\end{enumerate}
+
+Let $M_{uv}$ be a metric when the pipeline is developed on version $u$ and scores version $v$, for $u,v\in\{A,B\}$. The reported contrasts are
+
+$I=M_{AB}-M_{AA},\qquad F=M_{BA}-M_{AA},$
+
+$J=M_{BB}-M_{BA}-M_{AB}+M_{AA},\qquad M_{BB}-M_{AA}=I+F+J.$
+
+Here $I$ changes scoring inputs with the A pipeline fixed, $F$ changes the fitted pipeline while retaining A scoring inputs, and $J$ is the residual interaction on the chosen metric scale. Candidate selection and preprocessing belong to the pipeline. A different reference arm or metric changes the interpretation of the components, and the identity neither yields causal effects of accounting changes nor establishes that its components differ statistically.
+
+\subsection{3.2 Temporal development}
+
+The test blocks are 2016 to 2017, 2018 to 2019 and 2020 to 2021. For a block beginning in year $t$, single window validation uses year $t-3$. Preliminary training requires the 365 day outcome window plus a further 90 day maturity buffer to end before validation starts, and final refitting requires the same maturity before the test block starts. The buffer is an administrative assumption rather than a measured registry publication delay. The first block has only three positive preliminary training windows and seven positive validation windows, so candidate selection is fragile there, and final refit positives number 39, 95 and 124 against 51, 28 and 44 test positives.
+
+Training only weighted first and ninety ninth percentile clipping and weighted median imputation precede fitting, all missing training inputs receive zero with missingness indicators retained, and logistic regression additionally uses training weighted scaling. Fitting weights are normalized by their training mean while evaluation retains design weights, and no oversampling or class balancing is applied.
+
+The logistic grid is $C\in\{0.01,0.1,1,10\}$. (Ke et al. 2017) LightGBM uses 300 trees, a learning rate of 0.05, and the four combinations of 7 or 15 leaves with minimum leaf counts of 30 or 60. Weighted validation average precision selects a candidate and the original grid order resolves ties. The tuned A and B arms select independently. Common fixed controls use logistic $C=1$ and LightGBM with 7 leaves and a minimum leaf count of 30, and all four original LightGBM candidates are also fitted as common fixed configurations and reported without expanding the grid or choosing a new winner from test results. Rolling selection averages average precision equally across the prescribed mature validation years $t-5$ to $t-3$, all three years must contain both classes in training and validation, and an inestimable year makes the block unavailable rather than allowing test data to replace it. Fixed spline logistic regression and random forest supply different functional forms as diagnostics within this cohort.
+
+The equal input control independently reruns preliminary preprocessing, every original candidate, selection, final refitting and all four scoring cells with both arms set to A, which validates the implementation under identical inputs. A separate five seed exercise measures algorithmic randomness. Transition report deletions isolate the single unchanged positive, the two changed negatives and the remaining unchanged negatives, and only members already mature in a block development sample are deleted while original test rows remain intact. Twenty ordinary deletion sets per eligible group and block match origin year, outcome label and the three part development stage membership, without replacement inside a set. Negative matches do not hold the sampling stratum or the deleted weight mass fixed, so that comparison is descriptive rather than a strict equal weight randomization test.
+
+To separate domain effects, a prediction origin size proxy retains assets of at least 100 million 1980 US dollars using the consumer price index level two months before origin. (US Bureau of Labor Statistics 2026) This is not a full reconstruction of registry eligibility. Three conditions share the same fixed parameters: development and evaluation on the full sample, development on the full sample with a size restricted evaluation, and development and evaluation both size restricted. The second and third conditions evaluate identical observations, so their difference is attributable to the development domain.
+
+\subsection{3.3 Metrics, uncertainty and decomposition limits}
+
+Weighted average precision is the primary ranking metric because the target is rare. (Saito and Rehmsmeier 2015) Weighted ROC area, Brier score and retrospective recall at a five percent weighted screening capacity provide complementary information, and calibration intercepts and slopes describe held out probabilities without test set recalibration. (Gneiting and Raftery 2007; Van Calster et al. 2019) A constant reference predicts the mature refit sample's weighted prevalence. Raw changes exceed $10^{-12}\max(1,|A|,|B|)$, the bounded relative amplitude divides the absolute change by that same maximum without the tolerance factor, and $\log_{10}|B/A|$ is reported for changed same sign nonzero amounts so that large multiplicative differences are not compressed near one. Sign flips and transitions to or from zero are reported separately, and these descriptions identify numerical patterns while the reporting explanation still requires a source check.
+
+Conditional uncertainty holds fitted pipelines fixed and uses 1,000 paired design respecting resampling replicates for the sampled noncase clusters with the certainty stratum fixed. (Rao and Wu 1988; Rao et al. 1992) A separate set of 200 paired cluster weight perturbations reruns preprocessing, selection and fitting, and the same 200 draws are reused to separate development only, evaluation only and joint changes from saved predictions rather than additional fits. Those distributions share random draws and are not additive variance components. The fifth to ninety fifth percentile ranges are perturbation summaries rather than confidence intervals for performance in a future population, and event linked certainty clusters are examined separately by deletion.
+
+The original cohort, blocks and tuned comparisons preceded inspection of their test results. Four cell completion, source checks and the diagnostic controls were added after those results were known, and each added execution specification was recorded before its run without preregistration or an independent test sample. No new test selected model is promoted as a final predictor, and that sequence applies to every analysis reported below.
+\section{Results}
+\subsection{4.1 Redevelopment inflates the apparent version effect}
+
+All three test blocks favor version B on the tuned diagonal, but the four evaluations locate different routes, and the pattern reported in Table 2 and Figure 2 does not support reading the diagonal as an input quality comparison. A separate size domain experiment reported in Table 3 shows an even larger effect of the development sample.
+
+\begin{table*}[tbp]
+\centering
+\footnotesize
+\caption{Table 2. Crossed version validation matrix and decomposition of the tuned LightGBM difference.}
+\label{main-tab-1}
+\resizebox{\textwidth}{!}{
+\begin{tabular}{lrrrrrrrr}
+\toprule
+Test block & AA & AB & BA & BB & I & F & J & Total \\
+\midrule
+2016-2017 & 24.747 & 21.970 & 29.692 & 27.586 & -2.777 & 4.945 & 0.671 & 2.839 \\
+2018-2019 & 15.564 & 16.932 & 16.997 & 18.332 & 1.367 & 1.432 & -0.032 & 2.768 \\
+2020-2021 & 7.390 & 7.502 & 9.291 & 9.156 & 0.112 & 1.901 & -0.247 & 1.766 \\
+\bottomrule
+\end{tabular}
+}
+\end{table*}
+
+Note: AA, AB, BA and BB are average precision percentages. Columns I, F, J and Total are percentage point contrasts computed from unrounded saved predictions. In each label the first letter identifies the development version and the second identifies the scoring inputs. All cells within a block share test observations and weights, and rounding can prevent displayed entries from summing exactly.
+
+\par\vspace{4pt}\noindent{\small\textbf{Figure 2.} Crossed version performance and the decomposition of the tuned LightGBM difference. Panel a reports average precision in the four evaluations by test block. Panel b reports the reported difference together with the substitution contrast, the redevelopment contrast and the interaction, computed from unrounded saved predictions before display rounding. Blue marks the matched diagonal and orange marks the crossed evaluations.}\par\vspace{4pt}
+
+In 2016 to 2017 the A pipeline loses 2.777 average precision points when only scoring inputs change, while the redevelopment contrast on A inputs is +4.945 points and the interaction contributes +0.671. The positive total therefore does not describe improved scoring inputs for the original pipeline. In 2018 to 2019 the substitution and redevelopment contrasts are both positive, at approximately +1.367 and +1.432 points, and the interaction is small on this scale. In 2020 to 2021 direct substitution contributes only +0.112 points against +1.901 for redevelopment and -0.247 for the interaction. These are descriptive computational components rather than tests of differences among mechanisms.
+
+The first block also shows that the result is not an invariant parameter property. Every original common fixed LightGBM candidate gives a negative diagonal difference there, at -4.571, -3.894, -1.979 and -0.071 points, and the later two blocks have mixed signs across the same finite candidate set. The tuned result therefore combines version substitution with potentially different selected candidates. Reporting the fixed candidates exposes that specification sensitivity without treating the four configurations as independent replications.
+
+Probability performance sets a separate limit. Tuned LightGBM Brier scores worsen from A to B in every block, and both arms are worse than the constant reference in the last two blocks, where the constant score is 0.003847 against 0.007117 and 0.008345 for A and B. A ranking difference therefore does not establish probabilities ready for deployment. Absolute performance for the spline and random forest diagnostics, the calibration summaries and the four fixed candidate configurations are reported in the supplementary document, together with the conditional resampling intervals and the score and rank propagation checks.
+
+\subsection{4.2 Small development changes move the inference}
+
+Development influence and source verification limit what the contrasts can mean. Deleting the mature members of the remaining unchanged negative group in 2018 to 2019 shifts the common fixed contrast by +11.420 points, which exceeds every one of the twenty matched ordinary draws for that group, while the two changed negative transition records produce changes inside the range of ordinary matched deletions in all blocks. In the final block, removing the sole unchanged transition positive shifts the contrast from -1.235 to -3.085 points, and eleven of the twenty ordinary matched positive deletions produce an absolute change at least as large. Figure 3 shows the transition deletions against the matched ordinary draws. No mature target is available for the unchanged positive in the first two blocks.
+
+\par\vspace{4pt}\noindent{\small\textbf{Figure 3.} Development influence of selected observations against matched ordinary deletions. Diamonds mark the change in the common fixed LightGBM contrast after the indicated transition deletion, and gray points mark twenty prespecified ordinary matched deletions in the same block and group. Zero is the block baseline under full development, and all test observations remain intact. The comparison is descriptive, the draws do not equalize deleted design weight, and the point proportions are not p values.}\par\vspace{4pt}
+
+Evaluation side influence is of the same order. Deleting one event linked cluster reduces the final tuned contrast from +1.766 to -0.080 points, which removes the positive difference and slightly crosses zero. That record has unchanged inputs in both arms and moves from risk rank four to risk rank one when the fitted pipeline changes, so the movement is consistent with fitted model propagation and an influential rare event rather than with a source error in the scored record.
+
+\subsection{4.3 The development domain dominates the reported contrast}
+
+Repeating the comparison under the size restriction separates development from evaluation, and the size restriction dominates the result in the middle block. Restricting only the evaluation sample leaves the contrast almost unchanged at +2.852 points against +2.846 under full development and evaluation. Developing on the size domain and evaluating the same restricted test set gives -16.009 points, with A at 31.976 and B at 15.966 percent average precision. The middle and right conditions are evaluated on identical observations, so the large negative value is a development domain effect rather than a composition change in the test set. Table 3 reports absolute performance, sample counts and event prevalence, and Figure 4 shows the three conditions for every block.
+
+\begin{table*}[tbp]
+\centering
+\footnotesize
+\caption{Table 3. Separating the size restriction on development from its restriction on evaluation.}
+\label{main-tab-2}
+\resizebox{\textwidth}{!}{
+\begin{tabular}{lrrrrrr}
+\toprule
+Test block & Develop / Evaluate & N / positives & Event \% & AA \% & BB \% & Difference (pp) \\
+\midrule
+2016-2017 & Full / Full & 1063 / 51 & 0.420 & 24.747 & 20.176 & -4.571 \\
+2016-2017 & Full / Size & 668 / 51 & 0.777 & 24.795 & 20.231 & -4.563 \\
+2016-2017 & Size / Size & 668 / 51 & 0.777 & 32.217 & 31.917 & -0.300 \\
+2018-2019 & Full / Full & 946 / 28 & 0.244 & 23.312 & 26.157 & +2.846 \\
+2018-2019 & Full / Size & 592 / 28 & 0.435 & 23.316 & 26.169 & +2.852 \\
+2018-2019 & Size / Size & 592 / 28 & 0.435 & 31.976 & 15.966 & -16.009 \\
+2020-2021 & Full / Full & 845 / 44 & 0.386 & 11.861 & 10.626 & -1.235 \\
+2020-2021 & Full / Size & 499 / 44 & 0.690 & 11.885 & 10.664 & -1.221 \\
+2020-2021 & Size / Size & 499 / 44 & 0.690 & 9.687 & 7.013 & -2.673 \\
+\bottomrule
+\end{tabular}
+}
+\end{table*}
+
+Note: Common fixed LightGBM is used throughout. Size means the consumer price index adjusted prediction origin asset threshold of 100 million 1980 US dollars. N and positives give unweighted test windows and positive windows, and Event \% is the design weighted prevalence. Full development with a size restricted evaluation reuses the full development fitted pipelines, while the two size restricted conditions share the identical evaluation sample.
+
+\par\vspace{4pt}\noindent{\small\textbf{Figure 4.} Development domain and evaluation domain under a size restriction. Bars report the common fixed LightGBM contrast BB - AA in average precision percentage points. The middle and right conditions in each block share the identical evaluation sample, so their difference isolates the changed development sample. Size is a prediction origin asset threshold of 100 million 1980 US dollars, which is a proxy for registry eligibility rather than a reconstruction of it.}\par\vspace{4pt}
+
+The paired weight experiment distinguishes the same stages, as reported in the supplementary document. With frozen tuned pipelines and evaluation only perturbation, the LightGBM diagonal difference is positive in 98, 98 and 66 percent of the 200 draws. With development only perturbation the corresponding proportions are 48.5, 59.5 and 59.5 percent, and joint perturbation gives 50, 60 and 60 percent. Development only fifth to ninety fifth percentile ranges are -8.992 to +8.623, -11.858 to +16.057 and -7.085 to +7.972 average precision points, so the wide joint distribution accompanies substantial development sensitivity rather than being summarized by uncertainty in scoring a single fitted pair.
+
+\subsection{4.4 Exposure and disclosure timing}
+
+Later version availability is uneven across outcomes and horizons, which is why the version rule changes the evaluated population as well as the inputs. A later complete bundle exists for 80 of 188 positive windows against 4,048 of 5,314 other windows, an unweighted availability of 42.6 and 76.2 percent, and 73 of those 80 positive windows have a selected later source filed after the event, so the additional disclosure is largely contemporaneous with the outcome rather than predictive of it. Full cohort positive exposure counts are 108 without a bundle, 55 with unchanged later values and 25 with changed values, against 1,266, 2,766 and 1,282 for the remaining windows. Table 4 reports the composition by test block, and the exposure groups also differ in subsequent filing activity: among noncases, weighted annual filing continuity is 45.8, 68.8 and 64.5 percent across the no bundle, unchanged and changed groups, and among positive windows it is 10.2, 30.9 and 20.0 percent.
+
+\begin{table}[tbp]
+\centering
+\footnotesize
+\caption{Table 4. Later version exposure by test block and recorded outcome.}
+\label{main-tab-3}
+\begin{tabular}{lrrrr}
+\toprule
+Test block & Event & No later bundle & Later unchanged & Later changed \\
+\midrule
+2016-2017 & 0 & 208 (21.9\%) & 488 (49.7\%) & 316 (28.5\%) \\
+2016-2017 & 1 & 32 (62.7\%) & 8 (15.7\%) & 11 (21.6\%) \\
+2018-2019 & 0 & 318 (34.2\%) & 428 (48.0\%) & 172 (17.8\%) \\
+2018-2019 & 1 & 16 (57.1\%) & 10 (35.7\%) & 2 (7.1\%) \\
+2020-2021 & 0 & 107 (13.2\%) & 563 (70.2\%) & 131 (16.5\%) \\
+2020-2021 & 1 & 20 (45.5\%) & 21 (47.7\%) & 3 (6.8\%) \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+Note: Cells report unweighted counts with design weighted percentages within each block and outcome group. Event 1 is the directly linked registry target. Changed concerns any selected raw component above the stated tolerance, and rounding can prevent percentages from totaling 100.
+
+Availability horizons show source replacement among already exposed observations as well as new exposure. Moving from a 90 day to a 365 day horizon adds 2,603 bundles and switches 136 existing later accessions, changing raw values for 801 landmarks. Moving from 365 to 730 days adds 1,301 bundles, switches 125 accessions and changes 484 landmarks. From 730 days to the latest rule only seven bundles become newly available, but thirteen existing accessions switch and ten landmarks change raw values, so the last contrast cannot be attributed to seven newly exposed observations alone. No same selected source value changes occur in these frozen adjacent reconstructions, which is an internal consistency check on the pipeline.
+
+Relatively few latest development sources postdate model fitting: six, eight and six records, representing 0.216, 0.342 and 0.190 percent of development weight, and actual model inputs differ relative to the fit date selection for three, four and two records. That does not make the timing constraint irrelevant, because restricting development information to the fit date changes A scored average precision under common fixed LightGBM parameters and does so in different directions relative to original only training. Table 5 reports that comparison. Most historical later disclosures were already known at fitting time, so treating every revision after a training observation's own origin as unavailable at model fitting would conflate the two clocks.
+
+\begin{table*}[tbp]
+\centering
+\footnotesize
+\caption{Table 5. Fixed LightGBM trained under different disclosure time rules and scored exclusively on original accession inputs.}
+\label{main-tab-4}
+\begin{tabular}{lrrrrr}
+\toprule
+Test block & A fit & As of fit date & Latest later version fit & Late records / development N & Late weight \\
+\midrule
+2016-2017 & 24.747 & 24.837 & 21.229 & 6 / 2,024 & 0.216\% \\
+2018-2019 & 23.312 & 24.012 & 25.153 & 8 / 3,167 & 0.342\% \\
+2020-2021 & 11.861 & 10.786 & 10.573 & 6 / 4,161 & 0.190\% \\
+\bottomrule
+\end{tabular}
+\end{table*}
+
+Note: The first three numeric columns report average precision percentages on the same original test inputs. The latest later version column uses the unlimited training source rule but scores the original version rather than the later version. Late counts refer to selected latest sources unavailable strictly before the test block fit date, and their weight share is measured in the mature development sample. These fixed parameter anchors differ from the tuned pipelines in Table 2 and were fitted separately from the version decomposition shown there.
+
+\subsection{4.5 Source evidence separates mechanisms from unresolved items}
+
+The random test audit supports displayed asset agreement at all 24 sampled landmarks, and 95 of its 96 arm by component checks are display consistent with one remaining unknown. Purposive development checks then explain why these groups cannot be labeled collectively as erroneous reports. Rentech explicitly reconciles understated tax liabilities in its later statements, including liabilities of 105.200 against 112.255 million dollars for December 2011. (Rentech 2013) Silver Stream's transition statements reflect one continuing accounting entity, whereas the later comparison uses another after a reverse takeover, so its large asset difference is supported on both sides but concerns different reporting scope. (Silver Stream Mining 2014a; Silver Stream Mining 2014b) Gymboree, the sole positive transition landmark, has unchanged selected components in its 26 week transition report, so removing it changes development composition without removing a version difference in that record. (The Gymboree Corporation 2016; The Gymboree Corporation 2017)
+
+The scale evidence is equally specific. The Nobilis filing states that its relevant financial statements are in thousands, which supports 22 scale keys spanning two period columns. (Nobilis Health 2016; Nobilis Health 2017) Those keys change only two main feature cells, both log assets, because uniform scaling cancels in the corresponding ratios. Four proposed sign replacements remain classified as unresolved display and API differences. Concept definitions and taxonomy balance attributes were inspected, but original issuer contexts and presentation label relationships remain unavailable. Table 6 reports both adjustment scenarios, and Figure 5 reports the evidence level reached by each class of adjustment.
+
+\begin{table}[tbp]
+\centering
+\footnotesize
+\caption{Table 6. Tuned LightGBM under source supported and adjusted scenarios.}
+\label{main-tab-5}
+\begin{tabular}{lrrrr}
+\toprule
+Test block & Input scenario & AA \% & BB \% & Difference (pp) \\
+\midrule
+2016-2017 & Unadjusted & 24.747 & 27.586 & +2.839 \\
+2016-2017 & Scale supported & 24.747 & 27.586 & +2.839 \\
+2016-2017 & Scale plus disputed signs & 25.860 & 28.436 & +2.576 \\
+2018-2019 & Unadjusted & 15.564 & 18.332 & +2.768 \\
+2018-2019 & Scale supported & 15.564 & 18.332 & +2.768 \\
+2018-2019 & Scale plus disputed signs & 16.522 & 18.995 & +2.473 \\
+2020-2021 & Unadjusted & 7.390 & 9.156 & +1.766 \\
+2020-2021 & Scale supported & 7.390 & 9.156 & +1.766 \\
+2020-2021 & Scale plus disputed signs & 6.144 & 9.203 & +3.059 \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+Note: Scale supported applies 22 display supported scale keys and changes two feature cells. Scale plus disputed signs additionally imposes four unresolved sign proposals and changes six feature cells in total. It is retained as a sensitivity scenario rather than a certified correction set, and neither label implies authenticated original issuer contexts.
+
+\par\vspace{4pt}\noindent{\small\textbf{Figure 5.} Evidence level and model consequence of the source adjustments. Panel a reports the number of source keys or checks that reached each evidence level. Panel b reports the tuned LightGBM contrast under the unadjusted, scale supported and combined scenarios. Scale supported keys leave every tuned and fixed LightGBM test prediction exactly unchanged, so the combined scenario is not evidence about the effect of certified input errors.}\par\vspace{4pt}
+
+This trace is more informative than treating 22 source keys as 22 independently changed predictive observations, and it separates a documented scale property from an unresolved sign question. Two conclusions follow. First, the combined scenario changes test predictions, which means the disputed items enter a development block and cannot be treated as a cosmetic test table issue. Second, no LightGBM prediction moves under the scale scenario while logistic predictions move slightly, with maximum individual probability changes of 0.002534 in tuned comparisons and 0.001826 under common fixed parameters. A source key to component to feature to stage ledger accompanies the saved predictions and is retained in the reproducibility package.
+\section{Discussion}
+\subsection{5.1 Implications for model validation practice}
+
+The decomposition is accounting, and the empirical results supply its content: a favorable reported difference, a substitution contrast of the opposite sign, a development domain that changes a version contrast by more than ten points, and a single development observation that reverses a block conclusion. For a validator, the practical implication is that a validation report which records only an extraction date and a train and test split leaves the largest source of a version related result unspecified. Seven practices follow directly from the results and from the design of the protocol.
+
+\begin{enumerate}
+\item Freeze model input provenance, not only observation dates. Record the accession or source rule that determines each historical predictor value.
+\item Separate redevelopment from rescoring when the version rule changes. A single fully redeveloped comparison cannot identify which route produced the difference.
+\item Validate the fit time and score time information sets separately, so that a revision disclosed before fitting is not misclassified as leakage and a later scoring input is not treated as available at origin.
+\item Do not condition the evaluation sample on the availability of a later version. Availability is related to the outcome in this cohort, and the restriction changes the evaluated population.
+\item Retain observations whose inputs are unchanged, because a change in the fitted pipeline can still move their scores and ranks.
+\item Report a fixed parameter benchmark alongside independently tuned pipelines, since the sign of the diagonal difference varies across the four finite configurations in the first block.
+\item Trace material numerical discrepancies back to source records before naming a mechanism, because displayed statement support, context authentication and the current stored value are different evidence levels.
+\end{enumerate}
+
+\subsection{5.2 Data versioning as a governance risk}
+
+Financial input versioning is a governance issue rather than a refresh problem. A model that is nominally unchanged can be evaluated on a different historical information set after a database refresh, and the required disclosures for credit risk models already place data quality and the documentation of model inputs inside the validation obligation. (Board of Governors 2011; Basel Committee on Banking Supervision 2016; European Central Bank 2019) The results here specify what such documentation needs to contain for a version rule to be auditable: the accession or source selection rule, the disclosure time boundary used at fitting, the scoring time boundary used at evaluation, the missingness mask, and the set of observations deleted or retained by the rule. A validation report that records only a retrieval date cannot be reproduced by a later verification, because the same pipeline evaluated on the same observations will produce different numbers after the underlying values change.
+
+Model risk management also distinguishes the risk of an incorrect model from the risk of incorrect use, and version selection sits between those categories. A version rule can be defensible as a data decision yet still produce a validation outcome that does not describe the deployed pipeline.
+
+Source evidence is separate from arithmetic. Independent code recomputes the four cell metrics from saved predictions to numerical precision, separate checks reconstruct saved development control predictions and verify fit date source restrictions, and source checks consult statements outside the stored numerical path while preserving retrieval and authentication limits. Financial comparability requires more than numerical alignment: a documented correction and a change of accounting predecessor both satisfy the same concept and period rules while implying different economic meanings, as the scope examples in this cohort show. (RCS Capital 2014; RCS Capital 2015; American Healthcare REIT 2022) No original issuer context or presentation chain was authenticated anywhere in this audit, so a difference that is consistent with a displayed statement remains a supported measurement rather than a certified correction. The results do not establish that later or alternative financial information universally improves bankruptcy prediction, and the protocol is silent about which version a given institution should prefer.
+
+\subsection{5.3 Boundaries}
+
+Several boundaries limit generalization. The target is a directly linked large company registry event, the source accessibility exclusion removes part of the historical frame, the exposure rule has substantial outcome related differences in later disclosure availability, test positives are few and the earliest validation stage is especially sparse. The matched ordinary deletion exercise uses twenty draws per eligible comparison and does not equalize deleted negative weight mass, and all empirical controls reuse the same cohort and previously observed test blocks, so shared provenance means their agreement cannot substitute for a second measurement route or a new prediction sample.
+
+The next empirical extension should hold this protocol fixed. An independent extraction path for the same filings would test measurement reproducibility, and a new cohort with reliable event coverage and version history would test predictive transportability. The former is not an independent prediction sample, and adding noncases while reusing these events would not create wholly new event evidence.
+\section{Conclusion}
+Financial data versioning is an input data risk that enters model validation through three routes: substitution of scoring inputs, redevelopment of the fitted pipeline and selection of the evaluated population. Crossing the two versions on identical observations separates those routes, and in this application the routes disagree in direction and magnitude. Independently tuned pipelines improved on the diagonal in every block, yet the direct substitution contrast was negative in the first block and nearly zero in the last, a development domain restriction moved a contrast from +2.85 to -16.01 average precision points while the evaluation sample stayed fixed, and removing one development observation reversed a block conclusion. Version selection therefore belongs in the validation record alongside the extraction date, and a validation result should be read as conditional on the version rule that produced it.
+\begin{figure*}[tbp]
+\centering
+\includegraphics[width=\textwidth]{figures/figure1_protocol.pdf}
+\caption{Information clocks and the crossed version validation design}
+\label{fig-1}
+\end{figure*}
+\begin{figure}[tbp]
+\centering
+\includegraphics[width=\columnwidth]{figures/figure2_four_cell.pdf}
+\caption{Crossed version performance and decomposition of the tuned LightGBM difference}
+\label{fig-2}
+\end{figure}
+\begin{figure}[tbp]
+\centering
+\includegraphics[width=\columnwidth]{figures/figure3_development_influence.pdf}
+\caption{Development influence of selected observations against matched deletions}
+\label{fig-3}
+\end{figure}
+\begin{figure}[tbp]
+\centering
+\includegraphics[width=\columnwidth]{figures/figure4_development_domain.pdf}
+\caption{Development and evaluation domains under a size restriction}
+\label{fig-4}
+\end{figure}
+\begin{figure}[tbp]
+\centering
+\includegraphics[width=\columnwidth]{figures/figure5_source_evidence.pdf}
+\caption{Evidence level and model consequence of the source adjustments}
+\label{fig-5}
+\end{figure}
+\clearpage
+\onecolumn
+\section*{Declarations of Interest}
+The author reports no conflicts of interest. The author alone is responsible for the content and writing of the paper. No external funding supported this work.
+\section*{Acknowledgements}
+The analysis reported here is the author’s own work. It uses publicly available Securities and Exchange Commission filings and registry records, and the author is responsible for all interpretations. No third party reviewed the source classifications before submission.
+\section*{Use of artificial intelligence}
+OpenAI Codex was used only for limited Python code assistance and English language polishing. All substantive research tasks, including study design, data collection and processing, analysis, interpretation, and manuscript preparation, were performed by the author. AI did not generate or alter data or determine conclusions, and the author takes full responsibility for the manuscript.
+\section*{Data and code availability}
+The analysis code, frozen derived analysis inputs, component lineage, configurations, saved predictions, model artifacts, source status tables and an executable offline numerical audit accompany this article. Scripts regenerate every reported display from the frozen result files. Access paths for the public financial data sources are documented, and redistribution of original source records follows their respective terms.
+\section*{Supplementary material}
+A separate supplementary document reports the complete candidate grid, alternative learners, seed comparisons, matched deletion draws, availability horizon tables, conditional resampling intervals, calibration summaries and the full source ledger.
+\section*{References}
+\begingroup\small
+\noindent Altman, E. I. (1968). Financial ratios, discriminant analysis and the prediction of corporate bankruptcy. The Journal of Finance 23 (4), 589-609. https://doi.org/10.1111/j.1540-6261.1968.tb00843.x\par\vspace{2pt}
+\noindent American Healthcare REIT, Inc. (2022). Form 10-K for the fiscal year ended December 31, 2021. U.S. Securities and Exchange Commission, EDGAR accession 0001632970-22-000020. https://www.sec.gov/Archives/edgar/data/1632970/000163297022000020/ahr-20211231.htm\par\vspace{2pt}
+\noindent Bargagli-Stoffi, F. J., Incerti, F., Riccaboni, M., and Rungi, A. (2024). Machine learning for zombie hunting: predicting distress from firms’ accounts and missing values. Industrial and Corporate Change 33 (5), 1063-1097. https://doi.org/10.1093/icc/dtad049\par\vspace{2pt}
+\noindent Barboza, F., Kimura, H., and Altman, E. (2017). Machine learning models and bankruptcy prediction. Expert Systems with Applications 83, 405-417. https://doi.org/10.1016/j.eswa.2017.04.006\par\vspace{2pt}
+\noindent Basel Committee on Banking Supervision (2016). Regulatory Consistency Assessment Programme: Handbook for Jurisdictional Assessments. Bank for International Settlements, June 2016. https://www.bis.org/bcbs/publ/d352.pdf\par\vspace{2pt}
+\noindent Beaver, W. H. (1966). Financial ratios as predictors of failure. Journal of Accounting Research 4, 71-111. https://doi.org/10.2307/2490171\par\vspace{2pt}
+\noindent Beaver, W. H., Correia, M., and McNichols, M. F. (2012). Do differences in financial reporting attributes impair the predictive ability of financial ratios for bankruptcy? Review of Accounting Studies 17 (4), 969-1010. https://doi.org/10.1007/s11142-012-9186-7\par\vspace{2pt}
+\noindent Board of Governors of the Federal Reserve System and Office of the Comptroller of the Currency (2011). Supervisory Guidance on Model Risk Management. SR letter 11-7 and OCC bulletin 2011-12, 4 April 2011. https://www.federalreserve.gov/supervisionreg/srletters/sr1107.pdf\par\vspace{2pt}
+\noindent Correia, M. (2025). Accounting and corporate failure: the evolving role of accounting information in bankruptcy prediction. Accounting and Business Research 55 (5), 510-537. https://doi.org/10.1080/00014788.2025.2516273\par\vspace{2pt}
+\noindent European Central Bank (2019). ECB Guide to Internal Models. ECB Banking Supervision, October 2019. https://www.bankingsupervision.europa.eu/ecb/pub/pdf/ssm.supervisory\_guides201910.en.pdf\par\vspace{2pt}
+\noindent Florida-UCLA-LoPucki Bankruptcy Research Database (2022). A window on the world of big-case bankruptcy. University of Florida Levin College of Law. https://lopucki.law.ufl.edu/index.php\par\vspace{2pt}
+\noindent Gneiting, T., and Raftery, A. E. (2007). Strictly proper scoring rules, prediction, and estimation. Journal of the American Statistical Association 102 (477), 359-378. https://doi.org/10.1198/016214506000001437\par\vspace{2pt}
+\noindent Hashemi, P., and Jonsson, A. (2017). The economic importance of earnings manipulation: a quantitative study of the economic consequences of earnings manipulation on fundamental value and bankruptcy probability. Master’s thesis in Accounting and Financial Management, Stockholm School of Economics. https://arc.hhs.se/download.aspx?MediumId=3871\par\vspace{2pt}
+\noindent Horvitz, D. G., and Thompson, D. J. (1952). A generalization of sampling without replacement from a finite universe. Journal of the American Statistical Association 47 (260), 663-685. https://doi.org/10.1080/01621459.1952.10483446\par\vspace{2pt}
+\noindent kapilrao (2024). SEC filings 1994-2024. Hugging Face datasets. https://huggingface.co/datasets/kapilrao/SEC\_filings\_1994\_2024\par\vspace{2pt}
+\noindent Kapoor, S., and Narayanan, A. (2023). Leakage and the reproducibility crisis in machine-learning-based science. Patterns 4 (9), 100804. https://doi.org/10.1016/j.patter.2023.100804\par\vspace{2pt}
+\noindent Ke, G., Meng, Q., Finley, T., Wang, T., Chen, W., Ma, W., Ye, Q., and Liu, T.-Y. (2017). LightGBM: a highly efficient gradient boosting decision tree. In Advances in Neural Information Processing Systems, volume 30. https://proceedings.neurips.cc/paper/2017/hash/6449f44a102fde848669bdd9eb6b76fa-Abstract.html\par\vspace{2pt}
+\noindent Kozodoi, N., Lessmann, S., Alamgir, M., Moreira-Matias, L., and Papakonstantinou, K. (2025). Fighting sampling bias: a framework for training and evaluating credit scoring models. European Journal of Operational Research 324 (2), 616-628. https://doi.org/10.1016/j.ejor.2025.01.040\par\vspace{2pt}
+\noindent Loughran, T., and McDonald, B. (2026). Master index data. Loughran-McDonald Software Repository for Accounting and Finance. https://sraf.nd.edu/sec-edgar-data/master-index-data/\par\vspace{2pt}
+\noindent Mai, F., Tian, S., Lee, C., and Ma, L. (2019). Deep learning models for bankruptcy prediction using textual disclosures. European Journal of Operational Research 274 (2), 743-758. https://doi.org/10.1016/j.ejor.2018.10.024\par\vspace{2pt}
+\noindent Mattos, E. S., and Shasha, D. (2024). Bankruptcy prediction with low-quality financial information. Expert Systems with Applications 237, 121418. https://doi.org/10.1016/j.eswa.2023.121418\par\vspace{2pt}
+\noindent Nobilis Health Corp. (2016). Form 10-K for the fiscal year ended December 31, 2015. U.S. Securities and Exchange Commission, EDGAR accession 0001062993-16-008351. https://www.sec.gov/Archives/edgar/data/1409916/000106299316008351/form10k.htm\par\vspace{2pt}
+\noindent Nobilis Health Corp. (2017). Form 10-K for the fiscal year ended December 31, 2016. U.S. Securities and Exchange Commission, EDGAR accession 0001628280-17-002570. https://www.sec.gov/Archives/edgar/data/1409916/000162828017002570/nhc-123116x10k.htm\par\vspace{2pt}
+\noindent Ohlson, J. A. (1980). Financial ratios and the probabilistic prediction of bankruptcy. Journal of Accounting Research 18 (1), 109-131. https://doi.org/10.2307/2490395\par\vspace{2pt}
+\noindent Rao, J. N. K., and Wu, C. F. J. (1988). Resampling inference with complex survey data. Journal of the American Statistical Association 83 (401), 231-241. https://doi.org/10.1080/01621459.1988.10478591\par\vspace{2pt}
+\noindent Rao, J. N. K., Wu, C. F. J., and Yue, K. (1992). Some recent work on resampling methods for complex surveys. Survey Methodology 18 (2), 209-217. https://www150.statcan.gc.ca/n1/pub/12-001-x/1992002/article/14486-eng.pdf\par\vspace{2pt}
+\noindent RCS Capital Corporation (2014). Form 10-K for the fiscal year ended December 31, 2013. U.S. Securities and Exchange Commission, EDGAR accession 0001445305-14-000765. https://www.sec.gov/Archives/edgar/data/1568832/000144530514000765/rcap-20131231x10k.htm\par\vspace{2pt}
+\noindent RCS Capital Corporation (2015). Form 10-K/A for the fiscal year ended December 31, 2014. U.S. Securities and Exchange Commission, EDGAR accession 0001568832-15-000014. https://www.sec.gov/Archives/edgar/data/1568832/000156883215000014/rcap-20141231x10ka.htm\par\vspace{2pt}
+\noindent Rentech, Inc. (2013). Form 10-K for the fiscal year ended December 31, 2012. U.S. Securities and Exchange Commission, EDGAR accession 0001193125-13-112558, Note 3 Revisions, p. 88. https://www.sec.gov/Archives/edgar/data/868725/000119312513112558/d444778d10k.htm\par\vspace{2pt}
+\noindent Saito, T., and Rehmsmeier, M. (2015). The precision-recall plot is more informative than the ROC plot when evaluating binary classifiers on imbalanced datasets. PLOS ONE 10 (3), e0118432. https://doi.org/10.1371/journal.pone.0118432\par\vspace{2pt}
+\noindent Shumway, T. (2001). Forecasting bankruptcy more accurately: a simple hazard model. The Journal of Business 74 (1), 101-124. https://doi.org/10.1086/209665\par\vspace{2pt}
+\noindent Silver Stream Mining Corp. (2014a). Form 10-KT for the transition period ended March 31, 2013. U.S. Securities and Exchange Commission, EDGAR accession 0001002014-14-000290. https://www.sec.gov/Archives/edgar/data/1310497/000100201414000290/ssmc10kt-3312013.htm\par\vspace{2pt}
+\noindent Silver Stream Mining Corp. (2014b). Form 10-K/A for the fiscal year ended March 31, 2014. U.S. Securities and Exchange Commission, EDGAR accession 0001002014-14-000402, Note 1. https://www.sec.gov/Archives/edgar/data/1310497/000100201414000402/agsm10ka1-03312014.htm\par\vspace{2pt}
+\noindent The Gymboree Corporation (2016). Form 10-KT for the transition period ended July 30, 2016. U.S. Securities and Exchange Commission, EDGAR accession 0001193125-16-751374, consolidated balance sheets, p. 38. https://www.sec.gov/Archives/edgar/data/786110/000119312516751374/d231280d10kt.htm\par\vspace{2pt}
+\noindent The Gymboree Corporation (2017). Form 10-Q for the quarterly period ended January 28, 2017. U.S. Securities and Exchange Commission, EDGAR accession 0001193125-17-082009, condensed consolidated balance sheets, p. 5. https://www.sec.gov/Archives/edgar/data/786110/000119312517082009/d268566d10q.htm\par\vspace{2pt}
+\noindent U.S. Bureau of Labor Statistics (2026). Consumer price index for all urban consumers: U.S. city average, all items, not seasonally adjusted (CUUR0000SA0). https://www.bls.gov/cpi/\par\vspace{2pt}
+\noindent U.S. Securities and Exchange Commission (2017). Data quality reminder: negative values. Office of Structured Disclosure, 20 July 2017. https://www.sec.gov/structureddata/announcement/osd\_announcement07142017-data-quality-reminder-negative-values\par\vspace{2pt}
+\noindent U.S. Securities and Exchange Commission (2026a). EDGAR application programming interfaces. https://www.sec.gov/search-filings/edgar-application-programming-interfaces\par\vspace{2pt}
+\noindent U.S. Securities and Exchange Commission (2026b). Financial statement data sets. https://www.sec.gov/data-research/sec-markets-data/financial-statement-data-sets\par\vspace{2pt}
+\noindent Van Calster, B., McLernon, D. J., van Smeden, M., Wynants, L., and Steyerberg, E. W. (2019). Calibration: the Achilles heel of predictive analytics. BMC Medicine 17, 230. https://doi.org/10.1186/s12916-019-1466-7\par\vspace{2pt}
+\noindent Yang, L., and Zhu, M. (2026). Misstatement detection lag and prediction evaluation. The Accounting Review 101 (2), 395-417. https://doi.org/10.2308/tar-2023-0073\par\vspace{2pt}
+\noindent Zavitsanos, E., Mavroeidis, D., Bougiatiotis, K., Spyropoulou, E., Loukas, L., and Paliouras, G. (2021). Financial misstatement detection: a realistic evaluation. In Proceedings of the Second ACM International Conference on AI in Finance, 1-9. https://doi.org/10.1145/3490354.3494453\par\vspace{2pt}
+\noindent Zhang, Z., Zheng, M., Zhang, T., Lin, L., and Lin, L. (2026). Bankruptcy prediction from 10-K narratives: evidence from interpretable text scores and accounting baselines. Risks 14 (8), 179. https://doi.org/10.3390/risks14080179\par\vspace{2pt}
+\endgroup
+\end{document}

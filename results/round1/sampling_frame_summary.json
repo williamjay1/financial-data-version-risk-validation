@@ -1,0 +1,21 @@
+{
+  "sampling_seed": 20260921,
+  "sampling_unit": "connected component of shared annual accessions, 2010\u20132021",
+  "not_a_complete_legal_group_identifier": true,
+  "target_label": "direct CikBefore-linked first BRD event; no co-filer propagation",
+  "historical_ciks": 15631,
+  "historical_clusters": 14929,
+  "joint_clusters": 248,
+  "largest_cluster_ciks": 68,
+  "certainty_clusters": 383,
+  "noncase_population_clusters": 14546,
+  "noncase_sample_clusters": 1000,
+  "selected_ciks": 1518,
+  "selected_noncase_ciks": 1080,
+  "selected_certainty_ciks": 438,
+  "inclusion_probability_noncase": 0.06874742197167606,
+  "frame_sha256": "6f339ebd465f018afc463e0e3b3a854e1882ed4d836a4352c95dc6ca5d388937",
+  "eligible_observations": "2010\u20132021 day-after-original-annual-filing landmarks, before first registry event, positive original assets; SEC standard-tag facts accessible at retrieval",
+  "eligible_domain_note": "Original-asset observability defines a restricted domain, not a response adjustment; inference does not extend to unavailable XBRL filers.",
+  "model_results_seen_before_sampling": false
+}

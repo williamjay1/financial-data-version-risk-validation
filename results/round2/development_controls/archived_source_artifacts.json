@@ -1,0 +1,250 @@
+[
+  {
+    "path": "D:\\MLWork\\scie_small_sample_topics_20260920\\finance_reframe_20260921\\revision_20260922\\results\\models\\artifacts\\fixed_full__2016_2017__A__LR.joblib",
+    "sha256": "904242803b92e5dc9450a63fad32886a28f2a3dd6ae24b5b744d202a3dad6ac1"
+  },
+  {
+    "path": "D:\\MLWork\\scie_small_sample_topics_20260920\\finance_reframe_20260921\\revision_20260922\\results\\models\\artifacts\\fixed_full__2016_2017__B__LR.joblib",
+    "sha256": "4ae7dcfeff12fcdd1504c7ebdf1373bab63377b3dbb2436ee2e0e70f5904d7e7"
+  },
+  {
+    "path": "D:\\MLWork\\scie_small_sample_topics_20260920\\finance_reframe_20260921\\revision_20260922\\results\\models\\artifacts\\fixed_full__2016_2017__A__LGBM.joblib",
+    "sha256": "1993d9ed3d22b9d5225364c2140672615ef26fd508cdae205ec2fe758fd2f3cd"
+  },
+  {
+    "path": "D:\\MLWork\\scie_small_sample_topics_20260920\\finance_reframe_20260921\\revision_20260922\\results\\models\\artifacts\\fixed_full__2016_2017__B__LGBM.joblib",
+    "sha256": "9f8f4373c7ff453ed74dc0abdc894e884013b430877bf4eb05dad42adf97ef1d"
+  },
+  {
+    "path": "D:\\MLWork\\scie_small_sample_topics_20260920\\finance_reframe_20260921\\revision_20260922\\results\\models\\artifacts\\fixed_full__2016_2017__A__LR.joblib",
+    "sha256": "904242803b92e5dc9450a63fad32886a28f2a3dd6ae24b5b744d202a3dad6ac1"
+  },
+  {
+    "path": "D:\\MLWork\\scie_small_sample_topics_20260920\\finance_reframe_20260921\\revision_20260922\\results\\models\\artifacts\\fixed_full__2016_2017__B__LR.joblib",
+    "sha256": "4ae7dcfeff12fcdd1504c7ebdf1373bab63377b3dbb2436ee2e0e70f5904d7e7"
+  },
+  {
+    "path": "D:\\MLWork\\scie_small_sample_topics_20260920\\finance_reframe_20260921\\revision_20260922\\results\\models\\artifacts\\fixed_full__2016_2017__A__LGBM.joblib",
+    "sha256": "1993d9ed3d22b9d5225364c2140672615ef26fd508cdae205ec2fe758fd2f3cd"
+  },
+  {
+    "path": "D:\\MLWork\\scie_small_sample_topics_20260920\\finance_reframe_20260921\\revision_20260922\\results\\models\\artifacts\\fixed_full__2016_2017__B__LGBM.joblib",
+    "sha256": "9f8f4373c7ff453ed74dc0abdc894e884013b430877bf4eb05dad42adf97ef1d"
+  },
+  {
+    "path": "D:\\MLWork\\scie_small_sample_topics_20260920\\finance_reframe_20260921\\revision_20260922\\results\\cpi_domain\\artifacts\\cpi1980_size_fixed__2016_2017__A__LR.joblib",
+    "sha256": "2f49e56c8cdff1b481d321fe754be9ed5deb135d0a0eec9c2e404a082c53b553"
+  },
+  {
+    "path": "D:\\MLWork\\scie_small_sample_topics_20260920\\finance_reframe_20260921\\revision_20260922\\results\\cpi_domain\\artifacts\\cpi1980_size_fixed__2016_2017__B__LR.joblib",
+    "sha256": "4d11c166fecc25b8662a5470f23728278ad5b5bbc7096408e53606afd0f890dc"
+  },
+  {
+    "path": "D:\\MLWork\\scie_small_sample_topics_20260920\\finance_reframe_20260921\\revision_20260922\\results\\cpi_domain\\artifacts\\cpi1980_size_fixed__2016_2017__A__LGBM.joblib",
+    "sha256": "5ff09d44c947a291cddefc074dd05cec9406c7609416c6d49ca51555c04ebed6"
+  },
+  {
+    "path": "D:\\MLWork\\scie_small_sample_topics_20260920\\finance_reframe_20260921\\revision_20260922\\results\\cpi_domain\\artifacts\\cpi1980_size_fixed__2016_2017__B__LGBM.joblib",
+    "sha256": "f1ca67a7e89adac26c8131189c8321a5e4f9f834486bdd1fd8d7a30c3e0cbf05"
+  },
+  {
+    "path": "D:\\MLWork\\scie_small_sample_topics_20260920\\finance_reframe_20260921\\revision_20260922\\results\\models\\artifacts\\fixed_spline_rf__2016_2017__A__SPLINE_LR.joblib",
+    "sha256": "6313b56a8149f8798ad980eb900c6d80e16b404e3d51d27c90c0f364380736b3"
+  },
+  {
+    "path": "D:\\MLWork\\scie_small_sample_topics_20260920\\finance_reframe_20260921\\revision_20260922\\results\\models\\artifacts\\fixed_spline_rf__2016_2017__B__SPLINE_LR.joblib",
+    "sha256": "a5a153fe1af06173880602ca6e7afc4b725dfdb191a2f763d6327efe76307925"
+  },
+  {
+    "path": "D:\\MLWork\\scie_small_sample_topics_20260920\\finance_reframe_20260921\\revision_20260922\\results\\models\\artifacts\\fixed_spline_rf__2016_2017__A__RF.joblib",
+    "sha256": "67ba9de8f405bb5f3a4b918213a5985de2900c8bf704ea6ecc1d02bb4e0541b7"
+  },
+  {
+    "path": "D:\\MLWork\\scie_small_sample_topics_20260920\\finance_reframe_20260921\\revision_20260922\\results\\models\\artifacts\\fixed_spline_rf__2016_2017__B__RF.joblib",
+    "sha256": "16fefbc935ff496f9c612cd82ed787a3b56b800abd0101f2b8c982c47e441bc0"
+  },
+  {
+    "path": "D:\\MLWork\\scie_small_sample_topics_20260920\\finance_reframe_20260921\\revision_20260922\\results\\models\\artifacts\\fixed_full__2018_2019__A__LR.joblib",
+    "sha256": "d320c01eee66fdd4b56bca1daeabf492bb08f10cb417200f01e235f8937d2c38"
+  },
+  {
+    "path": "D:\\MLWork\\scie_small_sample_topics_20260920\\finance_reframe_20260921\\revision_20260922\\results\\models\\artifacts\\fixed_full__2018_2019__B__LR.joblib",
+    "sha256": "766c2efb0ed4767a582ec151257396935eaa97e718b479655afc3b4bf73a7016"
+  },
+  {
+    "path": "D:\\MLWork\\scie_small_sample_topics_20260920\\finance_reframe_20260921\\revision_20260922\\results\\models\\artifacts\\fixed_full__2018_2019__A__LGBM.joblib",
+    "sha256": "b924e142ba51eea06241a5d488ed4897b5dfad171517aaea00bd37f00c8058c7"
+  },
+  {
+    "path": "D:\\MLWork\\scie_small_sample_topics_20260920\\finance_reframe_20260921\\revision_20260922\\results\\models\\artifacts\\fixed_full__2018_2019__B__LGBM.joblib",
+    "sha256": "69091da0a0a91f00130eecd8e0798230fcdafe4ef22b100ecfdbdf8963e9d594"
+  },
+  {
+    "path": "D:\\MLWork\\scie_small_sample_topics_20260920\\finance_reframe_20260921\\revision_20260922\\results\\models\\artifacts\\fixed_full__2018_2019__A__LR.joblib",
+    "sha256": "d320c01eee66fdd4b56bca1daeabf492bb08f10cb417200f01e235f8937d2c38"
+  },
+  {
+    "path": "D:\\MLWork\\scie_small_sample_topics_20260920\\finance_reframe_20260921\\revision_20260922\\results\\models\\artifacts\\fixed_full__2018_2019__B__LR.joblib",
+    "sha256": "766c2efb0ed4767a582ec151257396935eaa97e718b479655afc3b4bf73a7016"
+  },
+  {
+    "path": "D:\\MLWork\\scie_small_sample_topics_20260920\\finance_reframe_20260921\\revision_20260922\\results\\models\\artifacts\\fixed_full__2018_2019__A__LGBM.joblib",
+    "sha256": "b924e142ba51eea06241a5d488ed4897b5dfad171517aaea00bd37f00c8058c7"
+  },
+  {
+    "path": "D:\\MLWork\\scie_small_sample_topics_20260920\\finance_reframe_20260921\\revision_20260922\\results\\models\\artifacts\\fixed_full__2018_2019__B__LGBM.joblib",
+    "sha256": "69091da0a0a91f00130eecd8e0798230fcdafe4ef22b100ecfdbdf8963e9d594"
+  },
+  {
+    "path": "D:\\MLWork\\scie_small_sample_topics_20260920\\finance_reframe_20260921\\revision_20260922\\results\\cpi_domain\\artifacts\\cpi1980_size_fixed__2018_2019__A__LR.joblib",
+    "sha256": "f458eb450b0a7a83a64fe64bb694773e3c7ff2921c17f0f2da374a282c9f5917"
+  },
+  {
+    "path": "D:\\MLWork\\scie_small_sample_topics_20260920\\finance_reframe_20260921\\revision_20260922\\results\\cpi_domain\\artifacts\\cpi1980_size_fixed__2018_2019__B__LR.joblib",
+    "sha256": "ded485c1e025f69c3bd58a20083d924117a1c2d1166cefbb200997a425c36007"
+  },
+  {
+    "path": "D:\\MLWork\\scie_small_sample_topics_20260920\\finance_reframe_20260921\\revision_20260922\\results\\cpi_domain\\artifacts\\cpi1980_size_fixed__2018_2019__A__LGBM.joblib",
+    "sha256": "0b2b17dcb30aef545037b199fb0cc1283d58cae8eae13e195d9ec85a6d6345b5"
+  },
+  {
+    "path": "D:\\MLWork\\scie_small_sample_topics_20260920\\finance_reframe_20260921\\revision_20260922\\results\\cpi_domain\\artifacts\\cpi1980_size_fixed__2018_2019__B__LGBM.joblib",
+    "sha256": "02521edf923c1449cb5dd06e5348f4be2bdd5df8395b37f5264f330c643adc45"
+  },
+  {
+    "path": "D:\\MLWork\\scie_small_sample_topics_20260920\\finance_reframe_20260921\\revision_20260922\\results\\models\\artifacts\\fixed_spline_rf__2018_2019__A__SPLINE_LR.joblib",
+    "sha256": "6f9b2aeb0e392c21636ce785171eb1e6e5d0b99f9dfe7dba3cb4ab15dc6f852f"
+  },
+  {
+    "path": "D:\\MLWork\\scie_small_sample_topics_20260920\\finance_reframe_20260921\\revision_20260922\\results\\models\\artifacts\\fixed_spline_rf__2018_2019__B__SPLINE_LR.joblib",
+    "sha256": "b79e4f3090409509048984f12fbf5402d5ce266715dc53c2136dd6e2853e1113"
+  },
+  {
+    "path": "D:\\MLWork\\scie_small_sample_topics_20260920\\finance_reframe_20260921\\revision_20260922\\results\\models\\artifacts\\fixed_spline_rf__2018_2019__A__RF.joblib",
+    "sha256": "f5725c71954174793cbaba38d7dc5958f5b46aa0f99bed4cb875b512f855227c"
+  },
+  {
+    "path": "D:\\MLWork\\scie_small_sample_topics_20260920\\finance_reframe_20260921\\revision_20260922\\results\\models\\artifacts\\fixed_spline_rf__2018_2019__B__RF.joblib",
+    "sha256": "9cc790d1d5749a66fbb0b824fa908e02590bbc645b749c7b6f3a8030cb28dede"
+  },
+  {
+    "path": "D:\\MLWork\\scie_small_sample_topics_20260920\\finance_reframe_20260921\\revision_20260922\\results\\models\\artifacts\\fixed_full__2020_2021__A__LR.joblib",
+    "sha256": "d92f847dc1be1c0d0e98eb89076279ff4af912788c2b5877f090e0343d824b96"
+  },
+  {
+    "path": "D:\\MLWork\\scie_small_sample_topics_20260920\\finance_reframe_20260921\\revision_20260922\\results\\models\\artifacts\\fixed_full__2020_2021__B__LR.joblib",
+    "sha256": "0d28f5388c4adfa01fd7ac2f7bb7c66a4ff0841a66ed061091bab19f06dc1983"
+  },
+  {
+    "path": "D:\\MLWork\\scie_small_sample_topics_20260920\\finance_reframe_20260921\\revision_20260922\\results\\models\\artifacts\\fixed_full__2020_2021__A__LGBM.joblib",
+    "sha256": "045b2dc72cdc43452647259dca48f2ba5ec0b8c46e99c78ce6bd5547a02f4d0c"
+  },
+  {
+    "path": "D:\\MLWork\\scie_small_sample_topics_20260920\\finance_reframe_20260921\\revision_20260922\\results\\models\\artifacts\\fixed_full__2020_2021__B__LGBM.joblib",
+    "sha256": "3002dc87ca0bf9708d8d1b375ecbb0eccb09b110926b30d1f0481592d94eb06e"
+  },
+  {
+    "path": "D:\\MLWork\\scie_small_sample_topics_20260920\\finance_reframe_20260921\\revision_20260922\\results\\models\\artifacts\\fixed_full__2020_2021__A__LR.joblib",
+    "sha256": "d92f847dc1be1c0d0e98eb89076279ff4af912788c2b5877f090e0343d824b96"
+  },
+  {
+    "path": "D:\\MLWork\\scie_small_sample_topics_20260920\\finance_reframe_20260921\\revision_20260922\\results\\models\\artifacts\\fixed_full__2020_2021__B__LR.joblib",
+    "sha256": "0d28f5388c4adfa01fd7ac2f7bb7c66a4ff0841a66ed061091bab19f06dc1983"
+  },
+  {
+    "path": "D:\\MLWork\\scie_small_sample_topics_20260920\\finance_reframe_20260921\\revision_20260922\\results\\models\\artifacts\\fixed_full__2020_2021__A__LGBM.joblib",
+    "sha256": "045b2dc72cdc43452647259dca48f2ba5ec0b8c46e99c78ce6bd5547a02f4d0c"
+  },
+  {
+    "path": "D:\\MLWork\\scie_small_sample_topics_20260920\\finance_reframe_20260921\\revision_20260922\\results\\models\\artifacts\\fixed_full__2020_2021__B__LGBM.joblib",
+    "sha256": "3002dc87ca0bf9708d8d1b375ecbb0eccb09b110926b30d1f0481592d94eb06e"
+  },
+  {
+    "path": "D:\\MLWork\\scie_small_sample_topics_20260920\\finance_reframe_20260921\\revision_20260922\\results\\cpi_domain\\artifacts\\cpi1980_size_fixed__2020_2021__A__LR.joblib",
+    "sha256": "87d0025325ec1773a31d2fe8702471f6f25c6f3ff4fea62b5c368a8148f2ba3b"
+  },
+  {
+    "path": "D:\\MLWork\\scie_small_sample_topics_20260920\\finance_reframe_20260921\\revision_20260922\\results\\cpi_domain\\artifacts\\cpi1980_size_fixed__2020_2021__B__LR.joblib",
+    "sha256": "a35045439ad4b78a6da1075cb4baedb4335bd0f59f067c054e4e90f902a91645"
+  },
+  {
+    "path": "D:\\MLWork\\scie_small_sample_topics_20260920\\finance_reframe_20260921\\revision_20260922\\results\\cpi_domain\\artifacts\\cpi1980_size_fixed__2020_2021__A__LGBM.joblib",
+    "sha256": "297738afa206d18c479715256a3189e36fa7c2ced9f0f8fa79ed4bb66b94144a"
+  },
+  {
+    "path": "D:\\MLWork\\scie_small_sample_topics_20260920\\finance_reframe_20260921\\revision_20260922\\results\\cpi_domain\\artifacts\\cpi1980_size_fixed__2020_2021__B__LGBM.joblib",
+    "sha256": "911cb9325db784aca07db0896d14b4006bb105602138651577ad2993563b5888"
+  },
+  {
+    "path": "D:\\MLWork\\scie_small_sample_topics_20260920\\finance_reframe_20260921\\revision_20260922\\results\\models\\artifacts\\fixed_spline_rf__2020_2021__A__SPLINE_LR.joblib",
+    "sha256": "6131fe00600eddeb52a7a5710ef54600d63690e10dae1559e04b67128caacc83"
+  },
+  {
+    "path": "D:\\MLWork\\scie_small_sample_topics_20260920\\finance_reframe_20260921\\revision_20260922\\results\\models\\artifacts\\fixed_spline_rf__2020_2021__B__SPLINE_LR.joblib",
+    "sha256": "b14bf8edfa165bc6790fd3a00b6b399fdecd863b9daa5ec1683490ddbbcee2a7"
+  },
+  {
+    "path": "D:\\MLWork\\scie_small_sample_topics_20260920\\finance_reframe_20260921\\revision_20260922\\results\\models\\artifacts\\fixed_spline_rf__2020_2021__A__RF.joblib",
+    "sha256": "d2dabefbbcfa6bccd36555bc8f231445e47ea96bd449e18a07f14ef75cc37625"
+  },
+  {
+    "path": "D:\\MLWork\\scie_small_sample_topics_20260920\\finance_reframe_20260921\\revision_20260922\\results\\models\\artifacts\\fixed_spline_rf__2020_2021__B__RF.joblib",
+    "sha256": "c2b1e58ff1c3fdf4e49ca48180630a4a22bdbe05c1b7f773b813f36d86ccf8b9"
+  },
+  {
+    "path": "D:\\MLWork\\scie_small_sample_topics_20260920\\finance_reframe_20260921\\revision_20260922\\results\\models\\artifacts\\fixed_full__2016_2017__A__LGBM.joblib",
+    "sha256": "1993d9ed3d22b9d5225364c2140672615ef26fd508cdae205ec2fe758fd2f3cd"
+  },
+  {
+    "path": "D:\\MLWork\\scie_small_sample_topics_20260920\\finance_reframe_20260921\\revision_20260922\\results\\models\\artifacts\\fixed_full__2016_2017__B__LGBM.joblib",
+    "sha256": "9f8f4373c7ff453ed74dc0abdc894e884013b430877bf4eb05dad42adf97ef1d"
+  },
+  {
+    "path": "D:\\MLWork\\scie_small_sample_topics_20260920\\finance_reframe_20260921\\revision_20260922\\results\\models\\artifacts\\fixed_full__2018_2019__A__LGBM.joblib",
+    "sha256": "b924e142ba51eea06241a5d488ed4897b5dfad171517aaea00bd37f00c8058c7"
+  },
+  {
+    "path": "D:\\MLWork\\scie_small_sample_topics_20260920\\finance_reframe_20260921\\revision_20260922\\results\\models\\artifacts\\fixed_full__2018_2019__B__LGBM.joblib",
+    "sha256": "69091da0a0a91f00130eecd8e0798230fcdafe4ef22b100ecfdbdf8963e9d594"
+  },
+  {
+    "path": "D:\\MLWork\\scie_small_sample_topics_20260920\\finance_reframe_20260921\\revision_20260922\\results\\models\\artifacts\\fixed_full__2020_2021__A__LGBM.joblib",
+    "sha256": "045b2dc72cdc43452647259dca48f2ba5ec0b8c46e99c78ce6bd5547a02f4d0c"
+  },
+  {
+    "path": "D:\\MLWork\\scie_small_sample_topics_20260920\\finance_reframe_20260921\\revision_20260922\\results\\models\\artifacts\\fixed_full__2020_2021__B__LGBM.joblib",
+    "sha256": "3002dc87ca0bf9708d8d1b375ecbb0eccb09b110926b30d1f0481592d94eb06e"
+  },
+  {
+    "path": "D:\\MLWork\\scie_small_sample_topics_20260920\\finance_reframe_20260921\\revision_20260922\\results\\models\\artifacts\\fixed_full__2016_2017__A__LR.joblib",
+    "sha256": "904242803b92e5dc9450a63fad32886a28f2a3dd6ae24b5b744d202a3dad6ac1"
+  },
+  {
+    "path": "D:\\MLWork\\scie_small_sample_topics_20260920\\finance_reframe_20260921\\revision_20260922\\results\\models\\artifacts\\fixed_full__2016_2017__B__LR.joblib",
+    "sha256": "4ae7dcfeff12fcdd1504c7ebdf1373bab63377b3dbb2436ee2e0e70f5904d7e7"
+  },
+  {
+    "path": "D:\\MLWork\\scie_small_sample_topics_20260920\\finance_reframe_20260921\\revision_20260922\\results\\models\\artifacts\\fixed_full__2016_2017__A__LGBM.joblib",
+    "sha256": "1993d9ed3d22b9d5225364c2140672615ef26fd508cdae205ec2fe758fd2f3cd"
+  },
+  {
+    "path": "D:\\MLWork\\scie_small_sample_topics_20260920\\finance_reframe_20260921\\revision_20260922\\results\\models\\artifacts\\fixed_full__2016_2017__B__LGBM.joblib",
+    "sha256": "9f8f4373c7ff453ed74dc0abdc894e884013b430877bf4eb05dad42adf97ef1d"
+  },
+  {
+    "path": "D:\\MLWork\\scie_small_sample_topics_20260920\\finance_reframe_20260921\\revision_20260922\\results\\models\\artifacts\\fixed_full__2018_2019__A__LR.joblib",
+    "sha256": "d320c01eee66fdd4b56bca1daeabf492bb08f10cb417200f01e235f8937d2c38"
+  },
+  {
+    "path": "D:\\MLWork\\scie_small_sample_topics_20260920\\finance_reframe_20260921\\revision_20260922\\results\\models\\artifacts\\fixed_full__2018_2019__B__LR.joblib",
+    "sha256": "766c2efb0ed4767a582ec151257396935eaa97e718b479655afc3b4bf73a7016"
+  },
+  {
+    "path": "D:\\MLWork\\scie_small_sample_topics_20260920\\finance_reframe_20260921\\revision_20260922\\results\\models\\artifacts\\fixed_full__2018_2019__A__LGBM.joblib",
+    "sha256": "b924e142ba51eea06241a5d488ed4897b5dfad171517aaea00bd37f00c8058c7"
+  },
+  {
+    "path": "D:\\MLWork\\scie_small_sample_topics_20260920\\finance_reframe_20260921\\revision_20260922\\results\\models\\artifacts\\fixed_full__2018_2019__B__LGBM.joblib",
+    "sha256": "69091da0a0a91f00130eecd8e0798230fcdafe4ef22b100ecfdbdf8963e9d594"
+  }
+]

@@ -1,0 +1,122 @@
+{
+  "status": "PASS",
+  "blocking_issues": 0,
+  "minor_issues": 0,
+  "rendered_total_pages": 26,
+  "review_scope": "Every final-render page 8–16 actually viewed. Additional page 18 viewed solely to confirm prior S18 Mode word-fragmentation fix.",
+  "pdf": "D:\\MLWork\\scie_small_sample_topics_20260920\\finance_reframe_20260921\\revision_20260922_round2\\qa\\supplement_verified\\Supplementary_Methods_and_Results.pdf",
+  "pdf_sha256": "55813d0d8f5d2599d4e84dd7c2d7142c0a262acfbc9c3179bd65bc449bd922e1",
+  "pages": [
+    {
+      "page": 8,
+      "image": "D:\\MLWork\\scie_small_sample_topics_20260920\\finance_reframe_20260921\\revision_20260922_round2\\qa\\supplement_verified\\page-8.png",
+      "sha256": "c9960732e0ae9b5398714d9fc12b2f1e43160d04ae63bc6105674db3e083eb02",
+      "actually_viewed": true,
+      "status": "PASS",
+      "observations": [
+        "Section S5 starts with following text; Table S7 and note remain together.",
+        "Table S8 starts with three complete rows; all numeric columns fit."
+      ]
+    },
+    {
+      "page": 9,
+      "image": "D:\\MLWork\\scie_small_sample_topics_20260920\\finance_reframe_20260921\\revision_20260922_round2\\qa\\supplement_verified\\page-9.png",
+      "sha256": "57844e2edcd6860235c396c5452d1c70e6f101e06ba8f879e4c45aeef1f0a8bd",
+      "actually_viewed": true,
+      "status": "PASS",
+      "observations": [
+        "Table S8 continuation has repeated header; no clipped numbers or broken learner labels.",
+        "Short Table S9 is complete with note on the same page."
+      ]
+    },
+    {
+      "page": 10,
+      "image": "D:\\MLWork\\scie_small_sample_topics_20260920\\finance_reframe_20260921\\revision_20260922_round2\\qa\\supplement_verified\\page-10.png",
+      "sha256": "0d5067418fd34bb73469c0fcabb2261f1f9687ac9c38eaf546561a4e1de2dfc2",
+      "actually_viewed": true,
+      "status": "PASS",
+      "observations": [
+        "Short Table S10 and note are kept together.",
+        "Section S6 heading is followed by full paragraph; Table S11 begins with many complete rows."
+      ]
+    },
+    {
+      "page": 11,
+      "image": "D:\\MLWork\\scie_small_sample_topics_20260920\\finance_reframe_20260921\\revision_20260922_round2\\qa\\supplement_verified\\page-11.png",
+      "sha256": "3d74938271e44d32acb0cb23b57da9ac7045ed342002e693ec74f18830679fff",
+      "actually_viewed": true,
+      "status": "PASS",
+      "observations": [
+        "Table S11 ends with two complete rows and its note; repeated header present.",
+        "Long Table S12 starts with ample rows; all eight columns readable."
+      ]
+    },
+    {
+      "page": 12,
+      "image": "D:\\MLWork\\scie_small_sample_topics_20260920\\finance_reframe_20260921\\revision_20260922_round2\\qa\\supplement_verified\\page-12.png",
+      "sha256": "a425d11a0058ac53bb7072258a797bdedcca830813c58963b501a9dad882b1fe",
+      "actually_viewed": true,
+      "status": "PASS",
+      "observations": [
+        "Table S12 ends with two rows and note; no detached note.",
+        "Table S13 begins with readable labels and interval columns; no clipping."
+      ]
+    },
+    {
+      "page": 13,
+      "image": "D:\\MLWork\\scie_small_sample_topics_20260920\\finance_reframe_20260921\\revision_20260922_round2\\qa\\supplement_verified\\page-13.png",
+      "sha256": "692f8a2067448b0c046f008129b07551b7dde38a37804eb96c12ca2594039e0a",
+      "actually_viewed": true,
+      "status": "PASS",
+      "observations": [
+        "Table S13 continuation header, final rows and note are on the same page.",
+        "Section S7 heading and explanatory paragraphs are intact; no orphan heading."
+      ]
+    },
+    {
+      "page": 14,
+      "image": "D:\\MLWork\\scie_small_sample_topics_20260920\\finance_reframe_20260921\\revision_20260922_round2\\qa\\supplement_verified\\page-14.png",
+      "sha256": "1a83169a3a79a52a84f2e9ba7a638511ad02ce5349dac8022706007dbce5ce4f",
+      "actually_viewed": true,
+      "status": "PASS",
+      "observations": [
+        "Short Table S14 is complete with caption and note.",
+        "Table S15 starts with many complete rows; wide AP/Brier columns fit."
+      ]
+    },
+    {
+      "page": 15,
+      "image": "D:\\MLWork\\scie_small_sample_topics_20260920\\finance_reframe_20260921\\revision_20260922_round2\\qa\\supplement_verified\\page-15.png",
+      "sha256": "2d1868399e0e91320c4e5f893a0d1019077a0c1c8226a87603d9622f59f2276c",
+      "actually_viewed": true,
+      "status": "PASS",
+      "observations": [
+        "Table S15 continuation and note are readable.",
+        "Section S8 and rescaled multiplier equation are fully visible.",
+        "Lower-page whitespace results from keeping short Table S16 together; this is not a blank page or overflow."
+      ]
+    },
+    {
+      "page": 16,
+      "image": "D:\\MLWork\\scie_small_sample_topics_20260920\\finance_reframe_20260921\\revision_20260922_round2\\qa\\supplement_verified\\page-16.png",
+      "sha256": "205a052518b2940104ee4a18eb8883bbdb0e7fff28e92e48ec2894260772e471",
+      "actually_viewed": true,
+      "status": "PASS",
+      "observations": [
+        "Short Table S16 is complete with its note, including all interval signs/endpoints.",
+        "Table S17 begins with at least three complete rows; mode labels fit without fragmentation."
+      ]
+    }
+  ],
+  "targeted_followup": {
+    "page": 18,
+    "image_sha256": "de3fe4281393166c70c553f97a120de36ae5e0447b6392da3d3ef1bee424e4e2",
+    "actually_viewed": true,
+    "table": "S18",
+    "status": "PASS",
+    "observation": "Develop., Eval. and Joint are intact single-line labels; abbreviation note is visible and correct. Prior developmen / t break is resolved."
+  },
+  "inspection_method": "tools.view_image on all nine assigned PNG pages, plus page 18; not PDF text extraction.",
+  "manuscript_edited": false,
+  "checked_utc": "2026-09-22T16:44:09.109453+00:00"
+}

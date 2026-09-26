@@ -1,0 +1,125 @@
+{
+  "started_utc": "2026-09-21T09:31:01.236315+00:00",
+  "mode": "synthetic_self_test",
+  "source_script": "D:\\MLWork\\scie_small_sample_topics_20260920\\finance_reframe_20260921\\scripts\\run_vintage_models.py",
+  "source_script_sha256": "b302cf8a561cd8c0ea6fe099ee7981e61083c5a4a0f80dced8f9654ea02a1125",
+  "python": "3.12.10 (tags/v3.12.10:0cc8128, Apr  8 2025, 12:21:36) [MSC v.1943 64 bit (AMD64)]",
+  "platform": "Windows-11-10.0.26200-SP0",
+  "versions": {
+    "numpy": "2.5.1",
+    "pandas": "3.0.5",
+    "scipy": "1.18.0",
+    "scikit-learn": "1.9.0",
+    "lightgbm": "4.7.0",
+    "pyarrow": "25.0.0",
+    "joblib": "1.5.3"
+  },
+  "vintage_features": [
+    "log_assets",
+    "liabilities_to_assets",
+    "equity_to_assets",
+    "cash_to_assets",
+    "net_income_to_assets",
+    "revenue_to_assets",
+    "operating_income_to_assets",
+    "operating_cash_to_assets",
+    "retained_earnings_to_assets",
+    "working_capital_to_assets"
+  ],
+  "common_features": [
+    "report_lag_days"
+  ],
+  "features": [
+    "log_assets",
+    "liabilities_to_assets",
+    "equity_to_assets",
+    "cash_to_assets",
+    "net_income_to_assets",
+    "revenue_to_assets",
+    "operating_income_to_assets",
+    "operating_cash_to_assets",
+    "retained_earnings_to_assets",
+    "working_capital_to_assets",
+    "report_lag_days"
+  ],
+  "n_missing_indicators": 11,
+  "blocks": [
+    [
+      2016,
+      2017
+    ],
+    [
+      2018,
+      2019
+    ],
+    [
+      2020,
+      2021
+    ]
+  ],
+  "seed": 20260921,
+  "threads": 4,
+  "horizon_days": 365,
+  "label_grace_days": 90,
+  "calibration_definition": "test diagnostic only; intercept with slope=1, joint intercept/slope reported separately",
+  "weighted_capacity_definition": "retrospective 5% weighted mass; boundary score ties split uniformly",
+  "frozen_a_diagnostic": "Fixed final A estimator and preprocessing applied to both test versions; zero additional training fits, separate outputs",
+  "limitations": [
+    "No confidence intervals yet",
+    "Sampling cofiling clusters are not assumed to be legal corporate groups",
+    "B is a deliberate future-vintage diagnostic, never a deployment model",
+    "The module validates supplied labels and weights but does not establish registry coverage or sampling probabilities"
+  ],
+  "status": "passed",
+  "real_data_models_fitted": 0,
+  "synthetic_model_interface_fits": [
+    {
+      "model": "LR",
+      "n_train": 128,
+      "n_test": 32,
+      "warnings": []
+    },
+    {
+      "model": "LGBM",
+      "n_train": 128,
+      "n_test": 32,
+      "warnings": []
+    }
+  ],
+  "hash_binding_self_test": {
+    "status": "pass",
+    "valid_bindings_accepted": 3,
+    "failure_paths_rejected": 11,
+    "rejected_conditions": [
+      "explicitly true",
+      "current main cohort hash differs",
+      "current main cohort hash differs",
+      "latest gate audit did not pass",
+      "protocol and audit cohort hashes disagree",
+      "generation is not complete",
+      "generated from a different main cohort",
+      "output hash differs",
+      "fact source changed",
+      "equivalent to main",
+      "no unique recorded sensitivity output"
+    ],
+    "fixture_directory": "D:\\MLWork\\scie_small_sample_topics_20260920\\finance_reframe_20260921\\results\\models_hash_binding_toy_20260921T093101418369Z",
+    "real_data_read": false,
+    "models_fitted": 0
+  },
+  "checks": [
+    "weighted median",
+    "all-missing feature",
+    "transform immutability",
+    "weighted AP/Brier versus integer replication",
+    "score tie invariance",
+    "weighted capacity",
+    "inclusive 455-day maturity",
+    "calibration identifiability",
+    "cohort schema and first-event label consistency",
+    "validation and test label maturity",
+    "corrupt label rejected",
+    "installed LR and LGBM weighted-fit interfaces"
+  ],
+  "finished_utc": "2026-09-21T09:31:01.541140+00:00"
+}

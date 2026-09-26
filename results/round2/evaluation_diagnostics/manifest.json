@@ -1,0 +1,121 @@
+{
+  "status": "COMPLETE",
+  "completed_utc": "2026-09-22T16:11:46.577002+00:00",
+  "script_path": "D:\\MLWork\\scie_small_sample_topics_20260920\\finance_reframe_20260921\\revision_20260922_round2\\scripts\\evaluation_diagnostics.py",
+  "script_sha256": "86309792bbe6b4c9ffe5f5c40f76517d4e3aef19ef3c4b2a28a405d119a075e4",
+  "design_sha256": "17186fb4557a16f3bd7d78b6d0115bcb6deff4f15cfa20cd88eab726e5390f34",
+  "new_model_fits": 0,
+  "network_requests": 0,
+  "seconds": 31.347452099900693,
+  "frozen_sources_unchanged": true,
+  "outputs": [
+    {
+      "path": "D:\\MLWork\\scie_small_sample_topics_20260920\\finance_reframe_20260921\\revision_20260922_round2\\results\\evaluation_diagnostics\\additional_validation.json",
+      "sha256": "bb25aea513d6a744a4e06cd24804082bcd272158e31045e634a30f51839b5b0d"
+    },
+    {
+      "path": "D:\\MLWork\\scie_small_sample_topics_20260920\\finance_reframe_20260921\\revision_20260922_round2\\results\\evaluation_diagnostics\\adjacent_horizon_by_landmark.parquet",
+      "sha256": "055aecf06cf850120ff060660a41964797f3b568859d5bf550e31bbaae1324ec"
+    },
+    {
+      "path": "D:\\MLWork\\scie_small_sample_topics_20260920\\finance_reframe_20260921\\revision_20260922_round2\\results\\evaluation_diagnostics\\adjacent_horizon_raw_component_changes.parquet",
+      "sha256": "0d56476f27be79e95e7c12c6212e5fc546a9add792e69d01182a012683a6f958"
+    },
+    {
+      "path": "D:\\MLWork\\scie_small_sample_topics_20260920\\finance_reframe_20260921\\revision_20260922_round2\\results\\evaluation_diagnostics\\adjacent_horizon_summary.csv",
+      "sha256": "9224f9386f6de2998bad0718e7adf3d443f88e1d500bdc106458f3ad7c2d518e"
+    },
+    {
+      "path": "D:\\MLWork\\scie_small_sample_topics_20260920\\finance_reframe_20260921\\revision_20260922_round2\\results\\evaluation_diagnostics\\annual_filing_continuity_by_landmark.parquet",
+      "sha256": "c3d76426e01c90aa2649881ad3eb9421f32cfadface4d18ed65c615e0b83b5d2"
+    },
+    {
+      "path": "D:\\MLWork\\scie_small_sample_topics_20260920\\finance_reframe_20260921\\revision_20260922_round2\\results\\evaluation_diagnostics\\continuity_cache_audit.json",
+      "sha256": "0ec9339ac7942e90fc2c605cab90f122850b7400d8fb6f01ca9d5d3e96b68a6b"
+    },
+    {
+      "path": "D:\\MLWork\\scie_small_sample_topics_20260920\\finance_reframe_20260921\\revision_20260922_round2\\results\\evaluation_diagnostics\\continuity_historical_frame_crosscheck.csv",
+      "sha256": "d50a72956e84a31da4b9ba8993991848a558d8e41604594c7dc7f7b4751cae2e"
+    },
+    {
+      "path": "D:\\MLWork\\scie_small_sample_topics_20260920\\finance_reframe_20260921\\revision_20260922_round2\\results\\evaluation_diagnostics\\design.json",
+      "sha256": "17186fb4557a16f3bd7d78b6d0115bcb6deff4f15cfa20cd88eab726e5390f34"
+    },
+    {
+      "path": "D:\\MLWork\\scie_small_sample_topics_20260920\\finance_reframe_20260921\\revision_20260922_round2\\results\\evaluation_diagnostics\\findings.md",
+      "sha256": "d291b17dece9c205b0f1a9ffc431979a8000d841a0dec3ad4a018a483eab64bc"
+    },
+    {
+      "path": "D:\\MLWork\\scie_small_sample_topics_20260920\\finance_reframe_20260921\\revision_20260922_round2\\results\\evaluation_diagnostics\\four_cell_decomposition_unrounded.csv",
+      "sha256": "40d682811a9b1413bc02d28859a4989707ed3c517da2116c24cf1319239636ed"
+    },
+    {
+      "path": "D:\\MLWork\\scie_small_sample_topics_20260920\\finance_reframe_20260921\\revision_20260922_round2\\results\\evaluation_diagnostics\\independent_conditional_1000_replicates.parquet",
+      "sha256": "6f41154bfc35f6b42c7a5203f88ea2a637ea62e17c6c3389098685366cb197dc"
+    },
+    {
+      "path": "D:\\MLWork\\scie_small_sample_topics_20260920\\finance_reframe_20260921\\revision_20260922_round2\\results\\evaluation_diagnostics\\independent_conditional_1000_summary.csv",
+      "sha256": "0b4b1703e9d20594cb5744665932ec7677e4a090006b65e67f11da5f6ff8603f"
+    },
+    {
+      "path": "D:\\MLWork\\scie_small_sample_topics_20260920\\finance_reframe_20260921\\revision_20260922_round2\\results\\evaluation_diagnostics\\independent_four_cell_metrics.csv",
+      "sha256": "05e2806d126a0d13f557950affad5ec733203f97a8cb3abd89c7f0b163e71a54"
+    },
+    {
+      "path": "D:\\MLWork\\scie_small_sample_topics_20260920\\finance_reframe_20260921\\revision_20260922_round2\\results\\evaluation_diagnostics\\independent_metric_audit.json",
+      "sha256": "43353c8ff0dcfe4c1aa42f45464ba8b2c76e1526abf8956deee622aa16dc295d"
+    },
+    {
+      "path": "D:\\MLWork\\scie_small_sample_topics_20260920\\finance_reframe_20260921\\revision_20260922_round2\\results\\evaluation_diagnostics\\perturbation_modes_all_replicates.csv",
+      "sha256": "7cbc25e07c439537d6c5ad65bd255a3e2e2a90db681fd83199152acf7e28fa2e"
+    },
+    {
+      "path": "D:\\MLWork\\scie_small_sample_topics_20260920\\finance_reframe_20260921\\revision_20260922_round2\\results\\evaluation_diagnostics\\perturbation_modes_all_replicates.parquet",
+      "sha256": "3c22abd6641061149281a830a76653c5d23b1b9b7868fe486fa2a59b7de2c336"
+    },
+    {
+      "path": "D:\\MLWork\\scie_small_sample_topics_20260920\\finance_reframe_20260921\\revision_20260922_round2\\results\\evaluation_diagnostics\\perturbation_modes_distribution_summary.csv",
+      "sha256": "09f805f2f1c8dc7b3e2e53b4cec0d7f0c74aad736fe3545b081baa179e67254c"
+    },
+    {
+      "path": "D:\\MLWork\\scie_small_sample_topics_20260920\\finance_reframe_20260921\\revision_20260922_round2\\results\\evaluation_diagnostics\\perturbation_reuse_audit.json",
+      "sha256": "70eda97cc8cae2255813ec70a931750a87d036a9ea85b78b7ceba11ca2e0c060"
+    },
+    {
+      "path": "D:\\MLWork\\scie_small_sample_topics_20260920\\finance_reframe_20260921\\revision_20260922_round2\\results\\evaluation_diagnostics\\raw_component_change_magnitudes.parquet",
+      "sha256": "c5c5293be3037f6aef31c9b48604ba370622eb2275667049f8001a072a311274"
+    },
+    {
+      "path": "D:\\MLWork\\scie_small_sample_topics_20260920\\finance_reframe_20260921\\revision_20260922_round2\\results\\evaluation_diagnostics\\raw_component_magnitude_summary.csv",
+      "sha256": "e0f9991597bff231ba1631b2751f98bfb43f9225f5fd89731469d3b4ee53e95e"
+    },
+    {
+      "path": "D:\\MLWork\\scie_small_sample_topics_20260920\\finance_reframe_20260921\\revision_20260922_round2\\results\\evaluation_diagnostics\\raw_component_sign_categories.csv",
+      "sha256": "2eb82c5fce2ec9b34d23ac2d819667115623b3432af5cfbaafc2e63c4015afa8"
+    },
+    {
+      "path": "D:\\MLWork\\scie_small_sample_topics_20260920\\finance_reframe_20260921\\revision_20260922_round2\\results\\evaluation_diagnostics\\self_test.json",
+      "sha256": "8d5ebca4299b0811e62978138ed6d4fe4fd06c5258251984bc5c90ea680d7c32"
+    },
+    {
+      "path": "D:\\MLWork\\scie_small_sample_topics_20260920\\finance_reframe_20260921\\revision_20260922_round2\\results\\evaluation_diagnostics\\training_B_source_timing_by_landmark.parquet",
+      "sha256": "cf5df9a443b1e0c7a80c2a5226efcd2540b80f4176cc41bb20342e499cbf57bd"
+    },
+    {
+      "path": "D:\\MLWork\\scie_small_sample_topics_20260920\\finance_reframe_20260921\\revision_20260922_round2\\results\\evaluation_diagnostics\\training_B_source_timing_summary.csv",
+      "sha256": "0cc721e1ce0c959b4e1ffb626903d7fb0278c7b85963346139f563d478911e66"
+    },
+    {
+      "path": "D:\\MLWork\\scie_small_sample_topics_20260920\\finance_reframe_20260921\\revision_20260922_round2\\results\\evaluation_diagnostics\\training_time_definition.json",
+      "sha256": "cb11b0e124a9d0e5e43a02c9a5719eedaeeb23f52cb3adda31d3f09c1a42bc8a"
+    },
+    {
+      "path": "D:\\MLWork\\scie_small_sample_topics_20260920\\finance_reframe_20260921\\revision_20260922_round2\\results\\evaluation_diagnostics\\version_exposure_by_landmark.parquet",
+      "sha256": "9ac43cf2df22b0be83db7f7840b7c5eadfd55c4a9fffc06d69c160c587ae64ef"
+    },
+    {
+      "path": "D:\\MLWork\\scie_small_sample_topics_20260920\\finance_reframe_20260921\\revision_20260922_round2\\results\\evaluation_diagnostics\\version_exposure_summary.csv",
+      "sha256": "1d38e09aa48c675c2bb97a19d0086fd65395d0dc7910ec953a6b56bba6b4f4cf"
+    }
+  ]
+}

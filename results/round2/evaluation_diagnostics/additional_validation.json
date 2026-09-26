@@ -1,0 +1,21 @@
+{
+  "status": "PASS",
+  "source_change_classification_matches_frozen_exact_raw_count": true,
+  "all_cohort_label_counts": {
+    "0": 5314,
+    "1": 188
+  },
+  "replicate_multiplier_shape": [
+    200,
+    1000
+  ],
+  "max_saved_weight_multiplier_error": 0.0,
+  "noncase_draw_units_without_any_cohort_row": 268,
+  "continuity_independent_frame_check": {
+    "eligible_full_intervals": 5093,
+    "agreements": 5093,
+    "disagreements": 0,
+    "interpretation": "Archived historical master index and current official submissions are different metadata routes. Discrepancies are disclosed, not silently recoded; official listings define the descriptive continuation variable."
+  },
+  "implementation_note": "Initial self-test used exact floating equality for 5%-capacity tie recall and stopped before empirical output. Replaced only this assertion by absolute tolerance1e-15; no metric formula or frozen analysis definition changed. Final additional checks do not change estimates."
+}

@@ -1,0 +1,1407 @@
+PDF PAGE 1
+Correia, Maria (2025) Accounting and corporate failure: the evolving role of
+accounting information in bankruptcy prediction. Accounting and Business
+Research, 55 (5), 510 - 537. https://doi.org/10.1080/00014788.2025.2516273
+https://researchonline.lse.ac.uk/id/eprint/128340/
+Version: Published Version
+Licence: Creative Commons: Attribution 4.0
+LSE Research Online is the repository for research produced by the London School
+of Economics and Political Science. For more information, please refer to our Policies
+page or contact lseresearchonline@lse.ac.uk
+
+PDF PAGE 2
+Accounting and Business Research
+ISSN: 0001-4788 (Print) 2159-4260 (Online) Journal homepage: www.tandfonline.com/journals/rabr20
+Accounting and corporate failure: the evolving
+role of accounting information in bankruptcy
+prediction
+Maria Correia
+To cite this article: Maria Correia (2025) Accounting and corporate failure: the evolving role
+of accounting information in bankruptcy prediction, Accounting and Business Research, 55:5,
+510-537, DOI: 10.1080/00014788.2025.2516273
+To link to this article:  https://doi.org/10.1080/00014788.2025.2516273
+© 2025 The Author(s). Published by Informa
+UK Limited, trading as Taylor & Francis
+Group
+Published online: 03 Sep 2025.
+Submit your article to this journal 
+Article views: 134
+View related articles 
+View Crossmark data
+Citing articles: 1 View citing articles 
+Full Terms & Conditions of access and use can be found at
+https://www.tandfonline.com/action/journalInformation?journalCode=rabr20
+
+PDF PAGE 3
+Accounting and corporate failur e: the
+evolving r ole of accounting information in
+bankruptcy pr ediction
+MARIA CORREIA
+*
+London School of Economics and Political Science, London, UK
+This paper reviews the extensive literature on the predictive power of accounting information
+for bankruptcy . Prior research demonstrates that financial statement information effectively
+predicts bankruptcy out-of-sample, both independently and in combination with market
+data. I discuss several attributes of accounting information that may enhance or impair its
+utility in bankruptcy prediction. Using a comprehensive dataset of bankruptcies from 1980
+to 2023, I analyse how the role of accounting information in credit risk assessment has
+evolved over the past four decades. My findings reveal that the predictive power of models
+based solely on accounting information has remained stable over the most recent decades,
+whereas the predictive power of equity market information has shown a modest increase.
+Notably , the performance of accounting and market-based models does not always align. In
+periods of declining market information efficacy , accounting information often remains
+robust, mitigating the impact on combined models. Conversely , market information
+frequently offsets reductions in the predictive power of accounting data, underscoring the
+complementary strengths of these information sources.
+Keywords: bankruptcy prediction; default; credit risk
+1. Introd uction
+Corporate failures impose significant costs on a broad spectrum of stakeholders, including inves-
+tors, creditors, employees, auditors, regulators, and society at large. These failures often trigger
+contagion ef fects, resulting in far-r eaching consequences at both industry and macroeconomic
+levels. Corporate failure, broadly defined, occurs when a company fails to meet its responsibil-
+ities to stakeholders, such as shareholders, employees, customers, and the broader community .
+Such failures can stem from various causes, including macroeconomic shocks, technological dis-
+ruptions, or agency problems. Prominent examples like W irecard and Carillion underscore the
+profound economic and social costs of corporate failure, which often culminates in financial
+© 2025 The Author(s). Published by Informa UK Limited, trading as T aylor & Francis Group
+This is an Open Access article distributed under the terms of the Creative Commons Attribution License (http://creativecommons.org/
+licenses/by/4.0/), which permits unrestricted use, distribution, and reproduction in any medium, provided the original work is properly
+cited. The terms on which this article has been published allow the posting of the Accepted Manuscript in a repository by the
+author(s) or with their consent.
+*Corresponding author . Email: m.m.correia@lse.ac.uk
+Accounting and Business Resear ch, 2025
+V ol. 55, No. 5, 510–537, https://doi.org/10 .1080/00014788.2025.2516273
+
+
+PDF PAGE 4
+distress, default, and ultimately , bankruptcy or liquidation. This paper explores the evolving role
+of accounting information in predicting these critical outcomes.
+1
+Extensive research has examined the role of accounting information in forecasting financial
+distress. A foundational contribution to this field is Beaver (1966), which identifies six categories
+of financial statement ratios with significant predictive ability for bankruptcy . Building on
+Beaver ’ s seminal work, subsequent studies assess the predictive power of accounting infor-
+mation both in isolation and in combination with other sources, such as equity , credit, and
+option data. These studies consistently highlight the incremental value of accounting information
+in predicting financial distress, even when market data are available. However , as Correia,
+Richardson, and T una (2012) and Correia, Richardson and Kang (2018) note, the role of account-
+ing information in this context is not always fully appreciated by credit market investors.
+Over the years, empirical methods for predicting financial distress have grown increasingly
+sophisticated, spurred by advancements in machine learning techniques, the availability of non-
+traditional data sources, and increased computing power . Despite these advancements, Beaver ’ s
+core finding – that accounting information has predictive power for bankruptcy – has remained
+remarkably robust. This predictive ability has persisted despite major changes in accounting
+standards and a shift from conservative to fair value accounting practices, changes that some
+feared would diminish the reliability of accounting information and its relevance for creditors.
+Naturally , isolating the ef fects of changes in accounting standards from concurrent macroeco-
+nomic shifts or other regulatory interventions (e.g. Sarbanes Oxley , Dodd-Frank Act) presents
+a significant challenge.
+Much of the earlier literature on bankruptcy prediction developed without an explicit theor-
+etical framework. The Merton (1974) model of credit spreads, however , provides a valuable
+foundation for understanding the role of accounting information in this context. In the Merton
+model, the key construct is the market value of the firm’ s assets and its dynamic evolution
+over time. Default occurs when the market value of the firm’ s assets falls below a critical
+threshold, referred to as the default barrier . This framework employs standard option-pricing
+techniques to model asset value evolution, which depends on the initial asset value, asset vola-
+tility , and drift. The probability of default increases as the distance between the firm’ s asset value
+and its default barrier narrows, particularly when asset volatility is high.
+W ithin the Merton (1974) framework, accounting information becomes critical for bank-
+ruptcy prediction by providing insights into three essential components: the value of the firm’ s
+assets (Duffie and Lando, 2001), the dynamics of asset evolution – including volatility and
+drift terms (Correia et al. 2018) – and the default barrier , representing the firm’ s debt obligations
+(Giesecke 2006). This framework offers a structured approach to integrating accounting data into
+bankruptcy risk evaluation. It also highlights potential limitations of the accounting system,
+serving as a basis to evaluate how changes in accounting standards and disclosure regulation
+may impact the predictive power of accounting information for future defaults.
+In this paper , I begin by laying out the Merton (1974) framework, as a starting point to under-
+standing the potential role of accounting information in default and bankruptcy prediction. I then
+review the accounting and finance literatures on the role of financial ratios in bankruptcy prediction,
+highlighting some of their key findings. In doing so, I also touch on the findings of a more recent
+literature that investigates the extent to which accounting information is reflected in credit spreads.
+I then re-examine the incremental predictive value of accounting information for bankruptcy
+using a long time-series of data that extends to 2023. I show that accounting information has
+1
+Throughout the paper , I use the term ‘accounting information’ to refer not only to the content of firms’
+financial statements but also to financial disclosures more broadly .
+Accounting and Business Resear ch 51 1
+
+PDF PAGE 5
+retained its predictive value over time, robustly playing a role in bankruptcy prediction out-of-
+sample, incremental to market information, despite changes in accounting standards, economic
+conditions, and firm composition.
+I document a modest increase in the predictive power of equity market information for bank-
+ruptcy over time, along with improvements in combined models that integrate both market and
+accounting data. Notably , the predictive power of models relying solely on accounting infor-
+mation has remained stable over the more recent decades. Our findings suggest that the loss
+in the predictive power of financial ratios between 1962 and 2002 (Beaver et al. 2005, 2012)
+was reversed in the last two decades, a reversal which might be driven by a series of regulatory
+reforms.
+Interestingly , the predictive performance of accounting and market models does not always
+move in tandem. In periods where the predictive power of market information declines, account-
+ing information often remains robust, mitigating the impact on combined bankruptcy prediction
+models. Conversely , equity market information frequently compensates for reductions in the pre-
+dictive power of accounting data, highlighting the complementary strengths of these information
+sources.
+Further , building on prior research, and on the Merton (1974) theoretical framework, I reflect
+on the potential limitations of financial statement data for default and bankruptcy prediction, as
+well as on the characteristics of accounting information that render it more (or less) useful for
+bankruptcy prediction.
+Finally , I explore outstanding questions and suggest several avenues for future research.
+2. A theoretical framework
+Much of the bankruptcy prediction literature developed without a formal theoretical framework.
+Nonetheless, some of the earlier studies reference the inventory-theoretic approach proposed by
+Baumol (1952). In Baumol’ s model, a company is conceptualised as a reservoir of liquid assets,
+replenished by inflows such as cash generated from operations and depleted by outflows like debt
+obligations and expenses. This reservoir functions as a buf fer against fluctuations in cash flows,
+with financial distress modelled as the probability that the reservoir becomes empty , leaving the
+company unable to meet its obligations.
+According to this framework, the likelihood of financial distress increases when the size of
+the reservoir , representing the firm’ s liquid assets, is insufficient. Similarly , financial distress is
+more likely when expected inflows, such as net cash flows from operations, are lower , or when
+expected outflows, such as debt repayment obligations, are higher . Additionally , greater variabil-
+ity in cash inflows, reflecting heightened volatility in operational cash flows, further raises the
+risk of the reservoir being depleted. This simple yet intuitive model underscores the importance
+of liquid assets, the stability of cash flows, and the balance between inflows and outflows (all of
+which can be approximated by financial statement variables) in assessing a firm’ s vulnerability to
+financial distress and bankruptcy .
+Some of the more recent studies on default prediction build on the seminal work of Merton
+(1974). This framework is particularly helpful when thinking about the properties of account-
+ing information that that might render it more useful in predicting future firm failure.
+In the Merton model, the central construct is the firm’ s asset value and its evolution over time.
+According to the model, a firm defaults when its asset value falls below the book value of its debt.
+The probability of default for firm i at time t can be expressed as:
+PD
+i,t
+= Pr [ln(V
+A
+i,t
+) ≤ ln(X
+i,t
+)] (1)
+512 M. Corr eia
+
+PDF PAGE 6
+where V
+A
+i,t
+represents the asset value of firm i at time t , and X
+i,t
+denotes the book value of the
+firm’ s contractual liabilities due at time t .
+The Merton framework describes the evolution of asset values using a standard option-
+pricing framework. The value of assets at time t , V
+A
+i,t
+, depends on the initial asset value
+(V
+A
+i,0
+), asset volatility ( s
+2
+A
+i,t
+), the drift in the asset value ( m
+i
+), the forecasting time horizon, t ,
+and the Brownian motion shocks to asset values (1
+i,t
+). This relationship allows equation (1) to
+be rewritten as:
+PD
+i,t
+= Pr ln (V
+A
+i,0
+) + m
+i
+ 
+s
+2
+A
+i,t
+2
+􏼠 􏼡
+t + s
+A
+i,t
+�
+t
+√
+1
+i,t
+≤ ln(X
+i,t
+)
+􏼢 􏼣
+(2)
+Rearranging this equation yields:
+PD
+i,t
+= Pr  
+ln
+V
+A
+i,0
+X
+i,t
+􏼒 􏼓
++ m
+i
+ 
+s
+2
+A
+i,t
+2
+􏼠 􏼡
+t
+s
+A
+i,t
+�
+t
+√ ≥ 1
+i,t
+⎡
+⎢
+⎢
+⎢
+⎢
+⎣
+⎤
+⎥
+⎥
+⎥
+⎥
+⎦
+(3)
+Equation (3) illustrates that the greater the distance between the market value of the firm’ s assets
+and the book value of its debt, relative to asset volatility , the lower the probability of default.
+Although the Merton model is simplistic, its framework has been extended in the literature to
+account for complexities such as differe nt types of debt, stochastic interest rates, bankruptcy
+costs, and tax effects (e.g. Black and Cox 1976, Geske 1977, Longstaf f and Schwartz 1995,
+Leland and T oft 1996).
+While neither the value of the firm’ s assets nor its volatility are directly observable, they can
+be inferred under the model’ s assumptions by iteratively solving a system of nonlinear equations
+based on equity value, equity volatility , and other variables. This exercise presumes that the strict
+assumptions of the Merton model are valid. Alternatively , one can use the Merton model as a
+framework to guide the choice of bankruptcy predictors and the way in which they are combined.
+This second approach seems to dominate the first (please refer to Section 3.2 for a discussion),
+which suggests that the Merton model does not fully capture reality , in part due to its stringent
+assumptions.
+Despite its limitations, the Merton model provides a valuable framework for understanding
+the of accounting information (both financial ratios and accounting disclosures more broadly) in
+default prediction. It highlights that accounting information can have incremental predictive
+power for bankruptcy when it provides additional insights into a firm’ s initial asset values,
+their evolution – i.e. asset volatility and asset return drift – and default barriers (i.e. leverage).
+This framework is also instrumental in identifying scenarios where the accounting system may
+generate less reliable measures of these key variables, reducing the relevance of accounting
+information for assessing credit risk. Conversely , it helps pinpoint situations where accounting
+information is likely to be particularly valuable in evaluating financial health. As such, this
+offers important insights for standard setters, whose objective is to provide relevant and reliable
+information to stakeholders, including data with strong predictive value for creditors’ decision-
+making.
+Accounting and Business Resear ch 513
+
+PDF PAGE 7
+3. The r ole of accounting information in default prediction
+3.1. Reduced form models
+Bankruptcy prediction models initially developed with little or no theoretical guidance, emerging
+from practical needs before being formalised in academic literature. The origins of credit analysis
+for estimating default and bankruptcy risk can be traced back to the late nineteenth century (Kur -
+unmäki and Miller 2013). During this period, lar ge manufacturers and wholesalers began
+employing ‘credit men’ to assess the creditworthiness of existing and prospective clients.
+These professionals were instrumental in the development of accounting standards, advocating
+for uniform financial statements and contributing to the widespread adoption of ratio analysis. By
+the late 1890s, banks had also begun to rely heavily on financial ratios for credit decision-
+making.
+A significant milestone in the development of credit analysis occurred in 1919 when Alex-
+ander W all, at the request of the Federal Reserve Board, conducted a study on ‘credit baro-
+metrics.’ His work, followed by others such as W all and Duning (1928) and Fitzpatrick
+(1932) proposed a list of accounting ratios believed to be strong predictors of credit quality .
+These early efforts often involved univariate analyses or arbitrary weighting of ratios, setting
+the stage for more systematic approaches.
+Beaver (1966) expands on these early effo rts by systematically comparing the levels and
+changes of 30 financial ratios for bankrupt and non-bankrupt firms in the years preceding bank-
+ruptcy . He groups these ratios into six categories: (i) cash flow ratios; (ii) net income ratios;
+(iii) debt-to-total-asset ratios; (iv) liquid-asset-to-total-asset ratios; (v) liquid-asset-to-current-debt
+ratios; and (vi) turnover ratios. From each group, he selects one representative ratio for more detailed
+analysis: cash flow to total debt, income to total assets, total debt to total assets, working capital to
+total assets, current assets to current liabilities, and a turnover ratio. His findings highlight significant
+differences in both the levels and changes of these ratios between bankrupt and non-bankrupt firms
+in the years leading up to bankruptcy . These results suggest that each ratio has incremental expla-
+natory power for bankruptcy prediction, though this predictive power varies across ratios. Beaver ’ s
+analysis emphasises the importance of combining multiple financial statement variables to assess the
+predictive power of accounting information and lays the groundwork for a more systematic
+approach to using financial ratios in predicting financial distress and bankruptcy .
+Another seminal early study in bankruptcy prediction is Altman (1968). Altman (1968)
+examines five variables using a multiple discriminant analysis: a liquidity measure (working
+capital to total assets), a measure of cumulative profitability (retained earnings to total assets),
+a profitability measure (earnings before interest and taxes to total assets), a leverage ratio
+(market value of equity to total liability), and a total asset turnover ratio (sales to total assets).
+Based on this analysis, Altman proposes the Z-Score, a score still broadly used both in the
+academic literature and in practice.
+2
+Ohlson (1980) brought a significant advancement to bankruptcy prediction research by intro-
+ducing conditional logit estimation. This approach, which imposes fewer distributional restric-
+tions on explanatory variables compared to multiple discriminant analysis, represented a
+methodological leap forward. Ohlson’ s model combines a series of ratios, many of which
+already explored by Beaver (1966) and Altman (1968).
+3
+The resulting Ohlson O-Score
+2
+A few years later , Altman also produced a separate score for private firms (Altman 1983), which did not
+rely on the market value of equity .
+3
+These include total liabilities to total assets, working capital to total assets, current assets to current liabil-
+ities, net income to total assets, funds provided by operations divided by total liabilities, two dichotomous
+variables (negative net worth and negative earnings), and a percentage change in earnings variable.
+514 M. Corr eia
+
+PDF PAGE 8
+remains widely used in both academic and practical contexts, similar to the enduring influence of
+the Altman Z-Score.
+4
+Shumway (2001) shows that a hazard model off ers both theoretical and empirical advantages
+over static models, such as the conditional logit model employed by Ohlson (1980). The hazard
+model accounts for period at risk and accommodates time-varying covariates, enabling it to
+leverage all available information to estimate bankruptcy probabilities at each point in time.
+This dynamic approach mitigates the selection biases inherent in static models, providing
+more accurate and robust predictions. In addition to a novel estimation approach, Shumway pro-
+poses a model that combines a series of accounting and market variables, including return on
+assets, accounting leverage, market size, past stock returns, and the idiosyncratic volatility of
+stock returns. Importantly his findings confirm that accounting information retains predictive
+power when combined with equity market data, despite the latter potentially reflecting a
+broader mix of information, including insights derived from the accounting variables themselves.
+Along a similar line, Beaver , McNichols and Rhie (2005) compare the predictive ability of
+three models: (i) an accounting model; (ii) a market model; and a (iii) combined model that inte-
+grates the predictors in the accounting and market models.
+5
+Beaver et al. (2005) find that the
+market model outperforms the accounting model in predictive power . This outcome is not unex-
+pected, given that market prices are updated with greater frequency than financial statement data
+and incorporate a broader spectrum of information, including insights derived from accounting
+metrics. However , Beaver et al. (2005) also confirm Shumway’ s finding that accounting infor-
+mation has incremental predictive power with respect to the equity market variables. That is,
+the combined model has higher predictive power than the market model. When reflecting on
+the incremental predictive power of accounting information, Beaver et al. (2005) highlight
+several limitations of equity market data. While market prices incorporate an assessment of
+the probability of bankruptcy , extracting this assessment is not straightforward. The non-linear
+nature of the payof f function for common stock becomes increasingly important as probability
+of bankruptcy increases because of risky debt and limited liability . Moreover , market prices
+may not be informationally efficient in the sense that they may not reflect the all the information
+that is available.
+6
+Similar to Shumway (2001) and the combined model proposed by Beaver et al. (2005),
+Campbell, Hilscher , and Szilagyi (2008) integrate a range of accounting and market-based vari-
+ables in their bankruptcy prediction model. They corroborate earlier findings that accounting
+information provides incremental predictive power for bankruptcy risk. Additionally , they
+4
+Zmijewski (1984) highlights several methodological issues faced in this literature including potential
+biases resulting from the ‘oversampling’ of distressed firms and by the unavailability of data as firms
+approach bankruptcy . Subsequent literature attempts to mitigate some of these concerns.
+5
+The accounting model includes three ratios, intended to capture three key elements of the financial strength
+of a firm: the firm’ s profitability (return on total assets), the ability of cash flow from operations pre-interest
+and pre-taxes to service the principal and interest payments (EBITDA to total liabilities), and leverage, that
+is, the extent to which the firm relies on debt to finance its investments (total liabilities to total assets). The
+market model includes the logarithm of market capitalization of equity (scaled by the market capitalization
+of a market index), cumulative security residual returns, and the standard deviation of security returns.
+6
+Beaver et al. (2012) augment the accounting and combined models by introducing a loss indicator and
+interacting it with all other predictors. This approach allows the estimation of distinct slope coefficients
+for years in which firms report losses. This modification significantly improves out-of-sample predictive
+accuracy . The results of their estimation indicate that the remaining accounting and market variables are
+assigned lower weights for loss firms. Specifically , the incremental coefficients for loss firms are statisti-
+cally significant and of the opposite sign, effectively driving the combined coefficients for these firms
+toward zero. This adjustment reflects the nuanced behavior of predictors in the context of financial distress.
+Accounting and Business Resear ch 515
+
+PDF PAGE 9
+uncover that the relative importance of accounting and market variables shifts depending on the
+prediction horizon. Specifically , as the prediction horizon extends, the significance of market-
+based variables – such as market capitalisation, market-to-book ratio, and volatility – grows
+relative to accounting-based variables like net income, leverage, and recent equity returns.
+Several studies expand the scope of market information in bankruptcy prediction models by
+incorporating historical credit market returns (and their volatility) as well as historical equity and
+credit market return correlations, to calculate measures of asset volatility (e.g. Schaefer and Stre-
+bulaev 2008). These studies further consider forward-looking market information using the
+implied volatility from at-the-money put and call options. Correia et al. (2018) show that
+asset volatility measures that combine equity and debt returns, and option implied volatility
+have incremental predictive power for bankruptcy . This finding aligns with earlier research by
+Cremers et al. (2008), and Cao et al. (2010), which shows that option implied volatility provides
+additional explanatory power over historical volatility in capturing both time-series and cross-
+sectional variation in credit spreads. Notably , despite these advancements, accounting infor-
+mation continues to hold significant incremental predictive value in these models.
+Recent research ef forts aim to enhance these models by imposing a stronger theoretical struc-
+ture, often drawing on the Merton (1974) model (discussed in Section 2) or its variations that
+relax some of the original assumptions. These advances also include building on a more compre-
+hensive financial analysis, utilising more granular financial statement information alongside
+other financial and non-financial data, and applying more sophisticated statistical techniques.
+In sections 3.2, 3.3, and 3.4, I explore some of these innovations in greater detail.
+3.2. Structural models
+Numerous studies explore the predictive power of distance-to-default measures derived from the
+Merton (1974) structural framework. Hillegeist et al. (2004), for instance, find that a distance-to-
+default measure outperforms modified versions of both the O-Score and Z-Score in predicting
+default. Bharath and Shumway (2008) compares compare the predictive ability of an implied dis-
+tance-to-default metric with a reduced-form model that incorporates key inputs from the Merton
+framework. Their findings suggest that reduced-form models often outperform the Merton
+approach, primarily due to the latter ’ s reliance on stringent assumptions that do not fully
+capture reality and limit its applicability . By combining the Merton-implied distance-to-
+default metric with additional predictors, they achieve enhanced predictive accuracy . Similarly ,
+Campbell et al. (2008) show that reduced-form econometric approaches, which allow for more
+flexible treatment of volatility , leverage, and other variables, outperform structural approaches in
+predicting corporate failure.
+While these findings indicate that a fully structural approach – simultaneously estimating an
+implied value and volatility of assets – does not maximise out-of-sample predictive power ,
+several studies build on the Merton (1974) model to develop theoretically grounded bankruptcy
+predictors based on financial statement data. For instance, Correia et al. (2018) focus on asset
+volatility and investigate whether fundamental risk measures can be used to improve on existing
+models.
+7
+Their findings suggest that combining market-based and fundamental measures of
+7
+Specifically , they assess the extent to which accounting information provides additional predictive value
+beyond market-based volatility in forecasting corporate failure and explaining credit spreads. Their analysis
+explores the role of historical volatility in profitability , margins, turnover , operating income growth, and
+sales growth. Additionally , they incorporate dispersion in analyst forecasts of future earnings and quantile
+regression forecasts of "left tail" risk in profitability (e.g., Konstantinidi and Pope 2016).
+516 M. Corr eia
+
+PDF PAGE 10
+volatility improves out-of-sample bankruptcy forecasts. These results are consistent with the
+argument that the inherent conservatism of financial reporting captures elements of risk in
+accounting outputs (Penman 2016, 2021).
+3.3. Expanding the use of financial and non-financial information
+Recent studies have sought to expand the set of bankruptcy predictors, leveraging advance-
+ments in data availability and computational power . These studies often develop theoretically
+motivated predictors, which they then test empirically . For instance, Beaver et al. (2019,
+2024) investigate the role of granular within-group financial information. They find that a
+bankruptcy prediction model based on consolidated group financial statements can be signifi-
+cantly enhanced by incorporating bankruptcy probability data for individual entities within the
+group. These findings suggest that intra-group exposures – often netted out during consolida-
+tion – contain valuable credit-relevant information that contributes to more accurate predic-
+tions of financial distress.
+Other studies have explored the use of narrative disclosures as predictors of bankruptcy . For
+instance, Mayew , Sethuraman, and V enkatachalam (2015) find that management’ s opinion on
+going concern, as expressed in the Management Discussion and Analysis (MD&A) section of
+the annual report, along with the tone of this section, has predictive power for future bankruptcy
+(up to three years ahead). This predictive power is incremental to both financial statement and
+equity market data. Similarly , Donovan et al. (2021) show that qualitative disclosures in the
+10-K report and conference calls also provide predictive insights into future bankruptcy ,
+adding value beyond a set of financial statement variables. Auditor going concern opinions
+have also been shown to offer valuable information (Gutierrez et al. 2020), as they encapsulate
+a complex set of conditions that are often beyond the reach of traditional default predictors.
+Notably , even with the incorporation of these additional predictors, the incremental predictive
+power of traditional accounting ratios remains significant.
+Jones (2017) examines a broad set of bankruptcy predictors, including ownership concen-
+tration, the percentage of institutional and insider ownership, and CEO compensation. The
+study finds that several of these governance-related variables rank among the most powerful pre-
+dictors of bankruptcy , surpassing traditional accounting ratios in predictive strength. This finding
+is consistent with earlier literature documenting a role of corporate governance in bankruptcy
+prediction (e.g. Daily and Dalton 1994). In contrast, analyst forecasts and recommendations con-
+tribute relatively little to prediction accuracy , which is consistent with prior findings that analysts
+often respond with a delay to significant increases in default risk (Jones and Johnstone 2012,
+Precourt and Oppenheimer 2017).
+Finally , a few studies investigate the influence of personal characteristics of executives and
+rank-and-file employees, finding that prior criminal records or personal defaults are associated
+with a higher likelihood of firm-level financial distress and bankruptcy (Kallunki and Pyykkö
+2013, Regenburg and Seitz 2021).
+3.4. Alternative estimation techniques
+A notable limitation of the discrete hazard models traditionally used in bankruptcy prediction is
+their inability to capture nonlinearities and interactions among independent variables. T o address
+this issue, several studies have employed non-parametric techniques as alternative methodologi-
+cal approaches. One such approach is the Classification and Regression T rees (CAR T) method-
+ology developed by Breiman et al. (1984). The use of this technique in the context of default
+prediction is not new – Frydman, Altman, and Kao (1985) find that it outperforms discriminant
+Accounting and Business Resear ch 517
+
+PDF PAGE 11
+analysis in out-of-sample tests.
+8
+Correia et al. (2018) use this approach, alongside discrete hazard
+model estimation. They report variable importance scores for a range of predictors. These scores
+quantify the contribution of each variable to the predictive model by summing the improvement
+attributed to the variable at each tree node, weighted by the number of observations passing
+through that node (i.e. splits lower in the tree with only a smaller fraction of data passing
+through receive lower scores). Their findings highlight leverage as the most important variable
+in predicting bankruptcy . Additionally , they demonstrate that the importance scores of funda-
+mental-based measures of asset volatility surpass those of market-based volatility measures.
+Other variables related to the distribution of return on net operating earnings also play a signifi-
+cant role. These results underscore the critical role of fundamental accounting information in
+bankruptcy prediction.
+9
+Jones (2017) employs a gradient boosting model to analyse a lar ge set of traditional and non-
+traditional bankruptcy predictors. The study finds that the gradient boosting model exhibits
+superior out-of-sample predictive performance compared to a conventional logit model.
+Additionally , the model yields variable importance metrics that, as discussed above, identify
+non-financial variables among the top predictors, while also reaffirming the continued relevance
+of accounting information.
+Another example of the use of machine-learning in this context is Donovan et al. (2021),
+who rely on three supervised machine-learning techniques (support vector regressions, super -
+vised Latent Dirichlet Allocation, and random forest regression trees) to predict bankruptcy
+(and other negative credit events) based on firms’ qualitative disclosures in conference calls
+and in the 10-K MD&A section. Below , I discuss how future studies may investigate the
+use of generative AI to summarise information contained in this type of disclosures as a
+first step to build potentially more powerful bankruptcy predictors (Kim, Muhn and Nikolaev
+2024, 2025).
+3.5. Reexamining the predictive power of accounting information
+The analysis of predictive power in some earlier studies was not conducted out-of-sample, and
+the sample used by Beaver et al. (2012) ends in 2002, leaving out 20 years of potentially signifi-
+cant changes (e.g. Sarbanes Oxley , Dodd-Frank Act, and new accounting standards, such as ASC
+842 on lease accounting). T o assess how the predictive power of accounting information has
+evolved in more recent years, I estimate the probability of bankruptcy using a comprehensive
+sample of U.S. Chapter 7 and Chapter 1 1 bankruptcy filings spanning from 1980 to the end of
+2023. I combine bankruptcy data from two main sources: Correia et al. (2018) and Audit Ana-
+lytics. Following Shumway (2001), I employ a discrete time-hazard model, incorporating three
+types of observations in the estimation: nonbankrupt firms, years before bankruptcy for bankrupt
+firms and bankruptcy years. The dependent variable is set to 1 if a firm files for bankruptcy within
+8
+The CAR T methodology recursively partitions the data into increasingly homogeneous subsets, using the
+Gini rule to identify the optimal split at each node of the tree. The process generates a maximal tree, along-
+side a set of sub-trees. Cross-validation is then used to estimate the AUC for the various sub-trees, and to
+select the minimal cost tree. This tree structure allows for flexible, nonlinear , and interactive relationships
+between the probability of default and the various default predictors. Importantly , it mitigates concerns that
+results may be artifacts of methodological variance, providing a robust alternative for analyzing complex
+relationships.
+9
+Beaver et al. (2019) employ a similar methodology to evaluate the role of granular subsidiary-level infor-
+mation in predicting bankruptcy at the parent company level. Consistent with the findings of Correia et al.
+(2017), they identify (consolidated) parent leverage as the most important variable, followed by subsidiary-
+level bankruptcy risk.
+518 M. Corr eia
+
+PDF PAGE 12
+one year of the end of the month, and 0 otherwise. I keep the first bankruptcy filing and exclude
+from the sample all months following that filing.
+Following Correia et al. (2012, 2018), I use quarterly financial data and update market data
+on a monthly basis to obtain monthly estimates of the probabilities of bankruptcy . Market vari-
+ables are measured at the end of each month, and accounting variables are derived from the most
+recent quarterly reports available prior to the month’ s end. I winsorize all independent variables
+at the 1st and 99th percentiles to mitigate the influence of extreme values. T o ensure the integrity
+of the analysis, all independent variables are required to be observable prior to the declaration of
+bankruptcy . Additionally , to ensure out-of-sample prediction and to avoid potential bias from ex
+post overfitting, I estimate coefficients using an expanding window approach. This method gen-
+erates a unique set of coefficients for each model in each month. Using these coefficients, I cal-
+culate fitted scores for each firm in each month. These scores are then converted into probabilities
+using the logistic transformation: Prob = e
+score
+/1 + e
+score
+.
+I begin by estimating several models that focus primarily on accounting variables, including
+the Altman (1968) Z-Scor e model, the Ohlson (1980) O-Scor e model, and the Beaver et al.
+(2012) accounting model (BCM ACC). Notably , the Z-Score incorporates market leverage along-
+side accounting variables and, therefore, it is not strictly an accounting model. Next, I estimate
+the market-only model developed by Beaver et al. (2005) (BMR MKT), which relies exclusively
+on equity market variables. Following this, I estimate the Beaver et al. (2012) combined model
+(BCM COM), which combines accounting and market variables.
+10
+Finally , I estimate a naïve dis-
+tance-to-default model (D2D). This measure relies on the functional form of distance to default
+in Merton (1974) but does not estimate implied volatility and asset value. Rather , it relies on his-
+torical equity return volatility as a proxy for asset volatility and on the sum of equity market capi-
+talisation and book value of debt as a proxy for the value of a firms’ assets. Detailed definitions
+for all variables used in these models are provided in the Appendix.
+I generate a time series of monthly coefficients for each model, spanning the period from
+January 1980 to December 2022. T able 1 provides descriptive statistics for these coefficients.
+The results of this estimation indicate that firms with higher leverage, sustained losses, lower profit-
+ability , reduced interest coverage, and lower working capital relative to total assets exhibit a higher
+bankruptcy probability . Additionally , smaller firms, firms with lower equity returns and those with
+higher equity return volatility exhibit an increased likelihood of bankruptcy . Consistent with Merton
+(1974), firms with higher distance-to-default are less likely to experience bankruptcy .
+Figure 1 illustrates the mean, 25th, 50th, and 75th percentiles of the predicted bankruptcy
+probabilities for each model across the sample period. The results reveal a substantial time-
+series variation in the forecasted probabilities across all models. Notably , the distribution of
+bankruptcy probabilities shifts to the right during economic downturns, indicating heightened
+financial distress during these periods. While all models predict higher bankruptcy probabilities
+during crisis periods, the time-series of these estimated probabilities occasionally exhibits
+notable diff erences. This suggests that the various models may have relative advantages and
+disadvantages depending on the specific time period.
+In T able 2, I examine the out-of-sample predictive power of the diffe rent bankruptcy predic-
+tion models. For this analysis, I include only observations for which bankruptcy probability
+10
+In untabulated tests, I also estimate the Bharath and Shumway (2008) model and the Campbell et al.
+(2008) model, both of which combine accounting and market information. The predictive power of these
+models is comparable to that of the BCM COM model. Furthermore, my findings regarding the incremental
+predictive power of accounting information and the evolution of the predictive power of combined models
+over time remain consistent when these models are analyzed in place of BCM COM.
+Accounting and Business Resear ch 519
+
+PDF PAGE 13
+T able 1. Descriptive statistics for estimated monthly coefficients.
+Panel A: Z-Score
+Mean Std. Dev 25th Pctl 50
+th
+Pctl 75
+th
+Pctl
+Intercept −3.9537 0.2519 −4.1082 −3.8059 −3.7763
+wcta −2.4453 0.4414 −2.7409 −2.2627 −2.2168
+reta 0.1483 0.1420 0.0862 0.1046 0.1429
+ebitta −4.6629 2.6493 −4.3920 −3.5179 −3.3782
+vetl −0.2327 0.0753 −0.2648 −0.2400 −0.2163
+sta 0.1978 0.0998 0.1273 0.1402 0.2429
+Panel B: O-Score
+Mean Std. Dev 25th Pctl 50
+th
+Pctl 75
+th
+Pctl
+Intercept −8.0222 0.2747 −8.1627 −8.1206 −7.9610
+size 0.0025 0.0856 −0.0283 0.0458 0.0593
+tlta 3.4221 0.3604 3.2216 3.3343 3.7068
+wcta −0.8990 0.4340 −1.1384 −1.0096 −0.9006
+nita 0.0432 0.6732 −0.0053 0.0682 0.4334
+ffotl −0.1377 0.1008 −0.1706 −0.1590 −0.1339
+intwo 2.0620 0.2185 1.9363 1.9950 2.0896
+oeneg −0.4926 0.1 1 10 −0.5426 −0.5260 −0.4664
+chin −0.5538 0.1 160 −0.6205 −0.5862 −0.5688
+clca −0.0032 0.0135 −0.0017 −0.0015 −0.0007
+Panel C: BCM ACC
+Mean Std. Dev 25th Pctl 50
+th
+Pctl 75
+th
+Pctl
+Intercept −7.2922 0.4732 −7.6005 −7.3838 −7.1225
+nroai 1.6242 0.4064 1.5828 1.7128 1.8801
+roa −2.8255 2.8656 −3.1 137 −2.8634 −1.4941
+lta 2.51 14 0.7999 2.6060 2.8296 2.9304
+etl −0.4702 0.3494 −0.6737 −0.5378 −0.4282
+nroairoa 2.8798 2.5655 1.71 15 2.9137 3.2334
+nroailta 0.6336 0.7356 0.1505 0.3055 0.6514
+nroaietl 0.3810 0.5242 0.4025 0.5020 0.6366
+Panel D: BMR MKT
+Mean Std. Dev 25th Pctl 50
+th
+Pctl 75
+th
+Pctl
+Intercept −8.7745 1.3564 −8.7466 −8.1280 −8.0241
+leret −1.6668 0.0444 −1.6965 −1.6612 −1.6334
+lsigma 8.2362 0.4912 7.9017 8.1613 8.6082
+lrsize −0.1962 0.1 134 −0.2082 −0.1347 −0.1297
+Panel E: BCM COM
+Mean Std. Dev 25th Pctl 50
+th
+Pctl 75
+th
+Pctl
+Intercept −10.8392 1.4939 −10.5059 −10.3485 −10.1070
+nroai 2.9755 0.8241 2.4165 2.7741 3.1775
+roa −2.3157 1.4572 −3.0731 −2.8415 −1.3514
+lta 2.7781 0.4209 2.8957 2.9331 2.9966
+etl −0.1726 0.3460 −0.3236 −0.2013 −0.1496
+leret −2.0662 0.1 132 −2.1265 −2.1022 −2.0128
+lsigma 10.6833 1.0980 9.9132 10.6351 1 1.7069
+lrsize −0.1729 0.1570 −0.1739 −0.1018 −0.0914
+(Continued )
+520 M. Corr eia
+
+PDF PAGE 14
+estimates are available across all models. In Panel A, I rank predicted bankruptcy probabilities for
+each year-month in deciles, based on the combined distribution of bankrupt and nonbankrupt
+firm-years. Decile 1 represents the highest estimated bankruptcy probabilities. I then report the
+distribution of bankruptcy firm-years, years before bankruptcy , and nonbankrupt firm-years
+across the top 3 deciles. If the models lacked predictive power , we would expect approximately
+10% of firm-years in each group to fall within each decile. However , the results show that between
+82.12% and 87.29% of bankruptcy years fall within the top three deciles for the accounting
+models. Moreover , these models demonstrate predictive power several years ahead, as 41.89%
+to 46.40% of pre-bankruptcy years are also concentrated within the top three deciles. These find-
+ings underscore the significant out-of-sample predictive power of accounting information for
+bankruptcy . The market model (BMR MKT) further improves predictive accuracy , with 88.59%
+of bankruptcy years falling into the top three deciles. The combined model, however , outperforms
+both accounting and market-only models – 92.66% of bankruptcy years fall into the top three
+deciles. The distance-to-default model, which integrates accounting information related to the
+default barrier (e.g. book value of debt) with equity market variables (e.g. market value of
+equity and volatility of equity), also performs well. It places 90.46% of bankruptcy years
+within the top three deciles, demonstrating strong predictive power across the sample.
+T able 2, Panel B presents the area under the Receiver Operating Characteristic (ROC) curves
+for the various bankruptcy prediction models. An ROC curve area of 0.5 indicates no predictive
+power , while higher values signify greater predictive accuracy . The accounting models exhibit
+average areas under the curve (AUC) ranging from 0.8496–0.8700, demonstrating substantial
+predictive power . The market-only model (BMR MKT) achieves a higher AUC than the account-
+ing models, followed by the distance-to-default model (D2D). The combined model outperforms
+all others, with an average AUC of 0.9136, indicating superior predictive capability , and confirm-
+ing the incremental predictive value of financial statement data with respect to market data.
+In Panels C and D, I evaluate the statistical significance of the differe nces in AUC across
+models. Panel C reports the percentage of year -months in which the AUC of the model listed
+in each row exceeds the AUC of the model listed in each column. The combined model
+T able 1. Continued.
+Panel E: BCM COM
+Mean Std. Dev 25th Pctl 50
+th
+Pctl 75
+th
+Pctl
+nroairoa 3.2047 1.3764 2.3072 3.8092 3.9548
+nroailta 0.2314 0.4823 −0.0624 0.0519 0.2167
+nroaietl 0.0941 0.4836 0.1338 0.1916 0.2822
+nroaileret 0.9200 0.2046 0.7724 0.8564 0.9914
+nroailsigma −5.8267 0.9967 −5.9740 −5.5462 −5.3565
+nroailrsize 0.0792 0.0623 0.0282 0.0708 0.0908
+Panel F: Distance-to-Default Model (D2D)
+Mean Std. Dev 25th Pctl 50th Pctl 75th Pctl
+Intercept −2.6163 0.2847 −2.7221 −2.4728 −2.3830
+d 2d −0.8949 0.1429 −0.9188 −0.8925 −0.8088
+This table presents the mean, standard deviation, 25th, 50th, and 75th percentiles for the monthly coefficients estimated
+for the Altman (1968) Z-Scor e model, the Ohlson (1980) O-Score model, the Beaver et al. (2012) accounting model
+(BCM ACC), the Beaver et al. (2005) market model (BMR MKT), the Beaver et al. (2012) combined model (BCM
+COM), and the distance to default (D2D) model. Coefficients are estimated using 516 monthly expanding regressions.
+The dependent variable, Y
+t+1
+, is an indicator variable set equal to 1 if the firm files for bankruptcy in the following 12
+months, and zero otherwise. All independent variables are defined in the Appendix.
+Accounting and Business Resear ch 521
+
+PDF PAGE 15
+Figure 1. Estimated monthly bankruptcy probabilities.
+This figure presents the mean, 25th percentile, median, and 75th percentile of estimated monthly bankruptcy
+probabilities for the Altman (1968) Z-Score (Panel A), the Ohlson (1980) O-Score (Panel B), the Beaver
+et al. (2012) accounting model – BCM ACC (Panel C), the Beaver et al. (2005) market model – BMR
+MKT (Panel D), and the Beaver et al. (2012) combined model – BCM COM (Panel E), and the distance
+to default model – D2D (Panel F). These probabilities are estimated using expanding windows, and
+capture the estimated likelihood that the firm files for bankruptcy in the next 12 months.
+522 M. Corr eia
+
+PDF PAGE 16
+significantly outperforms the market model – the AUC of combined model surpasses that of the
+market model in 87.9% (1-12.1%) of the sample months.
+In Panel D, pairwise differences between the AUCs of the models are computed for each
+month to perform statistical tests, accounting for the 1 1-month overlapping period using the
+Newey and W est (1987) correction. This analysis confirms that the combined model outperforms
+the market model in terms of ex-post classification accuracy .
+Figure 1. Continued.
+Accounting and Business Resear ch 523
+
+PDF PAGE 17
+4. Advantages and limitations of accounting data for bankruptcy predic tion
+In this section, I explore various attributes of accounting information that may enhance its
+utility – or , conversely , limit its effectiveness – in predicting bankruptcy . First, unlike market
+data – such as equity , credit, or option data – which is available at a daily frequency , financial
+statement information is produced only quarterly at best. Additionally , the delay between the
+fiscal period end and the filing of financial statements, which can vary significantly depending
+on the firm and jurisdiction, further constrains the timeliness and practical utility of this data.
+Figure 1. Continued.
+524 M. Corr eia
+
+PDF PAGE 18
+T able 2. Out-of-sample predictive power .
+Panel A: Decile analysis
+Bankruptcy years
+Y ears before
+bankruptcy Non-bankrupt firms
+Deciles % Cum % % Cum % % Cum %
+Z-Scor e
+1 56.08 56.08 16.71 16.71 8.86 8.86
+2 16.04 72.12 13.20 29.91 9.64 18.50
+3 10.00 82.12 1 1.87 41.78 9.84 28.34
+O-Scor e
+1 61.16 61.16 19.85 19.85 8.52 8.52
+2 17.75 78.91 14.96 34.82 9.46 17.98
+3 8.38 87.29 1 1.58 46.4 9.88 27.86
+BCM ACC
+1 58.32 58.32 19.12 19.12 8.62 8.62
+2 15.93 74.25 13.08 32.19 9.65 18.27
+3 9.90 84.15 12.50 44.70 9.78 28.05
+BMR MKT
+1 65.20 65.20 15.55 15.55 8.87 8.87
+2 16.27 81.47 14.35 29.90 9.53 18.40
+3 7.1 1 88.59 12.57 42.47 9.80 28.21
+BCM COM
+1 74.81 74.81 20.25 20.25 8.33 8.33
+2 12.30 87.1 1 14.95 35.20 9.52 17.85
+3 5.55 92.66 12.24 47.44 9.85 27.70
+D2D
+1 70.90 70.90 18.12 18.12 8.57 8.57
+2 13.61 84.52 16.97 35.10 9.32 17.89
+3 5.94 90.46 13.39 48.48 9.74 27.63
+Panel B: Area under the ROC curve
+Model Mean Std Dev P25 Median P75
+Z-Scor e 0.8496 0.0539 0.8182 0.8536 0.8868
+O-Scor e 0.8701 0.0539 0.8413 0.8773 0.9046
+BCM ACC 0.8600 0.0539 0.8270 0.8603 0.8956
+BMR MKT 0.8852 0.0552 0.8540 0.8892 0.9252
+BCM COM 0.9136 0.0484 0.8872 0.9221 0.9482
+D2D 0.8998 0.0464 0.8717 0.9052 0.9361
+Panel C: Frequency of dif ferences in the area under the ROC curve across models
+Model O-Scor e BCM ACC BMR MKT BCM COM D2D
+Z-Scor e 33.7% 41.0% 23.4% 9.9% 13.1%
+O-Scor e - 67.9% 40.9% 9.9% 22.6%
+BCM ACC - 30.4% 7.1% 19.0%
+BMR MKT - 12.1% 39.7%
+BCM COM - 68.7%
+D2D -
+Panel D: Statistical significance of differences in the area under the ROC curve across models
+Model O-Scor e BCM ACC BMR MKT BCM COM D2D
+Z-Scor e −3.99*** – 1.77* −6.12*** – 12.04*** −1 1.58***
+O-Scor e 3.20*** – 2.95*** – 1 1.61*** – 6.34 ***
+(Continued)
+Accounting and Business Resear ch 525
+
+PDF PAGE 19
+Second, market data inherently reflects a broader set of information, including insights derived
+from financial statements. This raises the important question of why accounting information has
+incremental predictive power with respect to market information.
+When evaluating the attributes of accounting information, it is crucial to recognise that the
+design of accounting standards involves significant trade-of fs, which can introduce noise or
+bias into financial reporting. These trade-offs may impair the ability of financial metrics to
+fully capture key elements such as a firm’ s asset values, default barriers, and asset volatility .
+However , the inherent ‘biases’ embedded in the accounting system can themselves provide valu-
+able insights. In the following subsections, I examine several attributes of financial statement
+data and explore their implications for bankruptcy prediction, both when used in isolation and
+in conjunction with market data.
+4.1. Historical cost vs. fair value
+Despite the growing adoption of fair value accounting, especially under IFRS, many assets con-
+tinue to be reported at modified historical cost, which can differ significantly from their current
+market values. Fair value accounting often provides a closer approximation of current asset
+values, potentially aiding in the assessment of a firm’ s assets – a key determinant of default
+risk according to Merton (1974). However , the benefits of fair value accounting come with
+trade-offs, including reduced reliability due to valuation uncertainty . Moreover , fair value
+accounting primarily captures ex-post (realised) outcomes, limiting its ability to reflect ex-
+ante (anticipated) risks. In contrast, historical cost accounting offers a dynamic perspective on
+risk by incorporating its evaluation and resolution over time, thereby providing insights into
+firm risk trajectories (Penman 2021). These distinctions highlight the complementary strengths
+and limitations of fair value and historical cost regimes in bankruptcy prediction.
+Moreover , while the aggregate fair value of individual assets may diff er from the fair value of
+their collective use, earnings reported under historical cost accounting provide valuable insights
+into the joint utilisation of assets. This includes also intangible or off-bala nce-sheet components
+that may not be captured in fair value assessments. Earnings thus convey critical information
+about returns, risk, and the resolution of uncertainty .
+The shift toward fair value accounting may thus produce two conflicting effects in the context
+of bankruptcy prediction. On the one hand, the balance sheet is likely to better reflect the market
+value of a firm’ s individual assets, albeit sometimes at the expense of reduced reliability . On the
+T able 2. Continued.
+Panel D: Statistical significance of differences in the area under the ROC curve across models
+Model O-Scor e BCM ACC BMR MKT BCM COM D2D
+BCM ACC −4.20*** −10.66*** – 7.02***
+BMR MKT −1 1.04*** – 2.97***
+BCM COM 3.22***
+D2D
+This table presents a comparison of the out-of-sample predictive power of the different bankruptcy models. In Panel A,
+we rank the predicted likelihood of bankruptcy in deciles by year month. W e then compute the percentage of bankruptcy
+years, years before bankruptcy for bankrupt firms and non-bankrupt firm years falling within each of the top three deciles.
+Panel B reports descriptive statistics for the area under the Receiving Operating Curve. Panel C reports the percentage of
+year-months in which the AUC of the model listed in each row exceeds the AUC of the model listed in each column.
+Panel D reports the results of pairwise t-tests, where standard errors are calculated accounting for the 1 1-month
+overlapping period using the Newey and W est (1987) correction. ***, **, and * denote statistical significance at the
+1%, 5%, and 10% levels (two-tailed), respectively .
+526 M. Corr eia
+
+PDF PAGE 20
+other hand, fair value adjustments can disrupt the matching principle in the income statement
+(Dichev and T ang 2008), complicating the assessment of returns derived from the joint utilisation
+of assets. Additionally , this shift may result in a loss of information that is critical for evaluating
+ex-ante risk.
+Relatedly , a body of literature demonstrates that conservatism in accounting facilitates debt
+contracting (please refer to Penalva and W agenhofer (2019) for a review of this literature). This
+supports the idea that conservative accounting figures offer valuable insights to creditors for
+forecasting default and bankruptcy .
+4.2. Unrecognised assets
+Many assets, particularly intangible ones, are excluded from the balance sheet. W ith the rise of
+the new economy , the importance of intangible assets has grown significantly over time. Invest-
+ments in intangibles, such as research and development (R&D) and advertising, are primarily
+expensed rather than capitalized, despite their documented association with future operating
+earnings (Lev and Sougiannis 1996, Aboody and Lev 1998). One could ar gue that this practice
+of expensing internally developed intangibles might diminish the utility of balance sheet figures
+for assessing a firm’ s asset value. Beaver et al. (2020) challenge this idea – assets must be com-
+bined to produce returns and, therefore, a firm’ s asset value may diff er from the sum of the value
+of its individual assets.
+Instead, information on asset values might be more ef fectively conveyed through earn-
+ings, which are themselves also af fected by the decision to capitalise these assets. Penman
+(2021) notes that the current requirement to expense many of these investments is not
+ideal from an income statement perspective as it comingles current revenues with invest-
+ments to produce future revenues. Nonetheless, a decision to capitalise would have to
+carefully consider the impact of uncertainty on matching in the income statement
+(Barker et al. 2022).
+In thinking about the role of intangibles, and the ef fects of accounting for intangibles, on the
+usefulness of accounting information for bankruptcy prediction, it seems relevant to consider
+several additional factors. First, prior studies suggest that the increase in intangibles might
+render market data less useful for bankruptcy prediction, in that firms with higher levels of intan-
+gible investment are more likely to have mispriced equity securities (Eberhart et al. 2004, Daniel
+and T itman 2006, Aksoy et al. 2008, Edmans 201 1, and Eisfeldt and Papanikolaou 2013). This
+suggests a potential greater role for accounting data and careful financial statement analysis.
+Second, intangible assets are associated with higher information asymmetry and higher uncer-
+tainty regarding liquidation variables – they may disappear or be nontransferable as bankruptcy
+approaches (W illiamson 1988, Shleifer and V ishny 1992). Third, one could argue that intangible
+assets increase firm resilience (that is, their ability to cope with unexpected shocks) (e.g.
+Altomonte et al. 2022), in which case, the amount of intangible assets may contain key infor-
+mation for bankruptcy prediction.
+Franzen, Rodgers, and Simin (2007) demonstrate that the predictive power of the O-Score
+diminishes when applied to U.S. firms with high R&D intensity – where R&D expenditures
+are fully expensed – compared to firms with low R&D intensity . Their findings suggest that capi-
+talising R&D constructively can improve predictive performance, although this process is not
+straightforward. Estimating industry amortisation rates requires careful adjustments to mitigate
+survivorship biases, and estimations must be conducted out-of-sample to avoid look-ahead
+biases. Notably , Franzen et al. (2007) caution that capitalisation, even if it enhances predictive
+power for credit risk assessment, might also obscure income statement information related to
+risk.
+Accounting and Business Resear ch 527
+
+PDF PAGE 21
+4.3. Absence of direct measures of historical or expected asset volatility
+Another limitation is that financial statements lack direct measures of historical or expected asset
+volatility . Historical volatility measures can be more easily derived from equity and credit market
+prices. Likewise, expected asset volatility measures can be produced by deleveraging implied
+option-market volatility .
+Nevertheless, Penman (2010, 2021) ar gues that earnings can still convey valuable infor-
+mation about risk and its resolution. Sridharan (2015) finds that financial statement information
+can help forecast future realised equity volatility . Accordingly , Correia et al. (2018) find that the
+fundamental volatility , and higher moments of accounting returns on net operating assets pro-
+vides incremental predictive power for bankruptcy forecasting, even when these measures are
+added to models that include forward-looking expected volatility metrics.
+4.4. Off-balance sheet liabilities
+Off-balance-sheet obligations, such as leases, have historically posed challenges in accu-
+rately assessing a firm’ s default risk. The implementation of lease accounting standards
+like IFRS 16 and ASC 842 has mandated that firms recognise most leases on their
+balance sheets, thereby enhancing transparency regarding the default barrier and the level
+of operating assets that the firm has in place. Correia and Urcan (2023) find that that the
+adoption of these standards led to changes in the level and term structure of credit
+spreads for high lease intensity firms, which are consistency with a reduction uncertainty
+regarding the default barrier . However , certain commitments, notably variable leases, may
+remain off- balance-sheet. Heese, Shin, and W ang (2024) find that variable-lease expenses
+are common and significant, exhibiting persistence and predictability similar to operating-
+lease expenses. Their study suggests that firms might substitute operating leases with vari-
+able leases to maintain off- balance-sheet financing, potentially leading to an underestimation
+of a firm’ s liabilities and default risk.
+4.5. Discretion
+The flexibility permitted by accounting standards introduces an element of managerial discretion,
+rendering financial statement figures inherently subjective. The implications of this discretion are
+ambiguous: while managers may exploit it opportunistically , it can also function as a signalling
+mechanism to convey private information (e.g. Beaver and Engel 1996), thereby potentially
+enhancing the informativeness of financial statements. The overall impact of discretion on the
+informativeness of financial statements depends on the relative prevalence of signalling versus
+opportunistic behaviour , which may lead to impairment, enhancement, or no significant
+change in informativeness.
+Managerial discretion plays a particularly important role in the context of financial distress,
+as managers often have incentives to engage in earnings management and impression manage-
+ment at various stages leading up to default and bankruptcy (DeFond and Jiambalvo 1994,
+Beneish, Press, and V ar gus 2012; Franz, Hassab Elnaby and Lobo 2014, Dyreng et al. 2022).
+These incentives can undermine the ef fectiveness of financial ratios as timely indicators of bank-
+ruptcy risk. However , they also point to the potential value of non-financial predictors – particu-
+larly those informed by the earnings management literature. Moreover , these dynamics highlight
+how certain regulatory reforms aimed at curbing financial misreporting and enhancing disclosure
+quality may , in turn, improve the predictive utility of accounting information in bankruptcy
+forecasting.
+528 M. Corr eia
+
+PDF PAGE 22
+4.6. Evidence from prior literature
+Beaver et al. (2005) examine changes in the predictive ability of accounting and market data for
+bankruptcy over the period 1962–2002. They document a slight decline in the predictive of
+accounting information but find that this decline is offs et by an improvement in the incremental
+predictive ability of equity market data. Beaver et al. (2012) follow up on this analysis by con-
+ducting a series of cross-sectional and time-series analyses to examine how certain accounting
+attributes influence the predictive performance of bankruptcy models. Specifically , they focus
+on the ef fects of (i) managerial discretion, (ii) unrecognised intangible assets, (iii) the compre-
+hensiveness of the accounting system, and (iv) the recognition of losses. A key challenge in
+their analysis lies in disentangling the impact of accounting attributes from underlying differ -
+ences in firm fundamentals.
+They examine measures of discretion, including the presence of subsequent financial state-
+ment restatements for a firm-year and the magnitude of discretionary accruals. They find that
+the predictive power of the accounting model is significantly lower for firm-years that were
+later restated. Although this reduction in predictive power also applies to the market and com-
+bined models, it is less pronounced, suggesting that investors are only partially able to off set
+the diminished informativeness of financial ratios using other sources of information. They
+also find that the predictive accuracy of the accounting, market, and combined models is
+highest for firms with moderate levels of accruals, while it diminishes for firms with
+‘extreme’ accruals, whether income-increasing or income-decreasing.
+T o evaluate whether unrecognised intangibles af fect the predictive power of bankruptcy
+models, Beaver et al. (2012) rank firms based on their R&D intensity , measured as R&D
+expenses as a percentage of sales. The results show that the predictive power of the accounting,
+market, and combined models is lowest for firms with high R&D intensity . Additionally , the
+market model outperforms the accounting model for these firms, supporting the interpretation
+that the market partially incorporates the value of intangible assets into prices.
+T o assess the comprehensiveness of the accounting system, Beaver et al. (2012) analyse
+firms’ book-to-market (BTM) ratios. The behaviour of BTM ratios as firms approach bank-
+ruptcy is complex – both the book value (numerator) and market value (denominator) are
+expected to decline as bankruptcy probability increases, making it challenging to predict
+which component will decline more rapidly . Additionally , while book value can become nega-
+tive and approach zero, market value cannot, as the option value of equity persists even as the
+probability of bankruptcy rises. Consequently , as losses accumulate and book value
+approaches zero, the BTM ratio itself may also approach zero. T o address these complexities,
+Beaver et al. (2012) partition firms into four groups based on BTM ratios: negative, low posi-
+tive, medium positive, and high positive. The predictive power of the accounting, market, and
+combined models is lowest for firms with negative BTM ratios (indicating negative book
+value of equity) and firms with high positive BTM ratios. Conversely , predictive power is
+highest for firms with low and medium positive BTM ratios. These findings suggest that pre-
+dictive accuracy declines in cases where there are significant discrepancies between market
+valuation and the carrying book value reported in financial statements. Furthermore, their
+results indicate that investors may struggle to fully compensate for the impaired predictive
+power of accounting information using alternative sources.
+The final attribute investigated by Beaver et al. (2012) is the recognition of losses. Beaver
+et al. (2012) find that the predictive power of the accounting model is significantly lower for
+loss firm-years compared to non-loss firm-years. This finding aligns with their observation
+that, conditional on the presence or absence of a loss, the coefficients on the remaining account-
+ing and market variables are substantially closer to zero for loss firms. Importantly , these
+Accounting and Business Resear ch 529
+
+PDF PAGE 23
+disparities in predictive power persist in the market and combined models, suggesting that the
+challenges posed by loss recognition are not fully mitigated by incorporating market information.
+Beaver et al. (2019) leverage their international sample to examine the role of country-level
+financial reporting transparency in the predictive power of accounting information. They find
+that in parent companies domiciled in countries with lower financial reporting transparency –
+assessed based on securities regulation, investor protection, and enforcement characteristics
+supporting financial transparency – both a pure accounting model and a combined model incorpor-
+ating accounting and market information exhibit reduced predictive power compared to countries
+with higher financial reporting transparency . Additionally , they observe that incorporating granu-
+lar subsidiary-level information in bankruptcy prediction is particularly valuable in such cases,
+helping to compensate for the lower financial reporting transparency of the parent company .
+Maffet, Owens, and Srinivasan (2017) provide evidence consistent with accounting infor-
+mation being particularly valuable when equity market information is less informative. They
+find that find that short-sale constraints decrease the predictive power of equity-market variables
+for default. The incremental predictive power of accounting information is higher in this case,
+especially in countries with higher-financial reporting transparency – accounting information
+partially , but not fully , makes up for the lower predictive power of equity-market information.
+Rather than focusing solely on the variation in the usefulness of accounting information for
+predicting bankruptcy , several studies examine its relevance to credit market investors. Since
+default probability is a primary determinant of credit spreads, prior research finds that credit
+spreads incorporate information about forecasted default probabilities, albeit with a time lag
+(Correia et al. 2012, 2018). In this spirit, Givoly , Hayn, and Katz (2017) investigate changes
+in the informational content of accounting numbers for bondholders over time. Specifically ,
+they examine the relationship between accounting information and bond returns. Their findings
+suggest that the informational content of accounting numbers for bondholders has increased over
+time. This increase is attributed to factors such as changes in credit risk, a rise in accounting con-
+servatism, a shift toward fair value accounting, and a greater frequency of reported losses.
+4.7. Evidence on recent changes in the predictive power of accounting information.
+T able 3 examines trends in the predictive power of the accounting, market, and combined
+models. I regress the models’ monthly AUCs on a time trend, with standard errors adjusted
+for the 1 1-month overlapping period using the Newey and W est (1987) correction. The results
+indicate no significant trend in the predictive power of the O-Score and BCM ACC models,
+while the Z-Score shows a marginally significant increase in predictive power over time. The
+T able 3. T ime trends in the area under the ROC curve across models.
+Model T ime trend t-stat p-value
+Z-Scor e 0.00007 1.82 0.069
+O-Scor e 0.00003 0.72 0.470
+BCM ACC −0.00002 −0.38 0.704
+BCM MKT 0.0001 1 2.26 0.024
+BCM COM 0.00010 2.27 0.024
+D2D 0.00006 1.57 0.1 17
+BCM COM-BMR MKT −0.00001 −0.66 0.508
+This table presents the results from the regression of the monthly area under the Receiver Operating Curve for each model
+on a time trend. Standard errors are calculated accounting for the 1 1-month overlapping period using the Newey and W est
+(1987) correction.
+530 M. Corr eia
+
+PDF PAGE 24
+market model (BMR MKT) exhibits a significant positive time trend in predictive power , as does
+the combined model (BCM COM). However , the incremental predictive power of accounting
+information relative to equity market information does not show a significant trend.
+Bankruptcy prediction models performed poorly during the pandemic period. Nevertheless,
+excluding all months after January 2020 from the analysis does not alter the overall results (unta-
+bulated). In fact, the observed trends in the predictive power of BMR MKT and BCM COM
+become slightly stronger , while no significant trend is observed for BCM ACC.
+Figure 2, Panel A illustrates the monthly AUCs for BCM ACC, BMR MKT , and BCM COM.
+Panel B shows the incremental predictive power of accounting information, that is, the differe nce
+between BCM COM and BMR MKT . The results show that while there are periods where both the
+accounting and market models perform well or poorly , their predictive power does not always
+move in tandem. During periods when the predictive power of market information declines,
+accounting information often remains robust, helping to mitigate the impact on combined bank-
+ruptcy prediction models. Conversely , equity market information frequently compensates for
+declines in the predictive power of accounting data, underscoring the complementary strengths
+of these two information sources. For instance, at the onset of the financial crisis, accounting
+information appears to have played a crucial role in offs etting the reduced informativeness of
+market data, demonstrating its enduring relevance in periods of heightened economic
+uncertainty .
+5. A venues for future r esearc h
+As ESG transparency increases – driven by growing stakeholder demand and the global prolifer-
+ation of ESG disclosure regulations – a relevant and underexplored question emerge s: can
+ESG-related information enhance the traditional set of indicators used to predict bankruptcy?
+Amiraslani et al. (2023) provide evidence that firms with high social capital experienced
+lower bond spreads during the financial crisis, a period marked by elevated default risk and
+diminished trust. Their findings suggest that such firms may face lower agency costs of debt
+(e.g. reduced perceived risk of asset substitution or cash diversion) and benefit from stronger sta-
+keholder cooperation. Future research could investigate how to efficiently summarise ESG dis-
+closures, extract signals relevant to default risk, and integrate these signals with traditional
+bankruptcy predictors. Understanding the relative importance of ESG dimensions in this
+context remains a key area for further inquiry .
+Second, and relatedly , researchers could leverage generative AI – particularly larg e
+language models (LLMs) – to process the vast and heterogeneous disclosures produced by
+firms (including ESG-related disclosures), with the goal of improving bankruptcy prediction
+models (e.g. Kim et al. 2024, 2025). Prior literature finds that generative AI presents several
+advantages vis-à-vis more traditional textual analysis techniques (Li et al. 2024, Kim et al.
+2025). Moreover , LLM produced summaries may be better able to capture the sentiment of
+firms’ disclosures (Kim et al. 2024), with negative sentiment being particularly relevant in
+the setting of bankruptcy and default prediction. A notable challenge in this approach is the
+potential for look-ahead bias (Sarkar and V afa 2024, Levy 2025), which warrants careful
+methodological attention.
+Third, studies could more deeply explore inter -firm linkages to assess the presence of
+network ef fects and the transmission of credit risk shocks beyond traditional business group
+structures (Y ang, Bir ge, and Parker 2015, W u 2024). This would involve drawing on the analysis
+of complex financial networks (Elliott, Golub, and Jackson 2014). Financial disclosures can play
+an important role in analysing firm linkages, a role that remains underexplored.
+Accounting and Business Resear ch 531
+
+PDF PAGE 25
+Panel A: Predictive power of accounting, market, and combined
+ models
+Figure 2. T ime-series changes in predictive power of accounting, market, and combined models.
+Panel A plots the monthly area under the Receiver Operating Characteristic curve (AUC) for the BCM
+ACC, BMR MKT , and BCM COM models. The AUC is calculated based on the monthly estimated prob-
+abilities presented in Figure 1. Panel B plots the monthly dif ference in the areas under the ROC curves of the
+BCM COM and BMR MKT models, a proxy for the incremental predictive power of accounting infor-
+mation with regards to equity market data.
+532 M. Corr eia
+
+PDF PAGE 26
+Fourth, the growing availability of lar ge-scale structured and unstructured data – including
+textual data, satellite imagery , social media content, crowdsourced platform data (e.g. employee
+and consumer reviews, earnings forecasts), and labour market data – combined with advances in
+computing power and non-parametric modelling, presents new opportunities for identifying
+novel bankruptcy predictors. However , data-driven studies that do not engage with the under-
+lying economic mechanisms of default risk or fail to uncover predictors with robust out-of-
+sample predictive power are unlikely to yield meaningful contributions.
+Finally , structural models of managerial decision-making in the lead-up to bankruptcy –
+including agency costs of debt and financial reporting choices – could inform the design of regu-
+latory interventions aimed at and reducing the costs of unexpected firm failures. Such models
+could potentially help estimate the causal ef fect of regulatory reforms.
+6. Conclusion
+Corporate failures remain a critical issue, imposing significant costs on stakeholders and fre-
+quently leading to financial distress, default, and ultimately bankruptcy or liquidation. These fail-
+ures have profound implications at both industry and macroeconomic levels, underscoring the
+importance of accurately assessing bankruptcy risk.
+This study reviews prior literature exploring the predictive power of financial statement
+information, both on its own and in conjunction with market data. Understanding this predictive
+power provides valuable insights into the usefulness of financial statements, a topic of consider-
+able importance not only to regulators and the accounting profession but also to creditors, equity
+holders and other parties concerned with forecasting financial distress.
+The Merton (1974) model offers a theoretical framework for understanding how accounting
+information might contribute to bankruptcy prediction. I reflect on the attributes of accounting
+information that may enhance or reduce its usefulness in predicting key default primitives:
+asset value, asset volatility , and the default barrier . Additionally , I review empirical studies
+that investigate some of these attributes and changes in the predictive power of accounting infor-
+mation over time.
+I expand earlier analysis, by using a sample of bankruptcies spanning 1980–2023. This
+allows me to study how the predictive power of accounting information has evolved over
+the last 40 years. My findings indicate that the predictive power of accounting information
+has remained relatively stable, while the predictive power of market data has increased. It is
+important to note that these changes in predictive power may reflect, in addition to changes
+in accounting standards, economic conditions, or firm composition. Nevertheless, this analysis
+highlights the enduring value of accounting information, which has consistently demonstrated
+strong predictive utility and often compensates for declines in the predictive power of equity
+market data.
+The paper concludes with the discussion of several potential avenues for future research.
+Acknowledgements
+I appreciate the helpful comments and suggestions of John Boulton (discussant), an anonymous referee, and
+the participants at the 2024 Accounting and Business Resear ch (ABR) International Accounting Policy
+Forum (IAPF).
+Disclosure statement
+No potential conflict of interest was reported by the author(s).
+Accounting and Business Resear ch 533
+
+PDF PAGE 27
+References
+Aboody , D., and Lev , B., 1998. The value relevance of intangibles: The case of software capitalization.
+Journal of Accounting Resear ch, 36, 161–191.
+Aksoy , L., Cooil, B., Groening, C., Keiningham, T . L., and Y alçın, A., 2008. The long-term stock market
+valuation of customer satisfaction. Journal of Marketing, 72 (4), 105–122.
+Altman, E.I., 1968. Financial ratios, discriminant analysis and the prediction of corporate bankruptcy . The
+Journal of Finance, 23 (4), 589–609.
+Altman, E.I., 1983. Why businesses fail. Journal of Business Strategy , 3 (4), 15–21.
+Altomonte, C., Bauer , P ., Gilardi, A. M., and Soriolo, C., 2022. Intangible Assets, Industry Performance and
+Finance During Crises. BAFFI CAREFIN Centre Research Paper . No. 2022-173. A vailable from
+SSRN: https://ssrn.com/abstract=4018400.
+Amiraslani, H., Lins, K. V ., Servaes, H., and T amayo, A., 2023. T rust, social capital, and the bond market
+benefits of ESG performance. Review of Accounting Studies, 28 (2), 421–462.
+Barker , R., Lennard, A., Penman, S., and T eixeira, A., 2022. Accounting for intangible assets: suggested
+solutions. Accounting and Business Resear ch, 52 (6), 601–630.
+Baumol, W .J., 1952. The transactions demand for cash: An inventory theoretic approach. The Quarterly
+Journal of Economics, 66 (4), 545–556.
+Beaver , W .H., 1966. Financial ratios as predictors of failure. Journal of Accounting Resear ch, 4,
+71–1 1 1.
+Beaver , W .H., Cascino, S., Correia, M., and McNichols, M. F ., 2020. Group affiliation and default predic-
+tion. Management Science, 65 (8), 3559–3584.
+Beaver , W .H., Cascino, S., Correia, M., and McNichols, M. F ., 2024. Bankruptcy in groups. Review of
+Accounting Studies, 29 (4), 3449–3496.
+Beaver , W .H., Correia, M., and McNichols, M.F ., 2012. Do differences in financial reporting attributes
+impair the predictive ability of financial ratios for bankruptcy? Review of Accounting Studies, 17,
+969–1010.
+Beaver , W .H., and Engel, E., 1996. Discretionary behavior with respect to allowances for loan losses and
+the behavior of security prices. Journal of Accounting and Economics, 22 (1-3), 177–206.
+Beaver , W .H., McNichols, M.F ., and Rhie, J. W ., 2005. Have financial statements become less informative?
+Evidence from the ability of financial ratios to predict bankruptcy . Review of Accounting Studies, 10, 93–122.
+Beneish, M.D., Press, E., and V argu s, M. E., 2012. Insider trading and earnings management in distressed
+firms. Contemporary Accounting Resear ch, 29 (1), 191–220.
+Bharath, S.T ., and Shumway , T ., 2008. Forecasting default with the Merton distance to default model.
+Review of Financial Studies, 21 (3), 1339–1369.
+Black, F ., and Cox, J. C., 1976. V aluing corporate securities: some eff ects of bond indenture provisions. The
+Journal of Finance, 31 (2), 351–367.
+Breiman, L., J. Friedman, R. A. Olshen, and C. J. Stone. 1984. Classification and Regression T rees. 1st ed.
+Boca Raton, FL: Chapman and Hall/CRC.
+Campbell, J.Y ., Hilscher , J., and Szilagyi, J., 2008. In search of distress risk. The Journal of Finance, 63 (6),
+2899–2939.
+Cao, C., Y u, F ., and Zhong, Z., 2010. The information content of option-implied volatility for credit default
+swap valuation. Journal of Financial Markets, 13 (3), 321–343.
+Correia, M., and Urcan, O., 2023. Lease reporting and credit markets. W orking paper .
+Correia, M., Kang, J., and Richardson, S., 2018. Asset volatility . Review of Accounting Studies, 23, 37–94.
+Correia, M., Richardson, S., and T una, İ., 2012. V alue investing in credit markets. Review of Accounting
+Studies, 17, 572–609.
+Cremers, M., Driessen, J., Maenhout, P ., and W einbaum, D., 2008. Individual stock-option prices and credit
+spreads. Journal of Banking & Finance, 32 (12), 2706–2715.
+Daily , C. M., and Dalton, D. R., 1994. Bankruptcy and corporate governance: The impact of board compo-
+sition and structure. Academy of Management Journal, 37 (6), 1603–1617.
+Daniel, K., and T itman, S., 2006. Market reactions to tangible and intangible information. The Journal of
+Finance, 61 (4), 1605–1643.
+DeFond, M.L., and Jiambalvo, J., 1994. Debt covenant violation and manipulation of accruals. Journal of
+Accounting and Economics, 17 (1-2), 145–176.
+Dichev , I.D., and T ang, V . W ., 2008. Matching and the changing properties of accounting earnings over the
+last 40 years. The Accounting Review , 83 (6), 1425–1460.
+Donovan, J., Jennings, J., Koharki, K., and Lee, J., 2021. Measuring credit risk using qualitative disclosure.
+Review of Accounting Studies, 26, 815–863.
+534 M. Corr eia
+
+PDF PAGE 28
+Duffie, D., and Lando, D., 2001. T erm structures of credit spreads with incomplete accounting information.
+Econometrica, 69 (3), 633–664.
+Dyreng, S.D., Hillegeist, S. A., and Penalva, F ., 2022. Earnings management to avoid debt covenant viola-
+tions and future performance. Eur opean Accounting Review , 31 (2), 31 1–343.
+Eberhart, A.C., Maxwell, W . F ., and Siddique, A.R., 2004. An examination of long-term abnormal
+stock returns and operating performance following R&D increases. Journal of Finance, 59 (2),
+623–650.
+Edmans, A., 201 1. Does the stock market fully value intangibles? Employee satisfaction and equity prices.
+Journal of Financial Economics, 101 (3), 621–640.
+Eisfeldt, A.L., and Papanikolaou, D., 2013. Orga nization capital and the cross-section of expected returns.
+Journal of Finance, 68 (4), 1365–1406.
+Elliott, M., Golub, B., and Jackson, M. O., 2014. Financial networks and contagion. American Economic
+Review , 104 (10), 31 15–3153.
+Fitzpatrick, P .J., 1932. A comparison of the ratios of successful industrial enterprises with those of failed
+companies. The Certified Public Accountant, 1 (1), 598–605.
+Franz, D.R., Hassab Elnaby , H. R., and Lobo, G. J., 2014. Impact of proximity to debt covenant violation on
+earnings management. Review of Accounting Studies, 19, 473–505.
+Franzen, L.A., Rodgers, K. J., and Simin, T . T ., 2007. Measuring distress risk: The effect of R&D intensity .
+Journal of Finance, 62 (6), 2931–2967.
+Frydman, H., Altman, E. I., and Kao, D. L., 1985. Introducing recursive partitioning for financial classifi-
+cation: the case of financial distress. The Journal of Finance, 40 (1), 269–291.
+Geske, R., 1977. The valuation of corporate liabilities as compound options. Journal of Financial and
+Quantitative Analysis, 12 (4), 541–552.
+Giesecke, K., 2006. Default and information. Journal of Economic Dynamics and Contr ol, 30 (1 1), 2281–
+2303.
+Givoly , D., Hayn, C., and Katz, S., 2017. The changing relevance of accounting information to debt holders
+over time. Review of Accounting Studies, 22, 64–108.
+Gutierrez, E., Krupa, J., Minutti-Meza, M., and V ulcheva, M., 2020. Do going concern opinions provide
+incremental information to predict corporate defaults? Review of Accounting Studies, 25 (4), 1344–
+1381.
+Heese, J., Shin, A., and W ang, C. C., 2024. V ariable leases under ASC 842: First evidence on properties and
+consequences. W orking paper . A vailable from SSRN: https://ssrn.com/abstract=4266529.
+Hillegeist, S.A., Keating, E. K., Cram, D. P ., and Lundstedt, K. G., 2004. Assessing the probability of bank-
+ruptcy . Review of Accounting Studies, 9, 5–34.
+Jones, S., 2017. Corporate bankruptcy prediction: a high dimensional analysis. Review of Accounting
+Studies, 22, 1366–1422.
+Jones, S., and Johnstone, D., 2012. Analyst recommendations, earnings forecasts and corporate bankruptcy:
+recent evidence. Journal of Behavioral Finance, 13 (4), 281–298.
+Kallunki, J.P ., and Pyykkö, E., 2013. Do defaulting CEOs and directors increase the likelihood of financial
+distress of the firm? Review of Accounting Studies, 18, 228–260.
+Kim, A. G., Muhn, M., and Nikolaev , V . V ., 2024. Bloated disclosures: Can ChatGPT help investors process
+information? W orking paper . A vailable from SSRN: https://ssrn.com/abstract=5082861.
+Kim, A. G., M. Muhn, and Nikolaev , V . V ., 2025. From transcripts to insights: Uncovering corporate risks
+using generative AI. W orking paper . A vailable from SSRN: https://ssrn.com/abstract=4393660.
+Konstantinidi, T ., and Pope, P . F ., 2016. Forecasting risk in earnings. Contemporary Accounting Resear ch,
+33 (2), 487–525.
+Kurunmäki, L., and Miller , P ., 2013. Calculating failure: The making of a calculative infrastructure for for-
+giving and forecasting failure. Business History , 55 (7), 1 100–1 1 18.
+Leland, H.E., and T oft, K. B., 1996. Optimal capital structure, endogenous bankruptcy , and the term struc-
+ture of credit spreads. The Journal of Finance, 51 (3), 987–1019.
+Lev , B., and Sougiannis, T ., 1996. The capitalization, amortization, and value-relevance of R&D. Journal of
+Accounting and Economics, 21 (1), 107–138.
+Levy , B., 2025. Caution ahead: numerical reasoning and look-ahead bias in AI models. W orking Paper .
+A vailable from SSRN: https://ssrn.com/abstract=5082861.
+Li, Q., Shan, H., T ang, Y ., and Y ao, V ., 2024. Corporate climate risk: measurements and responses. The
+Review of Financial Studies, 37 (6), 1778–1830.
+Longstaff, F .A., and Schwartz, E. S., 1995. A simple approach to valuing risky fixed and floating rate debt.
+The Journal of Finance, 50 (3), 789–819.
+Accounting and Business Resear ch 535
+
+PDF PAGE 29
+Maffett, M.G., Owens, E., and Srinivasan, A., 2017. The effec t of equity-market frictions on default-risk
+assessment: Evidence from short-sale constraints around the world. A vailable from SSRN: https://
+ssrn.com/abstract=2296992.
+Mayew , W .J., Sethuraman, M., and V enkatachalam, M., 2015. MD&a disclosure and the firm’ s ability to
+continue as a going concern. The Accounting Review , 90 (4), 1621–1651.
+Merton, R.C., 1974. On the pricing of corporate debt: The risk structure of interest rates. Journal of
+Finance, 29 (2), 449–470.
+Newey , W . K., and W est, K.D., 1987. Hypothesis testing with efficient method of moments estimation.
+International Economic Review , 28 (3), 777–787.
+Ohlson, J.A., 1980. Financial ratios and The probabilistic prediction of bankruptcy . Journal of Accounting
+Resear ch, 18 (Spring), 109–131.
+Penalva, F ., and W agenhofer , A., 2019. Conservatism in debt contracting: theory and empirical evidence.
+Accounting and Business Resear ch, 49 (6), 619–647.
+Penman, S., 2010. Financial forecasting, risk and valuation: Accounting for the future. Abacus 46 (2),
+21 1–228.
+Penman, S., 2016. V aluation: accounting for risk and the expected return. Abacus, 52 (1), 106–130.
+Penman, S., 2021. Accounting for risk. Foundations and T r ends® in Accounting, 15 (4), 373–507.
+Precourt, E., and Oppenheimer , H., 2017. Analyst ratings for firms filing for and reorga nizing under chapter
+1 1. Review of Accounting and Finance, 16 (3), 303–321.
+Regenburg, K., and Seitz, M. N. B., 2021. Criminals, bankruptcy , and cost of debt. Review of Accounting
+Studies, 26 (3), 1004–1045.
+Sarkar , S.K., and V afa, K., 2024. Lookahead bias in pretrained language models. W orking Paper . A vailable
+from SSRN: https://ssrn.com/abstract=4754678.
+Schaefer , S.M., and Strebulaev , I. A., 2008. Structural models of credit risk are useful: evidence from hedge
+ratios on corporate bonds. Journal of Financial Economics, 90 (1), 1–19.
+Shleifer , A., and V ishny , R. W ., 1992. Liquidation values and debt capacity: A market equilibrium
+approach. The Journal of Finance, 47 (4), 1343–1366.
+Shumway , T ., 2001. Forecasting bankruptcy more accurately: A simple hazard model. The Journal of
+Business, 74 (1), 101–124.
+Sridharan, S.A., 2015. V olatility forecasting using financial statement information. The Accounting Review ,
+90 (5), 2079–2106.
+W all, A., and Duning, R. W ., 1928. Ratio Analysis of Financial Statements: An Explanation of a Method of
+Analysing Financial Statements by the use of Ratios. New Y ork: Harper .
+W illiamson, O.E., 1988. Corporate finance and corporate governance. The Journal of Finance, 43 (3), 567–
+591.
+W u, D., 2024. T ext-based measure of supply chain risk exposure. Management Science, 70 (7), 4781–4801.
+Y ang, S.A., Birg e, J. R., and Parker , R. P ., 2015. The supply chain effects of bankruptcy . Management
+Science, 61 (10), 2320–2338.
+Zmijewski, M. E., 1984. Methodological issues related to the estimation of financial distress prediction
+models. Journal of Accounting Resear ch, 22, 59–82.
+536 M. Corr eia
+
+PDF PAGE 30
+Appendix
+V ariable definitions
+V ariable
+name Definition
+Altman (1968) Z-Scor e
+wcta W orking capital scaled by total assets.
+reta Retained earnings scaled by total assets.
+ebitta Earnings before interest and taxes divided by total assets.
+vetl Market value of equity scaled by total liabilities.
+sta Sales scaled by total assets.
+Ohlson (1980) O-Scor e
+size Logarithm of total assets scaled by the GDP price level index.
+tlta T otal liabilities scaled by total assets.
+wcta W orking capital scaled by total assets.
+nita Net income scaled by total assets.
+ffotl Pre-tax income plus depreciation and amortisation scaled by total liabilities.
+intwo Indicator variable set equal to one if the cumulative net income over the previous two
+years is negative, and zero otherwise.
+oeneg Indicator variable set equal to one if shareholders’ equity is negative, and zero otherwise.
+chin Scaled change in net income.
+clca Current liabilities scaled by current assets.
+Beaver et al. (2012) accounting model (BCM ACC)
+nroai Indicator variable set equal to one if the return on assets (roa) is negative, and zero
+otherwise.
+roa Return on assets, defined as the ratio of trailing 12 months earnings before interest to
+average total assets over the corresponding 12 months period.
+lta T otal liabilities divided by total assets.
+etl Ratio of trailing 12 months operating income before depreciation to average total
+liabilities for the corresponding 12 months period.
+nroairoa Product of nroai and roa.
+nroailta Product of nroai and lta.
+nroaietl Product of nroai and etl.
+Beaver , McNichols, Rhie (2005) market model (BMR MKT)
+leret Prior 12 months equity returns as extracted from the CRSPmonthly files
+lsigma Standard deviation of excess stock returns computed over the previous 12 months.
+Monthly stock returns are extracted from CRSP and a one factor CAPM is used to
+compute excess returns
+lrsize logarithm of the ratio of market capitalisation of firm i for month t relative to the market
+capitalisation of all firms for month t.
+Beaver et al. (2012) combined model (BCM COM) (variables not yet defined)
+nroaileret Product of nroai and leret
+nroailsigma Product of nroai and lsigma
+nroailrsize Product of nroai and lrsize
+Distance-to-Default Model (D2D)
+d 2d Logarithm of market leverage scaled by the historical volatility of daily returns over the
+prior year . Market leverage is calculated as the market value of the firm’ s assets (the firm’ s
+market capitalisation plus the book value of debt), scaled by the book value of debt
+Accounting and Business Resear ch 537

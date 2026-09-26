@@ -1,0 +1,7 @@
+block,model,preprocessing_equal,all_four_candidate_metrics_equal,selection_equal,four_cell_max_abs_prediction_difference
+2016_2017,LR,True,True,True,0.0
+2016_2017,LGBM,True,True,True,0.0
+2018_2019,LR,True,True,True,0.0
+2018_2019,LGBM,True,True,True,0.0
+2020_2021,LR,True,True,True,0.0
+2020_2021,LGBM,True,True,True,0.0

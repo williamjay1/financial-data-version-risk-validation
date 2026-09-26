@@ -1,0 +1,20 @@
+figure1_protocol: no clipped text
+figure1_protocol: 26 text artists, 0 collisions
+figure1_protocol: text clear of axes frames
+figure1_protocol: wrote pdf (vector), svg (vector), png at 900 dpi
+figure2_four_cell: no clipped text
+figure2_four_cell: 52 text artists, 0 collisions
+figure2_four_cell: text clear of axes frames
+figure2_four_cell: wrote pdf (vector), svg (vector), png at 900 dpi
+figure3_development_domain: no clipped text
+figure3_development_domain: 36 text artists, 0 collisions
+figure3_development_domain: text clear of axes frames
+figure3_development_domain: wrote pdf (vector), svg (vector), png at 900 dpi
+figure4_development_influence: no clipped text
+figure4_development_influence: 27 text artists, 0 collisions
+figure4_development_influence: text clear of axes frames
+figure4_development_influence: wrote pdf (vector), svg (vector), png at 900 dpi
+figure5_source_evidence: no clipped text
+figure5_source_evidence: 39 text artists, 0 collisions
+figure5_source_evidence: text clear of axes frames
+figure5_source_evidence: wrote pdf (vector), svg (vector), png at 900 dpi

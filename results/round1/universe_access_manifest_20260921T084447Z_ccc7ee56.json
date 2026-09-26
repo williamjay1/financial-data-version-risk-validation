@@ -1,0 +1,17 @@
+[
+  {
+    "url": "https://drive.usercontent.google.com/download?id=14cgMOoMINB2kG6ZGAE0np1EJJOoNQrdt&export=download&confirm=t&uuid=3c10e94d-9e24-4c10-8546-d817227b9a2e",
+    "request_utc": "2026-09-21T08:44:47.885235+00:00",
+    "user_agent": "Codex public-data feasibility audit/1.0 (one-off metadata access; no bulk SEC collection)",
+    "authentication": false,
+    "status": 200,
+    "final_url": "https://drive.usercontent.google.com/download?id=14cgMOoMINB2kG6ZGAE0np1EJJOoNQrdt&export=download&confirm=t&uuid=3c10e94d-9e24-4c10-8546-d817227b9a2e",
+    "content_type": "text/html; charset=utf-8",
+    "etag": null,
+    "last_modified": null,
+    "raw_path": "E:\\AcademicData\\scie_small_sample_topics_20260920\\raw\\finance_reframe_20260921\\universe\\universe_20260921T084447Z_ccc7ee56_00.bin",
+    "bytes": 2009,
+    "sha256": "7468e9c5ef9cfe87ace1f96ee1d5f387687b6d8208ee7ad56a0abb20f21cb71a",
+    "read_only": true
+  }
+]

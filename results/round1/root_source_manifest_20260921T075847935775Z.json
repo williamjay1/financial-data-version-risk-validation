@@ -1,0 +1,31 @@
+[
+  {
+    "url": "https://researchonline.lse.ac.uk/id/eprint/128340/3/Accounting_and_corporate_failure_the_evolving_role_of_accounting_information_in_bankruptcy_prediction.pdf",
+    "retrieved_utc": "2026-09-21T07:58:47.935775+00:00",
+    "status": 200,
+    "final_url": "https://researchonline.lse.ac.uk/id/eprint/128340/3/Accounting_and_corporate_failure_the_evolving_role_of_accounting_information_in_bankruptcy_prediction.pdf",
+    "raw_path": "E:\\AcademicData\\scie_small_sample_topics_20260920\\raw\\finance_reframe_20260921\\root_sources\\20260921T075847935775Z_correia_2025_review.pdf",
+    "content_type": "application/pdf",
+    "bytes": 1440558,
+    "sha256": "b09be48b998ec74045c06898580b58f6509c774fc910e6fc11baa3b937864407",
+    "readonly": true,
+    "pages": 30,
+    "extracted_text": "D:\\MLWork\\scie_small_sample_topics_20260920\\finance_reframe_20260921\\results\\20260921T075847935775Z_correia_2025_review.pdf.txt"
+  },
+  {
+    "url": "https://www.sec.gov/search-filings/edgar-application-programming-interfaces",
+    "retrieved_utc": "2026-09-21T07:58:55.439894+00:00",
+    "error": "HTTPError('403 Client Error: Forbidden for url: https://www.sec.gov/search-filings/edgar-application-programming-interfaces')"
+  },
+  {
+    "url": "https://www.newyorkfed.org/medialibrary/media/research/banking_research/balance-sheets-income-statements/README",
+    "retrieved_utc": "2026-09-21T07:58:57.029647+00:00",
+    "status": 200,
+    "final_url": "https://www.newyorkfed.org/medialibrary/media/research/banking_research/balance-sheets-income-statements/README",
+    "raw_path": "E:\\AcademicData\\scie_small_sample_topics_20260920\\raw\\finance_reframe_20260921\\root_sources\\20260921T075847935775Z_nyfed_call_report_readme.txt",
+    "content_type": "text/html",
+    "bytes": 25335,
+    "sha256": "392ef1830722a9a691ca763def50bb242e88fffaa6d8eb5d955efc32a01fde61",
+    "readonly": true
+  }
+]

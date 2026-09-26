@@ -1,0 +1,12 @@
+{
+  "status": "PASS",
+  "independently_recomputed_metric_cells": 1390,
+  "maximum_metric_difference": 1.1102230246251565e-16,
+  "saved_artifacts_reconstructed": 710,
+  "maximum_prediction_difference": 1.3877787807814457e-17,
+  "maturity_and_complete_test_guards": "PASS",
+  "exact_matched_selected_records": "PASS",
+  "input_sha256": "724122d3ca7a0a123de244112aa604d6da7a008497cc6ce526f8f07327916e21",
+  "no_changes_to_old_files": true,
+  "warnings": []
+}

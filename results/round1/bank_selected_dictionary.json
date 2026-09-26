@@ -1,0 +1,432 @@
+{
+  "financial_field_count": 2378,
+  "failure_field_count": 21,
+  "financial_date_named_fields": {
+    "L_REPDTE": {
+      "title": "Report Date",
+      "description": "The last day of the financial reporting period selected.",
+      "type": "string",
+      "x-elastic-type": "keyword",
+      "x-source-mapping": [
+        {
+          "file": "RISVIEW_MERGED",
+          "field": "L_REPDTE"
+        }
+      ]
+    },
+    "REPDTE_RAW": {
+      "title": "Report Date",
+      "description": "The last day of the financial reporting period selected.",
+      "type": "string",
+      "x-elastic-type": "keyword",
+      "x-source-mapping": [
+        {
+          "file": "RISVIEW",
+          "field": "REPDTE"
+        },
+        {
+          "file": "RISVIEW_MERGED",
+          "field": "REPDTE"
+        }
+      ]
+    },
+    "REPDTE": {
+      "title": "Report Date",
+      "description": "The last day of the financial reporting period selected.",
+      "type": "string",
+      "x-elastic-type": "keyword",
+      "x-source-mapping": [
+        {
+          "file": "RISVIEW",
+          "field": "REPDTE"
+        },
+        {
+          "file": "RISVIEW_MERGED",
+          "field": "REPDTE"
+        }
+      ]
+    },
+    "RISDATE": {
+      "title": "Report Date",
+      "description": "The financial reporting period selected in CCYYMM format.",
+      "type": "string",
+      "format": "date-time",
+      "x-source-mapping": [
+        {
+          "file": "RISVIEW",
+          "field": "REPDTE"
+        },
+        {
+          "file": "RISVIEW_MERGED",
+          "field": "REPDTE"
+        }
+      ]
+    },
+    "MNRTYDTE": {
+      "title": "EFFECTIVE DTE OF MINORITY STATUS",
+      "description": "Represent the effective date on which an institution is assigned a minority status, transaction in dates. Format(DDMONCCYY) day, month abbrev, century, and year.",
+      "type": "number",
+      "x-source-mapping": [
+        {
+          "file": "RISVIEW",
+          "field": "MNRTYDTE"
+        }
+      ]
+    },
+    "CALLYMD": {
+      "title": "REPORT DATE (CCYYMMDD)",
+      "description": null,
+      "type": "number",
+      "x-source-mapping": [
+        {
+          "file": "RISVIEW",
+          "field": "CALLYMD"
+        }
+      ]
+    },
+    "EFFDATE": {
+      "title": "EFFECTIVE DATE",
+      "description": null,
+      "type": "number",
+      "x-source-mapping": [
+        {
+          "file": "RISVIEW",
+          "field": "EFFDATE"
+        }
+      ]
+    },
+    "ESTYMD": {
+      "title": "ESTABLISHED DATE",
+      "description": null,
+      "type": "number",
+      "x-source-mapping": [
+        {
+          "file": "RISVIEW",
+          "field": "ESTYMD"
+        }
+      ]
+    },
+    "ENDEFYMD": {
+      "title": "INACTIVE DATE",
+      "description": null,
+      "type": "number",
+      "x-source-mapping": [
+        {
+          "file": "RISVIEW",
+          "field": "ORG_END_NUM_DTE"
+        }
+      ]
+    },
+    "ORG_END_NUM_DTE": {
+      "title": "INACTIVE DATE",
+      "description": null,
+      "type": "number",
+      "x-source-mapping": [
+        {
+          "file": "RISVIEW",
+          "field": "ORG_END_NUM_DTE"
+        }
+      ]
+    },
+    "INSDATE": {
+      "title": "Date of Deposit Insurance",
+      "description": null,
+      "type": "string",
+      "x-elastic-type": "keyword",
+      "x-source-mapping": [
+        {
+          "file": "RISVIEW",
+          "field": "INSDATE"
+        }
+      ]
+    },
+    "UPDDATE": {
+      "title": "Last Structure Change Process Date",
+      "description": null,
+      "type": "string",
+      "x-elastic-type": "keyword",
+      "x-source-mapping": [
+        {
+          "file": "RISVIEW",
+          "field": "UPDDATE"
+        }
+      ]
+    }
+  },
+  "financial_key_fields": {
+    "CERT": {
+      "title": "FDIC Certificate #",
+      "description": "A unique NUMBER assigned by the FDIC used to identify institutions and for the issuance of insurance certificates.",
+      "type": "number",
+      "x-source-overwrite": false,
+      "x-source-mapping": [
+        {
+          "file": "RISVIEW",
+          "field": "CERT"
+        },
+        {
+          "file": "RISVIEW_MERGED",
+          "field": "C_CERT"
+        },
+        {
+          "file": "VINST_FIN_CUR_SDC",
+          "field": "ORG_CERT_NUM"
+        }
+      ]
+    },
+    "RSSDID": {
+      "title": "FEDERAL RESERVE ID NUMBER",
+      "description": null,
+      "type": "number",
+      "x-source-mapping": [
+        {
+          "file": "RISVIEW",
+          "field": "RSSDID"
+        }
+      ]
+    },
+    "REPDTE": {
+      "title": "Report Date",
+      "description": "The last day of the financial reporting period selected.",
+      "type": "string",
+      "x-elastic-type": "keyword",
+      "x-source-mapping": [
+        {
+          "file": "RISVIEW",
+          "field": "REPDTE"
+        },
+        {
+          "file": "RISVIEW_MERGED",
+          "field": "REPDTE"
+        }
+      ]
+    },
+    "RISDATE": {
+      "title": "Report Date",
+      "description": "The financial reporting period selected in CCYYMM format.",
+      "type": "string",
+      "format": "date-time",
+      "x-source-mapping": [
+        {
+          "file": "RISVIEW",
+          "field": "REPDTE"
+        },
+        {
+          "file": "RISVIEW_MERGED",
+          "field": "REPDTE"
+        }
+      ]
+    },
+    "EFFDATE": {
+      "title": "EFFECTIVE DATE",
+      "description": null,
+      "type": "number",
+      "x-source-mapping": [
+        {
+          "file": "RISVIEW",
+          "field": "EFFDATE"
+        }
+      ]
+    },
+    "ENDEFYMD": {
+      "title": "INACTIVE DATE",
+      "description": null,
+      "type": "number",
+      "x-source-mapping": [
+        {
+          "file": "RISVIEW",
+          "field": "ORG_END_NUM_DTE"
+        }
+      ]
+    },
+    "ACTIVE": {
+      "title": "ACTIVE INSTITUTION FLAG",
+      "description": null,
+      "type": "number",
+      "x-source-mapping": [
+        {
+          "file": "RISVIEW",
+          "field": "ACTIVE"
+        }
+      ]
+    },
+    "ACTEVT": {
+      "type": "string",
+      "title": "Activity Event Code",
+      "description": "Structure activity event code. Merger or closing codes only.",
+      "x-source-mapping": [
+        {
+          "file": "RISVIEW",
+          "field": "ACTEVT"
+        }
+      ]
+    },
+    "ASSET": {
+      "type": "number",
+      "title": "Total assets",
+      "description": "The sum of all assets owned by the institution including cash, loans, securities, bank premises and other assets. This total does not include off-balance-sheet accounts.",
+      "x-source-mapping": [
+        {
+          "file": "RISVIEW",
+          "field": "ASSET"
+        },
+        {
+          "file": "RISVIEW_MERGED",
+          "field": "L_ASSET"
+        }
+      ]
+    },
+    "DEP": {
+      "title": "Total deposits",
+      "description": "The sum of all deposits including demand deposits, money market deposits, other savings deposits, time deposits and deposits in foreign offices.",
+      "type": "number",
+      "x-source-mapping": [
+        {
+          "file": "RISVIEW",
+          "field": "DEP"
+        },
+        {
+          "file": "RISVIEW_MERGED",
+          "field": "L_DEP"
+        }
+      ]
+    },
+    "EQ": {
+      "title": "Equity capital",
+      "description": "Total equity capital (includes preferred and common stock, surplus and undivided profits).",
+      "type": "number",
+      "x-source-mapping": [
+        {
+          "file": "RISVIEW",
+          "field": "EQ"
+        }
+      ]
+    },
+    "NETINC": {
+      "title": "Net income",
+      "description": "Net interest income plus total noninterest income plus realized gains (losses) on securities and extraordinary items, less total noninterest expense, loan loss provisions and income taxes.",
+      "type": "number",
+      "x-source-mapping": [
+        {
+          "file": "RISVIEW",
+          "field": "NETINC"
+        }
+      ]
+    },
+    "ROA": {
+      "title": "Return on assets (ROA)",
+      "description": "Net income after taxes and extraordinary items (annualized) as a percent of average total assets.",
+      "type": "number",
+      "x-elastic-type": "double",
+      "x-source-mapping": [
+        {
+          "formula": {
+            "type": "percentage",
+            "parameters": {
+              "setField": "ROA",
+              "numerator": "NETINCA",
+              "denominator": "ASSET5"
+            }
+          }
+        }
+      ]
+    },
+    "ROE": {
+      "title": "Return on Equity (ROE)",
+      "description": "Annualized net income as a percent of average equity on a consolidated basis.     Note: If retained earnings are  negative, the ratio is shown as NA.",
+      "type": "number",
+      "x-elastic-type": "double",
+      "x-source-mapping": [
+        {
+          "file": "RISVIEW",
+          "field": "ROE"
+        }
+      ]
+    },
+    "DEPUNINS": {
+      "title": "ESTIMATED UNINSURED DEPOSITS IN DOMESTIC OFFICES AND IN INSURED BRANCHES IN US TERRITORIES AND POSSESSIONS",
+      "description": null,
+      "type": "number",
+      "x-source-mapping": [
+        {
+          "file": "RISVIEW",
+          "field": "DEPUNINS"
+        }
+      ]
+    }
+  },
+  "failure_key_fields": {
+    "CERT": {
+      "type": "string",
+      "x-elastic-type": "keyword",
+      "title": "Cert",
+      "description": "The certificate number assigned by the FDIC used to identify institutions and for the issuance of insurance certificates. By clicking on this number, you will link to the Institution Directory (ID) system which will provide the last demographic and financial data filed by the selected institution."
+    },
+    "FIN": {
+      "type": "string",
+      "x-elastic-type": "keyword",
+      "title": "FIN",
+      "description": "Financial Institution Number (FIN) is a unique number assigned to the institution as an Assistance Agreement, Conservatorship, Bridge Bank or Receivership."
+    },
+    "FAILDATE": {
+      "type": "string",
+      "format": "date-time",
+      "title": "Effective Date",
+      "description": "The date that the failed / assisted institution ceased to exist as a privately held going concern. For institutions that entered into government ownership, such as FDIC Bridge Banks and RTC conservatorships, this is the date that they entered into such ownership."
+    },
+    "RESDATE": {
+      "type": "string",
+      "format": "date-time",
+      "title": "Date of Resolution",
+      "description": "Date of Resolution. Usually the same as the fail date, except with banks with Open Bank Assistance."
+    },
+    "RESTYPE": {
+      "type": "string",
+      "x-elastic-type": "keyword",
+      "title": "Resolution",
+      "description": "The given institution has failure stature or it can be assistance has been provided by FDIC in merging with other institution.",
+      "enum": [
+        "Failure",
+        "Assistance"
+      ]
+    },
+    "RESTYPE1": {
+      "type": "string",
+      "x-elastic-type": "keyword",
+      "title": "Transaction Type",
+      "description": "Institutions have been resolved through several different types of transactions. The transaction types outlined below can be grouped into three general categories, based upon the method employed to protect insured depositors and how each transaction affects a failed / assisted institution's charter. In most assistance transactions, insured and uninsured depositors are protected, the failed / assisted institution remains open and its charter survives the resolution process. In purchase and assumption transactions, the failed / assisted institution's insured deposits are transferred to a successor institution, and its charter is closed. In most of these transactions, additional liabilities and assets are also transferred to the successor institution. In payoff transactions, the deposit insurer - the FDIC or the former Federal Savings and Loan Insurance Corporation - pays insured depositors, the failed / assisted institution's charter is closed, and there is no successor institution. For a more complete description of resolution transactions and the FDIC's receivership activities, see Managing the Crisis: The FDIC and RTC Experience, a study prepared by the FDIC's Division of Resolutions and Receiverships. Copies are available from the FDIC's Public Information Center.\nCategory 1 - Institution's charter survives\nA/A\t- Assistance Transactions. These include: 1) transactions where assistance was provided to the acquirer, who purchased the entire institution. For a few FSLIC transactions, the acquirer purchased the entire bridge bank - type entity, but certain other assets were moved into a liquidating receivership prior to the sale, and 2) open bank assistance transactions, including those where assistance was provided under a systemic risk determination (in such cases any costs that exceed the amounts estimated under the least cost resolution requirement would be recovered through a special assessment on all FDIC-insured institutions).\nREP -\tReprivatization, management takeover with or without assistance at takeover, followed by a sale with or without additional assistance.\nCategory 2 - Institution's charter is terminated, insured deposits plus some assets and other liabilities are transferred to a successor charter\nP&A - Purchase and Assumption, where some or all of the deposits, certain other liabilities and a portion of the assets (sometimes all of the assets) were sold to an acquirer. It was not determined if all of the deposits (PA) or only the insured deposits (PI) were assumed.\nPA - Purchase and Assumption, where the insured and uninsured deposits, certain other liabilities and a portion of the assets were sold to an acquirer.\nPI - Purchase and Assumption of the insured deposits only, where the traditional P&A was modified so that only the insured deposits were assumed by the acquiring institution.\nIDT - Insured Deposit Transfer, where the acquiring institution served as a paying agent for the insurer, established accounts on their books for depositors, and often acquired some assets as well. Includes ABT (asset-backed transfer, a FSLIC transaction that is very similar to an IDT).\nMGR - An institution where FSLIC took over management and generally provided financial assistance. FSLIC closed down before the institution was sold.\nCategory 3\nPO - Payout, where the insurer paid the depositors directly and placed the assets in a liquidating receivership. Note: Includes transactions where the FDIC established a Deposit Insurance National Bank to facilitate the payout process.",
+      "enum": [
+        "A/A",
+        "REP",
+        "P&A",
+        "PA",
+        "PI",
+        "IDT",
+        "MGR",
+        "PO"
+      ]
+    },
+    "QBFASSET": {
+      "type": "number",
+      "x-elastic-type": "double",
+      "x-number-unit": "Thousands of US Dollars",
+      "title": "Total Assets",
+      "description": "The Total assets owned by the institution including cash, loans, securities, bank premises and other assets as of the last Call Report or Thrift Financial Report filed by the institution prior to the effective date. Note this does not necessarily reflect total assets on the last report filed because in some cases reports were filed after the effective date. This total does not include off-balance-sheet accounts."
+    },
+    "QBFDEP": {
+      "type": "number",
+      "x-elastic-type": "double",
+      "x-number-unit": "Thousands of US Dollars",
+      "title": "Total Deposits",
+      "description": "Total including demand deposits, money market deposits, other savings deposits, time deposits and deposits in foreign offices as of the last Call Report or Thrift Financial Report filed by the institution prior to the effective date. Note this does not necessarily reflect total deposits on the last report filed because in some cases reports were filed after the effective date."
+    },
+    "COST": {
+      "type": "number",
+      "x-elastic-type": "double",
+      "x-number-unit": "Thousands of US Dollars",
+      "title": "Estimated Loss",
+      "description": "The estimated loss is the difference between the amount disbursed from the Deposit Insurance Fund (DIF) to cover obligations to insured depositors and the amount estimated to be ultimately recovered from the liquidation of the receivership estate. Estimated losses reflect unpaid principal amounts deemed unrecoverable and do not reflect interest that may be due on the DIF's administrative or subrogated claims should its principal be repaid in full.\nNotes:\nComprehensive data on estimated losses are not available for FDIC-insured failures prior to 1986, or for FSLIC-insured failures from 1934-88. Estimated loss is presented as \"N/A\" in years for which comprehensive information is not available.\nEstimated Loss data was previously referred to as 'Estimated Cost' in past releases of the Historical Statistic on Banking. For RTC receiverships, the 'Estimated Cost' included an allocation of FDIC corporate revenue and expense items such as interest expense on Federal Financing Bank debt, interest expense on escrowed funds and interest revenue on advances to receiverships. Other FDIC receiverships did not include such an allocation. To maintain consistency with FDIC receiverships, the RTC allocation is no longer reflected in the estimated loss amounts for failed / assisted institutions that were resolved through RTC receiverships.\nBeginning with the release of 2007 information, the 'Estimated Loss' in the Historical Statistics on Banking is presented and defined consistently with the aggregate Estimated Receivership Loss for FRF-RTC institutions and Estimated Losses for FDIC receiverships that are reported in the FDIC's Annual Report. The estimated loss is obtained from the FDIC's Failed Bank Cost Analysis (FBCA) report and the RTC Loss report. The FBCA provides data for receiverships back to 1986. The RTC Loss Report provides similar data back to 1989. \nQuestions regarding Estimated Loss should be sent to DOFBusinessCenter@fdic.gov. \nAlso, for more detail regarding resolution transactions and the FDIC's receivership activities, see Managing the Crisis: The FDIC and RTC Experience, a historical study prepared by the FDIC's Division of Resolutions and Receiverships. Copies are available from the FDIC's Public Information Center."
+    },
+    "COSTMOSTRECENTASOF": null
+  }
+}

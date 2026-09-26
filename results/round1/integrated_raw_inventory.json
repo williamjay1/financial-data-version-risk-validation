@@ -1,0 +1,326 @@
+[
+  {
+    "path": "E:\\AcademicData\\scie_small_sample_topics_20260920\\raw\\finance_reframe_20260921\\bank\\20260921T075155036068Z_api_docs.html",
+    "bytes": 33773,
+    "readonly": true,
+    "sha256": "7cd38f317509a4ee44cfff06aceff872c6a8f2039eaa0240585289363956552e"
+  },
+  {
+    "path": "E:\\AcademicData\\scie_small_sample_topics_20260920\\raw\\finance_reframe_20260921\\bank\\20260921T075155036068Z_failures_all.json",
+    "bytes": 2433201,
+    "readonly": true,
+    "sha256": "97e42291231128ce80e15eeda5b26da1401563c2197515f7525b4ff418eed88a"
+  },
+  {
+    "path": "E:\\AcademicData\\scie_small_sample_topics_20260920\\raw\\finance_reframe_20260921\\bank\\20260921T075155036068Z_financials_full_schema_sample.json",
+    "bytes": 6397,
+    "readonly": true,
+    "sha256": "b4103463a437ef956be87858ef8b83abc35218772aedf0c6cad82bbfe4a88464"
+  },
+  {
+    "path": "E:\\AcademicData\\scie_small_sample_topics_20260920\\raw\\finance_reframe_20260921\\bank\\20260921T075338625375Z_failure_dictionary.yaml",
+    "bytes": 14728,
+    "readonly": true,
+    "sha256": "7e3137fb6fc93dd49371b4d032f48fad403efd3d9a7f5cc8ca5480c00807364c"
+  },
+  {
+    "path": "E:\\AcademicData\\scie_small_sample_topics_20260920\\raw\\finance_reframe_20260921\\bank\\20260921T075338625375Z_financial_dictionary.yaml",
+    "bytes": 616633,
+    "readonly": true,
+    "sha256": "b257457e4e821d6a0d9f88ffc4e6e0da80e4ccf67fa394cadb21587b50b23d59"
+  },
+  {
+    "path": "E:\\AcademicData\\scie_small_sample_topics_20260920\\raw\\finance_reframe_20260921\\bank\\20260921T075338625375Z_financial_first_date.json",
+    "bytes": 284,
+    "readonly": true,
+    "sha256": "4709fbb33d8a55c3f7c0007fbdbb102e2772146cbd2f0c7d1e137f44b148a225"
+  },
+  {
+    "path": "E:\\AcademicData\\scie_small_sample_topics_20260920\\raw\\finance_reframe_20260921\\bank\\20260921T075338625375Z_financial_join_sample.json",
+    "bytes": 652666,
+    "readonly": true,
+    "sha256": "c4abf0ffb2485cc518b3137d14d8f9ca132736e755297d4bcfd4e47fd9190fec"
+  },
+  {
+    "path": "E:\\AcademicData\\scie_small_sample_topics_20260920\\raw\\finance_reframe_20260921\\bank\\20260921T075338625375Z_financial_last_date.json",
+    "bytes": 284,
+    "readonly": true,
+    "sha256": "02ce08e1f180864bbec4d2277ee4609f5070e898d00fe858b908e5fe79df7921"
+  },
+  {
+    "path": "E:\\AcademicData\\scie_small_sample_topics_20260920\\raw\\finance_reframe_20260921\\bank\\20260921T075338625375Z_institution_dictionary.yaml",
+    "bytes": 94832,
+    "readonly": true,
+    "sha256": "6ed1763c66a9e240904a45712b23d825c0f31beaadb6cd0213fc1bf00b2af1b9"
+  },
+  {
+    "path": "E:\\AcademicData\\scie_small_sample_topics_20260920\\raw\\finance_reframe_20260921\\bank\\20260921T075338625375Z_swagger.yaml",
+    "bytes": 34749,
+    "readonly": true,
+    "sha256": "854500ae68d77185a12fc9260e0bbc0194e3848df0e54086f828656ea508852b"
+  },
+  {
+    "path": "E:\\AcademicData\\scie_small_sample_topics_20260920\\raw\\finance_reframe_20260921\\bank\\20260921T080020572648Z_fdic_api_catalog_license.html",
+    "bytes": 123244,
+    "readonly": true,
+    "sha256": "4d84edfe9a7fc3d9461be5bd17a5438f7357b5e9361d7657cb5e57d708a5b965"
+  },
+  {
+    "path": "E:\\AcademicData\\scie_small_sample_topics_20260920\\raw\\finance_reframe_20260921\\bank\\20260921T080020572648Z_ffiec_public_service.pdf",
+    "bytes": 179,
+    "readonly": true,
+    "sha256": "1f2e1251b1d5fab2f47bbfe3e09b149064e61571f98a5e02c6ace5f86bacb1d5"
+  },
+  {
+    "path": "E:\\AcademicData\\scie_small_sample_topics_20260920\\raw\\finance_reframe_20260921\\bank\\20260921T080020572648Z_ffiec_pws_info.html",
+    "bytes": 179,
+    "readonly": true,
+    "sha256": "1f2e1251b1d5fab2f47bbfe3e09b149064e61571f98a5e02c6ace5f86bacb1d5"
+  },
+  {
+    "path": "E:\\AcademicData\\scie_small_sample_topics_20260920\\raw\\finance_reframe_20260921\\bank\\20260921T080020572648Z_ffiec_revision_history.html",
+    "bytes": 179,
+    "readonly": true,
+    "sha256": "1f2e1251b1d5fab2f47bbfe3e09b149064e61571f98a5e02c6ace5f86bacb1d5"
+  },
+  {
+    "path": "E:\\AcademicData\\scie_small_sample_topics_20260920\\raw\\finance_reframe_20260921\\corporate\\probe_20260921T075149Z_ee6e6c9d_00.bin",
+    "bytes": 162692,
+    "readonly": true,
+    "sha256": "21b1179f6f667f9004c0b1d352eb0bdcaba0f4d80dd234c767f944307c08d0ca"
+  },
+  {
+    "path": "E:\\AcademicData\\scie_small_sample_topics_20260920\\raw\\finance_reframe_20260921\\corporate\\probe_20260921T075149Z_ee6e6c9d_01.bin",
+    "bytes": 2489472,
+    "readonly": true,
+    "sha256": "77bd7030131d1c121298dcee740194ef516c98f2415daca32b383513101da669"
+  },
+  {
+    "path": "E:\\AcademicData\\scie_small_sample_topics_20260920\\raw\\finance_reframe_20260921\\corporate\\probe_20260921T075149Z_ee6e6c9d_02.bin",
+    "bytes": 164231,
+    "readonly": true,
+    "sha256": "21995788784b0bc55218499c45c6fc1878378176024c615170f97e1b65044fd4"
+  },
+  {
+    "path": "E:\\AcademicData\\scie_small_sample_topics_20260920\\raw\\finance_reframe_20260921\\corporate\\probe_20260921T075149Z_ee6e6c9d_03.bin",
+    "bytes": 4818,
+    "readonly": true,
+    "sha256": "a26c5cb3c8367c5238a5a1b75b79201b1d2a012ebbe2bbbc742c616e19ee104e"
+  },
+  {
+    "path": "E:\\AcademicData\\scie_small_sample_topics_20260920\\raw\\finance_reframe_20260921\\corporate\\probe_20260921T075149Z_ee6e6c9d_04.bin",
+    "bytes": 9486,
+    "readonly": true,
+    "sha256": "7b67f7e47d15f5d0191903a900327a1798424eee502126dd6c7658303795d107"
+  },
+  {
+    "path": "E:\\AcademicData\\scie_small_sample_topics_20260920\\raw\\finance_reframe_20260921\\corporate\\probe_20260921T075149Z_ee6e6c9d_05.bin",
+    "bytes": 846980,
+    "readonly": true,
+    "sha256": "48aee8c4c8bf3178a3cb4ddf35555a736ed854c4a21f9f24865cd6fffd7c7bb9"
+  },
+  {
+    "path": "E:\\AcademicData\\scie_small_sample_topics_20260920\\raw\\finance_reframe_20260921\\corporate\\probe_20260921T075149Z_ee6e6c9d_06.bin",
+    "bytes": 58,
+    "readonly": true,
+    "sha256": "0662b188b7b87b9ed8b7b1d78baa8ea47d8ec6626a603220245c5b9c225ce0c3"
+  },
+  {
+    "path": "E:\\AcademicData\\scie_small_sample_topics_20260920\\raw\\finance_reframe_20260921\\corporate\\probe_20260921T075259Z_c52e6e79_00.bin",
+    "bytes": 11026,
+    "readonly": true,
+    "sha256": "29a781a2d48d65acfe9c4804ff2aac69b813bc0bbf3b969dcfed9e6d82294c14"
+  },
+  {
+    "path": "E:\\AcademicData\\scie_small_sample_topics_20260920\\raw\\finance_reframe_20260921\\corporate\\probe_20260921T075259Z_c52e6e79_01.bin",
+    "bytes": 9296,
+    "readonly": true,
+    "sha256": "4931b48ae60d4878944e19075b5ad5341ac7b251f6fb866e8e2330eb596fbea8"
+  },
+  {
+    "path": "E:\\AcademicData\\scie_small_sample_topics_20260920\\raw\\finance_reframe_20260921\\corporate\\probe_20260921T075259Z_c52e6e79_02.bin",
+    "bytes": 79105,
+    "readonly": true,
+    "sha256": "44e7334ee6dcf579a499cdc76364499fc5d76922972c3e905b1c33618d3df93b"
+  },
+  {
+    "path": "E:\\AcademicData\\scie_small_sample_topics_20260920\\raw\\finance_reframe_20260921\\corporate\\probe_20260921T075324Z_82bda946_00.bin",
+    "bytes": 141959,
+    "readonly": true,
+    "sha256": "4985bf3c8fb326c1d18334eba829ed9c4165fd0009930bba2e68f1dcea74d0ab"
+  },
+  {
+    "path": "E:\\AcademicData\\scie_small_sample_topics_20260920\\raw\\finance_reframe_20260921\\corporate\\probe_20260921T075324Z_82bda946_01.bin",
+    "bytes": 2202614,
+    "readonly": true,
+    "sha256": "55e58c385f14407a31e40ff71d3b850f04f33c8cbb92fb426226c58cd53e83d8"
+  },
+  {
+    "path": "E:\\AcademicData\\scie_small_sample_topics_20260920\\raw\\finance_reframe_20260921\\corporate\\probe_20260921T075342Z_37352bae_00.bin",
+    "bytes": 2938544,
+    "readonly": true,
+    "sha256": "03a17b10802b26eefce1d30a4dd45e774b3a252a16ad8fae60116185d97dfe70"
+  },
+  {
+    "path": "E:\\AcademicData\\scie_small_sample_topics_20260920\\raw\\finance_reframe_20260921\\corporate\\probe_20260921T075547Z_caf8798b_00.bin",
+    "bytes": 4818,
+    "readonly": true,
+    "sha256": "88697a8120b36dd447a274a34f79fd637074974a07c46a569d1f29465eb3c227"
+  },
+  {
+    "path": "E:\\AcademicData\\scie_small_sample_topics_20260920\\raw\\finance_reframe_20260921\\corporate\\probe_20260921T075547Z_caf8798b_01.bin",
+    "bytes": 40287,
+    "readonly": true,
+    "sha256": "9f79e88eeefe15e01f8c06f42f740e2cf5c461d147a41a706f085252fb010aed"
+  },
+  {
+    "path": "E:\\AcademicData\\scie_small_sample_topics_20260920\\raw\\finance_reframe_20260921\\corporate\\probe_20260921T075730Z_8d455e6a_00.bin",
+    "bytes": 34,
+    "readonly": true,
+    "sha256": "6d91307118e71e52cbd13b719fef3a66192728009a15ff8b61152d1eee5c8e5a"
+  },
+  {
+    "path": "E:\\AcademicData\\scie_small_sample_topics_20260920\\raw\\finance_reframe_20260921\\corporate\\probe_20260921T075958Z_0870a7cd_00.bin",
+    "bytes": 135552,
+    "readonly": true,
+    "sha256": "052704f94a46c22ad2186c79439e1642e338b00e4259d464c3286f5b51531aaf"
+  },
+  {
+    "path": "E:\\AcademicData\\scie_small_sample_topics_20260920\\raw\\finance_reframe_20260921\\corporate\\probe_20260921T075958Z_0870a7cd_01.bin",
+    "bytes": 311,
+    "readonly": true,
+    "sha256": "f50864156fb2aebe5f45b8b6cf2448fdb24a5e54d953463538268fa7ae804d5a"
+  },
+  {
+    "path": "E:\\AcademicData\\scie_small_sample_topics_20260920\\raw\\finance_reframe_20260921\\corporate\\probe_20260921T075958Z_0870a7cd_02.bin",
+    "bytes": 94004,
+    "readonly": true,
+    "sha256": "a2c9750b64a67cb3310b41401dfde30674c8f57dcdfec925478875239c65b79f"
+  },
+  {
+    "path": "E:\\AcademicData\\scie_small_sample_topics_20260920\\raw\\finance_reframe_20260921\\corporate\\probe_20260921T075958Z_0870a7cd_03.bin",
+    "bytes": 311,
+    "readonly": true,
+    "sha256": "9b4abe406c13a2eaf52eabd3015a33a8951d9bcdc53b23cb1cf27c191f4baee1"
+  },
+  {
+    "path": "E:\\AcademicData\\scie_small_sample_topics_20260920\\raw\\finance_reframe_20260921\\corporate\\probe_20260921T075958Z_0870a7cd_04.bin",
+    "bytes": 109664,
+    "readonly": true,
+    "sha256": "7dc976a397f140bcb15432fd818e554bdc30898cedc9b89827bfcbb0ebade969"
+  },
+  {
+    "path": "E:\\AcademicData\\scie_small_sample_topics_20260920\\raw\\finance_reframe_20260921\\corporate\\probe_20260921T075958Z_0870a7cd_05.bin",
+    "bytes": 250621,
+    "readonly": true,
+    "sha256": "93e6309f66915c6f43c29b42f4bb2984f14dd7b062659d8418040a8eb2d8e57c"
+  },
+  {
+    "path": "E:\\AcademicData\\scie_small_sample_topics_20260920\\raw\\finance_reframe_20260921\\corporate\\probe_20260921T075958Z_0870a7cd_06.bin",
+    "bytes": 24221,
+    "readonly": true,
+    "sha256": "662e44621e0733626d5b73ebf638e85f28ddb3306f87a78181b55da124e02875"
+  },
+  {
+    "path": "E:\\AcademicData\\scie_small_sample_topics_20260920\\raw\\finance_reframe_20260921\\corporate\\probe_20260921T075958Z_0870a7cd_07.bin",
+    "bytes": 240072,
+    "readonly": true,
+    "sha256": "b634cdde3deaf82c43aaee32ac62107902ed3585a7f1f591912c247c79ad3158"
+  },
+  {
+    "path": "E:\\AcademicData\\scie_small_sample_topics_20260920\\raw\\finance_reframe_20260921\\corporate\\probe_20260921T075958Z_0870a7cd_08.bin",
+    "bytes": 163112,
+    "readonly": true,
+    "sha256": "c96e613274f8ada74ff02052fa944513bd6840c4971d34e2b5f536ff90fd0c85"
+  },
+  {
+    "path": "E:\\AcademicData\\scie_small_sample_topics_20260920\\raw\\finance_reframe_20260921\\corporate\\probe_20260921T075958Z_0870a7cd_09.bin",
+    "bytes": 2504222,
+    "readonly": true,
+    "sha256": "ca96cf06b7c7299418b26e54a6f5f7840d40be43cf99e1726ff0b708705e5290"
+  },
+  {
+    "path": "E:\\AcademicData\\scie_small_sample_topics_20260920\\raw\\finance_reframe_20260921\\corporate\\probe_20260921T075958Z_0870a7cd_10.bin",
+    "bytes": 147411,
+    "readonly": true,
+    "sha256": "cf69b734b7c7e41ba548e6c4839ed6cb9d2c68f911737367645332a9011ef908"
+  },
+  {
+    "path": "E:\\AcademicData\\scie_small_sample_topics_20260920\\raw\\finance_reframe_20260921\\corporate\\probe_20260921T075958Z_0870a7cd_11.bin",
+    "bytes": 1330146,
+    "readonly": true,
+    "sha256": "a8fadb706a8a5a2047ceb08b20cf7834c3a55c92bf46f911be917a7812b48996"
+  },
+  {
+    "path": "E:\\AcademicData\\scie_small_sample_topics_20260920\\raw\\finance_reframe_20260921\\corporate\\probe_20260921T080023Z_286bc30f_00.bin",
+    "bytes": 167081,
+    "readonly": true,
+    "sha256": "8ba86257db1ab05ab3bf3f117bb4b2822b4371b1e15ee375e1190ad8462ac56b"
+  },
+  {
+    "path": "E:\\AcademicData\\scie_small_sample_topics_20260920\\raw\\finance_reframe_20260921\\corporate\\probe_20260921T080023Z_286bc30f_01.bin",
+    "bytes": 3281359,
+    "readonly": true,
+    "sha256": "6180e5ddc3c01e5876f61b698cd8a32df052fbe2864032341a8f8e585aa697e6"
+  },
+  {
+    "path": "E:\\AcademicData\\scie_small_sample_topics_20260920\\raw\\finance_reframe_20260921\\corporate\\probe_20260921T080023Z_286bc30f_02.bin",
+    "bytes": 107919,
+    "readonly": true,
+    "sha256": "3e55247d625338380beb4c60349906fd274db27608daa028ff5fa923ebf555d9"
+  },
+  {
+    "path": "E:\\AcademicData\\scie_small_sample_topics_20260920\\raw\\finance_reframe_20260921\\corporate\\probe_20260921T080023Z_286bc30f_03.bin",
+    "bytes": 1989876,
+    "readonly": true,
+    "sha256": "64c582e7e0b014dbe60cb88e89a5634a1058fcd8259e4d31f527081ed734360c"
+  },
+  {
+    "path": "E:\\AcademicData\\scie_small_sample_topics_20260920\\raw\\finance_reframe_20260921\\literature\\20260921_155411_nyfed_2025_calls.html",
+    "bytes": 171328,
+    "readonly": true,
+    "sha256": "50c0eb8cc037f20c7a0021cd1307364bcfe938f25f1fa73482c49a102d360fcb"
+  },
+  {
+    "path": "E:\\AcademicData\\scie_small_sample_topics_20260920\\raw\\finance_reframe_20260921\\literature\\20260921_155411_sec_narratives_2606.05623v1.pdf",
+    "bytes": 388568,
+    "readonly": true,
+    "sha256": "a16b10b8e52d149b91216c7ecb412342ff164b2305e790676459d78666882b64"
+  },
+  {
+    "path": "E:\\AcademicData\\scie_small_sample_topics_20260920\\raw\\finance_reframe_20260921\\literature\\20260921_155411_springer_2026_bankruptcy.html",
+    "bytes": 413326,
+    "readonly": true,
+    "sha256": "9aff81587d84d17a2107b4f6d509eac05ace4fa08809a604971c0e98adc49117"
+  },
+  {
+    "path": "E:\\AcademicData\\scie_small_sample_topics_20260920\\raw\\finance_reframe_20260921\\literature\\20260921_155517_comeres_wp2022v3.pdf",
+    "bytes": 458088,
+    "readonly": true,
+    "sha256": "d919667f10a86dc9c05f60f059c63ed9f8c76596d40152559301394c3319c0ee"
+  },
+  {
+    "path": "E:\\AcademicData\\scie_small_sample_topics_20260920\\raw\\finance_reframe_20260921\\literature\\20260921_155517_ejor_selective_2407.13009.pdf",
+    "bytes": 1106669,
+    "readonly": true,
+    "sha256": "482c5423a9846fe31e6168f04e6ec918b77eeb0b3f45302637e3b8b93705c2c4"
+  },
+  {
+    "path": "E:\\AcademicData\\scie_small_sample_topics_20260920\\raw\\finance_reframe_20260921\\literature\\20260921_155517_reject_illusion_2606.18479.pdf",
+    "bytes": 1203099,
+    "readonly": true,
+    "sha256": "ceff5c1d3815766fbf92b31b274b9043c49d4ea7e1a11c5a6261bf0affa9079a"
+  },
+  {
+    "path": "E:\\AcademicData\\scie_small_sample_topics_20260920\\raw\\finance_reframe_20260921\\root_sources\\20260921T075847935775Z_correia_2025_review.pdf",
+    "bytes": 1440558,
+    "readonly": true,
+    "sha256": "b09be48b998ec74045c06898580b58f6509c774fc910e6fc11baa3b937864407"
+  },
+  {
+    "path": "E:\\AcademicData\\scie_small_sample_topics_20260920\\raw\\finance_reframe_20260921\\root_sources\\20260921T075847935775Z_nyfed_call_report_readme.txt",
+    "bytes": 25335,
+    "readonly": true,
+    "sha256": "392ef1830722a9a691ca763def50bb242e88fffaa6d8eb5d955efc32a01fde61"
+  }
+]

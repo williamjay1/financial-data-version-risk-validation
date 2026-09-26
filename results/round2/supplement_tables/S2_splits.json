@@ -1,0 +1,122 @@
+[
+  {
+    "block": "2016_2017",
+    "stage": "tuning_train",
+    "validation_year": 2013.0,
+    "n": 181,
+    "positive_windows": 3,
+    "n_cik": 141,
+    "n_sampling_clusters": 139,
+    "weighted_n": 1535.6
+  },
+  {
+    "block": "2016_2017",
+    "stage": "validation",
+    "validation_year": 2013.0,
+    "n": 609,
+    "positive_windows": 7,
+    "n_cik": 604,
+    "n_sampling_clusters": 600,
+    "weighted_n": 6623.423999999999
+  },
+  {
+    "block": "2016_2017",
+    "stage": "refit",
+    "validation_year": null,
+    "n": 2024,
+    "positive_windows": 39,
+    "n_cik": 762,
+    "n_sampling_clusters": 751,
+    "weighted_n": 21543.785999999993
+  },
+  {
+    "block": "2016_2017",
+    "stage": "test",
+    "validation_year": null,
+    "n": 1063,
+    "positive_windows": 51,
+    "n_cik": 589,
+    "n_sampling_clusters": 582,
+    "weighted_n": 12157.173999999999
+  },
+  {
+    "block": "2018_2019",
+    "stage": "tuning_train",
+    "validation_year": 2015.0,
+    "n": 1415,
+    "positive_windows": 27,
+    "n_cik": 705,
+    "n_sampling_clusters": 697,
+    "weighted_n": 14879.723999999997
+  },
+  {
+    "block": "2018_2019",
+    "stage": "validation",
+    "validation_year": 2015.0,
+    "n": 587,
+    "positive_windows": 24,
+    "n_cik": 580,
+    "n_sampling_clusters": 574,
+    "weighted_n": 6344.049999999999
+  },
+  {
+    "block": "2018_2019",
+    "stage": "refit",
+    "validation_year": null,
+    "n": 3167,
+    "positive_windows": 95,
+    "n_cik": 850,
+    "n_sampling_clusters": 838,
+    "weighted_n": 34065.42599999999
+  },
+  {
+    "block": "2018_2019",
+    "stage": "test",
+    "validation_year": null,
+    "n": 946,
+    "positive_windows": 28,
+    "n_cik": 518,
+    "n_sampling_clusters": 514,
+    "weighted_n": 11498.333999999995
+  },
+  {
+    "block": "2020_2021",
+    "stage": "tuning_train",
+    "validation_year": 2017.0,
+    "n": 2607,
+    "positive_windows": 64,
+    "n_cik": 813,
+    "n_sampling_clusters": 801,
+    "weighted_n": 27789.013999999992
+  },
+  {
+    "block": "2020_2021",
+    "stage": "validation",
+    "validation_year": 2017.0,
+    "n": 509,
+    "positive_windows": 20,
+    "n_cik": 507,
+    "n_sampling_clusters": 503,
+    "weighted_n": 5954.491999999998
+  },
+  {
+    "block": "2020_2021",
+    "stage": "refit",
+    "validation_year": null,
+    "n": 4161,
+    "positive_windows": 124,
+    "n_cik": 901,
+    "n_sampling_clusters": 886,
+    "weighted_n": 45855.58799999999
+  },
+  {
+    "block": "2020_2021",
+    "stage": "test",
+    "validation_year": null,
+    "n": 845,
+    "positive_windows": 44,
+    "n_cik": 471,
+    "n_sampling_clusters": 471,
+    "weighted_n": 11397.333999999997
+  }
+]

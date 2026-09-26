@@ -1,0 +1,22 @@
+{
+  "reason": "Make active B-source metadata describe fit-date-selected values; preserve original latest-source metadata with unlimited_ prefix.",
+  "all_numerical_inputs_identical": true,
+  "reran_training": false,
+  "datasets": [
+    {
+      "block": "2016_2017",
+      "before_sha256": "61a5d041e92020b525accb6b8a1ae6d6c59d37e5e88d431cabc2f00025fd9737",
+      "after_sha256": "5582f26598da5c2e836667e88ae3969df941a72ed695c3f3cf7cade54d6026aa"
+    },
+    {
+      "block": "2018_2019",
+      "before_sha256": "9873795edb2c22981b956fbf49581d7b2499df13b09849b4ea09250bb75031f7",
+      "after_sha256": "5e8ee3bbd9bc658aead587438af73640036d8203bfffbbb36b3f854301cfce25"
+    },
+    {
+      "block": "2020_2021",
+      "before_sha256": "22e86d03bf69a259f005661389e64bfe1a0380483fee5e92061c30151c25266c",
+      "after_sha256": "6a41accc08b32300f0506d9ec21d943a27d103d4d692f8a488d82fc973666180"
+    }
+  ]
+}

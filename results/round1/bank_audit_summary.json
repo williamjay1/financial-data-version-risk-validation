@@ -1,0 +1,193 @@
+{
+  "audited_utc": "2026-09-21T08:00:54.627707+00:00",
+  "scope": "All failure/assistance records; financial sample deliberately selected 12 recently failed banks and 3 controls, not representative risk set.",
+  "failure_endpoint": {
+    "retrieved_rows": 4117,
+    "declared_total": 4117,
+    "min_date": "1934-04-19",
+    "max_date": "2026-07-17",
+    "invalid_dates": 0,
+    "type_counts": {
+      "FAILURE": 3524,
+      "ASSISTANCE": 593
+    },
+    "transaction_counts": {
+      "PA": 2107,
+      "A/A": 579,
+      "PO": 573,
+      "IDT": 386,
+      "P&A": 251,
+      "PI": 143,
+      "MGR": 37,
+      "ABT": 16,
+      "OBAM": 13,
+      "DINB": 9,
+      "REP": 3
+    },
+    "CERT_missing": 488,
+    "CERT_zero": 0,
+    "distinct_CERT": 3585,
+    "CERT_missing_since_1984": 0,
+    "duplicate_CERT_rows": 576,
+    "duplicate_CERT_FAILDATE_FIN_rows": 123,
+    "duplicate_known_CERT_FAILDATE_FIN_rows": 0,
+    "failure_counts_since": {
+      "1984": 2863,
+      "1992": 851,
+      "2000": 581,
+      "2010": 384,
+      "2015": 42,
+      "2020": 17
+    },
+    "meta": {
+      "total": 4117,
+      "parameters": {
+        "filters": "",
+        "limit": "10000"
+      },
+      "index": {
+        "name": "failures_1787667198788",
+        "createTimestamp": "2026-08-25T14:13:18Z"
+      }
+    }
+  },
+  "global_financial_endpoint": {
+    "declared_rows": 1682616,
+    "earliest_REPDTE": "19840331",
+    "latest_REPDTE": "20260630",
+    "caution": "Observed endpoint dates do not establish complete coverage for each predictor."
+  },
+  "sample_financials": {
+    "rows": 2165,
+    "distinct_CERT": 15,
+    "duplicate_CERT_REPDTE_rows": 0,
+    "invalid_report_dates": 0,
+    "failed_CERT_matched": 12,
+    "matched_failure_count_max_per_CERT": 1,
+    "rows_with_future_ENDEFYMD": 2165,
+    "rows_with_real_future_ENDEFYMD": 1109,
+    "rows_ENDEFYMD_sentinel_99991231": 1056,
+    "failed_CERT_last_report_ASSET_differs_QBFASSET": 5,
+    "rows_with_REPDTE_ne_RISDATE": 0,
+    "SVB_2022Q4": [
+      {
+        "ACTIVE": 1,
+        "ROA": 0.9569929993881674,
+        "REPDTE": "20221231",
+        "EFFDATE": 20220831,
+        "RISDATE": "20221231",
+        "ROE": 13.43,
+        "ASSET": 209026000,
+        "NETINC": 2024000,
+        "EQ": 15456000,
+        "DEP": 175378000,
+        "NAME": "SILICON VALLEY BANK",
+        "DEPUNINS": 151592000.0,
+        "ENDEFYMD": 20230310,
+        "CERT": 24735,
+        "LNLSNET": 73613000,
+        "ID": "24735_20221231"
+      }
+    ],
+    "meta": {
+      "total": 2165,
+      "parameters": {
+        "filters": "CERT:(24735 OR 57053 OR 59017 OR 8758 OR 25851 OR 27332 OR 4134 OR 28611 OR 5520 OR 57488 OR 25796 OR 25744 OR 628 OR 3510 OR 3511)",
+        "fields": "CERT,REPDTE,RISDATE,NAME,ASSET,DEP,EQ,NETINC,ROA,ROE,LNLSNET,DEPUNINS,ENDEFYMD,EFFDATE,ACTIVE,ID",
+        "limit": "10000"
+      },
+      "index": {
+        "name": "risview_20260819185831",
+        "createTimestamp": "2026-08-19T18:58:33Z"
+      }
+    }
+  },
+  "schema": {
+    "actual_failure_columns": [
+      "RESDATE",
+      "QBFDEP",
+      "BIDCITY",
+      "BIDSTATE",
+      "CLOSCD",
+      "PSTALP",
+      "BSTATUS",
+      "COMMENTS",
+      "CITYST",
+      "RESTYPE",
+      "COSTMOSTRECENTASOF",
+      "URL",
+      "PTRDATE",
+      "COST",
+      "QBFASSET",
+      "UNINSDEP",
+      "TERMI",
+      "FAILYR",
+      "CHCLASS",
+      "FUND",
+      "BANKNO",
+      "BIDNAME",
+      "FIN",
+      "FAILDATE",
+      "SAVR",
+      "RESTYPE1",
+      "NAME",
+      "CHCLASS1",
+      "FSL_PROG",
+      "CITY",
+      "CERT",
+      "BRDATE",
+      "ID"
+    ],
+    "actual_financial_sample_columns": [
+      "ACTIVE",
+      "ROA",
+      "REPDTE",
+      "EFFDATE",
+      "RISDATE",
+      "ROE",
+      "ASSET",
+      "NETINC",
+      "EQ",
+      "DEP",
+      "NAME",
+      "DEPUNINS",
+      "ENDEFYMD",
+      "CERT",
+      "LNLSNET",
+      "ID"
+    ],
+    "dictionary_financial_fields": 2378,
+    "dictionary_failure_fields": 21,
+    "date_named_financial_fields": [
+      "L_REPDTE",
+      "REPDTE_RAW",
+      "REPDTE",
+      "RISDATE",
+      "MNRTYDTE",
+      "CALLYMD",
+      "EFFDATE",
+      "ESTYMD",
+      "ENDEFYMD",
+      "ORG_END_NUM_DTE",
+      "INSDATE",
+      "UPDDATE"
+    ],
+    "financial_endpoint_parameter_names": [
+      "api_key",
+      "filters",
+      "fields",
+      "sort_by",
+      "sort_order",
+      "limit",
+      "offset",
+      "agg_by",
+      "agg_term_fields",
+      "agg_sum_fields",
+      "agg_limit",
+      "format",
+      "download",
+      "filename"
+    ]
+  },
+  "point_in_time_status": "Not established. REPDTE/RISDATE are reporting periods; current index timestamp is not original publication. No vintage/as-of query parameter documented in audited financial endpoint."
+}

@@ -1,0 +1,177 @@
+{
+  "status": "PASS",
+  "baseline_reconstruction_max_absolute_error": {
+    "A": 0.0,
+    "B": 0.0,
+    "C": 0.0
+  },
+  "correction_matches": [
+    {
+      "audit_id": "E01",
+      "tag": "Assets",
+      "start": "",
+      "end": "2015-12-31",
+      "hits": 1
+    },
+    {
+      "audit_id": "E01",
+      "tag": "Liabilities",
+      "start": "",
+      "end": "2015-12-31",
+      "hits": 1
+    },
+    {
+      "audit_id": "E01",
+      "tag": "StockholdersEquity",
+      "start": "",
+      "end": "2015-12-31",
+      "hits": 1
+    },
+    {
+      "audit_id": "E01",
+      "tag": "CashAndCashEquivalentsAtCarryingValue",
+      "start": "",
+      "end": "2015-12-31",
+      "hits": 1
+    },
+    {
+      "audit_id": "E01",
+      "tag": "AssetsCurrent",
+      "start": "",
+      "end": "2015-12-31",
+      "hits": 1
+    },
+    {
+      "audit_id": "E01",
+      "tag": "LiabilitiesCurrent",
+      "start": "",
+      "end": "2015-12-31",
+      "hits": 1
+    },
+    {
+      "audit_id": "E01",
+      "tag": "NetIncomeLoss",
+      "start": "2015-01-01",
+      "end": "2015-12-31",
+      "hits": 1
+    },
+    {
+      "audit_id": "E01",
+      "tag": "Revenues",
+      "start": "2015-01-01",
+      "end": "2015-12-31",
+      "hits": 1
+    },
+    {
+      "audit_id": "E01",
+      "tag": "OperatingIncomeLoss",
+      "start": "2015-01-01",
+      "end": "2015-12-31",
+      "hits": 1
+    },
+    {
+      "audit_id": "E01",
+      "tag": "NetCashProvidedByUsedInOperatingActivities",
+      "start": "2015-01-01",
+      "end": "2015-12-31",
+      "hits": 1
+    },
+    {
+      "audit_id": "E01",
+      "tag": "RetainedEarningsAccumulatedDeficit",
+      "start": "",
+      "end": "2015-12-31",
+      "hits": 1
+    },
+    {
+      "audit_id": "E01_extension_FY2014",
+      "tag": "Assets",
+      "start": "",
+      "end": "2014-12-31",
+      "hits": 2
+    },
+    {
+      "audit_id": "E01_extension_FY2014",
+      "tag": "Liabilities",
+      "start": "",
+      "end": "2014-12-31",
+      "hits": 2
+    },
+    {
+      "audit_id": "E01_extension_FY2014",
+      "tag": "StockholdersEquity",
+      "start": "",
+      "end": "2014-12-31",
+      "hits": 2
+    },
+    {
+      "audit_id": "E01_extension_FY2014",
+      "tag": "CashAndCashEquivalentsAtCarryingValue",
+      "start": "",
+      "end": "2014-12-31",
+      "hits": 1
+    },
+    {
+      "audit_id": "E01_extension_FY2014",
+      "tag": "AssetsCurrent",
+      "start": "",
+      "end": "2014-12-31",
+      "hits": 2
+    },
+    {
+      "audit_id": "E01_extension_FY2014",
+      "tag": "LiabilitiesCurrent",
+      "start": "",
+      "end": "2014-12-31",
+      "hits": 2
+    },
+    {
+      "audit_id": "E01_extension_FY2014",
+      "tag": "NetIncomeLoss",
+      "start": "2014-01-01",
+      "end": "2014-12-31",
+      "hits": 1
+    },
+    {
+      "audit_id": "E01_extension_FY2014",
+      "tag": "Revenues",
+      "start": "2014-01-01",
+      "end": "2014-12-31",
+      "hits": 1
+    },
+    {
+      "audit_id": "E01_extension_FY2014",
+      "tag": "OperatingIncomeLoss",
+      "start": "2014-01-01",
+      "end": "2014-12-31",
+      "hits": 1
+    },
+    {
+      "audit_id": "E01_extension_FY2014",
+      "tag": "NetCashProvidedByUsedInOperatingActivities",
+      "start": "2014-01-01",
+      "end": "2014-12-31",
+      "hits": 1
+    },
+    {
+      "audit_id": "E01_extension_FY2014",
+      "tag": "RetainedEarningsAccumulatedDeficit",
+      "start": "",
+      "end": "2014-12-31",
+      "hits": 2
+    }
+  ],
+  "applied_arm_fact_cells": 28,
+  "changed_feature_cells": 8,
+  "affected_row_ids": 2,
+  "changed_features_by_arm": {
+    "A": 1,
+    "B": 1,
+    "C": 6
+  },
+  "unchanged_metadata_labels_weights_rows": true,
+  "all_arm_masks_unchanged": true,
+  "dataset_path": "D:\\MLWork\\scie_small_sample_topics_20260920\\finance_reframe_20260921\\revision_20260922_round2\\datasets\\source_verified_corrected_scale_only.parquet",
+  "dataset_sha256": "a50cd777e61faf1ff4ca1ce5175a742f1def520005fecfc8d01a2619c42e96f6",
+  "source_scope_note": "Every period must be independently listed. Version 2 adds eleven exact FY2014 comparative facts verified from the same 2016 filing display."
+}

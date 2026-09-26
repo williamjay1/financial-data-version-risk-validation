@@ -1,0 +1,122 @@
+{
+  "status": "PASS_VISUAL_AND_FORMAT_QA",
+  "reviewed_utc": "2026-09-21T09:40:21.213149+00:00",
+  "figure_run_id": "models_20260921T093517075175Z_figures_20260921T093817813128Z",
+  "generation_manifest": "D:\\MLWork\\scie_small_sample_topics_20260920\\finance_reframe_20260921\\results\\descriptive_models_20260921T093517075175Z_figures_20260921T093817813128Z_manifest.json",
+  "generation_manifest_sha256": "e7701849cf85833d7f85f75fdfd82410654b5058c7109a3110bfb830c6a85ca8",
+  "visual_surfaces_reviewed": [
+    "Each final 900 dpi PNG at tool display resolution",
+    "Each PDF separately rasterized at 144 dpi"
+  ],
+  "checks": [
+    "No clipping or overlapping axes, legends, labels or titles observed",
+    "Figure 1 separates weighted landmarks from raw positive windows and distinct positive CIKs",
+    "Figure 2 begins at zero, uses percent units, and labels all ten estimates to one decimal place",
+    "Figure 3 panels share a percentage-point axis and distinguish LR open circles from LGBM filled squares",
+    "All three PDFs are single-page vector figures with extractable text and no embedded bitmap images",
+    "PNG export is nominal 900 dpi; tiny encoded discrepancy is standard pixels-per-meter integer rounding"
+  ],
+  "format_checks": [
+    {
+      "figure": "figure1_annual_sample",
+      "pdf_pages": 1,
+      "pdf_embedded_bitmap_count": 0,
+      "pdf_extractable_text_characters": 372,
+      "png_dimensions": [
+        9158,
+        3668
+      ],
+      "png_encoded_dpi": [
+        899.9982,
+        899.9982
+      ],
+      "nominal_export_dpi": 900,
+      "png_dpi_encoding_note": "PNG pixels-per-meter integer encoding rounds nominal 900 dpi to 899.9982.",
+      "font_count": 1,
+      "sha256": {
+        "pdf": "7e0b54248343add8049e5ab5c98e4ad225fb1348f6c8b64ec2a0cb0b06053a02",
+        "png": "8c882fbe4bd57d8851c89b01d596d7478737c8255c2db8d0ae0278b985ec10d0",
+        "svg": "2af3250e42b55e06192cda08ee8b9101d06865d56ec950421537e1814ede6bad"
+      }
+    },
+    {
+      "figure": "figure2_input_changes",
+      "pdf_pages": 1,
+      "pdf_embedded_bitmap_count": 0,
+      "pdf_extractable_text_characters": 362,
+      "png_dimensions": [
+        7718,
+        5288
+      ],
+      "png_encoded_dpi": [
+        899.9982,
+        899.9982
+      ],
+      "nominal_export_dpi": 900,
+      "png_dpi_encoding_note": "PNG pixels-per-meter integer encoding rounds nominal 900 dpi to 899.9982.",
+      "font_count": 1,
+      "sha256": {
+        "pdf": "f5de627a76966ebbc512ccd2f6b4777c7089814fa6ca80f4469b215730a16cbe",
+        "png": "836a042e8403d5a0e82f0ca37c62fdf3f5e1fd54c8763abf8c0fdcaf6c9e423d",
+        "svg": "9a50972d2ab4ae1bf6dbb8cf0f923b44b204a9753ec7a4696675064c6f267f9a"
+      }
+    },
+    {
+      "figure": "figure3_paired_average_precision",
+      "pdf_pages": 1,
+      "pdf_embedded_bitmap_count": 0,
+      "pdf_extractable_text_characters": 301,
+      "png_dimensions": [
+        9068,
+        4118
+      ],
+      "png_encoded_dpi": [
+        899.9982,
+        899.9982
+      ],
+      "nominal_export_dpi": 900,
+      "png_dpi_encoding_note": "PNG pixels-per-meter integer encoding rounds nominal 900 dpi to 899.9982.",
+      "font_count": 1,
+      "sha256": {
+        "pdf": "b0102bcbde67c76876b4b4d0a3433d0d87d63d28e38e3276dd0a42ae5590bd02",
+        "png": "19d0c15a924b16e09b4fe0ef87e9b2c428cd34581b1026e3f90fa999edcec32d",
+        "svg": "0beca990f9c768a737c5e8ed152f3786f6b97aacf491624e3d4297cbb772a5f2"
+      }
+    }
+  ],
+  "publication_use": "Use this figure run, not the earlier 093653 layout",
+  "uncertainty_valid_boot": {
+    "main": 1000,
+    "frozen_A": 1000,
+    "n_boot": 1000
+  },
+  "limitations": [
+    "Pointwise conditional evaluation uncertainty only; no model refitting uncertainty",
+    "Certainty clusters and observed registry labels fixed",
+    "No simultaneous or multiple-comparison coverage claim",
+    "No inference that three blocks are independent macroeconomic experiments"
+  ],
+  "optional_C_omitted": {
+    "reason": "Two per-tag assets values become zero, so derived input missingness differs from A; no rows dropped or masks repaired",
+    "cases": [
+      {
+        "cik": "0001554054",
+        "original_accession": "0001165527-13-000772",
+        "decision_date": "2013-08-30",
+        "A_assets": 136.0,
+        "B_assets": 136.0,
+        "C_assets": 0.0,
+        "C_accession": "0001214659-19-007601"
+      },
+      {
+        "cik": "0001581545",
+        "original_accession": "0001607062-14-000059",
+        "decision_date": "2014-08-09",
+        "A_assets": 9214.0,
+        "B_assets": 9214.0,
+        "C_assets": 0.0,
+        "C_accession": "0001019687-15-003645"
+      }
+    ]
+  }
+}

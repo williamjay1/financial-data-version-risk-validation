@@ -1,0 +1,41 @@
+[
+  {
+    "url": "https://lopucki.law.ufl.edu/download_cases_table_terms.php",
+    "request_utc": "2026-09-21T07:52:59.696167+00:00",
+    "user_agent": "Codex public-data feasibility audit/1.0 (one-off access test; no bulk collection)",
+    "used_authentication": false,
+    "status": 200,
+    "final_url": "https://lopucki.law.ufl.edu/download_cases_table_terms.php",
+    "content_type": "text/html; charset=UTF-8",
+    "bytes": 11026,
+    "raw_path": "E:\\AcademicData\\scie_small_sample_topics_20260920\\raw\\finance_reframe_20260921\\corporate\\probe_20260921T075259Z_c52e6e79_00.bin",
+    "sha256": "29a781a2d48d65acfe9c4804ff2aac69b813bc0bbf3b969dcfed9e6d82294c14",
+    "response_headers": {}
+  },
+  {
+    "url": "https://lopucki.law.ufl.edu/conditions_of_use.php",
+    "request_utc": "2026-09-21T07:53:02.188307+00:00",
+    "user_agent": "Codex public-data feasibility audit/1.0 (one-off access test; no bulk collection)",
+    "used_authentication": false,
+    "status": 200,
+    "final_url": "https://lopucki.law.ufl.edu/conditions_of_use.php",
+    "content_type": "text/html; charset=UTF-8",
+    "bytes": 9296,
+    "raw_path": "E:\\AcademicData\\scie_small_sample_topics_20260920\\raw\\finance_reframe_20260921\\corporate\\probe_20260921T075259Z_c52e6e79_01.bin",
+    "sha256": "4931b48ae60d4878944e19075b5ad5341ac7b251f6fb866e8e2330eb596fbea8",
+    "response_headers": {}
+  },
+  {
+    "url": "https://data.sec.gov/submissions/CIK0000886158-submissions-001.json",
+    "request_utc": "2026-09-21T07:53:04.780356+00:00",
+    "user_agent": "Codex public-data feasibility audit/1.0 (one-off access test; no bulk collection)",
+    "used_authentication": false,
+    "status": 200,
+    "final_url": "https://data.sec.gov/submissions/CIK0000886158-submissions-001.json",
+    "content_type": "application/json",
+    "bytes": 79105,
+    "raw_path": "E:\\AcademicData\\scie_small_sample_topics_20260920\\raw\\finance_reframe_20260921\\corporate\\probe_20260921T075259Z_c52e6e79_02.bin",
+    "sha256": "44e7334ee6dcf579a499cdc76364499fc5d76922972c3e905b1c33618d3df93b",
+    "response_headers": {}
+  }
+]

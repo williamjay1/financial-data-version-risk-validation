@@ -1,0 +1,379 @@
+{
+  "raw_files": [
+    {
+      "path": "E:\\AcademicData\\scie_small_sample_topics_20260920\\raw\\finance_reframe_20260921\\universe\\universe_20260921T084353Z_11b26571_00.bin",
+      "bytes": 66852,
+      "sha256": "d734da0a72e78387166f75cabc0bc7694b9184125eb45c9b9e7a1ea57b81c203",
+      "read_only": true
+    },
+    {
+      "path": "E:\\AcademicData\\scie_small_sample_topics_20260920\\raw\\finance_reframe_20260921\\universe\\universe_20260921T084353Z_11b26571_01.bin",
+      "bytes": 72244,
+      "sha256": "17d20a7fe4595e42e56bff248d04e4927104dd962c98b376cf43dc54d610169f",
+      "read_only": true
+    },
+    {
+      "path": "E:\\AcademicData\\scie_small_sample_topics_20260920\\raw\\finance_reframe_20260921\\universe\\universe_20260921T084353Z_11b26571_02.bin",
+      "bytes": 67079,
+      "sha256": "f3f4393cf151154fd6034c9612abfedbadacde688288346ad07e7938863b6e37",
+      "read_only": true
+    },
+    {
+      "path": "E:\\AcademicData\\scie_small_sample_topics_20260920\\raw\\finance_reframe_20260921\\universe\\universe_20260921T084424Z_9c2e2c2e_00.bin",
+      "bytes": 81115,
+      "sha256": "43402a065eb1102afc6c351142564e60a57303471901bf6076213df9d75fddc2",
+      "read_only": true
+    },
+    {
+      "path": "E:\\AcademicData\\scie_small_sample_topics_20260920\\raw\\finance_reframe_20260921\\universe\\universe_20260921T084424Z_9c2e2c2e_01.bin",
+      "bytes": 2456,
+      "sha256": "e5b0693f386c9947895e43fe0d20cb36a8a9f16ec6d7682b1b5431f8f4c02ba4",
+      "read_only": true
+    },
+    {
+      "path": "E:\\AcademicData\\scie_small_sample_topics_20260920\\raw\\finance_reframe_20260921\\universe\\universe_20260921T084447Z_ccc7ee56_00.bin",
+      "bytes": 2009,
+      "sha256": "7468e9c5ef9cfe87ace1f96ee1d5f387687b6d8208ee7ad56a0abb20f21cb71a",
+      "read_only": true
+    },
+    {
+      "path": "E:\\AcademicData\\scie_small_sample_topics_20260920\\raw\\finance_reframe_20260921\\universe\\universe_20260921T084535Z_48fcec2d_00.bin",
+      "bytes": 68852,
+      "sha256": "7c3529aeca2dda5aec79dd035025d822c846d5dde943dde21cafd3c517567cd5",
+      "read_only": true
+    },
+    {
+      "path": "E:\\AcademicData\\scie_small_sample_topics_20260920\\raw\\finance_reframe_20260921\\universe\\universe_20260921T084535Z_48fcec2d_01.bin",
+      "bytes": 2463,
+      "sha256": "4d851007236afa4159ada71a0fa3c072c2c8cccb19837ce80d2ea697946a93fe",
+      "read_only": true
+    },
+    {
+      "path": "E:\\AcademicData\\scie_small_sample_topics_20260920\\raw\\finance_reframe_20260921\\universe\\universe_20260921T084535Z_48fcec2d_02.bin",
+      "bytes": 2441,
+      "sha256": "319b1e6684e340e358b1ff418854d9af86a9b17dbd7e281ca548a97a61b7b53f",
+      "read_only": true
+    },
+    {
+      "path": "E:\\AcademicData\\scie_small_sample_topics_20260920\\raw\\finance_reframe_20260921\\universe\\universe_20260921T084535Z_48fcec2d_03.bin",
+      "bytes": 6611,
+      "sha256": "55f2d0a4560aa94e9b2379c543423cdc3c3d384c6672f2ec5b097185ab4f54aa",
+      "read_only": true
+    },
+    {
+      "path": "E:\\AcademicData\\scie_small_sample_topics_20260920\\raw\\finance_reframe_20260921\\universe\\universe_20260921T084618Z_87fb68cc_00.bin",
+      "bytes": 2009,
+      "sha256": "3bb1d7b87633d946abfa53f172f9f6d63c303d6d8ba99959bdba832492fc9f92",
+      "read_only": true
+    },
+    {
+      "path": "E:\\AcademicData\\scie_small_sample_topics_20260920\\raw\\finance_reframe_20260921\\universe\\universe_20260921T084618Z_87fb68cc_01.bin",
+      "bytes": 2462,
+      "sha256": "f57677206a50ae790f47f8c701dc890498d3460482024d47803ce737b8cebeaf",
+      "read_only": true
+    },
+    {
+      "path": "E:\\AcademicData\\scie_small_sample_topics_20260920\\raw\\finance_reframe_20260921\\universe\\universe_20260921T084718Z_2a5aca4b_00.bin",
+      "bytes": 4754,
+      "sha256": "f19eeeffa08c8382a3d1a6230d53926e355e4a1badb72f16d48bf1d31d46f2f6",
+      "read_only": true
+    },
+    {
+      "path": "E:\\AcademicData\\scie_small_sample_topics_20260920\\raw\\finance_reframe_20260921\\universe\\universe_20260921T084718Z_2a5aca4b_01.bin",
+      "bytes": 94505254,
+      "sha256": "f74c2f8287eaea965604966d77fc095d00b415c09ef2230e7a4dfeb5b5415e83",
+      "read_only": true
+    },
+    {
+      "path": "E:\\AcademicData\\scie_small_sample_topics_20260920\\raw\\finance_reframe_20260921\\universe\\universe_20260921T084803Z_d8d892b9_00.bin",
+      "bytes": 2009,
+      "sha256": "f3c589e22516e273756a2849680eaa7ada9cd44417c5005adbed7ab3f8e19cf4",
+      "read_only": true
+    },
+    {
+      "path": "E:\\AcademicData\\scie_small_sample_topics_20260920\\raw\\finance_reframe_20260921\\universe\\universe_20260921T085137Z_740fd159_00.bin",
+      "bytes": 130264,
+      "sha256": "694321ac834e5a733d6e531dad0924f343c7397dd8f84579a368152fe298bc15",
+      "read_only": true
+    },
+    {
+      "path": "E:\\AcademicData\\scie_small_sample_topics_20260920\\raw\\finance_reframe_20260921\\universe\\universe_20260921T085137Z_740fd159_01.bin",
+      "bytes": 66360,
+      "sha256": "592ebe1042e0509afe3c1a6d1f5f8fa2b8ef528148c48da55e7ea8b7bdabf427",
+      "read_only": true
+    },
+    {
+      "path": "E:\\AcademicData\\scie_small_sample_topics_20260920\\raw\\finance_reframe_20260921\\universe\\universe_hf_20260921T084908Z_f610b4ea_train-00000-of-00020.parquet",
+      "bytes": 94704601,
+      "sha256": "3a7ed785e8ce0cf31afd4b46748c22476d93eb5521e4d4b4eadb63e95693c791",
+      "read_only": true
+    },
+    {
+      "path": "E:\\AcademicData\\scie_small_sample_topics_20260920\\raw\\finance_reframe_20260921\\universe\\universe_hf_20260921T084908Z_f610b4ea_train-00001-of-00020.parquet",
+      "bytes": 93019333,
+      "sha256": "76912f2cea9ad8f1a3d0af082cb7f07c264560b277e16ca4ccec6382ce9d84d3",
+      "read_only": true
+    },
+    {
+      "path": "E:\\AcademicData\\scie_small_sample_topics_20260920\\raw\\finance_reframe_20260921\\universe\\universe_hf_20260921T084908Z_f610b4ea_train-00002-of-00020.parquet",
+      "bytes": 94980411,
+      "sha256": "ad5778e3a16ed293b3938c410557d632f9619feefb8197718f1f4c609a533530",
+      "read_only": true
+    },
+    {
+      "path": "E:\\AcademicData\\scie_small_sample_topics_20260920\\raw\\finance_reframe_20260921\\universe\\universe_hf_20260921T084908Z_f610b4ea_train-00003-of-00020.parquet",
+      "bytes": 93886818,
+      "sha256": "f42f5da452dc22610dfcec01555afc5f9a3bb040dae4a5313c2a1fa23e47341f",
+      "read_only": true
+    },
+    {
+      "path": "E:\\AcademicData\\scie_small_sample_topics_20260920\\raw\\finance_reframe_20260921\\universe\\universe_hf_20260921T084908Z_f610b4ea_train-00004-of-00020.parquet",
+      "bytes": 95131392,
+      "sha256": "33dd4bab6e950c9c6ef8e3c1af7be0b88b21675d98aaa1bff84ad981b84c7d01",
+      "read_only": true
+    },
+    {
+      "path": "E:\\AcademicData\\scie_small_sample_topics_20260920\\raw\\finance_reframe_20260921\\universe\\universe_hf_20260921T084908Z_f610b4ea_train-00005-of-00020.parquet",
+      "bytes": 94991757,
+      "sha256": "8c1875870877ec724ec07e6e3ddf13a4dac7c260c9fff60692ea1c271de9e820",
+      "read_only": true
+    },
+    {
+      "path": "E:\\AcademicData\\scie_small_sample_topics_20260920\\raw\\finance_reframe_20260921\\universe\\universe_hf_20260921T084908Z_f610b4ea_train-00006-of-00020.parquet",
+      "bytes": 94727860,
+      "sha256": "efd86081d2521625f46d39d7f85aa474fa815af8015244ec77856f4a78cd2015",
+      "read_only": true
+    },
+    {
+      "path": "E:\\AcademicData\\scie_small_sample_topics_20260920\\raw\\finance_reframe_20260921\\universe\\universe_hf_20260921T084908Z_f610b4ea_train-00007-of-00020.parquet",
+      "bytes": 94621851,
+      "sha256": "8e3a3e882eb2d2abd863959452d2d253b4d294a63c556ec75ecc905bbe1fa1c9",
+      "read_only": true
+    },
+    {
+      "path": "E:\\AcademicData\\scie_small_sample_topics_20260920\\raw\\finance_reframe_20260921\\universe\\universe_hf_20260921T084908Z_f610b4ea_train-00008-of-00020.parquet",
+      "bytes": 94225170,
+      "sha256": "d713b03a46b98d2234a4bc0da6fbe9fb845822d687919c8bd00ddc1ea7b4c8a0",
+      "read_only": true
+    },
+    {
+      "path": "E:\\AcademicData\\scie_small_sample_topics_20260920\\raw\\finance_reframe_20260921\\universe\\universe_hf_20260921T084908Z_f610b4ea_train-00011-of-00020.parquet",
+      "bytes": 95053365,
+      "sha256": "d3f19ad8ae774d8d2b4584efc11e7fac0a245995a2a1c3d05b4f9f3416941ea1",
+      "read_only": true
+    },
+    {
+      "path": "E:\\AcademicData\\scie_small_sample_topics_20260920\\raw\\finance_reframe_20260921\\universe\\universe_hf_20260921T084908Z_f610b4ea_train-00012-of-00020.parquet",
+      "bytes": 95099691,
+      "sha256": "67b7f0eb1d618866e0ce010fe1240d66887d4a896654ba77e55fe23b08f073d8",
+      "read_only": true
+    },
+    {
+      "path": "E:\\AcademicData\\scie_small_sample_topics_20260920\\raw\\finance_reframe_20260921\\universe\\universe_hf_20260921T084908Z_f610b4ea_train-00013-of-00020.parquet",
+      "bytes": 93342491,
+      "sha256": "96311668eb96480e2b8e389315565d7e768157498b860440ee0e1bdd2b7fead1",
+      "read_only": true
+    },
+    {
+      "path": "E:\\AcademicData\\scie_small_sample_topics_20260920\\raw\\finance_reframe_20260921\\universe\\universe_hf_20260921T084908Z_f610b4ea_train-00014-of-00020.parquet",
+      "bytes": 94375162,
+      "sha256": "67430e9aacc0245e5af253b82a44ab1e06ca45d4affa10eee2eb76e8b08aa2f5",
+      "read_only": true
+    },
+    {
+      "path": "E:\\AcademicData\\scie_small_sample_topics_20260920\\raw\\finance_reframe_20260921\\universe\\universe_hf_20260921T084908Z_f610b4ea_train-00015-of-00020.parquet",
+      "bytes": 94458235,
+      "sha256": "6ced0a64f19164e357f4ee044bb518c786709d6ed2530b905291fd9beed94f67",
+      "read_only": true
+    },
+    {
+      "path": "E:\\AcademicData\\scie_small_sample_topics_20260920\\raw\\finance_reframe_20260921\\universe\\universe_hf_20260921T084908Z_f610b4ea_train-00016-of-00020.parquet",
+      "bytes": 92820039,
+      "sha256": "f78502f0ad1d33c438f9a04dd9d4dc31279483cd22af468ee2b9791b070c0748",
+      "read_only": true
+    },
+    {
+      "path": "E:\\AcademicData\\scie_small_sample_topics_20260920\\raw\\finance_reframe_20260921\\universe\\universe_hf_20260921T084908Z_f610b4ea_train-00017-of-00020.parquet",
+      "bytes": 92703160,
+      "sha256": "585084dcd30603be425d919eef5cff019427481d1730aab7cc5e02f2d59beb77",
+      "read_only": true
+    },
+    {
+      "path": "E:\\AcademicData\\scie_small_sample_topics_20260920\\raw\\finance_reframe_20260921\\universe\\universe_hf_20260921T084908Z_f610b4ea_train-00018-of-00020.parquet",
+      "bytes": 92890281,
+      "sha256": "cd40c34cd6d717f6b7985cda4589770222d6f36c8e6675ec251bc6f18578db92",
+      "read_only": true
+    },
+    {
+      "path": "E:\\AcademicData\\scie_small_sample_topics_20260920\\raw\\finance_reframe_20260921\\universe\\universe_hf_20260921T084908Z_f610b4ea_train-00019-of-00020.parquet",
+      "bytes": 93261415,
+      "sha256": "ddc693bab6fe404d70aeaff9c7458c90aa91a5f0dd3769f8cef81c99e2665ff7",
+      "read_only": true
+    },
+    {
+      "path": "E:\\AcademicData\\scie_small_sample_topics_20260920\\raw\\finance_reframe_20260921\\universe\\universe_hf_20260921T085304Z_d67f24bc_train-00009-of-00020.parquet",
+      "bytes": 94096159,
+      "sha256": "ddfc5bcdc7dab6689337fe4020ea921fcdc7e1709effd876a681c6190382ca6f",
+      "read_only": true
+    }
+  ],
+  "derived_files": [
+    {
+      "path": "D:\\MLWork\\scie_small_sample_topics_20260920\\finance_reframe_20260921\\scripts\\universe_build.py",
+      "bytes": 9675,
+      "sha256": "14042e0eb66935d50bcd44b43b034630d18344f99d508bfc78d55e7089a42fcb"
+    },
+    {
+      "path": "D:\\MLWork\\scie_small_sample_topics_20260920\\finance_reframe_20260921\\scripts\\universe_download_hf.py",
+      "bytes": 3511,
+      "sha256": "49418fd781e4aebe9ce9667778eff9211148799bc867b7377b885d06cf861fe6"
+    },
+    {
+      "path": "D:\\MLWork\\scie_small_sample_topics_20260920\\finance_reframe_20260921\\scripts\\universe_finalize.py",
+      "bytes": 11457,
+      "sha256": "cc6ae7fe6b0382a8b90ce3f08bc1a239edcfda44007e39e5ce43fbb68ba36dea"
+    },
+    {
+      "path": "D:\\MLWork\\scie_small_sample_topics_20260920\\finance_reframe_20260921\\scripts\\universe_probe.py",
+      "bytes": 2781,
+      "sha256": "2a50c4d80898978aaa562185985ba5c89485fab705ada87e1145d90618e7ae0a"
+    },
+    {
+      "path": "D:\\MLWork\\scie_small_sample_topics_20260920\\finance_reframe_20260921\\datasets\\universe_annual_filings_2010_2021.csv",
+      "bytes": 24327117,
+      "sha256": "5eea6db5b88618002d95b254c336ada5852e2a93a4156f65fb0fbab6730b918e"
+    },
+    {
+      "path": "D:\\MLWork\\scie_small_sample_topics_20260920\\finance_reframe_20260921\\datasets\\universe_annual_filings_2010_2021.parquet",
+      "bytes": 4788534,
+      "sha256": "196d2762adee68b3c412e94cd30c333c2565334cead9fc96b3b3701505c28678"
+    },
+    {
+      "path": "D:\\MLWork\\scie_small_sample_topics_20260920\\finance_reframe_20260921\\datasets\\universe_ciks_2010_2021.csv",
+      "bytes": 602006,
+      "sha256": "2e47422ebf4ad340b41aa3c79a954b56609c76dce931df1324f29823f5aa290b"
+    },
+    {
+      "path": "D:\\MLWork\\scie_small_sample_topics_20260920\\finance_reframe_20260921\\datasets\\universe_ciks_2010_2021.parquet",
+      "bytes": 195388,
+      "sha256": "8f7dca90e08a2752e4a2598e438f5950191c78f0dfcd66d9c2b316e23dd3f6b6"
+    },
+    {
+      "path": "D:\\MLWork\\scie_small_sample_topics_20260920\\finance_reframe_20260921\\results\\universe_access_manifest_20260921T084353Z_11b26571.json",
+      "bytes": 2221,
+      "sha256": "a997bb7c75ac6da687575fec8f9bfff4c2751f5b1a6b4a9164e85a02b74b195b"
+    },
+    {
+      "path": "D:\\MLWork\\scie_small_sample_topics_20260920\\finance_reframe_20260921\\results\\universe_access_manifest_20260921T084424Z_9c2e2c2e.json",
+      "bytes": 1636,
+      "sha256": "97b2e7259942a7e370a4836962805e1d841ab725e8546f006df0b814b64cf882"
+    },
+    {
+      "path": "D:\\MLWork\\scie_small_sample_topics_20260920\\finance_reframe_20260921\\results\\universe_access_manifest_20260921T084447Z_ccc7ee56.json",
+      "bytes": 948,
+      "sha256": "8105e2ecb2375e0a5aa6ffe07ca0326f4d394f31e33c2e6207c06f1f12c888cf"
+    },
+    {
+      "path": "D:\\MLWork\\scie_small_sample_topics_20260920\\finance_reframe_20260921\\results\\universe_access_manifest_20260921T084535Z_48fcec2d.json",
+      "bytes": 3269,
+      "sha256": "a618f26d31f7fd4faca7791443671e4fed1a03599d7fbab63934f433ca9678be"
+    },
+    {
+      "path": "D:\\MLWork\\scie_small_sample_topics_20260920\\finance_reframe_20260921\\results\\universe_access_manifest_20260921T084618Z_87fb68cc.json",
+      "bytes": 1771,
+      "sha256": "757f52c83e9bb3ab74a5b66cf2378e5b10ee1c2408713fffa830e3836a99dded"
+    },
+    {
+      "path": "D:\\MLWork\\scie_small_sample_topics_20260920\\finance_reframe_20260921\\results\\universe_access_manifest_20260921T084718Z_2a5aca4b.json",
+      "bytes": 2709,
+      "sha256": "cd4ec551fa8cafbcf6a906c911523f956d6c583c1cc47a84d0d6dafd63978c59"
+    },
+    {
+      "path": "D:\\MLWork\\scie_small_sample_topics_20260920\\finance_reframe_20260921\\results\\universe_access_manifest_20260921T084803Z_d8d892b9.json",
+      "bytes": 948,
+      "sha256": "3e5ff53be870b282db61abb5505507b54f82e4f1ededfdabd8eea1be1da24375"
+    },
+    {
+      "path": "D:\\MLWork\\scie_small_sample_topics_20260920\\finance_reframe_20260921\\results\\universe_access_manifest_20260921T085137Z_740fd159.json",
+      "bytes": 1621,
+      "sha256": "de14b855c598cbd5c947e8d2ea85c95ad809f511998db5db1fd72fc62a58769d"
+    },
+    {
+      "path": "D:\\MLWork\\scie_small_sample_topics_20260920\\finance_reframe_20260921\\results\\universe_all_form_year_quarter_counts.csv",
+      "bytes": 657638,
+      "sha256": "ce31f8fea2af7abb88d73285d55981438a7630f29385463eb268291015f562ed"
+    },
+    {
+      "path": "D:\\MLWork\\scie_small_sample_topics_20260920\\finance_reframe_20260921\\results\\universe_annual_counts_2010_2021.csv",
+      "bytes": 696,
+      "sha256": "32de020733ee1a894acbac7cda016d772fe56e45dba180d6ee3c541fd41bebe1"
+    },
+    {
+      "path": "D:\\MLWork\\scie_small_sample_topics_20260920\\finance_reframe_20260921\\results\\universe_annual_quarter_counts_2010_2021.csv",
+      "bytes": 852,
+      "sha256": "f49fb285846a15854ca5b4a6e67017e2ad8fbb9c4099bbc450ebafcb8d76eda2"
+    },
+    {
+      "path": "D:\\MLWork\\scie_small_sample_topics_20260920\\finance_reframe_20260921\\results\\universe_duplicate_records.csv",
+      "bytes": 138,
+      "sha256": "77a0b7630a14a8431863b1da41c54ccf5922559e0e91d5263ff5a08981a78bcd"
+    },
+    {
+      "path": "D:\\MLWork\\scie_small_sample_topics_20260920\\finance_reframe_20260921\\results\\universe_feasibility.md",
+      "bytes": 9100,
+      "sha256": "9f25925a771523d1677c78eb4014fa33ed8e00d0d7689363927c0f17e1083ede"
+    },
+    {
+      "path": "D:\\MLWork\\scie_small_sample_topics_20260920\\finance_reframe_20260921\\results\\universe_hf_download_20260921T084908Z_f610b4ea.json",
+      "bytes": 21049,
+      "sha256": "8761af3a9c675c21831667317e914982f778177482ca0d024270cffdbd66adb3"
+    },
+    {
+      "path": "D:\\MLWork\\scie_small_sample_topics_20260920\\finance_reframe_20260921\\results\\universe_hf_download_20260921T085304Z_d67f24bc.json",
+      "bytes": 17873,
+      "sha256": "75e55697560aa5cffbb5ef1da2bd3bcb884f92dbf83f7c57dc0c0476edf8aec1"
+    },
+    {
+      "path": "D:\\MLWork\\scie_small_sample_topics_20260920\\finance_reframe_20260921\\results\\universe_joint_filing_records.csv",
+      "bytes": 1498891,
+      "sha256": "cf592feaa0b1534d8264c69cf3fe0706dd800d70d552737203da1ab7dec128bb"
+    },
+    {
+      "path": "D:\\MLWork\\scie_small_sample_topics_20260920\\finance_reframe_20260921\\results\\universe_joint_filing_summary.json",
+      "bytes": 429,
+      "sha256": "ef5cd30a0bf07670e9600ece3f8958b523b2d39e8b608cf9bc8c1eb704253ac4"
+    },
+    {
+      "path": "D:\\MLWork\\scie_small_sample_topics_20260920\\finance_reframe_20260921\\results\\universe_local_official_failures.json",
+      "bytes": 2,
+      "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    },
+    {
+      "path": "D:\\MLWork\\scie_small_sample_topics_20260920\\finance_reframe_20260921\\results\\universe_local_official_input_manifest.csv",
+      "bytes": 67872,
+      "sha256": "d9575b94ee776091cd2a3622f3e534d5e0e2458937bebd209c516ed032362878"
+    },
+    {
+      "path": "D:\\MLWork\\scie_small_sample_topics_20260920\\finance_reframe_20260921\\results\\universe_official_crosscheck.csv",
+      "bytes": 394205,
+      "sha256": "659f474b614f9cc7316c4d596473c30d88114596ea41f183717cc81ec0a03481"
+    },
+    {
+      "path": "D:\\MLWork\\scie_small_sample_topics_20260920\\finance_reframe_20260921\\results\\universe_shard_audit.csv",
+      "bytes": 1817,
+      "sha256": "58aac373c4c3daadc7465b74b36a420bf986cac2c3463ab7aaa9cafb8b6f81dc"
+    },
+    {
+      "path": "D:\\MLWork\\scie_small_sample_topics_20260920\\finance_reframe_20260921\\results\\universe_sraf_count_crosscheck.csv",
+      "bytes": 1120,
+      "sha256": "b4aac7a864a642a51130a31c95a048c61d327b68d66ac5295e232905dc9a4561"
+    },
+    {
+      "path": "D:\\MLWork\\scie_small_sample_topics_20260920\\finance_reframe_20260921\\results\\universe_summary.json",
+      "bytes": 2278,
+      "sha256": "32ec833a6694a901995c11f1e4912a63c43606831aa7c9278687d6f402fc1896"
+    }
+  ],
+  "all_new_originals_read_only": true,
+  "raw_total_bytes": 1883474425
+}

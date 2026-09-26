@@ -1,0 +1,50 @@
+{
+  "companies": 1599,
+  "panel_rows": 9804,
+  "fact_rows": 59429,
+  "tag_mapping": {
+    "assets": [
+      "Assets"
+    ],
+    "liabilities": [
+      "Liabilities"
+    ],
+    "equity": [
+      "StockholdersEquity",
+      "StockholdersEquityIncludingPortionAttributableToNoncontrollingInterest"
+    ],
+    "cash": [
+      "CashAndCashEquivalentsAtCarryingValue",
+      "CashCashEquivalentsRestrictedCashAndRestrictedCashEquivalents"
+    ],
+    "current_assets": [
+      "AssetsCurrent"
+    ],
+    "current_liabilities": [
+      "LiabilitiesCurrent"
+    ],
+    "net_income": [
+      "NetIncomeLoss",
+      "ProfitLoss"
+    ],
+    "revenue": [
+      "Revenues",
+      "RevenueFromContractWithCustomerExcludingAssessedTax",
+      "SalesRevenueNet",
+      "SalesRevenueGoodsNet"
+    ],
+    "operating_income": [
+      "OperatingIncomeLoss"
+    ],
+    "operating_cash": [
+      "NetCashProvidedByUsedInOperatingActivities"
+    ],
+    "retained_earnings": [
+      "RetainedEarningsAccumulatedDeficit"
+    ]
+  },
+  "raw_source_count": 3124,
+  "later_version_cutoff": "2026-09-21",
+  "models_fitted": 0,
+  "note": "Extraction panel includes all successfully retrieved entities, including sampled companies and source-audit cases. The locked historical sampling frame, domain rules and weights are applied separately by prepare_model_cohort.py."
+}

@@ -1,0 +1,13 @@
+{
+  "status": "PASS",
+  "tables": 25,
+  "empty_tables": [],
+  "missing_citation_keys": [],
+  "changed_source_hashes": [],
+  "unexpanded_tokens": false,
+  "supplement_sha256": "48c20fa803e859ef363c3042ed83f5af0f94e5b69987cc7684bf811cffd60170",
+  "bib_sha256_at_check": "c75dfd009a06a1b5603a1c496e182042c41c54f256301984841503179dfc85f6",
+  "scope": "Markdown assembly and numerical-source consistency; Word/PDF rendering remains the parent build task; no new fit or independent human source certification.",
+  "title_only_rebuild": "PASS: Pandoc YAML title; duplicate body H1 removed; scientific content and numerical tables unchanged",
+  "final_display_only_rebuild": "PASS: S18 abbreviated labels and note; References heading; all 25 full-precision table CSV hashes identical"
+}

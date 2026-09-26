@@ -1,0 +1,162 @@
+{
+  "status": "PASS",
+  "reviewed_utc": "2026-09-21T09:51:32.4904569Z",
+  "reviewer": "technology_route",
+  "scope": "Final rendered Word pages 1 through 10 only; every one of the ten page images visually inspected at original resolution",
+  "pages_reviewed": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10
+  ],
+  "n_pages_reviewed": 10,
+  "document_total_pages": 20,
+  "document_modified": false,
+  "rerender_performed_here": false,
+  "render_directory": "<working-tree-root>/...",
+  "render_source": "Existing root-generated final render_docx.py native-soffice render supplied for read-only review",
+  "document": {
+    "path": "<working-tree-root>/...",
+    "sha256": "bb394ce29bb8d2f8680ce787cac5e8761c3904274e527f88742f0d4b6b60dd11"
+  },
+  "pdf": {
+    "path": "<working-tree-root>/...",
+    "sha256": "b01e68bb2bb2b56723cc90debbd50513493b846ef9c6f7961c7c762712711211"
+  },
+  "blocking_layout_defects": 0,
+  "required_caption_corrections": 0,
+  "pages": [
+    {
+      "page": 1,
+      "path": "<working-tree-root>/...",
+      "sha256": "e35aa77096753b119899aa7e21a4c2b3b54ab90136ead7faf67e3401eeffaa69",
+      "visually_opened": true,
+      "original_resolution_inspected": true,
+      "layout_status": "PASS",
+      "caption_correspondence_status": "PASS_OR_NOT_APPLICABLE",
+      "observations": "Title, revised abstract including the three/seven event-window caveat, keywords and introduction are readable. No clipped text, overlap or isolated heading."
+    },
+    {
+      "page": 2,
+      "path": "<working-tree-root>/...",
+      "sha256": "0dd138ab5ecc2c0f923110b8c19bbfc5fb59cbcb77fd23a3cceed2ebcc4c9ed7",
+      "visually_opened": true,
+      "original_resolution_inspected": true,
+      "layout_status": "PASS",
+      "caption_correspondence_status": "PASS_OR_NOT_APPLICABLE",
+      "observations": "Introduction continuation is readable. Sections 2 and 2.1 both have substantive following text; no clipping, overlap or orphan heading."
+    },
+    {
+      "page": 3,
+      "path": "<working-tree-root>/...",
+      "sha256": "c5a0d158fe7d12240a607f9c5d347b3a8c66e12d7d759307fd47ae2d30b931d1",
+      "visually_opened": true,
+      "original_resolution_inspected": true,
+      "layout_status": "PASS",
+      "caption_correspondence_status": "PASS_OR_NOT_APPLICABLE",
+      "observations": "Sampling discussion and section 2.2 are readable; paragraphs and foot of page are intact."
+    },
+    {
+      "page": 4,
+      "path": "<working-tree-root>/...",
+      "sha256": "b89b2d5b9902bed0540830725762859aa3ccb9a672acae829956e5508a6ea121",
+      "visually_opened": true,
+      "original_resolution_inspected": true,
+      "layout_status": "PASS",
+      "caption_correspondence_status": "PASS_OR_NOT_APPLICABLE",
+      "observations": "Accession-bundle equation, intersection, argmax notation and subscripts are intact. The final paragraph continues normally to page 5."
+    },
+    {
+      "page": 5,
+      "path": "<working-tree-root>/...",
+      "sha256": "db1fa637e1a2ecd887bf06f21a09b68bc85043a8a99524b5c25edb11c49cac24",
+      "visually_opened": true,
+      "original_resolution_inspected": true,
+      "layout_status": "PASS",
+      "caption_correspondence_status": "PASS_OR_NOT_APPLICABLE",
+      "observations": "Inline mathematical notation, model grid and sections 3, 3.1 and 3.2 are readable. The metrics paragraph continues normally on page 6."
+    },
+    {
+      "page": 6,
+      "path": "<working-tree-root>/...",
+      "sha256": "a57a21ff79862d1c1bd934b496782de1dd20d9be5aa2d48ef4a95ee16ee20243",
+      "visually_opened": true,
+      "original_resolution_inspected": true,
+      "layout_status": "PASS",
+      "caption_correspondence_status": "PASS_OR_NOT_APPLICABLE",
+      "observations": "Bootstrap equation, radical, fraction, superscripts and subscripts are intact. Section 3.3 remains with following body text."
+    },
+    {
+      "page": 7,
+      "path": "<working-tree-root>/...",
+      "sha256": "690e54eda4d02b6048aa3a83d7769182de40bcdddfe77e84df30a5bb375296da",
+      "visually_opened": true,
+      "original_resolution_inspected": true,
+      "layout_status": "PASS",
+      "caption_correspondence_status": "PASS_OR_NOT_APPLICABLE",
+      "observations": "No clipping or isolated heading. Noticeable lower-page white space remains before the next intact table/figure page; accepted as a nonblocking pagination tradeoff, not missing content."
+    },
+    {
+      "page": 8,
+      "path": "<working-tree-root>/...",
+      "sha256": "52ab8d74937c4b13fdeb78e8d6ec5df5eee59ffa6df25a766e20d14178ca8eaf",
+      "visually_opened": true,
+      "original_resolution_inspected": true,
+      "layout_status": "PASS",
+      "caption_correspondence_status": "PASS_OR_NOT_APPLICABLE",
+      "observations": "Table 1 title, all rows and note remain together. Figure 1 and caption remain together. Corrected caption now identifies Panel A and Panel B consistently with the horizontal figure. Axis labels are small but legible at original resolution."
+    },
+    {
+      "page": 9,
+      "path": "<working-tree-root>/...",
+      "sha256": "ad6fe53fcce5ff1132d99d5bc37a38fba836ea06993cd53a831912e193cf1925",
+      "visually_opened": true,
+      "original_resolution_inspected": true,
+      "layout_status": "PASS",
+      "caption_correspondence_status": "PASS_OR_NOT_APPLICABLE",
+      "observations": "Table 2 title, full three-row table and note remain together. Section 4.2 and all paragraphs are readable; no row clipping or heading isolation."
+    },
+    {
+      "page": 10,
+      "path": "<working-tree-root>/...",
+      "sha256": "569f65d402e2c2717b2af055406e823c16047a1878607b6fa4be75e0345c8722",
+      "visually_opened": true,
+      "original_resolution_inspected": true,
+      "layout_status": "PASS",
+      "caption_correspondence_status": "PASS_OR_NOT_APPLICABLE",
+      "observations": "Figure 2 contains all ten input bars, labels, values and axes with no overlap. Figure and full caption remain together. Source-level interpretation heading has substantive following text. Final paragraph continues normally on page 11."
+    }
+  ],
+  "issues": [],
+  "resolved_issues": [
+    {
+      "id": "WORD-P08-FIG1-PANEL-DIRECTION",
+      "page": 8,
+      "status": "RESOLVED_AND_VISUALLY_RECHECKED",
+      "resolution": "Final caption uses Panel A and Panel B matching the displayed figure."
+    }
+  ],
+  "nonblocking_observations": [
+    {
+      "page": 7,
+      "observation": "Lower-page white space is larger than on surrounding text pages; the next page keeps Table 1 with its note and Figure 1 with its caption. No orphan heading, missing content or clipping was found."
+    }
+  ],
+  "handoff": [
+    {
+      "pages": "11-20",
+      "check": "Root reviewer is responsible for all remaining final pages, including tables and notes after page 10."
+    }
+  ],
+  "limitations": [
+    "Visual layout and figure-caption correspondence review, not a new numerical/source audit.",
+    "PASS applies only to the recorded final DOCX/PDF and these ten rendered page images; changed pages require reinspection.",
+    "This report alone does not assert that all 20 pages have been reviewed."
+  ]
+}

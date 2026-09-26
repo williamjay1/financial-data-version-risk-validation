@@ -1,0 +1,21 @@
+{
+  "status": "pass",
+  "valid_bindings_accepted": 3,
+  "failure_paths_rejected": 11,
+  "rejected_conditions": [
+    "explicitly true",
+    "current main cohort hash differs",
+    "current main cohort hash differs",
+    "latest gate audit did not pass",
+    "protocol and audit cohort hashes disagree",
+    "generation is not complete",
+    "generated from a different main cohort",
+    "output hash differs",
+    "fact source changed",
+    "equivalent to main",
+    "no unique recorded sensitivity output"
+  ],
+  "fixture_directory": "D:\\MLWork\\scie_small_sample_topics_20260920\\finance_reframe_20260921\\results\\models_hash_binding_toy_20260921T093101418369Z",
+  "real_data_read": false,
+  "models_fitted": 0
+}

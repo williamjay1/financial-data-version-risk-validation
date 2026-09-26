@@ -1,0 +1,50 @@
+[
+  {
+    "block": "2016_2017",
+    "model": "LR",
+    "preprocessing_equal": true,
+    "all_four_candidate_metrics_equal": true,
+    "selection_equal": true,
+    "four_cell_max_abs_prediction_difference": 0.0
+  },
+  {
+    "block": "2016_2017",
+    "model": "LGBM",
+    "preprocessing_equal": true,
+    "all_four_candidate_metrics_equal": true,
+    "selection_equal": true,
+    "four_cell_max_abs_prediction_difference": 0.0
+  },
+  {
+    "block": "2018_2019",
+    "model": "LR",
+    "preprocessing_equal": true,
+    "all_four_candidate_metrics_equal": true,
+    "selection_equal": true,
+    "four_cell_max_abs_prediction_difference": 0.0
+  },
+  {
+    "block": "2018_2019",
+    "model": "LGBM",
+    "preprocessing_equal": true,
+    "all_four_candidate_metrics_equal": true,
+    "selection_equal": true,
+    "four_cell_max_abs_prediction_difference": 0.0
+  },
+  {
+    "block": "2020_2021",
+    "model": "LR",
+    "preprocessing_equal": true,
+    "all_four_candidate_metrics_equal": true,
+    "selection_equal": true,
+    "four_cell_max_abs_prediction_difference": 0.0
+  },
+  {
+    "block": "2020_2021",
+    "model": "LGBM",
+    "preprocessing_equal": true,
+    "all_four_candidate_metrics_equal": true,
+    "selection_equal": true,
+    "four_cell_max_abs_prediction_difference": 0.0
+  }
+]

@@ -1,0 +1,34 @@
+{
+  "completed_utc": "2026-09-21T09:54:46.082038+00:00",
+  "manuscript_stage": "GO_COMPLETE_RESEARCH_MANUSCRIPT",
+  "submission_stage": "CONDITIONAL_NOT_SUBMITTED",
+  "manuscript": "D:\\MLWork\\scie_small_sample_topics_20260920\\finance_reframe_20260921\\manuscript\\Financial_Vintage_Registry_Prediction_Manuscript.docx",
+  "docx_sha256": "bb394ce29bb8d2f8680ce787cac5e8761c3904274e527f88742f0d4b6b60dd11",
+  "markdown_sha256": "4d6abbb6ec1529ed161a9fc8db5e454504ea5954f8ef945db43a3b30a0b39bf8",
+  "rendered_pages": 20,
+  "tables": 8,
+  "figures": 3,
+  "cited_references": 33,
+  "main_model_independent_checks": 297,
+  "manuscript_numeric_checks": 310,
+  "final_limited_rechecks": 7,
+  "visual_qa": "PASS_ALL_20_PAGES",
+  "interpretation_review": "No blocking factual/citation/overclaim issue; study limitations retained",
+  "remaining_submission_work": [
+    "Author metadata and accurate declarations",
+    "Final journal selection, current policy check and venue-specific formatting",
+    "Appropriate public code/data sharing arrangements if required"
+  ],
+  "key_boundaries": [
+    "Original-accession API reconstruction is not a historical API snapshot",
+    "Outcome is the first directly linked registry event, not all bankruptcies",
+    "Sparse early tuning and validation events",
+    "Intervals condition on fitted models and registry cases",
+    "Transition-report sensitivity reverses the last-block AP contrast"
+  ],
+  "external_actions": {
+    "journal_submission": false,
+    "public_upload": false,
+    "contacted_others": false
+  }
+}

@@ -1,0 +1,117 @@
+{
+  "status": "GENERATED_REQUIRES_VISUAL_INSPECTION",
+  "created_utc": "2026-09-21T09:36:59.862680+00:00",
+  "model_run_id": "models_20260921T093517075175Z",
+  "figure_run_id": "models_20260921T093517075175Z_figures_20260921T093653752452Z",
+  "source_script": "D:\\MLWork\\scie_small_sample_topics_20260920\\finance_reframe_20260921\\scripts\\build_vintage_figures.py",
+  "source_script_sha256": "415086bafcc997e45fa8620ff26d47cc14aef460842cca1d3d83ee976aa4a5a4",
+  "inputs": {
+    "model_cohort": {
+      "path": "D:\\MLWork\\scie_small_sample_topics_20260920\\finance_reframe_20260921\\datasets\\model_cohort.parquet",
+      "sha256": "724122d3ca7a0a123de244112aa604d6da7a008497cc6ce526f8f07327916e21"
+    },
+    "vintage_facts": {
+      "path": "D:\\MLWork\\scie_small_sample_topics_20260920\\finance_reframe_20260921\\datasets\\vintage_facts.parquet",
+      "sha256": "18f5f0424091c17bb80fa146d55890a849c1fce97f3f0f0d0e784d7422c71c5f"
+    },
+    "cohort_summary": {
+      "path": "D:\\MLWork\\scie_small_sample_topics_20260920\\finance_reframe_20260921\\results\\cohort_summary.json",
+      "sha256": "355902af2d8ea15bd055d1c7e3486f7b6f20584ec406a9d4a07c7f07933e7c42"
+    },
+    "protocol": {
+      "path": "D:\\MLWork\\scie_small_sample_topics_20260920\\finance_reframe_20260921\\phase2_protocol.json",
+      "sha256": "b18a0b9c6dfc9ff68920344d720ad2d19f6ab43dfda91be4e75c59f58bec3754"
+    },
+    "model_manifest": {
+      "path": "D:\\MLWork\\scie_small_sample_topics_20260920\\finance_reframe_20260921\\results\\models_20260921T093517075175Z_manifest.json",
+      "sha256": "edbc6d675ee029580daba70ab50530cf456004fb20dc2a425df11cfb88b6c475"
+    },
+    "main_metrics": {
+      "path": "D:\\MLWork\\scie_small_sample_topics_20260920\\finance_reframe_20260921\\results\\models_20260921T093517075175Z_metrics.csv",
+      "sha256": "6e0776bf96981159a5d20fd5059051cf478d891722e559860764d9747f7c1a54"
+    },
+    "main_uncertainty_summary": {
+      "path": "D:\\MLWork\\scie_small_sample_topics_20260920\\finance_reframe_20260921\\results\\uncertainty_20260921T093555450801Z_summary.csv",
+      "sha256": "957940b3347ccb1dd31430d63ba65c77527020c6ce48eaa84973beda60d9bab6"
+    },
+    "main_uncertainty_manifest": {
+      "path": "D:\\MLWork\\scie_small_sample_topics_20260920\\finance_reframe_20260921\\results\\uncertainty_20260921T093555450801Z_manifest.json",
+      "sha256": "85c04435fbdc562294f91dfeca9e6437262f7774ac96a1a1fe41baf90479e0da"
+    },
+    "frozen_metrics": {
+      "path": "D:\\MLWork\\scie_small_sample_topics_20260920\\finance_reframe_20260921\\results\\models_20260921T093517075175Z_frozen_a_metrics.csv",
+      "sha256": "6ec6f0b9acece917ae72b8b48386708c66ece0e501d981ecc779b8aa53564939"
+    },
+    "frozen_uncertainty_summary": {
+      "path": "D:\\MLWork\\scie_small_sample_topics_20260920\\finance_reframe_20260921\\results\\uncertainty_20260921T093555459899Z_summary.csv",
+      "sha256": "d45df253f2b461983286fe4ef5140649543dde47ed2fccf989b896715ea53cab"
+    },
+    "frozen_uncertainty_manifest": {
+      "path": "D:\\MLWork\\scie_small_sample_topics_20260920\\finance_reframe_20260921\\results\\uncertainty_20260921T093555459899Z_manifest.json",
+      "sha256": "bac97392cfd8e250da40e14d39848a9ee87cd9879cb7b93f44dbd8071b7a44f8"
+    },
+    "main_predictions": {
+      "path": "D:\\MLWork\\scie_small_sample_topics_20260920\\finance_reframe_20260921\\results\\models_20260921T093517075175Z_test_predictions.parquet",
+      "sha256": "0b942e2450724c969f90a380c6d41d485d91e3b4b5e2e08a290ced5d58ba7751"
+    },
+    "frozen_predictions": {
+      "path": "D:\\MLWork\\scie_small_sample_topics_20260920\\finance_reframe_20260921\\results\\models_20260921T093517075175Z_frozen_a_predictions.parquet",
+      "sha256": "424b1469b988690dab03074998551f609aa741eda54825e2495a59e492e6b9ed"
+    }
+  },
+  "outputs": {
+    "D:\\MLWork\\scie_small_sample_topics_20260920\\finance_reframe_20260921\\results\\descriptive_models_20260921T093517075175Z_figures_20260921T093653752452Z_annual_counts.csv": "874e5eebcd7ba52aebaa0ce0d54143b9275d50dab97438970d7f93ce08f66c4b",
+    "D:\\MLWork\\scie_small_sample_topics_20260920\\finance_reframe_20260921\\results\\descriptive_models_20260921T093517075175Z_figures_20260921T093653752452Z_feature_changes.csv": "f2bf6eaf1e0b7b561bc17a7614b99ce8d224f5113fafb6390c314b353c043984",
+    "D:\\MLWork\\scie_small_sample_topics_20260920\\finance_reframe_20260921\\results\\descriptive_models_20260921T093517075175Z_figures_20260921T093653752452Z_forest_data.csv": "883cf61ae7c41fb4d55b680a334417b7fefecec8c21981045e75999b68bd54c6",
+    "D:\\MLWork\\scie_small_sample_topics_20260920\\finance_reframe_20260921\\results\\descriptive_models_20260921T093517075175Z_figures_20260921T093653752452Z_denominators.json": "862944bc172f01654190ecdad116808d86fa835fe51c8a8661e2bb6fa0b4e236",
+    "D:\\MLWork\\scie_small_sample_topics_20260920\\finance_reframe_20260921\\results\\figures\\models_20260921T093517075175Z_figures_20260921T093653752452Z\\figure1_annual_sample.pdf": "f1e7abf7e0b850e127e10dfc8bc8c9867763294bb0750d45022bc5f483ccc431",
+    "D:\\MLWork\\scie_small_sample_topics_20260920\\finance_reframe_20260921\\results\\figures\\models_20260921T093517075175Z_figures_20260921T093653752452Z\\figure1_annual_sample.svg": "3304dd21e504ab351020b608d1262d9f967329ebf8cc1f75b87f8d962b39dcea",
+    "D:\\MLWork\\scie_small_sample_topics_20260920\\finance_reframe_20260921\\results\\figures\\models_20260921T093517075175Z_figures_20260921T093653752452Z\\figure1_annual_sample.png": "8c882fbe4bd57d8851c89b01d596d7478737c8255c2db8d0ae0278b985ec10d0",
+    "D:\\MLWork\\scie_small_sample_topics_20260920\\finance_reframe_20260921\\results\\figures\\models_20260921T093517075175Z_figures_20260921T093653752452Z\\figure2_input_changes.pdf": "fbf877164794d2c392cb0b9635e975e2873ce0bdd2302ee9826bed346a1eff05",
+    "D:\\MLWork\\scie_small_sample_topics_20260920\\finance_reframe_20260921\\results\\figures\\models_20260921T093517075175Z_figures_20260921T093653752452Z\\figure2_input_changes.svg": "8b5b64b37a98fa28d1fc8bd8364fc246891364432514484268bcd8b267e0153f",
+    "D:\\MLWork\\scie_small_sample_topics_20260920\\finance_reframe_20260921\\results\\figures\\models_20260921T093517075175Z_figures_20260921T093653752452Z\\figure2_input_changes.png": "9f0c5d2a22ed23e50813cd2b497a86ea9d7149ea0bee31b62067a1189999557c",
+    "D:\\MLWork\\scie_small_sample_topics_20260920\\finance_reframe_20260921\\results\\figures\\models_20260921T093517075175Z_figures_20260921T093653752452Z\\figure3_paired_average_precision.pdf": "94309f90359b4b34cee18aa46d53e6de50ff9edf7cf2a841055475cc04efb71e",
+    "D:\\MLWork\\scie_small_sample_topics_20260920\\finance_reframe_20260921\\results\\figures\\models_20260921T093517075175Z_figures_20260921T093653752452Z\\figure3_paired_average_precision.svg": "9d97ec609631c5f5052666e3828e8a13bac31626f55e4589c6e4a006e6f1f0b5",
+    "D:\\MLWork\\scie_small_sample_topics_20260920\\finance_reframe_20260921\\results\\figures\\models_20260921T093517075175Z_figures_20260921T093653752452Z\\figure3_paired_average_precision.png": "19d0c15a924b16e09b4fe0ef87e9b2c428cd34581b1026e3f90fa999edcec32d",
+    "D:\\MLWork\\scie_small_sample_topics_20260920\\finance_reframe_20260921\\results\\figures\\models_20260921T093517075175Z_figures_20260921T093653752452Z\\captions.md": "f525c39edca8b5eb8ebd91bdf72af1ce32693e7ed3a8dcc59a08edda58deaf48"
+  },
+  "rendering": {
+    "matplotlib": "3.11.1",
+    "font": "Arial",
+    "png_dpi": 900,
+    "vector_formats": [
+      "PDF",
+      "SVG"
+    ],
+    "visual_qa": "Not yet independently inspected after rendering"
+  },
+  "include_per_tag_C": false,
+  "n_primary_model_pairs": 6,
+  "n_frozen_A_pairs": 6,
+  "facts_reconstructed": {
+    "input_fact_rows": 59429,
+    "cohort_fact_rows": 50912,
+    "cohort_landmarks_with_facts": 5502,
+    "raw_features": [
+      "assets",
+      "liabilities",
+      "equity",
+      "cash",
+      "current_assets",
+      "current_liabilities",
+      "net_income",
+      "revenue",
+      "operating_income",
+      "operating_cash",
+      "retained_earnings"
+    ],
+    "versions_reconstructed": [
+      "A",
+      "B"
+    ],
+    "initial_missingness_preserved": true,
+    "coherent_B_accession_check": "PASS",
+    "numeric_check": "PASS; relative and absolute tolerance 1e-10"
+  },
+  "no_models_fitted_here": true
+}

@@ -1,0 +1,30 @@
+{
+  "main_model_manifest": "D:\\MLWork\\scie_small_sample_topics_20260920\\finance_reframe_20260921\\results\\models_20260921T093517075175Z_manifest.json",
+  "model_runs": [
+    {
+      "kind": "main",
+      "manifest": "D:\\MLWork\\scie_small_sample_topics_20260920\\finance_reframe_20260921\\results\\models_20260921T093517075175Z_manifest.json"
+    },
+    {
+      "kind": "verified_scale",
+      "manifest": "D:\\MLWork\\scie_small_sample_topics_20260920\\finance_reframe_20260921\\results\\sensitivity_source_scale_corrected\\models_20260921T093617431021Z_manifest.json"
+    },
+    {
+      "kind": "exclude_transitions",
+      "manifest": "D:\\MLWork\\scie_small_sample_topics_20260920\\finance_reframe_20260921\\results\\sensitivity_no_transition\\models_20260921T093617432022Z_manifest.json"
+    }
+  ],
+  "uncertainty_runs": [
+    {
+      "kind": "refit",
+      "manifest": "D:\\MLWork\\scie_small_sample_topics_20260920\\finance_reframe_20260921\\results\\uncertainty_20260921T093555450801Z_manifest.json"
+    },
+    {
+      "kind": "frozen_A",
+      "manifest": "D:\\MLWork\\scie_small_sample_topics_20260920\\finance_reframe_20260921\\results\\uncertainty_20260921T093555459899Z_manifest.json"
+    }
+  ],
+  "figure_directory": "D:\\MLWork\\scie_small_sample_topics_20260920\\finance_reframe_20260921\\results\\figures\\models_20260921T093517075175Z_figures_20260921T093817813128Z",
+  "cohort_sha256": "724122d3ca7a0a123de244112aa604d6da7a008497cc6ce526f8f07327916e21",
+  "manuscript": "D:\\MLWork\\scie_small_sample_topics_20260920\\finance_reframe_20260921\\manuscript\\manuscript.md"
+}

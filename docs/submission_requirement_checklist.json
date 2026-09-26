@@ -1,0 +1,79 @@
+{
+  "word_count": 7428,
+  "pages": 13,
+  "abstract_words": 180,
+  "checks": [
+    [
+      "PDF format only for the manuscript",
+      "main_manuscript_anonymised.pdf, title_page.pdf, supplementary_material.pdf and cover_letter.pdf are all PDF"
+    ],
+    [
+      "No author names or affiliations in the manuscript PDF",
+      "verified programmatically; the author fields live only in title_page.pdf"
+    ],
+    [
+      "Title page as a separate document",
+      "title_page.pdf and title_page.docx carry names, affiliations, postal and email addresses, corresponding author, running head, word count and display counts"
+    ],
+    [
+      "Running head not exceeding 50 characters",
+      "47 characters"
+    ],
+    [
+      "Figure and table legends before the abstract",
+      "both legend lists appear on the first page of the manuscript PDF"
+    ],
+    [
+      "Abstract between 150 and 200 words, one paragraph, no references",
+      "180 words"
+    ],
+    [
+      "4 to 6 keywords",
+      "6 keywords: Model validation; Model risk; Credit risk; Bankruptcy prediction; Data versioning; Backtesting"
+    ],
+    [
+      "3 to 4 key messages, at most 85 characters each",
+      "4 messages, longest 79 characters"
+    ],
+    [
+      "Anonymised main text with a conclusion section",
+      "the main text ends with a Conclusion section and carries no identifying information"
+    ],
+    [
+      "Declarations of Interest, Acknowledgements and AI use statement",
+      "all three appear before the reference list"
+    ],
+    [
+      "Author-date citations and an APA style reference list in alphabetical order",
+      "0in-text citations use the author-date system; the reference list is alphabetical and each entry carries a DOI or URL"
+    ],
+    [
+      "Word count within the 10,000 word guidance",
+      "7,428 words of main text before references"
+    ],
+    [
+      "All figures and tables inside the main PDF",
+      "6 tables and 5 figures are embedded, tables 1 to 6 and figures 1 to 5"
+    ],
+    [
+      "Figures also supplied as separate editable vector files, named by display number",
+      "figures/figure1.svg to figure5.svg plus matching vector PDFs"
+    ],
+    [
+      "Tables also supplied as separate editable files, named by display number",
+      "tables/table1.csv to table6.csv plus matching DOCX files"
+    ],
+    [
+      "TeX source available for the version of record",
+      "latex/financial_data_version_risk.tex compiles with two pdflatex passes"
+    ],
+    [
+      "Supplementary material allowed and linked",
+      "supplementary_material.pdf plus the reproducibility package contents"
+    ],
+    [
+      "AI disclosure naming each tool and its use",
+      "the statement names OpenAI Codex and the limited Python and language editing use"
+    ]
+  ]
+}

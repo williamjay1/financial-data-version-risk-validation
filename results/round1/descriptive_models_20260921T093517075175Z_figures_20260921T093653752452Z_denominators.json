@@ -1,0 +1,38 @@
+{
+  "cohort_rows_raw": 5502,
+  "cohort_weighted_landmarks": 63397.603999999985,
+  "fact_reconstruction_audit": {
+    "input_fact_rows": 59429,
+    "cohort_fact_rows": 50912,
+    "cohort_landmarks_with_facts": 5502,
+    "raw_features": [
+      "assets",
+      "liabilities",
+      "equity",
+      "cash",
+      "current_assets",
+      "current_liabilities",
+      "net_income",
+      "revenue",
+      "operating_income",
+      "operating_cash",
+      "retained_earnings"
+    ],
+    "versions_reconstructed": [
+      "A",
+      "B"
+    ],
+    "initial_missingness_preserved": true,
+    "coherent_B_accession_check": "PASS",
+    "numeric_check": "PASS; relative and absolute tolerance 1e-10"
+  },
+  "feature_primary_denominator": "sum of inclusion weights among initially finite A values of that feature",
+  "feature_secondary_denominator": "sum of inclusion weights over all eligible landmarks",
+  "annual_positive_units": "raw filing windows and distinct CIKs contributing a positive window within year",
+  "not_independent_events": true,
+  "missingness_policy": "A mask retained in B, and C when shown",
+  "change_tolerance": 1e-12,
+  "forest_display_scale": "percentage points = probability-scale difference times 100",
+  "forest_inference": "conditional fixed-model design uncertainty; pointwise, not simultaneous",
+  "source_vintage_limit": "accession reconstruction from currently retrieved API, not historical API snapshots"
+}

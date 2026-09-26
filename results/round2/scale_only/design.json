@@ -1,0 +1,22 @@
+{
+  "recorded_utc": "2026-09-22T16:06:10.266985+00:00",
+  "analysis_status": "post_hoc_revision",
+  "source_main_sha256": "724122d3ca7a0a123de244112aa604d6da7a008497cc6ce526f8f07327916e21",
+  "source_facts_sha256": "18f5f0424091c17bb80fa146d55890a849c1fce97f3f0f0d0e784d7422c71c5f",
+  "correction_csv_sha256": "168b64f16248e25a89794b5fa92223e897d1ededd7863d8a86df7802fec9538f",
+  "correction_count": 22,
+  "scope": "Only exact CIK/accession/tag/start/end/unit plus existing API value; A/B/C independently; absence of later accession resolves to original A accession",
+  "evidence_status": "Visible filing display/API discrepancy, not human or original XBRL certification",
+  "models": [
+    "source_corrected_tuned original four-candidate independent single-year tuning",
+    "source_corrected_fixed declared LR C1 and LGBM7/30"
+  ],
+  "held_fixed": "All row IDs, dates, labels, sampling weights, missingness and temporal splits; only verified raw components recomputed into all ten features",
+  "no_extrapolation": "A correction for FY2015 cannot correct FY2014 even in the same source accession",
+  "version": 2,
+  "script_sha256": "ac2289599a2d17f115703be5a979bbd180d60087254d0ee340aeacaa0c966856",
+  "tests": {
+    "uniform_scale_preserves_nine_ratios": true,
+    "wrong_period_cannot_match": true
+  }
+}

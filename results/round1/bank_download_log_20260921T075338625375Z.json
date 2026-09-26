@@ -1,0 +1,72 @@
+[
+  {
+    "name": "financial_dictionary.yaml",
+    "url": "https://api.fdic.gov/banks/docs/risview_properties.yaml",
+    "final_url": "https://api.fdic.gov/banks/docs/risview_properties.yaml",
+    "http_status": 200,
+    "bytes": 616633,
+    "sha256": "b257457e4e821d6a0d9f88ffc4e6e0da80e4ccf67fa394cadb21587b50b23d59",
+    "raw_path": "E:\\AcademicData\\scie_small_sample_topics_20260920\\raw\\finance_reframe_20260921\\bank\\20260921T075338625375Z_financial_dictionary.yaml",
+    "retrieved_utc": "2026-09-21T07:53:41.388649+00:00"
+  },
+  {
+    "name": "failure_dictionary.yaml",
+    "url": "https://api.fdic.gov/banks/docs/failure_properties.yaml",
+    "final_url": "https://api.fdic.gov/banks/docs/failure_properties.yaml",
+    "http_status": 200,
+    "bytes": 14728,
+    "sha256": "7e3137fb6fc93dd49371b4d032f48fad403efd3d9a7f5cc8ca5480c00807364c",
+    "raw_path": "E:\\AcademicData\\scie_small_sample_topics_20260920\\raw\\finance_reframe_20260921\\bank\\20260921T075338625375Z_failure_dictionary.yaml",
+    "retrieved_utc": "2026-09-21T07:53:43.196968+00:00"
+  },
+  {
+    "name": "institution_dictionary.yaml",
+    "url": "https://api.fdic.gov/banks/docs/institution_properties.yaml",
+    "final_url": "https://api.fdic.gov/banks/docs/institution_properties.yaml",
+    "http_status": 200,
+    "bytes": 94832,
+    "sha256": "6ed1763c66a9e240904a45712b23d825c0f31beaadb6cd0213fc1bf00b2af1b9",
+    "raw_path": "E:\\AcademicData\\scie_small_sample_topics_20260920\\raw\\finance_reframe_20260921\\bank\\20260921T075338625375Z_institution_dictionary.yaml",
+    "retrieved_utc": "2026-09-21T07:53:45.338919+00:00"
+  },
+  {
+    "name": "swagger.yaml",
+    "url": "https://api.fdic.gov/banks/docs/swagger.yaml",
+    "final_url": "https://api.fdic.gov/banks/docs/swagger.yaml",
+    "http_status": 200,
+    "bytes": 34749,
+    "sha256": "854500ae68d77185a12fc9260e0bbc0194e3848df0e54086f828656ea508852b",
+    "raw_path": "E:\\AcademicData\\scie_small_sample_topics_20260920\\raw\\finance_reframe_20260921\\bank\\20260921T075338625375Z_swagger.yaml",
+    "retrieved_utc": "2026-09-21T07:53:47.196300+00:00"
+  },
+  {
+    "name": "financial_join_sample.json",
+    "url": "https://api.fdic.gov/banks/financials?filters=CERT%3A%2824735+OR+57053+OR+59017+OR+8758+OR+25851+OR+27332+OR+4134+OR+28611+OR+5520+OR+57488+OR+25796+OR+25744+OR+628+OR+3510+OR+3511%29&fields=CERT%2CREPDTE%2CRISDATE%2CNAME%2CASSET%2CDEP%2CEQ%2CNETINC%2CROA%2CROE%2CLNLSNET%2CDEPUNINS%2CENDEFYMD%2CEFFDATE%2CACTIVE%2CID&limit=10000&sort_by=REPDTE&sort_order=ASC&format=json",
+    "final_url": "https://api.fdic.gov/banks/financials?filters=CERT%3A%2824735+OR+57053+OR+59017+OR+8758+OR+25851+OR+27332+OR+4134+OR+28611+OR+5520+OR+57488+OR+25796+OR+25744+OR+628+OR+3510+OR+3511%29&fields=CERT%2CREPDTE%2CRISDATE%2CNAME%2CASSET%2CDEP%2CEQ%2CNETINC%2CROA%2CROE%2CLNLSNET%2CDEPUNINS%2CENDEFYMD%2CEFFDATE%2CACTIVE%2CID&limit=10000&sort_by=REPDTE&sort_order=ASC&format=json",
+    "http_status": 200,
+    "bytes": 652666,
+    "sha256": "c4abf0ffb2485cc518b3137d14d8f9ca132736e755297d4bcfd4e47fd9190fec",
+    "raw_path": "E:\\AcademicData\\scie_small_sample_topics_20260920\\raw\\finance_reframe_20260921\\bank\\20260921T075338625375Z_financial_join_sample.json",
+    "retrieved_utc": "2026-09-21T07:53:50.622346+00:00"
+  },
+  {
+    "name": "financial_first_date.json",
+    "url": "https://api.fdic.gov/banks/financials?fields=CERT,REPDTE&limit=1&sort_by=REPDTE&sort_order=ASC&format=json",
+    "final_url": "https://api.fdic.gov/banks/financials?fields=CERT,REPDTE&limit=1&sort_by=REPDTE&sort_order=ASC&format=json",
+    "http_status": 200,
+    "bytes": 284,
+    "sha256": "4709fbb33d8a55c3f7c0007fbdbb102e2772146cbd2f0c7d1e137f44b148a225",
+    "raw_path": "E:\\AcademicData\\scie_small_sample_topics_20260920\\raw\\finance_reframe_20260921\\bank\\20260921T075338625375Z_financial_first_date.json",
+    "retrieved_utc": "2026-09-21T07:53:52.317518+00:00"
+  },
+  {
+    "name": "financial_last_date.json",
+    "url": "https://api.fdic.gov/banks/financials?fields=CERT,REPDTE&limit=1&sort_by=REPDTE&sort_order=DESC&format=json",
+    "final_url": "https://api.fdic.gov/banks/financials?fields=CERT,REPDTE&limit=1&sort_by=REPDTE&sort_order=DESC&format=json",
+    "http_status": 200,
+    "bytes": 284,
+    "sha256": "02ce08e1f180864bbec4d2277ee4609f5070e898d00fe858b908e5fe79df7921",
+    "raw_path": "E:\\AcademicData\\scie_small_sample_topics_20260920\\raw\\finance_reframe_20260921\\bank\\20260921T075338625375Z_financial_last_date.json",
+    "retrieved_utc": "2026-09-21T07:53:54.075747+00:00"
+  }
+]

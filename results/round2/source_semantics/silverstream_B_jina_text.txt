@@ -1,0 +1,9105 @@
+Title: 
+
+URL Source: https://www.sec.gov/Archives/edgar/data/1310497/000100201414000402/agsm10ka1-03312014.htm
+
+Published Time: Sat, 21 Oct 2017 11:10:01 GMT
+
+Markdown Content:
+10-K/A 1 agsm10ka1-03312014.htm SILVER STREAM MINING CORP. FORM 10-K (03/31/2014)
+
+
+
+
+
+
+UNITED STATES
+SECURITIES AND EXCHANGE COMMISSION
+Washington, D. C. 20549
+
+
+FORM 10-K/A-1
+
+
+[X]
+	
+ANNUAL REPORT PURSUANT TO SECTION 13 OR 15(d) OF THE SECURITIES EXCHANGE ACT OF 1934 FOR THE FISCAL YEAR ENDED MARCH 31, 2014
+
+
+Commission File Number:   000-52752
+
+
+SILVER STREAM MINING CORP.
+(Exact name of registrant as specified in its charter)
+
+
+Nevada
+(State or other jurisdiction of incorporation or organization)
+
+
+9550 South Eastern Avenue, Suite 253
+Las Vegas, NV   89123
+(Address of principal executive offices, including zip code.)
+
+
+(702) 818-1775
+(Registrant's telephone number, including area code)
+
+
+Securities registered pursuant to Section 12(b) of the Act:
+	
+Securities registered pursuant to section 12(g) of the Act:
+
+
+NONE
+	
+COMMON STOCK
+
+
+Indicate by check mark if the registrant is a well-known seasoned issuer, as defined in Rule 405 of the Securities Act.   YES [   ]   NO [X]
+
+
+Indicate by check mark if the registrant is required to file reports pursuant to Section 13 or Section 15(d) of the Act:    YES [X]   NO [   ]
+
+
+Indicate by check mark whether the registrant (1) has filed all reports required to be filed by Section 13 or 15(d) of the Securities Exchange Act of 1934 during the preceding 12 months (or for such shorter period that the registrant was required to file such reports), and (2) has been subject to such filing requirements for the past 90 days.   YES [X]   NO [   ]
+
+
+Indicate by check mark whether the registrant has submitted electronically and posted on its corporate Web site, if any, every Interactive Data File required to be submitted and posted pursuant to Rule 405 of Regulation S-T (Â§232.405 of this chapter) during the preceding 12 months (or for such shorter period that the registrant was required to submit and post such files). YES [   ]   NO [X]
+
+
+Indicate by check mark if disclosure of delinquent filers pursuant to Item 405 of Regulation S-K (Â§229.405 of this chapter) is not contained herein, and will not be contained, to the best of registrant's knowledge, in definitive proxy or information statements incorporated by reference in Part III of this Form 10-K or any amendment to this Form 10-K.   [   ]
+
+
+Indicate by check mark whether the registrant is a large accelerated filer, an accelerated filer, a non-accelerated filer, or a smaller reporting company.  See the definitions of "large accelerated filer," "accelerated filer" and "smaller reporting company" in Rule 12b-2 of the Exchange Act.
+
+
+Large Accelerated Filer
+	
+[   ]
+	
+Accelerated Filer
+	
+[   ]
+
+
+Non-accelerated Filer (Do not check if a smaller reporting company)
+	
+[   ]
+	
+Smaller Reporting Company
+	
+[X]
+
+
+Indicate by check mark whether the registrant is a shell company (as defined in Rule 12b-2 of the Act). YES [   ]   NO [X]
+
+
+State the aggregate market value of the voting and non-voting common equity held by non-affiliates computed by reference to the price at which the common equity was sold, or the average bid and asked price of such common equity, as of July 15, 2014: $3,100,000.00.
+
+
+As of July 15, 2014, 46,727,250 shares of the registrant's common stock were outstanding.
+ 
+
+
+
+
+
+
+REASON FOR AMENDMENT
+
+
+The sole purpose of this Amendment to the Registrant’s Annual Report on Form 10-K for the year ended March 31, 2014 is to furnish the Interactive Data File exhibits pursuant to Rule 405 of Regulation S-T. No other significant changes have been made to this Form 10-K and this Amendment has not been updated to reflect events occurring subsequent to the filing of this Form 10-K.
+
+
+
+
+TABLE OF CONTENTS
+
+
+ 
+	
+Page
+
+
+ 
+	
+ 
+	
+ 
+
+
+ 
+	
+PART I
+	
+ 
+
+
+ 
+	
+ 
+	
+ 
+
+
+Item 1.
+	
+Business.
+	
+3
+
+
+Item 1A.
+	
+Risk Factors.
+	
+19
+
+
+Item 1B.
+	
+Unresolved Staff Comments.
+	
+19
+
+
+Item 2.
+	
+Properties.
+	
+20
+
+
+Item 3.
+	
+Legal Proceedings.
+	
+20
+
+
+Item 4.
+	
+Mine Safety Disclosures.
+	
+20
+
+
+ 
+	
+ 
+	
+ 
+
+
+ 
+	
+PART II
+	
+ 
+
+
+ 
+	
+ 
+	
+ 
+
+
+Item 5.
+	
+Market for Our Common Equity, Related Stockholder Matters and Issuer Purchases of
+Equity Securities.
+	
+20
+
+
+Item 6.
+	
+Selected Financial Data.
+	
+22
+
+
+Item 7.
+	
+Management's Discussion and Analysis of Financial Condition and Results of Operation.
+	
+22
+
+
+Item 7A.
+	
+Quantitative and Qualitative Disclosures About Market Risk.
+	
+24
+
+
+Item 8.
+	
+Financial Statements and Supplementary Data.
+	
+24
+
+
+Item 9.
+	
+Changes in and Disagreements With Accountants on Accounting and Financial
+Disclosure.
+	
+38
+
+
+Item 9A.
+	
+Controls and Procedures.
+	
+38
+
+
+Item 9B.
+	
+Other Information.
+	
+39
+
+
+ 
+	
+ 
+	
+ 
+
+
+ 
+	
+PART III
+	
+ 
+
+
+ 
+	
+ 
+	
+ 
+
+
+Item 10.
+	
+Directors, Executive Officers and Corporate Governance.
+	
+40
+
+
+Item 11.
+	
+Executive Compensation.
+	
+43
+
+
+Item 12.
+	
+Security Ownership of Certain Beneficial Owners and Management and Related
+Stockholder Matters.
+	
+46
+
+
+Item 13.
+	
+Certain Relationships and Related Transactions, and Director Independence.
+	
+47
+
+
+Item 14.
+	
+Principal Accountant Fees and Services.
+	
+47
+
+
+ 
+	
+ 
+	
+ 
+
+
+ 
+	
+PART IV
+	
+ 
+
+
+ 
+	
+ 
+	
+ 
+
+
+Item 15.
+	
+Exhibits and Financial Statement Schedules.
+	
+48
+
+
+ 
+	
+ 
+	
+ 
+
+
+Signatures
+	
+50
+
+
+ 
+	
+ 
+
+
+Exhibit Index
+	
+51
+
+
+
+
+
+
+
+
+
+
+Page 2 of 52
+ 
+
+
+PART I
+
+
+ITEM 1.                          BUSINESS.
+
+
+Forward Looking Statement
+
+
+This report contains forward-looking statements, which reflect, among other things, management's expectations regarding the Company's future growth, results of operations, performance and business prospects and opportunities. The use of any of the words "anticipate", "continue", "estimate", "expect", "may", "will", "project", "should", "believe" and similar expressions are intended to identify forward-looking statements. These statements involve known and unknown risks, uncertainties and other factors that may cause actual results or events to differ materially from those anticipated in such forward-looking statements. The Company believes that the expectations reflected in these forward-looking statements are based on reasonable assumptions but no assurance can be given that these expectations will prove to be correct and the forward-looking statements included in this report should not be unduly relied upon. These statements speak only as of the date of this report and save and except as required under applicable securities legislation the Company assumes no obligation to update or revise them to reflect new events or circumstances.
+
+
+General
+
+
+Silver Stream Mining Corp. ("we", "our", "us", "Silver Stream," or "the Company"), formerly known as W.S. Industries, Inc. was incorporated in the State of Nevada on April 5, 2004, for the purpose of providing consulting services to businesses, and engaging in any other lawful activity. The Company's principal address is 9550 South Eastern Avenue, Suite 253, Las Vegas, NV 89123.
+
+
+The Merger
+
+
+On April 22, 2013, we (as W.S. Industries) entered into an Agreement and Plan of Merger (the "Merger Agreement") by and among W.S. Industries, W.S. Merger Corp., a Nevada company and a wholly owned subsidiary of W.S. Industries ("Merger Sub"), Rio Plata Exploration Corporation, a company organized pursuant to the laws of the Province of British Columbia, Canada (the "Rio Plata"), and certain holders (the "WS Debt Holders") of debt of W.S. Industries (the "WS Debt"), pursuant to which, at the effective time of the merger on May 14, 2013, the WS Debt Holders sold their WS Debt to certain purchasers, who converted such debt into an aggregate of 5,000,000 shares of W.S. Industries, and Merger Sub was merged with and into Rio Plata (the "Merger"). Merger Sub remained as the surviving entity in the Merger and succeeded to all of the assets, liabilities and operations of Rio Plata, and Rio Plata effectively became a wholly owned operating subsidiary of W.S. Industries. Shareholders of Rio Plata exchanged their shares of Rio Plata for an aggregate of 28,000,000 shares of W.S. Industries under the Merger, including holders of short-term debt of Rio Plata that converted their debt into shares of Rio Plata prior to the effective time of the Merger.
+
+
+The Merger constituted a change in control of W.S. Industries and, accordingly, was accounted for as a "reverse merger" with the Corporation treated as the acquiring entity and operating company for accounting purposes. Merger Sub was subsequently merged with and into W.S. Industries in August 2013, with W.S. Industries as the surviving entity which succeeded to all of the assets, liabilities and operations of Rio Plata, effectively making Rio Plata the public entity.  At that time, the name of W.S. Industries was changed to Silver Stream Mining Corp.
+
+
+Our Business
+
+
+We are a junior natural resource company engaged in the business of the acquisition and exploration of mineral resource properties.  Our primary interest currently is in a property located in the State of Sinaloa, Mexico known as the "Metates Property". We have also recently purchased an option to acquire an interest in a property located in Beardmore, Ontario, Canada known as the "Solomon Pillars Gold Property"; entered into an agreement with Redstone Resources Corporation regarding the Zonia Copper Project in Yavapai County, Arizona; and entered into an agreement with Placer Mining Corporation regarding the Bunker Hill Mine, near Kellogg, Idaho. We have conducted limited exploration work on our properties. See "Risk Factors" below.
+
+
+
+
+Page 3 of 52
+ 
+
+
+
+
+Metates Property
+
+
+Our primary property is the Metates Property located approximately 110 kilometers NW of the city of Mazatlan, Municipality of Mazatlan, in the State of Sinaloa, Mexico. The Metates Property is in the exploration stage and is currently without a known body of commercial minerals. Additional exploration activity is required on the Metates Property to determine if there are any commercial amounts of minerals extractable from the property.
+
+
+The Metates Property consists of a group of exploration concessions with a total area of 15,789 hectares (ha).  These concessions were acquired in three groups.  The initial block was composed of seven concessions with a total area of 942 ha, which we secured through our wholly owned subsidiary Real de Plata in 2010 from the property owner by way of an option under an exploration contract.  In 2010, we acquired an additional group of 6 concessions with a total area of 5056.5 ha from the property owner by way of an assignment of the applications made for the concessions (subsequently approved and obtained) in consideration for a royalty.  In 2012, we applied for and acquired the adjacent La Gloria concession of 9791 ha.
+
+
+Our wholly owned subsidiary, Real de Plata, entered into an exploration contract in August 2010 with the Metates Property owner pursuant to which we were granted (i) the option to purchase a 100% interest in the initial seven mineral exploration concessions (and related assets) and (ii) the right to explore the property.
+
+
+Under the terms of the exploration contract, the initial seven mineral exploration concessions (and related assets) were to be transferred to us over a 49 month period through a series of staged payments totaling US$6,100,000.  On May 9, 2013, we and the property owner entered into a letter of intent pursuant to which we could acquire a full interest in the property concessions upon the payment of US$450,000 on July 15, 2013 and a further US$2,000,000 on January 15, 2014, which would supersede amounts due under the original contract; otherwise, the payment terms under the original agreement would apply. However, due to the current downturn in the mining industry, we have not made any payments under the letter of intent and are currently in the process of renegotiating the payments under the exploration contract.
+
+
+Depending on the results of the renegotiation, our focus with respect to exploration of the Metates Property will be on the initial seven mineral exploration concessions, or exploring the potential of our concessions outside of the initial seven mineral exploration concessions.
+
+
+We will require significant financing to pursue our exploration plans. While we are currently in discussions with third parties regarding financing for our company, there can be no assurance that we will obtain any additional financing, on terms acceptable to us or at all. In the event we are unable to obtain the required financing, we may be required to curtail our plans or may not be able to pursue our plans altogether until we obtain additional funds and our business may fail. See "Risk Factors".
+
+
+Metates Property Description and Location
+
+
+Location
+
+
+The Metates property is located approximately 110 kilometers northeast of the city of Mazatlan, State of Sinaloa, Mexico. The figure below shows the location of the property relative to other projects and cities in Mexico.  The center of the property is at a latitude/longitude of 23 44'1.7" North and 106 00'43.9" West.  Driving time to the property from Mazatlan is approximately 5 hours.  The initial portion of the road is a paved highway which extends as far as the town of La Noria. From there, the road gradually declines in quality from a fairly well maintained dirt road to a very poorly maintained dirt road as the property is approached.
+
+
+
+
+
+
+
+
+
+
+
+
+Page 4 of 52
+ 
+
+
+
+
+
+
+Index Map showing location of Rio Plata's Metates project in Mexico (2010)
+
+
+The Metates Property is in the exploration stage and is currently without a known body of commercial minerals. Additional exploration activity is required on the Metates Property to determine if there are any commercial amounts of minerals extractable from the property.
+
+
+Property Concessions
+
+
+The exploration and exploitation of minerals and substances in Mexico is subject to the Mexican Mining Law and may only be carried out in Mexico by Mexican citizens, or Mexican companies incorporated under Mexican laws, by means of obtaining mining concessions. However, foreign investment participation in Mexican mining companies is currently allowed up to 100%.  Mining concessions are granted by the Mexican federal government through the Ministry of Economy for a period of fifty (50) years from the date of their recording in the Public Registry of Mining and are renewable if they are in compliance with the Mexican Mining Law.  We own our interests at the Metates property through our wholly owned Mexican subsidiary, Real de Plata, and pursuant to the agreements outlined below.
+
+
+The Metates Property consists of a group of exploration concessions with a total area of 15,789 ha.  These concessions were acquired in three groups.  The initial block was composed of seven concessions with a total area of 942 ha, which we secured through our wholly owned subsidiary Real de Plata in 2010 from the property owner by way of an option.  In 2010, we acquired an additional group of 6 concessions with a total area of 5056.5 ha from the property owner by way of an assignment of applications for the claims made by the property owner.  In 2012, we applied for and acquired the adjacent La Gloria concession of 9791 ha.  Concession data is listed in the table below.
+
+
+Metates Concession Data
+Group
+	
+Concession Name
+	
+Title Number
+	
+Area (ha)
+	
+Valid until
+
+
+ 
+	
+ 
+	
+ 
+	
+ 
+	
+ 
+
+
+Hernandez
+	
+La Nueva Luz
+	
+185315
+	
+40.0000
+	
+Dec-13-2039
+
+
+ 
+	
+Ampl. La Nueva Luz
+	
+222628
+	
+71.2714
+	
+Jul-29-2054
+
+
+ 
+	
+Ampl. La Nueva Luz 2
+	
+225906
+	
+96.0000
+	
+Nov-03-2055
+
+
+ 
+	
+La Luz
+	
+231253
+	
+62.7286
+	
+Feb-06-2058
+
+
+ 
+	
+Las Habitas
+	
+231354
+	
+200.0000
+	
+Feb-06-2058
+
+
+ 
+	
+Arroyo Verde
+	
+231355
+	
+400.0000
+	
+Feb-06-2058
+
+
+ 
+	
+Habitas 1
+	
+231357
+	
+200.0000
+	
+Feb-06-2058
+Page 5 of 52
+ 
+
+
+
+
+Rio Plata 2010
+	
+Los Panales
+	
+232018
+	
+90.0000
+	
+Jun-02-2058
+
+
+ 
+	
+Metates
+	
+232100
+	
+20.0000
+	
+Jun-19-2058
+
+
+ 
+	
+Metates 2
+	
+232127
+	
+4000.4470
+	
+Jun-19-2058
+
+
+ 
+	
+Amp. Arroyo Verde
+	
+232137
+	
+300.0000
+	
+Jun-23-2058
+
+
+ 
+	
+El Magistral
+	
+232138
+	
+400.0000
+	
+Jun-23-2058
+
+
+ 
+	
+El Cerro Prieto 2
+	
+232139
+	
+246.0000
+	
+Jun-23-2058
+
+
+ 
+	
+ 
+	
+ 
+	
+ 
+	
+ 
+
+
+Rio Plata 2012
+	
+La Gloria
+	
+E-95/14473
+	
+9791.0000
+	
+April-08-2052
+
+
+To keep our mineral concessions in good standing with the Government of Mexico, we must pay yearly property taxes. These taxes are based on a tariff per hectare and per the number of years (maturity) of each concession. The taxes are paid twice a year by us. We paid $21,298 in 2010, $9,321 in 2011, $15,553 in 2012 and $20,672 in 2013 in taxes for the concessions. We believe we are in compliance with all of our tax payments to the government as at March 31, 2014.
+
+
+Metates Exploration Contract
+
+
+Our wholly owned subsidiary, Real de Plata, has entered into an Exploration Contract and Unilateral Promise of Sale dated August 26, 2010 (the "Exploration Contract") with Manuel de Jesus Hernandez Tovar (the "Optionor") pursuant to which we were granted (i) the option (the "Option") to purchase a 100% interest in seven mineral exploration concessions which comprise part of the Metates Property (the "Concessions"), as well as certain lands the Optionor controls as part of a local communal's (Ejido) land holdings, certain mineral processing assets (the "Assets") located on the Metates Property which we do not consider to be material to our future operations, and all available data, and (ii) the right to explore the property. The Concessions are more particularly described above.
+
+
+Pursuant to the terms of the Exploration Contract, Real de Plata has the Option to purchase the Concessions for the price of US$6,100,000 (the "Purchase Price") payable over a period of 49 months, of which US$750,000 has been paid to date. On May 9, 2013, the Company and Optionor entered into a letter of intent pursuant to which we can acquire a full interest in the Concessions upon the payment of US$450,000 on July 15, 2013 and a further payment of US$2,000,000 on January 15, 2014, which would supersede amounts due under the original contract, otherwise the payment terms under the original agreement would apply. However, due to the current downturn in the mining industry, we have not made any payments under the letter of intent and are currently in the process of renegotiating the payments under the Exploration Contract.
+
+
+Depending on the results of the renegotiation, our focus with respect to exploration of the Metates Property will be on the initial seven mineral exploration concessions, or exploring the potential of our concessions outside of the initial seven mineral exploration concessions. We will require significant financing to pursue our exploration plans. While we are currently in discussions with third parties regarding financing for our company, there can be no assurance that we will obtain any additional financing, on terms acceptable to us or at all. In the event we are unable to obtain the required financing, we may be required to curtail our plans or may not be able to pursue our plans altogether until we obtain additional funds and our business may fail. See "Risk Factors".
+
+
+Payment of the Purchase Price or any portion thereof is optional.  Real de Plata is entitled to terminate the Exploration Contract at any time, but in such event, any payments on account of the Purchase Price made prior to the date of termination are non-refundable.
+
+
+In addition to the payment of the Purchase Price, the Optionor is also entitled to receive a net smelter royalty of 0.33% on the minerals extracted and recovered from the Concessions.
+
+
+The Exploration Contract also includes an area of interest provision which, on election by Real de Plata, requires that the Optionor transfer to Real de Plata any mining concessions or applications for mining concessions acquired by the Optionor within an area of five (5) kilometers from the external perimeter of each of the Concessions.  In such event, Real de Plata is required to pay to the Optionor the sum of US$100 for each mining concession or application for mining concession acquired by the Optionor.  In addition, prior to the exercise of the Option, the Exploration Contract provides Real de Plata the right to access the Metates Property and the surface lands, and to explore for and exploit any minerals located on the Metates Property.
+
+
+
+
+Page 6 of 52
+ 
+
+
+
+
+Pursuant to the Exploration Contract, Real de Plata has agreed to: (i) conduct all exploration and, if applicable, exploitation operations in a careful and miner-like manner and in compliance with all laws and regulations applicable to the Metates Property; (ii) prepare and submit all required reports on exploration work and, if applicable, exploitation work, and pay all applicable duties, taxes and other charges required to maintain the Concessions in good standing with applicable governmental authorities; (iii) use its best efforts to prevent access to the Concessions by third parties, other than authorized employees and contractors; and (iv) assume all responsibility for the activities undertaken by it and its employees and contractors on the Concessions.
+
+
+The Exploration Contract will terminate: (i) at any time during the term of the Exploration Contract by Real de Plata giving 15 days notice to the Optionor; or (ii) upon election of a party if the other party is in breach of any of its obligations under the Exploration Contract and the default has not been cured by the defaulting party within 30 days of notice of default.
+
+
+Assignment of Applications for Concessions
+
+
+The Optionor and Real de Plata also entered into an Assignment of Mining Rights Contract dated August 27, 2010 (the "Assignment") pursuant to which the Optionor assigned to the Corporation its interests in applications for six new mineral exploration concessions at the Metates Property (subsequently approved and received).  In consideration for the assignment, Real de Plata granted the Optionor a 0.33% net smelter royalty on the minerals extracted and recovered from these mining concessions.
+
+
+Asset Operation Contract
+
+
+Further to the Exploration Contract, the Optionor and Real de Plata also entered into an Asset Operation Contract dated August 27, 2010 (the "Asset Operation Contract") pursuant to which the Optionor has the right to use an older 50 ton per day processing mill to process any materials that have already been mined prior to the date of the agreement. There are about 500 tons of materials mined previous to the date of the Asset Operation Contract that are stockpiled on the property. Previously mined materials may have been extracted from the Metates property or nearby mines at any time over the previous 130 years and are piled at various places near the old mine workings. These materials are both oxidized mineralization as well as unoxidized mineralization discarded by earlier miners. Once these materials have been processed, the Asset Operation Contract shall be deemed to have terminated, and Real de Plata shall have full control over the use and operation of the mill during the term of the Exploration Contract.
+
+
+Real de Plata has the right to explore the Metates Property under the Exploration Contract, and we do not consider the mill to be material to our future operations.  The benefit to the Company of the mill is in data collection from the samples processed at the mill.
+
+
+During the term of the Asset Operation Contract, in the event any minerals processed through the mill by the Optionor are sold, Real de Plata is entitled to receive from the Optionor a 20% participation in the net returns, before taxes, realized from the sale of such minerals by the Optionor (separate and apart from any smelter returns to Real de Plata under the Exploration Contract). The Optionor is solely responsible for all activities undertaken by him and his employees and contractors in connection with the use of the mill, including all expenses incurred by any of them, and has agreed to indemnify and hold Real de Plata harmless against all losses and damages that may be suffered by Real de Plata as a result of the Optionor's operation of the mill.
+
+
+Since entering into the Asset Operation Contract, the Optionee has not in any material respect employed the mill to process minerals and, accordingly, Real de Plata has received no payments from the Optionor on account of its 20% participation interest in net returns from mineral processing activities.  Management does not anticipate that any such payments will be made to it in the near future.
+
+
+Environmental Factors
+
+
+Surface disturbance and potential environmental issues are controlled by the Mexican government agency SEMARNAT.  The current situation appears to be properly permitted.  The construction of new access roads and drill sites will require additional permitting.
+
+
+
+
+Page 7 of 52
+ 
+
+
+
+
+It is possible, but unlikely, that some unforeseen environmental problem, endangered species or important archaeological feature will be discovered.  This could potentially delay the exploration program.  Such obstacles can nearly always be overcome through cooperation with the regulatory agency, for example by making a detour of a proposed road to avoid an archeological site.
+
+
+Accessibility, Climate, Local Resources, Infrastructure, and Physiography
+
+
+The Metates project area is 107 kilometers northeast of Mazatlan in the Mexican state of Sinaloa, near the Durango border, at an elevation of approximately 1180 meters above sea level.  The quality, width and capacity of the access roads decrease as the property is approached.  Currently the last 21 kilometers of road beyond the small town of Tecomate is gravel, is 3 meters wide, and has a 10 ton capacity.  There are many stream crossings along this part of the road and most of these use fords rather than bridges.  During the July-August rainy season, some of the crossings will be impassible for short terms.  On the property itself, the roads can be used year-round as there are no significant stream crossings.  Normal 4-wheel drive vehicles can use all the roads most of the year, but trucks moving heavier loads will find access more difficult.  For larger exploration programs or supplying a mine of any significant size, these roads will require substantial improvement.  The Mexican government says it intends to improve the roads, but progress will be slow.
+
+
+Situated on the southwest-facing slope of the Sierra Madre Occidental, the property has a climate strongly depending on the up-slope weather conditions and the general southwest to northeast trending winds.  Slopes are generally quite steep with sparse outcrops in strongly weathered soils.  Much of the year the amount of moisture is moderate, but sufficient to support a dense scrubby forest of deciduous trees and shrubs.  Areas of evergreen timber large enough to support logging are also present nearby in higher elevations, but not on the property itself.  The weather sharply defines the difference between the summer rainy season and the rest of the year.  From October to June rainfall averages about 25mm per month, but in July to September rainfall averages 190 mm per month.  Temperatures from October to June average a high of 26 degrees C and a low of 16 degrees C.  In July to September temperatures average a high of 33 degrees C and a low of 25 degrees C.  Weather conditions severe enough to halt mining operations would be rare, probably confined to stream flooding during occasional heavy summer rains.
+
+
+The area within 25 kilometers of the mine portal is sparsely populated, largely by subsistence farmers and herders.  A few of the nearby people have some experience working small mines such as that at Metates.  Larger scale logistical support and mining personnel would have to come from the Mazatlan area.  Mazatlan is a seaport and has good railroad and airline service.
+
+
+The current property is sufficiently large to contain space for mining and processing operations.  The immediate area of the current mill has very limited room for the fabrication of a larger scale mine.  The small current mill tailings pond is nearly full.  Other areas could be expanded, but this would require substantial earthworks due to the generally steep topography.
+
+
+The figure below shows the access route to the property from the city of Mazatlan (in yellow).
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Page 8 of 52
+ 
+
+
+
+
+Metates property access map. A map of a portion of the Mexican State of Sinaloa showing road access to the Metates property from Mazatlan, Sinaloa, Mexico. February 10, 2014.
+
+
+
+
+Page 9 of 52
+ 
+
+
+Water for processing of the minerals is a major concern.  In Mexico the government controls the surface water rights.  The current water supply is a pipeline carrying water from springs several kilometers away.  For a larger operation a much larger water supply would be needed.
+
+
+It will be necessary to generate electrical power on site, as it is 20 kilometers by road to the nearest power line. Current environmental liabilities are limited to the very small tailings pond located at the small mill that was working over the past several years.
+
+
+Much of the surface area of the Metates concessions is part of a local communal land-holding group called an Ejido.  Agreements must also be made with this group for surface access.  The Optionor is a member of this group and should have sufficient influence to smooth the process.  However, it will be very important to maintain a good working relationship with the local Ejido.
+
+
+There are two significant factors or risks that may affect access, title or the right or ability to perform work on the property.  The first of these is the hazardous situation caused by the conflicts among the two drug cartels active in the area and the military.  The second is a result of the remote location and the poor road access, especially in the rainy season.
+
+
+Metates History
+
+
+District History
+
+
+There are very few records of the mining history of the local area.  Most of what is known was derived from the history of nearby areas, local oral histories and amateur archaeology.  It is known that the Spanish were in Sinaloa as early as 1530 and were mining in Alamos (Sonora) shortly thereafter.  In the Tayoltita district, approximately 40 km to the northeast of Metates, the Spanish were operating mines by the mid 1700's (Conrad and Peterson, 1992).  This period ended in 1810 due to the Mexican War of independence and only smaller scale operations continued until the 1880's.  At that time, American and British companies became very active in this part of Mexico and mines were opened (or re-opened) in many districts and operated until about 1910.  Most foreign mining companies left Mexico during the Revolution beginning in 1910, and mining became a small scale local enterprise again in many places, often until the 1940's.
+
+
+Discussions with village elders in the Metates area confirmed that, in a general sense, the same scenario happened locally.  There were small scale mining operations in the area "for a long time" before the 1880's, but there are no written records, only vague oral histories.  The local mines operated until the Revolution.  The time of the Mexican Revolution and afterward was "a very bad time" and only local very small scale mining was done.
+
+
+The villagers were able to show the Company's personnel the sites of mills from the 1880's (a plate on an old steam engine had 1880's dates and other artifacts from that era were noted) and a few workings that appeared to be older than that time, including the Polonia shaft, now filled with water.  This supports the idea that at least some smaller scale mining operations took place before 1880, and that larger scale and more organized mining was done until the Revolution in 1910.  The workings on the four levels of the Metates mine were mined during that time period.  There was very little mining activity between 1910 and 1945.
+
+
+There was said to be a small amount of minerals extracted during the late 1940's when a small airstrip (now overgrown) was built, but there are no records available.  In the early 1980's a former owner gained control of the Metates property and operated it sporadically until 2010.  His group roughly mapped and sampled the workings and mined pillars, some low grade minerals and the better grade mine dumps.  Some of his mapping was made available to the Company.  He also built and operated the 50 tons per day processing plant which is currently on the property.  Extraction records are not available.
+
+
+The Optionor acquired the property from the former owner in 2010.  His group has made sporadic processing runs in the processing plant using lower grade material that had already been mined, such as stockpiles and waste dumps.  An agreement with the Corporation allows him to continue this small scale processing if he desires, until this material is exhausted or the contract expires.
+
+
+There are no resource estimates that comply with the standards of the SEC, historical or current, and no available records of extraction from the property.
+
+
+
+
+Page 10 of 52
+ 
+
+
+
+
+Surface Disturbances
+
+
+Previous mining activities on the Metates property have left a number of adits and shafts on the property. Many of these workings have small waste piles associated with them. As well, there is a sparse network of roads that connects some adits of the Metates mine.
+
+
+The largest disturbance on the property is a deeply eroded tailings pile that exists just downslope from the old mill on the property. It is unknown when the bulk of these tailings were produced, but a small amount was produced by recent processing that was done at the existing mill. The tailings lie in a steep canyon and are deeply eroded. It is unlikely that any of these tailings were produced during the main period of mining on the property, 1880 â€“ 1910.
+
+
+The only other notable disturbance on the property is in the camp area, where approximately one-half (1/2) of a hectare has been disturbed to build dormitory, office and cantina facilities. This area appears to have been used for many years.
+
+
+The only disturbance that appears to present an environmental liability is the old tailings pile. To date, no governmental agency has identified it as such, but this could happen if advancement of the property proceeds.
+
+
+Currently, the company has no plans for remediation of the site. Any such plans that would be made in the future would be dependent of the recommendations of SEMARNAT, the Mexican government agency charged with environmental protection.
+
+
+As no groundwater investigations have been done on the property, it is unknown as to whether or not past activities there have impacted groundwater quality.
+
+
+Metates Geologic Setting and Mineralization
+
+
+Regional Geology
+
+
+The Metates property is located in the west central part of the Sierra Madre Occidental, which is a very large northwest trending slightly domed volcanic plateau composed predominantly of Tertiary volcanic rocks. Areas of extensional faulting occur on both the east and west, which Sedlock, et. al. (1993), called the eastern and western Mexican Basin and Range provinces. The Sierra Madre Occidental is composed primarily of two sequences of Tertiary volcanic rocks overlying a basement consisting largely of a variety of Mesozoic intrusive and Paleozoic sedimentary rocks (Salas, 1991). The basement rocks are locally exposed in deeply incised canyons.
+
+
+The Tertiary volcanics are grouped into two thick sequences. The Lower Volcanic Group (LVG) is composed of over 2000 meters of predominantly andesitic volcanic rocks; inter-layered ash flows, widespread mudflows (lahars) and related hypabyssal intrusions, and is latest Cretaceous to early Tertiary in age. Nearly all of the productive base and precious metals veins found to date in the Sierra Madre Occidental are hosted within the LVG, including those of the Metates Project.
+
+
+The Upper Volcanic Group (UVG) is over a kilometer thick, nearly flat-lying and unconformably overlies the Lower Volcanic sequence.  The UVG is composed largely of rhyolite to rhyodacite ash-flow tuffs, flows and domes, with minor andesite and basalt, which were deposited by a series of caldera eruptions during the Eocene and Oligocene.
+
+
+Only a minor percentage of productive veins have been found in the lower portions of the UVG. Some altered rhyolitic intrusive bodies, often associated with mineralization, may be related to early phases of the upper sequence. Later Miocene basaltic andesites and basalts locally overly the upper sequence (Salas, 1991).  Intrusive activity in the western portion of the Sierra Madre Occidental has been dated continuously from 102 to 43 million years.
+
+
+It has been recognized that precious and base metal veins formed in the Sierra Madre Occidental volcanic province in three distinct periods, in response to differing styles of tectonic deformation.  For example, veins of the early Tertiary trend east-west and are localized in openings produced by horizontal offsets. Veins formed during the mid-Tertiary (35 to 25 million years ago), occur in weak fractures and are small and erratic. Veins formed during the Miocene occur in normal faults, low-angle gravity structures, and regional strike-slip faults. During the early Tertiary, this deformation resulted from east-west compression, whereas later on, in the Miocene, it was a result of extension. Many of the Miocene veins are of regional extent and have been spectacular producers (Dreier, J., 1984). However, this is not to suggest that the Miocene structures are preferred exploration targets. Deposits formed in earlier Tertiary structures, such as at Tayoltita, which is about 40 m northeast of Metates, have been impressive producers.
+Page 11 of 52
+ 
+
+
+
+
+Project Geology
+
+
+The geology in the Metates area is relatively simple in general.  The rock units are primarily a series of andesitic flows and laharic tuffs of the LVG.  There is a distinctive thinly bedded tuff in the main mine area and a small area of basaltic rocks 500 meters to the southwest.  There is also a small area of intrusive diorite in the south near the town of Nacimiento.  The principal veins trend north-south and there are a few cross-cutting veins with a northwest-southeast trend.  Exposures are generally poor due to the thick scrub brush and weathering.  There has been only a limited amount of geologic mapping, due to the steep terrain and this undergrowth.
+
+
+The veins that have been located on the Metates property are nearly all hosted in andesitic volcanic rocks of the LVG and appear to occupy northerly trending, normal fault structures and lesser northwest-southeast trending structures.  The Metates vein itself strikes approximately 5 to 20 degrees east of north, dips steeply to the east and extends at least 650 meters along strike.  Movement on the vein structure appears to have been largely vertical with at least some right lateral movement which caused the curved shapes and vein splits seen in levels 2 and 3.  Past extraction appears to have been largely from Levels 2, 3 and 4.
+
+
+The nearby Cheto vein strikes about N40W and is projected to intersect the Metates vein a short distance east of the Level 1 mine portal.  In this right lateral system of movement, it would also have experienced right lateral and vertical movement.  The only known workings on the Cheto vein are old trenches, pits and very shallow exploration shafts.
+
+
+Other old workings re-discovered by the Company in the area are the Parota shaft and Crucero workings (probably dating from the1880-1910 mining period) located 0.5 km southwest of the Metates mill site, near the old Metates town site.  Both have collapsed workings and water-filled shafts.  The Polonio shaft is potentially the pre-1880's shaft noted in the History section of this report and is located an additional 600 meters southwest of the Parota shaft.  Both are filled with water and inaccessible.  To the north approximately 1.8 to 2 kilometers are the old (possibly 1880-1910 era) workings named Rosa Amarilla, Tancudos and Las Palomas.  These inaccessible old workings exploit quartz veins with the same strike as the Metates Vein and may be established among the same structure, or possibly a parallel one.  They are located near the old Manzanillo townsite, now abandoned.
+
+
+Metates Mineralization
+
+
+Only the Metates vein mineralization has been studied in any detail.  In general it is in a fault zone which hosts an epithermal quartz vein and siliceous hydrothermal breccia system.  The quartz often displays cockade or comb structures indicating its lower temperature environment of deposition.  Locally noted is quartz replacement of bladed calcite crystals, which is indicative of being within the boiling zone of the system when it was precipitated, which is also where the precious metals are deposited in such systems.
+
+
+Gold and silver may occur as electrum at Metates.  The veins exposed in the workings are thoroughly oxidized with only the un-oxidized material remaining un-mined.  Minor amounts of chalcopyrite, pyrite, galena and sphalerite were noted in a petrographic examination of samples. However, the small amount of sulfides seen in those samples are likely due to the strong oxidation of the sampled materials. Samples of sulfide portions of the vein, collected in the lower, mixed oxide-sulfide part of the vein exposed in the lower workings at Metates, show 20 â€“ 25% sulfide content; consisting primarily of galena and sphalerite, with accessory chalcopyrite and acanthite. Samples also showed evidence of multiple stages of brecciation and re-cementation, both of which are common in such systems.
+
+
+It is important to note that during the periods in which most of the past mining occurred, the miners were only able to process oxidized minerals.  The patio process was used, in which minerals were crushed in a stamp mill to a sand size, mixed with salt, copper sulfate and then ground in an arrastre, several of which have been found in the Metates area.  The salt and copper sulfate released the silver and gold from the minerals and mercury was subsequently added to the minerals to recover the precious metals by amalgamation.  The amalgam was then retorted to recover the precious metals.
+
+
+It is currently unknown how much oxidized minerals are left within the workings, but sulfide or non-oxidized minerals were left in the ground by necessity.  In silver-gold systems such as this one, weathering and oxidation released some of the precious metals into solution, and they were re-deposited near the top of the sulfide zone, just below the water table.  This material could be substantially higher grade than the oxidized material.  It may be present over a vertical range of 100 meters or more (or possibly less).  The potential for such a supergene enriched zone is untested at Metates.
+
+
+Page 12 of 52
+ 
+
+
+
+
+Deposit Types
+
+
+General Deposit Model (after Geological Survey of Japan, 2011)
+
+
+The principal deposit type likely to be present at Metates is an epithermal vein deposit.  Such deposits are very common in similar settings, as close by as the Tayoltita area less than 40 kilometers to the northeast, and throughout the Sierra Madre Occidental range of Mexico.  These systems form largely in volcano-plutonic arcs associated with subduction zones, with ages similar to those of the volcanism. The deposits generally form at shallow depths, less than 1 kilometer, and are hosted mainly by volcanic rocks.  The fluids responsible for the formation of such epithermal deposits originate in hydrothermal systems related to volcanic activity.  Boiling of liquid in this environment leads to precipitation of gold and silver in veins, accompanied by a variety of typical features such as adularia and bladed calcite cementing colloform and brecciated quartz.  There are multiple generations of quartz deposition within individual veins and adjacent stockwork zones.
+
+
+Typical observable characteristics of epithermal vein type gold-silver deposits are:
+
+
+1.
+	
+Open space vein textures dominant, stockwork minerals common, disseminated and replacement minerals minor.
+2.
+	
+Vein textures - cavity fillings, colloform banding, druses, multi-stage breccias.
+3.
+	
+Minerals include electrum, gold, pyrite, sphalerite, galena, chalcopyrite, cinnabar
+4.
+	
+Gangue minerals include:  quartz, chalcedony, calcite, adularia, carbonates, illite.
+5.
+	
+Metals include:  gold, silver, zinc, lead, copper, antimony, arsenic, mercury.
+
+
+Metates Exploration
+
+
+Prior Mapping, Sampling and Drilling
+
+
+There is virtually no available information about work done on the Metates property from the time before the former owner started working there in the early 1980's.  Some of his mapping of the mine workings and limited sampling data were made available to the Corporation.  However details of sample collection or quality control procedures are unknown.  So sample collection and assay data are informative, but not useful in any resource estimation.  The current property holder has been processing mine dumps and stockpiles, so any assay data that he could provide would not be relevant to increasing the knowledge of the distribution of mineralization in the Metates underground workings.  The former owner was able to guide the Corporation personnel to several other old workings in the vicinity of the Metates mine.
+
+
+There was no recorded drilling at Metates before the Corporation acquired the property.
+
+
+Silver Stream Exploration, 2007-2013
+
+
+Through our Mexican subsidiary Real de Plata, SA de CV, we became interested in the property late in 2007 and commissioned a review of the project geology and mine workings and a detailed review of the existing processing plant.  Both reports were completed in January 2008.
+
+
+The preliminary field work by Real de Plata was summarized in a Technical Report by Richard Munroe dated November 10, 2008.  As part of this due diligence effort, the accessible portions of the workings were cleaned, ladders were replaced and winzes and minerals passes were covered to allow safe access.  Levels 2, 3 and 4 were quickly mapped with a Brunton compass and tape.  A few samples were collected in the workings to confirm analyses reported.  However, sampling procedures and quality control procedures were not documented.  Interviews were done with local elders regarding other old workings.  Several of those were visited, and their locations were marked by GPS coordinates.  Several initial rock chip samples were collected from these old pits, trenches, adits and mine dumps to initially characterize the mineralization.  Again, there is little documentation.  Petrographic work was done on a few samples as well.
+
+
+Real de Plata completed negotiations with the former concession holder in 2008.  The Optionor gained control of the property early in 2010, and the agreements were re-written in his name.  According to a report by Richard Munroe dated November 27, 2010, very little additional work had been done between 2008 and November 2010 by Real de Plata.  After the new agreements with the Optionor were signed in November 2010, Real de Plata was free to do additional work.
+
+
+
+
+Page 13 of 52
+ 
+
+
+
+
+The most recent work done by the Company started in March 2012, with the objective of demonstrating the potential for minerals discovery and continuing the initial exploration at other prospects.  This work included:
+
+
+1.
+	
+Survey of the Metates mine levels and accessible stopes with a total station.
+2.
+	
+Collection of 191 chip-channel samples from the Metates Vein and its hanging wall and foot wall rocks (see comments on procedures and documentation below).
+3.
+	
+Survey and sampling of adit portals in the Manzanillo area 2 km to the north.
+4.
+	
+Incomplete but widespread surface reconnaissance sampling of exposures of veins, alteration and other old mine workings.
+5.
+	
+Construction of a modern, 4-room dormitory and a small office near the No. 1 adit of the Metates mine.
+
+
+Metates Mine Sampling
+
+
+The channel sampling in the Metates Mine workings was reviewed by the Company's consultant Douglas Wood in June 2013.  He observed that many sample "channels" were really only chip-channel samples that were only a few inches wide and very shallow, barely scraping the rock surface â€“ certainly not 25 cm wide and several cm deep, as reported in the 2013 Technical Report.  The samples were taken with little regard to vein-wallrock contacts, thus greatly diluting what may have been called vein samples.  In his 2013 report Munroe stated that the previously exploited high grade zone was 80 to 100 meters in length and extended from Level 1 to Level 5, a vertical distance of 150 meters, and mined widths of this zone ranged from 1 to 3 meters.  Mr. Wood observed that in actuality the mined-out higher grade stopes were much smaller than that, consisting of rod-like minerals shoots raking very steeply within the vein.  It is correct that the mine workings extend over an interval of 80 to 100 meters along strike.  However, in reality, there were several much smaller stopes distributed over this distance with substantial pillars of waste or low grade mineralization separating them.
+
+
+In addition to the main vein, there were a few areas where a second vein was exploited, especially in Level 2. This "second vein" appeared to be a local split off the main vein.  There is no information available below Level 1.  Drilling of the down-dip extension of the vein appears warranted based on this assay information, but much additional information is needed before a drilling program can be designed.
+
+
+El Oro - El Orito Area
+
+
+The El Oro mine portal is located 750 meters east of the Metates portal.  The interior of the adit has not been surveyed, and no systematic sampling has been done.  There are at least two adits in the area, 30 meters apart vertically, a very old vertical shaft and several trenches. Interviews with local people suggest that there are several other workings in the area.
+
+
+Nacimiento Area
+
+
+This area is 2.5 km south of the Metates mine and has a strong iron oxide signature.  The source of the iron oxide appears to be a diorite body with disseminated pyrite in the diorite and the surrounding andesitic rocks.  Limited rock chip sampling suggests that the two higher pyrite content zones which were sampled have weak but anomalous gold and silver values.  The exploration target here is apparently a larger, lower grade body of mineralization, quite different from the Metates Mine, but it is poorly known and of lower priority.
+
+
+Manzanillo Area
+
+
+Manzanillo is an abandoned town site with at least three old adits called the Rosa Amarilla, Tancudos and Las Palomas.  These appear to be established along veins in the same structure as Metates, or parallel ones.  Limited sampling revealed very low silver and gold grades. However, the presence of substantial workings there suggests that the area should be systematically sampled before its potential can be ranked.
+
+
+Cheto Vein
+
+
+The Cheto vein is located west of the Metates vein and is projected to intersect it near the Level 1 portal.  On the surface it is a 1.2 to 1.5 meter wide quartz veinlet stockwork with a N45W strike and a dip of 60 to 70 degrees to the northeast.  Evaluation of the potential of the Cheto Vein area awaits the results of systematic sampling and a structural analysis of the relationships between the Metates and Cheto veins.
+
+
+Page 14 of 52
+ 
+
+
+
+
+Other Areas of Old Workings
+
+
+The San Juan Mine is 1.5 km northeast of Metates adjacent to a river.  It was probably operated in the 1880-1910 period.  It has several adits and an old mill and tailings site on the river bank.  Only a few preliminary samples were collected there on a brief visit.  However, the high values returned from initial sampling, as well as the extensive mine workings there, suggest that the area should be systematically mapped and sampled before any evaluation of the potential of that area is made.
+
+
+A short distance to the west of the old Metates town site is the Old Metates mine (late 1800's or possibly earlier).  There is a vertical water-filled shaft that was found to be at least 40 meters deep by lowering a weighted rope.  The size of the associated waste dump suggests that there may be at least 200 meters of workings.  Along strike to the south are several old trenches.  There is no data available from these old workings.
+
+
+There are several other small workings known to be scattered about the property.  According to the local people there are many more that the Company has not yet visited.  At this point the Metates mine remains the principal exploration target.
+
+
+Metates Drilling
+
+
+The Company has not conducted any drilling on the property.  There also has been no known drilling done by previous operators of the property.
+
+
+Metates Sample Preparation, Analysis and Security
+
+
+Historical Sampling Procedures
+
+
+Nothing is known of sampling procedures or analysis of any sampling done prior to 2008.
+
+
+Silver Stream Sampling Procedures
+
+
+A review of the Company's sampling program indicated that much of the underground sampling at Metates was poorly planned and poorly carried out.  Areas sampled as chip channels were narrow, shallow and often inappropriately placed across lithologic or vein contacts.  Samples collected in that manner cannot be considered representative of the mineralization present, and certainly cannot be used in any resource calculations.
+
+
+There is no available quality control data from the sampling programs carried out by the Company in the Metates project area. Although Munroe says in his 2013 Technical Report that quality control measures were taken, no data to support that claim has yet been presented.
+
+
+Silver Stream Sample Preparation, Analysis and Security (Munroe, 2013)
+
+
+Samples were carried to the Metates camp where they were placed in large sacks containing 10 to 20 samples per sack.  These were sealed and marked with the sample numbers, the project area, the date and the company information.  These were taken by Richard Munroe to Mazatlan for shipment to a certified sample preparation facility in Guadalajara operated by International Plasma Labs Incorporated (IPL), headquartered in Richmond, BC, Canada.  Some samples were sent to the SGS lab in Durango for processing.
+
+
+The pulps from Guadalajara were sent by courier to the IPL lab in Richmond, BC for analysis.  IPL is an ISO 9001:2000 certified company claiming to have "extensive experience in mineral assay work".  The SGS lab in Vancouver, Canada was used in a similar manner for samples sent to Durango.  Munroe reports that "check samples" were sent lab to lab to act as referee samples due to the occasional high grade nugget effect in some of the samples.  Apparently, the check samples were additional samples taken from selected sample sites and intended as duplicate samples. Re-assay of such samples would serve no "referee" purpose and at most, could only be used as a general measure of the variability of gold grade within small areas.
+
+
+Samples taken from the Metates mine workings were assayed for only gold and silver by fire assay with an atomic absorption finish. Gold values were reported in ppb and g/t; silver values were in ppm and gm/t. Regional reconnaissance samples were assayed for gold and silver by fire assay with an atomic absorption finish. Gold values were reported in ppb and gm/t; silver values were in ppm and gm/t. An additional suite of 30 elements were assayed by ICP-ES methods for the regional reconnaissance samples only, and the results were reported in ppm and percent.
+Page 15 of 52
+ 
+
+
+
+
+Other than the laboratories' internal quality control protocols, there is no available documentation of quality control procedures used with these samples, no variability statistics, and no comparison of data between labs.  Thus the quality of the assay data is very uncertain.
+
+
+Munroe (2013) simply states that several blank (or very low metal content) samples were inserted in the sample stream at the Metates site to act as control samples.  In the lab, each assay submission lot was subjected to three random re-assays as well as containing blank and standard samples as part of the laboratory's internal quality control system.
+
+
+Metates Mineral Processing and Metallurgical Testing
+
+
+The small mill on the property which was built in the early 1980's has the capacity to process approximately 50 tons of material per day.  The mill design was reviewed in great detail, with several photographs included, in a January 2008 report for Real de Plata which concluded that the design was not very efficient, but that it was functional at a low processing level and fairly well maintained, in part because it had been processing low grade material. The mill did not process the minerals efficiently, and recoveries were perhaps 60%.
+
+
+From the perspective of moving the property forward, this older cobbled-together mill is really only suitable for bulk testing or minimal processing by the Optionor.  If the Metates mine were ever to be feasible for extraction, a new mill with a more modern design, appropriate to the higher grade minerals and larger scale mining rates anticipated, would be necessary.
+
+
+It will be necessary to have completed detailed bench-scale metallurgical testing of representative minerals grade material by a reputable laboratory before such a mill is designed.  At the current stage of exploration at Metates, it has not been demonstrated that any quantity of potential minerals-grade material has been discovered at Metates and it will be necessary to define an appreciable amount of such material before any metallurgical tests are contemplated.
+
+
+Metates Mineral Resource Estimates
+
+
+There are no historic or current resource estimates for the Metates project.
+
+
+Metates Adjacent Properties
+
+
+There are no active exploration or producing properties close enough to the Metates project to be considered adjacent.  The silver and gold producing Tayoltita-San Dimas district is 40 kilometers to the northeast.  While the Tayoltita area is similar geologically, this does not necessarily indicate that mineralization at Metates is comparable to that at Tayoltita, particularly at this early stage of exploration.
+ 
+Metates Recommendations
+
+
+It has been recommended that re-mapping and re-sampling of the underground workings at Metates will be necessary before sufficiently accurate measurements of the mineralized structures can be made to allow accurate sections of the mineral deposit to be drawn.  A geologist with strong experience in epithermal vein systems should compile all available data and, if necessary, re-map in detail all of the levels that are accessible and see that any inaccessible workings are opened and mapped.  At the very least, all available mapping should be carefully checked.  The existing surveying of the workings should also be checked.
+
+
+The underground sampling appears to have poorly carried out and has not respected the margins of veins and mineralized areas, thus failing to discriminate between samples of vein material and samples of barren wall rock.  This needs to be reviewed and probably re-sampled.  This work combined with mapping is expected to define well the structure, style and geometry of veining and the location and orientation of the higher grade zones (now largely mined away).  This work program will provide sufficient data to construct a series of geologic and assay cross sections and a three dimensional model.  These sections and the model could then guide the planning of a drilling program to test the suspected down-dip extensions of the mined-out higher grade zones.
+
+
+Prior to the consideration of drilling the Metates Vein, the known old workings elsewhere in the area should be systematically mapped and sampled in a reconnaissance fashion. Those prospects that show promising results should be rehabilitated sufficiently to make them safe to enter and then systematically mapped and sampled in detail similar to the program at the Metates mine. Currently the Metates mine appears to be the best exploration target, but there is not sufficient
+Page 16 of 52
+ 
+
+
+
+
+knowledge of the several other old workings on the property to be sure that it really is the best drilling target.  Before contemplating a drilling program on the property, the various prospects present there should be investigated well enough to allow them each to be ranked on their potential to yield a substantial discovery before one or more of them is selected for drilling. There are almost certainly additional old workings on the Metates property of which the Company is unaware.
+
+
+Recommendations to make further expenditures on the exploration of the Metates property will be contingent not only on the results of the preliminary exploration work recommended herein, but also on evaluation of a number of other factors which would bear substantially on the feasibility of further project advancement.
+
+
+Metates Project Budget â€“ Fiscal Year 2015
+
+
+A proposed program and conservative budget for the next fiscal year ending March 31, 2015 is as follows:
+
+
+Metates Mine detailed mapping and sampling:
+	
+ 
+	
+ 
+
+
+ 
+	
+Contract Geologist â€“ 6 weeks, including expenses
+	
+$
+	
+25,000
+
+
+ 
+	
+ 
+	
+Conduct Metates underground mapping
+	
+ 
+	
+ 
+
+
+ 
+	
+ 
+	
+Manage sampling team
+	
+ 
+	
+ 
+
+
+ 
+	
+ 
+	
+Map other workings
+	
+ 
+	
+ 
+
+
+ 
+	
+ 
+	
+Plot geology and assays on sections and plans
+	
+ 
+	
+ 
+
+
+ 
+	
+Engineer/Surveyor â€“ one month, including expenses
+	
+$
+	
+15,000
+
+
+ 
+	
+ 
+	
+Check or re-survey workings
+	
+ 
+	
+ 
+
+
+ 
+	
+ 
+	
+Manage re-opening of old workings
+	
+ 
+	
+ 
+
+
+ 
+	
+ 
+	
+Survey other old workings
+	
+ 
+	
+ 
+
+
+ 
+	
+Samplers â€“ one month
+	
+$
+	
+10,000
+
+
+ 
+	
+ 
+	
+Two teams of two people
+	
+ 
+	
+ 
+
+
+ 
+	
+ 
+	
+Sample Metates Mine and any other workings
+	
+ 
+	
+ 
+
+
+ 
+	
+Reconnaissance person (e.g. Mr. Fitch) â€“ 3 weeks
+	
+$
+	
+8,000
+
+
+ 
+	
+ 
+	
+Search for additional old workings
+	
+ 
+	
+ 
+
+
+ 
+	
+ 
+	
+Two local helpers
+	
+ 
+	
+ 
+
+
+ 
+	
+Camp Cook and helper â€“ one month
+	
+$
+	
+5,000
+
+
+ 
+	
+ 
+	
+Keep camp clean and feed the people
+	
+ 
+	
+ 
+
+
+ 
+	
+ 
+	
+Includes food, water, fuel, supplies
+	
+ 
+	
+ 
+
+
+ 
+	
+Administration and contingencies
+	
+$
+	
+12,000
+
+
+ 
+	
+Vehicle rentals
+	
+$
+	
+5,000
+
+
+ 
+	
+ 
+	
+ 
+	
+ 
+	
+ 
+	
+ 
+
+
+ 
+	
+ 
+	
+ 
+	
+ 
+	
+$
+	
+80,000
+
+
+We anticipate we will require approximately $300,000 to carry out our exploration plans and for working capital over the next 12 months and will require significant financing to pursue our exploration plans. While we are currently in discussions with third parties regarding financing for our company, there can be no assurance that we will obtain any additional financing, on terms acceptable to us or at all. In the event we are unable to obtain the required financing, we may be required to curtail our plans or not pursue our plans altogether, and our business may fail.
+
+
+Solomon Pillars Gold Property
+
+
+Effective November 5, 2013, we entered into an option agreement ("Option Agreement") with Sage Gold Inc. ("Sage"), a Canadian public company listed on the TSX Venture Exchange. Under the Option Agreement, we can initially earn a 55% undivided interest, and ultimately an 80% undivided interest, in the Solomon Pillars Gold Property ("Solomon Property") owned by Sage and located in the Townships of Walters and Leduc in Beardmore, Ontario, Canada. The Solomon Property is comprised of 418.1 hectares with 22 leased and 4 staked claims. The Solomon Property is located within the Southern Metasedimentary Sub-belt of the Beardmore-Geraldton Greenstone Belt, which has hosted 11 past producing gold mines over the years.
+
+
+The Solomon Property is in the exploration stage and is currently without a known body of commercial minerals. Additional exploration activity is required on the Solomon Property to determine if there are any commercial amounts of minerals extractable from the property.
+
+
+Page 17 of 52
+ 
+
+
+
+
+Under the terms of the Option Agreement, we have been granted the option to earn a 55% interest in the Solomon Property by fulfilling the following:
+
+
+Â·
+	
+An initial payment of CDN$25,000 payable to Sage upon signing the Option Agreement, which has been paid
+Â·
+	
+CDN$50,000 of exploration expenditures to be incurred on the Solomon Property and a payment of CDN$30,000 (cash or shares at the Company's option) to Sage on or before the first anniversary of the effective date of the Option Agreement
+Â·
+	
+An additional CDN$100,000 of exploration expenditures to be incurred on the Solomon Property and a payment of CDN$40,000 (cash or shares at the Company's option) payable to Sage, on or before the second anniversary of the effective date of the Option Agreement
+Â·
+	
+An additional CDN$150,000 of exploration expenditures to be incurred on the Solomon Property on or before the third anniversary of the effective date of the Option Agreement.
+
+
+The Corporation has the exclusive right to a one-time option to increase the undivided interest from 55% to 80% by making a payment of CDN$250,000 to Sage within 90 days of completing the initial earn-in and exercising of the option.
+
+
+Once the initial interest is earned the Corporation in the Solomon Property, each party will fund continuing exploration on a pro-rata basis according to their equity in the project. The Corporation will be the project operator.
+
+
+The Solomon Property is divided into two sets of claims, each with a different royalty structure. The "Solomon Pillars" on the eastern section of the property has a net smelter royalty of 1%. The "King Solomon Pillars" on the western section of the property has a 3% net smelter royalty on precious metals with a 1% buyback provision for CDN$1,500,000.
+
+
+The Property is subject to a CDN$25,000 annual advance royalty payment preceding the commencement of commercial production, if any.
+
+
+The Option Agreement may be terminated in the event any of the payments set forth above are not made within the stated periods, or upon written notice by the Corporation to Sage.
+
+
+As we have yet to meet the requirements to earn our initial interest in the Solomon Property, this property is not currently material to our operations. However, we plan to make the required payments and incur the required expenditures to earn a material interest in this property going forward, which will require financing.  While we are currently in discussions with third parties regarding financing for our company, there can be no assurance that we will obtain any additional financing, on terms acceptable to us or at all. In the event we are unable to obtain the required financing, we may be required to curtail our plans or not pursue our plans altogether, and our business may fail.
+
+
+ADDITIONAL CONTRACTS
+
+
+Zonia Copper Project
+
+
+On May 9, 2014, the Company entered into a definitive agreement with Redstone Resources Corporation, a Nevada corporation, ("Redstone") to acquire 100% of the total outstanding shares of common stock of Redstone. Redstone currently owns the Zonia Copper Project located in Yavapai County, Arizona.
+
+
+Under the terms of the agreement, the Company will be making a $500,000 First Tranche investment into Redstone over six monthly installments of $83,333 and acquiring 2,500,000 shares of Redstone's common stock at a price of $0.20 per share for a 4.94% equity position.
+
+
+Upon completion of the First Tranche investment, the Company will make a $1,500,000 Second Tranche investment to acquire an additional 7,500,000 shares of Redstone's common stock at a price of $0.20 for a 19.76% total equity position in Redstone.
+
+
+Upon completion of the Second Tranche investment, the Company will have twelve months to complete a Third Tranche investment of $4,500,000 to acquire an additional 22,500,000 shares of Redstone's common stock at a price of $0.20 per share for a 44.45% total equity position in Redstone.
+
+
+Convertible warrants will also be received from Redstone which will allow the Company to acquire additional shares of common stock that will result, if exercised, in the Company's ownership interest in Redstone to increase to 62.3%.
+Page 18 of 52
+ 
+
+
+
+
+The Company will have the ability to increase the total percentage ownership in Redstone to 75% for consideration of $3,373,851. The Company can increase its ownership of Redstone to 100% by purchasing the remaining outstanding shares of common stock of Redstone for consideration of $6,426,149 or 7% of the net present value as determined by the Feasibility Study on the Zonia property.
+
+
+In the event that the Company does not convert the warrants into common stock, Redstone will have the right and option to purchase in one or more transactions up to 100% of the securities acquired by the Company in the Second and Third Tranche purchase transactions at a cost equal to the Company's total investment in the shares that Redstone elects to repurchase.
+
+
+We have yet to complete the First Tranche investment to earn our initial interest in the Zonia Copper Project, and this project will require financing.  While we are currently in discussions with third parties regarding financing for our company, there can be no assurance that we will obtain any additional financing, on terms acceptable to us or at all. In the event we are unable to obtain the required financing, we may be required to curtail our plans or not pursue our plans altogether, and our business may fail.
+
+
+Bunker Hill Project
+
+
+On May 16, 2014, the Company entered into an agreement with Placer Mining Corporation, a Nevada corporation ("Placer"), which owns certain mining property known as the Bunker Hill Mine, near Kellogg, Idaho ("Bunker" or the "Property"), in which the Company will have the exclusive right to evaluate and perform due diligence on the Property until August 15, 2014 (the "Review Period").  Upon completion of the Review Period, the parties expect to negotiate and enter into option and exclusivity agreements (the "Option Agreements") whereby the Company can acquire the interests of Placer shareholders upon satisfaction of certain terms and conditions to be negotiated.
+
+
+During the Review Period, Placer agrees it will not, directly or indirectly, solicit, initiate, assist, facilitate, promote or encourage proposals or offers from, entertain or enter into discussions or negotiations with, or provide information relating to the Property, including, but not limited to any and all due diligence materials, to any persons, entity or group in connection with the sale of the Property or any interest therein, or any amalgamation, merger, consolidation, arrangement, or sale of all or substantially all of the assets of Placer.
+
+
+In consideration for the Review Period, the Company will pay Placer the sum of $60,000 USD (Sixty Thousand Dollars) per month, on a payment schedule of $15,000 USD (Fifteen Thousand Dollars) per week on Friday, commencing Friday, May 16, 2014, with payments concluding Friday, August 1, 2014. However, the Review Period will extend until Friday, August 15, 2014.  We will have a seven (7) day grace period in the event a payment to Placer is delayed for any reason. If a payment is delayed beyond the seven (7) day grace period, the Agreement will automatically terminate, and neither Placer nor the Company will have any obligation to one another from that date forward.
+
+
+In the event Placer terminates this Agreement in order to accept another offer, or for any reason whatsoever, then Placer will pay Silver Stream a breakup fee in the amount of $5,000,000 USD (Five Million Dollars USD) within fifteen (15) days of notifying Silver Stream in writing of such termination.
+
+
+We have yet to complete the Review Period, and this project will require financing.  While we are currently in discussions with third parties regarding financing for our company, there can be no assurance that we will obtain any additional financing, on terms acceptable to us or at all. In the event we are unable to obtain the required financing, we may be required to curtail our plans or not pursue our plans altogether, and our business may fail.
+
+
+
+
+ITEM 1A.	RISK FACTORS.
+
+
+We are a smaller reporting company as defined by Rule 12b-2 of the Exchange Act and are not required to provide the information under this item.
+
+
+
+
+ITEM 1B.	UNRESOLVED STAFF COMMENTS.
+
+
+None.
+
+
+Page 19 of 52
+ 
+
+
+
+
+ITEM 2.	PROPERTIES.
+
+
+None.
+
+
+
+
+ITEM 3.	LEGAL PROCEEDINGS.
+
+
+We are not presently a party to any litigation.
+
+
+
+
+ITEM 4.                          MINE SAFETY DISCLOSURES.
+
+
+None
+
+
+
+
+PART II
+
+
+ITEM 5.	MARKET FOR OUR COMMON EQUITY, RELATED STOCKHOLDER MATTERS AND ISSUER PURCHASES OF EQUITY SECURITIES.
+
+
+Our stock is listed for trading on the Bulletin Board operated the Financial Industry Regulatory Authority (FINRA) on OTCBB under the symbol "AGSM."
+
+
+Fiscal Year â€“ 2014
+	
+High Bid
+	
+Low Bid
+
+
+ 
+	
+Fourth Quarter: 01/01/14 to 03/31/14
+	
+$0.99
+	
+$0.1453
+
+
+ 
+	
+Third Quarter: 10/01/13 to 12/31/13
+	
+$0.1453
+	
+$0.10
+
+
+ 
+	
+Second Quarter: 07/01/13 to 09/30/13
+	
+$0.50
+	
+$0.10
+
+
+ 
+	
+First Quarter: 04/01/13 to 06/30/13
+	
+$0.50
+	
+$0.50
+
+
+ 
+	
+ 
+	
+ 
+	
+ 
+
+
+Fiscal Year â€“ 2013
+	
+High Bid
+	
+Low Bid
+
+
+ 
+	
+Fourth Quarter: 01/01/13 to 03/31/13
+	
+$0.50
+	
+$0.50
+
+
+ 
+	
+Third Quarter: 10/01/12 to 12/31/12
+	
+$0.50
+	
+$0.50
+
+
+ 
+	
+Second Quarter: 07/01/12 to 09/30/12
+	
+$0.50
+	
+$0.50
+
+
+ 
+	
+First Quarter: 04/01/12 to 06/30/12
+	
+$0.50
+	
+$0.50
+
+
+Holders
+
+
+There are approximately 350 holders of record for our common stock.  There are a total of 46,727,250 shares of common stock outstanding.
+
+
+Stock Options and Warrants
+
+
+There are currently 6,005,748 outstanding options and 4,135,625 warrants to purchase, or securities convertible into, our common stock.
+
+
+Options Outstanding
+	
+Exercise Price
+	
+Expiration Date
+
+
+1,925,000
+	
+$0.10
+	
+01/31/2019
+
+
+1,900,000
+	
+$0.25
+	
+02/05/2019
+
+
+1,805,748
+	
+$0.01
+	
+04/21/2019
+
+
+200,000
+	
+$0.25
+	
+06/01/2019
+
+
+5,830,748
+	
+ 
+	
+ 
+
+
+Warrants Outstanding
+	
+Exercise Price
+	
+Expiration Date
+
+
+2,983,750
+	
+$0.25
+	
+03/26/2016
+
+
+1,151,875
+	
+$0.25
+	
+04/05/2016
+
+
+4,135,625
+	
+ 
+	
+ 
+
+
+Page 20 of 52
+ 
+
+
+
+
+Dividends
+
+
+We have not declared any cash dividends, nor do we intend to do so. We are not subject to any legal restrictions respecting the payment of dividends, except that they may not be paid to render us insolvent. Dividend policy will be based on our cash resources and needs, and it is anticipated that all available cash will be needed for our operations in the foreseeable future.
+
+
+Section 15(g) of the Securities Exchange Act of 1934
+
+
+Our shares are covered by section 15(g) of the Securities Exchange Act of 1934, as amended that imposes additional sales practice requirements on broker/dealers who sell such securities to persons other than established customers and accredited investors (generally institutions with assets in excess of $5,000,000 or individuals with net worth in excess of $1,000,000 or annual income exceeding $200,000 or $300,000 jointly with their spouses). For transactions covered by the Rule, the broker/dealer must make a special suitability determination for the purchase and have received the purchaser's written agreement to the transaction prior to the sale. Consequently, the Rule may affect the ability of broker/dealers to sell our securities and also may affect your ability to sell your shares in the secondary market.
+
+
+Section 15(g) also imposes additional sales practice requirements on broker/dealers who sell penny securities. These rules require a one page summary of certain essential items. The items include the risk of investing in penny stocks in both public offerings and secondary marketing; terms important to in understanding of the function of the penny stock market, such as bid and offer quotes, a dealer's spread and broker/dealer compensation; the broker/dealer compensation, the broker/dealers' duties to its customers, including the disclosures required by any other penny stock disclosure rules; the customers' rights and remedies in cases of fraud in penny stock transactions; and, FINRA's toll free telephone number and the central number of the North American Administrators Association, for information on the disciplinary history of broker/dealers and their associated persons.
+
+
+Securities authorized for issuance under equity compensation plans
+
+
+We currently have one equity compensation plan.  
+
+
+The 2014 Incentive Stock Option Plan provides for the issuance of stock options for services rendered to us.  The board of directors is vested with the power to determine the terms and conditions of the options.  The Plan includes 12,000,000 shares of common stock.  At June 29, 2014, options to purchase 5,830,748 shares of common stock have been granted and exercised, leaving 6,169,252 shares commn stock available for issuance under the 2014 Plan.
+
+
+Pursuant to employment agreements with its only senior officer, we granted options to purchase a total of 300,000 shares at an exercise price of $0.25 per share. As of June 29, 2014, 200,000 options have vested under this agreement. Additionally, under the terms of this agreement, the officer may, at his election, accept stock or stock options in settlement of any amounts due him. As of June 29, 2014, approximately $15,000 is owed to the officer for back wages and advances and subject to settlement under these terms.
+
+
+ 
+	
+ 
+	
+ 
+	
+Number of securities
+
+
+ 
+	
+Number of securities to
+	
+Weighted-average
+	
+remaining available for
+
+
+ 
+	
+be issued upon exercise
+	
+exercise price of
+	
+Future issuance under
+
+
+ 
+	
+of outstanding options,
+	
+outstanding options,
+	
+equity compensation plans
+
+
+ 
+	
+warrants and rights
+	
+warrants and rights
+	
+(excluding securities
+
+
+Plan category
+	
+(a)
+	
+(b)
+	
+in column (a)) (c)
+
+
+Equity compensation plans
+	
+ 
+	
+ 
+	
+ 
+
+
+approved by security holders
+	
+-
+	
+-
+	
+-
+
+
+ 
+	
+ 
+	
+ 
+	
+ 
+
+
+Equity compensation plans
+	
+5,830,748
+	
+$0.13
+	
+6,169,252
+
+
+not approved by securities holders
+	
+ 
+	
+ 
+	
+ 
+
+
+ 
+	
+ 
+	
+ 
+	
+ 
+
+
+Other options granted pursuant
+	
+ 
+	
+ 
+	
+ 
+
+
+to Employment Agreements
+	
+-
+	
+-
+	
+-
+
+
+ 
+	
+ 
+	
+ 
+	
+ 
+
+
+Total
+	
+5,830,748
+	
+$0.13
+	
+6,169,252
+Page 21 of 52
+ 
+
+
+
+
+ITEM 6.                          SELECTED FINANCIAL DATA.
+
+
+We are a smaller reporting company as defined by Rule 12b-2 of the Exchange Act and are not required to provide the information under this item.
+
+
+
+
+ITEM 7.	MANAGEMENT'S DISCUSSION AND ANALYSIS OF FINANCIAL CONDITION AND RESULTS OF OPERATIONS.
+
+
+This section of this annual report includes a number of forward-looking statements that reflect our current views with respect to future events and financial performance. Forward-looking statements are often identified by words like: believe, expect, estimate, anticipate, intend, project and similar expressions, or words which, by their nature, refer to future events. You should not place undue certainty on these forward-looking statements, which apply only as of the date of this report. These forward-looking statements are subject to certain risks and uncertainties that could cause actual results to differ materially from historical results or our predictions.
+
+
+We are considered to be in the development stage, as defined in Statement of Financial Accounting Standards No. 7. We have been in the development stage since our inception. We have had no source of revenue, we have incurred operating losses since inception and at March 31, 2014 had negative working capital of $2,264,718.
+
+
+Financial Condition; Need for Additional Capital
+
+
+We have no operations upon which to base an evaluation of our performance. We are an exploration stage corporation and have not generated any revenues from operations. We cannot guarantee that we will be successful in our business operations. Our business is subject to risks inherent in the establishment of a new business enterprise, including limited capital resources, possible delays in the exploration of our properties, and possible cost overruns due to price and cost increases in services.
+
+
+To become profitable and competitive, we will have to conduct research and exploration of the properties we have acquired.
+
+
+We have no assurance that future financing will be available to us on acceptable terms. If financing is not available on satisfactory terms, we may be unable to continue, develop or expand our operations. Equity financing could result in additional dilution to existing shareholders.
+
+
+As of the year ended March 31, 2014, we had cash of $52,988, compared to cash of $188,607 as of March 31, 2013.  We will have to raise additional capital in order to meet our commitments, and there is no assurance that we will be able to do so.  Our commitments for the next twelve months are as follows:
+
+
+ 
+	
+Commitment
+
+
+Metates Property
+	
+$
+	
+1,700,000
+
+
+Solomon Pillars Gold Property
+	
+ 
+	
+55,000
+
+
+Zonia Copper Project
+	
+ 
+	
+1,866,667
+
+
+Bunker Hill Project
+	
+ 
+	
+120,000
+
+
+ 
+	
+$
+	
+3,741,667
+
+
+Results of Operations
+For the fiscal year ended March 31, 2014, we generated revenues and gross profit of $0, compared to $0 for the same period in 2013.  Operating expenses were $1,637,853 for the fiscal year ended March 31, 2014, compared to $955,880 for the same period in 2013.  Consulting and professional fees incurred for entering into property agreements accounted for the increase.
+
+
+Material Changes in Financial Condition
+
+
+At March 31, 2014, we had total assets of $217,302, including cash of $52,988, compared to assets of $1,413,856, including cash of $188,607, at March 31, 2013.  The decrease in assets is due to impairment costs associated with the Metates Property.
+
+
+Page 22 of 52
+ 
+
+
+
+
+Liquidity and Capital Resources
+
+
+The Company has no other capital resources other than the ability to use its common stock to raise additional capital. The Company's current cash is not sufficient to sustain operations for the next twelve months. Estimated cash needed for the next twelve months for general and administrative expenses, including management, legal, accounting and audit expenses, is $950,000, in addition to the commitments of $3,741,667 detailed above.  At March 31, 2014, the Company had negative working capital of $2,264,718.  No commitments to provide additional funds have been made by management or other stockholders. Accordingly, there can be no assurance that any additional funds will be available to the Company to allow it to cover operational expenses. There are no assurances that we will be able to secure further funds required for our continued operations. We will pursue various financing alternatives to meet our immediate and long-term financial requirements. There can be no assurance that additional financing will be available to us when needed or, if available, that it can be obtained on commercially reasonable terms. If we are not able to obtain the additional financing on a timely basis, we will be unable to conduct our operations as planned, and we will not be able to meet our other obligations as they become due. In such event, we will be forced to scale down or perhaps even cease our operations.
+
+
+Off-Balance Sheet Arrangements
+
+
+We do not have any off-balance sheet arrangements that are reasonably likely to have a current or future effect on our financial condition, revenues, results of operations, liquidity or capital expenditures.
+ 
+Contractual Obligations
+ 
+As of March 31, 2014, the following table summarizes our contractual obligations and the effect such obligation is expected to have on our liquidity and cash flow in future periods: 
+ 
+ 
+	
+Payments Due by Period
+
+
+ 
+	
+ 
+	
+Total
+	
+ 
+	
+Less Than
+1 Year
+	
+ 
+	
+1-3 Years
+	
+ 
+	
+3-5 Years
+	
+ 
+	
+More Than
+5 Years
+
+
+Metates Property
+	
+$
+	
+4,450,000
+	
+$
+	
+1,700,000
+	
+$
+	
+2,750,000
+	
+$
+	
+-
+	
+$
+	
+-
+
+
+Solomon Pillars Gold Property
+	
+ 
+	
+445,000
+	
+ 
+	
+105,000
+	
+ 
+	
+340,000
+	
+ 
+	
+-
+	
+ 
+	
+-
+
+
+Zonia Copper Project
+	
+ 
+	
+6,366,667
+	
+ 
+	
+1,866,667
+	
+ 
+	
+4,500,000
+	
+ 
+	
+-
+	
+ 
+	
+-
+
+
+Bunker Hill Project
+	
+ 
+	
+120,000
+	
+ 
+	
+120,000
+	
+ 
+	
+-
+	
+ 
+	
+-
+	
+ 
+	
+-
+ 
+Critical Accounting Estimates
+
+
+The preparation of consolidated financial statements requires management to make estimates and assumptions that affect the reported amount of assets and liabilities and disclosure of commitments and contingencies at the date of the consolidated financial statements and the reported amount of revenues and expenses during the period. All of our significant accounting policies and estimates are described in note 2 of the March 31, 2014 audited financial statements. We consider the following policies as being critical with regard to the impact estimates and changes in estimates could have on our financial condition, changes in financial condition or results of operations.
+
+
+Mineral Properties
+Realization of the Company's investment in and expenditures on mineral properties is dependent upon the establishment of legal ownership, the attainment of successful production from the properties or from the proceeds of their disposal.
+
+
+Title to mineral properties involves certain inherent risks due to the difficulties of determining the validity of certain claims as well as the potential for problems arising from the frequently ambiguous conveyancing history characteristics of many mineral properties. To the best of its knowledge, the Company believes all of its unproved mineral interests are in good standing and that it has title to all of these mineral interests.
+
+
+The Company classifies its mineral rights as tangible assets, and, accordingly, acquisition costs are capitalized as mineral property costs. Long-lived assets are to be reviewed for impairment whenever events or changes in circumstances indicate that the carrying amount of an asset may not be recoverable. In performing the review for recoverability, the Company is to estimate the future cash flows expected to result from the use of the asset and its eventual disposition. If the sum of the undiscounted expected future cash flows is less than the carrying amount of the asset, an impairment loss is recognized. Mineral exploration costs are expensed as incurred until commercially mineable deposits are determined to exist within a particular property.
+Page 23 of 52
+ 
+
+
+
+
+Stock Options and Other Share-Based Compensation
+For equity awards, such as stock options, total compensation cost is based on the grant date fair value, and for liability awards, such as stock appreciation rights, total compensation cost is based on the settlement value. The company recognizes stock-based compensation expense for all awards over the service period required to earn the award, which is the shorter of the vesting period or the time period an employee becomes eligible to retain the award at retirement.
+
+
+Foreign Currency Translation and Transactions
+The functional currency of the Company is the Canadian dollar. The Company translates assets and liabilities to Canadian dollars using year-end exchange rates, translates unproved mineral properties and equity accounts using historical exchange rates, and translates revenues and expenses using average exchange rates during the period. Exchange gains and losses arising from the translation of the Mexican subsidiary's financial statements are recorded to profit and loss.  
+
+
+The reporting currency is the US Dollar. Assets and liabilities denominated in currencies other than the US Dollar are translated to the US Dollar equivalent using the year end exchange rate. Stockholders equity accounts are translated to US Dollars using the historical exchange rates. Revenues and expenses are translated using average exchange rates during the period. Exchange gains and losses arising from the translation to the reporting currency are recorded within the cumulative translation adjustment account.
+
+
+
+
+ITEM 7A.	QUANTITATIVE AND QUALITATIVE DISCLOSURES ABOUT MARKET RISK.
+
+
+We are a smaller reporting company as defined by Rule 12b-2 of the Exchange Act and are not required to provide the information under this item.
+
+
+
+
+ITEM 8.	FINANCIAL STATEMENTS AND SUPPLEMENTARY DATA.
+
+
+INDEX TO THE FINANCIALS
+
+
+ 
+	
+Index
+
+
+ 
+	
+ 
+
+
+REPORT OF INDEPENDENT REGISTERED PUBLIC ACCOUNTING FIRM
+	
+F-1
+
+
+ 
+	
+ 
+
+
+FINANCIAL STATEMENTS
+	
+ 
+
+
+ 
+	
+Statements of Financial Position
+	
+F-2
+
+
+ 
+	
+Statements of Changes in Stockholders' Equity
+	
+F-3
+
+
+ 
+	
+Statements of Comprehensive Loss
+	
+F-4
+
+
+ 
+	
+Statements of Cash Flows
+	
+F-5
+
+
+ 
+	
+ 
+
+
+NOTES TO THE FINANCIAL STATEMENTS
+	
+F-6
+
+
+
+
+
+
+Page 24 of 52
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+To the Stockholders and Board of Directors of Silver Stream Mining Corp. (formerly W.S. Industries Inc.):
+ 
+We have audited the accompanying consolidated balance sheets of Silver Stream Mining Corp. (formerly W.S. Industries Inc.) (the "Company") (an exploration stage company) as at March 31, 2014 and March 31, 2013 and the related consolidated statements of operations, stockholders' deficit and cash flows for the years then ended and the cumulative period from August 16, 2006 (inception) to March 31, 2014.  These consolidated financial statements are the responsibility of the Company's management.  Our responsibility is to express an opinion on these consolidated financial statements based on our audits.
+ 
+We conducted our audits in accordance with the standards of the Public Company Accounting Oversight Board (United States).  Those standards require that we plan and perform an audit to obtain reasonable assurance whether the consolidated financial statements are free of material misstatement.  The Company is not required to have, nor were we engaged to perform, an audit of its internal control over financial reporting. Our audits included consideration of internal control over financial reporting as a basis for designing audit procedures that are appropriate in the circumstances, but not for the purpose of expressing an opinion on the effectiveness of the Company's internal control over financial reporting. Accordingly, we express no such opinion. An audit also includes examining, on a test basis, evidence supporting the amounts and disclosures in the consolidated financial statements.  An audit also includes assessing the accounting principles used and significant estimates made by management, as well as evaluating the overall consolidated financial statement presentation.  We believe that our audits provide a reasonable basis for our opinion.
+ 
+In our opinion, these consolidated financial statements present fairly, in all material respects, the financial position of the Company as at March 31, 2014 and March 31, 2013 and the results of its operations and its cash flows for the years then ended and for the period from August 16, 2006 (inception) to March 31, 2014, in conformity with accounting principles generally accepted in the United States of America.
+ 
+The accompanying consolidated financial statements have been prepared assuming that the Company will continue as a going concern.  As discussed in Note 1 to the consolidated financial statements, the Company has not generated revenues since inception, has incurred losses in developing its business, and further losses are anticipated.  The Company requires additional funds to meet its obligations and the costs of its operations.  These factors raise substantial doubt about the Company's ability to continue as a going concern.  Management's plans in this regard are described in Note 1.  The consolidated financial statements do not include any adjustments that might result from the outcome of this uncertainty.
+
+
+
+
+DMCL                                                          
+
+
+
+
+DALE MATHESON CARR-HILTON LABONTE LLP
+CHARTERED ACCOUNTANTS
+
+
+Vancouver, Canada
+July 15, 2014
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+F-1
+Page 25 of 52
+ 
+
+
+
+
+Silver Stream Mining Corp. (formerly W.S. Industries Inc.)
+(An Exploration Stage Company)
+Consolidated Balance Sheets
+
+
+
+
+ 
+	 	
+March 31,
+2014
+	 	 	
+March 31,
+2013
+	 
+
+ 
+	 	
+	 	 	
+	 
+
+ASSETS
+	 	
+	 	 	
+	 
+
+ 
+	 	
+	 	 	
+	 
+
+Current assets
+	 	
+	 	 	
+	 
+
+Cash
+	 	
+$
+	
+52,988
+	 	 	
+$
+	
+188,607
+	 
+
+Prepaid expenses
+	 	 	
+7,612
+	 	 	 	
+2,462
+	 
+
+GST/HST receivable
+	 	 	
+22,309
+	 	 	 	
+8,750
+	 
+
+ 
+	 	 	
+82,909
+	 	 	 	
+199,819
+	 
+
+ 
+	 	 	 	 	 	 	 	 
+
+Non-current assets
+	 	 	 	 	 	 	 	 
+
+Equipment
+	 	 	
+5,825
+	 	 	 	
+-
+	 
+
+Investments
+	 	 	
+83,333
+	 	 	 	
+-
+	 
+
+Unproved mineral properties
+	 	 	
+45,235
+	 	 	 	
+957,980
+	 
+
+IVA receivable
+	 	 	
+-
+	 	 	 	
+256,057
+	 
+
+ 
+	 	
+$
+	
+217,302
+	 	 	
+$
+	
+1,413,856
+	 
+
+ 
+	 	 	 	 	 	 	 	 
+
+LIABILITIES AND STOCKHOLDERS' DEFICIT
+	 	 	 	 	 	 	 	 
+
+ 
+	 	 	 	 	 	 	 	 
+
+Current liabilities
+	 	 	 	 	 	 	 	 
+
+Trade payables
+	 	
+$
+	
+279,477
+	 	 	
+$
+	
+119,471
+	 
+
+Accrued liabilities
+	 	 	
+25,652
+	 	 	 	
+48,782
+	 
+
+Interest payable
+	 	 	
+452,200
+	 	 	 	
+363,721
+	 
+
+Loans
+	 	 	
+1,590,298
+	 	 	 	
+2,726,912
+	 
+
+ 
+	 	 	
+2,347,627
+	 	 	 	
+3,258,886
+	 
+
+ 
+	 	 	 	 	 	 	 	 
+
+Stockholders' deficit
+	 	 	 	 	 	 	 	 
+
+Common stock: $0.001 par value, authorized
+shares, 44,248,500 issued and outstanding
+(March 31, 2013 â€“ 12,563,702)
+	 	 	
+38,878
+	 	 	 	
+1,095,536
+	 
+
+Subscription Receivable
+	 	 	
+(10,000
+	
+)
+	 	 	
+-
+	 
+
+Obligation to issue shares
+	 	 	
+291
+	 	 	 	
+166,165
+	 
+
+Additional paid-in capital
+	 	 	
+3,641,018
+	 	 	 	
+150,372
+	 
+
+Deficit accumulated during the exploration stage
+	 	 	
+(6,017,291
+	
+)
+	 	 	
+(3,293,571
+	
+)
+
+
+Cumulative translation adjustment
+	 	 	
+216,779
+	 	 	 	
+36,468
+	 
+
+ 
+	 	 	
+(2,130,325
+	
+)
+	 	 	
+(1,845,030
+	
+)
+
+
+ 
+	 	
+$
+	
+217,302
+	 	 	
+$
+	
+1,413,856
+	 
+
+
+
+
+The accompanying notes are an integral part of these consolidated financial statements
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+F-2
+Page 26 of 52
+ 
+
+
+
+
+Silver Stream Mining Corp. (formerly W.S. Industries Inc.)
+(An Exploration Stage Company)
+Consolidated Statements of Operations
+
+
+
+
+ 
+	 	
+For the year ended
+March 31, 2014
+	 	 	
+For the year ended
+March 31, 2013
+	 	 	
+From August 16,
+2006 (inception)to
+March 31, 2014
+	 
+
+Expenses
+	 	
+	 	 	
+	 	 	
+	 
+
+Consulting fees
+	 	
+$
+	
+832,397
+	 	 	
+$
+	
+39,767
+	 	 	
+$
+	
+872,164
+	 
+
+Depreciation
+	 	 	
+672
+	 	 	 	
+-
+	 	 	 	
+672
+	 
+
+Filing fees
+	 	 	
+43,754
+	 	 	 	
+4,607
+	 	 	 	
+89,811
+	 
+
+Investor relations
+	 	 	
+44,252
+	 	 	 	
+1,969
+	 	 	 	
+48,055
+	 
+
+Management fees
+	 	 	
+99,104
+	 	 	 	
+29,538
+	 	 	 	
+294,605
+	 
+
+Mineral exploration  costs
+	 	 	
+411,741
+	 	 	 	
+769,319
+	 	 	 	
+1,992,753
+	 
+
+Office and miscellaneous
+	 	 	
+27,174
+	 	 	 	
+47,722
+	 	 	 	
+219,511
+	 
+
+Professional fees
+	 	 	
+113,640
+	 	 	 	
+35,804
+	 	 	 	
+571,702
+	 
+
+Stock-based compensation
+	 	 	
+-
+	 	 	 	
+-
+	 	 	 	
+154,334
+	 
+
+Travel and promotion
+	 	 	
+65,119
+	 	 	 	
+27,154
+	 	 	 	
+110,768
+	 
+
+Loss before other items
+	 	 	
+(1,637,853
+	
+)
+	 	 	
+(955,880
+	
+)
+	 	 	
+(4,354,375
+	
+)
+
+
+ 
+	 	 	 	 	 	 	 	 	 	 	 	 
+
+Other items
+	 	 	 	 	 	 	 	 	 	 	 	 
+
+Foreign exchange gain realized
+	 	 	
+65,018
+	 	 	 	
+-
+	 	 	 	
+65,018
+	 
+
+Gain on debt settlement
+	 	 	
+1,176,328
+	 	 	 	
+-
+	 	 	 	
+1,176,328
+	 
+
+Interest expense
+	 	 	
+(398,446
+	
+)
+	 	 	
+(356,035
+	
+)
+	 	 	
+(941,562
+	
+)
+
+
+Mineral property impairment
+	 	 	
+(957,980
+	
+)
+	 	 	
+-
+	 	 	 	
+(991,913
+	
+)
+
+
+Impairment of IVA receivable
+	 	 	
+(263,707
+	
+)
+	 	 	
+-
+	 	 	 	
+(263,707
+	
+)
+
+
+Net loss
+	 	
+$
+	
+(2,016,640
+	
+)
+	 	
+$
+	
+(1,311,915
+	
+)
+	 	
+$
+	
+(5,310,211
+	
+)
+
+
+ 
+	 	 	 	 	 	 	 	 	 	 	 	 
+
+Other comprehensive loss
+	 	 	 	 	 	 	 	 	 	 	 	 
+
+Translation gain
+	 	 	
+180,311
+	 	 	 	
+17,133
+	 	 	 	
+216,779
+	 
+
+Comprehensive loss
+	 	
+$
+	
+(1,836,329
+	
+)
+	 	
+$
+	
+(1,294,782
+	
+)
+	 	
+$
+	
+(5,093,432
+	
+)
+
+
+ 
+	 	 	 	 	 	 	 	 	 	 	 	 
+
+Loss per share â€“ basic and diluted
+	 	
+$
+	
+(0.05
+	
+)
+	 	
+$
+	
+(0.10
+	
+)
+	 	 	 	 
+
+ 
+	 	 	 	 	 	 	 	 	 	 	 	 
+
+Weighted average number of shares outstanding
+	 	 	
+37,431,000
+	 	 	 	
+12,563,702
+	 	 	 	 	 
+
+
+
+
+The accompanying notes are an integral part of these consolidated financial statements
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+F-3
+Page 27 of 52
+ 
+
+
+
+
+Silver Stream Mining Corp. (formerly W.S. Industries Inc.)
+(An Exploration Stage Company)
+Consolidated Statements of Stockholders' Deficit
+
+
+
+
+ 
+	 	
+Common Stock
+	 	 	
+	 	 	
+	 	 	
+	 	 	
+	 	 	
+	 	 	
+	 
+
+ 
+	 	
+	 	 	
+	 	 	
+Additional
+	 	 	
+Obligation
+	 	 	
+	 	 	
+	 	 	
+Cumulative
+	 	 	
+	 
+
+ 
+	 	
+Number of
+	 	 	
+	 	 	
+Paid-in
+	 	 	
+to issue
+	 	 	
+Subscriptions
+	 	 	
+Accumulated
+	 	 	
+Translation
+	 	 	
+	 
+
+ 
+	 	
+Shares
+	 	 	
+Amount
+	 	 	
+Capital
+	 	 	
+Shares
+	 	 	
+Receivable
+	 	 	
+Deficit
+	 	 	
+Adjustment
+	 	 	
+Total
+	 
+
+Balance at August 16, 2006 (Inception)
+	 	 	
+-
+	 	 	
+$
+	
+-
+	 	 	
+$
+	
+-
+	 	 	
+$
+	
+-
+	 	 	
+$
+	
+-
+	 	 	
+$
+	
+-
+	 	 	
+$
+	
+-
+	 	 	
+$
+	
+-
+	 
+
+Common stock issued for cash
+	 	 	
+9,372,500
+	 	 	 	
+558,157
+	 	 	 	
+-
+	 	 	 	
+-
+	 	 	 	
+-
+	 	 	 	
+-
+	 	 	 	
+-
+	 	 	 	
+558,157
+	 
+
+Stock-based compensation
+	 	 	
+-
+	 	 	 	
+-
+	 	 	 	
+150,372
+	 	 	 	
+-
+	 	 	 	
+-
+	 	 	 	
+-
+	 	 	 	
+-
+	 	 	 	
+150,372
+	 
+
+Subscriptions receivable
+	 	 	
+-
+	 	 	 	
+-
+	 	 	 	
+-
+	 	 	 	
+-
+	 	 	 	
+(275,569
+	
+)
+	 	 	
+-
+	 	 	 	
+-
+	 	 	 	
+(275,569
+	
+)
+
+
+Net loss for the year
+	 	 	
+-
+	 	 	 	
+-
+	 	 	 	
+-
+	 	 	 	
+-
+	 	 	 	
+-
+	 	 	 	
+(296,251
+	
+)
+	 	 	
+-
+	 	 	 	
+(296,251
+	
+)
+
+
+Translation adjustment
+	 	 	
+-
+	 	 	 	
+-
+	 	 	 	
+-
+	 	 	 	
+-
+	 	 	 	
+-
+	 	 	 	
+-
+	 	 	 	
+11,881
+	 	 	 	
+11,881
+	 
+
+Balance at March 31, 2007
+	 	 	
+9,372,500
+	 	 	 	
+558,157
+	 	 	 	
+150,372
+	 	 	 	
+-
+	 	 	 	
+(275,569
+	
+)
+	 	 	
+(296,251
+	
+)
+	 	 	
+11,881
+	 	 	 	
+148,590
+	 
+
+Subscriptions receivable
+	 	 	
+-
+	 	 	 	
+-
+	 	 	 	
+-
+	 	 	 	
+-
+	 	 	 	
+78,988
+	 	 	 	
+-
+	 	 	 	
+-
+	 	 	 	
+78,988
+	 
+
+Obligation to issue shares
+	 	 	
+-
+	 	 	 	
+-
+	 	 	 	
+-
+	 	 	 	
+50,340
+	 	 	 	
+-
+	 	 	 	
+-
+	 	 	 	
+-
+	 	 	 	
+50,340
+	 
+
+Net loss for the year
+	 	 	
+-
+	 	 	 	
+-
+	 	 	 	
+-
+	 	 	 	
+-
+	 	 	 	
+-
+	 	 	 	
+(207,264
+	
+)
+	 	 	
+-
+	 	 	 	
+(207,264
+	
+)
+
+
+Translation adjustment
+	 	 	
+-
+	 	 	 	
+-
+	 	 	 	
+-
+	 	 	 	
+-
+	 	 	 	
+-
+	 	 	 	
+-
+	 	 	 	
+25,577
+	 	 	 	
+25,577
+	 
+
+Balance at March 31, 2008
+	 	 	
+9,372,500
+	 	 	 	
+558,157
+	 	 	 	
+150,372
+	 	 	 	
+50,340
+	 	 	 	
+(196,581
+	
+)
+	 	 	
+(503,515
+	
+)
+	 	 	
+37,458
+	 	 	 	
+96,231
+	 
+
+Common stock issued for cash
+	 	 	
+1,605,400
+	 	 	 	
+390,754
+	 	 	 	
+-
+	 	 	 	
+-
+	 	 	 	
+-
+	 	 	 	
+-
+	 	 	 	
+-
+	 	 	 	
+390,754
+	 
+
+Subscriptions receivable
+	 	 	
+-
+	 	 	 	
+-
+	 	 	 	
+-
+	 	 	 	
+-
+	 	 	 	
+196,581
+	 	 	 	
+-
+	 	 	 	
+-
+	 	 	 	
+196,581
+	 
+
+Shares issued
+	 	 	
+-
+	 	 	 	
+-
+	 	 	 	
+-
+	 	 	 	
+(50,340
+	
+)
+	 	 	
+-
+	 	 	 	
+-
+	 	 	 	
+-
+	 	 	 	
+(50,340
+	
+)
+
+
+Net loss for the year
+	 	 	
+-
+	 	 	 	
+-
+	 	 	 	
+-
+	 	 	 	
+-
+	 	 	 	
+-
+	 	 	 	
+(470,751
+	
+)
+	 	 	
+-
+	 	 	 	
+(470,751
+	
+)
+
+
+Translation adjustment
+	 	 	
+-
+	 	 	 	
+-
+	 	 	 	
+-
+	 	 	 	
+-
+	 	 	 	
+-
+	 	 	 	
+-
+	 	 	 	
+(42,709
+	
+)
+	 	 	
+(42,709
+	
+)
+
+
+Balance at March 31, 2009
+	 	 	
+10,977,900
+	 	 	 	
+948,911
+	 	 	 	
+150,372
+	 	 	 	
+-
+	 	 	 	
+-
+	 	 	 	
+(974,266
+	
+)
+	 	 	
+(5,251
+	
+)
+	 	 	
+119,766
+	 
+
+Common stock issued for cash
+	 	 	
+1,200,000
+	 	 	 	
+111,169
+	 	 	 	
+-
+	 	 	 	
+-
+	 	 	 	
+-
+	 	 	 	
+-
+	 	 	 	
+-
+	 	 	 	
+111,169
+	 
+
+Common stock issued-loan arrangements
+	 	 	
+70,400
+	 	 	 	
+6,577
+	 	 	 	
+-
+	 	 	 	
+-
+	 	 	 	
+-
+	 	 	 	
+-
+	 	 	 	
+-
+	 	 	 	
+6,577
+	 
+
+Net loss for the year
+	 	 	
+-
+	 	 	 	
+-
+	 	 	 	
+-
+	 	 	 	
+-
+	 	 	 	
+-
+	 	 	 	
+(211,221
+	
+)
+	 	 	
+-
+	 	 	 	
+(211,221
+	
+)
+
+
+Translation adjustment
+	 	 	
+-
+	 	 	 	
+-
+	 	 	 	
+-
+	 	 	 	
+-
+	 	 	 	
+-
+	 	 	 	
+-
+	 	 	 	
+20,680
+	 	 	 	
+20,680
+	 
+
+Balance at March 31, 2010
+	 	 	
+12,248,300
+	 	 	 	
+1,066,657
+	 	 	 	
+150,372
+	 	 	 	
+-
+	 	 	 	
+-
+	 	 	 	
+(1,185,487
+	
+)
+	 	 	
+15,429
+	 	 	 	
+46,971
+	 
+
+Common stock issued-loan arrangements
+	 	 	
+272,066
+	 	 	 	
+24,674
+	 	 	 	
+-
+	 	 	 	
+-
+	 	 	 	
+-
+	 	 	 	
+-
+	 	 	 	
+-
+	 	 	 	
+24,674
+	 
+
+Net loss for the year
+	 	 	
+-
+	 	 	 	
+-
+	 	 	 	
+-
+	 	 	 	
+-
+	 	 	 	
+-
+	 	 	 	
+(342,281
+	
+)
+	 	 	
+-
+	 	 	 	
+(342,281
+	
+)
+
+
+Translation adjustment
+	 	 	
+-
+	 	 	 	
+-
+	 	 	 	
+-
+	 	 	 	
+-
+	 	 	 	
+-
+	 	 	 	
+-
+	 	 	 	
+(13,045
+	
+)
+	 	 	
+(13,045
+	
+)
+
+
+Balance at March 31, 2011
+	 	 	
+12,520,366
+	 	 	 	
+1,091,331
+	 	 	 	
+150,372
+	 	 	 	
+-
+	 	 	 	
+-
+	 	 	 	
+(1,527,768
+	
+)
+	 	 	
+2,384
+	 	 	 	
+(283,681
+	
+)
+
+
+Common stock issued-loan arrangements
+	 	 	
+43,336
+	 	 	 	
+4,205
+	 	 	 	
+-
+	 	 	 	
+-
+	 	 	 	
+-
+	 	 	 	
+-
+	 	 	 	
+-
+	 	 	 	
+4,205
+	 
+
+Obligation to issue shares
+	 	 	
+-
+	 	 	 	
+-
+	 	 	 	
+-
+	 	 	 	
+30,906
+	 	 	 	
+-
+	 	 	 	
+-
+	 	 	 	
+-
+	 	 	 	
+30,906
+	 
+
+Net loss for the year
+	 	 	
+-
+	 	 	 	
+-
+	 	 	 	
+-
+	 	 	 	
+-
+	 	 	 	
+-
+	 	 	 	
+(453,888
+	
+)
+	 	 	
+-
+	 	 	 	
+(453,888
+	
+)
+
+
+Translation adjustment
+	 	 	
+-
+	 	 	 	
+-
+	 	 	 	
+-
+	 	 	 	
+-
+	 	 	 	
+-
+	 	 	 	
+-
+	 	 	 	
+16,971
+	 	 	 	
+16,971
+	 
+
+Balance at March 31, 2012
+	 	 	
+12,563,702
+	 	 	 	
+1,095,536
+	 	 	 	
+150,372
+	 	 	 	
+30,906
+	 	 	 	
+-
+	 	 	 	
+(1,981,656
+	
+)
+	 	 	
+19,355
+	 	 	 	
+(685,487
+	
+)
+
+
+Obligation to issue shares
+	 	 	
+-
+	 	 	 	
+-
+	 	 	 	
+-
+	 	 	 	
+135,259
+	 	 	 	
+-
+	 	 	 	
+-
+	 	 	 	
+-
+	 	 	 	
+135,259
+	 
+
+Net loss for the year
+	 	 	
+-
+	 	 	 	
+-
+	 	 	 	
+-
+	 	 	 	
+-
+	 	 	 	
+-
+	 	 	 	
+(1,311,915
+	
+)
+	 	 	
+-
+	 	 	 	
+(1,311,915
+	
+)
+
+
+Translation adjustment
+	 	 	
+-
+	 	 	 	
+-
+	 	 	 	
+-
+	 	 	 	
+-
+	 	 	 	
+-
+	 	 	 	
+-
+	 	 	 	
+17,113
+	 	 	 	
+17,113
+	 
+
+Balance at March 31, 2013
+	 	 	
+12,563,702
+	 	 	 	
+1,095,536
+	 	 	 	
+150,372
+	 	 	 	
+166,165
+	 	 	 	
+-
+	 	 	 	
+(3,293,571
+	
+)
+	 	 	
+36,468
+	 	 	 	
+(1,845,030
+	
+)
+
+
+Conversion of loans
+	 	 	
+6,338,423
+	 	 	 	
+6,338
+	 	 	 	
+627,170
+	 	 	 	
+-
+	 	 	 	
+-
+	 	 	 	
+-
+	 	 	 	
+-
+	 	 	 	
+633,508
+	 
+
+Bonus shares issued
+	 	 	
+1,720,004
+	 	 	 	
+1,720
+	 	 	 	
+164,154
+	 	 	 	
+(165,874
+	
+)
+	 	 	
+-
+	 	 	 	
+-
+	 	 	 	
+-
+	 	 	 	
+-
+	 
+
+Share exchange and recapitalization:
+	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 
+
+Debt conversion
+	 	 	
+5,000,000
+	 	 	 	
+5,000
+	 	 	 	
+563,002
+	 	 	 	
+-
+	 	 	 	
+-
+	 	 	 	
+-
+	 	 	 	
+-
+	 	 	 	
+568,002
+	 
+
+Shares cancelled of WSI
+	 	 	
+(17,907,680
+	
+)
+	 	 	
+(17,908
+	
+)
+	 	 	
+17,908
+	 	 	 	
+-
+	 	 	 	
+-
+	 	 	 	
+-
+	 	 	 	
+-
+	 	 	 	
+-
+	 
+
+Shares issued to former shareholders
+of Rio Plata
+	 	 	
+28,000,000
+	 	 	 	
+28,000
+	 	 	 	
+562,445
+	 	 	 	
+-
+	 	 	 	
+-
+	 	 	 	
+-
+	 	 	 	
+-
+	 	 	 	
+590,445
+	 
+
+Recapitalization adjustment
+	 	 	
+466,551
+	 	 	 	
+(1,082,505
+	
+)
+	 	 	
+(73,809
+	
+)
+	 	 	
+-
+	 	 	 	
+-
+	 	 	 	
+(707,080
+	
+)
+	 	 	
+-
+	 	 	 	
+(1,863,394
+	
+)
+
+
+Forgiveness of related party debt
+	 	 	
+-
+	 	 	 	
+-
+	 	 	 	
+509,723
+	 	 	 	
+-
+	 	 	 	
+-
+	 	 	 	
+-
+	 	 	 	
+-
+	 	 	 	
+509,723
+	 
+
+Compensation expense
+	 	 	
+2,100,000
+	 	 	 	
+2,100
+	 	 	 	
+523,900
+	 	 	 	 	 	 	 	
+-
+	 	 	 	
+-
+	 	 	 	
+-
+	 	 	 	
+526,000
+	 
+
+Net loss for the year
+	 	 	
+-
+	 	 	 	
+-
+	 	 	 	
+-
+	 	 	 	
+-
+	 	 	 	
+-
+	 	 	 	
+(2,016,640
+	
+)
+	 	 	
+-
+	 	 	 	
+(2,016,640
+	
+)
+
+
+Common stock issued for cash
+	 	 	
+5,967,500
+	 	 	 	
+597
+	 	 	 	
+596,153
+	 	 	 	
+-
+	 	 	 	
+(10,000
+	
+)
+	 	 	
+-
+	 	 	 	
+-
+	 	 	 	
+586,750
+	 
+
+Translation adjustment
+	 	 	
+-
+	 	 	 	
+-
+	 	 	 	
+-
+	 	 	 	
+-
+	 	 	 	
+-
+	 	 	 	
+-
+	 	 	 	
+180,311
+	 	 	 	
+180,311
+	 
+
+Balance at March 31, 2014
+	 	 	
+44,248,500
+	 	 	
+$
+	
+38,878
+	 	 	
+$
+	
+3,641,018
+	 	 	
+$
+	
+291
+	 	 	
+$
+	
+(10,000
+	
+)
+	 	
+$
+	
+(6,017,291
+	
+)
+	 	
+$
+	
+216,779
+	 	 	
+$
+	
+(2,130,325
+	
+)
+
+
+
+
+The accompanying notes are an integral part of these consolidated financial statements
+
+
+
+
+
+
+
+
+F-4
+Page 28 of 52
+ 
+
+
+
+
+Silver Stream Mining Corp. (formerly W.S. Industries Inc.)
+(An Exploration Stage Company)
+Consolidated Statements of Cash Flows
+
+
+
+
+ 
+	 	
+	 	 	
+	 	 	
+From August 16,
+	 
+
+ 
+	 	
+	 	 	
+	 	 	
+2006 (Inception)
+	 
+
+ 
+	 	
+Year ended March 31,
+	 	 	
+to March 31
+	 
+
+ 
+	 	
+2014
+	 	 	
+2013
+	 	 	
+2014
+	 
+
+ 
+	 	
+	 	 	
+	 	 	
+	 
+
+Cash flows used in operating activities:
+	 	
+	 	 	
+	 	 	
+	 
+
+Net loss
+	 	
+$
+	
+(2,016,640
+	
+)
+	 	
+$
+	
+(1,311,915
+	
+)
+	 	
+$
+	
+(5,310,211
+	
+)
+
+
+ 
+	 	 	 	 	 	 	 	 	 	 	 	 
+
+Items not affecting cash:
+	 	 	 	 	 	 	 	 	 	 	 	 
+
+Depreciation
+	 	 	
+672
+	 	 	 	
+-
+	 	 	 	
+672
+	 
+
+Accretion of loans
+	 	 	
+86,036
+	 	 	 	
+69,239
+	 	 	 	
+197,555
+	 
+
+Stock-based compensation
+	 	 	
+-
+	 	 	 	
+-
+	 	 	 	
+154,334
+	 
+
+Accrued interest
+	 	 	
+284,643
+	 	 	 	
+-
+	 	 	 	
+676,507
+	 
+
+Gain on debt settlement
+	 	 	
+(1,176,328
+	
+)
+	 	 	
+-
+	 	 	 	
+(1,176,328
+	
+)
+
+
+Consulting fees
+	 	 	
+526,000
+	 	 	 	
+-
+	 	 	 	
+526,000
+	 
+
+Impairment of mineral property
+	 	 	
+957,980
+	 	 	 	
+-
+	 	 	 	
+957,980
+	 
+
+Impairment of IVA receivable
+	 	 	
+263,707
+	 	 	 	
+-
+	 	 	 	
+263,707
+	 
+
+ 
+	 	 	 	 	 	 	 	 	 	 	 	 
+
+Changes in working capital:
+	 	 	 	 	 	 	 	 	 	 	 	 
+
+GST/HST receivable
+	 	 	
+(22,309
+	
+)
+	 	 	
+-
+	 	 	 	
+(263,995
+	
+)
+
+
+IVA receivable
+	 	 	
+-
+	 	 	 	
+(168,027
+	
+)
+	 	 	
+(22,309
+	
+)
+
+
+Prepaid expenses
+	 	 	
+(5,149
+	
+)
+	 	 	
+-
+	 	 	 	
+(7,632
+	
+)
+
+
+Accrued liabilities
+	 	 	
+(23,130
+	
+)
+	 	 	
+6,741
+	 	 	 	
+26,011
+	 
+
+Accounts payable
+	 	 	
+160,004
+	 	 	 	
+206,398
+	 	 	 	
+276,968
+	 
+
+Net cash used in operating activities
+	 	 	
+(964,514
+	
+)
+	 	 	
+(1,197,564
+	
+)
+	 	 	
+(3,700,741
+	
+)
+
+
+ 
+	 	 	 	 	 	 	 	 	 	 	 	 
+
+Cash flows used in investing activities:
+	 	 	 	 	 	 	 	 	 	 	 	 
+
+Mineral property acquisition
+	 	 	
+(45,235
+	
+)
+	 	 	
+(462,744
+	
+)
+	 	 	
+(1,003,215
+	
+)
+
+
+Purchase of equipment
+	 	 	
+(6,497
+	
+)
+	 	 	
+-
+	 	 	 	
+(6,497
+	
+)
+
+
+Acquisition of Redstone Resources shares
+	 	 	
+(83,333
+	
+)
+	 	 	
+-
+	 	 	 	
+(83,333
+	
+)
+
+
+Net cash used in investing activities
+	 	 	
+(135,065
+	
+)
+	 	 	
+(462,744
+	
+)
+	 	 	
+(1,093,045
+	
+)
+
+
+ 
+	 	 	 	 	 	 	 	 	 	 	 	 
+
+Cash flows provided by financing activities:
+	 	 	 	 	 	 	 	 	 	 	 	 
+
+Issuance of common stock
+	 	 	
+586,750
+	 	 	 	
+-
+	 	 	 	
+1,682,286
+	 
+
+Short term loans
+	 	 	
+473,199
+	 	 	 	
+1,767,607
+	 	 	 	
+3,238,981
+	 
+
+Net cash provided by financing activities
+	 	 	
+1,059,949
+	 	 	 	
+1,767,607
+	 	 	 	
+4,921,267
+	 
+
+ 
+	 	 	 	 	 	 	 	 	 	 	 	 
+
+Effects of foreign currency translation
+	 	 	
+(95,989
+	
+)
+	 	 	
+2,141
+	 	 	 	
+(74,493
+	
+)
+
+
+ 
+	 	 	 	 	 	 	
+-
+	 	 	 	 	 
+
+Increase (Decrease) in cash
+	 	 	
+(135,619
+	
+)
+	 	 	
+109,440
+	 	 	 	
+52,988
+	 
+
+ 
+	 	 	 	 	 	 	 	 	 	 	 	 
+
+Cash, beginning
+	 	 	
+188,607
+	 	 	 	
+79,167
+	 	 	 	
+-
+	 
+
+ 
+	 	 	 	 	 	 	 	 	 	 	 	 
+
+Cash, ending
+	 	
+$
+	
+52,988
+	 	 	
+$
+	
+188,607
+	 	 	
+$
+	
+52,988
+	 
+
+ 
+	 	 	 	 	 	 	 	 	 	 	 	 
+
+ 
+	 	 	 	 	 	 	 	 	 	 	 	 
+
+Interest paid in cash
+	 	
+$
+	
+-
+	 	 	
+$
+	
+-
+	 	 	 	 	 
+
+Income taxes paid in cash
+	 	
+$
+	
+-
+	 	 	
+$
+	
+-
+	 	 	 	 	 
+
+
+
+
+The accompanying notes are an integral part of these consolidated financial statements
+
+
+F-5
+Page 29 of 52
+ 
+
+
+
+
+Silver Stream Mining Corp. (formerly W.S. Industries Inc.)
+(An Exploration Stage Company)
+NOTES TO THE CONSOLIDATED FINANCIAL STATEMENTS
+March 31, 2014
+
+
+NOTE 1 â€“ BASIS OF PRESENTATION
+
+
+Silver Stream Mining Corp. (the "Company") entered into an Agreement (the "Agreement") with Rio Plata Exploration Inc. ("Rio Plata"), a private corporation incorporated under the laws of British Columbia, Canada; and certain holders of the Company's convertible promissory notes (the "Debt Holders") on May 14, 2013 (Note 5).
+
+
+Rio Plata is in the exploration stage and has an option to purchase 100% of the Metates property, an unproved mineral property, in the State of Sinaloa, Mexico and an option to purchase an 80% undivided interest in the Solomon Pillars Gold Property located in Townships of Walters and Leduc in Beardmore, Ontario (Note 3).
+
+
+Pursuant to the Agreement, the Company agreed to acquire all of the issued and outstanding shares of common stock of Rio Plata by issuing 28,000,000 shares of its common stock and, as a result, the former shareholders of Rio Plata will control approximately 77% of the issued and outstanding common shares of the Company. The acquisition is a reverse takeover ("RTO") and therefore has been accounted for using the acquisition method with Rio Plata as the accounting acquirer (legal subsidiary) and continuing entity for accounting and financial reporting purposes, and the Company as the legal parent (accounting subsidiary) (Note 5).
+
+
+Effective with the acquisition, the Debt Holders of the Company consented to the conversion of $568,002 of convertible notes into 5,000,000 shares of the Company. The fair value of assets acquired and liabilities assumed by Rio Plata are as follows:
+
+
+Cash
+	 	
+$
+	
+67
+	 
+
+Equipment
+	 	 	
+87
+	 
+
+Accounts payable and accrued liabilities
+	 	 	
+(446,543
+	
+)
+
+
+Loans and advances payable
+	 	 	
+(144,056
+	
+)
+
+
+ 
+	 	
+$
+	
+(590,445
+	
+)
+
+
+In conjunction with the Agreement, at the effective time of the reverse merger on May 14, 2013, the Company changed its year end from August 31st to March 31st.
+
+
+The Company's consolidated financial statements are prepared on a going concern basis in accordance with generally accepted accounting principles of the United States of America ("GAAP"), which contemplates the realization of assets and discharge of liabilities and commitments in the normal course of business.  The Company is in the exploration stage and has not generated operating revenues to date.  The Company has funded its operations through the issuance of common stock and debt.  Management plans to raise additional funds through equity and/or debt financings.  There is no certainty that further funding will be available as needed.  The Company is also delinquent on the repayment of certain short term loans and option payments on its main mineral property. These factors raise substantial doubt about the ability of the Company to continue operations as a going concern.  The Company's ability to continue its operations as a going concern, realize the carrying value of its assets, and discharge its liabilities in the normal course of business is dependent upon its ability to raise new capital sufficient to fund its commitments and ongoing losses, and ultimately on generating profitable operations.
+
+
+NOTE 2 â€“ SUMMARY OF SIGNIFICANT ACCOUNTING POLICIES
+
+
+Accounting Estimates
+The preparation of financial statements in conformity with GAAP requires management to make estimates and assumptions that affect certain of the reported amounts of assets and liabilities, disclosure of contingent assets and liabilities at the date of the financial statements and the reported amounts of revenues and expenses during the year. The Company regularly evaluates estimates and assumptions. The Company bases its estimates and assumptions on current facts, historical experience and various other factors it believes to be reasonable under the circumstances, the results of which form the basis for making judgments about the carrying values of assets and liabilities and the accrual of costs and expenses that are not readily apparent from other sources. The actual results experienced by the Company may differ materially and adversely from the Company's estimates. To the extent there are material differences between the estimates and the actual results, future results of operations will be affected. The most significant estimates with regard to these financial statements relate to the carrying values of unproven mineral properties, determination of fair values of stock based transactions and deferred income tax rates.
+Page 30 of 52
+ 
+
+
+
+
+Asset Retirement Obligations
+The Company records the fair value of an asset retirement obligation as a liability in the period in which it incurs an obligation associated with the retirement of tangible long-lived assets that result from the acquisition, construction, development and/or normal use of the assets. The estimated fair value of the asset retirement obligation is based on the current cost escalated at an inflation rate and discounted at a credit adjusted risk-free rate. This liability is capitalized as part of the cost of the related asset and amortized over its useful life.  The liability accretes until the Company settles the obligation.  To date the Company has not incurred any measurable asset retirement obligations.
+
+
+Consolidation
+The consolidated financial statements include the accounts of the Company and its wholly owned subsidiary, Rio Plata.  Control occurs when the Company is exposed to, or has right to, variable returns from its involvement with an investee and has the ability to affect those returns through its power over the investee.
+
+
+Equipment
+Equipment is stated at historical cost less accumulated depreciation and accumulated impairment losses.
+
+
+Subsequent costs are included in the asset's carrying amount or recognized as a separate asset, as appropriate, only when it is probable that future economic benefits associated with the item will flow to the Company and the cost of the item can be measured reliably. The carrying amount of the replaced part is derecognized. All other repairs and maintenance are charged to the statement of comprehensive loss during the financial period in which they are incurred.
+
+
+Gains and losses on disposals are determined by comparing the proceeds with the carrying amount and are recognized in the statement of comprehensive loss.
+
+
+The Company's equipment consists of computer equipment and is amortized on a declining basis at 30%.
+
+
+Long Lived Assets
+The carrying value of intangible assets and other long-lived assets is reviewed on a regular basis for the existence of facts or circumstances that may suggest impairment. The Company recognizes impairment when the sum of the expected undiscounted future cash flows is less than the carrying amount of the asset or when the carrying value is greater than the fair value of the asset. Impairment losses, if any, are measured as the excess of the carrying amount of the asset over its estimated fair value.
+
+
+Fair Value of Financial Instruments
+The estimated fair values for financial instruments are determined at discrete points in time based on relevant market information. These estimates involve uncertainties and cannot be determined with precision. The estimated fair value of cash, trade payables, and loans approximates their carrying value due to their short-term nature.
+
+
+Foreign Currency Translation and Transactions
+The functional currency of the Company is the Canadian dollar. The Company translates assets and liabilities to Canadian dollars using year-end exchange rates, translates unproved mineral properties and equity accounts using historical exchange rates, and translates revenues and expenses using average exchange rates during the period. Exchange gains and losses arising from the translation of the Mexican subsidiary's financial statements are recorded to profit and loss.  
+
+
+The reporting currency is the US Dollar. Assets and liabilities denominated in currencies other than the US Dollar are translated to the US Dollar equivalent using the year end exchange rate. Stockholders equity accounts are translated to US Dollars using the historical exchange rates. Revenues and expenses are translated using average exchange rates during the period. Exchange gains and losses arising from the translation to the reporting currency are recorded within the cumulative translation adjustment account.
+
+
+Loss per Share
+The Company presents both basic and diluted loss per share ("LPS") on the face of the statements of operations. Basic LPS is computed by dividing net loss available to common shareholders by the weighted average number of shares outstanding during the year. Diluted LPS gives effect to all dilutive potential common shares outstanding during the period including convertible debt, stock options, and warrants, using the treasury stock method. Diluted LPS excludes all dilutive potential shares if their effect is anti-dilutive.
+
+
+Page 31 of 52
+ 
+
+
+
+
+Income Taxes
+Income taxes are determined using the liability method.  Deferred tax assets and liabilities are recognized for the future tax consequences attributable to differences between the financial statement carrying amounts of assets and liabilities and their respective tax basis. Deferred tax assets and liabilities are measured using the enacted tax rates expected to apply to taxable income in the years in which those temporary differences are expected to be recovered or settled.  The effect on deferred tax assets and liabilities of a change in tax rates is recognized in income in the period that includes that date of enactment.  In addition, a valuation allowance is established to reduce any deferred tax asset for which it is determined that it is more likely than not that some portion of the deferred tax asset will not be realized.
+
+
+The Company accounts for uncertainty in income taxes by applying a two-step method. First, it evaluates whether a tax position has met a more likely than not recognition threshold, and second, it measures that tax position to determine the amount of benefit, if any, to be recognized in the financial statements. The application of this method did not have a material effect on the Company's financial statements.
+
+
+Mineral Properties
+Realization of the Company's investment in and expenditures on mineral properties is dependent upon the establishment of legal ownership, the attainment of successful production from the properties or from the proceeds of their disposal.
+
+
+Title to mineral properties involves certain inherent risks due to the difficulties of determining the validity of certain claims as well as the potential for problems arising from the frequently ambiguous conveyancing history characteristics of many mineral properties. To the best of its knowledge, the Company believes all of its unproved mineral interests are in good standing and that it has title to all of these mineral interests.
+
+
+The Company classifies its mineral rights as tangible assets, and, accordingly, acquisition costs are capitalized as mineral property costs. Long-lived assets are to be reviewed for impairment whenever events or changes in circumstances indicate that the carrying amount of an asset may not be recoverable. In performing the review for recoverability, the Company is to estimate the future cash flows expected to result from the use of the asset and its eventual disposition. If the sum of the undiscounted expected future cash flows is less than the carrying amount of the asset, an impairment loss is recognized. Mineral exploration costs are expensed as incurred until commercially mineable deposits are determined to exist within a particular property.
+
+
+Stock Options and Other Share-Based Compensation
+For equity awards, such as stock options, total compensation cost is based on the grant date fair value, and for liability awards, such as stock appreciation rights, total compensation cost is based on the settlement value. The company recognizes stock-based compensation expense for all awards over the service period required to earn the award, which is the shorter of the vesting period or the time period an employee becomes eligible to retain the award at retirement.
+
+
+Recently Adopted Accounting Guidance
+The Company has reviewed recently issued accounting pronouncements and plans to adopt those that are applicable to it. It does not expect the adoption of these pronouncements to have a material impact on its financial position, results of operations or cash flows.
+
+
+NOTE 3 â€“ EQUIPMENT
+
+
+ 
+	 	
+Computer Equipment
+	 
+
+Cost:
+	 	
+	 
+
+At March 31, 2013
+	 	
+$
+	
+-
+	 
+
+Additions for the year
+	 	 	
+6,497
+	 
+
+At March 31, 2014
+	 	 	
+6,497
+	 
+
+Depreciation:
+	 	 	 	 
+
+At March 31, 2013
+	 	 	
+-
+	 
+
+Charge for the year
+	 	 	
+672
+	 
+
+At March 31, 2014
+	 	 	
+672
+	 
+
+Net book value:
+	 	 	 	 
+
+At March 31, 2013
+	 	 	
+-
+	 
+
+At March 31, 2014
+	 	
+$
+	
+5,825
+	 
+Page 32 of 52
+ 
+
+
+
+
+NOTE 4 â€“ UNPROVED MINERAL PROPERTIES
+
+
+ 
+	 	
+Metates
+	 	 	
+Solomon Pillars
+	 	 	
+Total
+	 
+
+March 31, 2012
+	 	
+$
+	
+495,236
+	 	 	
+$
+	
+-
+	 	 	
+$
+	
+495,236
+	 
+
+Acquisition-option payments
+	 	 	
+462,744
+	 	 	 	
+-
+	 	 	 	
+462,744
+	 
+
+March 31, 2013
+	 	 	
+957,980
+	 	 	 	
+-
+	 	 	 	
+957,980
+	 
+
+Acquisition-option payments
+	 	 	
+-
+	 	 	 	
+45,235
+	 	 	 	
+45,235
+	 
+
+Impairment
+	 	 	
+(957,980
+	
+)
+	 	 	
+-
+	 	 	 	
+(957,980
+	
+)
+
+
+March 31, 2014
+	 	
+$
+	
+-
+	 	 	
+$
+	
+45,235
+	 	 	
+$
+	
+45,235
+	 
+
+
+a)
+	
+Metates
+On June 9, 2008, and as amended on August 27, 2010 and April 24, 2013, the Company entered into an Option Agreement (the "Option Agreement") providing the right to acquire up to a 100% interest in mineral claims located in Mazatlan, Sinaloa, Mexico. Under the terms of the Option Agreement, covering the Metates Project claim group and any new claims within an agreed upon area of interest, the Company has an option to purchase a 100% interest in mining concessions by making the following payments (plus applicable Value Added Taxes):
+
+
+$
+	
+750,000
+	 	
+(paid);
+
+
+$
+	
+450,000
+	 	
+Due July 15, 2013 (not paid); and
+
+
+$
+	
+2,000,000
+	 	
+Due July 15, 2014.
+
+
+Since the Company did not make the payment by July 15, 2013 above, the payment terms revert to the following:
+
+
+$
+	
+450,000
+	 	
+Due July 15, 2013 (not paid);
+
+
+$
+	
+600,000
+	 	
+Due January 15, 2014(not paid);
+
+
+$
+	
+650,000
+	 	
+Due July 15, 2014;
+
+
+$
+	
+750,000
+	 	
+Due January 15, 2015; and
+
+
+$
+	
+2,000,000
+	 	
+Due January 15, 2016.
+
+
+Under the Option Agreement, the Company shall pay a royalty of 0.5% calculated on the Net Smelter Returns ("NSR") as long as the option is exercised by January 15, 2014. If the option is not exercised by that date, the royalty shall be 0.33% calculated on the NSR on the minerals extracted on the concessions.
+
+
+In addition, the Company is entitled to a net production royalty of 20% from the tailings and ore refined by the optionor from the effective date of the agreement. The Company has a pledge of the optionor's production assets as a performance guarantee.
+
+
+The Option Agreement will terminate: (i) at any time during the term of the Option Agreement by the Company giving 15 days notice to the Optionor; or (ii) upon election of a party if the other party is in breach of any of its obligations under the Metates Option Agreement and the default has not been cured by the defaulting party within 30 days of notice of default.
+
+
+The Company did not make the $450,000 payment due July 15, 2013 and the Option Agreement is in default; therefore, the property was fully impaired during the year ended March 31, 2014.
+
+
+b)
+	
+Solomon Pillars Gold Property
+On November 5, 2013, the Company entered into an agreement for the right to acquire an initial 55% undivided interest and an additional 25% (for a total of 80%) undivided interest in the Solomon Pillars Gold Property located in Townships of Walters and Leduc in Beardmore, Ontario in consideration for making the following payments:
+
+
+$ CAD25,000
+	
+Upon signing the agreement (paid);
+
+
+$ CAD30,000
+	
+Due November 5, 2014 (in cash or shares at the Company's option); and
+
+
+$ CAD40,000
+	
+Due November 5, 2015 (in cash or shares at the Company's option).
+
+
+The Company must also incur exploration expenditures as follows:
+Â·
+	
+$CAD50,000 in exploration expenditures by November 5, 2014;
+Â·
+	
+An additional $CAD100,000 in exploration expenditures by November 5, 2015; and
+Â·
+	
+An additional $CAD150,000 in exploration expenditures by November 5, 2016.
+Page 33 of 52
+ 
+
+
+ In addition, the Company has to pay annual royalty payments of $CAD25,000. The payment for fiscal 2014 has been made.
+
+
+The Company has the exclusive right to a one-time option to increase the undivided interest from 55% to 80% by making a payment of $250,000 within 90 days of completing the initial earn-in and exercising of the option. Once the initial interest is earned by the Company in the Solomon Pillars Gold Property, the Company and the optionor will fund continuing exploration and development costs on a pro-rata basis according to their equity in the Solomon Pillars Property. The Company will be the project operator.
+
+
+The Solomon Pillars Gold Property is divided into two sets of claims each with a different royalty structure. The "Solomon Pillars" on the eastern section of the Solomon Pillars Property has an NSR of 1%. The "King Solomon Pillars" on the western section of the Solomon Pillars Property has a 3% NSR on precious metals with a 1% buyback provision for $CAD1,500,000 and is subject to a $CAD25,000 annual advance royalty payment preceding the commencement of commercial production.
+
+
+The Agreement may be terminated in the event any of the payments set forth above are not paid, or upon written notice by the Company.
+
+
+NOTE 5 â€“ SHORT-TERM LOANS PAYABLE
+
+
+Details of the loan balance outstanding:
+
+
+Maturity Date
+	 	
+March 31, 2014
+	 	 	
+March 31, 2013
+	 
+
+ 
+	
+ 
+	 	
+	 	 	
+	 
+
+Short term loans payable - face value
+	
+12/31/10 (i), (ii), (iv), (v)
+	 	
+$
+	
+23,070
+	 	 	
+$
+	
+78,768
+	 
+
+  01/31/11 (i), (ii), (iv), (v)
+	 	 	
+-
+	 	 	 	
+50,214
+	 
+
+  03/01/11 (i), (ii), (iv), (v)
+	 	 	
+-
+	 	 	 	
+5,908
+	 
+
+  03/31/11 (i), (ii), (iv), (v)
+	 	 	
+49,668
+	 	 	 	
+178,262
+	 
+
+  08/31/11 (i), (ii), (iv), (v)
+	 	 	
+104,041
+	 	 	 	
+113,229
+	 
+
+  12/31/12 (i), (ii), (iv), (v)
+	 	 	
+239,746
+	 	 	 	
+457,839
+	 
+
+  08/17/13 (i), (ii), (iv), (v)
+	 	 	
+-
+	 	 	 	
+393,840
+	 
+
+   12/31/13 (i), (ii), (v)
+	 	 	
+-
+	 	 	 	
+147,690
+	 
+
+   04/30/14 (i), (ii), (v)
+	 	 	
+1,106,448
+	 	 	 	
+1,388,286
+	 
+
+   On demand   (iii), (v)
+	 	 	
+67,325
+	 	 	 	
+-
+	 
+
+Unamortized equity consideration
+	
+ 
+	 	 	
+-
+	 	 	 	
+(87,124
+	
+)
+
+
+Balance
+	
+ 
+	 	
+$
+	
+1,590,298
+	 	 	
+$
+	
+2,726,912
+	 
+
+
+(i)                  At March 31, 2014 these loans had matured, are in default and are due on demand.
+
+
+(ii)                Accrues interest at 15% per annum, calculated semi-annually, and is unsecured.
+
+
+(iii)               Due to a former director of the Company, is non interest bearing and is unsecured.
+
+
+(iv)
+	
+As additional consideration, bonus common shares are to be issued to the lenders. Management estimated the fair value of the shares based on inputs such as the most recent share subscriptions.
+
+
+During the year ended March 31, 2014, and prior to the RTO, the Company issued 1,720,004 bonus shares owing under its loan agreements to various debt holders. The fair value of the bonus shares issued was estimated to be $165,874.
+
+
+During the year ended March 31, 2014, and prior to the RTO, various debt holders converted loans in the principal amount of $1,591,192 plus interest to 6,338,423 common shares. The fair value of the shares issued was estimated to be $602,974. Accordingly, a gain on the conversion of the debt of $1,176,328 was recorded.  $46,704 of the loans converted were due to a director of the Company. The gain on the settlement of the related party debt of $30,534 has been recorded in additional paid in capital.
+
+
+(v)
+	
+The loans may be converted to common shares of the Company at the option of the holder at the Company's next financing at the same terms of the financing.
+Page 34 of 52
+ 
+
+
+NOTE 6 â€“ COMMON STOCK
+
+
+Authorized: 150,000,000 $0.001 par value.
+Issued and outstanding 44,248,500.
+
+
+In accordance with the Agreement, the Debt Holders converted $568,002 of convertible notes into 5,000,000 shares of the Company in effecting the RTO. The accounting acquirer (Rio Plata) is the continuing entity. Accordingly, the capital accounts of the Company were eliminated, except where par value requirements were to be maintained for share capital.
+
+
+Effective with the Agreement, the Company also issued 28,000,000 shares of common stock to the Rio Plata shareholders to acquire all of the issued and outstanding shares of common stock of Rio Plata.
+
+
+On September 5, 2013, the Company entered into 3 consulting agreements for a term of 1 year. Under the agreements, the Company is to issue 400,000 shares to each of the consultants as a signing bonus to be issued to them at the time of their choosing during the term of the agreement. During the year ended March 31, 2014, the Company issued 1,200,000 shares with a fair value of $120,000 to the consultants.
+
+
+On September 5, 2013 the Company issued 100,000 shares with a fair value of $10,000 to a director of the Company as compensation for management fees.
+
+
+On November 1, 2013, the Company entered into a consulting agreement for a term of 1 year. Under the agreement, the Company is to issue 400,000 shares to the consultant as a signing bonus to be issued to him at the time of his choosing during the term of the agreement. During the year ended March 31, 2014, the Company issued 400,000 shares with a fair value of $60,000 to the consultant.
+
+
+On March 26, 2014, the Company completed the sale of 5,967,500 units at a price of $0.10 per unit, with each unit being comprised of one share of common stock and one-half of a share purchase warrant with each full warrant exercisable to acquire one share at a price of $0.25 per share for a period of 24 months. Total gross proceeds were $596,750. $10,000 of the subscriptions was received subsequent to the year ended March 31, 2014.
+
+
+On March 31, 2014, the Company entered into a consulting agreement for a term of 1 year. Under the agreement, the Company is to issue 400,000 shares to the consultant as a signing bonus to be issued to him at the time of his choosing during the term of the agreement. During the year ended March 31, 2014, the Company issued 400,000 shares with a fair value of $336,000 to the consultant.
+
+
+NOTE 7 â€“ RELATED PARTY DISCLOSURES
+
+
+As at March 31, 2014, $46,424 (2013 - $11,082) due to directors of the Company were included in trade payables.
+
+
+During the year ended March 31, 2014, rent of $12,866 (2013 - $11,815), management fees of $19,004 (2013 - $29,538) and consulting fees of $82,078 (2013 - $Nil) was paid to companies owned by  directors of the Company, management fees of $10,000 (2013 - $Nil) were paid to a director of the Company through the issuance of 100,000 shares, and consulting fees of $47,272 (2013 - $Nil) were paid to the President of the Company.
+
+
+During the year ended March 31, 2014, the Company was forgiven related party advances of $509,723. The gain on the settlement of the related party debt has been recorded in additional paid in capital.
+
+
+NOTE 8 â€“ INVESTMENT IN REDSTONE
+
+
+On March 20, 2014, the Company entered into a subscription agreement with Redstone Resources Corporation, a Nevada corporation, ("Redstone") to acquire 2,500,000 shares of Redstone's common stock at a price of $0.20 per share for $500,000 to be paid in 6 monthly installments of $83,333. As at March 31, 2014, the Company has made the first monthly payment of $83,333 and has received 416,665 shares of Redstone. On May 9, 2014, the Company entered into a definitive agreement with Redstone (Note 9).
+
+
+Page 35 of 52
+ 
+
+
+
+
+NOTE 9 â€“ INCOME TAXES
+
+
+The provision for income taxes reported differs from the expected amounts computed by applying blended Canadian federal and provincial income tax rates with Mexican corporate tax rates to the loss before tax provision due to the following:
+
+
+ 
+	 	
+March 31, 2014
+	 	 	
+March 31, 2013
+	 
+
+Loss before income taxes
+	 	
+$
+	
+(2,016,640
+	
+)
+	 	
+$
+	
+(1,311,915
+	
+)
+
+
+Statutory tax rate
+	 	 	
+34.00
+	
+%
+	 	 	
+27.50
+	
+%
+
+
+Expected recovery of income taxes at statutory tax rates
+	 	 	
+(685,658
+	
+)
+	 	 	
+(360,777
+	
+)
+
+
+Permanent differences
+	 	 	
+15,422
+	 	 	 	
+-
+	 
+
+Change in valuation allowance
+	 	 	
+890,082
+	 	 	 	
+327,979
+	 
+
+Impact of change in tax rates
+	 	 	
+(219,847
+	
+)
+	 	 	
+32,798
+	 
+
+Income tax recovery
+	 	
+$
+	
+-
+	 	 	
+$
+	
+-
+	 
+
+
+Temporary differences that give rise to the Company's deferred income tax assets and liabilities are as follows:
+
+
+ 
+	 	
+March 31, 2014
+	 	 	
+March 31, 2013
+	 
+
+ 
+	 	
+	 	 	
+	 
+
+Components of deferred tax assets and liabilities:
+	 	
+	 	 	
+	 
+
+Non-capital loss carry forwards and miscellaneous deductions
+	 	
+$
+	
+1,500,767
+	 	 	
+$
+	
+610,685
+	 
+
+Less: Valuation allowance
+	 	 	
+(1,500,767
+	
+)
+	 	 	
+(610,685
+	
+)
+
+
+ 
+	 	 	 	 	 	 	 	 
+
+Net deferred tax asset
+	 	
+$
+	
+-
+	 	 	
+$
+	
+-
+	 
+
+
+As at March 31, 2014, the Company had non-capital losses of approximately $4,400,000 which may be available to offset taxes on future income.  These losses expire as follows:
+2027
+	 	
+$
+	
+35,000
+	 
+
+2028
+	 	 	
+42,904
+	 
+
+2029
+	 	 	
+89,210
+	 
+
+2030
+	 	 	
+164,058
+	 
+
+2031
+	 	 	
+296,857
+	 
+
+2032
+	 	 	
+502,796
+	 
+
+2033
+	 	 	
+1,311,915
+	 
+
+2034
+	 	 	
+1,971,281
+	 
+
+ 
+	 	
+$
+	
+4,414,021
+	 
+
+
+The potential tax benefits of these losses have not been reflected in these consolidated financial statements due to the uncertainty of their realization.
+
+
+NOTE 10 â€“ SUBSEQUENT EVENTS
+
+
+a)
+	
+On March 31, 2014, the Company entered into a consulting agreement with a term ending on January 31, 2015. Under the terms of the agreement, the consultant will receive (i) options to acquire up to 2,000,000 shares of common stock at an exercise price of $0.10 per share exercisable for a period of 5 years; (ii) an allotment of shares for each property acquisition identified by the consultant and completed by the Company, or sale of a property where the purchaser is identified by the consultant; (iii) a monthly consulting fee of $15,000 per month; and, (iv) participation in the stock option plan on an annual basis with an initial 200,000 options issued to the consultant with an exercise price of $0.25 per share.
+
+
+On April 22, 2014, this consulting agreement was revised. The consultant will receive (i) options to acquire up to 2,000,000 shares of common stock at an exercise price of $0.10 per share exercisable for a period of 5 years; (ii) an option to acquire shares of common stock for $0.01 per share for a period of 5 years for each mining property acquisition where the purchaser is identified in whole or in part by the consultant; (iii) a monthly consulting fee of $15,000 per month; and, (iv) participation in the stock option plan on an annual basis with an initial 200,000 options to issue to the consultant with an exercise price of $0.25 per share. The agreement has a term ending on January 31, 2015.
+
+
+b)
+	
+On April 17, 2014, the Company entered into seven agreements to convert $230,375 of debt owed to 2,303,750 units. Each unit is comprised of one share of common stock and one-half redeemable warrant. Each full warrant is exercisable into one restricted common share at the price of $0.25 for two years. The warrants are redeemable by the Company if the stock trades above $0.40 for five consecutive trading days.
+Page 36 of 52
+ 
+
+
+	
+c)
+	
+On May 9, 2014, the Company entered into a definitive agreement with Redstone to acquire 100% of the total outstanding shares of common stock of Redstone. Redstone currently owns the Zonia Copper Project located in Yavapai County, Arizona.
+
+
+Under the terms of the agreement, the Company will be making a $500,000 First Tranche investment into Redstone over six monthly installments of $83,333 and acquire 2,500,000 shares of Redstone's common stock at a price of $0.20 per share for a 4.94% equity position.
+
+
+Upon completion of the First Tranche investment, the Company will make a $1,500,000 Second Tranche investment to acquire an additional 7,500,000 shares of Redstone's common stock at a price of $0.20 for a 19.76% total equity position in Redstone.
+
+
+Upon completion of the Second Tranche investment, the Company will have twelve months to complete a Third Tranche investment of $4,500,000 to acquire an additional 22,500,000 shares of Redstone's common stock at a price of $0.20 per share for a 44.45% total equity position in Redstone.
+
+
+Convertible warrants will also be received from Redstone which will allow the Company to acquire additional shares of common stock that will result, if exercised, in the Company's ownership interest in Redstone to increase to 62.3%.
+
+
+The Company will have the ability to increase the total percentage ownership in Redstone to 75% for consideration of $3,373,851. The Company can increase its ownership of Redstone to 100% by purchasing the remaining outstanding shares of common stock of Redstone for consideration of $6,426,149, or 7% of the net present value as determined by the Feasibility Study on the Zonia property.
+
+
+In the event that the Company does not convert the warrants into common stock, Redstone will have the right and option to purchase in one or more transactions up to 100% of the securities acquired by the Company in the Second and Third Tranche purchase transactions at a cost equal to the Company's total investment in the shares that Redstone elects to repurchase.
+
+
+d)
+	
+On May 16, 2014, the Company entered into an agreement with Placer Mining Corporation, a Nevada corporation ("Placer"), which owns a certain mining property known as the Bunker Hill Mine, near Kellogg, Idaho ("Bunker" or the "Property") in which the Company will have the exclusive right to evaluate and perform due diligence on the Property until August 15, 2014 (the "Review Period").  Upon completion of the Review Period, the parties expect to negotiate and enter into option and exclusivity agreements (the "Option Agreements") whereby the Company can acquire the interests of Placer shareholders upon satisfaction of certain terms and conditions to be negotiated.
+
+
+During the Review Period, Placer agrees it will not, directly or indirectly, solicit, initiate, assist, facilitate, promote or encourage proposals or offers from, entertain or enter into discussions or negotiations with, or provide information relating to the Property, including, but not limited to any and all due diligence materials, to any persons, entity or group in connection with the sale of the Property or any interest therein, or any amalgamation, merger, consolidation, arrangement, or sale of all or substantially all of the assets of Placer.
+
+
+In consideration for the Review Period, the Company will pay Placer the sum of $60,000 per month, on a payment schedule of $15,000 per week on May 16, 2014, with payments concluding Friday, August 1, 2014. However, the Review Period will extend until August 15, 2014.  The Company will have a seven day grace period in the event a payment to Placer is delayed for any reason. If a payment is delayed beyond the seven day grace period, the Agreement will automatically terminate, and neither Placer nor the Company will have any obligation to one another from that date forward. To date, $15,000 has been paid.
+
+
+In the event Placer terminates this Agreement in order to accept another offer, or for any reason whatsoever, then Placer will pay the Company a breakup fee in the amount of $5,000,000 within fifteen days of notifying the Company in writing of such termination.
+
+
+e)	On June 30, 2014, the Company renegotiated $1,022,286 of its short-term loans payable (note 5).  The maturity date of the loans has been changed to either the earlier of 1) Thirty days after a public offering of at least $3 million, or 2) April 30, 2017.  The interest rate from July 1, 2014 to repayment has been reduced from 15% per annum to 10% per annum, calculated semi-annually.
+
+
+Page 37 of 52
+ 
+
+
+
+
+ITEM 9.	CHANGES IN AND DISAGREEMENTS WITH ACCOUNTANTS ON ACCOUNTING AND FINANCIAL DISCLOSURE.
+
+
+There have been no disagreements on accounting and financial disclosures from the inception of our company through the date of this Form 10-K. Our financial statements for the last two fiscal years ended March 31, 2014 and 2013 have been audited by Dale Matheson Carr-Hilton Labonte LLP ("DMCL") and included in this report have been audited by DMCL, as set forth in this annual report.
+
+
+On June 11, 2013, our board of directors terminated the engagement of BDO Canada LLP ("BDO") as our independent registered accounting firm, further to the reverse merger completed on May 14, 2013 with Rio Plata Exploration Corp. This action effectively dismisses BDO as our independent registered accounting firm for the fiscal year ended March 31, 2013.
+
+
+BDO's reports on our consolidated financial statements for the fiscal years ended August 31, 2012 and 2011 did not contain an adverse opinion or a disclaimer of opinion and were not qualified or modified as to uncertainty, audit scope or accounting principles, except that the report included an explanatory paragraph relating to an uncertainty as to our ability to continue as a going concern. Furthermore, during our two most recent fiscal years and through June 11, 2013, there have been no disagreements with BDO on any matter of accounting principles or practices, financial statement disclosure or auditing scope or procedure, which disagreements, if not resolved to BDO's satisfaction, would have caused BDO to make reference to the subject matter of the disagreement in connection with its reports on our consolidated financial statements for such periods.
+
+
+For the years ended August 31, 2012 and 2011 and through June 11, 2013, there were no "reportable events" as that term is described in Item 304(a)(1)(v) of Regulation S-K.   
+
+
+We provided BDO with a copy of the foregoing disclosure prior to its filing with the Securities and Exchange Commission (the "Commission") and requested that BDO furnish us with a letter addressed to the Commission stating whether or not it agrees with the statements above and, if not, stating the respects in which it does not agree. A copy of BDO's letter to the Commission is attached as an exhibit to our amended Form 8-K filed with the SEC on June 27, 2013.
+
+
+On June 11, 2013, our Board of Directors appointed Dale Matheson Carr-Hilton Labonte LLP ("DMCL") as the Company's new independent registered accounting firm. During our two most recent fiscal years and through June 11, 2013, neither we nor anyone acting on our behalf consulted DMCL with respect to any of the matters or reportable events set forth in Item 304(a)(2)(i) and (ii) of Regulation S-K. DMCL was the independent registered accounting firm of Rio Plata Exploration Corp. prior to the completion of our reverse merger of the with Rio Plata on May 14, 2013.
+
+
+
+
+ITEM 9A.                     CONTROLS AND PROCEDURES.
+
+
+Evaluation of Disclosure Controls and Procedures
+
+
+We maintain "disclosure controls and procedures," as such term is defined in Rule 13a-15(e) under the Securities Exchange Act of 1934 (the "Exchange Act"), that are designed to ensure that information required to be disclosed in our Exchange Act reports is recorded, processed, summarized and reported within the time periods specified in the Securities and Exchange Commission rules and forms, and that such information is accumulated and communicated to our management, including our Chief Executive Officer and Chief Financial Officer, as appropriate, to allow timely decisions regarding required disclosure. We conducted an evaluation (the "Evaluation"), under the supervision and with the participation of our Chief Executive Officer ("CEO") and Chief Financial Officer ("CFO"), of the effectiveness of the design and operation of our disclosure controls and procedures ("Disclosure Controls") as of the end of the period covered by this report pursuant to Rule 13a-15 of the Exchange Act. Based on this Evaluation, our CEO and CFO concluded that our Disclosure Controls were effective as of the end of the period covered by this report.
+
+
+Limitations on the Effectiveness of Controls
+
+
+Our management, including our CEO and CFO, does not expect that our Disclosure Controls and internal controls will prevent all errors and all fraud. A control system, no matter how well conceived and operated, can provide only reasonable, not absolute, assurance that the objectives of the control system are met. Further, the design of a control system must reflect the fact that there are resource constraints, and the benefits of controls must be considered relative to their costs. Because of the inherent limitations in all control systems, no evaluation of controls can provide absolute assurance that all control
+Page 38 of 52
+ 
+
+
+
+
+issues and instances of fraud, if any, within the Company have been detected. These inherent limitations include the realities that judgments in decision-making can be faulty, and that breakdowns can occur because of a simple error or mistake. Additionally, controls can be circumvented by the individual acts of some persons, by collusion of two or more people, or by management or board override of the control.
+
+
+The design of any system of controls also is based in part upon certain assumptions about the likelihood of future events, and there can be no assurance that any design will succeed in achieving its stated goals under all potential future conditions; over time, controls may become inadequate because of changes in conditions, or the degree of compliance with the policies or procedures may deteriorate. Because of the inherent limitations in a cost-effective control system, misstatements due to error or fraud may occur and not be detected.
+
+
+CEO and CFO Certifications
+
+
+Appearing immediately following the Signatures section of this report are Certifications of the CEO and the CFO. The Certifications are required in accordance with Section 302 of the Sarbanes-Oxley Act of 2002 (the Section 302 Certifications). This Item of this report, which you are currently reading, is the information concerning the Evaluation referred to in the Section 302 Certifications, and this information should be read in conjunction with the Section 302 Certifications for a more complete understanding of the topics presented.
+
+
+Management's Report on Internal Control over Financial Reporting
+
+
+Our management is responsible for establishing and maintaining adequate internal control over financial reporting, as such term is defined in Exchange Act Rule 13a-15(f). The Company's internal control over financial reporting is a process designed to provide reasonable assurance to our management and board of directors regarding the reliability of financial reporting and the preparation of the financial statements for external purposes in accordance with accounting principles generally accepted in the United States of America.
+
+
+Our internal control over financial reporting includes those policies and procedures that (i) pertain to the maintenance of records that, in reasonable detail, accurately and fairly reflect the transactions and dispositions of the assets of the Company; (ii) provide reasonable assurance that transactions are recorded as necessary to permit preparation of financial statements in accordance with accounting principles generally accepted in the United States of America, and that receipts and expenditures of the Company are being made only in accordance with authorizations of management and directors of the Company; and (iii) provide reasonable assurance regarding prevention or timely detection of unauthorized acquisition, use, or disposition of the Company's assets that could have a material effect on the financial statements.
+
+
+Because of its inherent limitations, internal controls over financial reporting may not prevent or detect misstatements. All internal control systems, no matter how well designed, have inherent limitations, including the possibility of human error and the circumvention of overriding controls. Accordingly, even effective internal control over financial reporting can provide only reasonable assurance with respect to financial statement preparation. Also, projections of any evaluation of effectiveness to future periods are subject to the risk that controls may become inadequate because of changes in conditions, or that the degree of compliance with the policies or procedures may deteriorate.
+
+
+Our management assessed the effectiveness of our internal control over financial reporting as of March 31, 2014. In making this assessment, it used the criteria set forth by the Committee of Sponsoring Organizations of the Treadway Commission (COSO) in Internal Control-Integrated Framework. Based on our assessment, as of March 31, 2014, the Company's internal control over financial reporting was effective.
+
+
+Changes in Internal Controls
+
+
+There were no changes in our internal control over financial reporting during the quarter ended March 31, 2014 that have affected, or are reasonably likely to affect, our internal control over financial reporting.
+
+
+
+
+ITEM 9B.                      OTHER INFORMATION.
+
+
+None.
+
+
+Page 39 of 52
+ 
+
+
+
+
+PART III
+
+
+ITEM 10.	DIRECTORS, EXECUTIVE OFFICERS AND CORPORATE GOVERNANCE.
+
+
+Officers and Directors
+
+
+The names, ages and positions of our present officers and directors are set forth below:
+
+
+Names of Directors
+	
+Age
+	
+Position(s)
+
+
+Terrence Byberg
+	
+63
+	
+President, Chief Executive Officer and Director
+
+
+Donald Bossert
+	
+51
+	
+Chief Financial Officer, Secretary and Director
+
+
+Michael Gross
+	
+74
+	
+Chief Operating Officer
+
+
+James Garber
+	
+62
+	
+Vice President of Exploration
+
+
+Robert Michael Robb
+	
+70
+	
+Director
+
+
+Peter N. Calder, Ph.D.
+	
+76
+	
+Director
+
+
+The people named above are expected to hold their offices/positions until the next annual meeting of our stockholders.
+
+
+Background of our officers and directors
+
+
+Terrence Byberg. Mr. Byberg has served as President, Chief Executive Officer and a director of the Corporation since January 2014. Mr. Byberg has 42 years of international mining experience in Canada, USA, Mexico, Greece, Australia and the Philippines, with extensive public company experience in the areas of management, production and operations. He was a Founder and Vice President of Mining for Chieftain Metals, Inc. from 2009 to 2012 where he helped facilitate the negotiation and acquisition of the Tulsequa Chief Mine. He was a Founder, President and CEO of Silver Eagle Mines, Inc. from 2003 to 2009 where he optioned a past-producing mine property in Mexico and raised in excess of $50M. Mr. Byberg served as President and Chief Operating Officer of Philippine Gold from 1997 to 1999 where he controlled the various stages of exploration, feasibility and permitting for eight separate properties throughout the Philippines. He was General
+Manager for Exall Resources from 1996 to 1997 where he commenced operations from ground zero and achieved a production rate of 600 tonnes per day of gold. Since 2012, and at various points in his career, Mr. Byberg has served as an Independent Mining Consultant providing management and mining services to firms worldwide. Mr. Byberg began his career, in 1972, with the Dome Group in Red Lake working as a Surveyor and Ventilation Engineer, Miner, Shift Boss, Training and Safety Superintendent and Production Superintendent. Mr. Byberg is a Graduate of Halleybury School of Mines. Mr. Byberg was selected as a director because of his business and professional experience, including but not limited to his substantial experience and leadership in the mining industry.
+
+
+Donald Bossert. Mr. Bossert has served as Chief Financial Officer and a director of Rio Plata (now the Corporation) since January 2007 and as Secretary of the Corporation since January 2014. Mr. Bossert achieved his Certified Management Accountant designation from the Society of Management Accountant's of Alberta, Canada in 1992. From June 1990 to January 2008, he was Director of Finance of Unified Alloys Ltd., a national distributor of stainless steel and special alloy pipe, fittings and flanges.  Since February 2008, he has been the President of Bossert Consulting Ltd., a company providing management and accounting services. Mr. Bossert was selected as a director because of his business and professional experience, including but not limited to his leadership of Rio Plata prior to the Merger and experience in accounting matters.
+
+
+Michael P. Gross M.S., P.Geol. is a senior mining and exploration professional with over 40 years of experience in exploration, mine operations, mine management, exploration, corporate management, due diligence, green field start-ups, turnarounds, team building, financing and acquisitions. Since 2009, Mr. Gross has served as a Mining and Management Consultant to mining firms throughout North America. At United Silver Corporation, he served as Chief Operating Officer designing a new mine plan and supervising completion of a Preliminary Economic Analysis with positive economics. At Northern Gold Mining Inc., he served as Vice President Exploration leading the development of over a million ounces of gold in the measured and indicated categories plus approximately 800,000 ounces of gold in the inferred category. As Chief Consultant to United Mine Services, he developed a mine plan that was used as the basis for an IPO. Since 2006, Mr. Gross has served as VP Exploration for Freegold Ventures Limited where his responsibilities have included designing and implementing exploration programs that resulted in the discovery of high-grade and bulk-tonnage gold mineralization. Since 2009, Mr. Gross has continued to serve as an insider and Administrator of Freegold. From 2005 to 2006, he was VP Exploration for Nayarit Gold where he re-vitalized the company's grass roots gold exploration activities on a 10,000 hectare concession in Mexico and identified a new gold/silver target. From 2001 to 2005, he was Chief Operating Officer of
+Page 40 of 52
+ 
+
+
+
+
+Regis Resources where he led a developmentâ€“stage, private company through the completion of permitting, construction, development and start-up of Canada's only vermiculite mine located near Buckhorn, Ontario. From 1996 to 2000, he was VP Operations for Exall Resources Limited where he managed all operational aspects of a junior exploration company during its transition from a gold exploration company into a gold producer. Earlier in his career, Mr. Gross worked for Atlas Corporation as Chief Operating Officer and Senior Vice President. He served as VP Operations for Royal Oak Mines and starting as a mine geologist, worked his way from first line supervisor to Mine Manager to Manager Metal Mining Division for Hecla Mining Company. Mr. Gross is a Registered Professional Geologist in the State of Idaho and the Province of Ontario, Canada, and is a Registered Member of SME. He is the recipient of numerous professional recognitions including: the Idaho Mining Association 1982 Award for "Outstanding Service to Idaho's Mining Industry In Wildlife Conservation Policy and Legislation". Mr. Gross holds a Master of Science in Economic Geology degree from the University of Arizona and a Bachelor of Science in Geology degree from the University of Wisconsin, Madison, and served in the Military in the USN Submarine Service.
+
+
+James Garber. Mr. Garber has served as Vice President of Exploration of the Corporation since November 2013. He has significant experience in the exploration of the Beardmore-Geraldton Greenstone Belt.  Mr. Garber graduated from the University of Windsor, Windsor, ON, in 1973 with a B.Sc. (Honours Geology) and has been a practicing geologist for over 35 years with both major and junior resource exploration companies including Phillips Petroleum Company - Strategic Minerals Division, Noranda Exploration Company, Hemlo Gold and Battle Mountain Gold. Most recently Mr. Garber worked as Director / Exploration Manager [Canada] for Landore Resources Inc. / Landore Resources Canada Inc. from 2004 to 2009 and Manager of Exploration for Metalcorp Limited, from 2010 to 2012 where he was involved with the discovery and delineation of gold and nickel deposits in northern Ontario, Canada, including the Glimmer Gold Deposit (now the Black Fox mine of Brigus Gold), the Pike River gold deposit (now the Brigus Gold Grey Fox deposit), the Junior Lake project VW nickel deposit and the initial evaluation of the Lamaune iron deposit. He also served as Director and Qualified Person of Northcore Resources Inc. from April 2013 to October 2013 and from January 2009 to December 2010, he was an Independent Consultant engaged primarily in First Nation Engagement for Mining Companies.
+
+
+Robert Michael Robb, P.E. Mr. Robb has served as a director of the Corporation since January 2014. Mr. Robb has 46 years international mining experience, with extensive experience in the areas of management, design, construction and operations. He was VP of Development for Silver Standard Resource from 2005 to 2007 where his responsibilities included the design and construction of the Minas Parquitas mine in Argentina. He was VP of Mina Magestral (Queenstake) from 2001 to 2003 where he was responsible for the construction and initial operation of the company's first producing mine and served as Director of Operations (Mexico) for Eldorado Gold from 1995 to 1997 where he directed the doubling of gold production at the La Colorado mine and the opening of a new mine. Since 2007, Mr. Robb has been an Independent Consulting Engineer providing management and mining engineering services to firms worldwide. He is a Member of the PE Exam Committee of the Society of Mining Engineers, author of nine technical papers, and co-author of one patent and one reference book. Mr. Robb is a Retired Colonel USMC Reserve, a Viet Nam veteran and a Graduate of the University of Idaho. Mr. Robb was selected as a director because of his business and professional experience, including but not limited to his substantial experience and leadership in the mining industry.
+
+
+Dr. Peter N. Calder is Emeritus Professor, Department of Mining Engineering at Queen's University Kingston, Ontario, where he joined the faculty in 1970 and was head of that department from 1980 to 1990. He has taught courses on open pit and underground mine design, served as an expert witness in mining-related legal cases and authored numerous technical papers and reports. Upon retiring as a regular faculty member in 1997, he was honored by being designated as an Emeritus Professor. At the Pontifica Universidad Catolica de Chile from 1997 to 2001, he was the Canadian Mining Chair and Full Professor within the Faculty of Engineering's Mining Department. Dr. Calder has held directorships in leading Canadian organizations including the Mining Industry Research Organization of Canada (Managing Director), the Mining Research Directorate, and as Chairman of the National Advisory Council on Mining and Metallurgical Research. He was a CIM Council member and served as a Queen's University Senator. He has received gold medals by the Engineering Institute of Canada and the Canadian Institute of Mining and Metallurgy. Dr. Calder served 5 years in the Canadian Army prior to entering St. Francis Xavier University in 1958. In 1963 he graduated from NSTC (now Dalhousie University) with a degree in Mining Engineering, and joined the Iron Ore Company of Canada in Labrador City, becoming Mine Superintendent two years later. He attended McGill University after being awarded a Canadian Mineral Industry Foundation Scholarship and received a Post Graduate Diploma prior to attending Queen's University where he received M.Sc. and Ph.D. degrees in Mining Engineering.
+
+
+
+
+Page 41 of 52
+ 
+
+
+
+
+Involvement in Certain Legal Proceedings
+
+
+During the past ten years, Messrs. Byberg, Bossert, Gross, Garber, Robb and Calder have not been the subject of the following events:
+
+
+1.	A petition under the Federal bankruptcy laws or any state insolvency law was filed by or against, or a receiver, fiscal agent or similar officer was appointed by a court for the business or property of such person, or any partnership in which he was a general partner at or within two years before the time of such filing, or any corporation or business association of which he was an executive officer at or within two years before the time of such filing;
+
+
+2.	Convicted in a criminal proceeding or is a named subject of a pending criminal proceeding (excluding traffic violations and other minor offenses);
+
+
+3.	The subject of any order, judgment, or decree, not subsequently reversed, suspended or vacated, of any court of competent jurisdiction, permanently or temporarily enjoining him from, or otherwise limiting, the following activities;
+
+
+	i)	Acting as a futures commission merchant, introducing broker, commodity trading advisor, commodity pool operator,  floor broker, leverage transaction merchant, any other person regulated by the Commodity Futures Trading Commission, or an associated person of any of the foregoing, or as an investment adviser, underwriter, broker or dealer in securities, or as an affiliated person, director or employee of any investment company, bank, savings and loan association or insurance company, or engaging in or continuing any conduct or practice in connection with such activity;
+	ii)	Engaging in any type of business practice; or
+	iii)	Engaging in any activity in connection with the purchase or sale of any security or commodity or in connection with any violation of Federal or State securities laws or Federal commodities laws;
+
+
+4.	The subject of any order, judgment or decree, not subsequently reversed, suspended or vacated, of any Federal or State authority barring, suspending or otherwise limiting for more than 60 days the right of such person to engage in any activity described in paragraph 3.i in the preceding paragraph or to be associated with persons engaged in any such activity;
+
+
+5.	Was found by a court of competent jurisdiction in a civil action or by the Commission to have violated any Federal or State securities law, and the judgment in such civil action or finding by the Commission has not been subsequently reversed, suspended, or vacated;
+
+
+6.	Was found by a court of competent jurisdiction in a civil action or by the Commodity Futures Trading Commission to have violated any Federal commodities law, and the judgment in such civil action or finding by the Commodity Futures Trading Commission has not been subsequently reversed, suspended or vacated;
+
+
+7.	Was the subject of, or a party to, any Federal or State judicial or administrative order, judgment, decree, or finding, not subsequently reversed, suspended or vacated, relating to an alleged violation of:
+
+
+	i)	Any Federal or State securities or commodities law or regulation; or
+	ii)	Any law or regulation respecting financial institutions or insurance companies including, but not limited to, a temporary or permanent injunction, order of disgorgement or restitution, civil money penalty or temporary or permanent cease-and-desist order, or removal or prohibition order, or
+	iii)	Any law or regulation prohibiting mail or wire fraud or fraud in connection with any business entity; or
+
+
+8.	Was the subject of, or a party to, any sanction or order, not subsequently reversed, suspended or vacated, of any self-regulatory organization (as defined in Section 3(a)(26) of the Exchange Act (15 U.S.C. 78c(a)(26))), any registered entity (as defined in Section 1(a)(29) of the Commodity Exchange Act (7 U.S.C. 1(a)(29))), or any equivalent exchange, association, entity or organization that has disciplinary authority over its members or persons associated with a member.
+
+
+
+
+Page 42 of 52
+ 
+
+
+
+
+Conflicts of Interest
+
+
+There are no conflicts of interest with respect to our officers, directors and key employees.
+
+
+Audit Committee Financial Expert
+
+
+We do not have an audit committee financial expert. We do not have an audit committee financial expert because we believe the cost related to retaining a financial expert at this time is prohibitive. Further, because we are only beginning our commercial operations, at the present time, we believe the services of a financial expert are not warranted.
+
+
+Audit Committee and Charter
+
+
+Audit committee functions are performed by our board of directors. One of our four directors are deemed independent. Our audit committee is responsible for: (1) selection and oversight of our independent accountant; (2) establishing procedures for the receipt, retention and treatment of complaints regarding accounting, internal controls and auditing matters; (3) establishing procedures for the confidential, anonymous submission by our employees of concerns regarding accounting and auditing matters; (4) engaging outside advisors; and, (5) funding for the outside auditory and any outside advisors engagement by the audit committee.
+
+
+Code of Ethics
+
+
+We have not yet adopted a corporate code of ethics.
+
+
+Disclosure Committee and Charter
+
+
+We do not yet have a disclosure committee and disclosure committee charter.
+
+
+Section 16(a) of the Securities Exchange Act of 1934
+
+
+Section 16(a) of the Securities Exchange Act of 1934 requires our executive officers and directors, and persons who beneficially own more than 10% of our equity securities, to file reports of ownership and changes in ownership with the Securities and Exchange Commission. Officers, directors and greater than 10% shareholders are required by SEC regulation to furnish the Company with copies of all Section 16(a) forms they file. Based on our review of the copies of such forms received by us, or written representations that no other reports were required, and to the best of our knowledge, we believe that all of our officers, directors, and owners of 10% or more of our common stock filed their Form 3s, 4s and 5s.
+
+
+
+
+ITEM 11.                       EXECUTIVE COMPENSATION.
+
+
+The following table sets forth the compensation paid by us for the last two fiscal years through March 31, 2014, for our officers.  This information includes the dollar value of base salaries, bonus awards and number of stock options granted, and certain other compensation, if any.  The compensation discussed addresses all compensation awarded to, earned by, or paid to our named executive officers.
+
+
+Except as noted below, we have not paid any cash or other compensation to any of our officers or directors in the last two fiscal years. We paid James Dempsey, our former Chief Executive Officer and Chief Financial Officer prior to the Merger, $0 in the year ended March 31, 2014 and $31,200 in the year ended March 31, 2013 for his services. Rio Plata paid $0 in the year ended March 31, 2014 and $30,000 in the year ended March 31, 2013 to 0847473 B.C. Ltd., a private company controlled by Robert Bell and Richard Novis, both former directors and officers of our company, for management and administrative services.
+
+
+Page 43 of 52
+ 
+
+
+
+
+Summary Compensation Table
+(a)
+	
+(b)
+	
+(c)
+	
+(d)
+	
+(e)
+	
+(f)
+	
+(g)
+	
+(h)
+	
+(i)
+	
+(j)
+
+
+ 
+	
+ 
+	
+ 
+	
+ 
+	
+ 
+	
+ 
+	
+ 
+	
+Change in
+	
+ 
+	
+ 
+
+
+ 
+	
+ 
+	
+ 
+	
+ 
+	
+ 
+	
+ 
+	
+ 
+	
+Pension Value
+	
+ 
+	
+ 
+
+
+ 
+	
+ 
+	
+ 
+	
+ 
+	
+ 
+	
+ 
+	
+Non-Equity
+	
+& Nonqualified
+	
+ 
+	
+ 
+
+
+ 
+	
+ 
+	
+ 
+	
+ 
+	
+ 
+	
+ 
+	
+Incentive
+	
+Deferred
+	
+ 
+	
+ 
+
+
+ 
+	
+ 
+	
+ 
+	
+ 
+	
+Stock
+	
+Option
+	
+Plan
+	
+Compensation
+	
+All Other
+	
+ 
+
+
+Name and Principal
+	
+ 
+	
+Salary
+	
+Bonus
+	
+Awards
+	
+Awards
+	
+Compensation
+	
+Earnings
+	
+Compensation
+	
+Total
+
+
+Position [1]
+	
+Year
+	
+(CDN$)
+	
+($)
+	
+(USD$)
+	
+($)
+	
+(S)
+	
+($)
+	
+($)
+	
+($)
+
+
+ 
+	
+ 
+	
+ 
+	
+ 
+	
+ 
+	
+ 
+	
+ 
+	
+ 
+	
+ 
+	
+ 
+
+
+Terrence Byberg
+	
+2014
+	
+10,000
+	
+0
+	
+0
+	
+0
+	
+0
+	
+0
+	
+0
+	
+10,000
+
+
+  CEO
+	
+2013
+	
+0
+	
+0
+	
+0
+	
+0
+	
+0
+	
+0
+	
+0
+	
+0
+
+
+ 
+	
+ 
+	
+ 
+	
+ 
+	
+ 
+	
+ 
+	
+ 
+	
+ 
+	
+ 
+	
+ 
+
+
+Donald Bosssert
+	
+2014
+	
+0
+	
+0
+	
+0
+	
+0
+	
+0
+	
+0
+	
+0
+	
+0
+
+
+  CFO
+	
+2013
+	
+0
+	
+0
+	
+0
+	
+0
+	
+0
+	
+0
+	
+0
+	
+0
+
+
+ 
+	
+ 
+	
+ 
+	
+ 
+	
+ 
+	
+ 
+	
+ 
+	
+ 
+	
+ 
+	
+ 
+
+
+Michael Gross
+	
+2014
+	
+5,000
+	
+0
+	
+40,000
+	
+0
+	
+0
+	
+0
+	
+0
+	
+CDN5,000
+
+
+  COO
+	
+ 
+	
+ 
+	
+ 
+	
+ 
+	
+ 
+	
+ 
+	
+ 
+	
+ 
+	
+USD40,000
+
+
+ 
+	
+2013
+	
+0
+	
+0
+	
+0
+	
+0
+	
+0
+	
+0
+	
+0
+	
+0
+
+
+ 
+	
+ 
+	
+ 
+	
+ 
+	
+ 
+	
+ 
+	
+ 
+	
+ 
+	
+ 
+	
+ 
+
+
+James Garber
+	
+2014
+	
+20,000
+	
+0
+	
+40,000
+	
+0
+	
+0
+	
+0
+	
+0
+	
+CDN20,000
+
+
+  VP Exploration
+	
+ 
+	
+ 
+	
+ 
+	
+ 
+	
+ 
+	
+ 
+	
+ 
+	
+ 
+	
+USD40,000
+
+
+ 
+	
+2013
+	
+0
+	
+0
+	
+0
+	
+0
+	
+0
+	
+0
+	
+0
+	
+0
+
+
+Employment and Consulting Agreements
+
+
+Terrence Byberg was named CEO on January 17, 2014.  The Company does not have an employment agreement in place with Mr. Byberg for his services as CEO; however, prior to being named CEO, the Company had a consulting agreement in place with Mr. Byberg, which was in effect through June 30, 2014.  Per the terms of the agreement, we have agreed to pay (a) a sign on allotment of 400,000 shares of our common stock (b) an allotment of shares for each property acquisition identified by Mr. Byberg and our Technical Advisory Team and completed by us, or sale of a property where the purchaser is identified by them, pursuant to which the total amount of shares will be based on the value of the acquisition or sale in the following amounts, with the shares split equally among the them: (i) Up to $300,000, 10.0% of the value; (ii) Between $300,000 and $1,000,000, 7.5% of the value; (iii) Over $1,000,000, 5.0% of the value (all values are divided by the weighted average closing price of the shares for the five trading days prior to the close of the acquisition or sale); (c) A monthly consulting fee of $5,000.00 per month for up to ten days of work (payable in shares of the Corporation as provided in the agreements); and (d) Participation in our stock option plan on an annual basis with an initial 100,000 options each.
+
+
+Michael Gross was named COO on March 31, 2014 and has a consulting agreement with the Company through March 31, 2015.  Per the terms of the agreement, we have agreed to pay (a) a sign on allotment of 400,000 shares of our common stock (b) a monthly consulting fee of $5,000.00 per month for up to ten days of work (payable in shares of the Corporation as provided in the agreements); and (c) participation in our stock option plan on an annual basis with an initial 100,000 options each.
+
+
+James Garber was named VP Exploration on November 1, 2013 and has a consulting agreement with the Company through October 31, 2013.  Per the terms of the agreement, we have agreed to pay (a) a sign on allotment of 400,000 shares of our common stock (b) an allotment of shares for each property acquisition identified by Mr. Byberg and our Technical Advisory Team and completed by us, or sale of a property where the purchaser is identified by them, pursuant to which the total amount of shares will be based on the value of the acquisition or sale in the following amounts, with the shares split equally among the them: (i) Up to $300,000, 10.0% of the value; (ii) Between $300,000 and $1,000,000, 7.5% of the value; (iii) Over $1,000,000, 5.0% of the value (all values are divided by the weighted average closing price of the shares for the five trading days prior to the close of the acquisition or sale); (c) A monthly consulting fee of $5,000.00 per month for up to ten days of work (payable in shares of the Corporation as provided in the agreements); and (d) Participation in our stock option plan on an annual basis with an initial 100,000 options each.
+
+
+Director Compensation
+
+
+The following table sets forth information with respect to compensation paid by us to our directors during the fiscal year ended March 31 2014.
+Page 44 of 52
+ 
+
+
+
+
+Director Compensation Table
+(a)
+	
+(b)
+	
+(c)
+	
+(d)
+	
+(e)
+	
+(f)
+	
+(g)
+	
+(h)
+
+
+ 
+	
+ 
+	
+ 
+	
+ 
+	
+ 
+	
+Change in
+	
+ 
+	
+ 
+
+
+ 
+	
+ 
+	
+ 
+	
+ 
+	
+ 
+	
+Pension Value &
+	
+ 
+	
+ 
+
+
+ 
+	
+ 
+	
+ 
+	
+ 
+	
+ 
+	
+Nonqualified
+	
+ 
+	
+ 
+
+
+ 
+	
+ 
+	
+ 
+	
+ 
+	
+Non-Equity
+	
+Deferred
+	
+ 
+	
+ 
+
+
+ 
+	
+Fees Earned or
+	
+Stock
+	
+Option
+	
+Incentive Plan
+	
+Compensation
+	
+All Other
+	
+ 
+
+
+ 
+	
+Paid in Cash
+	
+Awards
+	
+Awards
+	
+Compensation
+	
+Earnings
+	
+Compensation
+	
+Total
+
+
+Name
+	
+($)
+	
+($)
+	
+($)
+	
+($)
+	
+($)
+	
+($)
+	
+($)
+
+
+Terrence Byberg
+	
+0
+	
+0
+	
+0
+	
+0
+	
+0
+	
+0
+	
+0
+
+
+Donald Bossert
+	
+0
+	
+0
+	
+0
+	
+0
+	
+0
+	
+0
+	
+0
+
+
+Robert Michael Robb1
+	
+0
+	
+0
+	
+0
+	
+0
+	
+0
+	
+0
+	
+0
+
+
+Peter N. Calder
+	
+0
+	
+0
+	
+0
+	
+0
+	
+0
+	
+0
+	
+0
+
+
+Barry Price2
+	
+0
+	
+10,000
+	
+0
+	
+0
+	
+0
+	
+0
+	
+10,000
+
+
+1Prior to becoming a director, Mr. Robb entered into a Consulting Agreement for technical advisory services with the Company on September 5, 2013, for a period of one year, through September 4, 2014.  Compensation terms per the agreement are a consulting fee of $5,000 per month and a one-time stock award of 400,000 shares.
+
+
+2Mr. Price resigned as a director effective January 17, 2014.
+
+
+All compensation received by our officers and directors has been disclosed.
+
+
+There are no stock option, retirement, pension, or profit sharing plans for the sole benefit of our officers and directors.  The Company has a stock option plan for the benefit of employees, consultants, and others who provide services to the Company, including officers and directors.
+
+
+Long-Term Incentive Plan Awards
+ 
+Outstanding Equity Awards at March 31, 2014
+Name
+	
+Number of
+Securities
+Underlying
+Unexercised
+Options
+Exercisable
+	
+Number of
+Securities
+Underlying
+Unexercised
+Options
+Unexercisable
+	
+Equity Incentive
+Plan Awards:
+Securities
+Underlying
+Unexercised
+Unearned Options
+	
+Option
+Exercise
+Price
+	
+Option
+Expiration
+Date
+	
+Number of
+Shares or Units
+of Stock that
+have not Vested
+	
+Equity Incentive
+Plan Awards:
+Number of
+Unearned
+Shares, Units
+that have not vested
+
+
+(a)
+	
+(b)
+	
+(c)
+	
+(d)
+	
+(e)
+	
+(f)
+	
+(g)
+	
+(h)
+
+
+Terrence Byberg
+	
+200,000
+	
+100,000
+	
+-
+	
+$0.25
+	
+5/30/2019
+	
+100,000
+	
+-
+
+
+Donald Bossert
+	
+100,000
+	
+100,000
+	
+-
+	
+$0.25
+	
+5/30/2019
+	
+100,000
+	
+-
+
+
+Michael Gross
+	
+100,000
+	
+-
+	
+-
+	
+$0.25
+	
+5/30/2019
+	
+-
+	
+-
+
+
+James Garber
+	
+100,000
+	
+-
+	
+-
+	
+$0.25
+	
+5/30/2019
+	
+-
+	
+-
+
+
+Robert Michael Robb
+	
+225,000
+	
+100,000
+	
+-
+	
+$0.25
+	
+5/30/2019
+	
+-
+	
+-
+
+
+Peter N. Calder, Ph.D.
+	
+100,000
+	
+100,000
+	
+-
+	
+$0.25
+	
+5/30/2019
+	
+-
+	
+-
+
+
+Option Exercises and Stock Vested for the year ended March 31, 2014
+ 
+	
+Number of
+	
+ 
+	
+Number of
+	
+Value
+
+
+ 
+	
+Shares Acquired
+	
+Value Realized
+	
+Shares Acquired
+	
+Realized on
+
+
+ 
+	
+On Exercise
+	
+On Exercise
+	
+On Vesting
+	
+Vesting
+
+
+Name
+	
+(#)
+	
+($)
+	
+(#)
+	
+($)
+
+
+(a)
+	
+(b)
+	
+(c)
+	
+(d)
+	
+(e)
+
+
+Terrence Byberg
+	
+-
+	
+-
+	
+-
+	
+-
+
+
+Donald Bossert
+	
+-
+	
+-
+	
+-
+	
+-
+
+
+Michael Gross
+	
+-
+	
+-
+	
+-
+	
+-
+
+
+James Garber
+	
+-
+	
+-
+	
+-
+	
+-
+
+
+Robert Michael Robb
+	
+-
+	
+-
+	
+-
+	
+-
+
+
+Peter N. Calder, Ph.D.
+	
+-
+	
+-
+	
+-
+	
+-
+
+
+Page 45 of 52
+ 
+
+
+
+
+Indemnification
+
+
+Under our Bylaws, we may indemnify an officer or director who is made a party to any proceeding, including a law suit, because of his position, if he acted in good faith and in a manner he reasonably believed to be in our best interest. We may advance expenses incurred in defending a proceeding. To the extent that the officer or director is successful on the merits in a proceeding as to which he is to be indemnified, we must indemnify him against all expenses incurred, including attorney's fees. With respect to a derivative action, indemnity may be made only for expenses actually and reasonably incurred in defending the proceeding, and if the officer or director is judged liable, only by a court order. The indemnification is intended to be to the fullest extent permitted by the laws of the State of Nevada.
+
+
+Regarding indemnification for liabilities arising under the Securities Act of 1933, which may be permitted to directors or officers under Nevada law, we are informed that, in the opinion of the Securities and Exchange Commission, indemnification is against public policy, as expressed in the Act and is, therefore, unenforceable.
+
+
+
+
+ITEM 12.	SECURITY OWNERSHIP OF CERTAIN BENEFICIAL OWNERS AND MANAGEMENT AND RELATED STOCKHOLDER MATTERS.
+
+
+The following table sets forth the beneficial ownership of our common stock currently held by (i) each person known by us to be the beneficial owner of more than 5% of the outstanding shares of our common stock, (ii) each of our directors and executive officers and (iii) all officers and directors as a group. There are 46,727,250 shares of our common stock outstanding currently. Unless otherwise indicated in the table, the persons and entities named in the table have sole voting and sole investment power with respect to the shares set forth opposite the stockholder's name. Unless otherwise noted below, the address of each stockholder below is c/o 9550 South Eastern Avenue, Suite 253, Las Vegas, NV 89123.
+
+
+Name of
+	
+Number of
+	
+Percentage of
+
+
+Beneficial Ownership
+	
+Shares Owned
+	
+Ownership
+
+
+Terrence Byberg, CEO and Director1
+	
+600,000
+	
+1.3%
+
+
+Donald Bossert, CFO, Secretary and Director1
+	
+1,281,998
+	
+2.7%
+
+
+Michael Gross, COO2
+	
+400,000
+	
+0.9%
+
+
+James Garber, Vice President of Exploration
+	
+600,000
+	
+1.3%
+
+
+Robert Michael Robb, Director
+	
+700,000
+	
+1.5%
+
+
+Peter N. Calder Ph. D., Director2
+	
+0
+	
+0.0%
+
+
+All officers and directors as a group   (six people)
+	
+3,581,998
+	
+7.7%
+
+
+Robert Bell1
+	
+2,126,7303
+	
+4.6%
+
+
+Richard Novis1
+	
+2,126,7313
+	
+4.6%
+
+
+Russel J. Renneberg
+	
+3,084,021
+	
+6.6%
+
+
+Robert Morrison2
+	
+4,784,303
+	
+10.2%
+
+
+Gary and Sharon Hauber
+	
+5,520,253
+	
+11.8%
+
+
+1Effective January 17, 2014, (i) Robert Bell resigned as President, Chief Executive Officer and a Director of our company, (ii) Richard Novis resigned as Secretary and a Director of our company and (iii) Barry Price resigned as a Director of our company. Effective the same day, we appointed (i) Terrence Byberg as President, Chief Executive Officer and a Director of our company to fill the vacancy created by the resignation of Robert Bell, (ii) Robert Michael Robb as a Director of our company to fill the vacancy created by the resignation of Richard Novis and (iii) Donald Bossert, currently our Chief Executive Officer, as Secretary of our company in place of Barry Price. There were no disagreements between the company and any of Mr. Bell, Mr. Novis or Mr. Price in connection with their respective resignations.
+
+
+2Effective on March 31, 2014, Michael Gross was appointed as our Chief Operating Officer. On April 21, 2014, Robert Morrison resigned from our Board of Directors and Dr. Peter Calder was appointed to our Board of Directors.
+
+
+3Mr. Bell and Mr. Novis are both directors and officers of 0847473 B.C. Ltd., which acquired 2,570,105 shares of common stock of the issuer on May 14, 2013 pursuant to the Merger Agreement. Both Mr. Bell and Mr. Novis disclaim control and beneficial ownership of the issuer's shares held by 0847473 B.C. Ltd. as investment and voting control over these shares rests with the board of directors of 0847473 B.C. Ltd.
+
+
+Page 46 of 52
+ 
+
+
+
+
+Future sales by existing stockholders
+
+
+A total of 46,727,250 shares of common stock have been issued to approximately 150 persons. Approximately 38,627,250 shares are deemed "restricted securities" as that term is defined in Rule 144 of the Securities Act of 1933, as amended, and may only be resold in compliance with said Rule.
+
+
+
+
+ITEM 13.	CERTAIN RELATIONSHIPS AND RELATED TRANSACTIONS, AND DIRECTOR INDEPENDENCE.
+
+
+In September 2013, we issued 400,000 restricted shares of common stock to Terrence Byberg, who became our CEO on January 17, 2014, in accordance with the terms of the consulting agreement between Mr. Byberg and the Company.  In April 2014, we issued 200,000 restricted shares of common stock to Mr. Byberg per the terms of an agreement between Mr. Byberg and the Company in which $20,000 worth of consulting payments owed to Mr. Byberg were forgiven in exchange for common stock.
+
+
+In May 2013, we issued 1,281,998 restricted securities to Donald Bossert, our CFO, in accordance with the Merger Agreement.
+
+
+In March 2014, we issued 400,000 restricted shares of common stock to Michael Gross, our COO, in accordance with the terms of the consulting agreement between Mr. Gross and the Company.
+
+
+In January 2014, we issued 400,000 restricted shares of common stock to James Garber, our Vice President of Exploration, in accordance with the terms of the consulting agreement between Mr. Garber and the Company.  In April 2014, we issued 200,000 restricted shares of common stock to Mr. Garber per the terms of an agreement between Mr. Garber and the Company in which $20,000 worth of consulting payments owed to Mr. Garber were forgiven in exchange for common stock.
+
+
+In September 2013, we issued 400,000 restricted shares of common stock to Robert Michael Robb, who became a director on January 17, 2014, in accordance with the terms of the consulting agreement between Mr. Robb and the Company.  In April 2014, we issued 300,000 restricted shares of common stock to Mr. Robb per the terms of an agreement between Mr. Robb and the Company in which $30,000 worth of consulting payments owed to Mr. Robb were forgiven in exchange for common stock.
+
+
+Director Independence
+
+
+One of our four directors is independent.
+
+
+
+
+ITEM 14.                       PRINCIPAL ACCOUNTANT FEES AND SERVICES.
+
+
+(1)            Audit Fees
+
+
+The aggregate fees billed for each of the last two fiscal years for professional services rendered by the principal accountant for our audit of annual financial statements and review of financial statements included in our Form 10-Qs for services that are normally provided by the accountant in connection with statutory and regulatory filings or engagements for those fiscal years was:
+
+
+2014
+	
+$
+	
+14,500
+	
+Dale Matheson Carr-Hilton Labonte LLP
+
+
+2014
+	
+$
+	
+-
+	
+BDO Canada LLP
+
+
+2013
+	
+$
+	
+-
+	
+Dale Matheson Carr-Hilton Labonte LLP
+
+
+2013
+	
+$
+	
+53,803
+	
+BDO Canada LLP
+
+
+(2)            Audit-Related Fees
+
+
+The aggregate fees billed in each of the last two fiscal years for assurance and related services by the principal accountants that are reasonably related to the performance of the audit or review of our financial statements and are not reported in the preceding paragraph:
+Page 47 of 52
+ 
+
+
+
+
+
+
+2014
+	
+$
+	
+-
+	
+Dale Matheson Carr-Hilton Labonte LLP
+
+
+2014
+	
+$
+	
+-
+	
+BDO Canada LLP
+
+
+2013
+	
+$
+	
+-
+	
+Dale Matheson Carr-Hilton Labonte LLP
+
+
+2013
+	
+$
+	
+-
+	
+BDO Canada LLP
+
+
+(3)            Tax Fees
+
+
+The aggregate fees billed in each of the last two fiscal years for professional services rendered by the principal accountant for tax compliance, tax advice, and tax planning was:
+
+
+2014
+	
+$
+	
+2,500
+	
+Dale Matheson Carr-Hilton Labonte LLP
+
+
+2014
+	
+$
+	
+-
+	
+BDO Canada LLP
+
+
+2013
+	
+$
+	
+-
+	
+Dale Matheson Carr-Hilton Labonte LLP
+
+
+2013
+	
+$
+	
+-
+	
+BDO Canada LLP
+
+
+(4)            All Other Fees
+
+
+The aggregate fees billed in each of the last two fiscal years for the products and services provided by the principal accountant, other than the services reported in paragraphs (1), (2), and (3) was:
+
+
+2014
+	
+$
+	
+-
+	
+Dale Matheson Carr-Hilton Labonte LLP
+
+
+2014
+	
+$
+	
+-
+	
+BDO Canada LLP
+
+
+2013
+	
+$
+	
+-
+	
+Dale Matheson Carr-Hilton Labonte LLP
+
+
+2013
+	
+$
+	
+-
+	
+BDO Canada LLP
+
+
+(5)            Our audit committee's pre-approval policies and procedures described in paragraph (c)(7)(i) of Rule 2-01 of Regulation S-X were that the audit committee pre-approve all accounting related activities prior to the performance of any services by any accountant or auditor.
+
+
+(6)            The percentage of hours expended on the principal accountant's engagement to audit our financial statements for the most recent fiscal year that were attributed to work performed by persons other than the principal accountant's full time, permanent employees was 50%.
+
+
+
+
+PART IV
+
+
+ITEM 15.                       EXHIBITS AND FINANCIAL STATEMENT SCHEDULES.
+
+
+ 
+	
+ 
+	
+Incorporated by reference
+	
+ 
+
+
+Exhibit
+	
+Document Description
+	
+Form
+	
+Date
+	
+Number
+	
+Filed
+herewith
+
+
+ 
+	
+ 
+	
+ 
+	
+ 
+	
+ 
+	
+ 
+
+
+2.1
+	
+Agreement and Plan of Merger dated April 22, 2013.
+	
+8-K
+	
+4/26/13
+	
+2.1
+	
+ 
+
+
+ 
+	
+ 
+	
+ 
+	
+ 
+	
+ 
+	
+ 
+
+
+2.2
+	
+Agreement and Plan of Merger dated July 10, 2013.
+	
+8-K
+	
+08/08/13
+	
+2.1
+	
+ 
+
+
+ 
+	
+ 
+	
+ 
+	
+ 
+	
+ 
+	
+ 
+
+
+3.1
+	
+Articles of Incorporation.
+	
+SB-2
+	
+12/07/04
+	
+3.01
+	
+ 
+
+
+ 
+	
+ 
+	
+ 
+	
+ 
+	
+ 
+	
+ 
+
+
+3.2
+	
+Bylaws.
+	
+SB-2
+	
+12/07/04
+	
+3.02
+	
+ 
+
+
+ 
+	
+ 
+	
+ 
+	
+ 
+	
+ 
+	
+ 
+
+
+3.3
+	
+Articles of Merger.
+	
+8-K
+	
+05/15/13
+	
+3.1
+	
+ 
+
+
+ 
+	
+ 
+	
+ 
+	
+ 
+	
+ 
+	
+ 
+
+
+3.4
+	
+Articles of Incorporation â€“ W. S. Industries, Inc.
+	
+8-K
+	
+05/15/13
+	
+3.2
+	
+ 
+
+
+ 
+	
+ 
+	
+ 
+	
+ 
+	
+ 
+	
+ 
+
+
+3.5
+	
+Certificate of Amendment to Articles of Incorporation.
+	
+8-K
+	
+05/15/13
+	
+3.3
+	
+ 
+
+
+ 
+	
+ 
+	
+ 
+	
+ 
+	
+ 
+	
+ 
+
+
+3.6
+	
+Bylaws of W. S. Industries, Inc.
+	
+8-K
+	
+05/15/13
+	
+3.4
+	
+ 
+
+
+ 
+	
+ 
+	
+ 
+	
+ 
+	
+ 
+	
+ 
+Page 48 of 52
+
+
+3.7
+	
+Articles of Merger.
+	
+8-K
+	
+08/08/13
+	
+3.1
+	
+ 
+
+
+ 
+	
+ 
+	
+ 
+	
+ 
+	
+ 
+	
+ 
+
+
+3.8
+	
+Articles of Incorporation â€“ W. S. Merger Corp.
+	
+8-K
+	
+05/29/14
+	
+3.7
+	
+ 
+
+
+ 
+	
+ 
+	
+ 
+	
+ 
+	
+ 
+	
+ 
+
+
+3.9
+	
+Bylaws â€“ W. S. Merger Corp.
+	
+8-K
+	
+05/29/14
+	
+3.8
+	
+ 
+
+
+ 
+	
+ 
+	
+ 
+	
+ 
+	
+ 
+	
+ 
+
+
+10.1
+	
+Indemnity Agreement dated April 22, 2013.
+	
+8-K
+	
+4/26/13
+	
+10.1
+	
+ 
+
+
+ 
+	
+ 
+	
+ 
+	
+ 
+	
+ 
+	
+ 
+
+
+10.2
+	
+Management Services Agreement.
+	
+8-K
+	
+05/15/13
+	
+10.2
+	
+ 
+
+
+ 
+	
+ 
+	
+ 
+	
+ 
+	
+ 
+	
+ 
+
+
+10.3
+	
+Exploration Contract and Unilateral Promise of Sale.
+	
+8-K
+	
+05/15/13
+	
+10.3
+	
+ 
+
+
+ 
+	
+ 
+	
+ 
+	
+ 
+	
+ 
+	
+ 
+
+
+10.4
+	
+Assignment of Mining Rights Contract.
+	
+8-K
+	
+05/15/13
+	
+10.4
+	
+ 
+
+
+ 
+	
+ 
+	
+ 
+	
+ 
+	
+ 
+	
+ 
+
+
+10.5
+	
+Asset Operation Contract.
+	
+8-K
+	
+05/15/13
+	
+10.5
+	
+ 
+
+
+ 
+	
+ 
+	
+ 
+	
+ 
+	
+ 
+	
+ 
+
+
+10.6
+	
+Stock Option Plan.
+	
+8-K
+	
+05/15/13
+	
+10.6
+	
+ 
+
+
+ 
+	
+ 
+	
+ 
+	
+ 
+	
+ 
+	
+ 
+
+
+10.7
+	
+Consulting Agreement with Terrence H. Byberg.
+	
+8-K
+	
+09/12/13
+	
+10.1
+	
+ 
+
+
+ 
+	
+ 
+	
+ 
+	
+ 
+	
+ 
+	
+ 
+
+
+10.8
+	
+Consulting Agreement with Douglas R. Wood.
+	
+8-K
+	
+09/12/13
+	
+10.2
+	
+ 
+
+
+ 
+	
+ 
+	
+ 
+	
+ 
+	
+ 
+	
+ 
+
+
+10.9
+	
+Consulting Agreement with R. M. Robb.
+	
+8-K
+	
+09/12/13
+	
+10.3
+	
+ 
+
+
+ 
+	
+ 
+	
+ 
+	
+ 
+	
+ 
+	
+ 
+
+
+10.10
+	
+Option Agreement with Sage Gold Inc.
+	
+8-K
+	
+11/19/13
+	
+10.1
+	
+ 
+
+
+ 
+	
+ 
+	
+ 
+	
+ 
+	
+ 
+	
+ 
+
+
+10.11
+	
+Consulting Agreement with James Garber.
+	
+8-K
+	
+11/19/13
+	
+10.2
+	
+ 
+
+
+ 
+	
+ 
+	
+ 
+	
+ 
+	
+ 
+	
+ 
+
+
+10.12
+	
+Form of Indemnity Agreement.
+	
+8-K
+	
+01/21/14
+	
+10.1
+	
+ 
+
+
+ 
+	
+ 
+	
+ 
+	
+ 
+	
+ 
+	
+ 
+
+
+10.13
+	
+2014 Stock Option Plan.
+	
+S-8
+	
+05/29/14
+	
+10.13
+	
+ 
+
+
+ 
+	
+ 
+	
+ 
+	
+ 
+	
+ 
+	
+ 
+
+
+23.1
+	
+Consent of Dale Matheson Carr-Hilton Labonte LLP.
+	
+10-K
+	
+07/15/14
+	
+23.1
+	
+ 
+
+
+ 
+	
+ 
+	
+ 
+	
+ 
+	
+ 
+	
+ 
+
+
+31.1
+	
+Certification of Principal Executive Officer pursuant to Section 302 of the Sarbanes-Oxley Act of 2002.
+	
+ 
+	
+ 
+	
+ 
+	
+X
+
+
+ 
+	
+ 
+	
+ 
+	
+ 
+	
+ 
+	
+ 
+
+
+31.2
+	
+Certification of Principal Financial Officer pursuant to Section 302 of the Sarbanes-Oxley Act of 2002.
+	
+ 
+	
+ 
+	
+ 
+	
+X
+
+
+ 
+	
+ 
+	
+ 
+	
+ 
+	
+ 
+	
+ 
+
+
+32.1
+	
+Certification of Chief Executive Officer pursuant to Section 906 of the Sarbanes-Oxley Act of 2002.
+	
+ 
+	
+ 
+	
+ 
+	
+X
+
+
+ 
+	
+ 
+	
+ 
+	
+ 
+	
+ 
+	
+ 
+
+
+32.2
+	
+Certification of Chief Financial Officer pursuant to Section 906 of the Sarbanes-Oxley Act of 2002.
+	
+ 
+	
+ 
+	
+ 
+	
+X
+
+
+ 
+	
+ 
+	
+ 
+	
+ 
+	
+ 
+	
+ 
+
+
+101.INS
+	
+XBRL Instance Document.
+	
+ 
+	
+ 
+	
+ 
+	
+X
+
+
+ 
+	
+ 
+	
+ 
+	
+ 
+	
+ 
+	
+ 
+
+
+101.SCH
+	
+XBRL Taxonomy Extension â€“ Schema.
+	
+ 
+	
+ 
+	
+ 
+	
+X
+
+
+ 
+	
+ 
+	
+ 
+	
+ 
+	
+ 
+	
+ 
+
+
+101.CAL
+	
+XBRL Taxonomy Extension â€“ Calculations.
+	
+ 
+	
+ 
+	
+ 
+	
+X
+
+
+ 
+	
+ 
+	
+ 
+	
+ 
+	
+ 
+	
+ 
+
+
+101.DEF
+	
+XBRL Taxonomy Extension â€“ Definitions.
+	
+ 
+	
+ 
+	
+ 
+	
+X
+
+
+ 
+	
+ 
+	
+ 
+	
+ 
+	
+ 
+	
+ 
+
+
+101.LAB
+	
+XBRL Taxonomy Extension â€“ Labels.
+	
+ 
+	
+ 
+	
+ 
+	
+X
+
+
+ 
+	
+ 
+	
+ 
+	
+ 
+	
+ 
+	
+ 
+
+
+101.PRE
+	
+XBRL Taxonomy Extension â€“ Presentation.
+	
+ 
+	
+ 
+	
+ 
+	
+X
+
+
+
+
+Page 49 of 52
+ 
+
+
+
+
+SIGNATURES
+
+
+Pursuant to the requirements of Section 13 or 15(d) the Securities Act of 1934, the registrant has duly caused this report to be signed on its behalf by the undersigned, thereunto duly authorized on this 30th day of July, 2014.
+
+
+ 
+	
+SILVER STREAM MINING CORP.
+
+
+ 
+	
+ 
+	
+ 
+
+
+ 
+	
+ 
+	
+ 
+
+
+ 
+	
+BY:
+	
+TERRENCE BYBERG
+
+
+ 
+	
+ 
+	
+Terrence Byberg
+President, Chief Executive Officer and Director
+
+
+ 
+	
+ 
+	
+ 
+
+
+ 
+	
+BY:
+	
+DONALD BOSSERT
+
+
+ 
+	
+ 
+	
+Donald Bossert
+Chief Financial Officer and Director
+
+
+
+
+Pursuant to the requirements of the Securities Exchange Act of 1934, this report has been signed below by the following persons on behalf of the registrant and in the capacities and on the date indicated.
+
+
+Signature
+	
+Title
+	
+Date
+
+
+ 
+	
+ 
+	
+ 
+
+
+TERRENCE BYBERG
+	
+President, Chief Executive Officer and Director
+	
+July 30, 2014
+
+
+Terrence Byberg
+	
+ 
+	
+ 
+
+
+ 
+	
+ 
+	
+ 
+
+
+DONALD BOSSERT
+	
+Chief Financial Officer and Director
+	
+July 30, 2014
+
+
+Donald Bossert
+	
+ 
+	
+ 
+
+
+ 
+	
+ 
+	
+ 
+
+
+R. M. (MIKE) ROBB
+	
+Director
+	
+July 30, 2014
+
+
+R. M. (Mike) Robb
+	
+ 
+	
+ 
+
+
+ 
+	
+ 
+	
+ 
+
+
+PETER CALDER
+	
+Director
+	
+July 30, 2014
+
+
+Peter Calder
+	
+ 
+	
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Page 50 of 52
+ 
+
+
+
+
+EXHIBIT INDEX
+
+
+ 
+	
+ 
+	
+Incorporated by reference
+	
+ 
+
+
+Exhibit
+	
+Document Description
+	
+Form
+	
+Date
+	
+Number
+	
+Filed
+herewith
+
+
+ 
+	
+ 
+	
+ 
+	
+ 
+	
+ 
+	
+ 
+
+
+2.1
+	
+Agreement and Plan of Merger dated April 22, 2013.
+	
+8-K
+	
+4/26/13
+	
+2.1
+	
+ 
+
+
+ 
+	
+ 
+	
+ 
+	
+ 
+	
+ 
+	
+ 
+
+
+2.2
+	
+Agreement and Plan of Merger dated July 10, 2013.
+	
+8-K
+	
+08/08/13
+	
+2.1
+	
+ 
+
+
+ 
+	
+ 
+	
+ 
+	
+ 
+	
+ 
+	
+ 
+
+
+3.1
+	
+Articles of Incorporation.
+	
+SB-2
+	
+12/07/04
+	
+3.01
+	
+ 
+
+
+ 
+	
+ 
+	
+ 
+	
+ 
+	
+ 
+	
+ 
+
+
+3.2
+	
+Bylaws.
+	
+SB-2
+	
+12/07/04
+	
+3.02
+	
+ 
+
+
+ 
+	
+ 
+	
+ 
+	
+ 
+	
+ 
+	
+ 
+
+
+3.3
+	
+Articles of Merger.
+	
+8-K
+	
+05/15/13
+	
+3.1
+	
+ 
+
+
+ 
+	
+ 
+	
+ 
+	
+ 
+	
+ 
+	
+ 
+
+
+3.4
+	
+Articles of Incorporation â€“ W. S. Industries, Inc.
+	
+8-K
+	
+05/15/13
+	
+3.2
+	
+ 
+
+
+ 
+	
+ 
+	
+ 
+	
+ 
+	
+ 
+	
+ 
+
+
+3.5
+	
+Certificate of Amendment to Articles of Incorporation.
+	
+8-K
+	
+05/15/13
+	
+3.3
+	
+ 
+
+
+ 
+	
+ 
+	
+ 
+	
+ 
+	
+ 
+	
+ 
+
+
+3.6
+	
+Bylaws of W. S. Industries, Inc.
+	
+8-K
+	
+05/15/13
+	
+3.4
+	
+ 
+
+
+ 
+	
+ 
+	
+ 
+	
+ 
+	
+ 
+	
+ 
+
+
+3.7
+	
+Articles of Merger.
+	
+8-K
+	
+08/08/13
+	
+3.1
+	
+ 
+
+
+ 
+	
+ 
+	
+ 
+	
+ 
+	
+ 
+	
+ 
+
+
+3.8
+	
+Articles of Incorporation â€“ W. S. Merger Corp.
+	
+8-K
+	
+05/29/14
+	
+3.7
+	
+ 
+
+
+ 
+	
+ 
+	
+ 
+	
+ 
+	
+ 
+	
+ 
+
+
+3.9
+	
+Bylaws â€“ W. S. Merger Corp.
+	
+8-K
+	
+05/29/14
+	
+3.8
+	
+ 
+
+
+ 
+	
+ 
+	
+ 
+	
+ 
+	
+ 
+	
+ 
+
+
+10.1
+	
+Indemnity Agreement dated April 22, 2013.
+	
+8-K
+	
+4/26/13
+	
+10.1
+	
+ 
+
+
+ 
+	
+ 
+	
+ 
+	
+ 
+	
+ 
+	
+ 
+
+
+10.2
+	
+Management Services Agreement.
+	
+8-K
+	
+05/15/13
+	
+10.2
+	
+ 
+
+
+ 
+	
+ 
+	
+ 
+	
+ 
+	
+ 
+	
+ 
+
+
+10.3
+	
+Exploration Contract and Unilateral Promise of Sale.
+	
+8-K
+	
+05/15/13
+	
+10.3
+	
+ 
+
+
+ 
+	
+ 
+	
+ 
+	
+ 
+	
+ 
+	
+ 
+
+
+10.4
+	
+Assignment of Mining Rights Contract.
+	
+8-K
+	
+05/15/13
+	
+10.4
+	
+ 
+
+
+ 
+	
+ 
+	
+ 
+	
+ 
+	
+ 
+	
+ 
+
+
+10.5
+	
+Asset Operation Contract.
+	
+8-K
+	
+05/15/13
+	
+10.5
+	
+ 
+
+
+ 
+	
+ 
+	
+ 
+	
+ 
+	
+ 
+	
+ 
+
+
+10.6
+	
+Stock Option Plan.
+	
+8-K
+	
+05/15/13
+	
+10.6
+	
+ 
+
+
+ 
+	
+ 
+	
+ 
+	
+ 
+	
+ 
+	
+ 
+
+
+10.7
+	
+Consulting Agreement with Terrence H. Byberg.
+	
+8-K
+	
+09/12/13
+	
+10.1
+	
+ 
+
+
+ 
+	
+ 
+	
+ 
+	
+ 
+	
+ 
+	
+ 
+
+
+10.8
+	
+Consulting Agreement with Douglas R. Wood.
+	
+8-K
+	
+09/12/13
+	
+10.2
+	
+ 
+
+
+ 
+	
+ 
+	
+ 
+	
+ 
+	
+ 
+	
+ 
+
+
+10.9
+	
+Consulting Agreement with R. M. Robb.
+	
+8-K
+	
+09/12/13
+	
+10.3
+	
+ 
+
+
+ 
+	
+ 
+	
+ 
+	
+ 
+	
+ 
+	
+ 
+
+
+10.10
+	
+Option Agreement with Sage Gold Inc.
+	
+8-K
+	
+11/19/13
+	
+10.1
+	
+ 
+
+
+ 
+	
+ 
+	
+ 
+	
+ 
+	
+ 
+	
+ 
+
+
+10.11
+	
+Consulting Agreement with James Garber.
+	
+8-K
+	
+11/19/13
+	
+10.2
+	
+ 
+
+
+ 
+	
+ 
+	
+ 
+	
+ 
+	
+ 
+	
+ 
+
+
+10.12
+	
+Form of Indemnity Agreement.
+	
+8-K
+	
+01/21/14
+	
+10.1
+	
+ 
+
+
+ 
+	
+ 
+	
+ 
+	
+ 
+	
+ 
+	
+ 
+
+
+10.13
+	
+2014 Stock Option Plan.
+	
+S-8
+	
+05/29/14
+	
+10.13
+	
+ 
+
+
+ 
+	
+ 
+	
+ 
+	
+ 
+	
+ 
+	
+ 
+
+
+23.1
+	
+Consent of Dale Matheson Carr-Hilton Labonte LLP.
+	
+10-K
+	
+07/15/14
+	
+23.1
+	
+ 
+
+
+ 
+	
+ 
+	
+ 
+	
+ 
+	
+ 
+	
+ 
+Page 51 of 52
+ 
+
+
+
+
+31.1
+	
+Certification of Principal Executive Officer pursuant to Section 302 of the Sarbanes-Oxley Act of 2002.
+	
+ 
+	
+ 
+	
+ 
+	
+X
+
+
+ 
+	
+ 
+	
+ 
+	
+ 
+	
+ 
+	
+ 
+
+
+31.2
+	
+Certification of Principal Financial Officer pursuant to Section 302 of the Sarbanes-Oxley Act of 2002.
+	
+ 
+	
+ 
+	
+ 
+	
+X
+
+
+ 
+	
+ 
+	
+ 
+	
+ 
+	
+ 
+	
+ 
+
+
+32.1
+	
+Certification of Chief Executive Officer pursuant to Section 906 of the Sarbanes-Oxley Act of 2002.
+	
+ 
+	
+ 
+	
+ 
+	
+X
+
+
+ 
+	
+ 
+	
+ 
+	
+ 
+	
+ 
+	
+ 
+
+
+32.2
+	
+Certification of Chief Financial Officer pursuant to Section 906 of the Sarbanes-Oxley Act of 2002.
+	
+ 
+	
+ 
+	
+ 
+	
+X
+
+
+ 
+	
+ 
+	
+ 
+	
+ 
+	
+ 
+	
+ 
+
+
+101.INS
+	
+XBRL Instance Document.
+	
+ 
+	
+ 
+	
+ 
+	
+X
+
+
+ 
+	
+ 
+	
+ 
+	
+ 
+	
+ 
+	
+ 
+
+
+101.SCH
+	
+XBRL Taxonomy Extension â€“ Schema.
+	
+ 
+	
+ 
+	
+ 
+	
+X
+
+
+ 
+	
+ 
+	
+ 
+	
+ 
+	
+ 
+	
+ 
+
+
+101.CAL
+	
+XBRL Taxonomy Extension â€“ Calculations.
+	
+ 
+	
+ 
+	
+ 
+	
+X
+
+
+ 
+	
+ 
+	
+ 
+	
+ 
+	
+ 
+	
+ 
+
+
+101.DEF
+	
+XBRL Taxonomy Extension â€“ Definitions.
+	
+ 
+	
+ 
+	
+ 
+	
+X
+
+
+ 
+	
+ 
+	
+ 
+	
+ 
+	
+ 
+	
+ 
+
+
+101.LAB
+	
+XBRL Taxonomy Extension â€“ Labels.
+	
+ 
+	
+ 
+	
+ 
+	
+X
+
+
+ 
+	
+ 
+	
+ 
+	
+ 
+	
+ 
+	
+ 
+
+
+101.PRE
+	
+XBRL Taxonomy Extension â€“ Presentation.
+	
+ 
+	
+ 
+	
+ 
+	
+X
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+Page 52 of 52

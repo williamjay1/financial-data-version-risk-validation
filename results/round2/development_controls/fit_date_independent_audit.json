@@ -1,0 +1,46 @@
+{
+  "status": "PASS",
+  "input_cohort_sha256": "724122d3ca7a0a123de244112aa604d6da7a008497cc6ce526f8f07327916e21",
+  "fit_date_manifest_sha256": "78b1efa5bd372648630eb0152976ab7167a55743eaa88d3d978a322417f7425b",
+  "output_hashes_checked": 22,
+  "blocks": [
+    {
+      "block": "2016_2017",
+      "training_rows": 2024,
+      "test_rows": 1063,
+      "latest_source_after_or_on_fit_date": 6,
+      "fit_date_versus_latest_B_numerical_change_rows": 3,
+      "selected_filing_strictly_before_T": true,
+      "A_test_exactly_unchanged": true
+    },
+    {
+      "block": "2018_2019",
+      "training_rows": 3167,
+      "test_rows": 946,
+      "latest_source_after_or_on_fit_date": 8,
+      "fit_date_versus_latest_B_numerical_change_rows": 4,
+      "selected_filing_strictly_before_T": true,
+      "A_test_exactly_unchanged": true
+    },
+    {
+      "block": "2020_2021",
+      "training_rows": 4161,
+      "test_rows": 845,
+      "latest_source_after_or_on_fit_date": 6,
+      "fit_date_versus_latest_B_numerical_change_rows": 2,
+      "selected_filing_strictly_before_T": true,
+      "A_test_exactly_unchanged": true
+    }
+  ],
+  "saved_final_fits_reconstructed": 6,
+  "archived_anchor_predictions_reconstructed": 12,
+  "metric_cells_recalculated": 54,
+  "maximum_prediction_difference": 0.0,
+  "maximum_metric_difference": 1.1102230246251565e-16,
+  "maximum_reconstructed_feature_difference": 0.0,
+  "same_missing_masks_and_identity_labels_weights": true,
+  "training_performed": false,
+  "provenance_self_hash_warning": false,
+  "claim_boundary": "Most latest-B training disclosures predate T. Differences are filing-date reconstructions from one current API snapshot; no original XBRL or historical API authentication is established.",
+  "provenance_resolution": "Owner excluded manifest self-hash; all remaining output bindings rechecked, no scientific files or scores changed."
+}

@@ -1,0 +1,23 @@
+cff-version: 1.2.0
+message: "If you use this package, please cite the paper and this repository."
+title: "Financial data version risk in bankruptcy model validation: separating scoring, development and evaluation effects"
+abstract: >-
+  Reproducibility package for a crossed version validation protocol that separates
+  substitution of scoring inputs, redevelopment of the fitted pipeline and selection of
+  the evaluated population when historical financial data values change across reported
+  versions. Contains frozen derived inputs, analysis code, saved predictions, figures,
+  tables and the manuscript.
+authors:
+  - family-names: Zhang
+    given-names: Junjie
+    orcid: "https://orcid.org/0009-0004-8821-4018"
+    affiliation: "Shanghai International Studies University"
+type: software
+license: MIT
+keywords:
+  - model validation
+  - model risk
+  - credit risk
+  - bankruptcy prediction
+  - data versioning
+  - backtesting

@@ -1,0 +1,7 @@
+analysis_mode,block,model,rows,positive_filing_windows,distinct_positive_ciks,distinct_positive_sampling_clusters,active_noncase_clusters,zero_domain_sampled_noncase_clusters,active_certainty_clusters,zero_domain_certainty_clusters
+refit_vintages,2016_2017,LGBM,1063,51,51,51,440,560,142,241
+refit_vintages,2016_2017,LR,1063,51,51,51,440,560,142,241
+refit_vintages,2018_2019,LGBM,946,28,28,28,420,580,94,289
+refit_vintages,2018_2019,LR,946,28,28,28,420,580,94,289
+refit_vintages,2020_2021,LGBM,845,44,44,44,418,582,53,330
+refit_vintages,2020_2021,LR,845,44,44,44,418,582,53,330

@@ -1,0 +1,56 @@
+[
+  {
+    "url": "https://arc.hhs.se/download.aspx?MediumId=3871",
+    "status": 200,
+    "raw_path": "E:\\AcademicData\\scie_small_sample_topics_20260920\\raw\\finance_round2_20260922\\hashemi_jonsson2017_20260922T160525124850Z.pdf",
+    "sha256": "0b305166ae50d7f6cbd3439efa91839258e72ef8ea22c72431965283c8025cf6",
+    "bytes": 1544981,
+    "content_type": "application/pdf",
+    "readonly": true
+  },
+  {
+    "url": "https://www.sec.gov/Archives/edgar/data/278041/000027804112000012/0000278041-12-000012-index.html",
+    "status": 403,
+    "raw_path": "E:\\AcademicData\\scie_small_sample_topics_20260920\\raw\\finance_round2_20260922\\ish_index_20260922T160525124850Z.bin",
+    "sha256": "ec8dfccf1d1548e727ae2fe5497bd6223716ac605445dc3ac3d67fd49a90bfc5",
+    "bytes": 4818,
+    "content_type": "text/html",
+    "readonly": true
+  },
+  {
+    "url": "https://www.sec.gov/structureddata/announcement/osd_announcement07142017-data-quality-reminder-negative-values",
+    "status": 403,
+    "raw_path": "E:\\AcademicData\\scie_small_sample_topics_20260920\\raw\\finance_round2_20260922\\sec_negative_values_20260922T160525124850Z.bin",
+    "sha256": "a7a819caa725df8b205d8c2eed0a48046f3d7fd80c53ba2a31707a90eca032db",
+    "bytes": 1924,
+    "content_type": "text/html",
+    "readonly": true
+  },
+  {
+    "url": "https://xbrl.fasb.org/us-gaap/2012/elts/us-gaap-2012-01-31.xsd",
+    "status": 200,
+    "raw_path": "E:\\AcademicData\\scie_small_sample_topics_20260920\\raw\\finance_round2_20260922\\fasb_gaap2012_schema_20260922T160525124850Z.bin",
+    "sha256": "69880418180e1ff88810b70eaec8120fecb29c5e379dbd982f616f0f79106528",
+    "bytes": 4443357,
+    "content_type": "application/xml",
+    "readonly": true
+  },
+  {
+    "url": "https://xbrl.fasb.org/us-gaap/2013/elts/us-gaap-2013-01-31.xsd",
+    "status": 200,
+    "raw_path": "E:\\AcademicData\\scie_small_sample_topics_20260920\\raw\\finance_round2_20260922\\fasb_gaap2013_schema_20260922T160525124850Z.bin",
+    "sha256": "bd746b442b40db942afc8a895320e80c8c1c1a647346928c1bf1bd5bd7a325eb",
+    "bytes": 4624525,
+    "content_type": "application/xml",
+    "readonly": true
+  },
+  {
+    "url": "https://xbrl.us/data-rule/guid-cashflows/",
+    "status": 200,
+    "raw_path": "E:\\AcademicData\\scie_small_sample_topics_20260920\\raw\\finance_round2_20260922\\xbrlus_cashflows_20260922T160525124850Z.bin",
+    "sha256": "d8d0d2b032f4f1d9bf7921b6651cadedbd51ecdda58878ecc7f5653e2cc925c6",
+    "bytes": 175030,
+    "content_type": "text/html; charset=UTF-8",
+    "readonly": true
+  }
+]

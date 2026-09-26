@@ -1,0 +1,42 @@
+[
+  {
+    "name": "ffiec_public_service.pdf",
+    "url": "https://cdr.ffiec.gov/public/Files/SIS611_-_Retrieve_Public_Data_via_Web_Service.pdf",
+    "final_url": "https://cdr.ffiec.gov/public/Files/SIS611_-_Retrieve_Public_Data_via_Web_Service.pdf",
+    "http_status": 403,
+    "bytes": 179,
+    "sha256": "1f2e1251b1d5fab2f47bbfe3e09b149064e61571f98a5e02c6ace5f86bacb1d5",
+    "raw_path": "E:\\AcademicData\\scie_small_sample_topics_20260920\\raw\\finance_reframe_20260921\\bank\\20260921T080020572648Z_ffiec_public_service.pdf",
+    "retrieved_utc": "2026-09-21T08:00:23.366274+00:00"
+  },
+  {
+    "name": "ffiec_pws_info.html",
+    "url": "https://cdr.ffiec.gov/public/HelpFiles/PWSInfo.htm",
+    "final_url": "https://cdr.ffiec.gov/public/HelpFiles/PWSInfo.htm",
+    "http_status": 403,
+    "bytes": 179,
+    "sha256": "1f2e1251b1d5fab2f47bbfe3e09b149064e61571f98a5e02c6ace5f86bacb1d5",
+    "raw_path": "E:\\AcademicData\\scie_small_sample_topics_20260920\\raw\\finance_reframe_20260921\\bank\\20260921T080020572648Z_ffiec_pws_info.html",
+    "retrieved_utc": "2026-09-21T08:00:25.100246+00:00"
+  },
+  {
+    "name": "fdic_api_catalog_license.html",
+    "url": "https://catalog.data.gov/dataset/fdic-bankfind-suite-api",
+    "final_url": "https://catalog.data.gov/dataset/fdic-bankfind-suite-api",
+    "http_status": 200,
+    "bytes": 123244,
+    "sha256": "4d84edfe9a7fc3d9461be5bd17a5438f7357b5e9361d7657cb5e57d708a5b965",
+    "raw_path": "E:\\AcademicData\\scie_small_sample_topics_20260920\\raw\\finance_reframe_20260921\\bank\\20260921T080020572648Z_fdic_api_catalog_license.html",
+    "retrieved_utc": "2026-09-21T08:00:31.371543+00:00"
+  },
+  {
+    "name": "ffiec_revision_history.html",
+    "url": "https://cdr.ffiec.gov/CDR/public/CDRHelp/Managing%20Call%20Reports%201%20(F1PSJ25%20v1).htm",
+    "final_url": "https://cdr.ffiec.gov/CDR/public/CDRHelp/Managing%20Call%20Reports%201%20(F1PSJ25%20v1).htm",
+    "http_status": 403,
+    "bytes": 179,
+    "sha256": "1f2e1251b1d5fab2f47bbfe3e09b149064e61571f98a5e02c6ace5f86bacb1d5",
+    "raw_path": "E:\\AcademicData\\scie_small_sample_topics_20260920\\raw\\finance_reframe_20260921\\bank\\20260921T080020572648Z_ffiec_revision_history.html",
+    "retrieved_utc": "2026-09-21T08:00:33.183316+00:00"
+  }
+]

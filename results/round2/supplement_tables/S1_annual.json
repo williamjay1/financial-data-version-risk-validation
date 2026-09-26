@@ -1,0 +1,110 @@
+[
+  {
+    "year": 2010,
+    "landmarks": 48,
+    "ciks": 48,
+    "clusters": 47,
+    "weighted_landmarks": 413.74199999999996,
+    "positive_windows": 0,
+    "event_ciks": 0
+  },
+  {
+    "year": 2011,
+    "landmarks": 165,
+    "ciks": 165,
+    "clusters": 163,
+    "weighted_landmarks": 1546.692,
+    "positive_windows": 4,
+    "event_ciks": 4
+  },
+  {
+    "year": 2012,
+    "landmarks": 628,
+    "ciks": 628,
+    "clusters": 623,
+    "weighted_landmarks": 6764.337999999998,
+    "positive_windows": 16,
+    "event_ciks": 16
+  },
+  {
+    "year": 2013,
+    "landmarks": 609,
+    "ciks": 604,
+    "clusters": 600,
+    "weighted_landmarks": 6623.423999999999,
+    "positive_windows": 7,
+    "event_ciks": 7
+  },
+  {
+    "year": 2014,
+    "landmarks": 611,
+    "ciks": 604,
+    "clusters": 598,
+    "weighted_landmarks": 6652.515999999998,
+    "positive_windows": 14,
+    "event_ciks": 14
+  },
+  {
+    "year": 2015,
+    "landmarks": 587,
+    "ciks": 580,
+    "clusters": 574,
+    "weighted_landmarks": 6344.049999999999,
+    "positive_windows": 24,
+    "event_ciks": 24
+  },
+  {
+    "year": 2016,
+    "landmarks": 554,
+    "ciks": 551,
+    "clusters": 547,
+    "weighted_landmarks": 6202.681999999999,
+    "positive_windows": 31,
+    "event_ciks": 31
+  },
+  {
+    "year": 2017,
+    "landmarks": 509,
+    "ciks": 507,
+    "clusters": 503,
+    "weighted_landmarks": 5954.491999999998,
+    "positive_windows": 20,
+    "event_ciks": 20
+  },
+  {
+    "year": 2018,
+    "landmarks": 483,
+    "ciks": 480,
+    "clusters": 476,
+    "weighted_landmarks": 5833.669999999998,
+    "positive_windows": 8,
+    "event_ciks": 8
+  },
+  {
+    "year": 2019,
+    "landmarks": 463,
+    "ciks": 460,
+    "clusters": 459,
+    "weighted_landmarks": 5664.663999999998,
+    "positive_windows": 20,
+    "event_ciks": 20
+  },
+  {
+    "year": 2020,
+    "landmarks": 436,
+    "ciks": 435,
+    "clusters": 435,
+    "weighted_landmarks": 5624.117999999999,
+    "positive_windows": 39,
+    "event_ciks": 39
+  },
+  {
+    "year": 2021,
+    "landmarks": 409,
+    "ciks": 405,
+    "clusters": 405,
+    "weighted_landmarks": 5773.215999999998,
+    "positive_windows": 5,
+    "event_ciks": 5
+  }
+]

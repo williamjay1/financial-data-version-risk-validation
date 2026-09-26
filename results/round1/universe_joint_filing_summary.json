@@ -1,0 +1,7 @@
+{
+  "shared_accessions": 2312,
+  "rows_in_shared_accessions": 5651,
+  "distinct_ciks_in_shared_accessions": 950,
+  "max_ciks_one_accession": 67,
+  "interpretation": "Multiple CIKs attached to the same accepted submission. This is an identity-audit flag, not proof that all such CIKs are one permanently identical economic group. The graph is historical and must not be used as an as-of feature without date restrictions."
+}

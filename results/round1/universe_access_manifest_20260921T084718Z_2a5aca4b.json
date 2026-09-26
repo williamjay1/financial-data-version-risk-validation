@@ -1,0 +1,32 @@
+[
+  {
+    "url": "https://huggingface.co/datasets/kapilrao/SEC_filings_1994_2024/raw/main/README.md",
+    "request_utc": "2026-09-21T08:47:18.730817+00:00",
+    "user_agent": "Codex public-data feasibility audit/1.0 (one-off metadata access; no bulk SEC collection)",
+    "authentication": false,
+    "status": 200,
+    "final_url": "https://huggingface.co/datasets/kapilrao/SEC_filings_1994_2024/raw/main/README.md",
+    "content_type": "text/plain; charset=utf-8",
+    "etag": "W/\"0e35a4e8c64ac50b98b867290b63a33e9d0534b2\"",
+    "last_modified": null,
+    "raw_path": "E:\\AcademicData\\scie_small_sample_topics_20260920\\raw\\finance_reframe_20260921\\universe\\universe_20260921T084718Z_2a5aca4b_00.bin",
+    "bytes": 4754,
+    "sha256": "f19eeeffa08c8382a3d1a6230d53926e355e4a1badb72f16d48bf1d31d46f2f6",
+    "read_only": true
+  },
+  {
+    "url": "https://huggingface.co/datasets/kapilrao/SEC_filings_1994_2024/resolve/main/data/train-00010-of-00020.parquet",
+    "request_utc": "2026-09-21T08:47:20.909958+00:00",
+    "user_agent": "Codex public-data feasibility audit/1.0 (one-off metadata access; no bulk SEC collection)",
+    "authentication": false,
+    "status": 200,
+    "final_url": "https://us.aws.cdn.hf.co/xet-bridge-us/69b7fcf7a4c96128cf21280f/19c29627fdfdcd25c67e9916749813ed7836c50c032f1d7c7a3a0a4112acba92?X-Xet-Cas-Uid=public&response-content-disposition=inline%3B+filename*%3DUTF-8%27%27train-00010-of-00020.parquet%3B+filename%3D%22train-00010-of-00020.parquet%22%3B&user_id=public&Expires=1789984038&Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly91cy5hd3MuY2RuLmhmLmNvL3hldC1icmlkZ2UtdXMvNjliN2ZjZjdhNGM5NjEyOGNmMjEyODBmLzE5YzI5NjI3ZmRmZGNkMjVjNjdlOTkxNjc0OTgxM2VkNzgzNmM1MGMwMzJmMWQ3YzdhM2EwYTQxMTJhY2JhOTJcXD9YLVhldC1DYXMtVWlkPXB1YmxpYyZyZXNwb25zZS1jb250ZW50LWRpc3Bvc2l0aW9uPWlubGluZSUzQitmaWxlbmFtZSUyQSUzRFVURi04JTI3JTI3dHJhaW4tMDAwMTAtb2YtMDAwMjAucGFycXVldCUzQitmaWxlbmFtZSUzRCUyMnRyYWluLTAwMDEwLW9mLTAwMDIwLnBhcnF1ZXQlMjIlM0ImdXNlcl9pZD1wdWJsaWMiLCJDb25kaXRpb24iOnsiRGF0ZUxlc3NUaGFuIjp7IkVwb2NoVGltZSI6MTc4OTk4NDAzOH19fV19&Signature=MEUCIQCuLvKxogk9XPRgb0sDze0rkvzUdEEPbMOjgfoOvebTxAIgQrq13RsHGIu2Zie4dmP9B4nSBK5GMGA2cAzqxK-QPiM_&Key-Pair-Id=01KXEF4KZ1B6FV465MAWR4M21F&Hash-Algorithm=SHA256",
+    "content_type": "application/octet-stream",
+    "etag": "\"19c29627fdfdcd25c67e9916749813ed7836c50c032f1d7c7a3a0a4112acba92\"",
+    "last_modified": null,
+    "raw_path": "E:\\AcademicData\\scie_small_sample_topics_20260920\\raw\\finance_reframe_20260921\\universe\\universe_20260921T084718Z_2a5aca4b_01.bin",
+    "bytes": 94505254,
+    "sha256": "f74c2f8287eaea965604966d77fc095d00b415c09ef2230e7a4dfeb5b5415e83",
+    "read_only": true
+  }
+]

@@ -1,0 +1,90 @@
+{
+  "status": "PASS",
+  "audit_utc": "2026-09-21T09:34:51.396412+00:00",
+  "checks": {
+    "all_selected_primary_urls_terminal": {
+      "pass": true,
+      "detail": {
+        "required": 3036,
+        "unresolved": []
+      }
+    },
+    "all_referenced_histories_available": {
+      "pass": true,
+      "detail": {
+        "required": 311,
+        "unresolved": []
+      }
+    },
+    "working_cache_hashes_match_original_manifest": {
+      "pass": true,
+      "detail": {
+        "verified": 3032,
+        "bad": []
+      }
+    },
+    "fact_key_unique": {
+      "pass": true,
+      "detail": null
+    },
+    "B_is_single_accession": {
+      "pass": true,
+      "detail": null
+    },
+    "C_source_count_includes_retained_original": {
+      "pass": true,
+      "detail": null
+    },
+    "all_30_feature_columns_reconstructed": {
+      "pass": true,
+      "detail": []
+    },
+    "independent_direct_registry_labels": {
+      "pass": true,
+      "detail": null
+    },
+    "all_before_first_recorded_event": {
+      "pass": true,
+      "detail": null
+    },
+    "original_assets_domain": {
+      "pass": true,
+      "detail": null
+    },
+    "same_missingness_A_B": {
+      "pass": true,
+      "detail": null
+    },
+    "same_weight_as_locked_frame": {
+      "pass": true,
+      "detail": null
+    },
+    "cohort_matches_locked_rules": {
+      "pass": true,
+      "detail": null
+    },
+    "cohort_values_equal_filtered_panel": {
+      "pass": true,
+      "detail": []
+    },
+    "all_sampling_metadata_equal_locked_frame": {
+      "pass": true,
+      "detail": []
+    },
+    "no_duplicate_fiscal_landmarks": {
+      "pass": true,
+      "detail": null
+    },
+    "full_365_day_followup": {
+      "pass": true,
+      "detail": null
+    }
+  },
+  "issues": [],
+  "cohort_rows": 5502,
+  "cohort_sha256": "724122d3ca7a0a123de244112aa604d6da7a008497cc6ce526f8f07327916e21",
+  "fact_table_sha256": "18f5f0424091c17bb80fa146d55890a849c1fce97f3f0f0d0e784d7422c71c5f",
+  "sampling_frame_sha256": "6f339ebd465f018afc463e0e3b3a854e1882ed4d836a4352c95dc6ca5d388937",
+  "script_sha256": "1b23d5f3f0673cfaed9c83059e9f7e3a4f0f2e53a446ca4c34df008e2c986a27",
+  "limitations": "Mechanical data gate only; accessible current-API domain, direct registry target, cofiling clusters not complete legal groups, source semantics partly audited."
+}

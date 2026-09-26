@@ -1,0 +1,37 @@
+"audit_id","cik","source_accession","tag","start","end","unit","api_value","display_normalized_value","display_value","display_scale","evidence_url","locator","heading_char_offset","row_char_offset","source_raw_path","source_raw_sha256","source_text_path","source_excerpt","status","audit_sampling_role"
+"E03","0000278041","0000278041-12-000012","NetCashProvidedByUsedInOperatingActivities","2011-01-01","2011-12-31","USD","-46273000.0","46273000.0","46,273","thousands","https://www.sec.gov/Archives/edgar/data/278041/000027804112000012/form10k123111.htm","Consolidated Statements of Cash Flows; twelve months ended December 31, 2011; Net Cash Provided by Operating Activities","233059.0","234820.0","<archived-record-root>/...","573bd7f870f540ed1b4e8d425a53c05c20692595fb11a0fc0cb38de5d71dff86","<working-tree-root>/...","1,337 | | | (913 | ) |
+| Accounts Payable and Accrued Liabilities | | 3,133 | | | (3,906 | ) | | 6,059 | |
+| Other Long-Term Liabilities | | (3,045 | ) | | (2,195 | ) | | (135 | ) |
+| Net Cash Provided by Operating Activities | | 46,273 | | | 64,387 | | | 62,681 | |
+| Cash Flows from Investing Activities: | | | | | | | | | |
+| Principal payments received under Direct Financing Leases | | 5,583 | | | 5,522 | | | 7,763 | |
+| Capital Improvements to Vessels and Other Assets | | (109,631 | ) | | (123,146 | ) | | (80,303 | ) |
+| Proceeds from Sale o","sign_unresolved_pending_concept_and_originalXBRL_verification","purposive_extreme"
+"E04","0001064728","0001064728-14-000015","RetainedEarningsAccumulatedDeficit","","2012-12-31","USD","-3066400000.0","3066400000.0","3,066.4","millions","https://www.sec.gov/Archives/edgar/data/1064728/000106472814000015/btu-2013123110k.htm","Consolidated Balance Sheets F-4; December 31, 2012 comparative column; Retained earnings","363398.0","366049.0","<archived-record-root>/...","56506c778e0b29e310bcb9d7ab500556d5d0d40755c1f88e461100bc2bed1c36","<working-tree-root>/..."," Additional paid-in capital | 2,340.0 | | | 2,286.3 | | |
+| Treasury stock, at cost — 13.8 shares as of December 31, 2013 and 13.7 shares as of December 31, 2012 | (464.7 | | ) | (461.6 | | ) |
+| Retained earnings | 2,449.8 | | | 3,066.4 | | |
+| Accumulated other comprehensive (loss) income | (419.2 | | ) | 11.0 | | |
+| Peabody Energy Corporation stockholders’ equity | 3,908.7 | | | 4,904.9 | | |
+| Noncontrolling interests | 39.2 | | | 33.9 | | |
+| Total stockholders’ equity | 3,947.9 | | | 4,938.8 | | |
+| Total liabilities and stockholders’ eq","sign_unresolved_pending_concept_and_originalXBRL_verification","purposive_extreme"
+"E05","0001066923","0001213900-23-022083","NetIncomeLoss","2020-01-01","2020-12-31","USD","-88930311.0","88930311.0","88,930,311","USD","https://www.sec.gov/Archives/edgar/data/1066923/000121390023022083/f10k2021a1_futurefin.htm","Consolidated Statements of Operations and Comprehensive Income (Loss) F-7; 2020 comparative; Net Income (Loss); cash-flow corroboration F-9","387000.0","389558.0","<archived-record-root>/...","420c165d68886cbf6e54880b6b310e83c8d9792bc2c80ea12179b824209b10fb","<working-tree-root>/..."," (Note 25) | | | | | | |
+| Gain on disposal of discontinued operations | | (2,388,900 | ) | | 119,428,164 | |
+| Income (loss) from discontinued operations | | - | | | (222,041 | ) |
+| Net Income (Loss) | $ | (14,205,925 | ) | $ | 88,930,311 | |
+| Less: Net Loss attributable to non-controlling interests | | (610,990 | ) | | - | |
+| Net income(loss) from discontinued operations attributable to Future Fintech Group Inc. | $ | (13,594,935 | ) | $ | 88,930,311 | |
+| Other comprehensive income (loss) | | | | | | |
+| Income (loss) from continued opera","sign_unresolved_pending_concept_and_originalXBRL_verification","purposive_extreme"
+"E06","0001076682","0001144204-13-002186","RetainedEarningsAccumulatedDeficit","","2012-10-31","USD","90888000.0","-90888000.0","(90,888)","thousands","https://www.sec.gov/Archives/edgar/data/1076682/000114420413002186/v327423_10k.htm","Majesco Entertainment Consolidated Balance Sheet F-3; October 31, 2012; Accumulated deficit","175188.0","176786.0","<archived-record-root>/...","8217dc42a947dfc57d02139b4a0f8b6865bb30a99ecaaf476711b021db703fa5","<working-tree-root>/...","0,000 shares authorized; 41,862,321 and 41,307,349 shares issued and outstanding at October 31, 2012 and 2011, respectively | | 42 | | | 41 | |
+| Additional paid-in capital | | 120,755 | | | 119,222 | |
+| Accumulated deficit | | (90,888 | ) | | (95,501 | ) |
+| Accumulated other comprehensive loss | | (572 | ) | | (527 | ) |
+| Net stockholders’ equity | | 29,337 | | | 23,235 | |
+| Total liabilities and stockholders’ equity | $ | 49,298 | | $ | 52,377 | |
+
+CONSOLIDATED STATEMENTS OF OPERATIONS
+
+(in thousands, except share data)
+
+| | Year Ended Oc","sign_unresolved_pending_concept_and_originalXBRL_verification","purposive_extreme"

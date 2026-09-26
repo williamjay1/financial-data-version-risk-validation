@@ -1,0 +1,35 @@
+[
+  {
+    "name": "api_docs.html",
+    "url": "https://api.fdic.gov/banks/docs/",
+    "final_url": "https://api.fdic.gov/banks/docs/",
+    "http_status": 200,
+    "bytes": 33773,
+    "sha256": "7cd38f317509a4ee44cfff06aceff872c6a8f2039eaa0240585289363956552e",
+    "raw_path": "E:\\AcademicData\\scie_small_sample_topics_20260920\\raw\\finance_reframe_20260921\\bank\\20260921T075155036068Z_api_docs.html",
+    "content_type": "text/html; charset=UTF-8",
+    "retrieved_utc": "2026-09-21T07:52:01.878571+00:00"
+  },
+  {
+    "name": "failures_all.json",
+    "url": "https://api.fdic.gov/banks/failures?limit=10000&sort_by=FAILDATE&sort_order=DESC&format=json",
+    "final_url": "https://api.fdic.gov/banks/failures?limit=10000&sort_by=FAILDATE&sort_order=DESC&format=json",
+    "http_status": 200,
+    "bytes": 2433201,
+    "sha256": "97e42291231128ce80e15eeda5b26da1401563c2197515f7525b4ff418eed88a",
+    "raw_path": "E:\\AcademicData\\scie_small_sample_topics_20260920\\raw\\finance_reframe_20260921\\bank\\20260921T075155036068Z_failures_all.json",
+    "content_type": "application/json; charset=utf-8",
+    "retrieved_utc": "2026-09-21T07:52:05.671431+00:00"
+  },
+  {
+    "name": "financials_full_schema_sample.json",
+    "url": "https://api.fdic.gov/banks/financials?filters=CERT%3A24735&limit=2&sort_by=REPDTE&sort_order=DESC&format=json",
+    "final_url": "https://api.fdic.gov/banks/financials?filters=CERT%3A24735&limit=2&sort_by=REPDTE&sort_order=DESC&format=json",
+    "http_status": 200,
+    "bytes": 6397,
+    "sha256": "b4103463a437ef956be87858ef8b83abc35218772aedf0c6cad82bbfe4a88464",
+    "raw_path": "E:\\AcademicData\\scie_small_sample_topics_20260920\\raw\\finance_reframe_20260921\\bank\\20260921T075155036068Z_financials_full_schema_sample.json",
+    "content_type": "application/json; charset=utf-8",
+    "retrieved_utc": "2026-09-21T07:52:07.369890+00:00"
+  }
+]

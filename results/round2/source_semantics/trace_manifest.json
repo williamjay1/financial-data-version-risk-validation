@@ -1,0 +1,9 @@
+{
+  "feature_cells_AB": 6,
+  "landmarks_AB": 6,
+  "scale_feature_cells": 2,
+  "sign_unresolved_feature_cells": 4,
+  "source_context_arm_rows_AB": 26,
+  "targeted_landmarks": 6,
+  "prediction_note": "Existing joint 26-context outputs only; cannot attribute global refit changes to an individual fact. No models run."
+}

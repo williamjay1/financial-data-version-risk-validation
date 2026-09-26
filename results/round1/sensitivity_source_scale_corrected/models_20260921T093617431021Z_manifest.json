@@ -1,0 +1,548 @@
+{
+  "started_utc": "2026-09-21T09:36:17.431021+00:00",
+  "mode": "run",
+  "source_script": "D:\\MLWork\\scie_small_sample_topics_20260920\\finance_reframe_20260921\\scripts\\run_vintage_models.py",
+  "source_script_sha256": "b302cf8a561cd8c0ea6fe099ee7981e61083c5a4a0f80dced8f9654ea02a1125",
+  "python": "3.12.10 (tags/v3.12.10:0cc8128, Apr  8 2025, 12:21:36) [MSC v.1943 64 bit (AMD64)]",
+  "platform": "Windows-11-10.0.26200-SP0",
+  "versions": {
+    "numpy": "2.5.1",
+    "pandas": "3.0.5",
+    "scipy": "1.18.0",
+    "scikit-learn": "1.9.0",
+    "lightgbm": "4.7.0",
+    "pyarrow": "25.0.0",
+    "joblib": "1.5.3"
+  },
+  "vintage_features": [
+    "log_assets",
+    "liabilities_to_assets",
+    "equity_to_assets",
+    "cash_to_assets",
+    "net_income_to_assets",
+    "revenue_to_assets",
+    "operating_income_to_assets",
+    "operating_cash_to_assets",
+    "retained_earnings_to_assets",
+    "working_capital_to_assets"
+  ],
+  "common_features": [
+    "report_lag_days"
+  ],
+  "features": [
+    "log_assets",
+    "liabilities_to_assets",
+    "equity_to_assets",
+    "cash_to_assets",
+    "net_income_to_assets",
+    "revenue_to_assets",
+    "operating_income_to_assets",
+    "operating_cash_to_assets",
+    "retained_earnings_to_assets",
+    "working_capital_to_assets",
+    "report_lag_days"
+  ],
+  "n_missing_indicators": 11,
+  "blocks": [
+    [
+      2016,
+      2017
+    ],
+    [
+      2018,
+      2019
+    ],
+    [
+      2020,
+      2021
+    ]
+  ],
+  "seed": 20260921,
+  "threads": 4,
+  "horizon_days": 365,
+  "label_grace_days": 90,
+  "calibration_definition": "test diagnostic only; intercept with slope=1, joint intercept/slope reported separately",
+  "weighted_capacity_definition": "retrospective 5% weighted mass; boundary score ties split uniformly",
+  "frozen_a_diagnostic": {
+    "additional_training_fits": 0,
+    "scenarios": [
+      "A_model_A_inputs",
+      "A_model_B_inputs"
+    ],
+    "versioned_outputs": {
+      "predictions": {
+        "path": "D:\\MLWork\\scie_small_sample_topics_20260920\\finance_reframe_20260921\\results\\sensitivity_source_scale_corrected\\models_20260921T093617431021Z_frozen_a_predictions.parquet",
+        "sha256": "57b2fcce2349656674f01e82045646f85fc1baf23219262714f3897025ef5caf"
+      },
+      "metrics": {
+        "path": "D:\\MLWork\\scie_small_sample_topics_20260920\\finance_reframe_20260921\\results\\sensitivity_source_scale_corrected\\models_20260921T093617431021Z_frozen_a_metrics.csv",
+        "sha256": "929e25e4626c87821d8e5e9591ddb82d858ae7ef7c9c02050d40ed67548ccd89"
+      },
+      "differences": {
+        "path": "D:\\MLWork\\scie_small_sample_topics_20260920\\finance_reframe_20260921\\results\\sensitivity_source_scale_corrected\\models_20260921T093617431021Z_frozen_a_paired_differences.csv",
+        "sha256": "7cd930b873250ab366f377654390ed1b09e136422dd696cc922ee56ba0379364"
+      }
+    },
+    "latest_alias_outputs": {
+      "predictions": "D:\\MLWork\\scie_small_sample_topics_20260920\\finance_reframe_20260921\\results\\sensitivity_source_scale_corrected\\models_frozen_a_predictions.parquet",
+      "metrics": "D:\\MLWork\\scie_small_sample_topics_20260920\\finance_reframe_20260921\\results\\sensitivity_source_scale_corrected\\models_frozen_a_metrics.csv",
+      "differences": "D:\\MLWork\\scie_small_sample_topics_20260920\\finance_reframe_20260921\\results\\sensitivity_source_scale_corrected\\models_frozen_a_paired_differences.csv"
+    }
+  },
+  "limitations": [
+    "No confidence intervals yet",
+    "Sampling cofiling clusters are not assumed to be legal corporate groups",
+    "B is a deliberate future-vintage diagnostic, never a deployment model",
+    "The module validates supplied labels and weights but does not establish registry coverage or sampling probabilities"
+  ],
+  "input": "D:\\MLWork\\scie_small_sample_topics_20260920\\finance_reframe_20260921\\datasets\\sensitivity_source_scale_corrected.parquet",
+  "input_sha256": "a50cd777e61faf1ff4ca1ce5175a742f1def520005fecfc8d01a2619c42e96f6",
+  "protocol": "D:\\MLWork\\scie_small_sample_topics_20260920\\finance_reframe_20260921\\phase2_protocol.json",
+  "protocol_sha256": "b18a0b9c6dfc9ff68920344d720ad2d19f6ab43dfda91be4e75c59f58bec3754",
+  "data_gate_training_allowed": true,
+  "training_binding": {
+    "status": "verified",
+    "main_cohort_path": "D:\\MLWork\\scie_small_sample_topics_20260920\\finance_reframe_20260921\\datasets\\model_cohort.parquet",
+    "main_cohort_sha256": "724122d3ca7a0a123de244112aa604d6da7a008497cc6ce526f8f07327916e21",
+    "input_sha256": "a50cd777e61faf1ff4ca1ce5175a742f1def520005fecfc8d01a2619c42e96f6",
+    "gate_audit_path": "D:\\MLWork\\scie_small_sample_topics_20260920\\finance_reframe_20260921\\results\\final_data_gate.json",
+    "gate_audit_sha256": "10bb24493de126acb7242ac95ea0918d731e3ecad6e6e7498cbe5023f19f4ee8",
+    "input_kind": "recorded_sensitivity",
+    "sensitivity": "source_scale_corrected",
+    "sensitivity_design_path": "D:\\MLWork\\scie_small_sample_topics_20260920\\finance_reframe_20260921\\results\\sensitivity_design.json",
+    "sensitivity_design_sha256": "5421587d8686f741882d54266b9fe8c085895065e8044c28e588a901868bf245",
+    "fact_table_sha256": "18f5f0424091c17bb80fa146d55890a849c1fce97f3f0f0d0e784d7422c71c5f"
+  },
+  "cohort": {
+    "n": 5502,
+    "positive_windows": 188,
+    "n_cik": 990,
+    "min_decision": "2010-02-11T00:00:00",
+    "n_sampling_clusters": 973,
+    "positive_sampling_clusters": 188,
+    "max_decision": "2021-12-30T00:00:00",
+    "max_mature_date": "2023-03-30T00:00:00",
+    "weighted_n": 63397.603999999985,
+    "weighted_positive_windows": 188.0,
+    "positive_cik_event_pairs": 188,
+    "strata": [
+      {
+        "sampling_stratum": "certainty",
+        "n": 1228,
+        "n_cik": 250,
+        "n_sampling_clusters": 241,
+        "weighted_n": 1228.0
+      },
+      {
+        "sampling_stratum": "noncase_srs",
+        "n": 4274,
+        "n_cik": 740,
+        "n_sampling_clusters": 732,
+        "weighted_n": 62169.604
+      }
+    ],
+    "independent_group_event_count_available": false
+  },
+  "split_manifest": [
+    {
+      "block": "2016_2017",
+      "test_start": "2016-01-01T00:00:00",
+      "validation_start": "2013-01-01T00:00:00",
+      "validation_year": 2013,
+      "counts": {
+        "tuning_train": {
+          "n": 181,
+          "positive_windows": 3,
+          "n_cik": 141,
+          "min_decision": "2010-02-11T00:00:00",
+          "n_sampling_clusters": 139,
+          "positive_sampling_clusters": 3,
+          "max_decision": "2011-09-29T00:00:00",
+          "max_mature_date": "2012-12-27T00:00:00",
+          "weighted_n": 1535.6,
+          "weighted_positive_windows": 3.0,
+          "positive_cik_event_pairs": 3,
+          "strata": [
+            {
+              "sampling_stratum": "certainty",
+              "n": 81,
+              "n_cik": 61,
+              "n_sampling_clusters": 59,
+              "weighted_n": 81.0
+            },
+            {
+              "sampling_stratum": "noncase_srs",
+              "n": 100,
+              "n_cik": 80,
+              "n_sampling_clusters": 80,
+              "weighted_n": 1454.6
+            }
+          ],
+          "independent_group_event_count_available": false
+        },
+        "validation": {
+          "n": 609,
+          "positive_windows": 7,
+          "n_cik": 604,
+          "min_decision": "2013-01-01T00:00:00",
+          "n_sampling_clusters": 600,
+          "positive_sampling_clusters": 7,
+          "max_decision": "2013-12-31T00:00:00",
+          "max_mature_date": "2015-03-31T00:00:00",
+          "weighted_n": 6623.423999999999,
+          "weighted_positive_windows": 7.0,
+          "positive_cik_event_pairs": 7,
+          "strata": [
+            {
+              "sampling_stratum": "certainty",
+              "n": 165,
+              "n_cik": 164,
+              "n_sampling_clusters": 163,
+              "weighted_n": 165.0
+            },
+            {
+              "sampling_stratum": "noncase_srs",
+              "n": 444,
+              "n_cik": 440,
+              "n_sampling_clusters": 437,
+              "weighted_n": 6458.424
+            }
+          ],
+          "independent_group_event_count_available": false
+        },
+        "refit": {
+          "n": 2024,
+          "positive_windows": 39,
+          "n_cik": 762,
+          "min_decision": "2010-02-11T00:00:00",
+          "n_sampling_clusters": 751,
+          "positive_sampling_clusters": 39,
+          "max_decision": "2014-09-30T00:00:00",
+          "max_mature_date": "2015-12-29T00:00:00",
+          "weighted_n": 21543.785999999993,
+          "weighted_positive_windows": 39.0,
+          "positive_cik_event_pairs": 39,
+          "strata": [
+            {
+              "sampling_stratum": "certainty",
+              "n": 583,
+              "n_cik": 211,
+              "n_sampling_clusters": 206,
+              "weighted_n": 583.0
+            },
+            {
+              "sampling_stratum": "noncase_srs",
+              "n": 1441,
+              "n_cik": 551,
+              "n_sampling_clusters": 545,
+              "weighted_n": 20960.786
+            }
+          ],
+          "independent_group_event_count_available": false
+        },
+        "test": {
+          "n": 1063,
+          "positive_windows": 51,
+          "n_cik": 589,
+          "min_decision": "2016-01-09T00:00:00",
+          "n_sampling_clusters": 582,
+          "positive_sampling_clusters": 51,
+          "max_decision": "2017-12-30T00:00:00",
+          "max_mature_date": "2019-03-30T00:00:00",
+          "weighted_n": 12157.173999999999,
+          "weighted_positive_windows": 51.0,
+          "positive_cik_event_pairs": 51,
+          "strata": [
+            {
+              "sampling_stratum": "certainty",
+              "n": 244,
+              "n_cik": 145,
+              "n_sampling_clusters": 142,
+              "weighted_n": 244.0
+            },
+            {
+              "sampling_stratum": "noncase_srs",
+              "n": 819,
+              "n_cik": 444,
+              "n_sampling_clusters": 440,
+              "weighted_n": 11913.173999999999
+            }
+          ],
+          "independent_group_event_count_available": false
+        }
+      },
+      "issues": [],
+      "diagnostic_warnings": [
+        "tuning_train: only 3 positive filing windows; count is not independent events, tuning/metrics can be unstable",
+        "validation: only 7 positive filing windows; count is not independent events, tuning/metrics can be unstable"
+      ]
+    },
+    {
+      "block": "2018_2019",
+      "test_start": "2018-01-01T00:00:00",
+      "validation_start": "2015-01-01T00:00:00",
+      "validation_year": 2015,
+      "counts": {
+        "tuning_train": {
+          "n": 1415,
+          "positive_windows": 27,
+          "n_cik": 705,
+          "min_decision": "2010-02-11T00:00:00",
+          "n_sampling_clusters": 697,
+          "positive_sampling_clusters": 27,
+          "max_decision": "2013-10-01T00:00:00",
+          "max_mature_date": "2014-12-30T00:00:00",
+          "weighted_n": 14879.723999999997,
+          "weighted_positive_windows": 27.0,
+          "positive_cik_event_pairs": 27,
+          "strata": [
+            {
+              "sampling_stratum": "certainty",
+              "n": 421,
+              "n_cik": 194,
+              "n_sampling_clusters": 191,
+              "weighted_n": 421.0
+            },
+            {
+              "sampling_stratum": "noncase_srs",
+              "n": 994,
+              "n_cik": 511,
+              "n_sampling_clusters": 506,
+              "weighted_n": 14458.724
+            }
+          ],
+          "independent_group_event_count_available": false
+        },
+        "validation": {
+          "n": 587,
+          "positive_windows": 24,
+          "n_cik": 580,
+          "min_decision": "2015-01-09T00:00:00",
+          "n_sampling_clusters": 574,
+          "positive_sampling_clusters": 24,
+          "max_decision": "2015-12-24T00:00:00",
+          "max_mature_date": "2017-03-23T00:00:00",
+          "weighted_n": 6344.049999999999,
+          "weighted_positive_windows": 24.0,
+          "positive_cik_event_pairs": 24,
+          "strata": [
+            {
+              "sampling_stratum": "certainty",
+              "n": 162,
+              "n_cik": 162,
+              "n_sampling_clusters": 161,
+              "weighted_n": 162.0
+            },
+            {
+              "sampling_stratum": "noncase_srs",
+              "n": 425,
+              "n_cik": 418,
+              "n_sampling_clusters": 413,
+              "weighted_n": 6182.05
+            }
+          ],
+          "independent_group_event_count_available": false
+        },
+        "refit": {
+          "n": 3167,
+          "positive_windows": 95,
+          "n_cik": 850,
+          "min_decision": "2010-02-11T00:00:00",
+          "n_sampling_clusters": 838,
+          "positive_sampling_clusters": 95,
+          "max_decision": "2016-09-29T00:00:00",
+          "max_mature_date": "2017-12-28T00:00:00",
+          "weighted_n": 34065.42599999999,
+          "weighted_positive_windows": 95.0,
+          "positive_cik_event_pairs": 95,
+          "strata": [
+            {
+              "sampling_stratum": "certainty",
+              "n": 886,
+              "n_cik": 232,
+              "n_sampling_clusters": 226,
+              "weighted_n": 886.0
+            },
+            {
+              "sampling_stratum": "noncase_srs",
+              "n": 2281,
+              "n_cik": 618,
+              "n_sampling_clusters": 612,
+              "weighted_n": 33179.426
+            }
+          ],
+          "independent_group_event_count_available": false
+        },
+        "test": {
+          "n": 946,
+          "positive_windows": 28,
+          "n_cik": 518,
+          "min_decision": "2018-01-06T00:00:00",
+          "n_sampling_clusters": 514,
+          "positive_sampling_clusters": 28,
+          "max_decision": "2019-12-28T00:00:00",
+          "max_mature_date": "2021-03-27T00:00:00",
+          "weighted_n": 11498.333999999995,
+          "weighted_positive_windows": 28.0,
+          "positive_cik_event_pairs": 28,
+          "strata": [
+            {
+              "sampling_stratum": "certainty",
+              "n": 167,
+              "n_cik": 94,
+              "n_sampling_clusters": 94,
+              "weighted_n": 167.0
+            },
+            {
+              "sampling_stratum": "noncase_srs",
+              "n": 779,
+              "n_cik": 424,
+              "n_sampling_clusters": 420,
+              "weighted_n": 11331.333999999999
+            }
+          ],
+          "independent_group_event_count_available": false
+        }
+      },
+      "issues": [],
+      "diagnostic_warnings": []
+    },
+    {
+      "block": "2020_2021",
+      "test_start": "2020-01-01T00:00:00",
+      "validation_start": "2017-01-01T00:00:00",
+      "validation_year": 2017,
+      "counts": {
+        "tuning_train": {
+          "n": 2607,
+          "positive_windows": 64,
+          "n_cik": 813,
+          "min_decision": "2010-02-11T00:00:00",
+          "n_sampling_clusters": 801,
+          "positive_sampling_clusters": 64,
+          "max_decision": "2015-10-02T00:00:00",
+          "max_mature_date": "2016-12-30T00:00:00",
+          "weighted_n": 27789.013999999992,
+          "weighted_positive_windows": 64.0,
+          "positive_cik_event_pairs": 64,
+          "strata": [
+            {
+              "sampling_stratum": "certainty",
+              "n": 748,
+              "n_cik": 228,
+              "n_sampling_clusters": 222,
+              "weighted_n": 748.0
+            },
+            {
+              "sampling_stratum": "noncase_srs",
+              "n": 1859,
+              "n_cik": 585,
+              "n_sampling_clusters": 579,
+              "weighted_n": 27041.014
+            }
+          ],
+          "independent_group_event_count_available": false
+        },
+        "validation": {
+          "n": 509,
+          "positive_windows": 20,
+          "n_cik": 507,
+          "min_decision": "2017-01-07T00:00:00",
+          "n_sampling_clusters": 503,
+          "positive_sampling_clusters": 20,
+          "max_decision": "2017-12-30T00:00:00",
+          "max_mature_date": "2019-03-30T00:00:00",
+          "weighted_n": 5954.491999999998,
+          "weighted_positive_windows": 20.0,
+          "positive_cik_event_pairs": 20,
+          "strata": [
+            {
+              "sampling_stratum": "certainty",
+              "n": 107,
+              "n_cik": 107,
+              "n_sampling_clusters": 106,
+              "weighted_n": 107.0
+            },
+            {
+              "sampling_stratum": "noncase_srs",
+              "n": 402,
+              "n_cik": 400,
+              "n_sampling_clusters": 397,
+              "weighted_n": 5847.492
+            }
+          ],
+          "independent_group_event_count_available": false
+        },
+        "refit": {
+          "n": 4161,
+          "positive_windows": 124,
+          "n_cik": 901,
+          "min_decision": "2010-02-11T00:00:00",
+          "n_sampling_clusters": 886,
+          "positive_sampling_clusters": 124,
+          "max_decision": "2018-09-29T00:00:00",
+          "max_mature_date": "2019-12-28T00:00:00",
+          "weighted_n": 45855.58799999999,
+          "weighted_positive_windows": 124.0,
+          "positive_cik_event_pairs": 124,
+          "strata": [
+            {
+              "sampling_stratum": "certainty",
+              "n": 1083,
+              "n_cik": 241,
+              "n_sampling_clusters": 233,
+              "weighted_n": 1083.0
+            },
+            {
+              "sampling_stratum": "noncase_srs",
+              "n": 3078,
+              "n_cik": 660,
+              "n_sampling_clusters": 653,
+              "weighted_n": 44772.587999999996
+            }
+          ],
+          "independent_group_event_count_available": false
+        },
+        "test": {
+          "n": 845,
+          "positive_windows": 44,
+          "n_cik": 471,
+          "min_decision": "2020-01-01T00:00:00",
+          "n_sampling_clusters": 471,
+          "positive_sampling_clusters": 44,
+          "max_decision": "2021-12-30T00:00:00",
+          "max_mature_date": "2023-03-30T00:00:00",
+          "weighted_n": 11397.333999999997,
+          "weighted_positive_windows": 44.0,
+          "positive_cik_event_pairs": 44,
+          "strata": [
+            {
+              "sampling_stratum": "certainty",
+              "n": 66,
+              "n_cik": 53,
+              "n_sampling_clusters": 53,
+              "weighted_n": 66.0
+            },
+            {
+              "sampling_stratum": "noncase_srs",
+              "n": 779,
+              "n_cik": 418,
+              "n_sampling_clusters": 418,
+              "weighted_n": 11331.333999999999
+            }
+          ],
+          "independent_group_event_count_available": false
+        }
+      },
+      "issues": [],
+      "diagnostic_warnings": []
+    }
+  ],
+  "status": "completed",
+  "main_fits_completed": 12,
+  "tuning_fits_completed": 48,
+  "prevalence_baselines": 3,
+  "test_prediction_rows": 14270,
+  "confidence_intervals": "not implemented; separate design-aware stage",
+  "finished_utc": "2026-09-21T09:36:22.904515+00:00"
+}

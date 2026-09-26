@@ -1,0 +1,1214 @@
+Title: 
+
+URL Source: https://www.sec.gov/Archives/edgar/data/1310497/000100201414000290/ssmc10kt-3312013.htm
+
+Published Time: Sat, 21 Oct 2017 11:09:52 GMT
+
+Markdown Content:
+* * *
+
+UNITED STATES
+
+SECURITIES AND EXCHANGE COMMISSION
+
+Washington, D.C. 20549
+
+FORM 10-K
+
+o ANNUAL REPORT PURSUANT TO SECTION 13 OR 15(d) OF THE SECURITIES EXCHANGE ACT OF 1934
+
+For the fiscal year ended March 31, 2013
+
+x TRANSITION REPORT PURSUANT TO SECTION 13 OR 15(d) OF THE SECURITIES EXCHANGE ACT OF 1934
+
+For the transition period from _________ to March 31, 2013
+
+COMMISSION FILE NUMBER: 333-121044
+
+W. S. INDUSTRIES, INC.
+
+* * *
+
+(EXACT NAME OF REGISTRANT AS SPECIFIED IN ITS CHARTER)
+
+Nevada 98-0439650
+(State of organization)(I.R.S. Employer Identification No.)
+
+815 Hornby Street
+
+Suite 404, Vancouver, BC V6Z 2E6
+
+* * *
+
+(Address of principal executive offices)
+
+Tel: 604-830-6499
+
+* * *
+
+Registrant's telephone number, including area code
+
+Securities to be registered pursuant to Section 12(b) of the Act:Securities to be registered pursuant to Section 12(g) of the Act:
+None None (Title of Class)
+
+Indicate by check mark if the registrant is a well-known seasoned issuer, as defined in Rule 405 of the Securities Act. Yes o No x
+
+Indicate by check mark if the registrant is not required file reports pursuant to Section 13 or Section 15(d) of the Act. Yes o No x
+
+Indicate by check mark whether the registrant: (1) has filed all reports required to be filed by Section 13 or 15(d) of the Securities Exchange Act of 1934 during the preceding 12 months (or for such shorter period that the registrant was required to file such reports), and (2) has been subject to such filing requirements for the past 90 days. Yes x No o
+
+Indicate by check mark whether the registrant has submitted electronically and posted on its corporate Web site, if any, every Interactive Data File required to be submitted and posted pursuant to Rule 405 of Regulation S-T during the preceding 12 months (or for such shorter period that the registrant was required to submit and post such files). Yes x No o
+
+Indicate by check mark if disclosure of delinquent filers pursuant to Item 405 of Regulation S-K (§ 229.405 of this chapter) is not contained herein, and will not be contained, to the best of registrant's knowledge, in definitive proxy or information statements incorporated by reference in Part III of this Form 10-K or any amendment to this Form 10-K Yes o No x
+
+Indicate by check mark whether the registrant is a large accelerated filer, an accelerated filer, a non-accelerated filer, or a smaller reporting company. See the definitions of "large accelerated filer," "accelerated filer" and "smaller reporting company" in Rule 12b-2 of the Exchange Act.
+
+Large accelerated file o Non-accelerated filer o
+Accelerated filer o Smaller reporting company x
+
+Indicate by check mark whether the registrant is a shell company (as defined in Rule 12b-2 of the Exchange Act). Yes x No o
+
+State the aggregate market value of the voting and non-voting common equity held by non-affiliates computed by reference to the price at which the common equity was last sold, or the average bid and asked price of such common equity, as of a specified date with the past 60 days (OTCBB).
+
+On March 31, 2013, the market value of the voting stock held by non-affiliates of the Registrant was $1,170,780.
+
+Registrant's revenues for the most recent fiscal year and for the period covered by this report are $0.00
+
+State the number of shares outstanding of each of registrant's classes of common equity, for the period covered by this report and as at the latest practicable date:
+
+Indicate the number of shares outstanding of each of the issuer's classes of common stock as of March 31, 2013.
+
+Title of each class Number of shares
+Common Stock, par value $0.001 per share 21,088,680
+
+[](https://www.sec.gov/Archives/edgar/data/1310497/000100201414000290/ssmc10kt-3312013.htm)
+TABLE OF CONTENTS
+
+Page
+
+PART I
+
+Item 1.Business 3
+
+Item 1A.Risk Factors 5
+
+Item 1B.Unresolved Staff Comments 5
+
+Item 2.Properties 5
+
+Item 3.Legal Proceedings 5
+
+Item 4.Mine Safety Disclosures 5
+
+PART II
+
+Item 5.Market for Registrant's Common Equity and Related Stockholder Matters and Issuer Purchases of Equity Securities 5
+
+Item 6.Selected Financial Data 6
+
+Item 7.Management's Discussion and Analysis of Financial Condition and Results of Operations 6
+
+Item 7A.Quantitative and Qualitative Disclosures About Market Risk 8
+
+Item 8.Financial Statements and Supplementary Data 8
+
+Item 9.Changes In and Disagreements With Accountants on Accounting and Financial Disclosure 23
+
+Item 9A.Controls and Procedures 23
+
+Item 9B.Other Information 24
+
+PART III
+
+Item 10.Directors, Executive Officers and Corporate Governance 24
+
+Item 11.Executive Compensation 25
+
+Item 12.Security Ownership of Certain Beneficial Owners and Management and Related Stockholder Matters 26
+
+Item 13.Certain Relationships and Related Transactions, and Director Independence 27
+
+Item 14.Principal Accountant Fees and Services 27
+
+PART IV
+
+Item 15.Exhibits, Financial Statement Schedules 28
+
+2
+
+* * *
+
+PART I
+
+[](https://www.sec.gov/Archives/edgar/data/1310497/000100201414000290/ssmc10kt-3312013.htm)[](https://www.sec.gov/Archives/edgar/data/1310497/000100201414000290/ssmc10kt-3312013.htm)
+ITEM 1. DESCRIPTION OF BUSINESS
+
+Disclaimer
+
+This report contains forward-looking statements, which reflect, among other things, management's expectations regarding the Company's future growth, results of operations, performance and business prospects and opportunities. The use of any of the words "anticipate", "continue", "estimate", "expect", "may", "will", "project", "should", "believe" and similar expressions are intended to identify forward-looking statements. These statements involve known and unknown risks, uncertainties and other factors that may cause actual results or events to differ materially from those anticipated in such forward-looking statements. The Company believes that the expectations reflected in these forward-looking statements are based on reasonable assumptions but no assurance can be given that these expectations will prove to be correct and the forward-looking statements included in this report should not be unduly relied upon. These statements speak only as of the date of this report and save and except as required under applicable securities legislation the Company assumes no obligation to update or revise them to reflect new events or circumstances.
+
+COMPANY OVERVIEW
+
+W.S. Industries, Inc. (or "the Company") was incorporated in the State of Nevada on April 5, 2004, for the purpose of providing consulting services to businesses, and engaging in any other lawful activity. The Company's principal address is 404-815 Hornby Street, Vancouver, B.C. V6Z 2E6.
+
+W.S. Industries, Inc. has been in the development stage since inception and has nominal operating history and revenues. Since inception the Company has been engaged in the wine storage business; however, this was terminated during the year ended August 31, 2009. The Company will continue to explore new investment opportunities and new business ventures to attract shareholders for various business opportunities.
+
+PRINCIPAL PRODUCTS AND SERVICES
+
+In the past our Company has provided services and information concerning wine storage, the cellaring of fine wines and accessories for the oenophile; however, the Company disposed of its wine collection during the year ended August 31, 2009. Currently, the Company does not offer any products or services but the Company is looking for new business opportunities. While continuing to explore new investment opportunities, the administrative operations of the business are currently being run from the office of Mr. Fraser Campbell, the Company's President.
+
+The Company's website is under construction and once ready it will serve the interested parties in obtaining information regarding services we intend to provide in future. Potential customers or investors will be able to contact the Company electronically and will be contacted by a representative of the Company.
+
+The Company will be using its website to market its products and services in the future like it did in past. Information about the products and services will be available online.
+
+MARKETING STRATEGY
+
+Not yet decided.
+
+WEB MARKETING STRATEGY
+
+Not yet decided.
+
+MARKETING AND SALES
+
+Not yet decided.
+
+NEW PRODUCTS OR SERVICES
+
+Not yet decided.
+
+3
+
+* * *
+
+COMPETITIVE BUSINESS CONDITIONS
+
+Not yet decided.
+
+OUR COMPETITIVE POSITION
+
+Not yet decided.
+
+SOURCES AND AVAILABILITY OF RAW MATERIALS
+
+We do not require any raw materials for our business.
+
+CUSTOMER BASE
+
+Not yet decided.
+
+INTELLECTUAL PROPERTY
+
+Not yet decided.
+
+GOVERNMENTAL REGULATION ISSUES
+
+The Company comes under the regulations of the British Columbia Securities Commission in British Columbia, Canada.
+
+RESEARCH AND DEVELOPMENT
+
+To date, we have not undergone any research and development, except that required to establish and update our website.
+
+ENVIRONMENTAL LAW COMPLIANCE
+
+To the extent which environmental compliance may be necessary, we do not anticipate any significant compliance expense.
+
+INSURANCE
+
+We do not maintain any insurance and do not intend to maintain insurance in the future. Because we do not have any insurance, if we are made a party to a liability action, we may not have sufficient funds to defend the litigation. If that occurs a judgment could be rendered against us that could cause us to cease operations.
+
+EMPLOYEES
+
+Our employee at the present time is Treasurer and Secretary and director, James F. Dempsey, who will devote as much time as he determines is necessary to carry out the business of the Company.
+
+REPORTS TO SECURITY HOLDERS
+
+We are a reporting company under the requirements of the Exchange Act and file quarterly, annual and other reports with the Securities and Exchange Commission. Our annual report will contain the required audited financial statements. We are not required to deliver an annual report to security holders and will not voluntarily deliver a copy of the annual report to the security holders. The reports and other information filed by us will be available for inspection and copying at the public reference facilities of the Commission, 100 F Street, NE, Washington, D.C. 20549.
+
+Copies of the material may be obtained by mail from the Public Reference Section of the Commission at 100 F Street, NE, Washington, D.C. 20549, at prescribed rates. Information on the operation of the Public Reference Room may be obtained by calling the SEC at 1-800-SEC-0330. In addition, the Commission maintains a World Wide Website on the Internet at http://www.sec.gov that contains reports, proxy and information statements and other information regarding registrants that file electronically with the Commission.
+
+Effective September, 2008 under new regulatory requirements of the British Columbia Securities Commission, as an over-the-counter-bulletin-board ("OTCBB") listed company conducting business in British Columbia, Canada, we became a reporting issuer in British Columbia and are required to file quarterly, annual and other reports on SEDAR. These regulatory filings can be viewed under the Company's profile at www.SEDAR.com.
+
+4
+
+* * *
+
+[](https://www.sec.gov/Archives/edgar/data/1310497/000100201414000290/ssmc10kt-3312013.htm)
+ITEM 1A RISK FACTORS
+
+A smaller reporting company is not required to provide the information required by this item.
+
+ITEM 1B UNRESOLVED STAFF COMMENTS
+
+A smaller reporting company is not required to provide the information required by this item.
+
+ITEM 2. DESCRIPTION OF PROPERTY
+
+We do not own any real property at this time, and we conduct our business from one of our officer's and director's office located at Suite 404 – 815 Hornby Street, Vancouver, B.C. Canada. The Company believes that existing office facilities are adequate for its needs through March 2014. Should the Company require additional space at that time, or prior thereto, the Company will attempt to secure space on commercially reasonable terms and without undue operational disruption.
+
+[](https://www.sec.gov/Archives/edgar/data/1310497/000100201414000290/ssmc10kt-3312013.htm)
+ITEM 3. LEGAL PROCEEDINGS
+
+The Company is not a party to any legal proceeding, nor are we aware of any pending or threatened legal proceeding against us or any officer or director which might be material to an evaluation of our management or have any potentially adverse effect upon the Company.
+
+[](https://www.sec.gov/Archives/edgar/data/1310497/000100201414000290/ssmc10kt-3312013.htm)
+ITEM 4. MINE SAFETY DISCLOSURES
+
+Not applicable
+
+PART II
+
+[](https://www.sec.gov/Archives/edgar/data/1310497/000100201414000290/ssmc10kt-3312013.htm)
+ITEM 5. MARKET FOR COMMON STOCK AND RELATED STOCKHOLDER MATTERS AND SMALL BUSINESS ISSUER PURCHASES OF EQUITY SECURITIES.
+
+Effective July 2, 2008, the Company is listed for trading on the Over-the-Counter Bulletin Board in the United States of America, since that date the shares had a low of $0.05 and a high of $0.51 per share. Our shares are quoted under the symbol "WSID.OB." The following table sets forth, for the periods indicated, the high and low bids for our common stock on the OTC Bulletin Board based on inter-dealer prices, without retail mark-up, mark-down or commission and may not represent actual transactions as reported by the OTC Bulletin Board.
+
+Quarter Ended OTC Bulletin Board
+
+(U.S. dollars)
+High Low
+June 30, 2011$0.50$0.50
+September 30, 2011$0.50$0.50
+December 31, 2011$0.50$0.50
+March 31, 2012$0.50$0.50
+June 30, 2012$0.50$0.50
+September 30, 2012$0.50$0.50
+December 31, 2012$0.50$0.50
+March 31, 2013$0.50$0.50
+
+There are no outstanding options or warrants to purchase, or securities convertible into, our common stock. The issuer did not sell any securities or repurchase any securities during the period of this report.
+
+5
+
+* * *
+
+Holders
+
+There are 80 holders of record for our common stock. One of our record holders is Mr. Dempsey, our director, secretary and treasurer, who holds 18,007,680 restricted shares or approximately 85% of our issued common stock.
+
+Dividend Policy
+
+We have never paid cash dividends on our capital stock. We currently intend to retain any profits we earn to finance the growth and development of our business. We do not anticipate paying any cash dividends in the foreseeable future.
+
+Section 15(g) of the Securities Exchange Act of 1934
+
+Our company's shares are covered by Section 15(g) of the Securities Exchange Act of 1934, as amended, that imposes additional sales practice requirements on broker/dealers who sell such securities to persons other than established customers and accredited investors (generally institutions with assets in excess of $5,000,000 or individuals with net worth in excess of $1,000,000 or annual income exceeding $200,000 or $300,000 jointly with their spouses). For transactions covered by the Rule, the broker/dealer must make a special suitability determination for the purchase and have received the purchaser's written agreement to the transaction prior to the sale. Consequently, the Rule may affect the ability of broker/dealers to sell our securities and also may affect your ability to sell your shares in the secondary market, assuming one is established and maintained, of which there can be no assurance.
+
+Section 15(g) also imposes additional sales practice requirements on broker/dealers who sell penny securities. These rules require a one-page summary of certain essential items. The items include the risk of investing in penny stocks in both public offerings and secondary marketing; terms important to in understanding of the function of the penny stock market, such as "bid" and "offer" quotes, a dealers "spread" and broker/dealer compensation; the broker/dealer compensation, the broker/dealers duties to its customers, including the disclosures required by any other penny stock disclosure rules; the customers rights and remedies in causes of fraud in penny stock transactions; and, the NASD's toll free telephone number and the central number of the North American Administrators Association, for information on the disciplinary history of broker/dealers and their associated persons.
+
+Securities authorized for issuance under equity compensation plans
+
+We have no equity compensation plans and accordingly we have no shares authorized for issuance under an equity compensation plan.
+
+[](https://www.sec.gov/Archives/edgar/data/1310497/000100201414000290/ssmc10kt-3312013.htm)
+ITEM 6. SELECTED FINANCIAL DATA.
+
+A smaller reporting company is not required to provide the information required by this Item.
+
+ITEM 7. MANAGEMENT DISCUSSION AND ANALYSIS
+
+This section of this report includes a number of forward-looking statements that reflect our current views with respect to future events and financial performance. Forward-looking statements are often identified by words like: believe, expect, estimate, anticipate, intend, project and similar expressions, or words which, by their nature, refer to future events. You should not place undue certainty on these forward-looking statements, which apply only as of the date of this report. These forward-looking statements are subject to certain risks and uncertainties that could cause actual results to differ materially from historical results or our predictions.
+
+[](https://www.sec.gov/Archives/edgar/data/1310497/000100201414000290/ssmc10kt-3312013.htm)
+Financial Condition
+
+We are a development stage corporation and have realized limited operations and generated limited revenues from our business operations.
+
+On July 2, 2008 the Company began trading on the over-the-counter-bulletin-board ("OTCBB") under the symbol "WSID". For the year ended March 31, 2013, we generated no revenues from operations and have experienced losses since inception.
+
+6
+
+* * *
+
+As of the year ended March 31, 2013, the Company had cash of $22,158 compared to cash of $2,165 as at March 31, 2012. The Company disposed of its wine collections during the year ended August 31, 2009, and the Company may need to consider an alternate business model if it is to become profitable. The Company is open to new opportunities and is seeking to broaden its horizons.
+
+At March 31, 2013, the Company estimated that it would require $600,000 to meet its operating needs for the current fiscal year. The Company has not yet satisfied its need for cash. The Company will rely on its President to determine how to raise these funds, bearing in mind the best interests of the Company.
+
+RESULTS OF OPERATIONS
+
+There is limited historical financial information about us upon which to base an evaluation of our performance. We are in development stage operations and have generated limited revenues. We cannot guarantee we will be successful in our business operations. Our business is subject to risks inherent in the establishment of a new business enterprise, including limited capital resources and possible cost overruns.
+
+To date, the Company has not recognized significant revenue through its operations and had an accumulated deficit of $21,412,685 as at March 31, 2013 compared to $21,113,708 for the year ended March 31, 2012. We have no assurance that, if needed, future financing will be available to us on acceptable terms. If financing is not available on satisfactory terms, we may be unable to continue, develop or expand our operations. Equity financing could result in additional dilution to existing shareholders.
+
+On July 2, 2008 the Company began trading on the over-the-counter-bulletin-board ("OTCBB") under the symbol "WSID". We have no revenues from operations, have experienced losses since inception, have been issued a going concern opinion by our auditors and rely upon the sale of our securities to fund operations. Total losses during the year ended March 31, 2013 were $298,977 compared to $20,289,129 for the year ended March 31, 2012. A loss on extinguishment of debt note in 2012 accounted for the difference. Professional fees for the year ended March 31, 2013 were $37,422 compared $63,106 for the same period in 2012, with the difference attributable to additional accounting analysis in 2012 with regard to the debt extinguishment. Administrative services costs were $21,600 for the year ended March 31, 2013 compared to $21,600 for the same period in 2012. Interest expense was $74,751 for the year ended March 31, 2013 compared to $55,664 for the same period in 2012. The increase is a result of interest charges incurred against unpaid management fees owed to a non-related party and the compounding effect of interest. Management fees and bonuses were $121,200 for the year ended March 31, 2013, compared to $121,200 for the same period in 2012. Consulting fees were $5,740 for the period ended March 31, 2013 compared to $1,792 for the same period in 2012, with the difference attributable to the cost of XBRL filing. Accretion of debt discount was $nil for the period ended March 31, 2013 compared to $32,992 for the same period in 2012, with the difference attributable to the debt maturing on April 1, 2012. Penalties due to the failure to file Canadian tax returns were $25,652 for the year ended March 31, 2013 compared to nil for the same period in 2012.
+
+Mr. Campbell is responsible for our managerial and organizational structure which will include preparation of disclosure and accounting controls under the Sarbanes Oxley Act of 2002. Should he not have sufficient experience, he may be incapable of creating and implementing the controls which may cause us to be subject to sanctions and fines by the SEC which ultimately could cause you to lose your investment.
+
+[](https://www.sec.gov/Archives/edgar/data/1310497/000100201414000290/ssmc10kt-3312013.htm)
+Liquidity and Capital Requirements
+
+As of March 31, 2013, the Company had total assets of $22,245, total liabilities of $1,178,561 and negative working capital of $1,156,316. As of March 31, 2012, the Company had total assets $5,762, total liabilities of $863,101 and negative working capital of $857,339.
+
+The Company has no other capital resources other than the ability to use its common stock to raise additional capital. The Company's current cash is not sufficient to sustain operations for the next three months. Estimated cash needed for next twelve months is $600,000. The cash will be mainly used for general administrative, corporate (legal, accounting and audit), financing, management and outstanding liabilities. No commitments to provide additional funds have been made by management or other stockholders except as set forth above. Accordingly, there can be no assurance that any additional funds will be available to the Company to allow it to cover operational expenses. There are no assurances that we will be able to secure further funds required for our continued operations. We will pursue various financing alternatives to meet our immediate and long-term financial requirements. There can be no assurance that additional financing will be available to us when needed or, if available, that it can be obtained on commercially reasonable terms. If we are not able to obtain the additional financing on a timely basis, we will be unable to conduct our operations as planned, and we will not be able to meet our other obligations as they become due. In such event, we will be forced to scale down or perhaps even cease our operations.
+
+7
+
+* * *
+
+For the year ended March 31, 2013, the Company's cash balance increased $19,993 from March 31, 2012. There was negative cash flow from operations of $36,818, and the company was unable to pay its expenses and liabilities out of operations. To pay expenses arising from normal operations, the Company had to borrow a total of $56,811 during the year ended March 31, 2013, which left its financing activities in a positive position. Cash flow from investing activities was nil.
+
+ITEM 7A. DISCLOSURES ABOUT MARKET RISK
+
+Foreign Currency
+
+In addition to the U.S. Dollar, we conduct business in Canadian Dollars and, therefore, are subject to foreign currency exchange risk on cash flows primarily related to expenses. Accounting and management fees which make up approximately three quarters of our expenses are paid in US funds. Since we primarily operate in US dollars, our exposure to foreign currency risk, should the Canadian dollar appreciate, is limited. To date we have not engaged in hedging activities to hedge our foreign currency exposure. In the future, we may enter into hedging instruments to manage our foreign currency exchange risk or continue to be subject to exchange rate risk.
+
+Inflation
+
+Although inflation has not materially impacted our operations in the recent past, increased inflation could have a negative impact on our operating and general and administrative expenses, as these costs could increase.
+
+[](https://www.sec.gov/Archives/edgar/data/1310497/000100201414000290/ssmc10kt-3312013.htm)[](https://www.sec.gov/Archives/edgar/data/1310497/000100201414000290/ssmc10kt-3312013.htm)
+ITEM 8. FINANCIAL STATEMENTS AND SUPPLEMENTARY DATA.
+
+8
+
+* * *
+
+![Image 1](https://www.sec.gov/Archives/edgar/data/1310497/000100201414000290/image00001.jpg)
+
+REPORT OF INDEPENDENT REGISTERED PUBLIC ACCOUNTING FIRM
+
+To the Stockholders and Board of Directors of W.S. Industries, Inc.
+
+We have audited the accompanying balance sheets of W.S. Industries, Inc. (the "Company") as at March 31, 2013 and March 31, 2012 and the related statements of operations, cash flows and stockholders' deficit for the years then ended and the period from April 5, 2004 (inception) to March 31, 2013.These financial statements are the responsibility of the Company's management.Our responsibility is to express an opinion on these financial statements based on our audits.
+
+We conducted our audits in accordance with the standards of the Public Company Accounting Oversight Board (United States).Those standards require that we plan and perform the audit to obtain reasonable assurance about whether the financial statements are free of material misstatement.The Company is not required to have, nor were we engaged to perform, an audit of its internal control over financial reporting. Our audit included consideration of internal control over financial reporting as a basis for designing audit procedures that are appropriate in the circumstances, but not for the purpose of expressing an opinion on the effectiveness of the Company's internal control over financial reporting. Accordingly, we express no such opinion. An audit also includes examining, on a test basis, evidence supporting the amounts and disclosures in the financial statements.An audit also includes assessing the accounting principles used and significant estimates made by management, as well as evaluating the overall financial statement presentation.We believe that our audit provides a reasonable basis for our opinion.
+
+In our opinion, based on our audits, these financial statements present fairly, in all material respects, the financial position of the Company as at March 31, 2013 and March 31, 2012 and the results of its operations and its cash flows for the years then ended and the period from April 5, 2004 (inception) to March 31, 2103 in conformity with accounting principles generally accepted in the United States of America.
+
+The accompanying financial statements have been prepared assuming that the Company will continue as a going concern.As discussed in Note 1 to the financial statements, the Company has incurred losses in developing its business, and further losses are anticipated.The Company requires additional funds to meet its obligations and the costs of its operations.These factors raise substantial doubt about the Company's ability to continue as a going concern.Management's plans in this regard are described in Note 1.The financial statements do not include any adjustments that might result from the outcome of this uncertainty.
+
+Dale Matheson Carr-Hilton Labonte LLP
+
+CHARTERED ACCOUNTANTS
+
+Vancouver, Canada
+
+May 27, 2014
+
+9
+
+* * *
+
+W.S. INDUSTRIES, INC.
+
+(An Exploration Stage Company)
+
+BALANCE SHEETS
+
+(Stated in US Dollars)
+
+March 31,
+
+2013 March 31,
+
+2012
+ASSETS
+
+Current
+Cash$22,158$2,165
+Prepaid Expenses-3,478
+Equipment 87 119
+
+$22,245$5,762
+
+LIABILITIES
+
+Current
+Accounts payable$438,518$207,787
+Accrued liabilities 28,652 734
+Convertible promissory notes 535,964 535,964
+Loans and advances 175,427 118,616
+
+1,178,561 863,101
+
+STOCKHOLDERS' DEFICIT
+
+Capital stock
+Common stock, $0.001 par value
+
+150,000,000 Authorized (March 31, 2012: 25,000,000)
+
+21,088,680 Issued and outstanding (March 31, 2012: 21,088,680)21,089 21,089
+Additional paid-in capital 20,229,765 20,229,765
+Deficit accumulated during the exploration stage(21,412,685)(21,113,708)
+Accumulated other comprehensive income 5,515 5,515
+
+(1,156,316)(857,339)
+
+$22,245$5,762
+
+SEE ACCOMPANYING NOTES
+
+10
+
+* * *
+
+W.S. INDUSTRIES, INC.
+
+(An Exploration Stage Company)
+
+STATEMENTS OF OPERATIONS
+
+(Stated in US Dollars)
+
+April 5, 2004
+Year ended Year ended(Inception) to
+March 31,March 31,March 31,
+2013 2012 2013
+Revenue
+Storage rental fee$-$- -$17,285
+
+Expenses
+Administrative services 21,600 21,600 104,466
+Bad debt expense--8,085
+Consulting fees 5,740 1,792 16,410
+Depreciation 35 48 2,154
+Management fees and bonus 121,200 121,200 635,100
+Office and miscellaneous 851 974 43,666
+Professional fees 37,422 63,106 296,543
+Penalties 25,652-25,652
+Registration and filing fees 11,269 8,288 62,462
+Research and marketing--7,500
+Travel and Entertainment--9,324
+Loss before other items(223,769)(217,008)(1,194,077)
+
+Other Items
+Interest income--4,327
+Interest Expense(74,751)(55,664)(185,801)
+Accretion of Debt Discount-(32,992)(32,992)
+Foreign exchange loss(457)(789)(11,466)
+Loss on Extinguishment of Debt Note-(19,982,676)(19,982,676)
+Impairment of investment--(10,000)
+Net loss(298,977)(20,289,129)(21,412,685)
+
+Other comprehensive income
+Foreign currency translation--5,515
+Comprehensive loss$(298,977)$(20,289,129)$(21,407,170)
+
+Basic and diluted loss per share$0.01$0.96
+
+Weighted average number of shares outstanding 21,088,680 21,088,680
+
+SEE ACCOMPANYING NOTES
+
+11
+
+* * *
+
+W.S. INDUSTRIES, INC.
+
+(An Exploration Stage Company)
+
+STATEMENTS OF CASH FLOWS
+
+(Stated in US Dollars)
+
+April 5, 2004
+Year ended Year ended(Inception) to
+March 31,March 31,March 31,
+2013 2012 2013
+
+Cash Flows used in Operating Activities
+Net loss$(298,977)$(20,289,129)$(21,412,685)
+Items not affecting cash:
+Bad debt expense--8,085
+Depreciation 32 48 2,154
+Accretion of debt discount-32,992 32,992
+Loss on extinguishment of debt-19,982,676 19,982,676
+Impairment of investment--10,000
+Changes in non-cash working capital: balances:
+Prepaid Expenses 3,478(3,478)-
+Accounts receivable--(8,085)
+Accounts payable and accrued liabilities 258,649 172,180 1,034,177
+
+Net cash used in operating activities(36,818)(104,711)(350,686)
+
+Cash Flows from Financing Activities
+Loans and advances 56,811 108,987 202,810
+Repayment of promissory Notes Payable-(5,000)(5,000)
+Common stock issued--297,186
+Common stock repurchased--(62,000)
+
+Net cash provided by financing activities 51,811 103,987 432,996
+
+Cash Flows used in Investing Activities
+Acquisition of equipment--(4,427)
+Acquisition of investments--(64,903)
+
+Net cash used in investing activities--(69,330)
+
+Effect of exchange rate changes on cash--9,178
+
+Net increase(decrease) in cash 19,993(724)22,158
+
+Cash, beginning 2,165 2,888-
+
+Cash, ending$22,158$2,165$22,158
+
+Supplemental Information
+Interest and taxes paid in cash$-$-$-
+
+SEE ACCOMPANYING NOTES
+
+12
+
+* * *
+
+W.S. INDUSTRIES, INC.
+
+(An Exploration Stage Company)
+
+STATEMENT OF STOCKHOLDERS' DEFICIT
+
+April 5, 2004 (Date of Inception) to March 31, 2013
+
+(Stated in US Dollars)
+
+Accumulated
+Additional Other
+Share Paid-in Comprehensive
+Number capital Capital Deficit Income Total
+Private placement
+-at $.000049 20,007,680$20,008$(19,022)$-$-$986
+- at $.01 2,000,000 2,000 18,000--20,000
+- at $.20 81,000 81 16,119--16,200
+Foreign currency translation----380 380
+Net loss---(11,573)-(11,573)
+Balance, August 31, 2004 22,088,680 22,089 15,097(11,573)380 25,993
+Foreign currency translation----1,279 1,279
+Net loss---(32,276)-(32,276)
+Balance, August 31, 2005 22,088,680 22,089 15,097(43,849)1,659(5,004)
+Issued for cash:
+Private placement-at $.20 1,000,000 1,000 199,000--200,000
+Shares repurchased-at $.20(2,000,000)(2,000)(398,000)--(400,000)
+Capital contribution--398,000--398,000
+Foreign currency translation----4,788 4,788
+Net loss---(51,090)-(51,090)
+Balance, August 31, 2006 21,088,680 21,089 214,097(94,939)6,447 146,694
+Issued for cash:
+
+Private placements-at $.20 300,000 300 59,700--60,000
+Shares repurchased-at $.20(300,000)(300)(59,700)--(60,000)
+Foreign currency translation----785 785
+Net loss---(54,962)-(54,962)
+Balance, August 31, 2007 21,088,680 21,089 214,097(149,901)7,232 92,517
+Foreign currency translation----(944)(944)
+Net loss---(128,431)-(128,431)
+Balance, August 31, 2008 21,088,680 21,089 214,097(278,332)6,288(36,858)
+Foreign currency translation----(773)(773)
+Net loss---(196,545)-(196,545)
+Balance, August 31, 2009 21,088,680 21,089 214,097(474,877)5,515(234,176)
+Net loss---(208,999)-(208,999)
+Balance, August 31, 2010 21,088,680 21,089 214,097(683,876)5,515(443,175)
+Net loss---(140,703)-(140,703)
+Balance, March 31, 2011 21,088,680 21,089 214,097(824,579)5,515(583,878)
+Extinguishment of debt--20,015,668--20,015,668
+Net loss---(20,289,129)-(20,289,129)
+Balance, March 31, 2012 21,088,680 21,089 20,229,765(21,113,708)5,515(857,339)
+Net loss---(298,977)-(298,977)
+Balance, March 31, 2013 21,088,680$21,089$20,229,765$(21,412,685)$5,515$(1,156,316)
+
+SEE ACCOMPANYING NOTES
+
+13
+
+* * *
+
+W.S. INDUSTRIES, INC.
+
+(An Exploration Stage Company)
+
+NOTES TO THE FINANCIAL STATEMENTS
+
+March 31, 2013
+
+(Stated in US Dollars)
+
+Note 1 Nature of Operations and Ability to Continue as a Going Concern
+
+W.S. Industries Inc. (the "Company" or "W.S.") was incorporated in the State of Nevada, United States of America on April 5, 2004. Effective July 2, 2008, the Company is listed for trading on the Over-the-Counter Bulletin Board in the United States of America.
+
+On April 22, 2013, the Company entered into an Agreement and Plan of Merger (the "Agreement") among the Company, a wholly owned subsidiary of the Company incorporated in the State of Nevada, Rio Plata Exploration Inc. ("Rio Plata"), a private corporation incorporated under the laws of British Columbia, Canada and the holders of the Company's convertible promissory notes (the "Debt Holders"), which was completed on May 14, 2013 (Note 10). Rio Plata is in the exploration stage and has an option to purchase 100% of the Metates property, an unproved mineral property, in the State of Sinaloa, Mexico.
+
+The Company's financial statements are prepared on a going concern basis in accordance with US generally accepted accounting principles ("GAAP") which contemplates the realization of assets and discharge of liabilities and commitments in the normal course of business.The Company is in the exploration stage.It has generated only minimal operating revenues to date, and has accumulated losses of $21,412,685 since inception.The Company has funded its operations through the issuance of capital stock and debt.Management plans to raise additional funds through equity and/or debt financings.There is no certainty that further funding will be available as needed.These factors raise substantial doubt about the ability of the Company to continue operating as a going concern.The Company's ability to continue its operations as a going concern, realize the carrying value of its assets, and discharge its liabilities in the normal course of business is dependent upon its ability to raise new capital sufficient to fund its commitments and ongoing losses, and ultimately on generating profitable operations.
+
+Note 2 Significant Accounting Polices
+
+Exploration Stage
+
+The Company is an exploration stage company as defined in the Financial Accounting Standards Board ("FASB") ASC 915-10 as it is devoting substantially all of its efforts to establish a new business and planned principal operations have not commenced. All losses accumulated since inception have been considered as part of the Company's exploration stage activities.
+
+Foreign Currency Translation
+
+The functional currency for the Company's operations is the US dollar. Monetary assets and liabilities denominated in Canadian dollars are translated into US dollars at the exchange rate prevailing at the end of the year. Non-monetary assets and liabilities are translated at the exchange rate prevailing at the respective transaction dates while revenues and expenses are translated at the average exchange rate during the year. Exchange gains and losses are recognized in the statement of operations.
+
+Equipment and Depreciation
+
+The Company records computer equipment at cost and provides for depreciation at a rate of 30% per annum for computer equipment both using the declining balance method. Additions during the year are amortized at one-half rates.
+
+Income Taxes
+
+The Company uses the asset and liability method of accounting for income taxes pursuant to ASC 740 "Accounting for Income Taxes". Under the asset and liability method of ASC 740, deferred tax assets and liabilities are recognized for the future tax consequences attributable to temporary differences between the financial statements carrying amounts of existing assets and liabilities and their respective tax bases. Deferred tax assets and liabilities are measured using enacted tax rates expected to apply to taxable income in the years in which those temporary differences are expected to be recovered or settled. The Company has adopted the provisions of ASC 740 which prescribes a recognition threshold and measurement attribute for tax positions taken or expected to be taken in a tax return.
+
+14
+
+* * *
+
+Basic and Diluted Loss per Share
+
+The Company reports basic loss per share in accordance with ASC 260-10, "Earnings per Share". Basic loss per share is computed by dividing the net loss available to common shareholders by the weighted-average number of common shares outstanding during the respective period. Diluted earnings (loss) per share gives effect to all dilutive potential common shares outstanding during the period. Common stock equivalents represent the dilutive effect of the assumed exercise of the outstanding stock options and warrants, using the treasury stock method, at either the beginning of the respective period presented or the date of issuance, whichever is later, and only if the common stock equivalents are considered dilutive based upon the Company's net loss position at the calculation date. At March 31, 2013 the Company had no outstanding common stock equivalents.
+
+Accounting Estimates
+
+The preparation of financial statements in conformity with US GAAP requires management to make estimates and assumptions that affect certain of the reported amounts of assets and liabilities, disclosure of contingent assets and liabilities at the date of the financial statements and the reported amounts of revenues and expenses during the year. The Company regularly evaluates estimates and assumptions. The Company bases its estimates and assumptions on current facts, historical experience and various other factors it believes to be reasonable under the circumstances, the results of which form the basis for making judgments about the carrying values of assets and liabilities and the accrual of costs and expenses that are not readily apparent from other sources. The actual results may differ materially and adversely from the Company's estimates. To the extent there are material differences between the estimates and the actual results, future results of operations will be affected. The most significant estimates with regard to these financial statements relate to estimates made on initial recognition of convertible promissory notes and deferred income tax rates.
+
+Long Lived Assets
+
+The carrying value of long-lived assets is reviewed on a regular basis for the existence of facts or circumstances that may suggest impairment. The Company recognizes impairment when the sum of the expected undiscounted future cash flows is less than the carrying amount of the asset. Impairment losses, if any, are measured as the excess of the carrying amount of the asset over its estimated fair value.
+
+Asset Retirement Obligations
+
+The Company records the fair value of an asset retirement obligation as a liability in the period in which it incurs an obligation associated with the retirement of tangible long-lived assets that result from the acquisition, construction, development and/or normal use of the assets. The estimated fair value of the asset retirement obligation is based on the current cost escalated at an inflation rate and discounted at a credit adjusted risk-free rate. This liability is capitalized as part of the cost of the related asset and amortized over its useful life. The liability accretes until the Company settles the obligation. To date the Company has not incurred any measurable asset retirement obligations.
+
+Unproven Mineral Properties
+
+Realization of the Company's investment in and expenditures on unproven mineral properties is dependent upon the establishment of legal ownership, the attainment of successful production from the properties or from the proceeds of their disposal.
+
+Title to mineral properties involves certain inherent risks due to the difficulties of determining the validity of certain claims as well as the potential for problems arising from the frequently ambiguous conveyancing history characteristics of many mineral properties. To the best of its knowledge the Company believes all of its unproved mineral interests are in good standing and that it has title to all of these mineral interests.
+
+The Company classifies its mineral rights as tangible assets and accordingly acquisition costs are capitalized as mineral property costs. Mineral exploration costs are expensed as incurred until commercially mineable deposits are determined to exist within a particular property.
+
+Financial Instruments
+
+The estimated fair values for financial instruments are determined at points in time based on relevant market information. These estimates involve uncertainties and cannot be determined with precision.The estimated fair value of cash, accounts payable, convertible promissory notes and loans and advances approximates their carrying value due to their short-term nature.
+
+15
+
+* * *
+
+Recently Adopted Accounting Guidance
+
+The Company has reviewed recently issued accounting pronouncements and plans to adopt those that are applicable to it. It does not expect the adoption of these pronouncements to have a material impact on its financial position, results of operations or cash flows.
+
+Note 3 Equipment
+
+March 31, 2013
+
+Accumulated
+Cost Depreciation Net
+Computer equipment$1,940$1,853$87
+
+March 31, 2012
+
+Accumulated
+Cost Depreciation Net
+Computer equipment$1,940$1,821$119
+
+16
+
+* * *
+
+Note 4 Loans and Advances
+
+Loans and advances totalling $175,427 (March 31, 2012 - $118,616) are unsecured, non-interest bearing and have no specific terms of repayment (Note 5).
+
+Note 5 Related Party Transactions
+
+During the year ended March 31, 2013, the Company incurred management fees of $31,200 (2012 - $31,200) to a director of the Company. As at March 31, 2013, accounts payable included $54,800 (2012 - $23,600) payable to the director of the company.
+
+As at March 31, 2013, loans and advances includes an advance of $67,669 (2012 $ - $70,000) due to a director and officer of the Company (Note 4).
+
+During the year ended March 31, 2013, the Company incurred administrative fees of $21,600 (2012- $21,600) to the spouse of a director of the Company. As at March 31, 2013, accounts payable included $41,400 (2012 -$19,800) payable to the spouse of an officer of the Company.
+
+As at March 31, 2013, $176,300 (2012 - $176,300) of the non-interest bearing promissory notes are due to an officer of the Company and his spouse.
+
+Note 6 Commitment
+
+On March 1, 2008, the Company entered into an agreement whereby the Company is obligated to pay $7,500 per month in return for management services. The agreement has no fixed term; however, accrued fees incur interest at a rate of 15% per annum whereby interest is compounded quarterly. In connection with this agreement, the Company has incurred $90,000 during the year ended March 31, 2013 (2012 - $90,000) in management fees and accrued interest of $74,752 during the 2013 (2012 - $52,193).
+
+Note 7 Convertible Promissory Notes
+
+March 31, 2013 March 31, 2012
+Convertible promissory note payable, unsecured, bearing
+
+interest at 15% per annum compounded quarterly, due
+
+April 1, 2012$288,670$288,670
+Convertible promissory notes payable with a face value of
+
+$252,294 and a fair value of $219,302 at issuance and
+
+including accumulated accretion of $32,992 (March 31,
+
+2012 - $32,992), unsecured, non-interest bearing, due
+
+April 1, 2012 247,294 247,294
+$535,964$535,964
+
+On April 1, 2011, the Company agreed with certain of its creditors to settle $540,964 in amounts owed in respect of accrued management and administrative fees as well as loans and advances payable to those creditors in exchange for convertible promissory notes in the same amount. The Company accounted for the transaction as an extinguishment of debt and recorded a loss on extinguishment of $19,982,676 as a result of recording the new promissory notes at their fair value of $20,523,640. The fair value of the notes was determined with reference to the quoted market price of the Company's shares multiplied by the number of common shares of the Company that would be issued upon conversion of the notes. The premium of the fair value of the notes over the principal balances totaling $20,015,668 was recorded as additional paid-in capital.
+
+These notes matured on April 1, 2012 and bore no terms of interest except for the note in the amount of $288,670 which bears interest at the rate of 15% per annum. The non-interest bearing convertible notes with an aggregate face value of $252,294 were discounted using an estimated market discount rate of 15% and their fair value was calculated to be $219,302 at issuance. The difference of $32,992 was accreted over the life to maturity using the effective interest rate method. During the year ended March 31, 2013, the Company recorded accrued interest of $74,752 (2012 - $55,664).
+
+17
+
+* * *
+
+The terms of the convertible promissory notes allow the note holders to elect to convert the principal and accrued interest thereon at any time during the term of the notes into common shares at $0.01 per share. The conversion features of these notes are without price re-set or cash settlement clauses and therefore have not been bifurcated and recorded as a derivative liability.
+
+As at March 31, 2013, $176,300 (2012 - $176,300) of the non-interest bearing promissory notes are due to an officer of the Company and his spouse.
+
+Subsequent to the year ended March 31, 2013, the Company settled all of the convertible promissory notes by issuing 5,000,000 common shares to the debt holders (Note 10).
+
+Note 8 Capital stock
+
+Authorized: 150,000,000 common shares
+
+Private Placements
+
+On May 31, 2004, the Company issued 20,007,680 common shares at $0.000049 per share, for total proceeds of $986. During June 2004, the Company issued 2,000,000 common shares at $0.01 per share, for total proceeds of $20,000. During June, July, and August 2004, the Company issued 81,000 common shares at $0.20 per share, for total proceeds of $16,200. On July 20, 2006, the Company issued 1,000,000 common shares at $0.20 per share, for total proceeds of $200,000. On July 27, 2007, the Company issued 300,000 common shares at $0.20 per share, for total proceeds of $60,000.
+
+During the year ended August 31, 2006, the Company reacquired 2,000,000 common shares from a director of the Company for $2,000 pursuant to a promissory note, which was paid prior to August 31, 2006. The fair value of this transaction was recorded at $0.20 per share and consequently the Company has received a capital contribution of $398,000.
+
+In December 2006, the Company received an order for production from the British Columbia Securities Commission to provide certain information and documents relating to, inter alia, the sale of the above noted 1,000,000 common shares at $0.20 per share to verify the availability of the registration and prospectus exemptions relied upon by the Company in offering such shares to residents of British Columbia. To resolve the matter, the Company issued a voluntary rescission offer to rescind any previous subscriptions of these shares and offered a full refund of the subscription monies. In lieu and in place of these shares, the Company offered an equivalent number of shares for sale pursuant to the updated private placement dated June 27, 2007. Of the nine original investors included in the 1,000,000 share private placement, three of these investors accepted the rescission offer at $0.20 per share and were refunded the total amount of their investment of $60,000 and 300,000 common shares were returned to treasury and cancelled. The remaining six investors rejected the rescission offer and three new investors completed and paid the remaining portion of the private placement by the payment of $60,000.
+
+Note 9 Income taxes
+
+The significant components of the Company's deferred tax assets are as follows:
+
+March 31, 2013 March 31, 2012
+Deferred tax assets$$
+Net operating losses carry forward 446,890 345,238
+Less: valuation allowance(446,890)(345,238)
+Deferred tax assets$-$-
+
+Statutory rate applied to loss before income taxes$101,652$6,898,304
+Loss on extinguishment of debt-(6,805,327)
+Permanent differences-(28,000)
+Change in valuation allowance(101,652)(64,977)
+Income tax expense$-$-
+
+18
+
+* * *
+
+The Company evaluates its valuation allowance requirements based on projected future operations. When circumstances change and this causes a change in management's judgment about the recoverability of deferred tax assets, the impact of the change on the valuation allowance is reflected in current income. As management of the Company does not currently believe that it is more likely-than-not that the Company will receive the benefit of this asset, a valuation allowance equal to the deferred tax asset has been established.
+
+At March 31, 2013, the Company has incurred accumulated net operating losses totaling approximately $1,314,000 (2012 - $1,015,000) which are available to reduce taxable income in future taxation years.
+
+Note 10 Subsequent events
+
+a)Pursuant to the Agreement, the Company agreed to acquire all of the issued and outstanding shares of common stock of Rio Plata by issuing 28,000,000 shares of its common stock and, as a result, the former shareholders of Rio Plata will control approximately 85% of the issued and outstanding common shares of the Company. The acquisition is a reverse takeover and therefore has been accounted for using the acquisition method with Rio Plata as the accounting acquirer (legal subsidiary) and continuing entity for accounting and financial reporting purposes, and the Company as the legal parent (accounting subsidiary).Effective with the Acquisition, the Debt Holders of the Company have consented to the conversion of $535,964 of convertible notes into 5,000,000 shares of the Company. The fair value of assets acquired and liabilities assumed by Rio Plata are as follows:
+
+Cash$22,158
+Property and equipment 87
+Accounts payable and accrued liabilities(467,170)
+Loans and advances payable(175,427)
+$(620,352)
+
+b)Upon completion of the reverse takeover, the Company took on Rio Plata's loans payable.
+
+Details of the loan balance outstanding as of May 14, 2013 (completion of Merger):
+
+Maturity Date May 14, 2013
+
+Short term loans payable - face value 06/30/10 (i),(ii),(iii)$10,328
+12/31/10 (i),(ii),(iii)14,754
+03/31/11 (i),(ii),(iii)54,000
+08/31/11 (i),(ii),(iii)113,114
+12/31/12 (i),(ii),(iii)260,654
+Balance$452,850
+
+(i)At May 14, 2013 these loans had matured, are in default and are due on demand.
+
+(ii)Accrued interest at 15% per annum, calculated semi-annually and are unsecured.
+
+(iii)As additional consideration, bonus common shares are to be issued to the lenders. Management estimated the fair value of the shares based on inputs such as the most recent share subscriptions.
+
+Subsequent to year end and prior to the RTO, the Company issued 1,720,004 bonus shares owing under its loan agreements to various debt holders. The fair value of the bonus shares issued was estimated to be $165,874.
+
+Subsequent to year end, and prior to the RTO, various debt holders converted loans in the principal amount of $1,591,192 plus interest to 6,338,423 common shares. The fair value of the shares issued was estimated to be $602,974. Accordingly, a gain on the conversion of the debt of $1,176,328 has been recorded. $46,704 of the loans converted were due to a director of the Company. The gain on the settlement of the related party debt of $30,534 has been recorded in additional paid in capital.
+
+The loans may be converted to common shares of the Company at the option of the holder at the Company's next financing at the same terms of the financing.
+
+19
+
+* * *
+
+c)On June 9, 2008, Rio Plata entered into an Option Agreement (the "Option Agreement") providing the right to acquire up to a 100% interest in mineral claims located in Mazatlan, Sinaloa, Mexico. The Option Agreement was renegotiated and amended on August 27, 2010 following the transfer of the underlying title to the claims to a third party, and amended again on April 24, 2013. Under the terms of the amended Option Agreement, covering the Metates Project claim group and any new claims within an agreed upon area of interest, Rio Plata has an option to purchase 100% interest in mining concessions by making payments under the amended Option Agreement as follows (plus applicable Value Added Taxes):
+
+$750,000(paid).
+$450,000 Due July 15, 2013 (not paid).
+$2,000,000 Due July 15, 2014.
+
+Since the Company did not make the payments by July 15, 2013 and July 15, 2014 above, the payment terms revert to the following:
+
+$450,000 Due July 15, 2013 (not paid).
+$600,000 Due January 15, 2014 (not paid).
+$650,000 Due July 15, 2014
+$750,000 Due January 15, 2015
+$2,000,000 Due January 15, 2016
+
+Under the Option Agreement, the Company shall pay a royalty of 0.5% calculated on the Net Smelter Returns ("NSR") as long as the option is exercised by January 15, 2014. If the option is not exercised by that date, the royalty shall be 0.33% calculated on the NSR on the minerals extracted on the concessions.
+
+In addition, the Company is entitled to a net production royalty of 20% from the tailings and ore refined by the optionor from the effective date of the agreement. The Company has a pledge of the optionor's production assets as a performance guarantee.
+
+The Option Agreement will terminate: (i) at any time during the term of the Option Agreement by the Company giving 15 days notice to the Optionor; or (ii) upon election of a party if the other party is in breach of any of its obligations under the Option Agreement and the default has not been cured by the defaulting party within 30 days of notice of default.
+
+The $450,000 due July 15, 2013 has not been made and the Option Agreement is in default; however, the Company has not yet been served with a notice of default by the optionor.
+
+d)On September 5, 2013, the Company entered into 3 consulting agreements for a term of 1 year. Under the agreements, the Company is to issue 400,000 shares to each of the consultants as a sign on bonus to be issued to them at the time of their choosing during the term of the agreement. Subsequent to March 31, 2013, the Company issued 1,200,000 shares with a fair value of $120,000 under the September 5, 2013 agreements. The shares under the November 1, 2013 agreement have not been issued to one of the consultants. Accordingly, the fair value of the compensation expense of $60,000 has been recorded as an obligation to issue shares in these financial statements.
+
+e)On November 5, 2013, the Company entered into an Option Agreement (the "Option Agreement") providing the right to acquire initially 55% undivided interest and ultimately an 80% undivided interest in the Solomon Pillars Gold Property located in Townships of Walters and Leduc in Beardmore, Ontario. Under the terms of Option Agreement, covering the Solomon Pillars Gold Property the Company has an option to earn 80% interest in mining concessions by making payments under the Option Agreement as follows:
+
+$CAD25,000 Upon signing the Option Agreement (paid);
+$CAD30,000 Due November 5, 2014 (In cash or shares at the Company's option); and
+$CAD40,000 Due November 5, 2015 (In cash or shares at the Company's option).
+
+The Company must also incur exploration expenditures as follows:
+
+·$50,000 in exploration expenditures by November 5, 2014;
+
+·An additional $100,000 in exploration expenditures by November 5, 2015; and
+
+·An additional $150,000 in exploration expenditures by November 5, 2016.
+
+20
+
+* * *
+
+The Company has the exclusive right to a one-time option to increase the undivided interest from 55% to 80% by making a payment of $250,000 within 90 days of completing the initial earn-in and exercising of the option. Once the initial interest is earned by the Company in the Solomon Pillars Gold Property, the Company and the optionor will fund continuing exploration and development costs on a pro-rata basis according to their equity in the Solomon Pillars Property. The Company will be the project operator.
+
+The Solomon Pillars Gold Property is divided into two sets of claims each with a different royalty structure. The "Solomon Pillars" on the eastern section of the Solomon Pillars Property has a NSR of 1%. The "King Solomon Pillars" on the western section of the Solomon Pillars Property has a 3% NSR on precious metals with a 1% buyback provision for $1,500,000 and is subject to a $25,000 annual advance royalty payment preceding the commencement of commercial production.
+
+The Agreement may be terminated in the event any of the payments set forth above are not paid, or upon written notice by the Company.
+
+f)On September 5, 2013, the Company issued 100,000 shares with a fair value of $10,000 to a director of the Company as compensation for management fees
+
+g)On July 23, 2013, the Company had forgiven related party advances of $509,723.
+
+h)On March 26, 2014, the Company completed the sale of 5,967,500 units of the Company' at a price of $0.10 per unit, with each unit being comprised of one share of common stock and one-half of a share purchase warrant with each full warrant exercisable to acquire one share at a price of $0.25 per share for a period of 24 months. Total gross proceeds was $596,750
+
+i)On March 31, 2014, the Company entered into a consulting agreement. Under the terms of the agreement, the consultant will receive options to acquire 100,000 shares of common stock at an exercise price of $0.25 per share, a monthly consulting fee of $2,000 per month, and 400,000 restricted shares of common stock to be issued to the consultant on February 1, 2015, provided the consultant is furnishing services to the Company on said date. The agreement continues on a month-to-month basis until terminated by either party.
+
+j)On March 31, 2014, the Company entered into a consulting agreement for a term of one year. Under the terms of the agreement, the consultant will receive 400,000 restricted shares of common stock, a monthly consulting fee of $5,000 per month, and the participation in the Company's stock option plan on an annual basis with an initial 100,000 options to be issued to the consultant with an exercise price of $0.25 per share.
+
+k)On March 31, 2014, the Company entered into a consulting agreement with a term ending on January 31, 2015. Under the terms of the agreement, the consultant will receive (i) options to acquire up to 2,000,000 shares of common stock at an exercise price of $0.10 per share exercisable for a period of 5 years; (ii) an allotment of shares for each property acquisition identified by the consultant and completed by the Company, or sale of a property where the purchaser is identified by the consultant; (iii) a monthly consulting fee of $15,000 per month; and, (iv) participation in the stock option plan on an annual basis with an initial 200,000 options issued to the consultant with an exercise price of $0.25 per share.
+
+On April 22, 2014, this consulting agreement was revised. The consultant will receive (i) options to acquire up to 2,000,000 shares of common stock at an exercise price of $0.10 per share exercisable for a period of 5 years; (ii) an option to acquire shares of common stock for $0.01 per share for a period of 5 years for each mining property acquisition where the purchaser is identified in whole or in part by the consultant; (iii) a monthly consulting fee of $15,000 per month; and, (iv) participation in the stock option plan on an annual basis with an initial 200,000 options to issue to the consultant with an exercise price of $0.25 per share. The agreement has a term ending on January 31, 2015.
+
+l)On April 17, 2014, the Company entered into seven agreements to convert $230,375 of debt owed to 2,303,750 units. Each unit is comprised of one share of common stock and one-half redeemable warrant. Each full warrant is exercisable into one restricted common share at the price of $0.25 for two years. The warrants are redeemable by the Company if the stock trades above $0.40 for five consecutive trading days.
+
+m)On May 9, 2014, the Company entered into a definitive agreement with Redstone Resources Corporation, a Nevada corporation, ("Redstone") to acquire 100% of the total outstanding shares of common stock of Redstone. Redstone currently owns the Zonia Copper Project located in Yavapai County, Arizona.
+
+21
+
+* * *
+
+Under the terms of the agreement, the Company will be making a $500,000 First Tranche investment into Redstone over six monthly installments of $83,333 and acquiring 2,500,000 shares of Redstone's common stock at a price of $0.20 per share for a 4.94% equity position.
+
+Upon completion of the First Tranche investment, the Company will make a $1,500,000 Second Tranche investment to acquire an additional 7,500,000 shares of Redstone's common stock at a price of $0.20 for a 19.76% total equity position in Redstone.
+
+Upon completion of the Second Tranche investment, the Company will have twelve months to complete a Third Tranche investment of $4,500,000 to acquire an additional 22,500,000 shares of Redstone's common stock at a price of $0.20 per share for a 44.45% total equity position in Redstone.
+
+Convertible warrants will also be received from Redstone which will allow the Company to acquire additional shares of common stock that will result, if exercised, in the Company's ownership interest in Redstone to increase to 62.3%.
+
+The Company will have the ability to increase the total percentage ownership in Redstone to 75% for consideration of $3,373,851. The Company can increase its ownership of Redstone to 100% by purchasing the remaining outstanding shares of common stock of Redstone for consideration of $6,426,149 or 7% of the net present value as determined by the Feasibility Study on the Zonia property.
+
+In the event that the Company does not convert the warrants into common stock, Redstone will have the right and option to purchase in one or more transactions up to 100% of the securities acquired by the Company in the Second and Third Tranche purchase transactions at a cost equal to the Company's total investment in the shares that Redstone elects to repurchase.
+
+n)On May 16, 2014, the Company entered into an agreement with Placer Mining Corporation, a Nevada corporation ("Placer"), which owns that certain mining property known as the Bunker Hill Mine, near Kellogg, Idaho ("Bunker" or the "Property") in which the Company will have the exclusive right to evaluate and perform due diligence on the Property until August 15, 2014 (the "Review Period"). Upon completion of the Review Period, the parties expect to negotiate and enter into option and exclusivity agreements (the "Option Agreements") whereby the Company can acquire the interests of Placer shareholders upon satisfaction of certain terms and conditions to be negotiated.
+
+During the Review Period, Placer agrees it will not, directly or indirectly, solicit, initiate, assist, facilitate, promote or encourage proposals or offers from, entertain or enter into discussions or negotiations with, or provide information relating to the Property, including, but not limited to any and all due diligence materials, to any persons, entity or group in connection with the sale of the Property or any interest therein, or any amalgamation, merger, consolidation, arrangement, or sale of all or substantially all of the assets of Placer.
+
+In consideration for the Review Period, Silver Stream will pay Placer the sum of $60,000 USD (Sixty Thousand Dollars) per month, on a payment schedule of $15,000 USD (Fifteen Thousand Dollars) per week on Friday, commencing Friday, May 16, 2014, with payments concluding Friday, August 1, 2014. However, the Review Period will extend until Friday, August 15, 2014. Silver Stream will have a seven (7) day grace period in the event a payment to Placer is delayed for any reason. If a payment is delayed beyond the seven (7) day grace period, the Agreement will automatically terminate and neither Placer nor Silver Stream will have any obligation to one another from that date forward.
+
+In the event Placer terminates this Agreement in order to accept another offer, or for any reason whatsoever, then Placer will pay Silver Stream a breakup fee in the amount of $5,000,000 USD (Five Million Dollars USD) within fifteen (15) days of notifying Silver Stream in writing of such termination.
+
+22
+
+* * *
+
+ITEM 9. CHANGES IN AND DISAGREEMENTS WITH ACCOUNTANTS ON ACCOUNTING AND FINANCIAL DISCLOSURE.
+
+Not applicable
+
+[](https://www.sec.gov/Archives/edgar/data/1310497/000100201414000290/ssmc10kt-3312013.htm)
+ITEM 9A. CONTROLS AND PROCEDURES
+
+Evaluation of Disclosure Controls and Procedures: Disclosure controls and procedures are designed to ensure that information required to be disclosed in the reports filed or submitted under the Exchange Act is recorded, processed, summarized and reported, within the time period specified in the SEC's rules and forms. Disclosure controls and procedures include, without limitation, controls and procedures designed to ensure that information required to be disclosed in the reports filed under the Exchange Act is accumulated and communicated to management, including the Chief Executive Officer and Chief Financial Officer, as appropriate, to allow timely decisions regarding required disclosure. As of the end of the period covered by this report, we carried out an evaluation, under the supervision and with the participation of our management, including our Chief Executive Officer and Chief Financial Officer, of the effectiveness of the design and operation of our disclosure controls and procedures. Based upon and as of the date of that evaluation, the Chief Executive Officer and Chief Financial Officer concluded that our disclosure controls and procedures are not effective to ensure that information required to be disclosed in the reports our company files and submits under the Exchange Act is recorded, processed, summarized and reported as and when required due to the material weaknesses in internal control over financial reporting described below.
+
+(a) Management's Report on Internal Control over Financial Reporting
+
+Our management is responsible for establishing and maintaining adequate internal control over financial reporting responsibility. Estimates and judgments by management are required to assess the expected benefits and related costs of control procedures. The objectives of internal control include providing management with reasonable, but not absolute, assurance that assets are safeguarded against loss from unauthorized use or disposition, and that transactions are executed in accordance with management's authorization and recorded properly to permit the preparation of consolidated financial statements in conformity with accounting principles generally accepted in the United States. Our management assessed the effectiveness of our internal control over financial reporting as of March 31, 2013. In making this assessment, our management used the criteria set forth by the Committee of Sponsoring Organizations of the Treadway Commission ("COSO") in Internal Control- Integrated Framework. Our management has concluded that, as of March 31, 2013, our internal control over financial reporting is not effective in providing reasonable assurance regarding the reliability of financial reporting and the preparation of financial statements for external purposes in accordance with US generally accepted accounting principles. Our management reviewed the results of their assessment with our board of directors. A material weakness is a deficiency, or a combination of deficiencies, in internal control over financial reporting, such that there is a reasonable possibility that a material misstatement of the company's annual or interim financial statements will not be prevented or detected on a timely basis. Our management identified the following material weaknesses in our internal control over financial reporting, which are indicative of many small companies with small staff: (i) inadequate segregation of duties and effective risk assessment; and (ii) insufficient written policies and procedures for accounting and financial reporting with respect to the requirements and application of both US GAAP and SEC guidelines.
+
+We plan to take steps to enhance and improve the design of our internal control over financial reporting. During the period covered by this annual report on Form 10-K, we have not been able to remediate the material weaknesses identified above. To remediate such weaknesses, we plan to implement the following changes when our level of business operations increases: (i) appoint additional qualified personnel to address inadequate segregation of duties and ineffective risk management; and (ii) adopt sufficient written policies and procedures for accounting and financial reporting. The remediation efforts set out in (i) is largely dependent upon our securing additional financing to cover the costs of implementing the changes required. If we are unsuccessful in securing such funds, remediation efforts may be adversely affected in a material manner.
+
+23
+
+* * *
+
+Inherent limitations on effectiveness of controls
+
+Internal control over financial reporting has inherent limitations which include, but is not limited to, the use of independent professionals for advice and guidance, interpretation of existing and/or changing rules and principles, segregation of management duties, scale of organization, and personnel factors. Internal control over financial reporting is a process which involves human diligence and compliance and is subject to lapses in judgment and breakdowns resulting from human failures. Internal control over financial reporting also can be circumvented by collusion or improper management override. Because of its inherent limitations, internal control over financial reporting may not prevent or detect misstatements on a timely basis; however these inherent limitations are known features of the financial reporting process, and it is possible to design into the process safeguards to reduce, though not eliminate, this risk. Therefore, even those systems determined to be effective can provide only reasonable assurance with respect to financial statement preparation and presentation. Projections of any evaluation of effectiveness to future periods are subject to the risk that controls may become inadequate because of changes in conditions, or that the degree of compliance with the policies or procedures may deteriorate.
+
+(b) Changes in Internal Control over Financial Reporting:
+
+There were no changes in the Company's internal control over financial reporting during our fiscal year ended March 31, 2013 that have materially affected or are reasonably likely to materially affect, the internal control over financial reporting.
+
+[](https://www.sec.gov/Archives/edgar/data/1310497/000100201414000290/ssmc10kt-3312013.htm)
+ITEM 9 B. OTHER INFORMATION
+
+None
+
+[](https://www.sec.gov/Archives/edgar/data/1310497/000100201414000290/ssmc10kt-3312013.htm)
+PART III
+
+ITEM 10. DIRECTORS, EXECUTIVE OFFICERS, AND CORPORATE GOVERNANCE.
+
+Our officers and directors will serve until their respective successor is elected and qualified. Our officers are elected by the board of directors to a term of one (1) year and serve until their successor is duly elected and qualified, or until they are removed from office. The board of directors has no nominating, auditing or compensation committees.
+
+As of March 31, 2013, our executive officers and directors, their age and positions are set forth below:
+
+Name Age Position
+
+Fraser Campbell 54 President, Chief Executive Officer,
+Chief Financial Officer. and Director
+
+James F. Dempsey 60 Secretary, Treasurer, and Director
+
+James F. Dempsey resigned as President, Chief Executive Officer on January 06, 2011, and Fraser Campbell was appointed as President, Chief Executive Officer and CFO. Mr. Campbell is a partner and director of First Growth Management ("FGM"), a private equity company which invests both capital and varied management resources in small to mid-sized businesses with attractive growth potential. Mr. Campbell has held a number of executive positions in FGM investee companies including as President of Modu-Loc Fence Rentals Ltd., IFCO Systems Canada and PalEx Canada. Mr.Campbell is a Director of Pacific Safety Products. Mr.Campbell studied Geology and Chemistry at University of Alberta and Concordia University.
+
+For the past decade, James F. Dempsey has worked in the Vancouver residential real estate market where he specializes in meeting the needs of Seniors. Prior to his real estate career, Jack spent many years as a professional helicopter pilot. Jack's community service work includes serving on the board of the Vancouver Abbeyfield Society.
+
+The directors are elected for one-year terms that expire at the next annual meeting of shareholders. Executive officers are elected annually by the Board of Directors to hold office until the first meeting of the Board following the next annual meeting of shareholders and until their successors have been elected and qualified.
+
+Family Relationships.
+
+There are no family relationships among our officers, directors, or persons nominated for such positions.
+
+24
+
+* * *
+
+BOARD MEETINGS AND COMMITTEES
+
+The Board of Directors held a total of two meetings during the period from inception through March 31, 2013. No director attended fewer than 75% of all meetings of the Board of Directors during this period. The Company has no committees.
+
+Indemnification
+
+Under our Articles of Incorporation and Bylaws of the corporation, we may indemnify an officer or director who is made a party to any proceeding, including a lawsuit, because of his position, if he acted in good faith and in a manner he reasonably believed to be in our best interest. We may advance expenses incurred in defending a proceeding. To the extent that the officer or director is successful on the merits in a proceeding as to which he is to be indemnified, we must indemnify him against all expenses incurred, including attorney's fees. With respect to a derivative action, indemnity may be made only for expenses actually and reasonably incurred in defending the proceeding, and if the officer or director is judged liable, only by a court order. The indemnification is intended to be to the fullest extent permitted by the laws of the State of Nevada.
+
+Regarding indemnification for liabilities arising under the Securities Act of 1933, which may be permitted to directors or officers under Nevada law, we are informed that, in the opinion of the Securities and Exchange Commission, indemnification is against public policy, as expressed in the Act and is, therefore, unenforceable.
+
+Audit Committee and Charter
+
+We do not have a separately designated audit committee of the board or any other board-designated committee. Audit committee functions are performed by our board of directors. None of our directors are deemed independent. Our directors, Mr. Dempsey and Mr. Campbell, also hold positions as officers. Our audit committee is responsible for: (1) selection and oversight of our independent accountant; (2) establishing procedures for the receipt, retention and treatment of complaints regarding accounting, internal controls and auditing matters; (3) establishing procedures for the confidential, anonymous submission by our employees of concerns regarding accounting and auditing matters; (4) engaging outside advisors; and, (5) funding for the outside auditory and any outside advisors engagement by the audit committee.
+
+Audit Committee Financial Expert
+
+We do not have an audit committee financial expert. We do not have an audit committee financial expert because we believe the cost related to retaining a financial expert at this time is prohibitive. Further, at the present time, we believe the services of a financial expert are not warranted.
+
+Code of Ethics
+
+We have not yet adopted a corporate code of ethics.
+
+Disclosure Committee and Charter
+
+We do not yet have a disclosure committee and disclosure committee charter.
+
+[](https://www.sec.gov/Archives/edgar/data/1310497/000100201414000290/ssmc10kt-3312013.htm)
+ITEM 11. EXECUTIVE COMPENSATION
+
+The following table sets forth the compensation paid by us from inception to March 31, 2013, for our officers and directors. This information includes the dollar value of base salaries, bonus awards and number of stock options granted, and certain other compensation, if any.
+
+Summary Compensation Table
+Names
+
+Executive Officer
+
+& Principal Position Annual Compensation Awards Payouts Securities Long Term
+
+Compensation
+Year
+
+Ended Salary Bonus Other Annual
+
+Compensation Under
+
+SARS Restricted Shares or
+
+Restricted Options Other Shares
+
+or LTIP
+(US$)(US$)(US$)(#)(US$)(US$)(US$)
+James F. Dempsey 2013 31,200 0 0 0 0 0 0
+Treasurer & Secretary 2012 31,200 0 0 0 0 0 0
+
+25
+
+* * *
+
+Fraser Campbell 2013 0 0 0 0 0 0 0
+President & CFO 2012 0 0 0 0 0 0 0
+
+We have no employment agreements with any of our officers.
+
+The compensation discussed herein addresses all compensation awarded to, earned by, or paid to our named executive officers.
+
+There are no other stock option plans, retirement, pension, or profit sharing plans for the benefit of our officers and directors other than as described herein.
+
+Long-Term Incentive Plan Awards
+
+We do not have any long-term incentive plans that provide compensation intended to serve as incentive for performance.
+
+Compensation of Directors
+
+Our directors do not receive any compensation for serving as a member of the board of directors.
+
+[](https://www.sec.gov/Archives/edgar/data/1310497/000100201414000290/ssmc10kt-3312013.htm)
+ITEM 12. SECURITY OWNERSHIP OF CERTAIN BENEFICIAL OWNERS AND MANAGEMENT AND RELATED STOCKHOLDER MATTERS
+
+The following table sets forth certain information with respect to beneficial ownership of our common stock as of March 31, 2013 for (i) each executive officer (ii) each director, (iii) each person known to us to be the beneficial owner of more than 5% of the outstanding shares, and (iv) all directors and officers as a group.
+
+Name and Address
+
+of Beneficial Owner 1,2 Number of Shares Percentage of Shares
+James F. Dempsey
+
+Vancouver, BC 18,007,680 85.39%
+Fraser Campbell
+
+Vancouver, BC Nil Nil%
+
+(1)The person named above may be deemed to be a "parent" and "promoter" of our company, within the meaning of such terms under the Securities Act of 1933, as amended, by virtue of his direct stock holdings. Mr. Dempsey is the only "promoter" of our company.
+
+(2)Each shareholder has sole and direct ownership of his shares.
+
+All the shares listed above were acquired by the holder in March 2004 and are restricted pursuant to Rule 144.
+
+All Officers and Directors as a Group 18,007,680 - Direct ownership of 85% (approx.) 1 Individual.
+
+Changes in Control.
+
+There are currently no arrangements, which would result in a change in control of the Company.
+
+Our principal stockholder, James F. Dempsey, currently, owns approximately 85% of our common stock based on shares issued to him as full consideration for his payment of organizational expenses. As a result, he will have significant influence over all matters requiring approval by our stockholders, and will not require the approval of the minority stockholders in order to take any action. In addition, Mr. Dempsey will be able to elect all of the members of our Board of Directors, allowing him to exercise significant control of our affairs and management. In addition, Mr. Dempsey may affect most corporate matters requiring stockholder approval by written consent, without a duly-noticed and duly-held meeting of stockholders. In essence, Mr. Dempsey controls our Company and your vote is of little importance or consequence.
+
+26
+
+* * *
+
+[](https://www.sec.gov/Archives/edgar/data/1310497/000100201414000290/ssmc10kt-3312013.htm)
+ITEM 13. CERTAIN RELATIONSHIPS AND RELATED TRANSACTIONS, AND DIRECTOR INDEPENDENCE
+
+Other than the sale of shares to our officers and directors, we have not entered into any transactions with our officers, directors, persons nominated for these positions, beneficial owners of 5% or more of our common stock, or family members of these persons. We are not a subsidiary of` any other company. Our former President, founder and Director, James F. Dempsey, was our only promoter. Mr. Dempsey provided and cash in the sum of $985.60 for his 18,007,680 shares of Common Stock.
+
+In addition, we issued 101,000 shares to Carolyn Davis - wife of James Dempsey, and 1,000 shares to each of Bob Delaney - Uncle to James Dempsey, Emily and Rebecca Dempsey - daughters of James Dempsey, Coleen Dempsey – mother of James Dempsey, for consideration of $0.20 per share.
+
+In addition, Carolyn Davis also purchased 100,000 shares of the Company's Common Stock, for consideration of $0.20 per share, in the offering conducted pursuant to the Company's SB-2 registration statement declared effective by the SEC as of September 19, 2005.
+
+Pursuant to the laws of British Columbia, Mr. Tibor Gajdics was also deemed a founder. Mr. Gajdics purchased 100,000 shares of the Company's Common Stock, for consideration of US$.20 per share, in the offering conducted pursuant to the Company's SB-2 registration statement declared effective by the SEC as of September 19, 2005.
+
+Mr. Dempsey is not independent under the independence standards applicable to the small business issuer under paragraph (a)(1) of Item 407(a) of Regulation S-B.
+
+Future transactions, if any, will be approved by a majority of the disinterested members and will be on terms no less favorable to us than those that could be obtained from unaffiliated parties.
+
+During the year ended March 31, 2013, the company incurred management fees of $31,200 (March 31, 2012: $31,200) payable to James F. Dempsey, who is Treasurer and director of the company. As at March 31, 2013, accounts payable included $54,800 (March 31, 2012: $23,600) in management fees payable to James F. Dempsey.
+
+As at March 31, 2013, loans and advances included an advance of $67,669 (March 31, 2012: $70,000) from James F. Dempsey.
+
+Pursuant to a resolution dated June 1, 2008, the spouse of an officer of the Company is to be paid monthly to provide administrative services to the Company at a rate of $1,800 per month. The amount may be adjusted from time to time at the discretion of the Board of Directors.
+
+During the year ended March 31, 2013, the Company incurred administrative fees of $21,600 (March 31, 2012: $21,600) payable to the wife of an officer of the Company. As at March 31, 2013, accounts payable included $41,400 (March 31, 2012: $19,800) in administrative services payable to the wife of an officer of the Company.
+
+On April 1, 2011, the Company agreed with related parties to settle $181,300 in amounts owed in respect to accrued management expenses for James F. Dempsey ($118,300) and accrued administrative fees to Carolyn Davis ($63,000) in exchange for convertible promissory notes in the same amount. The Company accounted for the transaction as an extinguishment of debt new promissory notes issued at their fair value. The fair value of the notes was determined with reference to the quoted market price of the Company's shares multiplied by the number of common shares of the Company that would be issued upon conversion of the notes. These convertible promissory notes became due on April 01, 2012 but company could not pay due to lack of funds and is still negotiating with the related parties.
+
+ITEM 14. PRINCIPAL ACCOUNTING FEES AND SERVICES
+
+(1) Audit Fees
+
+The aggregate fees billed for professional services rendered by the principal accountant for the audit of our annual financial statements and review of financial statements included in our Form 10-QSBs or services that are normally provided by the accountant in connection with statutory and regulatory filings or engagements was $53,803 for the year ended March 31, 2013 and $37,422 for the year ended March 31, 2012. The auditor was BDO Canada LLP.
+
+27
+
+* * *
+
+(2) Audit-Related Fees
+
+The aggregate fees billed in each of the last two fiscal years for assurance and related services by the principal accountants that are reasonably related to the performance of the audit or review of our financial statements and are not reported in the preceding paragraph was $nil for both the year ended March 31, 2013 and March 31, 2012.
+
+(3) Tax Fees
+
+The aggregate fees billed in each of the last two fiscal years for professional services rendered by the principal accountant for tax compliance, tax advice, and tax planning was $nil for the year ended March 31, 2013 and $6,879 for the year ended March 31, 2012. The tax preparer was BDO Canada LLP.
+
+(4) All Other Fees
+
+The aggregate fees billed in each of the last two fiscal years ended March 31 2013 and 2012 for the products and services provided by the principal accountant, other than the services reported in paragraphs (1), (2), and (3) was $nil.
+
+[](https://www.sec.gov/Archives/edgar/data/1310497/000100201414000290/ssmc10kt-3312013.htm)[](https://www.sec.gov/Archives/edgar/data/1310497/000100201414000290/ssmc10kt-3312013.htm)[](https://www.sec.gov/Archives/edgar/data/1310497/000100201414000290/ssmc10kt-3312013.htm)[](https://www.sec.gov/Archives/edgar/data/1310497/000100201414000290/ssmc10kt-3312013.htm)
+PART IV
+
+[](https://www.sec.gov/Archives/edgar/data/1310497/000100201414000290/ssmc10kt-3312013.htm)
+ITEM 15.EXHIBITS
+
+The following Exhibits 3.01-3.03 are incorporated herein by reference from our Form SB-2 Registration Statement filed with the Securities and Exchange Commission, SEC File No. 333-121044, filed on December 7, 2004. Such exhibits are incorporated herein by reference pursuant to Rule 12b-32:
+
+Exhibit No.Document Description
+
+3.01 Articles of Incorporation.
+3.02 Certificate of Amendment to Articles of Incorporation
+3.03 Bylaws
+
+All other previously filed exhibits are incorporated herein by reference.
+
+The following documents are included herein:
+
+Exhibit No.Document Description
+
+31.1 Certification of Principal Executive Officer and Principal Financial Officer pursuant to Rule 13a-15(e) and 15d-15(e), promulgated under the Securities and Exchange Act of 1934, as amended.
+32.1 Certification pursuant to 18 U.S.C. Section 1350, as adopted pursuant to Section 906 of the Sarbanes-Oxley Act of 2002 (Chief Executive Officer and Chief Financial Officer).
+99.1 Letter from British Columbia Securities Commission, dated September 26, 2007.
+101 Interactive data files formatted in XBRL (eXtensible Business Reporting Language): (i) the Consolidated Balance Sheets, (ii) the Consolidated Statements of Operations, (iii) the Consolidated Statements of Cash Flows, and (iv) the Notes to the Consolidated Financial Statements.
+101.INS XBRL Instance Document
+101.SCH XBRL Taxonomy Extension Schema Document
+101.CAL XBRL Taxonomy Extension Calculation Linkbase Document
+101.DEF XBRL Taxonomy Extension Definition Linkbase Document
+101.LAB XBRL Taxonomy Extension Label Linkbase Document
+101.PRE XBRL Taxonomy Extension Presentation Linkbase Document
+
+Reports on Form 8-K: No reports were on filed on Form 8K during the period ended March 31, 2013.
+
+28
+
+* * *
+
+SIGNATURES
+
+Pursuant to the requirements of Section 13 or 15(d) of the Securities Exchange Act of 1934, the registrant has duly caused this report to be signed on its behalf by the undersigned, thereunto duly authorized on this 27 th day May, 2014.
+
+W. S. INDUSTRIES, INC.
+
+By:TERRENCE BYBERG
+Terrence Byberg
+President, Chief Executive Officer and Director
+
+By:DONALD BOSSERT
+Donald Bossert
+Chief Financial Officer and Director
+
+Pursuant to the requirements of the Securities Exchange Act of 1934, this report has been signed below by the following persons on behalf of the registrant and in the capacities and on the dates indicated.
+
+Signature Title Date
+
+TERRENCE BYBERG President, Chief Executive Officer and May 27, 2014
+Terrence Byberg Director
+
+DONALD BOSSERT Chief Financial Officer and Director May 27, 2014
+Donald Bossert
+
+R.M. ROBB Director May 27, 2014
+R. M. (Mike) Robb
+
+Director May ____, 2014
+Peter Calder

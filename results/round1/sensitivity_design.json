@@ -1,0 +1,254 @@
+{
+  "timestamp_utc": "2026-09-21T09:35:57.689003+00:00",
+  "script_path": "D:\\MLWork\\scie_small_sample_topics_20260920\\finance_reframe_20260921\\scripts\\build_sensitivity_cohorts.py",
+  "script_sha256": "ee390f73a6e60a6afb53991a07b116e0a3bdcf32c7a89dd4507ad42f5657b0eb",
+  "status": "complete",
+  "models_fitted": 0,
+  "cohort_exists": true,
+  "facts_exist": true,
+  "planned_input_cohort": "D:\\MLWork\\scie_small_sample_topics_20260920\\finance_reframe_20260921\\datasets\\model_cohort.parquet",
+  "planned_input_facts": "D:\\MLWork\\scie_small_sample_topics_20260920\\finance_reframe_20260921\\datasets\\vintage_facts.parquet",
+  "sensitivity_S1": "Accession-specific 1000-fold source-scale correction, same main cohort and weights",
+  "sensitivity_S2": "Exclude 10-KT transition annual filings, retain original design weights",
+  "features": [
+    "log_assets",
+    "liabilities_to_assets",
+    "equity_to_assets",
+    "cash_to_assets",
+    "net_income_to_assets",
+    "revenue_to_assets",
+    "operating_income_to_assets",
+    "operating_cash_to_assets",
+    "retained_earnings_to_assets",
+    "working_capital_to_assets"
+  ],
+  "monetary_components": [
+    "assets",
+    "liabilities",
+    "equity",
+    "cash",
+    "current_assets",
+    "current_liabilities",
+    "net_income",
+    "revenue",
+    "operating_income",
+    "operating_cash",
+    "retained_earnings"
+  ],
+  "no_models_fitted": true,
+  "inference_note": "Use the same locked training/evaluation rules. S1 compares the same sampled domain; S2 changes the target domain to non-transition annual reports. Neither alters the original cohort or raw facts.",
+  "self_test": {
+    "status": "pass",
+    "real_data_models_fitted": 0,
+    "checks": [
+      "11 monetary components scaled uniformly: 9 ratios unchanged; log assets changes by ln(1000)",
+      "A and B accession sources are corrected independently",
+      "C per-component source correction handles a hybrid bundle",
+      "untouched rows/metadata/weights and source DataFrames unchanged",
+      "10-KT removal preserves retained rows and weights",
+      "zero-transition case marked equivalent and skip training",
+      "inconsistent A source accession rejected"
+    ],
+    "toy_changed_feature_cells": {
+      "A": 1,
+      "B": 1,
+      "C": 10
+    }
+  },
+  "sources": {
+    "main": {
+      "path": "D:\\MLWork\\scie_small_sample_topics_20260920\\finance_reframe_20260921\\datasets\\model_cohort.parquet",
+      "sha256": "724122d3ca7a0a123de244112aa604d6da7a008497cc6ce526f8f07327916e21"
+    },
+    "facts": {
+      "path": "D:\\MLWork\\scie_small_sample_topics_20260920\\finance_reframe_20260921\\datasets\\vintage_facts.parquet",
+      "sha256": "18f5f0424091c17bb80fa146d55890a849c1fce97f3f0f0d0e784d7422c71c5f"
+    }
+  },
+  "main_sha256": "724122d3ca7a0a123de244112aa604d6da7a008497cc6ce526f8f07327916e21",
+  "facts_sha256": "18f5f0424091c17bb80fa146d55890a849c1fce97f3f0f0d0e784d7422c71c5f",
+  "S1": {
+    "correction_accession": "0001062993-16-008351",
+    "factor": 1000.0,
+    "source_assumption": "Original HTML review confirmed all 11 selected monetary components in this accession are 1000 times the API values; correction is accession-specific, not company-wide.",
+    "A_source": "accn (asserted equal to original_accession)",
+    "B_source": "B_accession",
+    "C_source": "C_accession",
+    "versions": {
+      "A": {
+        "accession_matched_fact_rows": 11,
+        "finite_components_multiplied": 11,
+        "missing_components_not_multiplied": 0,
+        "matched_components_in_main_cohort": 11,
+        "affected_cohort_rows": 1,
+        "changed_feature_cells": 1,
+        "changed_features": {
+          "log_assets": 1,
+          "liabilities_to_assets": 0,
+          "equity_to_assets": 0,
+          "cash_to_assets": 0,
+          "net_income_to_assets": 0,
+          "revenue_to_assets": 0,
+          "operating_income_to_assets": 0,
+          "operating_cash_to_assets": 0,
+          "retained_earnings_to_assets": 0,
+          "working_capital_to_assets": 0
+        }
+      },
+      "B": {
+        "accession_matched_fact_rows": 11,
+        "finite_components_multiplied": 11,
+        "missing_components_not_multiplied": 0,
+        "matched_components_in_main_cohort": 11,
+        "affected_cohort_rows": 1,
+        "changed_feature_cells": 1,
+        "changed_features": {
+          "log_assets": 1,
+          "liabilities_to_assets": 0,
+          "equity_to_assets": 0,
+          "cash_to_assets": 0,
+          "net_income_to_assets": 0,
+          "revenue_to_assets": 0,
+          "operating_income_to_assets": 0,
+          "operating_cash_to_assets": 0,
+          "retained_earnings_to_assets": 0,
+          "working_capital_to_assets": 0
+        }
+      },
+      "C": {
+        "accession_matched_fact_rows": 6,
+        "finite_components_multiplied": 6,
+        "missing_components_not_multiplied": 0,
+        "matched_components_in_main_cohort": 6,
+        "affected_cohort_rows": 1,
+        "changed_feature_cells": 6,
+        "changed_features": {
+          "log_assets": 1,
+          "liabilities_to_assets": 0,
+          "equity_to_assets": 0,
+          "cash_to_assets": 1,
+          "net_income_to_assets": 1,
+          "revenue_to_assets": 1,
+          "operating_income_to_assets": 1,
+          "operating_cash_to_assets": 1,
+          "retained_earnings_to_assets": 0,
+          "working_capital_to_assets": 0
+        }
+      }
+    },
+    "affected_rows": [
+      {
+        "cik": "0001409916",
+        "original_accession": "0001062993-15-001772",
+        "version": "B",
+        "component_matches": [
+          "assets",
+          "liabilities",
+          "equity",
+          "cash",
+          "current_assets",
+          "current_liabilities",
+          "net_income",
+          "revenue",
+          "operating_income",
+          "operating_cash",
+          "retained_earnings"
+        ],
+        "version_features_present": true,
+        "changed_features": [
+          "log_assets"
+        ]
+      },
+      {
+        "cik": "0001409916",
+        "original_accession": "0001062993-15-001772",
+        "version": "C",
+        "component_matches": [
+          "assets",
+          "liabilities",
+          "equity",
+          "current_assets",
+          "current_liabilities",
+          "retained_earnings"
+        ],
+        "version_features_present": true,
+        "changed_features": [
+          "log_assets",
+          "cash_to_assets",
+          "net_income_to_assets",
+          "revenue_to_assets",
+          "operating_income_to_assets",
+          "operating_cash_to_assets"
+        ]
+      },
+      {
+        "cik": "0001409916",
+        "original_accession": "0001062993-16-008351",
+        "version": "A",
+        "component_matches": [
+          "assets",
+          "liabilities",
+          "equity",
+          "cash",
+          "current_assets",
+          "current_liabilities",
+          "net_income",
+          "revenue",
+          "operating_income",
+          "operating_cash",
+          "retained_earnings"
+        ],
+        "version_features_present": true,
+        "changed_features": [
+          "log_assets"
+        ]
+      }
+    ],
+    "rows_in": 5502,
+    "rows_out": 5502,
+    "distinct_rows_with_source_matches": 2,
+    "all_nonfeature_cells_identical": true,
+    "row_order_identical": true,
+    "column_order_and_dtypes_identical": true,
+    "substantive_change_tolerance": {
+      "rtol": 1e-12,
+      "atol": 1e-12
+    },
+    "unchanged_ratios_keep_original_float_representation": true,
+    "not_recomputed_metadata": [
+      "n_coherent_changed",
+      "n_per_tag_changed"
+    ],
+    "metadata_note": "Original component-change audit counts remain source metadata; do not interpret them as corrected-version descriptive counts.",
+    "training_may_be_skipped_as_equivalent": false
+  },
+  "S2": {
+    "filter": "exclude exact form == 10-KT",
+    "rows_in": 5502,
+    "rows_removed": 12,
+    "rows_out": 5490,
+    "equivalent_to_main": false,
+    "skip_training": false,
+    "retained_cell_values_and_order_identical": true,
+    "weights_are_original_design_weights_not_renormalized": true,
+    "positive_windows_removed": 1,
+    "distinct_ciks_with_removed_rows": 12
+  },
+  "outputs": {
+    "source_scale_corrected": {
+      "path": "D:\\MLWork\\scie_small_sample_topics_20260920\\finance_reframe_20260921\\datasets\\sensitivity_source_scale_corrected.parquet",
+      "sha256": "a50cd777e61faf1ff4ca1ce5175a742f1def520005fecfc8d01a2619c42e96f6",
+      "rows": 5502,
+      "bytes": 1575940,
+      "parquet_roundtrip_exact": true
+    },
+    "no_transition": {
+      "path": "D:\\MLWork\\scie_small_sample_topics_20260920\\finance_reframe_20260921\\datasets\\sensitivity_no_transition.parquet",
+      "sha256": "9d52c4ca618920a2a878b35d2eb07efaf608fd445f6d2489a720a68470ced9a6",
+      "rows": 5490,
+      "bytes": 1573874,
+      "parquet_roundtrip_exact": true
+    }
+  },
+  "source_files_unchanged": true
+}

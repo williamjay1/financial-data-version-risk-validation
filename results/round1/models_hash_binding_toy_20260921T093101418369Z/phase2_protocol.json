@@ -1,0 +1,7 @@
+{
+  "data_gate": {
+    "training_allowed_now": true,
+    "cohort_sha256": "c33a607bffa0891b4c97dfcccb3a092325913342e4124aae97749550d3e77d08",
+    "audit": "results/final_data_gate.json"
+  }
+}

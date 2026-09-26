@@ -1,0 +1,18 @@
+[
+  {
+    "url": "https://lopucki.law.ufl.edu/download_cases_table.php",
+    "request_utc": "2026-09-21T07:53:42.620462+00:00",
+    "user_agent": "Codex public-data feasibility audit/1.0 (one-off access test; no bulk collection)",
+    "used_authentication": false,
+    "status": 200,
+    "final_url": "https://lopucki.law.ufl.edu/Florida-UCLA-LoPucki%20Bankruptcy%20Research%20Database%201-12-2023.zip",
+    "content_type": "application/zip",
+    "bytes": 2938544,
+    "raw_path": "E:\\AcademicData\\scie_small_sample_topics_20260920\\raw\\finance_reframe_20260921\\corporate\\probe_20260921T075342Z_37352bae_00.bin",
+    "sha256": "03a17b10802b26eefce1d30a4dd45e774b3a252a16ad8fae60116185d97dfe70",
+    "response_headers": {
+      "Last-Modified": "Thu, 12 Jan 2023 19:43:35 GMT",
+      "ETag": "\"2cd6b0-5f21655260ca5\""
+    }
+  }
+]

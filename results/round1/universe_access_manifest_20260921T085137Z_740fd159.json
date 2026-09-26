@@ -1,0 +1,32 @@
+[
+  {
+    "url": "https://drive.google.com/uc?export=download&id=1yblNDgSrouygy3RRNPLISa_67AU1HUUr",
+    "request_utc": "2026-09-21T08:51:37.676859+00:00",
+    "user_agent": "Codex public-data feasibility audit/1.0 (one-off metadata access; no bulk SEC collection)",
+    "authentication": false,
+    "status": 200,
+    "final_url": "https://drive.usercontent.google.com/download?id=1yblNDgSrouygy3RRNPLISa_67AU1HUUr&export=download",
+    "content_type": "application/octet-stream",
+    "etag": null,
+    "last_modified": "Mon, 23 Mar 2026 18:37:28 GMT",
+    "raw_path": "E:\\AcademicData\\scie_small_sample_topics_20260920\\raw\\finance_reframe_20260921\\universe\\universe_20260921T085137Z_740fd159_00.bin",
+    "bytes": 130264,
+    "sha256": "694321ac834e5a733d6e531dad0924f343c7397dd8f84579a368152fe298bc15",
+    "read_only": true
+  },
+  {
+    "url": "https://sraf.nd.edu/sec-edgar-data/edgar-filings-tabulation/",
+    "request_utc": "2026-09-21T08:51:44.708095+00:00",
+    "user_agent": "Codex public-data feasibility audit/1.0 (one-off metadata access; no bulk SEC collection)",
+    "authentication": false,
+    "status": 200,
+    "final_url": "https://sraf.nd.edu/sec-edgar-data/edgar-filings-tabulation/",
+    "content_type": "text/html; charset=utf-8",
+    "etag": null,
+    "last_modified": null,
+    "raw_path": "E:\\AcademicData\\scie_small_sample_topics_20260920\\raw\\finance_reframe_20260921\\universe\\universe_20260921T085137Z_740fd159_01.bin",
+    "bytes": 66360,
+    "sha256": "592ebe1042e0509afe3c1a6d1f5f8fa2b8ef528148c48da55e7ea8b7bdabf427",
+    "read_only": true
+  }
+]

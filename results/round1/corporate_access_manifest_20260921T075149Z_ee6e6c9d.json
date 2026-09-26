@@ -1,0 +1,93 @@
+[
+  {
+    "url": "https://data.sec.gov/submissions/CIK0000886158.json",
+    "request_utc": "2026-09-21T07:51:49.745116+00:00",
+    "user_agent": "Codex public-data feasibility audit/1.0 (one-off access test; no bulk collection)",
+    "used_authentication": false,
+    "status": 200,
+    "final_url": "https://data.sec.gov/submissions/CIK0000886158.json",
+    "content_type": "application/json",
+    "bytes": 162692,
+    "raw_path": "E:\\AcademicData\\scie_small_sample_topics_20260920\\raw\\finance_reframe_20260921\\corporate\\probe_20260921T075149Z_ee6e6c9d_00.bin",
+    "sha256": "21b1179f6f667f9004c0b1d352eb0bdcaba0f4d80dd234c767f944307c08d0ca",
+    "response_headers": {}
+  },
+  {
+    "url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0000886158.json",
+    "request_utc": "2026-09-21T07:51:53.378586+00:00",
+    "user_agent": "Codex public-data feasibility audit/1.0 (one-off access test; no bulk collection)",
+    "used_authentication": false,
+    "status": 200,
+    "final_url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0000886158.json",
+    "content_type": "application/json",
+    "bytes": 2489472,
+    "raw_path": "E:\\AcademicData\\scie_small_sample_topics_20260920\\raw\\finance_reframe_20260921\\corporate\\probe_20260921T075149Z_ee6e6c9d_01.bin",
+    "sha256": "77bd7030131d1c121298dcee740194ef516c98f2415daca32b383513101da669",
+    "response_headers": {}
+  },
+  {
+    "url": "https://data.sec.gov/submissions/CIK0000320193.json",
+    "request_utc": "2026-09-21T07:51:56.005154+00:00",
+    "user_agent": "Codex public-data feasibility audit/1.0 (one-off access test; no bulk collection)",
+    "used_authentication": false,
+    "status": 200,
+    "final_url": "https://data.sec.gov/submissions/CIK0000320193.json",
+    "content_type": "application/json",
+    "bytes": 164231,
+    "raw_path": "E:\\AcademicData\\scie_small_sample_topics_20260920\\raw\\finance_reframe_20260921\\corporate\\probe_20260921T075149Z_ee6e6c9d_02.bin",
+    "sha256": "21995788784b0bc55218499c45c6fc1878378176024c615170f97e1b65044fd4",
+    "response_headers": {}
+  },
+  {
+    "url": "https://www.sec.gov/Archives/edgar/data/886158/000119312523111754/d465247d8k.htm",
+    "request_utc": "2026-09-21T07:51:57.837013+00:00",
+    "user_agent": "Codex public-data feasibility audit/1.0 (one-off access test; no bulk collection)",
+    "used_authentication": false,
+    "status": 403,
+    "final_url": "https://www.sec.gov/Archives/edgar/data/886158/000119312523111754/d465247d8k.htm",
+    "content_type": "text/html",
+    "bytes": 4818,
+    "raw_path": "E:\\AcademicData\\scie_small_sample_topics_20260920\\raw\\finance_reframe_20260921\\corporate\\probe_20260921T075149Z_ee6e6c9d_03.bin",
+    "sha256": "a26c5cb3c8367c5238a5a1b75b79201b1d2a012ebbe2bbbc742c616e19ee104e",
+    "response_headers": {}
+  },
+  {
+    "url": "https://lopucki.law.ufl.edu/sample_download.php",
+    "request_utc": "2026-09-21T07:52:00.163018+00:00",
+    "user_agent": "Codex public-data feasibility audit/1.0 (one-off access test; no bulk collection)",
+    "used_authentication": false,
+    "status": 200,
+    "final_url": "https://lopucki.law.ufl.edu/sample_download.php",
+    "content_type": "text/html; charset=UTF-8",
+    "bytes": 9486,
+    "raw_path": "E:\\AcademicData\\scie_small_sample_topics_20260920\\raw\\finance_reframe_20260921\\corporate\\probe_20260921T075149Z_ee6e6c9d_04.bin",
+    "sha256": "7b67f7e47d15f5d0191903a900327a1798424eee502126dd6c7658303795d107",
+    "response_headers": {}
+  },
+  {
+    "url": "https://lopucki.law.ufl.edu/spreadsheet.php",
+    "request_utc": "2026-09-21T07:52:04.737092+00:00",
+    "user_agent": "Codex public-data feasibility audit/1.0 (one-off access test; no bulk collection)",
+    "used_authentication": false,
+    "status": 200,
+    "final_url": "https://lopucki.law.ufl.edu/spreadsheet.php",
+    "content_type": "text/html; charset=UTF-8",
+    "bytes": 846980,
+    "raw_path": "E:\\AcademicData\\scie_small_sample_topics_20260920\\raw\\finance_reframe_20260921\\corporate\\probe_20260921T075149Z_ee6e6c9d_05.bin",
+    "sha256": "48aee8c4c8bf3178a3cb4ddf35555a736ed854c4a21f9f24865cd6fffd7c7bb9",
+    "response_headers": {}
+  },
+  {
+    "url": "https://api.company-information.service.gov.uk/company/02050399/filing-history",
+    "request_utc": "2026-09-21T07:52:08.538711+00:00",
+    "user_agent": "Codex public-data feasibility audit/1.0 (one-off access test; no bulk collection)",
+    "used_authentication": false,
+    "status": 401,
+    "final_url": "https://api.company-information.service.gov.uk/company/02050399/filing-history",
+    "content_type": "application/json",
+    "bytes": 58,
+    "raw_path": "E:\\AcademicData\\scie_small_sample_topics_20260920\\raw\\finance_reframe_20260921\\corporate\\probe_20260921T075149Z_ee6e6c9d_06.bin",
+    "sha256": "0662b188b7b87b9ed8b7b1d78baa8ea47d8ec6626a603220245c5b9c225ce0c3",
+    "response_headers": {}
+  }
+]

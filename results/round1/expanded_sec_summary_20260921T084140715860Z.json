@@ -1,0 +1,13 @@
+{
+  "run": "20260921T084140715860Z",
+  "ciks_requested": 10,
+  "cases_2009_2022": 426,
+  "source_index_entries": 23,
+  "downloaded_this_run": 21,
+  "status_counts": {
+    "200": 21,
+    "404": 2
+  },
+  "bytes_this_run": 20819796,
+  "models_fitted": 0
+}

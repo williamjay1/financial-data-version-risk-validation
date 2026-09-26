@@ -1,0 +1,964 @@
+{
+  "status": "FROZEN_BEFORE_NEW_DIAGNOSTIC_OUTPUTS",
+  "created_utc": "2026-09-22T16:07:29.467010+00:00",
+  "route": "SCI applied ML evaluation methodology; post hoc explanatory diagnostic, not causal identification",
+  "existing_results_already_known": true,
+  "additional_model_fits": 0,
+  "network_requests": 0,
+  "replicates": 200,
+  "same_replica_identity_in_all_modes": true,
+  "modes": {
+    "development_only": "saved replicate AA/BB probabilities evaluated with original design weights",
+    "evaluation_only": "original AA/BB probabilities evaluated with that same replicate evaluation weights",
+    "joint": "saved replicate AA/BB probabilities evaluated with saved replicate weights"
+  },
+  "reporting": "AA, BB, B-minus-A for AP/Brier/ROC/5%-mass recall, all 200 points, quantiles .025/.05/.5/.95/.975 and positive/negative/tie fractions. No additive variance decomposition; no new confidence interval interpretation.",
+  "independent_metrics": "Own score-tie grouping AP and ROC formula, weighted Brier, equal fractional capacity-boundary ties. No imported prior metric evaluator.",
+  "table7_independent_check": "Reconstruct 1000 conditional draws at seed20260921 in lexicographically sorted selected noncase cluster order, including zero-domain clusters; re-evaluate original row probabilities and basic-centered intervals. Separately compare joint200 points to frozen previous output.",
+  "exposure": "By full-cohort and each test block, label 0/1: no later bundle / later bundle and no raw numerical change / later bundle with raw change; within-label raw and weighted proportions. Do not condition primary performance estimates on future availability.",
+  "continuity": "Original Forms10-K/10-KT in (origin,origin+365days] in existing official submissions metadata, restricted to source cutoff2026-09-21; this is subsequent annual-report presence, not survival. Any missing history file intersecting the observation interval makes absence unknown. An observed qualifying filing proves presence even with incomplete coverage. No new downloads.",
+  "exposure_descriptors": "Original observed fact count and ten-model-input missing count; original log assets and assets; 365-day annual-report continuation with known/unknown denominators.",
+  "adjacent_horizons": [
+    90,
+    365,
+    730,
+    "latest"
+  ],
+  "adjacent_reporting": "Newly available, lost availability, later-to-later accession switch, unchanged selected accession, raw-component and model-feature changes; existing-bundle value changes separately; exact and relative-tolerance raw counts. Row-level output and cohort/block-label summaries.",
+  "raw_change": "abs(B-A)>1e-12*max(1,abs(A),abs(B)) for scientific change and additionally exact inequality for lineage; preserve original masks.",
+  "magnitude": "Retain abs(B-A)/max(1,absA,absB); same-sign nonzero log10(abs(B/A)) and abs log ratio, multiplicative scale; strict nonzero sign flip and zero transitions separately. Summaries among observed pairs and changed pairs keep denominators explicit.",
+  "training_time": "Final refit partition has origin+455days <= Jan1 first test year, verified against original saved refit row IDs where available. Tabulate selected later source dates <,=,> fixed Jan1 fit cutoff; strict > is requested future-source count, equality separately because filed is date-only. Denominators all refit rows and later-available refit rows. No assertion of historical API authentication.",
+  "interpretation_limits": [
+    "Certainty outcomes fixed, identical 1000 noncase PSU draws preserved.",
+    "No training re-estimation performed now: existing paired fitted probabilities reused.",
+    "Modes are dependent diagnostics; covariance/interactions prevent summing marginal variances.",
+    "No new macroperiod/event population/source-error uncertainty.",
+    "Observed annual report presence is a future availability description, not an input for prospective scoring."
+  ],
+  "sources": [
+    {
+      "path": "D:\\MLWork\\scie_small_sample_topics_20260920\\finance_reframe_20260921\\datasets\\model_cohort.parquet",
+      "sha256": "724122d3ca7a0a123de244112aa604d6da7a008497cc6ce526f8f07327916e21"
+    },
+    {
+      "path": "D:\\MLWork\\scie_small_sample_topics_20260920\\finance_reframe_20260921\\datasets\\sampling_frame.parquet",
+      "sha256": "6f339ebd465f018afc463e0e3b3a854e1882ed4d836a4352c95dc6ca5d388937"
+    },
+    {
+      "path": "D:\\MLWork\\scie_small_sample_topics_20260920\\finance_reframe_20260921\\datasets\\universe_annual_filings_2010_2021.parquet",
+      "sha256": "196d2762adee68b3c412e94cd30c333c2565334cead9fc96b3b3701505c28678"
+    },
+    {
+      "path": "D:\\MLWork\\scie_small_sample_topics_20260920\\finance_reframe_20260921\\datasets\\vintage_facts.parquet",
+      "sha256": "18f5f0424091c17bb80fa146d55890a849c1fce97f3f0f0d0e784d7422c71c5f"
+    },
+    {
+      "path": "D:\\MLWork\\scie_small_sample_topics_20260920\\finance_reframe_20260921\\results\\control_sec_manifest_20260921T085720143091Z.jsonl",
+      "sha256": "3c4ceae9595908fc02c388df873e33949b5f675a19a47e74c979b092f1685171"
+    },
+    {
+      "path": "D:\\MLWork\\scie_small_sample_topics_20260920\\finance_reframe_20260921\\results\\control_sec_manifest_20260921T090115622152Z.jsonl",
+      "sha256": "3954a0646f7e7f757adfb658507010337f7468fdbf332917ba8f100c32f99c4d"
+    },
+    {
+      "path": "D:\\MLWork\\scie_small_sample_topics_20260920\\finance_reframe_20260921\\results\\corporate_access_manifest_20260921T075149Z_ee6e6c9d.json",
+      "sha256": "ad4fc98f0a88b75c6ae214f2c647ddded50c8d2a2f9a5f9b2a12e913924d17b4"
+    },
+    {
+      "path": "D:\\MLWork\\scie_small_sample_topics_20260920\\finance_reframe_20260921\\results\\corporate_access_manifest_20260921T075259Z_c52e6e79.json",
+      "sha256": "3452fc7d16341726b168ace1908b5438c8c7b081f8ba5162fab6dd7c01376773"
+    },
+    {
+      "path": "D:\\MLWork\\scie_small_sample_topics_20260920\\finance_reframe_20260921\\results\\corporate_access_manifest_20260921T075324Z_82bda946.json",
+      "sha256": "c06f472925304a83e19d6e0f462cbbef2cee449375c0d213d417ce495fde99c5"
+    },
+    {
+      "path": "D:\\MLWork\\scie_small_sample_topics_20260920\\finance_reframe_20260921\\results\\corporate_access_manifest_20260921T075342Z_37352bae.json",
+      "sha256": "e56ca4844db5f9e095eb44e56e21c9b30d3da06f84335c1960421114e96c111a"
+    },
+    {
+      "path": "D:\\MLWork\\scie_small_sample_topics_20260920\\finance_reframe_20260921\\results\\corporate_access_manifest_20260921T075547Z_caf8798b.json",
+      "sha256": "9cd9e60fd351384b89d0e66afc2c934ee571f1cefe051d201023a4060bf20569"
+    },
+    {
+      "path": "D:\\MLWork\\scie_small_sample_topics_20260920\\finance_reframe_20260921\\results\\corporate_access_manifest_20260921T075730Z_8d455e6a.json",
+      "sha256": "22c38a0de6faec98f80a137e7d6330cfd5e5cb56310991679c18bfc95a7e1f17"
+    },
+    {
+      "path": "D:\\MLWork\\scie_small_sample_topics_20260920\\finance_reframe_20260921\\results\\corporate_access_manifest_20260921T075958Z_0870a7cd.json",
+      "sha256": "5dac9d4d9bbe99cac52d4431242ca53e76163e6e4df9bbe00dee3f28ff4b32cb"
+    },
+    {
+      "path": "D:\\MLWork\\scie_small_sample_topics_20260920\\finance_reframe_20260921\\results\\corporate_access_manifest_20260921T080023Z_286bc30f.json",
+      "sha256": "81e4fd59f49c3aa099f27a33c6c29cced43fefc8153b97aa7bfa0c302de6f934"
+    },
+    {
+      "path": "D:\\MLWork\\scie_small_sample_topics_20260920\\finance_reframe_20260921\\results\\expanded_sec_manifest_20260921T084140715860Z.jsonl",
+      "sha256": "6fe1f1b63719d0b0ba19106284ffb26b0f0ffcab897d0f98d080ccbb3f13017b"
+    },
+    {
+      "path": "D:\\MLWork\\scie_small_sample_topics_20260920\\finance_reframe_20260921\\results\\expanded_sec_manifest_20260921T084316056770Z.jsonl",
+      "sha256": "1b8b2a6be3696315685abb2b0dd7f1f4d507e6a637231c0d785155bcd877c5d7"
+    },
+    {
+      "path": "D:\\MLWork\\scie_small_sample_topics_20260920\\finance_reframe_20260921\\results\\models_20260921T093517075175Z_test_predictions.parquet",
+      "sha256": "0b942e2450724c969f90a380c6d41d485d91e3b4b5e2e08a290ced5d58ba7751"
+    },
+    {
+      "path": "D:\\MLWork\\scie_small_sample_topics_20260920\\finance_reframe_20260921\\results\\uncertainty_20260921T093555450801Z_replicates.parquet",
+      "sha256": "72cf9363aa840a4433626d2da129f044f236ad5b47d66e362c7f1c91c9304745"
+    },
+    {
+      "path": "D:\\MLWork\\scie_small_sample_topics_20260920\\finance_reframe_20260921\\results\\uncertainty_20260921T093555450801Z_summary.csv",
+      "sha256": "957940b3347ccb1dd31430d63ba65c77527020c6ce48eaa84973beda60d9bab6"
+    },
+    {
+      "path": "D:\\MLWork\\scie_small_sample_topics_20260920\\finance_reframe_20260921\\revision_20260922\\datasets\\cap_365.parquet",
+      "sha256": "38e8d9a2358fc57da892f72a1c60324ec703c00bf95d6cb2285c64d1f6eb9b2e"
+    },
+    {
+      "path": "D:\\MLWork\\scie_small_sample_topics_20260920\\finance_reframe_20260921\\revision_20260922\\datasets\\cap_730.parquet",
+      "sha256": "262c80bce833ccb3facc1702cbd7870277c818d0e604209d672468baa4439704"
+    },
+    {
+      "path": "D:\\MLWork\\scie_small_sample_topics_20260920\\finance_reframe_20260921\\revision_20260922\\datasets\\cap_90.parquet",
+      "sha256": "b0c6ee74dd15cf2875b99abe2b4e15563dd294ad74c49370a8c497c18fd3e496"
+    },
+    {
+      "path": "D:\\MLWork\\scie_small_sample_topics_20260920\\finance_reframe_20260921\\revision_20260922\\results\\models\\fit_preprocessing_audit.json",
+      "sha256": "6098d5b754cc8d39f1a0c85eacdcfe002dc8f68b740325b9ad141ca754ba67b5"
+    },
+    {
+      "path": "D:\\MLWork\\scie_small_sample_topics_20260920\\finance_reframe_20260921\\revision_20260922\\results\\models\\metrics.csv",
+      "sha256": "94dd77b426c6b6d0f469873659741cc8127c4acc741f21571d981fb4062f02d2"
+    },
+    {
+      "path": "D:\\MLWork\\scie_small_sample_topics_20260920\\finance_reframe_20260921\\revision_20260922\\results\\models\\predictions.parquet",
+      "sha256": "4a46b2cdb6d7900f729216a2064929a3f3e05f397cc4fc843433e3b1a152a274"
+    },
+    {
+      "path": "D:\\MLWork\\scie_small_sample_topics_20260920\\finance_reframe_20260921\\revision_20260922\\results\\uncertainty\\full_pipeline_distribution_summary.csv",
+      "sha256": "e8347a964f0947fc5c117d042704aff0358e47c99041c4380e0fcf00836bca50"
+    },
+    {
+      "path": "D:\\MLWork\\scie_small_sample_topics_20260920\\finance_reframe_20260921\\revision_20260922\\results\\uncertainty\\full_pipeline_paired_replicates.csv",
+      "sha256": "8a6a0167cc8fe7872a10e5895870220210cd005361362faca2e93718b3c905f9"
+    },
+    {
+      "path": "D:\\MLWork\\scie_small_sample_topics_20260920\\finance_reframe_20260921\\revision_20260922\\results\\uncertainty\\replicate_cluster_order.csv",
+      "sha256": "39f37520378652f153746c8f8b1af71e25b40a33a327bf6342827736662140ed"
+    },
+    {
+      "path": "D:\\MLWork\\scie_small_sample_topics_20260920\\finance_reframe_20260921\\revision_20260922\\results\\uncertainty\\replicate_multipliers.npy",
+      "sha256": "93acddd67cad99bdcef3576186c0415c8ab4ea2440f0cf10215b1ca8ccf0e2e0"
+    },
+    {
+      "path": "D:\\MLWork\\scie_small_sample_topics_20260920\\finance_reframe_20260921\\revision_20260922\\results\\uncertainty\\replicates\\replicate_000\\predictions.parquet",
+      "sha256": "92cbef8735e854d16eb923eb40e9dfe3704b467a37dcf8af17f7bea93c096662"
+    },
+    {
+      "path": "D:\\MLWork\\scie_small_sample_topics_20260920\\finance_reframe_20260921\\revision_20260922\\results\\uncertainty\\replicates\\replicate_001\\predictions.parquet",
+      "sha256": "4114ddb1925c190ac2756601b556ce8cf9432eaf358bcff16276521ced365203"
+    },
+    {
+      "path": "D:\\MLWork\\scie_small_sample_topics_20260920\\finance_reframe_20260921\\revision_20260922\\results\\uncertainty\\replicates\\replicate_002\\predictions.parquet",
+      "sha256": "92e45681a344f89833d44d872288b3ddc1e7521f7d57b38c63e0d698d7c201d2"
+    },
+    {
+      "path": "D:\\MLWork\\scie_small_sample_topics_20260920\\finance_reframe_20260921\\revision_20260922\\results\\uncertainty\\replicates\\replicate_003\\predictions.parquet",
+      "sha256": "5ffcbc19f444620400cb7e9d0ec48444fac4dda0d7ff8f2c654aebe9fe9f7e76"
+    },
+    {
+      "path": "D:\\MLWork\\scie_small_sample_topics_20260920\\finance_reframe_20260921\\revision_20260922\\results\\uncertainty\\replicates\\replicate_004\\predictions.parquet",
+      "sha256": "f157fb2c15b88a40a232e2ac6898491ae7aabb19b58120305d4a0cf153765dd0"
+    },
+    {
+      "path": "D:\\MLWork\\scie_small_sample_topics_20260920\\finance_reframe_20260921\\revision_20260922\\results\\uncertainty\\replicates\\replicate_005\\predictions.parquet",
+      "sha256": "b5b59a4d1ac4675b57d7e49ef91e0a8323ae9feb316452bdc9d1cd808669d103"
+    },
+    {
+      "path": "D:\\MLWork\\scie_small_sample_topics_20260920\\finance_reframe_20260921\\revision_20260922\\results\\uncertainty\\replicates\\replicate_006\\predictions.parquet",
+      "sha256": "8c889d8e20d403025e8a9e0e13a6265ea452ccebdb371b7dfc0f8c6fc4a11303"
+    },
+    {
+      "path": "D:\\MLWork\\scie_small_sample_topics_20260920\\finance_reframe_20260921\\revision_20260922\\results\\uncertainty\\replicates\\replicate_007\\predictions.parquet",
+      "sha256": "ee5010e617c0c0cf1ccd25b0a3745263a55d84cb22d85eee446db569c465815a"
+    },
+    {
+      "path": "D:\\MLWork\\scie_small_sample_topics_20260920\\finance_reframe_20260921\\revision_20260922\\results\\uncertainty\\replicates\\replicate_008\\predictions.parquet",
+      "sha256": "1c4fb80dcdd1e564962446baf0bbf83cf381db7e48c6b84c3f904001a78ea005"
+    },
+    {
+      "path": "D:\\MLWork\\scie_small_sample_topics_20260920\\finance_reframe_20260921\\revision_20260922\\results\\uncertainty\\replicates\\replicate_009\\predictions.parquet",
+      "sha256": "4181a5ddf474178d816b95ce16a7f438bc09289aefb64fd89832541b332eaf12"
+    },
+    {
+      "path": "D:\\MLWork\\scie_small_sample_topics_20260920\\finance_reframe_20260921\\revision_20260922\\results\\uncertainty\\replicates\\replicate_010\\predictions.parquet",
+      "sha256": "bc2c20fc338faf2e2a6b60229c75dbf2b89e7056e5407cd409e54fabc6ee38a3"
+    },
+    {
+      "path": "D:\\MLWork\\scie_small_sample_topics_20260920\\finance_reframe_20260921\\revision_20260922\\results\\uncertainty\\replicates\\replicate_011\\predictions.parquet",
+      "sha256": "5e376240f6f4a006720faa9b623111eab4ce6e8ef8dc0cfd15437d61c1e31db4"
+    },
+    {
+      "path": "D:\\MLWork\\scie_small_sample_topics_20260920\\finance_reframe_20260921\\revision_20260922\\results\\uncertainty\\replicates\\replicate_012\\predictions.parquet",
+      "sha256": "625dd382ba0b12ce7c005efe4374af98c1327bfde6b98f4fa4ec38aa2c18a73d"
+    },
+    {
+      "path": "D:\\MLWork\\scie_small_sample_topics_20260920\\finance_reframe_20260921\\revision_20260922\\results\\uncertainty\\replicates\\replicate_013\\predictions.parquet",
+      "sha256": "b5721dfef6bacd93cfa02eb5a34f85ac7a0d09961997b056c65ca57fa4217faf"
+    },
+    {
+      "path": "D:\\MLWork\\scie_small_sample_topics_20260920\\finance_reframe_20260921\\revision_20260922\\results\\uncertainty\\replicates\\replicate_014\\predictions.parquet",
+      "sha256": "31af3ac0f7dacfb3340a3e96476af92f585861b49880e96f81ef32775c8553c2"
+    },
+    {
+      "path": "D:\\MLWork\\scie_small_sample_topics_20260920\\finance_reframe_20260921\\revision_20260922\\results\\uncertainty\\replicates\\replicate_015\\predictions.parquet",
+      "sha256": "d4c48294449ba63f428ed9c6e2eb332ee0b9a00eeb4733ffe90b1f5c52d6bb15"
+    },
+    {
+      "path": "D:\\MLWork\\scie_small_sample_topics_20260920\\finance_reframe_20260921\\revision_20260922\\results\\uncertainty\\replicates\\replicate_016\\predictions.parquet",
+      "sha256": "7df17c94eb3b0d956da8c4e814d952e81280e6e8902308ebbecab4c6bfe05d64"
+    },
+    {
+      "path": "D:\\MLWork\\scie_small_sample_topics_20260920\\finance_reframe_20260921\\revision_20260922\\results\\uncertainty\\replicates\\replicate_017\\predictions.parquet",
+      "sha256": "93c2fb7571828c92581460902c312998480553be69649cda5ddc4e24f46e8bd0"
+    },
+    {
+      "path": "D:\\MLWork\\scie_small_sample_topics_20260920\\finance_reframe_20260921\\revision_20260922\\results\\uncertainty\\replicates\\replicate_018\\predictions.parquet",
+      "sha256": "de770d8de2606d091425b05f2c90f35f87eb24150267aa8c6f2c703d36380f8d"
+    },
+    {
+      "path": "D:\\MLWork\\scie_small_sample_topics_20260920\\finance_reframe_20260921\\revision_20260922\\results\\uncertainty\\replicates\\replicate_019\\predictions.parquet",
+      "sha256": "1506920660d5cdac58737bbcdd1fd726f4c5aee08b1eadc3bd8c871496912546"
+    },
+    {
+      "path": "D:\\MLWork\\scie_small_sample_topics_20260920\\finance_reframe_20260921\\revision_20260922\\results\\uncertainty\\replicates\\replicate_020\\predictions.parquet",
+      "sha256": "84673333abfd7039ac26b5ea4dedba7485566123f1556e9f1aa85c9d76398058"
+    },
+    {
+      "path": "D:\\MLWork\\scie_small_sample_topics_20260920\\finance_reframe_20260921\\revision_20260922\\results\\uncertainty\\replicates\\replicate_021\\predictions.parquet",
+      "sha256": "67df177c2280bf08b2cde67bc3377b4e23bc46216bd0c4a2739eb0e1c03da28c"
+    },
+    {
+      "path": "D:\\MLWork\\scie_small_sample_topics_20260920\\finance_reframe_20260921\\revision_20260922\\results\\uncertainty\\replicates\\replicate_022\\predictions.parquet",
+      "sha256": "4fbc783b28f6c8ed50d30a79aa51e06f52c75876014a19e43974435e0ff656a2"
+    },
+    {
+      "path": "D:\\MLWork\\scie_small_sample_topics_20260920\\finance_reframe_20260921\\revision_20260922\\results\\uncertainty\\replicates\\replicate_023\\predictions.parquet",
+      "sha256": "e988258a0cbfc7820fad4ee9b0723ae6fe09806d09aa2257acd1b98862d2b3ce"
+    },
+    {
+      "path": "D:\\MLWork\\scie_small_sample_topics_20260920\\finance_reframe_20260921\\revision_20260922\\results\\uncertainty\\replicates\\replicate_024\\predictions.parquet",
+      "sha256": "f28b4eb5ff192233b5abdcded4b638b0871370af5dd5130fa235cac77cf999dc"
+    },
+    {
+      "path": "D:\\MLWork\\scie_small_sample_topics_20260920\\finance_reframe_20260921\\revision_20260922\\results\\uncertainty\\replicates\\replicate_025\\predictions.parquet",
+      "sha256": "525d271f376a60aa74aab49d58ec8f9d88bd13023cba9efdc1bd0e9591c660b1"
+    },
+    {
+      "path": "D:\\MLWork\\scie_small_sample_topics_20260920\\finance_reframe_20260921\\revision_20260922\\results\\uncertainty\\replicates\\replicate_026\\predictions.parquet",
+      "sha256": "6e99fca7e9ce950072f4fb249cc39c73acd4a94c18dd5f72874439800bd9ac09"
+    },
+    {
+      "path": "D:\\MLWork\\scie_small_sample_topics_20260920\\finance_reframe_20260921\\revision_20260922\\results\\uncertainty\\replicates\\replicate_027\\predictions.parquet",
+      "sha256": "ee746f26b4737f9e63206cb7718bbabe2210adbd95ad7dc42dfb0c0047bab9be"
+    },
+    {
+      "path": "D:\\MLWork\\scie_small_sample_topics_20260920\\finance_reframe_20260921\\revision_20260922\\results\\uncertainty\\replicates\\replicate_028\\predictions.parquet",
+      "sha256": "387be047e670bbac1e5bb61f64804324a5531d19be66ef9c72150a98aa54c284"
+    },
+    {
+      "path": "D:\\MLWork\\scie_small_sample_topics_20260920\\finance_reframe_20260921\\revision_20260922\\results\\uncertainty\\replicates\\replicate_029\\predictions.parquet",
+      "sha256": "7c8f2593ef2bdd71102dbd8e354901f3d764c5b5d687c31f8294002bf88831d7"
+    },
+    {
+      "path": "D:\\MLWork\\scie_small_sample_topics_20260920\\finance_reframe_20260921\\revision_20260922\\results\\uncertainty\\replicates\\replicate_030\\predictions.parquet",
+      "sha256": "9a43ca26b3dd4e9dc676ee88d883872cfbc9f19d1b9f2f0eec6a0a0d59bb3f95"
+    },
+    {
+      "path": "D:\\MLWork\\scie_small_sample_topics_20260920\\finance_reframe_20260921\\revision_20260922\\results\\uncertainty\\replicates\\replicate_031\\predictions.parquet",
+      "sha256": "868f89c504e4524ae44fb88626d8638d4802c2c4527311aeb246ad6c3d222928"
+    },
+    {
+      "path": "D:\\MLWork\\scie_small_sample_topics_20260920\\finance_reframe_20260921\\revision_20260922\\results\\uncertainty\\replicates\\replicate_032\\predictions.parquet",
+      "sha256": "9defe300320e211231343d52399655350a9dfa17eccbc1ccc1cfe106e50bea33"
+    },
+    {
+      "path": "D:\\MLWork\\scie_small_sample_topics_20260920\\finance_reframe_20260921\\revision_20260922\\results\\uncertainty\\replicates\\replicate_033\\predictions.parquet",
+      "sha256": "59d84c0011c1ef12ed90310dbf399cd93ff968fa463ce771cc8e3a3ad27735f6"
+    },
+    {
+      "path": "D:\\MLWork\\scie_small_sample_topics_20260920\\finance_reframe_20260921\\revision_20260922\\results\\uncertainty\\replicates\\replicate_034\\predictions.parquet",
+      "sha256": "6e23f5f585ced68dcd1c2020499ccb42d9eb83812794fcd0dfd7e48bf8317b7d"
+    },
+    {
+      "path": "D:\\MLWork\\scie_small_sample_topics_20260920\\finance_reframe_20260921\\revision_20260922\\results\\uncertainty\\replicates\\replicate_035\\predictions.parquet",
+      "sha256": "089910502bcc5eb3fea2c9bacaa57176160c74953487792c6263e8354b3f55ee"
+    },
+    {
+      "path": "D:\\MLWork\\scie_small_sample_topics_20260920\\finance_reframe_20260921\\revision_20260922\\results\\uncertainty\\replicates\\replicate_036\\predictions.parquet",
+      "sha256": "070fb95530643b6c51f46165d4b60766b86f59c22a919b597a1ca634aa656bba"
+    },
+    {
+      "path": "D:\\MLWork\\scie_small_sample_topics_20260920\\finance_reframe_20260921\\revision_20260922\\results\\uncertainty\\replicates\\replicate_037\\predictions.parquet",
+      "sha256": "ce6a26ee1dc15e0601d866ade8f7ad94d7f8041835ec05a3e6f2f23e6fcb90f4"
+    },
+    {
+      "path": "D:\\MLWork\\scie_small_sample_topics_20260920\\finance_reframe_20260921\\revision_20260922\\results\\uncertainty\\replicates\\replicate_038\\predictions.parquet",
+      "sha256": "3498ff04f72c32fdd58fbd81b02cc93b4e23744a32879e6ba6cc46047cd01552"
+    },
+    {
+      "path": "D:\\MLWork\\scie_small_sample_topics_20260920\\finance_reframe_20260921\\revision_20260922\\results\\uncertainty\\replicates\\replicate_039\\predictions.parquet",
+      "sha256": "6e42e7b5dab7cee0597ed0eab0e622c4d7d868f84d0e51d08953c84c3011c9fb"
+    },
+    {
+      "path": "D:\\MLWork\\scie_small_sample_topics_20260920\\finance_reframe_20260921\\revision_20260922\\results\\uncertainty\\replicates\\replicate_040\\predictions.parquet",
+      "sha256": "f001eabaf40a3bb0710af4b75189f16c81626da800278a3c0117627818c4c92c"
+    },
+    {
+      "path": "D:\\MLWork\\scie_small_sample_topics_20260920\\finance_reframe_20260921\\revision_20260922\\results\\uncertainty\\replicates\\replicate_041\\predictions.parquet",
+      "sha256": "eff0355fb46f8a75dbcd5429ff17f709b2096a8f78d9a3fb9cdbc2133aba78ef"
+    },
+    {
+      "path": "D:\\MLWork\\scie_small_sample_topics_20260920\\finance_reframe_20260921\\revision_20260922\\results\\uncertainty\\replicates\\replicate_042\\predictions.parquet",
+      "sha256": "e603b0d612e06096337e68f6e89666df592429e54b907c6072fcc289e54db7b6"
+    },
+    {
+      "path": "D:\\MLWork\\scie_small_sample_topics_20260920\\finance_reframe_20260921\\revision_20260922\\results\\uncertainty\\replicates\\replicate_043\\predictions.parquet",
+      "sha256": "ba4887fbc8affbe04ece07a543f1c918481909b92d89679f1f06c60ecfe4765f"
+    },
+    {
+      "path": "D:\\MLWork\\scie_small_sample_topics_20260920\\finance_reframe_20260921\\revision_20260922\\results\\uncertainty\\replicates\\replicate_044\\predictions.parquet",
+      "sha256": "e3f4be02df9e5d8ba257f2bbe8661f4268069f0d5f837e51740b80ccedf70534"
+    },
+    {
+      "path": "D:\\MLWork\\scie_small_sample_topics_20260920\\finance_reframe_20260921\\revision_20260922\\results\\uncertainty\\replicates\\replicate_045\\predictions.parquet",
+      "sha256": "4c57cab1f88ec293d6cf3fbadd56c3d2329994e1eebb02357971e11e03b5cb4b"
+    },
+    {
+      "path": "D:\\MLWork\\scie_small_sample_topics_20260920\\finance_reframe_20260921\\revision_20260922\\results\\uncertainty\\replicates\\replicate_046\\predictions.parquet",
+      "sha256": "8f9eaf03717a62a72fcb80361c0737ad31bc99f6096c9b574aeff4bfeb702741"
+    },
+    {
+      "path": "D:\\MLWork\\scie_small_sample_topics_20260920\\finance_reframe_20260921\\revision_20260922\\results\\uncertainty\\replicates\\replicate_047\\predictions.parquet",
+      "sha256": "2c9c384724142c57bf77dc8457ceb8bedb7cc9d721088157cb8e18d000b7f3dd"
+    },
+    {
+      "path": "D:\\MLWork\\scie_small_sample_topics_20260920\\finance_reframe_20260921\\revision_20260922\\results\\uncertainty\\replicates\\replicate_048\\predictions.parquet",
+      "sha256": "6d99b24ca61be5edbb8f56fd8f5307a276475d7ee04109b96d3bdc638f369ae8"
+    },
+    {
+      "path": "D:\\MLWork\\scie_small_sample_topics_20260920\\finance_reframe_20260921\\revision_20260922\\results\\uncertainty\\replicates\\replicate_049\\predictions.parquet",
+      "sha256": "2ee3e2d6eaa9aca6fca319a3573c6f3a6d3bdaa98e13fea5fd0bac215a550c56"
+    },
+    {
+      "path": "D:\\MLWork\\scie_small_sample_topics_20260920\\finance_reframe_20260921\\revision_20260922\\results\\uncertainty\\replicates\\replicate_050\\predictions.parquet",
+      "sha256": "7c65d3b8ddd244f7d7a2cd90e69cadccd63caf405c051ccb9fbeb6ac636c4969"
+    },
+    {
+      "path": "D:\\MLWork\\scie_small_sample_topics_20260920\\finance_reframe_20260921\\revision_20260922\\results\\uncertainty\\replicates\\replicate_051\\predictions.parquet",
+      "sha256": "1d9515d8758e9f087d1493230df3a13c4521e66e8badd748c10ca48f71d9fb9d"
+    },
+    {
+      "path": "D:\\MLWork\\scie_small_sample_topics_20260920\\finance_reframe_20260921\\revision_20260922\\results\\uncertainty\\replicates\\replicate_052\\predictions.parquet",
+      "sha256": "59b1494fa49c3e36058ce9388cb6b3019c660b5550e1c67e06466bd6ae8d6035"
+    },
+    {
+      "path": "D:\\MLWork\\scie_small_sample_topics_20260920\\finance_reframe_20260921\\revision_20260922\\results\\uncertainty\\replicates\\replicate_053\\predictions.parquet",
+      "sha256": "9ed0214b3efc10b938412a6fd0b58eddcb1d6faa0cf99df21605e60419c6beb2"
+    },
+    {
+      "path": "D:\\MLWork\\scie_small_sample_topics_20260920\\finance_reframe_20260921\\revision_20260922\\results\\uncertainty\\replicates\\replicate_054\\predictions.parquet",
+      "sha256": "246c6fe8f5ee451633f1a72c3e9280d3308ef0369ae7205083e3f310b65d3aa2"
+    },
+    {
+      "path": "D:\\MLWork\\scie_small_sample_topics_20260920\\finance_reframe_20260921\\revision_20260922\\results\\uncertainty\\replicates\\replicate_055\\predictions.parquet",
+      "sha256": "692f8a78f6879bc7687596d88392ab20794ab17160e15d632e7b20195dd9df28"
+    },
+    {
+      "path": "D:\\MLWork\\scie_small_sample_topics_20260920\\finance_reframe_20260921\\revision_20260922\\results\\uncertainty\\replicates\\replicate_056\\predictions.parquet",
+      "sha256": "4fb7758a050f058989b8b26f4e122f2405cd1a8beeebc754ca0665365c5f1ac7"
+    },
+    {
+      "path": "D:\\MLWork\\scie_small_sample_topics_20260920\\finance_reframe_20260921\\revision_20260922\\results\\uncertainty\\replicates\\replicate_057\\predictions.parquet",
+      "sha256": "f33d91915c9cb2369384423af7ed3852f0e6bc92d10f5ea0aa4699b7336dad0c"
+    },
+    {
+      "path": "D:\\MLWork\\scie_small_sample_topics_20260920\\finance_reframe_20260921\\revision_20260922\\results\\uncertainty\\replicates\\replicate_058\\predictions.parquet",
+      "sha256": "224db26704a9bb8c4eedd53b633b3e736d436111d782626fbef6ebde5bfddda0"
+    },
+    {
+      "path": "D:\\MLWork\\scie_small_sample_topics_20260920\\finance_reframe_20260921\\revision_20260922\\results\\uncertainty\\replicates\\replicate_059\\predictions.parquet",
+      "sha256": "21b227d22d93681b4088c3879477e9aa8d164ca9a6997c64bf8f0ac12b8aebcb"
+    },
+    {
+      "path": "D:\\MLWork\\scie_small_sample_topics_20260920\\finance_reframe_20260921\\revision_20260922\\results\\uncertainty\\replicates\\replicate_060\\predictions.parquet",
+      "sha256": "303470cfe14d1e27698528992add22f32cea7acd2db416b6d1406c54fa9852f8"
+    },
+    {
+      "path": "D:\\MLWork\\scie_small_sample_topics_20260920\\finance_reframe_20260921\\revision_20260922\\results\\uncertainty\\replicates\\replicate_061\\predictions.parquet",
+      "sha256": "d2d6355b1da2943f4cb89bc1b07d18f8e1b0221a3e134fb6a263ec4e3b4523d4"
+    },
+    {
+      "path": "D:\\MLWork\\scie_small_sample_topics_20260920\\finance_reframe_20260921\\revision_20260922\\results\\uncertainty\\replicates\\replicate_062\\predictions.parquet",
+      "sha256": "94ae49bd61d49034820cd874f60c2c4c15205961b842b3c183b6fccf698643ca"
+    },
+    {
+      "path": "D:\\MLWork\\scie_small_sample_topics_20260920\\finance_reframe_20260921\\revision_20260922\\results\\uncertainty\\replicates\\replicate_063\\predictions.parquet",
+      "sha256": "d7b0d45ceb42df3ed668599f98058544c1f0836da184a20d5e984831d3d81564"
+    },
+    {
+      "path": "D:\\MLWork\\scie_small_sample_topics_20260920\\finance_reframe_20260921\\revision_20260922\\results\\uncertainty\\replicates\\replicate_064\\predictions.parquet",
+      "sha256": "280fa24444e2acd57929a193a0f6bcd7961b669c765cf7245762899b93e50359"
+    },
+    {
+      "path": "D:\\MLWork\\scie_small_sample_topics_20260920\\finance_reframe_20260921\\revision_20260922\\results\\uncertainty\\replicates\\replicate_065\\predictions.parquet",
+      "sha256": "c5ede413948f39b601e777bcede3e295185e610cf36ea4491ade06663bf1af80"
+    },
+    {
+      "path": "D:\\MLWork\\scie_small_sample_topics_20260920\\finance_reframe_20260921\\revision_20260922\\results\\uncertainty\\replicates\\replicate_066\\predictions.parquet",
+      "sha256": "9159b97517c7367a80f48ba2e2faabf6ba4f08cfa860619b7e0ab02f6e320fca"
+    },
+    {
+      "path": "D:\\MLWork\\scie_small_sample_topics_20260920\\finance_reframe_20260921\\revision_20260922\\results\\uncertainty\\replicates\\replicate_067\\predictions.parquet",
+      "sha256": "510dd9a3331484b8b808783b99e3f32bd66e2a47b0eb96fa08641a579b71271a"
+    },
+    {
+      "path": "D:\\MLWork\\scie_small_sample_topics_20260920\\finance_reframe_20260921\\revision_20260922\\results\\uncertainty\\replicates\\replicate_068\\predictions.parquet",
+      "sha256": "ff01b4888281c63b44e018d5c29dd03514e8ccc8e9265e28924d568136870a9c"
+    },
+    {
+      "path": "D:\\MLWork\\scie_small_sample_topics_20260920\\finance_reframe_20260921\\revision_20260922\\results\\uncertainty\\replicates\\replicate_069\\predictions.parquet",
+      "sha256": "c85d0f1529cf4e9c7bbf8506fb8cab6faa23f41d49d8eb8b7d1b2f6fe8fbd784"
+    },
+    {
+      "path": "D:\\MLWork\\scie_small_sample_topics_20260920\\finance_reframe_20260921\\revision_20260922\\results\\uncertainty\\replicates\\replicate_070\\predictions.parquet",
+      "sha256": "17eb4fb1b870f8e8c195f263dd9bd5acff138010104bcdc15567da8d31d9dff5"
+    },
+    {
+      "path": "D:\\MLWork\\scie_small_sample_topics_20260920\\finance_reframe_20260921\\revision_20260922\\results\\uncertainty\\replicates\\replicate_071\\predictions.parquet",
+      "sha256": "2e69fbf0adcc0bf187930e1f20761a56c64e7f684528014fa44f7ad8cc2acc6a"
+    },
+    {
+      "path": "D:\\MLWork\\scie_small_sample_topics_20260920\\finance_reframe_20260921\\revision_20260922\\results\\uncertainty\\replicates\\replicate_072\\predictions.parquet",
+      "sha256": "1b920442c6054c5576183ffa4f357f1a7ab92ce3a18992ba7e9984fb15667a88"
+    },
+    {
+      "path": "D:\\MLWork\\scie_small_sample_topics_20260920\\finance_reframe_20260921\\revision_20260922\\results\\uncertainty\\replicates\\replicate_073\\predictions.parquet",
+      "sha256": "59dc47a4e43a8dacb0002e02b55ad4283877e0e6359c0bda94c4c0542417923b"
+    },
+    {
+      "path": "D:\\MLWork\\scie_small_sample_topics_20260920\\finance_reframe_20260921\\revision_20260922\\results\\uncertainty\\replicates\\replicate_074\\predictions.parquet",
+      "sha256": "46791b7b0548d4cc387fd08c3afc0f123ead6f1f0f532328c392f50780f0a713"
+    },
+    {
+      "path": "D:\\MLWork\\scie_small_sample_topics_20260920\\finance_reframe_20260921\\revision_20260922\\results\\uncertainty\\replicates\\replicate_075\\predictions.parquet",
+      "sha256": "d75d2a4d6c4c291131d3ce103c09a01b506d57dc6cb448cfc5ec8dfd197a7dd9"
+    },
+    {
+      "path": "D:\\MLWork\\scie_small_sample_topics_20260920\\finance_reframe_20260921\\revision_20260922\\results\\uncertainty\\replicates\\replicate_076\\predictions.parquet",
+      "sha256": "fd60478b09f2db8be63b57f84a1860603ba654d0615a8a56bb5230d9c11a8a36"
+    },
+    {
+      "path": "D:\\MLWork\\scie_small_sample_topics_20260920\\finance_reframe_20260921\\revision_20260922\\results\\uncertainty\\replicates\\replicate_077\\predictions.parquet",
+      "sha256": "a2343fe03e2382e183423c610fe89a718981d3985c5969f8de01cfd28166c3d2"
+    },
+    {
+      "path": "D:\\MLWork\\scie_small_sample_topics_20260920\\finance_reframe_20260921\\revision_20260922\\results\\uncertainty\\replicates\\replicate_078\\predictions.parquet",
+      "sha256": "169c005bc4a39f71093639b787d6639058429313e6bc03df150a20a86f49d35a"
+    },
+    {
+      "path": "D:\\MLWork\\scie_small_sample_topics_20260920\\finance_reframe_20260921\\revision_20260922\\results\\uncertainty\\replicates\\replicate_079\\predictions.parquet",
+      "sha256": "82a707a4b4c37eae4fb747a35bf659fc2b7677dcc7c2793e970e32e6cdee257c"
+    },
+    {
+      "path": "D:\\MLWork\\scie_small_sample_topics_20260920\\finance_reframe_20260921\\revision_20260922\\results\\uncertainty\\replicates\\replicate_080\\predictions.parquet",
+      "sha256": "9cd39eb9193562625ff9ad06c939cf1c21168332f44405419c6067cd42b5349a"
+    },
+    {
+      "path": "D:\\MLWork\\scie_small_sample_topics_20260920\\finance_reframe_20260921\\revision_20260922\\results\\uncertainty\\replicates\\replicate_081\\predictions.parquet",
+      "sha256": "3e3b49af1785c9d4e737eb70c2d0fd417d001b594dd0b18583f42042e9621db5"
+    },
+    {
+      "path": "D:\\MLWork\\scie_small_sample_topics_20260920\\finance_reframe_20260921\\revision_20260922\\results\\uncertainty\\replicates\\replicate_082\\predictions.parquet",
+      "sha256": "aeb4c53a24df4b364cc9603493013dda6b255d7694345264acb5bf2360ed58c7"
+    },
+    {
+      "path": "D:\\MLWork\\scie_small_sample_topics_20260920\\finance_reframe_20260921\\revision_20260922\\results\\uncertainty\\replicates\\replicate_083\\predictions.parquet",
+      "sha256": "c3a14a6cf7070d4bfaa4eb27affdcd0619224c1a849f9e4854c5da8290b958db"
+    },
+    {
+      "path": "D:\\MLWork\\scie_small_sample_topics_20260920\\finance_reframe_20260921\\revision_20260922\\results\\uncertainty\\replicates\\replicate_084\\predictions.parquet",
+      "sha256": "cdf150a0ad0fa27dcad0ca2d9cc9447f0bcc8d70374fe92539bd705394e53344"
+    },
+    {
+      "path": "D:\\MLWork\\scie_small_sample_topics_20260920\\finance_reframe_20260921\\revision_20260922\\results\\uncertainty\\replicates\\replicate_085\\predictions.parquet",
+      "sha256": "71e44010f1eefe9df406f177560b89d6507dcb8ec347279a1ae992178c7f5683"
+    },
+    {
+      "path": "D:\\MLWork\\scie_small_sample_topics_20260920\\finance_reframe_20260921\\revision_20260922\\results\\uncertainty\\replicates\\replicate_086\\predictions.parquet",
+      "sha256": "5576c9b7d0293b3c341e822f00d57db183287dcafde8caa7a63cb0512aa41f1a"
+    },
+    {
+      "path": "D:\\MLWork\\scie_small_sample_topics_20260920\\finance_reframe_20260921\\revision_20260922\\results\\uncertainty\\replicates\\replicate_087\\predictions.parquet",
+      "sha256": "70fd563b3cb6ce25802fcce121b821d8882ed5b8a25c712988f2be66ceeb0f35"
+    },
+    {
+      "path": "D:\\MLWork\\scie_small_sample_topics_20260920\\finance_reframe_20260921\\revision_20260922\\results\\uncertainty\\replicates\\replicate_088\\predictions.parquet",
+      "sha256": "e6b682a7c4d216a0e2d96a9da2c0bfb97f43d2e02e9035bf42f3b865a1d0b44a"
+    },
+    {
+      "path": "D:\\MLWork\\scie_small_sample_topics_20260920\\finance_reframe_20260921\\revision_20260922\\results\\uncertainty\\replicates\\replicate_089\\predictions.parquet",
+      "sha256": "200252557bbc4ca7b6dc4a3a7f88181cf9561730181da15921d2f63717dfd771"
+    },
+    {
+      "path": "D:\\MLWork\\scie_small_sample_topics_20260920\\finance_reframe_20260921\\revision_20260922\\results\\uncertainty\\replicates\\replicate_090\\predictions.parquet",
+      "sha256": "fb727cca39cd85f71f42d8b1298db00e8eecf144549a43fde39f37b58fad6d96"
+    },
+    {
+      "path": "D:\\MLWork\\scie_small_sample_topics_20260920\\finance_reframe_20260921\\revision_20260922\\results\\uncertainty\\replicates\\replicate_091\\predictions.parquet",
+      "sha256": "8bb5e7e2749dd123631163d6347477440ae6b13e7f4e8f2b5e09bce1b52253c2"
+    },
+    {
+      "path": "D:\\MLWork\\scie_small_sample_topics_20260920\\finance_reframe_20260921\\revision_20260922\\results\\uncertainty\\replicates\\replicate_092\\predictions.parquet",
+      "sha256": "899696dda9b78bb4f03c0091f64de2cadf5b950cbdca412e3b884f9538cc57a7"
+    },
+    {
+      "path": "D:\\MLWork\\scie_small_sample_topics_20260920\\finance_reframe_20260921\\revision_20260922\\results\\uncertainty\\replicates\\replicate_093\\predictions.parquet",
+      "sha256": "bd285ddbe482007299b5fa8dcc2f96f6e0e8809a2f56c8530e6bd4009943005b"
+    },
+    {
+      "path": "D:\\MLWork\\scie_small_sample_topics_20260920\\finance_reframe_20260921\\revision_20260922\\results\\uncertainty\\replicates\\replicate_094\\predictions.parquet",
+      "sha256": "82ed80d471e356694b2a5029d1c0bfd6f80e59ec7f0fa85b44a2cbc1feb5c6f2"
+    },
+    {
+      "path": "D:\\MLWork\\scie_small_sample_topics_20260920\\finance_reframe_20260921\\revision_20260922\\results\\uncertainty\\replicates\\replicate_095\\predictions.parquet",
+      "sha256": "318cbf9589640258bd05afee85b3731630aff91670741b00b0b8a00f4c9f7bf8"
+    },
+    {
+      "path": "D:\\MLWork\\scie_small_sample_topics_20260920\\finance_reframe_20260921\\revision_20260922\\results\\uncertainty\\replicates\\replicate_096\\predictions.parquet",
+      "sha256": "228cd4523c38072728a91ae3e3a8c0429daa33aef5a960034268ce6d37fe2f52"
+    },
+    {
+      "path": "D:\\MLWork\\scie_small_sample_topics_20260920\\finance_reframe_20260921\\revision_20260922\\results\\uncertainty\\replicates\\replicate_097\\predictions.parquet",
+      "sha256": "49d4509c36a514783a1ccc50c18a36357d2ebeb322d25b2abfc8997f936293ff"
+    },
+    {
+      "path": "D:\\MLWork\\scie_small_sample_topics_20260920\\finance_reframe_20260921\\revision_20260922\\results\\uncertainty\\replicates\\replicate_098\\predictions.parquet",
+      "sha256": "2ea0d3739664b49eacd9f3f742027fe9b50a1a34195a9eeaa545ce8fa5c80a9f"
+    },
+    {
+      "path": "D:\\MLWork\\scie_small_sample_topics_20260920\\finance_reframe_20260921\\revision_20260922\\results\\uncertainty\\replicates\\replicate_099\\predictions.parquet",
+      "sha256": "5c221740ac204ac3e1aadb4768d894c8b986f36e74157b86d7879c0acc679922"
+    },
+    {
+      "path": "D:\\MLWork\\scie_small_sample_topics_20260920\\finance_reframe_20260921\\revision_20260922\\results\\uncertainty\\replicates\\replicate_100\\predictions.parquet",
+      "sha256": "72e497e50e130a0f1a604ca7c407171194b5c5afac6d127a96ef4ae301d71ad8"
+    },
+    {
+      "path": "D:\\MLWork\\scie_small_sample_topics_20260920\\finance_reframe_20260921\\revision_20260922\\results\\uncertainty\\replicates\\replicate_101\\predictions.parquet",
+      "sha256": "9bc7c7cab8b2d57f2d82a68238b046fc03a87d1ea7434008fcf52502f312a3e8"
+    },
+    {
+      "path": "D:\\MLWork\\scie_small_sample_topics_20260920\\finance_reframe_20260921\\revision_20260922\\results\\uncertainty\\replicates\\replicate_102\\predictions.parquet",
+      "sha256": "6b442db3828f48bdfafe93bca5352a9653d18eda8064a195bb5acd5815057892"
+    },
+    {
+      "path": "D:\\MLWork\\scie_small_sample_topics_20260920\\finance_reframe_20260921\\revision_20260922\\results\\uncertainty\\replicates\\replicate_103\\predictions.parquet",
+      "sha256": "bd9d173d1e78b6f76d61c308ad4095c06f4c4873c3800cc81858f8535fb8167c"
+    },
+    {
+      "path": "D:\\MLWork\\scie_small_sample_topics_20260920\\finance_reframe_20260921\\revision_20260922\\results\\uncertainty\\replicates\\replicate_104\\predictions.parquet",
+      "sha256": "8786aeb1312633c902896a23ec15633611f2b6975d536842adde642dd2fd993c"
+    },
+    {
+      "path": "D:\\MLWork\\scie_small_sample_topics_20260920\\finance_reframe_20260921\\revision_20260922\\results\\uncertainty\\replicates\\replicate_105\\predictions.parquet",
+      "sha256": "a5f2f4322e17c6b70ec1f949772fb3e11d10040e03a4be3411054c1ba32f3f74"
+    },
+    {
+      "path": "D:\\MLWork\\scie_small_sample_topics_20260920\\finance_reframe_20260921\\revision_20260922\\results\\uncertainty\\replicates\\replicate_106\\predictions.parquet",
+      "sha256": "b2f5695b0aee6724a9983176bef756d5111d116afc40a4e8b099b1b223edfa31"
+    },
+    {
+      "path": "D:\\MLWork\\scie_small_sample_topics_20260920\\finance_reframe_20260921\\revision_20260922\\results\\uncertainty\\replicates\\replicate_107\\predictions.parquet",
+      "sha256": "5bd4f9173409d39012d7644b872ea0e18c04eb157d5b7f4cf31184a27f933202"
+    },
+    {
+      "path": "D:\\MLWork\\scie_small_sample_topics_20260920\\finance_reframe_20260921\\revision_20260922\\results\\uncertainty\\replicates\\replicate_108\\predictions.parquet",
+      "sha256": "06126f682afcf74eb47b7f8a4ca7c69083341ab7b25babf3e863cb59b06316eb"
+    },
+    {
+      "path": "D:\\MLWork\\scie_small_sample_topics_20260920\\finance_reframe_20260921\\revision_20260922\\results\\uncertainty\\replicates\\replicate_109\\predictions.parquet",
+      "sha256": "fb473a38b4e988ab670c97fdee15d240cea320e4f54238a72f6177f25de87e8a"
+    },
+    {
+      "path": "D:\\MLWork\\scie_small_sample_topics_20260920\\finance_reframe_20260921\\revision_20260922\\results\\uncertainty\\replicates\\replicate_110\\predictions.parquet",
+      "sha256": "5d9890e80f05daf342c6b4842d2961bc2ad60c45674bce8f8a7d9d258bd9b5e6"
+    },
+    {
+      "path": "D:\\MLWork\\scie_small_sample_topics_20260920\\finance_reframe_20260921\\revision_20260922\\results\\uncertainty\\replicates\\replicate_111\\predictions.parquet",
+      "sha256": "d2c319b3b4a89b2e83203bcd4808b15fa8cc4e9c9ff2432ed6c1aa93cb1f726a"
+    },
+    {
+      "path": "D:\\MLWork\\scie_small_sample_topics_20260920\\finance_reframe_20260921\\revision_20260922\\results\\uncertainty\\replicates\\replicate_112\\predictions.parquet",
+      "sha256": "8ec2280c3f5fe94c75a3b3fee93622623613597ecae82630354f39e794e1ee71"
+    },
+    {
+      "path": "D:\\MLWork\\scie_small_sample_topics_20260920\\finance_reframe_20260921\\revision_20260922\\results\\uncertainty\\replicates\\replicate_113\\predictions.parquet",
+      "sha256": "58f14f9ac94b52daa02e4b5ad5e51741a088299fab14191d41c540567fef9ba0"
+    },
+    {
+      "path": "D:\\MLWork\\scie_small_sample_topics_20260920\\finance_reframe_20260921\\revision_20260922\\results\\uncertainty\\replicates\\replicate_114\\predictions.parquet",
+      "sha256": "1a643f34a9e873b877623e910b02005e71f26b3b22531aff5095a635c26fb1f0"
+    },
+    {
+      "path": "D:\\MLWork\\scie_small_sample_topics_20260920\\finance_reframe_20260921\\revision_20260922\\results\\uncertainty\\replicates\\replicate_115\\predictions.parquet",
+      "sha256": "8902c4ce08fccfc1ad09e3df6efba9f5d0ea29fda3d0ff43d17ea7c82cb52ed9"
+    },
+    {
+      "path": "D:\\MLWork\\scie_small_sample_topics_20260920\\finance_reframe_20260921\\revision_20260922\\results\\uncertainty\\replicates\\replicate_116\\predictions.parquet",
+      "sha256": "86e616d7daec4ad767d8f7c4cd7c38f13f1dc2e9ff29ba1701c8c2a258d622a1"
+    },
+    {
+      "path": "D:\\MLWork\\scie_small_sample_topics_20260920\\finance_reframe_20260921\\revision_20260922\\results\\uncertainty\\replicates\\replicate_117\\predictions.parquet",
+      "sha256": "8c05f4a994c17cd3af326e53d0756cfb955862b2ffd22654936c9a775e741e2e"
+    },
+    {
+      "path": "D:\\MLWork\\scie_small_sample_topics_20260920\\finance_reframe_20260921\\revision_20260922\\results\\uncertainty\\replicates\\replicate_118\\predictions.parquet",
+      "sha256": "a3ce6b56b32631b20dc80337d8fa4ca7813376ed55b13af82ddcf2a425826d7a"
+    },
+    {
+      "path": "D:\\MLWork\\scie_small_sample_topics_20260920\\finance_reframe_20260921\\revision_20260922\\results\\uncertainty\\replicates\\replicate_119\\predictions.parquet",
+      "sha256": "bdce5ce90d64cf2e1b1530510a2d4793601848cbfe0875a0640fc5c5fb989df7"
+    },
+    {
+      "path": "D:\\MLWork\\scie_small_sample_topics_20260920\\finance_reframe_20260921\\revision_20260922\\results\\uncertainty\\replicates\\replicate_120\\predictions.parquet",
+      "sha256": "d2cec958c646d93e1cfe65b6b1425d113387d14e4dfb9eaf8abceedc39ecfaa2"
+    },
+    {
+      "path": "D:\\MLWork\\scie_small_sample_topics_20260920\\finance_reframe_20260921\\revision_20260922\\results\\uncertainty\\replicates\\replicate_121\\predictions.parquet",
+      "sha256": "3d8c9ee00c8f395e9ecd8ea8d5d35151a3205c18de63cbd1eae0c37af26fa7f7"
+    },
+    {
+      "path": "D:\\MLWork\\scie_small_sample_topics_20260920\\finance_reframe_20260921\\revision_20260922\\results\\uncertainty\\replicates\\replicate_122\\predictions.parquet",
+      "sha256": "97b2452d25ad21a782f495e15d8eca84c67f1f98b18f2b62fe1113f66a0bf10e"
+    },
+    {
+      "path": "D:\\MLWork\\scie_small_sample_topics_20260920\\finance_reframe_20260921\\revision_20260922\\results\\uncertainty\\replicates\\replicate_123\\predictions.parquet",
+      "sha256": "3bac472baae790993ccc9b3a71a84d714bf77fb6fc87c98c9eb52d234177bc57"
+    },
+    {
+      "path": "D:\\MLWork\\scie_small_sample_topics_20260920\\finance_reframe_20260921\\revision_20260922\\results\\uncertainty\\replicates\\replicate_124\\predictions.parquet",
+      "sha256": "7e4e98e16ae4077734c03b93cc548f0723a6b9a149b83b5e17a0d37cbe1cf330"
+    },
+    {
+      "path": "D:\\MLWork\\scie_small_sample_topics_20260920\\finance_reframe_20260921\\revision_20260922\\results\\uncertainty\\replicates\\replicate_125\\predictions.parquet",
+      "sha256": "a4b3e2d0b96c045b0467c68eda277f7a4af8d3b2dd99134d8bbbad6acfc8a038"
+    },
+    {
+      "path": "D:\\MLWork\\scie_small_sample_topics_20260920\\finance_reframe_20260921\\revision_20260922\\results\\uncertainty\\replicates\\replicate_126\\predictions.parquet",
+      "sha256": "d296d6280141b0f766898e678d7b3bb95593a3ce0fb3524c6ac4b691679fbc81"
+    },
+    {
+      "path": "D:\\MLWork\\scie_small_sample_topics_20260920\\finance_reframe_20260921\\revision_20260922\\results\\uncertainty\\replicates\\replicate_127\\predictions.parquet",
+      "sha256": "d324594e455ec57b072fe999473db59459e6762e5d30ca93c5604bd5263581d5"
+    },
+    {
+      "path": "D:\\MLWork\\scie_small_sample_topics_20260920\\finance_reframe_20260921\\revision_20260922\\results\\uncertainty\\replicates\\replicate_128\\predictions.parquet",
+      "sha256": "d3c63f89b2a2d67726e465dbc5c03e47e3162b5e938ca35712fd479093b6768c"
+    },
+    {
+      "path": "D:\\MLWork\\scie_small_sample_topics_20260920\\finance_reframe_20260921\\revision_20260922\\results\\uncertainty\\replicates\\replicate_129\\predictions.parquet",
+      "sha256": "95215a90819c32552df6095e3b77d76a2c504a59c12ddbaa64d1094ed60f9bba"
+    },
+    {
+      "path": "D:\\MLWork\\scie_small_sample_topics_20260920\\finance_reframe_20260921\\revision_20260922\\results\\uncertainty\\replicates\\replicate_130\\predictions.parquet",
+      "sha256": "182d9712dbe101e3c0c5f5b632ea4c7e58bdcd55465ce849cd48fe142bd640fd"
+    },
+    {
+      "path": "D:\\MLWork\\scie_small_sample_topics_20260920\\finance_reframe_20260921\\revision_20260922\\results\\uncertainty\\replicates\\replicate_131\\predictions.parquet",
+      "sha256": "aa91dc3c8a05d74f392aeaada3a621b0ab38acc602ca691354fbb2f676d47b37"
+    },
+    {
+      "path": "D:\\MLWork\\scie_small_sample_topics_20260920\\finance_reframe_20260921\\revision_20260922\\results\\uncertainty\\replicates\\replicate_132\\predictions.parquet",
+      "sha256": "ba02ded70f4a3510f922a8c4eff0143f2cd0e6863ab1b71486b02964e6f994aa"
+    },
+    {
+      "path": "D:\\MLWork\\scie_small_sample_topics_20260920\\finance_reframe_20260921\\revision_20260922\\results\\uncertainty\\replicates\\replicate_133\\predictions.parquet",
+      "sha256": "2b9ce95b2f81fd9a1c15e185a5342fd2db1f26c3f4df3cea1ffc2350b2029df6"
+    },
+    {
+      "path": "D:\\MLWork\\scie_small_sample_topics_20260920\\finance_reframe_20260921\\revision_20260922\\results\\uncertainty\\replicates\\replicate_134\\predictions.parquet",
+      "sha256": "ae33c9cf3b51b1219b9b5c2902c1f60ebe510e1fe5433598fa21f8850ab69bf2"
+    },
+    {
+      "path": "D:\\MLWork\\scie_small_sample_topics_20260920\\finance_reframe_20260921\\revision_20260922\\results\\uncertainty\\replicates\\replicate_135\\predictions.parquet",
+      "sha256": "4aea9a1481310520d0184e88f1ea658e1f6b88e85753ee2cddf2150e03f04d92"
+    },
+    {
+      "path": "D:\\MLWork\\scie_small_sample_topics_20260920\\finance_reframe_20260921\\revision_20260922\\results\\uncertainty\\replicates\\replicate_136\\predictions.parquet",
+      "sha256": "57d633f7d47cc8049a860de2e3db8673a280e2f2ae6acca904f384ae159e264b"
+    },
+    {
+      "path": "D:\\MLWork\\scie_small_sample_topics_20260920\\finance_reframe_20260921\\revision_20260922\\results\\uncertainty\\replicates\\replicate_137\\predictions.parquet",
+      "sha256": "0c79c29234a239f68e877ab8fb93d06c079d52e53e4eb8fd0a031ae786829a91"
+    },
+    {
+      "path": "D:\\MLWork\\scie_small_sample_topics_20260920\\finance_reframe_20260921\\revision_20260922\\results\\uncertainty\\replicates\\replicate_138\\predictions.parquet",
+      "sha256": "6e8d199b595999ab0ac0c4731abb08964c2f8c9e51961686d66e8e748d6571eb"
+    },
+    {
+      "path": "D:\\MLWork\\scie_small_sample_topics_20260920\\finance_reframe_20260921\\revision_20260922\\results\\uncertainty\\replicates\\replicate_139\\predictions.parquet",
+      "sha256": "06e892266e93a91abd4002955f8ac0d476cd308695ce91f9749588e1d0282948"
+    },
+    {
+      "path": "D:\\MLWork\\scie_small_sample_topics_20260920\\finance_reframe_20260921\\revision_20260922\\results\\uncertainty\\replicates\\replicate_140\\predictions.parquet",
+      "sha256": "5a587fce737c2499e07929b34dbb2bf5e6af0c09e4da98b8c5270d9931e090d2"
+    },
+    {
+      "path": "D:\\MLWork\\scie_small_sample_topics_20260920\\finance_reframe_20260921\\revision_20260922\\results\\uncertainty\\replicates\\replicate_141\\predictions.parquet",
+      "sha256": "077e34235d261828a718166a5b85e92b98d2a7e6ee2e8812fcca48af9e421dc6"
+    },
+    {
+      "path": "D:\\MLWork\\scie_small_sample_topics_20260920\\finance_reframe_20260921\\revision_20260922\\results\\uncertainty\\replicates\\replicate_142\\predictions.parquet",
+      "sha256": "05343e3ea9d851646b3ef426c326dcd2a02bb25618b1fe4f775c3d787c213f99"
+    },
+    {
+      "path": "D:\\MLWork\\scie_small_sample_topics_20260920\\finance_reframe_20260921\\revision_20260922\\results\\uncertainty\\replicates\\replicate_143\\predictions.parquet",
+      "sha256": "0f2320210a1e21ccb0152a4573311e9c7a87761ffbca1fe8ec8746f3bd27ea3e"
+    },
+    {
+      "path": "D:\\MLWork\\scie_small_sample_topics_20260920\\finance_reframe_20260921\\revision_20260922\\results\\uncertainty\\replicates\\replicate_144\\predictions.parquet",
+      "sha256": "88a361ed7ddfe6054c93fca34c04f1170a7929ee84227e4eca5233b6e59e8187"
+    },
+    {
+      "path": "D:\\MLWork\\scie_small_sample_topics_20260920\\finance_reframe_20260921\\revision_20260922\\results\\uncertainty\\replicates\\replicate_145\\predictions.parquet",
+      "sha256": "fd681fcbbf431a4e5dbed58ea0051cf91cb1b519243598459660bfb6e3384ffa"
+    },
+    {
+      "path": "D:\\MLWork\\scie_small_sample_topics_20260920\\finance_reframe_20260921\\revision_20260922\\results\\uncertainty\\replicates\\replicate_146\\predictions.parquet",
+      "sha256": "ca97735c4223a25540af546885d4ddf05accb4d8c44486d3556f2655052c7c72"
+    },
+    {
+      "path": "D:\\MLWork\\scie_small_sample_topics_20260920\\finance_reframe_20260921\\revision_20260922\\results\\uncertainty\\replicates\\replicate_147\\predictions.parquet",
+      "sha256": "d1ac775156929fd1253d134a22f8550448b5f369835edc7c057a40abe0c70b9b"
+    },
+    {
+      "path": "D:\\MLWork\\scie_small_sample_topics_20260920\\finance_reframe_20260921\\revision_20260922\\results\\uncertainty\\replicates\\replicate_148\\predictions.parquet",
+      "sha256": "dd5637bf36f4eeab15d9050856a4c3e6e3094d85f0de7731e917ba03ab006067"
+    },
+    {
+      "path": "D:\\MLWork\\scie_small_sample_topics_20260920\\finance_reframe_20260921\\revision_20260922\\results\\uncertainty\\replicates\\replicate_149\\predictions.parquet",
+      "sha256": "28a3d6982fc0008a2c95910d002afee954375b659ab836d2614b663caebfd1c0"
+    },
+    {
+      "path": "D:\\MLWork\\scie_small_sample_topics_20260920\\finance_reframe_20260921\\revision_20260922\\results\\uncertainty\\replicates\\replicate_150\\predictions.parquet",
+      "sha256": "4f9122405b5c4a6d9b86ef1f8e86f86f6f9cf68001f68734c2e1c2e5048efb23"
+    },
+    {
+      "path": "D:\\MLWork\\scie_small_sample_topics_20260920\\finance_reframe_20260921\\revision_20260922\\results\\uncertainty\\replicates\\replicate_151\\predictions.parquet",
+      "sha256": "087a57b006905e32ad8a45d2ddf07c6014e9226778aea2e5bf98e729254621e5"
+    },
+    {
+      "path": "D:\\MLWork\\scie_small_sample_topics_20260920\\finance_reframe_20260921\\revision_20260922\\results\\uncertainty\\replicates\\replicate_152\\predictions.parquet",
+      "sha256": "f3dba0a128fb71211491558b0f34dd53de4878ce4422659697a569d02ae95d20"
+    },
+    {
+      "path": "D:\\MLWork\\scie_small_sample_topics_20260920\\finance_reframe_20260921\\revision_20260922\\results\\uncertainty\\replicates\\replicate_153\\predictions.parquet",
+      "sha256": "77977d6166dbdca0a1ec329bf03112c53e488997435b94d97bc81be7d8ccf372"
+    },
+    {
+      "path": "D:\\MLWork\\scie_small_sample_topics_20260920\\finance_reframe_20260921\\revision_20260922\\results\\uncertainty\\replicates\\replicate_154\\predictions.parquet",
+      "sha256": "f4931b79c8cf0a590dda87c62bfa8c4622d3336d84e3c31766264d80f8bd12c6"
+    },
+    {
+      "path": "D:\\MLWork\\scie_small_sample_topics_20260920\\finance_reframe_20260921\\revision_20260922\\results\\uncertainty\\replicates\\replicate_155\\predictions.parquet",
+      "sha256": "c396b98e0d46b44c2d05207e599bd5c363906899a0452e81826721a6513a2f33"
+    },
+    {
+      "path": "D:\\MLWork\\scie_small_sample_topics_20260920\\finance_reframe_20260921\\revision_20260922\\results\\uncertainty\\replicates\\replicate_156\\predictions.parquet",
+      "sha256": "40c8558f58057e72ddd42de06aeaa00ab7806c373dff66b41630cc372b8e6a4d"
+    },
+    {
+      "path": "D:\\MLWork\\scie_small_sample_topics_20260920\\finance_reframe_20260921\\revision_20260922\\results\\uncertainty\\replicates\\replicate_157\\predictions.parquet",
+      "sha256": "66ac46a3d079a987decd1994f620e1b5b4b20b4884ff4a93ac2a4c78e8567c3f"
+    },
+    {
+      "path": "D:\\MLWork\\scie_small_sample_topics_20260920\\finance_reframe_20260921\\revision_20260922\\results\\uncertainty\\replicates\\replicate_158\\predictions.parquet",
+      "sha256": "0dec6e7669403c4ff25dbcb26198e649d8c6ec377f38fe542a75947a42fa5a7f"
+    },
+    {
+      "path": "D:\\MLWork\\scie_small_sample_topics_20260920\\finance_reframe_20260921\\revision_20260922\\results\\uncertainty\\replicates\\replicate_159\\predictions.parquet",
+      "sha256": "50e188b8e9f2ac905973c7a6be7e5cfc1c3418efc47a768f0a25bc75ba68e0cc"
+    },
+    {
+      "path": "D:\\MLWork\\scie_small_sample_topics_20260920\\finance_reframe_20260921\\revision_20260922\\results\\uncertainty\\replicates\\replicate_160\\predictions.parquet",
+      "sha256": "9f0e46e64b5d935bf54940886687e1eb5eed2f91d9de0ac1fbd24f1b97b46d89"
+    },
+    {
+      "path": "D:\\MLWork\\scie_small_sample_topics_20260920\\finance_reframe_20260921\\revision_20260922\\results\\uncertainty\\replicates\\replicate_161\\predictions.parquet",
+      "sha256": "d285807229a02eb16f3502cbff10d9d8d0c9072319412eabfe445f410518c064"
+    },
+    {
+      "path": "D:\\MLWork\\scie_small_sample_topics_20260920\\finance_reframe_20260921\\revision_20260922\\results\\uncertainty\\replicates\\replicate_162\\predictions.parquet",
+      "sha256": "97bb357a4ad0bd92016eaddba469b22e79ad0a67c0cdbb8222c70a3b5799499e"
+    },
+    {
+      "path": "D:\\MLWork\\scie_small_sample_topics_20260920\\finance_reframe_20260921\\revision_20260922\\results\\uncertainty\\replicates\\replicate_163\\predictions.parquet",
+      "sha256": "3ca91e22bc3dee8a31e6a05b3c49b8ebd9c9ae382f1b2699cd968fe7b91c43cd"
+    },
+    {
+      "path": "D:\\MLWork\\scie_small_sample_topics_20260920\\finance_reframe_20260921\\revision_20260922\\results\\uncertainty\\replicates\\replicate_164\\predictions.parquet",
+      "sha256": "f9a5314dc6f639c0c21d082936eb0fb2b13c21c8921e78afbe7ff574f3a86209"
+    },
+    {
+      "path": "D:\\MLWork\\scie_small_sample_topics_20260920\\finance_reframe_20260921\\revision_20260922\\results\\uncertainty\\replicates\\replicate_165\\predictions.parquet",
+      "sha256": "aafcd00a6c3c27a8036c2b4584a14463ad736647b6d74a5c0c892de66597cc96"
+    },
+    {
+      "path": "D:\\MLWork\\scie_small_sample_topics_20260920\\finance_reframe_20260921\\revision_20260922\\results\\uncertainty\\replicates\\replicate_166\\predictions.parquet",
+      "sha256": "a1d7203b31a23b9c30ce3e0296d9f0fc4a945ea7aff8856088281835f3072d94"
+    },
+    {
+      "path": "D:\\MLWork\\scie_small_sample_topics_20260920\\finance_reframe_20260921\\revision_20260922\\results\\uncertainty\\replicates\\replicate_167\\predictions.parquet",
+      "sha256": "43540700e0d481fadda98b14e74acde7342585717dbc7bcd1a7a9fad41b0fc4a"
+    },
+    {
+      "path": "D:\\MLWork\\scie_small_sample_topics_20260920\\finance_reframe_20260921\\revision_20260922\\results\\uncertainty\\replicates\\replicate_168\\predictions.parquet",
+      "sha256": "bdbc3c1161b797bdf76211d32c851de867fb3a7a7a513783238a7354a4aa74f0"
+    },
+    {
+      "path": "D:\\MLWork\\scie_small_sample_topics_20260920\\finance_reframe_20260921\\revision_20260922\\results\\uncertainty\\replicates\\replicate_169\\predictions.parquet",
+      "sha256": "2a21463ce74ac9e185e2baa057177c8dfe2ddedccea9855a38104171fc257943"
+    },
+    {
+      "path": "D:\\MLWork\\scie_small_sample_topics_20260920\\finance_reframe_20260921\\revision_20260922\\results\\uncertainty\\replicates\\replicate_170\\predictions.parquet",
+      "sha256": "642068496a9e1922d4a3849243d82fd50b589c8ac03e650ee3d446f2a601d7b3"
+    },
+    {
+      "path": "D:\\MLWork\\scie_small_sample_topics_20260920\\finance_reframe_20260921\\revision_20260922\\results\\uncertainty\\replicates\\replicate_171\\predictions.parquet",
+      "sha256": "86d0d8574522646b6ed1c393d11d94f622365e98b15cdbe1c00f16aa18d86c3c"
+    },
+    {
+      "path": "D:\\MLWork\\scie_small_sample_topics_20260920\\finance_reframe_20260921\\revision_20260922\\results\\uncertainty\\replicates\\replicate_172\\predictions.parquet",
+      "sha256": "8cb4f8b0daef8f86089e1a5b696ac79630de45c315c94f2125eaa1292d88e2e1"
+    },
+    {
+      "path": "D:\\MLWork\\scie_small_sample_topics_20260920\\finance_reframe_20260921\\revision_20260922\\results\\uncertainty\\replicates\\replicate_173\\predictions.parquet",
+      "sha256": "0051a71502490efdc240c122f65846f3d139a9536d188d7fe66f58860f2d7f98"
+    },
+    {
+      "path": "D:\\MLWork\\scie_small_sample_topics_20260920\\finance_reframe_20260921\\revision_20260922\\results\\uncertainty\\replicates\\replicate_174\\predictions.parquet",
+      "sha256": "51f7526bc888661fb7c263fd5ad10d489c7c2ce8aeffd20886fa9e24244603d7"
+    },
+    {
+      "path": "D:\\MLWork\\scie_small_sample_topics_20260920\\finance_reframe_20260921\\revision_20260922\\results\\uncertainty\\replicates\\replicate_175\\predictions.parquet",
+      "sha256": "6512c4953e39b241579478763357f80f55f1869cf7036c5df048d91668d1e4e4"
+    },
+    {
+      "path": "D:\\MLWork\\scie_small_sample_topics_20260920\\finance_reframe_20260921\\revision_20260922\\results\\uncertainty\\replicates\\replicate_176\\predictions.parquet",
+      "sha256": "1daa1729c15a5c43bb734f73fa8b7ba7ff24e7678f68ea710faffd568988ba05"
+    },
+    {
+      "path": "D:\\MLWork\\scie_small_sample_topics_20260920\\finance_reframe_20260921\\revision_20260922\\results\\uncertainty\\replicates\\replicate_177\\predictions.parquet",
+      "sha256": "929fc84336524f5e1ff4e7f98360d8e52132a77ac3e2b62c6f632a89e22cf409"
+    },
+    {
+      "path": "D:\\MLWork\\scie_small_sample_topics_20260920\\finance_reframe_20260921\\revision_20260922\\results\\uncertainty\\replicates\\replicate_178\\predictions.parquet",
+      "sha256": "6ea600a6ee3098f21c6f44dd65b4cb88a2638db93f38b406ce8757274e62187c"
+    },
+    {
+      "path": "D:\\MLWork\\scie_small_sample_topics_20260920\\finance_reframe_20260921\\revision_20260922\\results\\uncertainty\\replicates\\replicate_179\\predictions.parquet",
+      "sha256": "c12489b3b77bbd4c6b454342dcebd309b3adf9ef40d4063705e767fdbf40aed1"
+    },
+    {
+      "path": "D:\\MLWork\\scie_small_sample_topics_20260920\\finance_reframe_20260921\\revision_20260922\\results\\uncertainty\\replicates\\replicate_180\\predictions.parquet",
+      "sha256": "e12aee509a2e8558cddcf82b7bc32393f47d4d5ea45a194808041a61e73fcc07"
+    },
+    {
+      "path": "D:\\MLWork\\scie_small_sample_topics_20260920\\finance_reframe_20260921\\revision_20260922\\results\\uncertainty\\replicates\\replicate_181\\predictions.parquet",
+      "sha256": "6e9e3edef14872b7ac16cfcca401c64fd9c67a19928542742d40a1c940a4a56d"
+    },
+    {
+      "path": "D:\\MLWork\\scie_small_sample_topics_20260920\\finance_reframe_20260921\\revision_20260922\\results\\uncertainty\\replicates\\replicate_182\\predictions.parquet",
+      "sha256": "2e0a9d20bd94171c5157930f53e80c373eb99c9708be006102c86f7675a73557"
+    },
+    {
+      "path": "D:\\MLWork\\scie_small_sample_topics_20260920\\finance_reframe_20260921\\revision_20260922\\results\\uncertainty\\replicates\\replicate_183\\predictions.parquet",
+      "sha256": "f50864ee2647ad18c93592c0695287ccea1dd31aeedb366af2493d3d1ca47e6c"
+    },
+    {
+      "path": "D:\\MLWork\\scie_small_sample_topics_20260920\\finance_reframe_20260921\\revision_20260922\\results\\uncertainty\\replicates\\replicate_184\\predictions.parquet",
+      "sha256": "23007fe084f5f403255aee1b89788f9aaa50b4c0b3a2162cf1cebe00b2d10264"
+    },
+    {
+      "path": "D:\\MLWork\\scie_small_sample_topics_20260920\\finance_reframe_20260921\\revision_20260922\\results\\uncertainty\\replicates\\replicate_185\\predictions.parquet",
+      "sha256": "b0611c3c085212a92031b3b832c87148a4b73a2f5d9b22349d43b8241b0611d4"
+    },
+    {
+      "path": "D:\\MLWork\\scie_small_sample_topics_20260920\\finance_reframe_20260921\\revision_20260922\\results\\uncertainty\\replicates\\replicate_186\\predictions.parquet",
+      "sha256": "6a05578dd5090ec83d1916212bd5cb8e4b95f7b0b187afbba3fd74e0a6ed3268"
+    },
+    {
+      "path": "D:\\MLWork\\scie_small_sample_topics_20260920\\finance_reframe_20260921\\revision_20260922\\results\\uncertainty\\replicates\\replicate_187\\predictions.parquet",
+      "sha256": "3d2f5bf096abb75276bdf8e19edc823c45157cdc656e83af2c66c412df785938"
+    },
+    {
+      "path": "D:\\MLWork\\scie_small_sample_topics_20260920\\finance_reframe_20260921\\revision_20260922\\results\\uncertainty\\replicates\\replicate_188\\predictions.parquet",
+      "sha256": "4249340d2b1a843eb6c5e38dcfd36e4df65c154ecd2531a3e36ac22bea24bc7d"
+    },
+    {
+      "path": "D:\\MLWork\\scie_small_sample_topics_20260920\\finance_reframe_20260921\\revision_20260922\\results\\uncertainty\\replicates\\replicate_189\\predictions.parquet",
+      "sha256": "29e281f17af1252e8e4b7e0cd17d793887b6f53d4d665dfeb23cd69cbb93ab0c"
+    },
+    {
+      "path": "D:\\MLWork\\scie_small_sample_topics_20260920\\finance_reframe_20260921\\revision_20260922\\results\\uncertainty\\replicates\\replicate_190\\predictions.parquet",
+      "sha256": "7a2a52e0125df63cb1c23ac22684f4d05ae50e08473f2d668ad173e7ce6d24de"
+    },
+    {
+      "path": "D:\\MLWork\\scie_small_sample_topics_20260920\\finance_reframe_20260921\\revision_20260922\\results\\uncertainty\\replicates\\replicate_191\\predictions.parquet",
+      "sha256": "cd66325e3a7f49b27270cfe895f8150ccb750817e2a454072095f9f436a403ce"
+    },
+    {
+      "path": "D:\\MLWork\\scie_small_sample_topics_20260920\\finance_reframe_20260921\\revision_20260922\\results\\uncertainty\\replicates\\replicate_192\\predictions.parquet",
+      "sha256": "854363ad2814799688b24c3612194dfa5241b9e4ecb7b61a9e68754eddba9d86"
+    },
+    {
+      "path": "D:\\MLWork\\scie_small_sample_topics_20260920\\finance_reframe_20260921\\revision_20260922\\results\\uncertainty\\replicates\\replicate_193\\predictions.parquet",
+      "sha256": "81c8247fee02e7988ae9be43fcfc0749f63a002a08ca82dc8c742979cb817ac1"
+    },
+    {
+      "path": "D:\\MLWork\\scie_small_sample_topics_20260920\\finance_reframe_20260921\\revision_20260922\\results\\uncertainty\\replicates\\replicate_194\\predictions.parquet",
+      "sha256": "e55a9d97439e8d846d27cdecf77776948b1e59c4697ff816718734558c6c7177"
+    },
+    {
+      "path": "D:\\MLWork\\scie_small_sample_topics_20260920\\finance_reframe_20260921\\revision_20260922\\results\\uncertainty\\replicates\\replicate_195\\predictions.parquet",
+      "sha256": "903054f76fd373163277e0ef4140a71e930bcef9dcf5fd25337436bb55ec47d9"
+    },
+    {
+      "path": "D:\\MLWork\\scie_small_sample_topics_20260920\\finance_reframe_20260921\\revision_20260922\\results\\uncertainty\\replicates\\replicate_196\\predictions.parquet",
+      "sha256": "55cff67db1267f75894eb9b25eef8fcaaabe8814186a935e538d6ebe08eaa9a9"
+    },
+    {
+      "path": "D:\\MLWork\\scie_small_sample_topics_20260920\\finance_reframe_20260921\\revision_20260922\\results\\uncertainty\\replicates\\replicate_197\\predictions.parquet",
+      "sha256": "6946ded0e4299dd2d8caf8e1cb6b7ef4090c19117d9be079a2b97814501b1a2f"
+    },
+    {
+      "path": "D:\\MLWork\\scie_small_sample_topics_20260920\\finance_reframe_20260921\\revision_20260922\\results\\uncertainty\\replicates\\replicate_198\\predictions.parquet",
+      "sha256": "d831fbdce04df9284aac83515f02e7541a3befa59b7cfd5e7883427d57474d54"
+    },
+    {
+      "path": "D:\\MLWork\\scie_small_sample_topics_20260920\\finance_reframe_20260921\\revision_20260922\\results\\uncertainty\\replicates\\replicate_199\\predictions.parquet",
+      "sha256": "f8e0fddac1d61b2c622e3856b1329e7524bdeb1bd9fe0e722ce73077d25d1784"
+    },
+    {
+      "path": "D:\\MLWork\\scie_small_sample_topics_20260920\\finance_reframe_20260921\\revision_20260922\\results\\version_caps\\cap_fact_lineage.parquet",
+      "sha256": "2eb82a6c1d50f9e485195153ab74f750c418e6187931a3da4eef5cf13908c9a2"
+    },
+    {
+      "path": "D:\\MLWork\\scie_small_sample_topics_20260920\\finance_reframe_20260921\\revision_20260922\\results\\version_caps\\cap_lineage.parquet",
+      "sha256": "90120d6d64e38206ddd466856c804cac5b4925f091cf5a014aa783f86912f6f3"
+    }
+  ]
+}

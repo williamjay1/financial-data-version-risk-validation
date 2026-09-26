@@ -1,0 +1,85 @@
+{
+  "started_utc": "2026-09-21T08:59:17.366552+00:00",
+  "mode": "synthetic_self_test",
+  "source_script": "D:\\MLWork\\scie_small_sample_topics_20260920\\finance_reframe_20260921\\scripts\\run_vintage_models.py",
+  "source_script_sha256": "e31954961ec7490b9ead8a87c57ded49a88daba7009f3157541d72f8fc36f6d0",
+  "python": "3.12.10 (tags/v3.12.10:0cc8128, Apr  8 2025, 12:21:36) [MSC v.1943 64 bit (AMD64)]",
+  "platform": "Windows-11-10.0.26200-SP0",
+  "versions": {
+    "numpy": "2.5.1",
+    "pandas": "3.0.5",
+    "scipy": "1.18.0",
+    "scikit-learn": "1.9.0",
+    "lightgbm": "4.7.0",
+    "pyarrow": "25.0.0",
+    "joblib": "1.5.3"
+  },
+  "vintage_features": [
+    "log_assets",
+    "liabilities_to_assets",
+    "equity_to_assets",
+    "cash_to_assets",
+    "net_income_to_assets",
+    "revenue_to_assets",
+    "operating_income_to_assets",
+    "operating_cash_to_assets",
+    "retained_earnings_to_assets",
+    "working_capital_to_assets"
+  ],
+  "common_features": [
+    "report_lag_days"
+  ],
+  "features": [
+    "log_assets",
+    "liabilities_to_assets",
+    "equity_to_assets",
+    "cash_to_assets",
+    "net_income_to_assets",
+    "revenue_to_assets",
+    "operating_income_to_assets",
+    "operating_cash_to_assets",
+    "retained_earnings_to_assets",
+    "working_capital_to_assets",
+    "report_lag_days"
+  ],
+  "n_missing_indicators": 11,
+  "blocks": [
+    [
+      2016,
+      2017
+    ],
+    [
+      2018,
+      2019
+    ],
+    [
+      2020,
+      2021
+    ]
+  ],
+  "seed": 20260921,
+  "threads": 4,
+  "horizon_days": 365,
+  "label_grace_days": 90,
+  "calibration_definition": "test diagnostic only; intercept with slope=1, joint intercept/slope reported separately",
+  "weighted_capacity_definition": "retrospective 5% weighted mass; boundary score ties split uniformly",
+  "limitations": [
+    "No confidence intervals yet",
+    "Sampling cofiling clusters are not assumed to be legal corporate groups",
+    "B is a deliberate future-vintage diagnostic, never a deployment model",
+    "The module validates supplied labels and weights but does not establish registry coverage or sampling probabilities"
+  ],
+  "status": "passed",
+  "prediction_models_fitted": 0,
+  "checks": [
+    "weighted median",
+    "all-missing feature",
+    "transform immutability",
+    "weighted AP/Brier versus integer replication",
+    "score tie invariance",
+    "weighted capacity",
+    "inclusive 455-day maturity",
+    "calibration identifiability"
+  ],
+  "finished_utc": "2026-09-21T08:59:17.430392+00:00"
+}

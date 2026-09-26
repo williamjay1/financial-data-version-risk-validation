@@ -1,0 +1,108 @@
+{
+  "created_utc": "2026-09-22T16:04:53.569576+00:00",
+  "route": "SCI measurement/validation protocol; not a causal or deployment claim",
+  "analysis_status": "post_hoc_second_revision; previous held-out scores already known; controls fixed before their execution",
+  "script_sha256": "919f40264ea1bb1041ceeb20bc62e0e98a8059c47a3bc5b2792cbce1da305d6b",
+  "readonly_revision_script_sha256": "5b7f7b6ce743cf99b6ccbd35a2fd9c1a287ed08c8f637981a2d374f2f8b84ed5",
+  "input_binding": {
+    "status": "verified",
+    "main_cohort_path": "D:\\MLWork\\scie_small_sample_topics_20260920\\finance_reframe_20260921\\datasets\\model_cohort.parquet",
+    "main_cohort_sha256": "724122d3ca7a0a123de244112aa604d6da7a008497cc6ce526f8f07327916e21",
+    "input_sha256": "724122d3ca7a0a123de244112aa604d6da7a008497cc6ce526f8f07327916e21",
+    "gate_audit_path": "D:\\MLWork\\scie_small_sample_topics_20260920\\finance_reframe_20260921\\results\\final_data_gate.json",
+    "gate_audit_sha256": "10bb24493de126acb7242ac95ea0918d731e3ecad6e6e7498cbe5023f19f4ee8",
+    "input_kind": "gated_main_cohort"
+  },
+  "threads": 2,
+  "model_seed": 20260921,
+  "randomness_seeds": [
+    20260921,
+    20260922,
+    20260923,
+    20260924,
+    20260925
+  ],
+  "matching_seeds": [
+    2026092201,
+    2026092202,
+    2026092203,
+    2026092204,
+    2026092205,
+    2026092206,
+    2026092207,
+    2026092208,
+    2026092209,
+    2026092210,
+    2026092211,
+    2026092212,
+    2026092213,
+    2026092214,
+    2026092215,
+    2026092216,
+    2026092217,
+    2026092218,
+    2026092219,
+    2026092220
+  ],
+  "fixed_parameters": {
+    "LR": {
+      "C": 1.0
+    },
+    "LGBM": {
+      "num_leaves": 7,
+      "min_child_samples": 30
+    },
+    "RF": {
+      "n_estimators": 400,
+      "max_depth": 6,
+      "min_samples_leaf": 20,
+      "max_features": "sqrt",
+      "bootstrap": true
+    }
+  },
+  "LGBM_grid": [
+    {
+      "num_leaves": 7,
+      "min_child_samples": 30
+    },
+    {
+      "num_leaves": 7,
+      "min_child_samples": 60
+    },
+    {
+      "num_leaves": 15,
+      "min_child_samples": 30
+    },
+    {
+      "num_leaves": 15,
+      "min_child_samples": 60
+    }
+  ],
+  "identical_input": "Set every B financial feature equal to A; independently run original four-candidate tuning and final refit for LR/LGBM in both arms, same seed/order/weights; score all four cells. Compare candidate AP, selection, weighted preprocessing and paired predictions within 1e-12. Implementation check, not empirical novelty.",
+  "algorithm_seeds": "A inputs only, fixed LGBM/RF, five seeds, unchanged preprocessing/splits/order. No new bagging or feature-sampling randomness is enabled. Report whether LGBM seed has any active stochastic source.",
+  "transition_groups": {
+    "positive_unchanged": 1,
+    "changed_negative": 2,
+    "other_unchanged_negative": 9
+  },
+  "deletion": "Drop only group members actually in each block final mature refit. Fixed common LR/LGBM parameters. All original test observations and design evaluation weights retained. Inactive groups reuse full models and are labeled zero intervention.",
+  "ordinary_matching": "Ordinary non-10-KT records matched exactly on decision/origin calendar year, event label and original tuning_train/validation/refit membership tuple within block. Group-wise without replacement; repetitions may overlap. Twenty fixed RNG seeds; candidates never depend on scores or feature values. Sampling stratum is NOT a matching criterion; record target and selected weights for transparency. No approximate matching fallback.",
+  "CPI_domains": [
+    "full_train_full_test",
+    "full_train_size_test",
+    "size_train_size_test"
+  ],
+  "CPI_rule": "Previously frozen original-A CPI origin-size indicator. Same test subset in the latter two. Reuse archived fits after checksum/training-row/input checks; no new fitting necessary.",
+  "absolute_spline_RF": "Reuse prior fixed spline/RF artifacts and publish full AA/BB absolute AP/Brier as well as difference.",
+  "metrics": "Original design-weighted AP primary; Brier/ROC/tie-aware weighted-capacity recall and weighted/unweighted prevalence secondary. All four cells retained.",
+  "comparison": "Deletion minus full baseline changes and descriptive matched-deletion distributions; no significance or causal claims and no test-based parameter choice.",
+  "time_rule": "Original chronological blocks and decision+365+90 day maturity; no earlier-year label borrowing.",
+  "failure_policy": "Record unsupported exact matches or failed fits; do not silently change candidates, seeds, domains, or test sets.",
+  "resources": "CPU two threads; about 700 small tabular fits including tuning; expected under 20 minutes and under 3 GiB output; zero network/API costs.",
+  "matching_plan_sha256": "a4dc6403d133cfefaa2b89aa7a32b1228d1c23dfcad8c203f0f7f17099102658",
+  "matching_selected_records_sha256": "39718c626ea5e5c72b7ece33454f5269d5b4c3f1c1c4d539aba0d1a1547a1837",
+  "matching_status_counts": {
+    "ready": 140,
+    "inactive_no_development_record": 40
+  }
+}

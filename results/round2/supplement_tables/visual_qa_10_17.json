@@ -1,0 +1,124 @@
+{
+  "status": "PASS_WITH_MINOR_FORMATTING",
+  "major_issues": 0,
+  "review_scope": "Actual visual inspection of every rendered PNG page 10 through 17; no manuscript or numerical edits.",
+  "pdf": "D:\\MLWork\\scie_small_sample_topics_20260920\\finance_reframe_20260921\\revision_20260922_round2\\qa\\supplement\\Supplementary_Methods_and_Results.pdf",
+  "pdf_sha256": "7fca8330c88a7de9d4dead96d7a36b4125d4c94b620cc9040b110ab290cc96be",
+  "pages": [
+    {
+      "page": 10,
+      "image": "D:\\MLWork\\scie_small_sample_topics_20260920\\finance_reframe_20260921\\revision_20260922_round2\\qa\\supplement\\page-10.png",
+      "sha256": "5f579293e7665079cc8fb42faeebc48f6af56e5ae9993262f767483fd47981d3",
+      "actually_viewed": true,
+      "status": "PASS",
+      "observations": [
+        "Table S10 continuation has repeated header and legible numeric columns.",
+        "Section S6 and Table S11 are complete and readable; identifiers and stage codes fit.",
+        "Table S12 starts with one data row at the page bottom; continuation is readable, optional pagination refinement only."
+      ]
+    },
+    {
+      "page": 11,
+      "image": "D:\\MLWork\\scie_small_sample_topics_20260920\\finance_reframe_20260921\\revision_20260922_round2\\qa\\supplement\\page-11.png",
+      "sha256": "c7c85a4a67d7ef0a343e60118042eadc1b90dcaa95310ccd695dedc0308822d6",
+      "actually_viewed": true,
+      "status": "PASS",
+      "observations": [
+        "Table S12 repeated header and all continuation rows are legible.",
+        "No broken words, clipping, overflow or overlapping text; table note follows on the same page."
+      ]
+    },
+    {
+      "page": 12,
+      "image": "D:\\MLWork\\scie_small_sample_topics_20260920\\finance_reframe_20260921\\revision_20260922_round2\\qa\\supplement\\page-12.png",
+      "sha256": "f296ef336ee3d13bbdc1f851b192b812d7472f632045d9c61e6edb0f8236463c",
+      "actually_viewed": true,
+      "status": "PASS",
+      "observations": [
+        "All Table S13 rows and interval endpoints fit within columns; header wraps at words.",
+        "The table note moves to page 13; no lost content, optional keep-last-row-with-note refinement."
+      ]
+    },
+    {
+      "page": 13,
+      "image": "D:\\MLWork\\scie_small_sample_topics_20260920\\finance_reframe_20260921\\revision_20260922_round2\\qa\\supplement\\page-13.png",
+      "sha256": "ee8e40d83db1b188bbefae772add56edbc33931caa1d0f279f93c84a01a35838",
+      "actually_viewed": true,
+      "status": "PASS",
+      "observations": [
+        "Table S13 note is readable at top.",
+        "Section S7 heading accompanies following prose.",
+        "Table S14 AP/Brier columns and caption are complete; no clipping or split digits."
+      ]
+    },
+    {
+      "page": 14,
+      "image": "D:\\MLWork\\scie_small_sample_topics_20260920\\finance_reframe_20260921\\revision_20260922_round2\\qa\\supplement\\page-14.png",
+      "sha256": "3aca093df7cf2048f61f1342b7491122c806dfb9cd4607c0a0e65ab3f18a43eb",
+      "actually_viewed": true,
+      "status": "PASS",
+      "observations": [
+        "Table S15 and its note fit together; values, signs and domain labels are legible.",
+        "No isolated heading, body overflow or overlap."
+      ]
+    },
+    {
+      "page": 15,
+      "image": "D:\\MLWork\\scie_small_sample_topics_20260920\\finance_reframe_20260921\\revision_20260922_round2\\qa\\supplement\\page-15.png",
+      "sha256": "edaa12f8aed6731507a345eec607ba963e453e3b8929ec3b356c85e0d1763b56",
+      "actually_viewed": true,
+      "status": "PASS",
+      "observations": [
+        "Section S8 heading accompanies text.",
+        "Rescaled multiplier equation is visible, with radical, subscripts, superscript and parentheses.",
+        "Table S16 interval endpoints wrap within cells without lost signs/digits; note remains on page."
+      ]
+    },
+    {
+      "page": 16,
+      "image": "D:\\MLWork\\scie_small_sample_topics_20260920\\finance_reframe_20260921\\revision_20260922_round2\\qa\\supplement\\page-16.png",
+      "sha256": "b75a8f32f76a22dc3502350d06d692d7860c1029a8d345e6df31e8b9a1fd3b97",
+      "actually_viewed": true,
+      "status": "PASS_WITH_MINOR_FORMATTING",
+      "observations": [
+        "Table S17 is legible and its note follows.",
+        "Table S18 begins with one data row at bottom.",
+        "MINOR: Table S18 Mode column splits development into developmen / t in its first row."
+      ]
+    },
+    {
+      "page": 17,
+      "image": "D:\\MLWork\\scie_small_sample_topics_20260920\\finance_reframe_20260921\\revision_20260922_round2\\qa\\supplement\\page-17.png",
+      "sha256": "d115ac7db25ba94459d29e52707311b43a157dc09fc35af93e7d2c9f60750036",
+      "actually_viewed": true,
+      "status": "PASS_WITH_MINOR_FORMATTING",
+      "observations": [
+        "Table S18 repeated header and numerical columns are readable.",
+        "MINOR: Mode column splits development into developmen / t in several rows.",
+        "Table note and following paragraph have no overlap or clipping."
+      ]
+    }
+  ],
+  "issues": [
+    {
+      "severity": "minor",
+      "pages": [
+        16,
+        17
+      ],
+      "table": "S18",
+      "column": "Mode",
+      "issue": "development wraps to developmen / t",
+      "recommended_action": "Shorten the display label to Develop. or allocate slightly more width; preserve scientific definitions and numbers."
+    }
+  ],
+  "optional_pagination_notes": [
+    "S12 begins with one data row on page 10 before continuation.",
+    "S13 note appears on page 13 after the complete table on page 12.",
+    "S18 begins with one data row on page 16 before continuation."
+  ],
+  "inspection_method": "tools.view_image for all eight pages; no PDF-text-only substitute",
+  "checked_utc": "2026-09-22T16:38:27.255061+00:00",
+  "superseded_by": "visual_qa_final_8_16.json",
+  "current_delivery_status": "SUPERSEDED_INITIAL_RENDER"
+}

@@ -1,0 +1,117 @@
+{
+  "status": "PASS",
+  "reviewed_utc": "2026-09-21T09:54:46.082038+00:00",
+  "reviewer": "root",
+  "scope": "Final Word pages 11 through 20 individually opened and visually inspected, with original-resolution checks",
+  "pages_reviewed": [
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20
+  ],
+  "document_total_pages": 20,
+  "document": {
+    "path": "D:\\MLWork\\scie_small_sample_topics_20260920\\finance_reframe_20260921\\manuscript\\Financial_Vintage_Registry_Prediction_Manuscript.docx",
+    "sha256": "bb394ce29bb8d2f8680ce787cac5e8761c3904274e527f88742f0d4b6b60dd11"
+  },
+  "pdf": {
+    "path": "D:\\MLWork\\scie_small_sample_topics_20260920\\finance_reframe_20260921\\temp\\word_qa_final\\Financial_Vintage_Registry_Prediction_Manuscript.pdf",
+    "sha256": "b01e68bb2bb2b56723cc90debbd50513493b846ef9c6f7961c7c762712711211"
+  },
+  "pages": [
+    {
+      "page": 11,
+      "path": "D:\\MLWork\\scie_small_sample_topics_20260920\\finance_reframe_20260921\\temp\\word_qa_final\\page-11.png",
+      "sha256": "921b5945465367335f29f19177228caaa10a214e834d4040d51ef7e882d2e1d3",
+      "visually_opened": true,
+      "status": "PASS",
+      "observations": "Source examples and section 4.3 readable; no clipping. White space permits the next complete main table."
+    },
+    {
+      "page": 12,
+      "path": "D:\\MLWork\\scie_small_sample_topics_20260920\\finance_reframe_20260921\\temp\\word_qa_final\\page-12.png",
+      "sha256": "fd5fa9edc0bbe6a3e66da2818d881a01f59b3c2a8242a0c251c061338bf50025",
+      "visually_opened": true,
+      "status": "PASS",
+      "observations": "Table 3 is complete with its explanatory note; prose readable and no split row."
+    },
+    {
+      "page": 13,
+      "path": "D:\\MLWork\\scie_small_sample_topics_20260920\\finance_reframe_20260921\\temp\\word_qa_final\\page-13.png",
+      "sha256": "f4db433f02ded1dfdb86d8228eb476b49b66d392689978a2621f567fcc8a2224",
+      "visually_opened": true,
+      "status": "PASS",
+      "observations": "Table 4 and Figure 3 readable, caption on same page; original-resolution interval labels checked."
+    },
+    {
+      "page": 14,
+      "path": "D:\\MLWork\\scie_small_sample_topics_20260920\\finance_reframe_20260921\\temp\\word_qa_final\\page-14.png",
+      "sha256": "1dee11944171bcadfbac11ca05aa58f7c39c7b7b8e50592400061e014c7bb4c7",
+      "visually_opened": true,
+      "status": "PASS",
+      "observations": "Table 5 and note on the same page; discussion heading followed by substantive text."
+    },
+    {
+      "page": 15,
+      "path": "D:\\MLWork\\scie_small_sample_topics_20260920\\finance_reframe_20260921\\temp\\word_qa_final\\page-15.png",
+      "sha256": "2d4e91fe9fc11f36c4099ee69bc2d6bb89da1e4b3fc81c7034c226e54d0682d3",
+      "visually_opened": true,
+      "status": "PASS",
+      "observations": "Discussion and limitations readable without clipping or overlapping text."
+    },
+    {
+      "page": 16,
+      "path": "D:\\MLWork\\scie_small_sample_topics_20260920\\finance_reframe_20260921\\temp\\word_qa_final\\page-16.png",
+      "sha256": "74d8674dc8b0aaa5d27c84cff1dc3a2516e5bfc3a5fff2a55756c3468d017401",
+      "visually_opened": true,
+      "status": "PASS",
+      "observations": "Conclusion, availability, actual AI-use statement and Appendix A opening readable."
+    },
+    {
+      "page": 17,
+      "path": "D:\\MLWork\\scie_small_sample_topics_20260920\\finance_reframe_20260921\\temp\\word_qa_final\\page-17.png",
+      "sha256": "33baf04d8de03a8988b37015333d59bd613c13ea515fbd68876511033999221f",
+      "visually_opened": true,
+      "status": "PASS",
+      "observations": "Table A1 complete and note readable. Long Table B1 begins with title and rows; continuation repeats header."
+    },
+    {
+      "page": 18,
+      "path": "D:\\MLWork\\scie_small_sample_topics_20260920\\finance_reframe_20260921\\temp\\word_qa_final\\page-18.png",
+      "sha256": "67b21e6b416eaa511e64c3b86e1b30ce8a5bc5620814a0834eb71da6c8092d42",
+      "visually_opened": true,
+      "status": "PASS",
+      "observations": "Table B1 continuation and note readable. Long Table B2 has intact rows; continues with repeated header."
+    },
+    {
+      "page": 19,
+      "path": "D:\\MLWork\\scie_small_sample_topics_20260920\\finance_reframe_20260921\\temp\\word_qa_final\\page-19.png",
+      "sha256": "85f6d60afedf75f7b606aea143b1d80f124d91e3f006bcce9b61f7f7c33160fa",
+      "visually_opened": true,
+      "status": "PASS",
+      "observations": "Table B2 final row and note intact. References readable without clipping or overlap."
+    },
+    {
+      "page": 20,
+      "path": "D:\\MLWork\\scie_small_sample_topics_20260920\\finance_reframe_20260921\\temp\\word_qa_final\\page-20.png",
+      "sha256": "087830af419932d6d233e71fd99a6b59a23aca0eb3de093099cab30a2628dd37",
+      "visually_opened": true,
+      "status": "PASS",
+      "observations": "Remaining references and DOI/URL strings readable; SEC institution names and arXiv preprint status correct."
+    }
+  ],
+  "blocking_layout_defects": 0,
+  "nonblocking_observations": [
+    "Long appendix tables flow across pages with repeated headers; no split cell or lost row.",
+    "Some white space retained to keep short main tables and notes together."
+  ],
+  "limitations": [
+    "Inspection records apply to these exact artifact hashes, not future regenerated files."
+  ]
+}

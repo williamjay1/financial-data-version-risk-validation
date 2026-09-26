@@ -1,0 +1,29 @@
+{
+  "rows": 5502,
+  "ciks": 990,
+  "clusters": 973,
+  "positive_windows": 188,
+  "distinct_event_ciks": 188,
+  "coherent_later_available": 4128,
+  "coherent_changed_rows": 1307,
+  "hybrid_changed_rows": 2245,
+  "cohort_sha256": "724122d3ca7a0a123de244112aa604d6da7a008497cc6ce526f8f07327916e21",
+  "same_missingness_A_B": true,
+  "models_fitted_here": 0,
+  "coverage_by_stratum": [
+    {
+      "sampling_stratum": "certainty",
+      "selected_ciks": 438,
+      "eligible_ciks": 250
+    },
+    {
+      "sampling_stratum": "noncase_srs",
+      "selected_ciks": 1080,
+      "eligible_ciks": 740
+    }
+  ],
+  "status": "FINAL_COHORT_FROZEN",
+  "source_collection_complete": true,
+  "fact_table_sha256": "18f5f0424091c17bb80fa146d55890a849c1fce97f3f0f0d0e784d7422c71c5f",
+  "final_gate_sha256": "10bb24493de126acb7242ac95ea0918d731e3ecad6e6e7498cbe5023f19f4ee8"
+}

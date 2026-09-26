@@ -1,0 +1,22 @@
+[
+  {
+    "url": "https://www.registeruz.sk/cruz-public/api/uctovne-jednotky?zmenene-od=2000-01-01&max-zaznamov=1",
+    "request_utc": "2026-09-21T07:57:30.413392+00:00",
+    "user_agent": "Codex public-data feasibility audit/1.0 (one-off access test; no bulk collection)",
+    "used_authentication": false,
+    "status": 200,
+    "final_url": "https://www.registeruz.sk/cruz-public/api/uctovne-jednotky?zmenene-od=2000-01-01&max-zaznamov=1",
+    "content_type": "application/json;charset=UTF-8",
+    "bytes": 34,
+    "raw_path": "E:\\AcademicData\\scie_small_sample_topics_20260920\\raw\\finance_reframe_20260921\\corporate\\probe_20260921T075730Z_8d455e6a_00.bin",
+    "sha256": "6d91307118e71e52cbd13b719fef3a66192728009a15ff8b61152d1eee5c8e5a",
+    "response_headers": {}
+  },
+  {
+    "url": "https://www.justice.gov.sk/dokumenty/2026/04/Integracny-manual-pre-verejnost-API-verzia-1.0.10.pdf",
+    "request_utc": "2026-09-21T07:57:37.722192+00:00",
+    "user_agent": "Codex public-data feasibility audit/1.0 (one-off access test; no bulk collection)",
+    "used_authentication": false,
+    "error": "ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"
+  }
+]

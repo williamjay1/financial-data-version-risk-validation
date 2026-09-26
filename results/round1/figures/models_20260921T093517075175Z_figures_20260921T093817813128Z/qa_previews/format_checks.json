@@ -1,0 +1,68 @@
+[
+  {
+    "figure": "figure1_annual_sample",
+    "pdf_pages": 1,
+    "pdf_embedded_bitmap_count": 0,
+    "pdf_extractable_text_characters": 372,
+    "png_dimensions": [
+      9158,
+      3668
+    ],
+    "png_encoded_dpi": [
+      899.9982,
+      899.9982
+    ],
+    "nominal_export_dpi": 900,
+    "png_dpi_encoding_note": "PNG pixels-per-meter integer encoding rounds nominal 900 dpi to 899.9982.",
+    "font_count": 1,
+    "sha256": {
+      "pdf": "7e0b54248343add8049e5ab5c98e4ad225fb1348f6c8b64ec2a0cb0b06053a02",
+      "png": "8c882fbe4bd57d8851c89b01d596d7478737c8255c2db8d0ae0278b985ec10d0",
+      "svg": "2af3250e42b55e06192cda08ee8b9101d06865d56ec950421537e1814ede6bad"
+    }
+  },
+  {
+    "figure": "figure2_input_changes",
+    "pdf_pages": 1,
+    "pdf_embedded_bitmap_count": 0,
+    "pdf_extractable_text_characters": 362,
+    "png_dimensions": [
+      7718,
+      5288
+    ],
+    "png_encoded_dpi": [
+      899.9982,
+      899.9982
+    ],
+    "nominal_export_dpi": 900,
+    "png_dpi_encoding_note": "PNG pixels-per-meter integer encoding rounds nominal 900 dpi to 899.9982.",
+    "font_count": 1,
+    "sha256": {
+      "pdf": "f5de627a76966ebbc512ccd2f6b4777c7089814fa6ca80f4469b215730a16cbe",
+      "png": "836a042e8403d5a0e82f0ca37c62fdf3f5e1fd54c8763abf8c0fdcaf6c9e423d",
+      "svg": "9a50972d2ab4ae1bf6dbb8cf0f923b44b204a9753ec7a4696675064c6f267f9a"
+    }
+  },
+  {
+    "figure": "figure3_paired_average_precision",
+    "pdf_pages": 1,
+    "pdf_embedded_bitmap_count": 0,
+    "pdf_extractable_text_characters": 301,
+    "png_dimensions": [
+      9068,
+      4118
+    ],
+    "png_encoded_dpi": [
+      899.9982,
+      899.9982
+    ],
+    "nominal_export_dpi": 900,
+    "png_dpi_encoding_note": "PNG pixels-per-meter integer encoding rounds nominal 900 dpi to 899.9982.",
+    "font_count": 1,
+    "sha256": {
+      "pdf": "b0102bcbde67c76876b4b4d0a3433d0d87d63d28e38e3276dd0a42ae5590bd02",
+      "png": "19d0c15a924b16e09b4fe0ef87e9b2c428cd34581b1026e3f90fa999edcec32d",
+      "svg": "0beca990f9c768a737c5e8ed152f3786f6b97aacf491624e3d4297cbb772a5f2"
+    }
+  }
+]

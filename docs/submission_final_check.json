@@ -1,0 +1,21 @@
+{
+  "main_pages": 13,
+  "table_captions": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6
+  ],
+  "figure_captions": [
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "figure_files": 10,
+  "table_files": 12,
+  "failures": []
+}

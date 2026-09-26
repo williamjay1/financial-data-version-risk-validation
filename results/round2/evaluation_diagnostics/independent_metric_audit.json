@@ -1,0 +1,7 @@
+{
+  "four_cell_max_abs_metric_error": 3.219646771412954e-15,
+  "conditional_CI_max_abs_error": 6.557254739192331e-16,
+  "four_cell_metric_rows": 24,
+  "conditional_summary_rows": 24,
+  "status": "PASS"
+}

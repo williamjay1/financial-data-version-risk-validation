@@ -1,0 +1,56 @@
+{
+  "protocol_date": "2026-09-21",
+  "status": "DESIGN_ONLY_NOT_EXECUTED",
+  "route": "SCIE applied prediction and empirical validation",
+  "research_question": "Does selecting later financial statement vintages change model comparisons and calibration for rare, independently dated corporate bankruptcy events?",
+  "data_gate": {
+    "required": [
+      "historically defined risk set, independent of later survival and bankruptcy outcomes",
+      "documented BRD event coverage and parent-subsidiary CIK mapping",
+      "ascertained non-events or precisely limited registry-event estimand",
+      "accession-linked financial values with identical concept, unit, start and end across paired vintages",
+      "complete follow-up and a defensible training label-availability rule"
+    ],
+    "training_allowed_now": false,
+    "reason": "Current fixed sample contains positive cases only; it is an access audit, not a prediction cohort."
+  },
+  "primary_comparison": {
+    "unit": "annual filing landmark; enterprise group dependence retained",
+    "decision_time": "day after actual filingDate; original timestamp retained, no intraday execution claim",
+    "horizon_days": 365,
+    "current_registry_event_coverage_cutoff": "2022-12-31",
+    "latest_decision_date_with_full_365_day_registry_followup": "2021-12-31",
+    "versions": ["AS_OF_ACCESSION", "LATEST_SAME_CONCEPT_UNIT_PERIOD_DIAGNOSTIC_ONLY"],
+    "same_in_both_arms": ["company cohort", "landmark dates", "outcomes", "train-validation-test split", "feature definitions", "hyperparameter budget"],
+    "changed_factor": "financial fact vintage; primary comparison preserves the A-arm missingness mask",
+    "cohort_rule": "Define eligibility using A-time information only; never require availability of a later report. If no later comparable value exists, B retains A. Initially missing facts remain missing in both primary arms.",
+    "latest_vintage_filing_cutoff": "2026-09-21",
+    "primary_estimand": "paired difference in average precision over annual-filing prediction observations within each held-out time block",
+    "secondary_metrics": ["Brier_score", "calibration_intercept", "calibration_slope", "retrospective_Recall_at_5percent", "retrospective_screening_list_overlap"],
+    "ranking_scope": "Retrospective diagnostic rankings within each test time block; not an implementable simultaneous screening policy. Any operational claim requires a separately defined common calendar-landmark risk set.",
+    "event_counting": "One original annual report per CIK and fiscal interval; amendments are versions, not new landmarks. Report both positive filing-window observations and distinct linked group-case episodes. A case may appear in multiple legitimate windows; filing-window recall is not unique-event recall. A future event-level measure must deduplicate alerts by group-case and retain earliest eligible alert.",
+    "metrics_require_population_or_known_sampling_weights": true
+  },
+  "diagnostic_models": ["regularized_logistic_regression", "LightGBM"],
+  "time_blocks": "Three successive held-out calendar blocks, boundaries selected from availability and event counts before any model results; not yet fixed",
+  "planned_fits_if_gate_passes": "2 models x 2 vintages x 3 time blocks = 12, plus 3 prevalence-only baselines; hyperparameter selection costs additional and must be logged",
+  "uncertainty": "Paired enterprise-group cluster resampling within held-out time blocks, plus separate block estimates; sparse-event resamples without events counted as undefined. No claim that three blocks identify macroeconomic uncertainty.",
+  "sensitivity_scope": ["10-KT transition periods", "tag mapping and missingness", "group versus direct legal-entity event", "last-vintage revisions", "registry eligibility", "training label maturity"],
+  "resource_policy": {
+    "raw": "<archived-record-root>/...",
+    "derived": "<working-tree-root>/...",
+    "gpu_hours_planned": 0,
+    "paid_model_api_calls_planned": 0,
+    "wall_time": "Not benchmarked; no runtime claim",
+    "initial_derived_cache_budget_gib": 2,
+    "note": "Budget is a pilot limit, not an estimate for the full SEC population. Reassess from file counts and observed sizes before expansion."
+  },
+  "stop_or_redesign": [
+    "No credible historical risk set or outcome ascertainment",
+    "Standard-tag coverage failures select only easily observed survivors or events",
+    "Paired value differences cannot be separated from different periods, units or accounting scope",
+    "Only a few anecdotes with no measurable implication for the fixed decision task",
+    "Effects too imprecise to distinguish operationally relevant differences"
+  ],
+  "independent_design_review": "2026-09-21: addressed later-vintage availability selection, asynchronous ranking versus operational capacity, and repeated event counting. Data gate still not passed."
+}

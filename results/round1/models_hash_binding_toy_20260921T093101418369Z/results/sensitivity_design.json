@@ -1,0 +1,32 @@
+{
+  "status": "complete",
+  "source_files_unchanged": true,
+  "main_sha256": "c33a607bffa0891b4c97dfcccb3a092325913342e4124aae97749550d3e77d08",
+  "facts_sha256": "6927b92ec8aa7a8a3d80f9a611f6cb2751b9a17e3aca979b5cab2e13e085a06b",
+  "sources": {
+    "main": {
+      "path": "D:\\MLWork\\scie_small_sample_topics_20260920\\finance_reframe_20260921\\results\\models_hash_binding_toy_20260921T093101418369Z\\datasets\\model_cohort.parquet",
+      "sha256": "c33a607bffa0891b4c97dfcccb3a092325913342e4124aae97749550d3e77d08"
+    },
+    "facts": {
+      "path": "D:\\MLWork\\scie_small_sample_topics_20260920\\finance_reframe_20260921\\results\\models_hash_binding_toy_20260921T093101418369Z\\datasets\\vintage_facts.parquet",
+      "sha256": "6927b92ec8aa7a8a3d80f9a611f6cb2751b9a17e3aca979b5cab2e13e085a06b"
+    }
+  },
+  "S1": {
+    "training_may_be_skipped_as_equivalent": false
+  },
+  "S2": {
+    "skip_training": false
+  },
+  "outputs": {
+    "source_scale_corrected": {
+      "path": "D:\\MLWork\\scie_small_sample_topics_20260920\\finance_reframe_20260921\\results\\models_hash_binding_toy_20260921T093101418369Z\\datasets\\sensitivity_source_scale_corrected.parquet",
+      "sha256": "13f1ff7feaa3a13ea9d75d5065ff91b5f3701790f6ee6f01ac4d4170065c6190"
+    },
+    "no_transition": {
+      "path": "D:\\MLWork\\scie_small_sample_topics_20260920\\finance_reframe_20260921\\results\\models_hash_binding_toy_20260921T093101418369Z\\datasets\\sensitivity_no_transition.parquet",
+      "sha256": "df4d4ef5d23eaa82fd81f7db0f4a2fd214ed6c75d23115375582618ed5e23d1e"
+    }
+  }
+}

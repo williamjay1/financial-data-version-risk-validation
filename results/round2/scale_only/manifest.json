@@ -1,0 +1,334 @@
+{
+  "status": "complete",
+  "design_sha256": "b81b2c61807bbccb42cf7419b34a630415e2ec4674adb3a923631251c8ea43c5",
+  "input_audit": {
+    "status": "PASS",
+    "baseline_reconstruction_max_absolute_error": {
+      "A": 0.0,
+      "B": 0.0,
+      "C": 0.0
+    },
+    "correction_matches": [
+      {
+        "audit_id": "E01",
+        "tag": "Assets",
+        "start": "",
+        "end": "2015-12-31",
+        "hits": 1
+      },
+      {
+        "audit_id": "E01",
+        "tag": "Liabilities",
+        "start": "",
+        "end": "2015-12-31",
+        "hits": 1
+      },
+      {
+        "audit_id": "E01",
+        "tag": "StockholdersEquity",
+        "start": "",
+        "end": "2015-12-31",
+        "hits": 1
+      },
+      {
+        "audit_id": "E01",
+        "tag": "CashAndCashEquivalentsAtCarryingValue",
+        "start": "",
+        "end": "2015-12-31",
+        "hits": 1
+      },
+      {
+        "audit_id": "E01",
+        "tag": "AssetsCurrent",
+        "start": "",
+        "end": "2015-12-31",
+        "hits": 1
+      },
+      {
+        "audit_id": "E01",
+        "tag": "LiabilitiesCurrent",
+        "start": "",
+        "end": "2015-12-31",
+        "hits": 1
+      },
+      {
+        "audit_id": "E01",
+        "tag": "NetIncomeLoss",
+        "start": "2015-01-01",
+        "end": "2015-12-31",
+        "hits": 1
+      },
+      {
+        "audit_id": "E01",
+        "tag": "Revenues",
+        "start": "2015-01-01",
+        "end": "2015-12-31",
+        "hits": 1
+      },
+      {
+        "audit_id": "E01",
+        "tag": "OperatingIncomeLoss",
+        "start": "2015-01-01",
+        "end": "2015-12-31",
+        "hits": 1
+      },
+      {
+        "audit_id": "E01",
+        "tag": "NetCashProvidedByUsedInOperatingActivities",
+        "start": "2015-01-01",
+        "end": "2015-12-31",
+        "hits": 1
+      },
+      {
+        "audit_id": "E01",
+        "tag": "RetainedEarningsAccumulatedDeficit",
+        "start": "",
+        "end": "2015-12-31",
+        "hits": 1
+      },
+      {
+        "audit_id": "E01_extension_FY2014",
+        "tag": "Assets",
+        "start": "",
+        "end": "2014-12-31",
+        "hits": 2
+      },
+      {
+        "audit_id": "E01_extension_FY2014",
+        "tag": "Liabilities",
+        "start": "",
+        "end": "2014-12-31",
+        "hits": 2
+      },
+      {
+        "audit_id": "E01_extension_FY2014",
+        "tag": "StockholdersEquity",
+        "start": "",
+        "end": "2014-12-31",
+        "hits": 2
+      },
+      {
+        "audit_id": "E01_extension_FY2014",
+        "tag": "CashAndCashEquivalentsAtCarryingValue",
+        "start": "",
+        "end": "2014-12-31",
+        "hits": 1
+      },
+      {
+        "audit_id": "E01_extension_FY2014",
+        "tag": "AssetsCurrent",
+        "start": "",
+        "end": "2014-12-31",
+        "hits": 2
+      },
+      {
+        "audit_id": "E01_extension_FY2014",
+        "tag": "LiabilitiesCurrent",
+        "start": "",
+        "end": "2014-12-31",
+        "hits": 2
+      },
+      {
+        "audit_id": "E01_extension_FY2014",
+        "tag": "NetIncomeLoss",
+        "start": "2014-01-01",
+        "end": "2014-12-31",
+        "hits": 1
+      },
+      {
+        "audit_id": "E01_extension_FY2014",
+        "tag": "Revenues",
+        "start": "2014-01-01",
+        "end": "2014-12-31",
+        "hits": 1
+      },
+      {
+        "audit_id": "E01_extension_FY2014",
+        "tag": "OperatingIncomeLoss",
+        "start": "2014-01-01",
+        "end": "2014-12-31",
+        "hits": 1
+      },
+      {
+        "audit_id": "E01_extension_FY2014",
+        "tag": "NetCashProvidedByUsedInOperatingActivities",
+        "start": "2014-01-01",
+        "end": "2014-12-31",
+        "hits": 1
+      },
+      {
+        "audit_id": "E01_extension_FY2014",
+        "tag": "RetainedEarningsAccumulatedDeficit",
+        "start": "",
+        "end": "2014-12-31",
+        "hits": 2
+      }
+    ],
+    "applied_arm_fact_cells": 28,
+    "changed_feature_cells": 8,
+    "affected_row_ids": 2,
+    "changed_features_by_arm": {
+      "A": 1,
+      "B": 1,
+      "C": 6
+    },
+    "unchanged_metadata_labels_weights_rows": true,
+    "all_arm_masks_unchanged": true,
+    "dataset_path": "D:\\MLWork\\scie_small_sample_topics_20260920\\finance_reframe_20260921\\revision_20260922_round2\\datasets\\source_verified_corrected_scale_only.parquet",
+    "dataset_sha256": "a50cd777e61faf1ff4ca1ce5175a742f1def520005fecfc8d01a2619c42e96f6",
+    "source_scope_note": "Every period must be independently listed. Version 2 adds eleven exact FY2014 comparative facts verified from the same 2016 filing display."
+  },
+  "correction_csv_sha256": "168b64f16248e25a89794b5fa92223e897d1ededd7863d8a86df7802fec9538f",
+  "metric_rows": 48,
+  "artifacts": 24,
+  "outputs": {
+    "applied_fact_changes.csv": {
+      "sha256": "879dc451154b68543d06410bb3d8486c7c0928a0bdd4304cbc05c10f98515c00",
+      "bytes": 4255
+    },
+    "changed_features.csv": {
+      "sha256": "7c54bfb346d8bcc6019f57be979a1497f64a615db252eda7697a7b7d896208cd",
+      "bytes": 754
+    },
+    "data_audit.json": {
+      "sha256": "c0bc1ce36c5dfcefee2869bf0cd46a7f21c0c4d605929fb769860b3db8faefe6",
+      "bytes": 4275
+    },
+    "design.json": {
+      "sha256": "b81b2c61807bbccb42cf7419b34a630415e2ec4674adb3a923631251c8ea43c5",
+      "bytes": 1328
+    },
+    "fit_preprocessing_audit.json": {
+      "sha256": "4f59d6bb5d3a99612313a7cb7fc49c9e1f4b3fe4ce51c0347d6e6338bbbe3621",
+      "bytes": 140049
+    },
+    "four_cell_differences.csv": {
+      "sha256": "7a245c54f98ca7ae17edd282432926c2fb0edd3443d8e102d2c9144b98d9ecfe",
+      "bytes": 11404
+    },
+    "metrics.csv": {
+      "sha256": "6cc4f37176f626fb655f7e77cc403be5bb44da55f64897e5b1412dda975abb89",
+      "bytes": 17398
+    },
+    "predictions.parquet": {
+      "sha256": "f0da77bcae555d653e4735866039d2af84a91ffa0339197c81c16b33a4b41719",
+      "bytes": 888079
+    },
+    "scope_plan.json": {
+      "sha256": "23da80cd880651d43589a0268a4b3f9cada5f92a4303c213cc418f409475e0ad",
+      "bytes": 915
+    },
+    "selection.json": {
+      "sha256": "cd7d9c621eb9e363da6cf01c17c7f440e083da0c0910f04d0344a0a063e6c57c",
+      "bytes": 269225
+    },
+    "split_audit.json": {
+      "sha256": "603ca17e771f5a9bf6aed244e9e773b6a214a7ff9f920f7db3658e10a53072cc",
+      "bytes": 1292260
+    },
+    "validation_predictions.parquet": {
+      "sha256": "3991c73b4d6805e2adc8e63706c735fa6fbdce95a50ffca1c19de699c34bbe66",
+      "bytes": 741095
+    },
+    "verified_corrections_snapshot.csv": {
+      "sha256": "168b64f16248e25a89794b5fa92223e897d1ededd7863d8a86df7802fec9538f",
+      "bytes": 18775
+    },
+    "artifacts\\source_corrected_fixed__2016_2017__A__LGBM.joblib": {
+      "sha256": "b5906e999e6efa0cfa8bae398eb5a26544a8538b3cf774523df06aed7e9a45dc",
+      "bytes": 352442
+    },
+    "artifacts\\source_corrected_fixed__2016_2017__A__LR.joblib": {
+      "sha256": "f14782f3ef3b735bb6b52b1b6153a193d911c9c30cf95de635d31960e1f6ac98",
+      "bytes": 72371
+    },
+    "artifacts\\source_corrected_fixed__2016_2017__B__LGBM.joblib": {
+      "sha256": "166a471f4d570a00a1fd25cb4209003cfdd1c0c9a33ef590e224c2faa3acb878",
+      "bytes": 352506
+    },
+    "artifacts\\source_corrected_fixed__2016_2017__B__LR.joblib": {
+      "sha256": "e93d23f48785f87e197cb0ef7b2c961e51a8786207f119bce4434ab759239c9a",
+      "bytes": 72371
+    },
+    "artifacts\\source_corrected_fixed__2018_2019__A__LGBM.joblib": {
+      "sha256": "09a291c67a98c392facfe33d469a65f22374f71ad892f481c2cb172b45534d0b",
+      "bytes": 388874
+    },
+    "artifacts\\source_corrected_fixed__2018_2019__A__LR.joblib": {
+      "sha256": "58f42a10b8e2705125bd41fc4010bd703792dd9d9628c53101af2cb51b4ba1a8",
+      "bytes": 111235
+    },
+    "artifacts\\source_corrected_fixed__2018_2019__B__LGBM.joblib": {
+      "sha256": "71becc92f3d271cecea296919b5f1e61fa9e773d7476caa8ca3f15e37aa7ef3a",
+      "bytes": 388826
+    },
+    "artifacts\\source_corrected_fixed__2018_2019__B__LR.joblib": {
+      "sha256": "cc653f69d9dde83062fb5fca77ecaf70446138e8d1dc9c803eb9686df4c6bd79",
+      "bytes": 111235
+    },
+    "artifacts\\source_corrected_fixed__2020_2021__A__LGBM.joblib": {
+      "sha256": "bd1e117cc1f0282bf6e045b8f4816dfdcbb05e9900097307998ca6370259fef4",
+      "bytes": 422297
+    },
+    "artifacts\\source_corrected_fixed__2020_2021__A__LR.joblib": {
+      "sha256": "9e94b2232ff39aab206fe3f4aabb21ee3649352c7a8c5abde73b74294add0d29",
+      "bytes": 145042
+    },
+    "artifacts\\source_corrected_fixed__2020_2021__B__LGBM.joblib": {
+      "sha256": "a532f973ecea9eefdb0910d573449729d7babfdd9420a673edb884c4adff2f2d",
+      "bytes": 422281
+    },
+    "artifacts\\source_corrected_fixed__2020_2021__B__LR.joblib": {
+      "sha256": "feb7e737e8ba9255104064b044e9bec0010c65c5c2af1954e3feed1e281a9367",
+      "bytes": 145042
+    },
+    "artifacts\\source_corrected_tuned__2016_2017__A__LGBM.joblib": {
+      "sha256": "255f0d621433ed10c9e631ab31dfbc01e957d5f9fb4713ba7b654f821b36958e",
+      "bytes": 352442
+    },
+    "artifacts\\source_corrected_tuned__2016_2017__A__LR.joblib": {
+      "sha256": "1954dbd2734b0f31afb2963fc58257f9135940848049960a6870bd141dc5a2e9",
+      "bytes": 72371
+    },
+    "artifacts\\source_corrected_tuned__2016_2017__B__LGBM.joblib": {
+      "sha256": "1e561f3fc172c42d6cc54fe32e8f1ece8ee9b79b80d4bc01b2710312616222ba",
+      "bytes": 351834
+    },
+    "artifacts\\source_corrected_tuned__2016_2017__B__LR.joblib": {
+      "sha256": "b61b8f87faacac7c994bd416ebbf9fd27400c552a5cd26ed3c61670d753a3005",
+      "bytes": 72371
+    },
+    "artifacts\\source_corrected_tuned__2018_2019__A__LGBM.joblib": {
+      "sha256": "702b5b252c4038df471df7d2e5e9b3155ad0218ca9234ae8ff269701e3a166bd",
+      "bytes": 655658
+    },
+    "artifacts\\source_corrected_tuned__2018_2019__A__LR.joblib": {
+      "sha256": "c1801d70883b89d4627f18f739df260b28b4a0e0f5dc7f0991a159a1085b1528",
+      "bytes": 111235
+    },
+    "artifacts\\source_corrected_tuned__2018_2019__B__LGBM.joblib": {
+      "sha256": "cd7834abc7ada35376f6d2ed514d49e06242285320a0b52c7770900eb490cf2d",
+      "bytes": 656826
+    },
+    "artifacts\\source_corrected_tuned__2018_2019__B__LR.joblib": {
+      "sha256": "71bc4a065e90aa2271d8410370a5706137572edd2fe2228d79f7a0eca5b5ecdb",
+      "bytes": 111235
+    },
+    "artifacts\\source_corrected_tuned__2020_2021__A__LGBM.joblib": {
+      "sha256": "1d0af495af58d8924b16ed064ef55ae36dcbde2baaca7867c0312cd2b7d998ec",
+      "bytes": 687305
+    },
+    "artifacts\\source_corrected_tuned__2020_2021__A__LR.joblib": {
+      "sha256": "4ef68732063fd970bd1a4ed957647641a5cb3bd453d5580b2a3dc9addd57e2af",
+      "bytes": 145042
+    },
+    "artifacts\\source_corrected_tuned__2020_2021__B__LGBM.joblib": {
+      "sha256": "0cb77b08fc217775b4346ce6ecf84839fa0ff11cba65dabfe43487ab0dba88c9",
+      "bytes": 422713
+    },
+    "artifacts\\source_corrected_tuned__2020_2021__B__LR.joblib": {
+      "sha256": "3c173a2340cf6a54822a5f8168ebfbd87a40a46261a3d98f16b6758d22e6c940",
+      "bytes": 145042
+    }
+  }
+}

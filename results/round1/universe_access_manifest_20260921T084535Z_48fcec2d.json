@@ -1,0 +1,62 @@
+[
+  {
+    "url": "https://sraf.nd.edu/sec-edgar-data/lm_10x_summaries/",
+    "request_utc": "2026-09-21T08:45:35.335646+00:00",
+    "user_agent": "Codex public-data feasibility audit/1.0 (one-off metadata access; no bulk SEC collection)",
+    "authentication": false,
+    "status": 200,
+    "final_url": "https://sraf.nd.edu/sec-edgar-data/lm_10x_summaries/",
+    "content_type": "text/html; charset=utf-8",
+    "etag": null,
+    "last_modified": null,
+    "raw_path": "E:\\AcademicData\\scie_small_sample_topics_20260920\\raw\\finance_reframe_20260921\\universe\\universe_20260921T084535Z_48fcec2d_00.bin",
+    "bytes": 68852,
+    "sha256": "7c3529aeca2dda5aec79dd035025d822c846d5dde943dde21cafd3c517567cd5",
+    "read_only": true
+  },
+  {
+    "url": "https://drive.google.com/uc?export=download&id=1wCuNXNYxZkN6UU2Wbi3_xgMNohRWVrHa",
+    "request_utc": "2026-09-21T08:45:38.266870+00:00",
+    "user_agent": "Codex public-data feasibility audit/1.0 (one-off metadata access; no bulk SEC collection)",
+    "authentication": false,
+    "status": 200,
+    "final_url": "https://drive.usercontent.google.com/download?id=1wCuNXNYxZkN6UU2Wbi3_xgMNohRWVrHa&export=download",
+    "content_type": "text/html; charset=utf-8",
+    "etag": null,
+    "last_modified": null,
+    "raw_path": "E:\\AcademicData\\scie_small_sample_topics_20260920\\raw\\finance_reframe_20260921\\universe\\universe_20260921T084535Z_48fcec2d_01.bin",
+    "bytes": 2463,
+    "sha256": "4d851007236afa4159ada71a0fa3c072c2c8cccb19837ce80d2ea697946a93fe",
+    "read_only": true
+  },
+  {
+    "url": "https://drive.google.com/uc?export=download&id=1yfQxR45DZ_vM5pkFvgyexc10NNqbxpFN",
+    "request_utc": "2026-09-21T08:45:41.992067+00:00",
+    "user_agent": "Codex public-data feasibility audit/1.0 (one-off metadata access; no bulk SEC collection)",
+    "authentication": false,
+    "status": 200,
+    "final_url": "https://drive.usercontent.google.com/download?id=1yfQxR45DZ_vM5pkFvgyexc10NNqbxpFN&export=download",
+    "content_type": "text/html; charset=utf-8",
+    "etag": null,
+    "last_modified": null,
+    "raw_path": "E:\\AcademicData\\scie_small_sample_topics_20260920\\raw\\finance_reframe_20260921\\universe\\universe_20260921T084535Z_48fcec2d_02.bin",
+    "bytes": 2441,
+    "sha256": "319b1e6684e340e358b1ff418854d9af86a9b17dbd7e281ca548a97a61b7b53f",
+    "read_only": true
+  },
+  {
+    "url": "https://huggingface.co/api/datasets/kapilrao/SEC_filings_1994_2024/tree/main?recursive=true",
+    "request_utc": "2026-09-21T08:45:52.350305+00:00",
+    "user_agent": "Codex public-data feasibility audit/1.0 (one-off metadata access; no bulk SEC collection)",
+    "authentication": false,
+    "status": 200,
+    "final_url": "https://huggingface.co/api/datasets/kapilrao/SEC_filings_1994_2024/tree/main?recursive=true",
+    "content_type": "application/json; charset=utf-8",
+    "etag": "W/\"19d3-Cx6TiMalPJ2qsEmO3GLG9BqSBP4\"",
+    "last_modified": null,
+    "raw_path": "E:\\AcademicData\\scie_small_sample_topics_20260920\\raw\\finance_reframe_20260921\\universe\\universe_20260921T084535Z_48fcec2d_03.bin",
+    "bytes": 6611,
+    "sha256": "55f2d0a4560aa94e9b2379c543423cdc3c3d384c6672f2ec5b097185ab4f54aa",
+    "read_only": true
+  }
+]

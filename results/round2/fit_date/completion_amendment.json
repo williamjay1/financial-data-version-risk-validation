@@ -1,0 +1,8 @@
+{
+  "reason": "Metric-only finalizer corrected probability column name to the Recorder schema prediction.",
+  "effect": "No source construction, model training, predictions or scientific specification changed.",
+  "reran_training": false,
+  "prediction_sha256": "9703f9d93ee1b93ec799c66eb4b16a3c2f788233ac77a0011c93895dc84e91ec",
+  "original_execution_script_sha256": "35e36c80b4dfe30a629d102e47cc84db8210f51d2a4b5f9157202f8c7bff7579",
+  "corrected_script_sha256": "942fdc36a0fd76830437a4046db4e99ac1d1c36811d14e49666a8825d4b7345d"
+}

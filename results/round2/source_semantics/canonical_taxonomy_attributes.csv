@@ -1,0 +1,7 @@
+taxonomy_year,tag,type,balance,period_type,url,raw_path,raw_sha256,issuer_schemaRef_confirmed
+2012,NetCashProvidedByUsedInOperatingActivities,xbrli:monetaryItemType,ABSENT,duration,https://xbrl.fasb.org/us-gaap/2012/elts/us-gaap-2012-01-31.xsd,<archived-record-root>/...,69880418180e1ff88810b70eaec8120fecb29c5e379dbd982f616f0f79106528,False
+2012,NetIncomeLoss,xbrli:monetaryItemType,credit,duration,https://xbrl.fasb.org/us-gaap/2012/elts/us-gaap-2012-01-31.xsd,<archived-record-root>/...,69880418180e1ff88810b70eaec8120fecb29c5e379dbd982f616f0f79106528,False
+2012,RetainedEarningsAccumulatedDeficit,xbrli:monetaryItemType,credit,instant,https://xbrl.fasb.org/us-gaap/2012/elts/us-gaap-2012-01-31.xsd,<archived-record-root>/...,69880418180e1ff88810b70eaec8120fecb29c5e379dbd982f616f0f79106528,False
+2013,NetCashProvidedByUsedInOperatingActivities,xbrli:monetaryItemType,ABSENT,duration,https://xbrl.fasb.org/us-gaap/2013/elts/us-gaap-2013-01-31.xsd,<archived-record-root>/...,bd746b442b40db942afc8a895320e80c8c1c1a647346928c1bf1bd5bd7a325eb,False
+2013,NetIncomeLoss,xbrli:monetaryItemType,credit,duration,https://xbrl.fasb.org/us-gaap/2013/elts/us-gaap-2013-01-31.xsd,<archived-record-root>/...,bd746b442b40db942afc8a895320e80c8c1c1a647346928c1bf1bd5bd7a325eb,False
+2013,RetainedEarningsAccumulatedDeficit,xbrli:monetaryItemType,credit,instant,https://xbrl.fasb.org/us-gaap/2013/elts/us-gaap-2013-01-31.xsd,<archived-record-root>/...,bd746b442b40db942afc8a895320e80c8c1c1a647346928c1bf1bd5bd7a325eb,False

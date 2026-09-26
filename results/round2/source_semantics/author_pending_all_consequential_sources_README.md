@@ -1,0 +1,7 @@
+# Consequential source judgments pending author review
+
+This is a consolidated review interface, not a completed human audit. It contains 59 source-component-arm records: 22 Nobilis scale keys, 4 unresolved sign proposals, 21 newly examined targeted display checks, and 12 reused display checks. Repeated source or arm records are not independent observations. Original issuer instance/context/presentation chains remain unauthenticated for every row. All author identity, decision, date, locator, explanation and signature fields are intentionally blank.
+
+The six targeted companies are Rentech, Silver Stream Mining, Gymboree, RTW Retailwinds, RCS Capital and American Healthcare REIT. The table preserves existing exact sources, periods, excerpts, capture hashes and model-stage links. Numerical correction is not proposed for the six mechanism examples. Nobilis display support is not proof of the original XBRL encoding. The four signs stay unresolved; a reader must not infer instance sign from brackets or the debit/credit attribute alone.
+
+`affected_main_features` for numerical keys is linked to the saved source-to-feature trace; for targeted mechanism rows it identifies the examined component, not a separately established causal model effect. All fields were consolidated from previously frozen evidence without new source retrieval or model fitting. Author confirmation requires direct review and an explicit choice; leaving a field blank means pending.

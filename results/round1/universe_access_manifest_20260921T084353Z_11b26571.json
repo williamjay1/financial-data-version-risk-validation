@@ -1,0 +1,47 @@
+[
+  {
+    "url": "https://sraf.nd.edu/sec-edgar-data/master-index-data/",
+    "request_utc": "2026-09-21T08:43:53.188934+00:00",
+    "user_agent": "Codex public-data feasibility audit/1.0 (one-off metadata access; no bulk SEC collection)",
+    "authentication": false,
+    "status": 200,
+    "final_url": "https://sraf.nd.edu/sec-edgar-data/master-index-data/",
+    "content_type": "text/html; charset=utf-8",
+    "etag": null,
+    "last_modified": null,
+    "raw_path": "E:\\AcademicData\\scie_small_sample_topics_20260920\\raw\\finance_reframe_20260921\\universe\\universe_20260921T084353Z_11b26571_00.bin",
+    "bytes": 66852,
+    "sha256": "d734da0a72e78387166f75cabc0bc7694b9184125eb45c9b9e7a1ea57b81c203",
+    "read_only": true
+  },
+  {
+    "url": "https://sraf.nd.edu/sec-edgar-data/10-x-header-data/",
+    "request_utc": "2026-09-21T08:43:58.206941+00:00",
+    "user_agent": "Codex public-data feasibility audit/1.0 (one-off metadata access; no bulk SEC collection)",
+    "authentication": false,
+    "status": 200,
+    "final_url": "https://sraf.nd.edu/sec-edgar-data/10-x-header-data/",
+    "content_type": "text/html; charset=utf-8",
+    "etag": null,
+    "last_modified": null,
+    "raw_path": "E:\\AcademicData\\scie_small_sample_topics_20260920\\raw\\finance_reframe_20260921\\universe\\universe_20260921T084353Z_11b26571_01.bin",
+    "bytes": 72244,
+    "sha256": "17d20a7fe4595e42e56bff248d04e4927104dd962c98b376cf43dc54d610169f",
+    "read_only": true
+  },
+  {
+    "url": "https://sraf.nd.edu/sec-edgar-data/",
+    "request_utc": "2026-09-21T08:44:00.998544+00:00",
+    "user_agent": "Codex public-data feasibility audit/1.0 (one-off metadata access; no bulk SEC collection)",
+    "authentication": false,
+    "status": 200,
+    "final_url": "https://sraf.nd.edu/sec-edgar-data/",
+    "content_type": "text/html; charset=utf-8",
+    "etag": null,
+    "last_modified": null,
+    "raw_path": "E:\\AcademicData\\scie_small_sample_topics_20260920\\raw\\finance_reframe_20260921\\universe\\universe_20260921T084353Z_11b26571_02.bin",
+    "bytes": 67079,
+    "sha256": "f3f4393cf151154fd6034c9612abfedbadacde688288346ad07e7938863b6e37",
+    "read_only": true
+  }
+]

@@ -1,0 +1,4 @@
+block,n_train,n_train_positive,later_available_n,later_available_weighted_percent,latest_not_available_at_fit_n,latest_not_available_at_fit_weighted_percent,n_changed_raw_windows,n_changed_features_windows,asof_latest_source_differ_n
+2016_2017,2024,39,1458,70.83886741169822,6,0.2164800560124391,451,450,6
+2018_2019,3167,95,2367,74.30972388250775,8,0.34160148180739036,866,865,8
+2020_2021,4161,124,3030,72.36499944128947,6,0.19032794868969952,1090,1089,6

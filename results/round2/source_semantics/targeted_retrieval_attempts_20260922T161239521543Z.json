@@ -1,0 +1,26 @@
+[
+  {
+    "name": "peabody_original_instance",
+    "url": "https://www.sec.gov/Archives/edgar/data/1064728/000106472814000015/btu-20131231.xml",
+    "status": 403,
+    "bytes": 4818,
+    "raw_path": "E:\\AcademicData\\scie_small_sample_topics_20260920\\raw\\finance_round2_20260922\\peabody_original_instance_20260922T161239521543Z.bin",
+    "sha256": "7dc5e2697c34af09be69ed0ff1e5133b8b80a5b4608f80e815b940fdcd5322e1"
+  },
+  {
+    "name": "silverstream_A_jina",
+    "url": "https://r.jina.ai/https://www.sec.gov/Archives/edgar/data/1310497/000100201414000290/ssmc10kt-3312013.htm",
+    "status": 200,
+    "bytes": 90032,
+    "raw_path": "E:\\AcademicData\\scie_small_sample_topics_20260920\\raw\\finance_round2_20260922\\silverstream_A_jina_20260922T161239521543Z.bin",
+    "sha256": "e2ea88ba943362353d1e51600e06047930e0fe88a7a05e52bd24f91dcebf3133"
+  },
+  {
+    "name": "silverstream_B_jina",
+    "url": "https://r.jina.ai/https://www.sec.gov/Archives/edgar/data/1310497/000100201414000402/agsm10ka1-03312014.htm",
+    "status": 200,
+    "bytes": 194550,
+    "raw_path": "E:\\AcademicData\\scie_small_sample_topics_20260920\\raw\\finance_round2_20260922\\silverstream_B_jina_20260922T161239521543Z.bin",
+    "sha256": "dad928f3e21edc435c1f4325c670d750f3317ca6a8097629da538a0e601203dc"
+  }
+]

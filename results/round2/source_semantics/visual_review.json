@@ -1,0 +1,92 @@
+{
+  "mode": "Pages 11–12 actually re-viewed for main_verified; pages 10 and 13–18 byte-identical to previously actually viewed main_final PNGs.",
+  "pdf": "D:\\MLWork\\scie_small_sample_topics_20260920\\finance_reframe_20260921\\revision_20260922_round2\\qa\\main_verified\\Financial_Data_Version_Evaluation.pdf",
+  "pdf_sha256": "3210b32b919d4ce09ad781d6247db18ccf3ce194a5357b993616e50a9a96dd1e",
+  "pages_inspected": [
+    {
+      "page": 10,
+      "path": "D:\\MLWork\\scie_small_sample_topics_20260920\\finance_reframe_20260921\\revision_20260922_round2\\qa\\main_verified\\page-10.png",
+      "sha256": "047efbf34e1bd3f519373e28ab57c52b48f0222712d0869c0a5300da56a53bc8",
+      "finding": "Figure 2 panels, labels and caption visible; no overlap or clipping.",
+      "previous_render_sha256": "047efbf34e1bd3f519373e28ab57c52b48f0222712d0869c0a5300da56a53bc8",
+      "same_as_previously_viewed_png": true,
+      "inspection_basis": "Previous actual visual inspection plus byte-for-byte PNG identity"
+    },
+    {
+      "page": 11,
+      "path": "D:\\MLWork\\scie_small_sample_topics_20260920\\finance_reframe_20260921\\revision_20260922_round2\\qa\\main_verified\\page-11.png",
+      "sha256": "2a99ed53b4dd3ac01f5fcedb1eaf2c5c2ff156a6261c161699192051e07e2a1c",
+      "finding": "For LightGBM qualifier visible and properly wrapped. Table 4 and body text clear. Figure 3 moves together with caption to page 12; no clipping.",
+      "previous_render_sha256": "38ced2ae710dda11c854cc4d81894230d22163a3263e465475ecbcbe35e8fb02",
+      "same_as_previously_viewed_png": false,
+      "inspection_basis": "New actual visual inspection using view_image"
+    },
+    {
+      "page": 12,
+      "path": "D:\\MLWork\\scie_small_sample_topics_20260920\\finance_reframe_20260921\\revision_20260922_round2\\qa\\main_verified\\page-12.png",
+      "sha256": "79817fe01353cd055436e0e9db3d16d7bd4f752591195481c14d6bb07381399c",
+      "finding": "Figure 3 and entire caption now on this page; axes, labels, source text, heading and footer all clear; no overlap or clipping.",
+      "previous_render_sha256": "67a964f8ea338171257f15354bef92e08d7df1b939a7e4e83f3a066229f48f7d",
+      "same_as_previously_viewed_png": false,
+      "inspection_basis": "New actual visual inspection using view_image"
+    },
+    {
+      "page": 13,
+      "path": "D:\\MLWork\\scie_small_sample_topics_20260920\\finance_reframe_20260921\\revision_20260922_round2\\qa\\main_verified\\page-13.png",
+      "sha256": "3dd583ce50731569b67be9a0ca46130717cfb5e0fa7931deb7db0258ef6c9e76",
+      "finding": "Table 5 complete; Figure 4 boxes/axes/caption clear; no overlap.",
+      "previous_render_sha256": "3dd583ce50731569b67be9a0ca46130717cfb5e0fa7931deb7db0258ef6c9e76",
+      "same_as_previously_viewed_png": true,
+      "inspection_basis": "Previous actual visual inspection plus byte-for-byte PNG identity"
+    },
+    {
+      "page": 14,
+      "path": "D:\\MLWork\\scie_small_sample_topics_20260920\\finance_reframe_20260921\\revision_20260922_round2\\qa\\main_verified\\page-14.png",
+      "sha256": "768c46ee29f464fc305ac8c28ec2c1f1779cc311c58d9127d5b41023e3c0e262",
+      "finding": "Table 6 complete on one page; footnote visible; no truncation.",
+      "previous_render_sha256": "768c46ee29f464fc305ac8c28ec2c1f1779cc311c58d9127d5b41023e3c0e262",
+      "same_as_previously_viewed_png": true,
+      "inspection_basis": "Previous actual visual inspection plus byte-for-byte PNG identity"
+    },
+    {
+      "page": 15,
+      "path": "D:\\MLWork\\scie_small_sample_topics_20260920\\finance_reframe_20260921\\revision_20260922_round2\\qa\\main_verified\\page-15.png",
+      "sha256": "bbb273315bfbea0d7a238de5ad0500c426956e42c5cfabc10d6181c681dd0e6a",
+      "finding": "Discussion text and citations readable; normal paragraph continuation to page 16.",
+      "previous_render_sha256": "bbb273315bfbea0d7a238de5ad0500c426956e42c5cfabc10d6181c681dd0e6a",
+      "same_as_previously_viewed_png": true,
+      "inspection_basis": "Previous actual visual inspection plus byte-for-byte PNG identity"
+    },
+    {
+      "page": 16,
+      "path": "D:\\MLWork\\scie_small_sample_topics_20260920\\finance_reframe_20260921\\revision_20260922_round2\\qa\\main_verified\\page-16.png",
+      "sha256": "11c528a8b385b069ba4d29ea901fc1ced93d2b6c67481ac80d7cffa20be82344",
+      "finding": "Conclusion, availability, AI disclosure and initial references clear; footer unobstructed.",
+      "previous_render_sha256": "11c528a8b385b069ba4d29ea901fc1ced93d2b6c67481ac80d7cffa20be82344",
+      "same_as_previously_viewed_png": true,
+      "inspection_basis": "Previous actual visual inspection plus byte-for-byte PNG identity"
+    },
+    {
+      "page": 17,
+      "path": "D:\\MLWork\\scie_small_sample_topics_20260920\\finance_reframe_20260921\\revision_20260922_round2\\qa\\main_verified\\page-17.png",
+      "sha256": "5c9398c8b37410683e05a7ca03790d2cb6505b0a26dec51f08dd66b1a1cb88a1",
+      "finding": "References and long URLs readable within margins; thesis type visible.",
+      "previous_render_sha256": "5c9398c8b37410683e05a7ca03790d2cb6505b0a26dec51f08dd66b1a1cb88a1",
+      "same_as_previously_viewed_png": true,
+      "inspection_basis": "Previous actual visual inspection plus byte-for-byte PNG identity"
+    },
+    {
+      "page": 18,
+      "path": "D:\\MLWork\\scie_small_sample_topics_20260920\\finance_reframe_20260921\\revision_20260922_round2\\qa\\main_verified\\page-18.png",
+      "sha256": "0f13e20153f331eee80f6602f095199212f5ffa9477991d8393a964a5869c045",
+      "finding": "Remaining references/SEC URLs visible; no clipped text or blank extra page.",
+      "previous_render_sha256": "0f13e20153f331eee80f6602f095199212f5ffa9477991d8393a964a5869c045",
+      "same_as_previously_viewed_png": true,
+      "inspection_basis": "Previous actual visual inspection plus byte-for-byte PNG identity"
+    }
+  ],
+  "blocking_layout_issues": 0,
+  "minor_layout_issues": 0,
+  "previous_render_pdf_sha256": "77b4a16fe189758878f0df1a7ba3015766dca38c19bc825dbb5014758fc53453",
+  "resolved_issue": "Figure 3 caption now complete on page 12; For LightGBM qualifier confirmed."
+}

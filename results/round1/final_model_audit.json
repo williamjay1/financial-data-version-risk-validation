@@ -1,0 +1,2667 @@
+{
+  "status": "PASS_WITH_SPARSE_TUNING_WARNING",
+  "audit_utc": "2026-09-21T09:39:34.061325+00:00",
+  "run_manifest": "D:\\MLWork\\scie_small_sample_topics_20260920\\finance_reframe_20260921\\results\\models_20260921T093517075175Z_manifest.json",
+  "run_manifest_sha256": "edbc6d675ee029580daba70ab50530cf456004fb20dc2a425df11cfb88b6c475",
+  "cohort_rows": 5502,
+  "cohort_ciks": 990,
+  "cohort_positive_windows": 188,
+  "checks_passed": 297,
+  "checks_total": 297,
+  "issues": [],
+  "models_refitted_in_audit": 0,
+  "independent_methods": "Weighted AP from descending tied score groups; weighted ROC AUC from positive-negative pair mass including half-credit ties; Brier by direct weighted squared error; top5% by score-group fractional capacity. Manual preprocessing transform and training-only weighted empirical quantiles, no trainer evaluation or preprocessing functions called. Serialized estimators used only for inference.",
+  "metric_max_absolute_differences": {
+    "average_precision": 1.3444106938820255e-16,
+    "brier": 8.847089727481716e-17,
+    "roc_auc": 9.769962616701378e-15,
+    "retrospective_recall_at_5percent": 8.326672684688674e-17,
+    "retrospective_selected_weight": 2.2737367544323206e-13
+  },
+  "main_artifact_reproduction": [
+    {
+      "block": "2016_2017",
+      "model": "LR",
+      "version": "A",
+      "n": 1063,
+      "max_absolute_difference": 8.673617379884035e-18
+    },
+    {
+      "block": "2016_2017",
+      "model": "LGBM",
+      "version": "A",
+      "n": 1063,
+      "max_absolute_difference": 0.0
+    },
+    {
+      "block": "2016_2017",
+      "model": "LR",
+      "version": "B",
+      "n": 1063,
+      "max_absolute_difference": 6.938893903907228e-18
+    },
+    {
+      "block": "2016_2017",
+      "model": "LGBM",
+      "version": "B",
+      "n": 1063,
+      "max_absolute_difference": 0.0
+    },
+    {
+      "block": "2018_2019",
+      "model": "LR",
+      "version": "A",
+      "n": 946,
+      "max_absolute_difference": 2.42861286636753e-17
+    },
+    {
+      "block": "2018_2019",
+      "model": "LGBM",
+      "version": "A",
+      "n": 946,
+      "max_absolute_difference": 0.0
+    },
+    {
+      "block": "2018_2019",
+      "model": "LR",
+      "version": "B",
+      "n": 946,
+      "max_absolute_difference": 5.204170427930421e-18
+    },
+    {
+      "block": "2018_2019",
+      "model": "LGBM",
+      "version": "B",
+      "n": 946,
+      "max_absolute_difference": 0.0
+    },
+    {
+      "block": "2020_2021",
+      "model": "LR",
+      "version": "A",
+      "n": 845,
+      "max_absolute_difference": 4.85722573273506e-17
+    },
+    {
+      "block": "2020_2021",
+      "model": "LGBM",
+      "version": "A",
+      "n": 845,
+      "max_absolute_difference": 0.0
+    },
+    {
+      "block": "2020_2021",
+      "model": "LR",
+      "version": "B",
+      "n": 845,
+      "max_absolute_difference": 1.734723475976807e-17
+    },
+    {
+      "block": "2020_2021",
+      "model": "LGBM",
+      "version": "B",
+      "n": 845,
+      "max_absolute_difference": 0.0
+    }
+  ],
+  "frozen_artifact_reproduction": [
+    {
+      "block": "2016_2017",
+      "model": "LR",
+      "scenario": "A_model_A_inputs",
+      "n": 1063,
+      "max_absolute_difference": 8.673617379884035e-18
+    },
+    {
+      "block": "2016_2017",
+      "model": "LR",
+      "scenario": "A_model_B_inputs",
+      "n": 1063,
+      "max_absolute_difference": 1.3877787807814457e-17
+    },
+    {
+      "block": "2016_2017",
+      "model": "LGBM",
+      "scenario": "A_model_A_inputs",
+      "n": 1063,
+      "max_absolute_difference": 0.0
+    },
+    {
+      "block": "2016_2017",
+      "model": "LGBM",
+      "scenario": "A_model_B_inputs",
+      "n": 1063,
+      "max_absolute_difference": 0.0
+    },
+    {
+      "block": "2018_2019",
+      "model": "LR",
+      "scenario": "A_model_A_inputs",
+      "n": 946,
+      "max_absolute_difference": 2.42861286636753e-17
+    },
+    {
+      "block": "2018_2019",
+      "model": "LR",
+      "scenario": "A_model_B_inputs",
+      "n": 946,
+      "max_absolute_difference": 2.42861286636753e-17
+    },
+    {
+      "block": "2018_2019",
+      "model": "LGBM",
+      "scenario": "A_model_A_inputs",
+      "n": 946,
+      "max_absolute_difference": 0.0
+    },
+    {
+      "block": "2018_2019",
+      "model": "LGBM",
+      "scenario": "A_model_B_inputs",
+      "n": 946,
+      "max_absolute_difference": 0.0
+    },
+    {
+      "block": "2020_2021",
+      "model": "LR",
+      "scenario": "A_model_A_inputs",
+      "n": 845,
+      "max_absolute_difference": 4.85722573273506e-17
+    },
+    {
+      "block": "2020_2021",
+      "model": "LR",
+      "scenario": "A_model_B_inputs",
+      "n": 845,
+      "max_absolute_difference": 4.85722573273506e-17
+    },
+    {
+      "block": "2020_2021",
+      "model": "LGBM",
+      "scenario": "A_model_A_inputs",
+      "n": 845,
+      "max_absolute_difference": 0.0
+    },
+    {
+      "block": "2020_2021",
+      "model": "LGBM",
+      "scenario": "A_model_B_inputs",
+      "n": 845,
+      "max_absolute_difference": 0.0
+    }
+  ],
+  "fold_counts": [
+    {
+      "block": "2016_2017",
+      "role": "tuning_train",
+      "n": 181,
+      "positive_windows": 3,
+      "max_decision_date": "2011-09-29",
+      "max_mature_date": "2012-12-27"
+    },
+    {
+      "block": "2016_2017",
+      "role": "validation",
+      "n": 609,
+      "positive_windows": 7,
+      "max_decision_date": "2013-12-31",
+      "max_mature_date": "2015-03-31"
+    },
+    {
+      "block": "2016_2017",
+      "role": "refit",
+      "n": 2024,
+      "positive_windows": 39,
+      "max_decision_date": "2014-09-30",
+      "max_mature_date": "2015-12-29"
+    },
+    {
+      "block": "2016_2017",
+      "role": "test",
+      "n": 1063,
+      "positive_windows": 51,
+      "max_decision_date": "2017-12-30",
+      "max_mature_date": "2019-03-30"
+    },
+    {
+      "block": "2018_2019",
+      "role": "tuning_train",
+      "n": 1415,
+      "positive_windows": 27,
+      "max_decision_date": "2013-10-01",
+      "max_mature_date": "2014-12-30"
+    },
+    {
+      "block": "2018_2019",
+      "role": "validation",
+      "n": 587,
+      "positive_windows": 24,
+      "max_decision_date": "2015-12-24",
+      "max_mature_date": "2017-03-23"
+    },
+    {
+      "block": "2018_2019",
+      "role": "refit",
+      "n": 3167,
+      "positive_windows": 95,
+      "max_decision_date": "2016-09-29",
+      "max_mature_date": "2017-12-28"
+    },
+    {
+      "block": "2018_2019",
+      "role": "test",
+      "n": 946,
+      "positive_windows": 28,
+      "max_decision_date": "2019-12-28",
+      "max_mature_date": "2021-03-27"
+    },
+    {
+      "block": "2020_2021",
+      "role": "tuning_train",
+      "n": 2607,
+      "positive_windows": 64,
+      "max_decision_date": "2015-10-02",
+      "max_mature_date": "2016-12-30"
+    },
+    {
+      "block": "2020_2021",
+      "role": "validation",
+      "n": 509,
+      "positive_windows": 20,
+      "max_decision_date": "2017-12-30",
+      "max_mature_date": "2019-03-30"
+    },
+    {
+      "block": "2020_2021",
+      "role": "refit",
+      "n": 4161,
+      "positive_windows": 124,
+      "max_decision_date": "2018-09-29",
+      "max_mature_date": "2019-12-28"
+    },
+    {
+      "block": "2020_2021",
+      "role": "test",
+      "n": 845,
+      "positive_windows": 44,
+      "max_decision_date": "2021-12-30",
+      "max_mature_date": "2023-03-30"
+    }
+  ],
+  "selected_candidates": [
+    {
+      "block": "2016_2017",
+      "model": "LR",
+      "version": "A",
+      "candidate": 3,
+      "parameters": {
+        "C": 10.0
+      },
+      "validation_AP": 0.005889227473329334,
+      "validation_exact_AP_tie_count": 1
+    },
+    {
+      "block": "2016_2017",
+      "model": "LGBM",
+      "version": "A",
+      "candidate": 0,
+      "parameters": {
+        "num_leaves": 7,
+        "min_child_samples": 30
+      },
+      "validation_AP": 0.0037101934314426885,
+      "validation_exact_AP_tie_count": 2
+    },
+    {
+      "block": "2016_2017",
+      "model": "LR",
+      "version": "B",
+      "candidate": 3,
+      "parameters": {
+        "C": 10.0
+      },
+      "validation_AP": 0.006806728964718316,
+      "validation_exact_AP_tie_count": 1
+    },
+    {
+      "block": "2016_2017",
+      "model": "LGBM",
+      "version": "B",
+      "candidate": 1,
+      "parameters": {
+        "num_leaves": 7,
+        "min_child_samples": 60
+      },
+      "validation_AP": 0.0030762000065046495,
+      "validation_exact_AP_tie_count": 2
+    },
+    {
+      "block": "2018_2019",
+      "model": "LR",
+      "version": "A",
+      "candidate": 3,
+      "parameters": {
+        "C": 10.0
+      },
+      "validation_AP": 0.015380366414996531,
+      "validation_exact_AP_tie_count": 1
+    },
+    {
+      "block": "2018_2019",
+      "model": "LGBM",
+      "version": "A",
+      "candidate": 2,
+      "parameters": {
+        "num_leaves": 15,
+        "min_child_samples": 30
+      },
+      "validation_AP": 0.3133342470958615,
+      "validation_exact_AP_tie_count": 1
+    },
+    {
+      "block": "2018_2019",
+      "model": "LR",
+      "version": "B",
+      "candidate": 1,
+      "parameters": {
+        "C": 0.1
+      },
+      "validation_AP": 0.015256717152770969,
+      "validation_exact_AP_tie_count": 1
+    },
+    {
+      "block": "2018_2019",
+      "model": "LGBM",
+      "version": "B",
+      "candidate": 2,
+      "parameters": {
+        "num_leaves": 15,
+        "min_child_samples": 30
+      },
+      "validation_AP": 0.36057919824112594,
+      "validation_exact_AP_tie_count": 1
+    },
+    {
+      "block": "2020_2021",
+      "model": "LR",
+      "version": "A",
+      "candidate": 3,
+      "parameters": {
+        "C": 10.0
+      },
+      "validation_AP": 0.0075807154991201255,
+      "validation_exact_AP_tie_count": 1
+    },
+    {
+      "block": "2020_2021",
+      "model": "LGBM",
+      "version": "A",
+      "candidate": 3,
+      "parameters": {
+        "num_leaves": 15,
+        "min_child_samples": 60
+      },
+      "validation_AP": 0.2287581693302554,
+      "validation_exact_AP_tie_count": 1
+    },
+    {
+      "block": "2020_2021",
+      "model": "LR",
+      "version": "B",
+      "candidate": 3,
+      "parameters": {
+        "C": 10.0
+      },
+      "validation_AP": 0.007568822753217736,
+      "validation_exact_AP_tie_count": 1
+    },
+    {
+      "block": "2020_2021",
+      "model": "LGBM",
+      "version": "B",
+      "candidate": 1,
+      "parameters": {
+        "num_leaves": 7,
+        "min_child_samples": 60
+      },
+      "validation_AP": 0.2709640301982911,
+      "validation_exact_AP_tie_count": 1
+    }
+  ],
+  "candidate_validation_recomputations": [
+    {
+      "block": "2016_2017",
+      "model": "LGBM",
+      "version": "A",
+      "candidate": 0,
+      "recomputed_AP": 0.0037101934314426885
+    },
+    {
+      "block": "2016_2017",
+      "model": "LGBM",
+      "version": "A",
+      "candidate": 1,
+      "recomputed_AP": 0.002849704413482562
+    },
+    {
+      "block": "2016_2017",
+      "model": "LGBM",
+      "version": "A",
+      "candidate": 2,
+      "recomputed_AP": 0.003710193431442689
+    },
+    {
+      "block": "2016_2017",
+      "model": "LGBM",
+      "version": "A",
+      "candidate": 3,
+      "recomputed_AP": 0.002849704413482562
+    },
+    {
+      "block": "2016_2017",
+      "model": "LGBM",
+      "version": "B",
+      "candidate": 0,
+      "recomputed_AP": 0.0029572303432582165
+    },
+    {
+      "block": "2016_2017",
+      "model": "LGBM",
+      "version": "B",
+      "candidate": 1,
+      "recomputed_AP": 0.0030762000065046495
+    },
+    {
+      "block": "2016_2017",
+      "model": "LGBM",
+      "version": "B",
+      "candidate": 2,
+      "recomputed_AP": 0.0029572303432582165
+    },
+    {
+      "block": "2016_2017",
+      "model": "LGBM",
+      "version": "B",
+      "candidate": 3,
+      "recomputed_AP": 0.0030762000065046495
+    },
+    {
+      "block": "2016_2017",
+      "model": "LR",
+      "version": "A",
+      "candidate": 0,
+      "recomputed_AP": 0.00436964813624091
+    },
+    {
+      "block": "2016_2017",
+      "model": "LR",
+      "version": "A",
+      "candidate": 1,
+      "recomputed_AP": 0.004415211453984854
+    },
+    {
+      "block": "2016_2017",
+      "model": "LR",
+      "version": "A",
+      "candidate": 2,
+      "recomputed_AP": 0.004646332208906074
+    },
+    {
+      "block": "2016_2017",
+      "model": "LR",
+      "version": "A",
+      "candidate": 3,
+      "recomputed_AP": 0.005889227473329334
+    },
+    {
+      "block": "2016_2017",
+      "model": "LR",
+      "version": "B",
+      "candidate": 0,
+      "recomputed_AP": 0.00477445713814647
+    },
+    {
+      "block": "2016_2017",
+      "model": "LR",
+      "version": "B",
+      "candidate": 1,
+      "recomputed_AP": 0.004840881927326537
+    },
+    {
+      "block": "2016_2017",
+      "model": "LR",
+      "version": "B",
+      "candidate": 2,
+      "recomputed_AP": 0.005156632544030699
+    },
+    {
+      "block": "2016_2017",
+      "model": "LR",
+      "version": "B",
+      "candidate": 3,
+      "recomputed_AP": 0.006806728964718316
+    },
+    {
+      "block": "2018_2019",
+      "model": "LGBM",
+      "version": "A",
+      "candidate": 0,
+      "recomputed_AP": 0.2936456153566361
+    },
+    {
+      "block": "2018_2019",
+      "model": "LGBM",
+      "version": "A",
+      "candidate": 1,
+      "recomputed_AP": 0.2865259393732181
+    },
+    {
+      "block": "2018_2019",
+      "model": "LGBM",
+      "version": "A",
+      "candidate": 2,
+      "recomputed_AP": 0.3133342470958615
+    },
+    {
+      "block": "2018_2019",
+      "model": "LGBM",
+      "version": "A",
+      "candidate": 3,
+      "recomputed_AP": 0.2811962284419242
+    },
+    {
+      "block": "2018_2019",
+      "model": "LGBM",
+      "version": "B",
+      "candidate": 0,
+      "recomputed_AP": 0.31296251477181863
+    },
+    {
+      "block": "2018_2019",
+      "model": "LGBM",
+      "version": "B",
+      "candidate": 1,
+      "recomputed_AP": 0.2886225962917893
+    },
+    {
+      "block": "2018_2019",
+      "model": "LGBM",
+      "version": "B",
+      "candidate": 2,
+      "recomputed_AP": 0.36057919824112594
+    },
+    {
+      "block": "2018_2019",
+      "model": "LGBM",
+      "version": "B",
+      "candidate": 3,
+      "recomputed_AP": 0.3172838965192293
+    },
+    {
+      "block": "2018_2019",
+      "model": "LR",
+      "version": "A",
+      "candidate": 0,
+      "recomputed_AP": 0.012839566461778609
+    },
+    {
+      "block": "2018_2019",
+      "model": "LR",
+      "version": "A",
+      "candidate": 1,
+      "recomputed_AP": 0.014551875967648313
+    },
+    {
+      "block": "2018_2019",
+      "model": "LR",
+      "version": "A",
+      "candidate": 2,
+      "recomputed_AP": 0.014396325387787939
+    },
+    {
+      "block": "2018_2019",
+      "model": "LR",
+      "version": "A",
+      "candidate": 3,
+      "recomputed_AP": 0.015380366414996531
+    },
+    {
+      "block": "2018_2019",
+      "model": "LR",
+      "version": "B",
+      "candidate": 0,
+      "recomputed_AP": 0.012783522545159125
+    },
+    {
+      "block": "2018_2019",
+      "model": "LR",
+      "version": "B",
+      "candidate": 1,
+      "recomputed_AP": 0.015256717152770969
+    },
+    {
+      "block": "2018_2019",
+      "model": "LR",
+      "version": "B",
+      "candidate": 2,
+      "recomputed_AP": 0.014284345603218835
+    },
+    {
+      "block": "2018_2019",
+      "model": "LR",
+      "version": "B",
+      "candidate": 3,
+      "recomputed_AP": 0.015228743220609601
+    },
+    {
+      "block": "2020_2021",
+      "model": "LGBM",
+      "version": "A",
+      "candidate": 0,
+      "recomputed_AP": 0.22102857018426192
+    },
+    {
+      "block": "2020_2021",
+      "model": "LGBM",
+      "version": "A",
+      "candidate": 1,
+      "recomputed_AP": 0.20964144240537516
+    },
+    {
+      "block": "2020_2021",
+      "model": "LGBM",
+      "version": "A",
+      "candidate": 2,
+      "recomputed_AP": 0.21608247908682116
+    },
+    {
+      "block": "2020_2021",
+      "model": "LGBM",
+      "version": "A",
+      "candidate": 3,
+      "recomputed_AP": 0.2287581693302554
+    },
+    {
+      "block": "2020_2021",
+      "model": "LGBM",
+      "version": "B",
+      "candidate": 0,
+      "recomputed_AP": 0.2698496485679111
+    },
+    {
+      "block": "2020_2021",
+      "model": "LGBM",
+      "version": "B",
+      "candidate": 1,
+      "recomputed_AP": 0.2709640301982911
+    },
+    {
+      "block": "2020_2021",
+      "model": "LGBM",
+      "version": "B",
+      "candidate": 2,
+      "recomputed_AP": 0.25506674078294095
+    },
+    {
+      "block": "2020_2021",
+      "model": "LGBM",
+      "version": "B",
+      "candidate": 3,
+      "recomputed_AP": 0.24443219961955923
+    },
+    {
+      "block": "2020_2021",
+      "model": "LR",
+      "version": "A",
+      "candidate": 0,
+      "recomputed_AP": 0.005637152022188519
+    },
+    {
+      "block": "2020_2021",
+      "model": "LR",
+      "version": "A",
+      "candidate": 1,
+      "recomputed_AP": 0.006026152208871297
+    },
+    {
+      "block": "2020_2021",
+      "model": "LR",
+      "version": "A",
+      "candidate": 2,
+      "recomputed_AP": 0.006838183049866281
+    },
+    {
+      "block": "2020_2021",
+      "model": "LR",
+      "version": "A",
+      "candidate": 3,
+      "recomputed_AP": 0.0075807154991201255
+    },
+    {
+      "block": "2020_2021",
+      "model": "LR",
+      "version": "B",
+      "candidate": 0,
+      "recomputed_AP": 0.005610006442870715
+    },
+    {
+      "block": "2020_2021",
+      "model": "LR",
+      "version": "B",
+      "candidate": 1,
+      "recomputed_AP": 0.006010793933497912
+    },
+    {
+      "block": "2020_2021",
+      "model": "LR",
+      "version": "B",
+      "candidate": 2,
+      "recomputed_AP": 0.006818915676175317
+    },
+    {
+      "block": "2020_2021",
+      "model": "LR",
+      "version": "B",
+      "candidate": 3,
+      "recomputed_AP": 0.007568822753217736
+    }
+  ],
+  "fit_warning_logs": [],
+  "required_interpretive_warnings": [
+    "tuning_train: only 3 positive filing windows; count is not independent events, tuning/metrics can be unstable",
+    "validation: only 7 positive filing windows; count is not independent events, tuning/metrics can be unstable",
+    "Conditional design uncertainty does not quantify training/tuning variability; sparse early-fold tuning must not be described as stable or robust.",
+    "Same CIKs may recur over time by design; historical labels mature before each fitting cutoff, but this is temporal rather than unseen-company validation.",
+    "B is a future-vintage diagnostic; recomputation does not establish deployability, historical API authenticity, or completeness of legal bankruptcy labels."
+  ],
+  "checks": [
+    {
+      "check": "run_completed",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "main_hash_matches_manifest",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "trainer_hash_matches_manifest",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "protocol_hash_matches_manifest",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "gate_hash_matches_training_binding",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "passed_gate_binds_same_cohort",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "frozen_predictions_hash_matches_manifest",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "frozen_metrics_hash_matches_manifest",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "frozen_differences_hash_matches_manifest",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "48_tuning_12_final_6_inference_logs",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "all_candidate_and_final_fits_successful",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "prediction_aliases_and_design_weights",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "single_metric_row_('2016_2017', 'PREVALENCE', 'shared')",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "recomputed_test_metrics_('2016_2017', 'PREVALENCE', 'shared')",
+      "pass": true,
+      "detail": {
+        "average_precision": 1.3444106938820255e-16,
+        "brier": 3.469446951953614e-17,
+        "roc_auc": 0.0,
+        "retrospective_recall_at_5percent": 0.0,
+        "retrospective_selected_weight": 0.0
+      }
+    },
+    {
+      "check": "tie_aware_capacity_('2016_2017', 'PREVALENCE', 'shared')",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "single_metric_row_('2016_2017', 'LR', 'A')",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "recomputed_test_metrics_('2016_2017', 'LR', 'A')",
+      "pass": true,
+      "detail": {
+        "average_precision": 3.2959746043559335e-17,
+        "brier": 3.2959746043559335e-17,
+        "roc_auc": 3.6637359812630166e-15,
+        "retrospective_recall_at_5percent": 2.7755575615628914e-17,
+        "retrospective_selected_weight": 1.1368683772161603e-13
+      }
+    },
+    {
+      "check": "tie_aware_capacity_('2016_2017', 'LR', 'A')",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "single_metric_row_('2016_2017', 'LGBM', 'A')",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "recomputed_test_metrics_('2016_2017', 'LGBM', 'A')",
+      "pass": true,
+      "detail": {
+        "average_precision": 2.7755575615628914e-17,
+        "brier": 6.938893903907228e-17,
+        "roc_auc": 9.658940314238862e-15,
+        "retrospective_recall_at_5percent": 0.0,
+        "retrospective_selected_weight": 1.1368683772161603e-13
+      }
+    },
+    {
+      "check": "tie_aware_capacity_('2016_2017', 'LGBM', 'A')",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "single_metric_row_('2016_2017', 'LR', 'B')",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "recomputed_test_metrics_('2016_2017', 'LR', 'B')",
+      "pass": true,
+      "detail": {
+        "average_precision": 2.2551405187698492e-17,
+        "brier": 7.546047120499111e-17,
+        "roc_auc": 3.4416913763379853e-15,
+        "retrospective_recall_at_5percent": 2.7755575615628914e-17,
+        "retrospective_selected_weight": 1.1368683772161603e-13
+      }
+    },
+    {
+      "check": "tie_aware_capacity_('2016_2017', 'LR', 'B')",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "single_metric_row_('2016_2017', 'LGBM', 'B')",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "recomputed_test_metrics_('2016_2017', 'LGBM', 'B')",
+      "pass": true,
+      "detail": {
+        "average_precision": 5.551115123125783e-17,
+        "brier": 5.551115123125783e-17,
+        "roc_auc": 9.769962616701378e-15,
+        "retrospective_recall_at_5percent": 0.0,
+        "retrospective_selected_weight": 2.2737367544323206e-13
+      }
+    },
+    {
+      "check": "tie_aware_capacity_('2016_2017', 'LGBM', 'B')",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "single_metric_row_('2018_2019', 'PREVALENCE', 'shared')",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "recomputed_test_metrics_('2018_2019', 'PREVALENCE', 'shared')",
+      "pass": true,
+      "detail": {
+        "average_precision": 1.240327285323417e-16,
+        "brier": 3.642919299551295e-17,
+        "roc_auc": 0.0,
+        "retrospective_recall_at_5percent": 8.326672684688674e-17,
+        "retrospective_selected_weight": 1.1368683772161603e-13
+      }
+    },
+    {
+      "check": "tie_aware_capacity_('2018_2019', 'PREVALENCE', 'shared')",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "single_metric_row_('2018_2019', 'LR', 'A')",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "recomputed_test_metrics_('2018_2019', 'LR', 'A')",
+      "pass": true,
+      "detail": {
+        "average_precision": 6.071532165918825e-17,
+        "brier": 7.806255641895632e-18,
+        "roc_auc": 5.440092820663267e-15,
+        "retrospective_recall_at_5percent": 0.0,
+        "retrospective_selected_weight": 0.0
+      }
+    },
+    {
+      "check": "tie_aware_capacity_('2018_2019', 'LR', 'A')",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "single_metric_row_('2018_2019', 'LGBM', 'A')",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "recomputed_test_metrics_('2018_2019', 'LGBM', 'A')",
+      "pass": true,
+      "detail": {
+        "average_precision": 2.7755575615628914e-17,
+        "brier": 3.469446951953614e-17,
+        "roc_auc": 9.2148511043888e-15,
+        "retrospective_recall_at_5percent": 0.0,
+        "retrospective_selected_weight": 0.0
+      }
+    },
+    {
+      "check": "tie_aware_capacity_('2018_2019', 'LGBM', 'A')",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "single_metric_row_('2018_2019', 'LR', 'B')",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "recomputed_test_metrics_('2018_2019', 'LR', 'B')",
+      "pass": true,
+      "detail": {
+        "average_precision": 0.0,
+        "brier": 3.642919299551295e-17,
+        "roc_auc": 5.551115123125783e-15,
+        "retrospective_recall_at_5percent": 8.326672684688674e-17,
+        "retrospective_selected_weight": 1.1368683772161603e-13
+      }
+    },
+    {
+      "check": "tie_aware_capacity_('2018_2019', 'LR', 'B')",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "single_metric_row_('2018_2019', 'LGBM', 'B')",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "recomputed_test_metrics_('2018_2019', 'LGBM', 'B')",
+      "pass": true,
+      "detail": {
+        "average_precision": 5.551115123125783e-17,
+        "brier": 3.469446951953614e-18,
+        "roc_auc": 9.2148511043888e-15,
+        "retrospective_recall_at_5percent": 0.0,
+        "retrospective_selected_weight": 1.1368683772161603e-13
+      }
+    },
+    {
+      "check": "tie_aware_capacity_('2018_2019', 'LGBM', 'B')",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "single_metric_row_('2020_2021', 'PREVALENCE', 'shared')",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "recomputed_test_metrics_('2020_2021', 'PREVALENCE', 'shared')",
+      "pass": true,
+      "detail": {
+        "average_precision": 9.584347204771859e-17,
+        "brier": 4.640385298237959e-17,
+        "roc_auc": 0.0,
+        "retrospective_recall_at_5percent": 6.938893903907228e-18,
+        "retrospective_selected_weight": 0.0
+      }
+    },
+    {
+      "check": "tie_aware_capacity_('2020_2021', 'PREVALENCE', 'shared')",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "single_metric_row_('2020_2021', 'LR', 'A')",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "recomputed_test_metrics_('2020_2021', 'LR', 'A')",
+      "pass": true,
+      "detail": {
+        "average_precision": 5.204170427930421e-17,
+        "brier": 8.847089727481716e-17,
+        "roc_auc": 5.995204332975845e-15,
+        "retrospective_recall_at_5percent": 0.0,
+        "retrospective_selected_weight": 1.1368683772161603e-13
+      }
+    },
+    {
+      "check": "tie_aware_capacity_('2020_2021', 'LR', 'A')",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "single_metric_row_('2020_2021', 'LGBM', 'A')",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "recomputed_test_metrics_('2020_2021', 'LGBM', 'A')",
+      "pass": true,
+      "detail": {
+        "average_precision": 1.3877787807814457e-17,
+        "brier": 4.163336342344337e-17,
+        "roc_auc": 7.882583474838611e-15,
+        "retrospective_recall_at_5percent": 0.0,
+        "retrospective_selected_weight": 1.1368683772161603e-13
+      }
+    },
+    {
+      "check": "tie_aware_capacity_('2020_2021', 'LGBM', 'A')",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "single_metric_row_('2020_2021', 'LR', 'B')",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "recomputed_test_metrics_('2020_2021', 'LR', 'B')",
+      "pass": true,
+      "detail": {
+        "average_precision": 3.469446951953614e-18,
+        "brier": 1.7780915628762273e-17,
+        "roc_auc": 5.88418203051333e-15,
+        "retrospective_recall_at_5percent": 0.0,
+        "retrospective_selected_weight": 0.0
+      }
+    },
+    {
+      "check": "tie_aware_capacity_('2020_2021', 'LR', 'B')",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "single_metric_row_('2020_2021', 'LGBM', 'B')",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "recomputed_test_metrics_('2020_2021', 'LGBM', 'B')",
+      "pass": true,
+      "detail": {
+        "average_precision": 6.938893903907228e-17,
+        "brier": 0.0,
+        "roc_auc": 8.43769498715119e-15,
+        "retrospective_recall_at_5percent": 0.0,
+        "retrospective_selected_weight": 0.0
+      }
+    },
+    {
+      "check": "tie_aware_capacity_('2020_2021', 'LGBM', 'B')",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "15_test_cells",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "recomputed_frozen_metrics_('2016_2017', 'LR', 'A_model_A_inputs')",
+      "pass": true,
+      "detail": {
+        "average_precision": 3.2959746043559335e-17,
+        "brier": 3.2959746043559335e-17,
+        "roc_auc": 3.6637359812630166e-15,
+        "retrospective_recall_at_5percent": 2.7755575615628914e-17,
+        "retrospective_selected_weight": 1.1368683772161603e-13
+      }
+    },
+    {
+      "check": "recomputed_frozen_metrics_('2016_2017', 'LR', 'A_model_B_inputs')",
+      "pass": true,
+      "detail": {
+        "average_precision": 3.122502256758253e-17,
+        "brier": 2.0816681711721685e-17,
+        "roc_auc": 3.4416913763379853e-15,
+        "retrospective_recall_at_5percent": 2.7755575615628914e-17,
+        "retrospective_selected_weight": 0.0
+      }
+    },
+    {
+      "check": "recomputed_frozen_metrics_('2016_2017', 'LGBM', 'A_model_A_inputs')",
+      "pass": true,
+      "detail": {
+        "average_precision": 2.7755575615628914e-17,
+        "brier": 6.938893903907228e-17,
+        "roc_auc": 9.658940314238862e-15,
+        "retrospective_recall_at_5percent": 0.0,
+        "retrospective_selected_weight": 1.1368683772161603e-13
+      }
+    },
+    {
+      "check": "recomputed_frozen_metrics_('2016_2017', 'LGBM', 'A_model_B_inputs')",
+      "pass": true,
+      "detail": {
+        "average_precision": 2.7755575615628914e-17,
+        "brier": 6.591949208711867e-17,
+        "roc_auc": 9.547918011776346e-15,
+        "retrospective_recall_at_5percent": 0.0,
+        "retrospective_selected_weight": 1.1368683772161603e-13
+      }
+    },
+    {
+      "check": "recomputed_frozen_metrics_('2018_2019', 'LR', 'A_model_A_inputs')",
+      "pass": true,
+      "detail": {
+        "average_precision": 6.071532165918825e-17,
+        "brier": 7.806255641895632e-18,
+        "roc_auc": 5.440092820663267e-15,
+        "retrospective_recall_at_5percent": 0.0,
+        "retrospective_selected_weight": 0.0
+      }
+    },
+    {
+      "check": "recomputed_frozen_metrics_('2018_2019', 'LR', 'A_model_B_inputs')",
+      "pass": true,
+      "detail": {
+        "average_precision": 8.500145032286355e-17,
+        "brier": 4.163336342344337e-17,
+        "roc_auc": 5.329070518200751e-15,
+        "retrospective_recall_at_5percent": 0.0,
+        "retrospective_selected_weight": 0.0
+      }
+    },
+    {
+      "check": "recomputed_frozen_metrics_('2018_2019', 'LGBM', 'A_model_A_inputs')",
+      "pass": true,
+      "detail": {
+        "average_precision": 2.7755575615628914e-17,
+        "brier": 3.469446951953614e-17,
+        "roc_auc": 9.2148511043888e-15,
+        "retrospective_recall_at_5percent": 0.0,
+        "retrospective_selected_weight": 0.0
+      }
+    },
+    {
+      "check": "recomputed_frozen_metrics_('2018_2019', 'LGBM', 'A_model_B_inputs')",
+      "pass": true,
+      "detail": {
+        "average_precision": 8.326672684688674e-17,
+        "brier": 3.0791341698588326e-17,
+        "roc_auc": 9.325873406851315e-15,
+        "retrospective_recall_at_5percent": 0.0,
+        "retrospective_selected_weight": 1.1368683772161603e-13
+      }
+    },
+    {
+      "check": "recomputed_frozen_metrics_('2020_2021', 'LR', 'A_model_A_inputs')",
+      "pass": true,
+      "detail": {
+        "average_precision": 5.204170427930421e-17,
+        "brier": 8.847089727481716e-17,
+        "roc_auc": 5.995204332975845e-15,
+        "retrospective_recall_at_5percent": 0.0,
+        "retrospective_selected_weight": 1.1368683772161603e-13
+      }
+    },
+    {
+      "check": "recomputed_frozen_metrics_('2020_2021', 'LR', 'A_model_B_inputs')",
+      "pass": true,
+      "detail": {
+        "average_precision": 1.734723475976807e-17,
+        "brier": 1.8214596497756474e-17,
+        "roc_auc": 6.106226635438361e-15,
+        "retrospective_recall_at_5percent": 0.0,
+        "retrospective_selected_weight": 0.0
+      }
+    },
+    {
+      "check": "recomputed_frozen_metrics_('2020_2021', 'LGBM', 'A_model_A_inputs')",
+      "pass": true,
+      "detail": {
+        "average_precision": 1.3877787807814457e-17,
+        "brier": 4.163336342344337e-17,
+        "roc_auc": 7.882583474838611e-15,
+        "retrospective_recall_at_5percent": 0.0,
+        "retrospective_selected_weight": 1.1368683772161603e-13
+      }
+    },
+    {
+      "check": "recomputed_frozen_metrics_('2020_2021', 'LGBM', 'A_model_B_inputs')",
+      "pass": true,
+      "detail": {
+        "average_precision": 1.3877787807814457e-17,
+        "brier": 7.806255641895632e-18,
+        "roc_auc": 7.882583474838611e-15,
+        "retrospective_recall_at_5percent": 0.0,
+        "retrospective_selected_weight": 1.1368683772161603e-13
+      }
+    },
+    {
+      "check": "exact_fold_membership_2016_2017_tuning_train",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "fold_saved_dates_weights_2016_2017_tuning_train",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "exact_fold_membership_2016_2017_validation",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "fold_saved_dates_weights_2016_2017_validation",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "exact_fold_membership_2016_2017_refit",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "fold_saved_dates_weights_2016_2017_refit",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "exact_fold_membership_2016_2017_test",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "fold_saved_dates_weights_2016_2017_test",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "no_fold_record_overlap_2016_2017",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "complete_test_rows_2016_2017('LGBM', 'A')",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "complete_test_rows_2016_2017('LGBM', 'B')",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "complete_test_rows_2016_2017('LR', 'A')",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "complete_test_rows_2016_2017('LR', 'B')",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "complete_test_rows_2016_2017('PREVALENCE', 'shared')",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "complete_validation_rows_2016_2017('LGBM', 'A', 0)",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "complete_validation_rows_2016_2017('LGBM', 'A', 1)",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "complete_validation_rows_2016_2017('LGBM', 'A', 2)",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "complete_validation_rows_2016_2017('LGBM', 'A', 3)",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "complete_validation_rows_2016_2017('LGBM', 'B', 0)",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "complete_validation_rows_2016_2017('LGBM', 'B', 1)",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "complete_validation_rows_2016_2017('LGBM', 'B', 2)",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "complete_validation_rows_2016_2017('LGBM', 'B', 3)",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "complete_validation_rows_2016_2017('LR', 'A', 0)",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "complete_validation_rows_2016_2017('LR', 'A', 1)",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "complete_validation_rows_2016_2017('LR', 'A', 2)",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "complete_validation_rows_2016_2017('LR', 'A', 3)",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "complete_validation_rows_2016_2017('LR', 'B', 0)",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "complete_validation_rows_2016_2017('LR', 'B', 1)",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "complete_validation_rows_2016_2017('LR', 'B', 2)",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "complete_validation_rows_2016_2017('LR', 'B', 3)",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "prevalence_uses_mature_refit_2016_2017",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "exact_fold_membership_2018_2019_tuning_train",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "fold_saved_dates_weights_2018_2019_tuning_train",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "exact_fold_membership_2018_2019_validation",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "fold_saved_dates_weights_2018_2019_validation",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "exact_fold_membership_2018_2019_refit",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "fold_saved_dates_weights_2018_2019_refit",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "exact_fold_membership_2018_2019_test",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "fold_saved_dates_weights_2018_2019_test",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "no_fold_record_overlap_2018_2019",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "complete_test_rows_2018_2019('LGBM', 'A')",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "complete_test_rows_2018_2019('LGBM', 'B')",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "complete_test_rows_2018_2019('LR', 'A')",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "complete_test_rows_2018_2019('LR', 'B')",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "complete_test_rows_2018_2019('PREVALENCE', 'shared')",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "complete_validation_rows_2018_2019('LGBM', 'A', 0)",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "complete_validation_rows_2018_2019('LGBM', 'A', 1)",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "complete_validation_rows_2018_2019('LGBM', 'A', 2)",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "complete_validation_rows_2018_2019('LGBM', 'A', 3)",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "complete_validation_rows_2018_2019('LGBM', 'B', 0)",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "complete_validation_rows_2018_2019('LGBM', 'B', 1)",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "complete_validation_rows_2018_2019('LGBM', 'B', 2)",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "complete_validation_rows_2018_2019('LGBM', 'B', 3)",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "complete_validation_rows_2018_2019('LR', 'A', 0)",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "complete_validation_rows_2018_2019('LR', 'A', 1)",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "complete_validation_rows_2018_2019('LR', 'A', 2)",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "complete_validation_rows_2018_2019('LR', 'A', 3)",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "complete_validation_rows_2018_2019('LR', 'B', 0)",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "complete_validation_rows_2018_2019('LR', 'B', 1)",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "complete_validation_rows_2018_2019('LR', 'B', 2)",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "complete_validation_rows_2018_2019('LR', 'B', 3)",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "prevalence_uses_mature_refit_2018_2019",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "exact_fold_membership_2020_2021_tuning_train",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "fold_saved_dates_weights_2020_2021_tuning_train",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "exact_fold_membership_2020_2021_validation",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "fold_saved_dates_weights_2020_2021_validation",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "exact_fold_membership_2020_2021_refit",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "fold_saved_dates_weights_2020_2021_refit",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "exact_fold_membership_2020_2021_test",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "fold_saved_dates_weights_2020_2021_test",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "no_fold_record_overlap_2020_2021",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "complete_test_rows_2020_2021('LGBM', 'A')",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "complete_test_rows_2020_2021('LGBM', 'B')",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "complete_test_rows_2020_2021('LR', 'A')",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "complete_test_rows_2020_2021('LR', 'B')",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "complete_test_rows_2020_2021('PREVALENCE', 'shared')",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "complete_validation_rows_2020_2021('LGBM', 'A', 0)",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "complete_validation_rows_2020_2021('LGBM', 'A', 1)",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "complete_validation_rows_2020_2021('LGBM', 'A', 2)",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "complete_validation_rows_2020_2021('LGBM', 'A', 3)",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "complete_validation_rows_2020_2021('LGBM', 'B', 0)",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "complete_validation_rows_2020_2021('LGBM', 'B', 1)",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "complete_validation_rows_2020_2021('LGBM', 'B', 2)",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "complete_validation_rows_2020_2021('LGBM', 'B', 3)",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "complete_validation_rows_2020_2021('LR', 'A', 0)",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "complete_validation_rows_2020_2021('LR', 'A', 1)",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "complete_validation_rows_2020_2021('LR', 'A', 2)",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "complete_validation_rows_2020_2021('LR', 'A', 3)",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "complete_validation_rows_2020_2021('LR', 'B', 0)",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "complete_validation_rows_2020_2021('LR', 'B', 1)",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "complete_validation_rows_2020_2021('LR', 'B', 2)",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "complete_validation_rows_2020_2021('LR', 'B', 3)",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "prevalence_uses_mature_refit_2020_2021",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "validation_AP_log_('2016_2017', 'LGBM', 'A', 0)",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "validation_AP_log_('2016_2017', 'LGBM', 'A', 1)",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "validation_AP_log_('2016_2017', 'LGBM', 'A', 2)",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "validation_AP_log_('2016_2017', 'LGBM', 'A', 3)",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "validation_AP_log_('2016_2017', 'LGBM', 'B', 0)",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "validation_AP_log_('2016_2017', 'LGBM', 'B', 1)",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "validation_AP_log_('2016_2017', 'LGBM', 'B', 2)",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "validation_AP_log_('2016_2017', 'LGBM', 'B', 3)",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "validation_AP_log_('2016_2017', 'LR', 'A', 0)",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "validation_AP_log_('2016_2017', 'LR', 'A', 1)",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "validation_AP_log_('2016_2017', 'LR', 'A', 2)",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "validation_AP_log_('2016_2017', 'LR', 'A', 3)",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "validation_AP_log_('2016_2017', 'LR', 'B', 0)",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "validation_AP_log_('2016_2017', 'LR', 'B', 1)",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "validation_AP_log_('2016_2017', 'LR', 'B', 2)",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "validation_AP_log_('2016_2017', 'LR', 'B', 3)",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "validation_AP_log_('2018_2019', 'LGBM', 'A', 0)",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "validation_AP_log_('2018_2019', 'LGBM', 'A', 1)",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "validation_AP_log_('2018_2019', 'LGBM', 'A', 2)",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "validation_AP_log_('2018_2019', 'LGBM', 'A', 3)",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "validation_AP_log_('2018_2019', 'LGBM', 'B', 0)",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "validation_AP_log_('2018_2019', 'LGBM', 'B', 1)",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "validation_AP_log_('2018_2019', 'LGBM', 'B', 2)",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "validation_AP_log_('2018_2019', 'LGBM', 'B', 3)",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "validation_AP_log_('2018_2019', 'LR', 'A', 0)",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "validation_AP_log_('2018_2019', 'LR', 'A', 1)",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "validation_AP_log_('2018_2019', 'LR', 'A', 2)",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "validation_AP_log_('2018_2019', 'LR', 'A', 3)",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "validation_AP_log_('2018_2019', 'LR', 'B', 0)",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "validation_AP_log_('2018_2019', 'LR', 'B', 1)",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "validation_AP_log_('2018_2019', 'LR', 'B', 2)",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "validation_AP_log_('2018_2019', 'LR', 'B', 3)",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "validation_AP_log_('2020_2021', 'LGBM', 'A', 0)",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "validation_AP_log_('2020_2021', 'LGBM', 'A', 1)",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "validation_AP_log_('2020_2021', 'LGBM', 'A', 2)",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "validation_AP_log_('2020_2021', 'LGBM', 'A', 3)",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "validation_AP_log_('2020_2021', 'LGBM', 'B', 0)",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "validation_AP_log_('2020_2021', 'LGBM', 'B', 1)",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "validation_AP_log_('2020_2021', 'LGBM', 'B', 2)",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "validation_AP_log_('2020_2021', 'LGBM', 'B', 3)",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "validation_AP_log_('2020_2021', 'LR', 'A', 0)",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "validation_AP_log_('2020_2021', 'LR', 'A', 1)",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "validation_AP_log_('2020_2021', 'LR', 'A', 2)",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "validation_AP_log_('2020_2021', 'LR', 'A', 3)",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "validation_AP_log_('2020_2021', 'LR', 'B', 0)",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "validation_AP_log_('2020_2021', 'LR', 'B', 1)",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "validation_AP_log_('2020_2021', 'LR', 'B', 2)",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "validation_AP_log_('2020_2021', 'LR', 'B', 3)",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "chosen_candidate_('2016_2017', 'LR', 'A')",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "chosen_candidate_('2016_2017', 'LGBM', 'A')",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "chosen_candidate_('2016_2017', 'LR', 'B')",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "chosen_candidate_('2016_2017', 'LGBM', 'B')",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "chosen_candidate_('2018_2019', 'LR', 'A')",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "chosen_candidate_('2018_2019', 'LGBM', 'A')",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "chosen_candidate_('2018_2019', 'LR', 'B')",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "chosen_candidate_('2018_2019', 'LGBM', 'B')",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "chosen_candidate_('2020_2021', 'LR', 'A')",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "chosen_candidate_('2020_2021', 'LGBM', 'A')",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "chosen_candidate_('2020_2021', 'LR', 'B')",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "chosen_candidate_('2020_2021', 'LGBM', 'B')",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "train_only_preprocessing_('2016_2017', 'LR', 'A', 'tuning')",
+      "pass": true,
+      "detail": {
+        "lower": 0.0,
+        "upper": 0.0,
+        "median": 0.0,
+        "weighted_mean": 4.973799150320701e-14,
+        "weighted_sd": 6.217248937900877e-15
+      }
+    },
+    {
+      "check": "train_only_preprocessing_('2016_2017', 'LR', 'A', 'final')",
+      "pass": true,
+      "detail": {
+        "lower": 0.0,
+        "upper": 0.0,
+        "median": 0.0,
+        "weighted_mean": 7.105427357601002e-14,
+        "weighted_sd": 2.4158453015843406e-13
+      }
+    },
+    {
+      "check": "train_only_preprocessing_('2016_2017', 'LGBM', 'A', 'tuning')",
+      "pass": true,
+      "detail": {
+        "lower": 0.0,
+        "upper": 0.0,
+        "median": 0.0,
+        "weighted_mean": 4.973799150320701e-14,
+        "weighted_sd": 6.217248937900877e-15
+      }
+    },
+    {
+      "check": "train_only_preprocessing_('2016_2017', 'LGBM', 'A', 'final')",
+      "pass": true,
+      "detail": {
+        "lower": 0.0,
+        "upper": 0.0,
+        "median": 0.0,
+        "weighted_mean": 7.105427357601002e-14,
+        "weighted_sd": 2.4158453015843406e-13
+      }
+    },
+    {
+      "check": "train_only_preprocessing_('2016_2017', 'LR', 'B', 'tuning')",
+      "pass": true,
+      "detail": {
+        "lower": 0.0,
+        "upper": 0.0,
+        "median": 0.0,
+        "weighted_mean": 4.973799150320701e-14,
+        "weighted_sd": 6.217248937900877e-15
+      }
+    },
+    {
+      "check": "train_only_preprocessing_('2016_2017', 'LR', 'B', 'final')",
+      "pass": true,
+      "detail": {
+        "lower": 0.0,
+        "upper": 0.0,
+        "median": 0.0,
+        "weighted_mean": 6.750155989720952e-14,
+        "weighted_sd": 2.2737367544323206e-13
+      }
+    },
+    {
+      "check": "train_only_preprocessing_('2016_2017', 'LGBM', 'B', 'tuning')",
+      "pass": true,
+      "detail": {
+        "lower": 0.0,
+        "upper": 0.0,
+        "median": 0.0,
+        "weighted_mean": 4.973799150320701e-14,
+        "weighted_sd": 6.217248937900877e-15
+      }
+    },
+    {
+      "check": "train_only_preprocessing_('2016_2017', 'LGBM', 'B', 'final')",
+      "pass": true,
+      "detail": {
+        "lower": 0.0,
+        "upper": 0.0,
+        "median": 0.0,
+        "weighted_mean": 6.750155989720952e-14,
+        "weighted_sd": 2.2737367544323206e-13
+      }
+    },
+    {
+      "check": "train_only_preprocessing_('2018_2019', 'LR', 'A', 'tuning')",
+      "pass": true,
+      "detail": {
+        "lower": 0.0,
+        "upper": 0.0,
+        "median": 0.0,
+        "weighted_mean": 4.263256414560601e-14,
+        "weighted_sd": 9.947598300641403e-14
+      }
+    },
+    {
+      "check": "train_only_preprocessing_('2018_2019', 'LR', 'A', 'final')",
+      "pass": true,
+      "detail": {
+        "lower": 0.0,
+        "upper": 0.0,
+        "median": 0.0,
+        "weighted_mean": 2.1316282072803006e-13,
+        "weighted_sd": 1.0658141036401503e-13
+      }
+    },
+    {
+      "check": "train_only_preprocessing_('2018_2019', 'LGBM', 'A', 'tuning')",
+      "pass": true,
+      "detail": {
+        "lower": 0.0,
+        "upper": 0.0,
+        "median": 0.0,
+        "weighted_mean": 4.263256414560601e-14,
+        "weighted_sd": 9.947598300641403e-14
+      }
+    },
+    {
+      "check": "train_only_preprocessing_('2018_2019', 'LGBM', 'A', 'final')",
+      "pass": true,
+      "detail": {
+        "lower": 0.0,
+        "upper": 0.0,
+        "median": 0.0,
+        "weighted_mean": 2.1316282072803006e-13,
+        "weighted_sd": 1.0658141036401503e-13
+      }
+    },
+    {
+      "check": "train_only_preprocessing_('2018_2019', 'LR', 'B', 'tuning')",
+      "pass": true,
+      "detail": {
+        "lower": 0.0,
+        "upper": 0.0,
+        "median": 0.0,
+        "weighted_mean": 4.263256414560601e-14,
+        "weighted_sd": 9.947598300641403e-14
+      }
+    },
+    {
+      "check": "train_only_preprocessing_('2018_2019', 'LR', 'B', 'final')",
+      "pass": true,
+      "detail": {
+        "lower": 0.0,
+        "upper": 0.0,
+        "median": 0.0,
+        "weighted_mean": 2.1316282072803006e-13,
+        "weighted_sd": 3.979039320256561e-13
+      }
+    },
+    {
+      "check": "train_only_preprocessing_('2018_2019', 'LGBM', 'B', 'tuning')",
+      "pass": true,
+      "detail": {
+        "lower": 0.0,
+        "upper": 0.0,
+        "median": 0.0,
+        "weighted_mean": 4.263256414560601e-14,
+        "weighted_sd": 9.947598300641403e-14
+      }
+    },
+    {
+      "check": "train_only_preprocessing_('2018_2019', 'LGBM', 'B', 'final')",
+      "pass": true,
+      "detail": {
+        "lower": 0.0,
+        "upper": 0.0,
+        "median": 0.0,
+        "weighted_mean": 2.1316282072803006e-13,
+        "weighted_sd": 3.979039320256561e-13
+      }
+    },
+    {
+      "check": "train_only_preprocessing_('2020_2021', 'LR', 'A', 'tuning')",
+      "pass": true,
+      "detail": {
+        "lower": 0.0,
+        "upper": 0.0,
+        "median": 0.0,
+        "weighted_mean": 1.1368683772161603e-13,
+        "weighted_sd": 1.2612133559741778e-13
+      }
+    },
+    {
+      "check": "train_only_preprocessing_('2020_2021', 'LR', 'A', 'final')",
+      "pass": true,
+      "detail": {
+        "lower": 0.0,
+        "upper": 0.0,
+        "median": 0.0,
+        "weighted_mean": 2.2737367544323206e-13,
+        "weighted_sd": 3.979039320256561e-13
+      }
+    },
+    {
+      "check": "train_only_preprocessing_('2020_2021', 'LGBM', 'A', 'tuning')",
+      "pass": true,
+      "detail": {
+        "lower": 0.0,
+        "upper": 0.0,
+        "median": 0.0,
+        "weighted_mean": 1.1368683772161603e-13,
+        "weighted_sd": 1.2612133559741778e-13
+      }
+    },
+    {
+      "check": "train_only_preprocessing_('2020_2021', 'LGBM', 'A', 'final')",
+      "pass": true,
+      "detail": {
+        "lower": 0.0,
+        "upper": 0.0,
+        "median": 0.0,
+        "weighted_mean": 2.2737367544323206e-13,
+        "weighted_sd": 3.979039320256561e-13
+      }
+    },
+    {
+      "check": "train_only_preprocessing_('2020_2021', 'LR', 'B', 'tuning')",
+      "pass": true,
+      "detail": {
+        "lower": 0.0,
+        "upper": 0.0,
+        "median": 0.0,
+        "weighted_mean": 1.2434497875801753e-13,
+        "weighted_sd": 1.5631940186722204e-13
+      }
+    },
+    {
+      "check": "train_only_preprocessing_('2020_2021', 'LR', 'B', 'final')",
+      "pass": true,
+      "detail": {
+        "lower": 0.0,
+        "upper": 0.0,
+        "median": 0.0,
+        "weighted_mean": 2.2737367544323206e-13,
+        "weighted_sd": 3.126388037344441e-13
+      }
+    },
+    {
+      "check": "train_only_preprocessing_('2020_2021', 'LGBM', 'B', 'tuning')",
+      "pass": true,
+      "detail": {
+        "lower": 0.0,
+        "upper": 0.0,
+        "median": 0.0,
+        "weighted_mean": 1.2434497875801753e-13,
+        "weighted_sd": 1.5631940186722204e-13
+      }
+    },
+    {
+      "check": "train_only_preprocessing_('2020_2021', 'LGBM', 'B', 'final')",
+      "pass": true,
+      "detail": {
+        "lower": 0.0,
+        "upper": 0.0,
+        "median": 0.0,
+        "weighted_mean": 2.2737367544323206e-13,
+        "weighted_sd": 3.126388037344441e-13
+      }
+    },
+    {
+      "check": "24_preprocessing_records",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "artifact_hash_models_20260921T093517075175Z_2016_2017_A_LR.joblib",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "artifact_prediction_('2016_2017', 'LR', 'A')",
+      "pass": true,
+      "detail": {
+        "n": 1063,
+        "max_absolute_difference": 8.673617379884035e-18
+      }
+    },
+    {
+      "check": "artifact_identity_('2016_2017', 'LR', 'A')",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "frozen_artifact_prediction_('2016_2017', 'LR', 'A_model_A_inputs')",
+      "pass": true,
+      "detail": {
+        "n": 1063,
+        "max_absolute_difference": 8.673617379884035e-18
+      }
+    },
+    {
+      "check": "frozen_artifact_prediction_('2016_2017', 'LR', 'A_model_B_inputs')",
+      "pass": true,
+      "detail": {
+        "n": 1063,
+        "max_absolute_difference": 1.3877787807814457e-17
+      }
+    },
+    {
+      "check": "artifact_hash_models_20260921T093517075175Z_2016_2017_A_LGBM.joblib",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "artifact_prediction_('2016_2017', 'LGBM', 'A')",
+      "pass": true,
+      "detail": {
+        "n": 1063,
+        "max_absolute_difference": 0.0
+      }
+    },
+    {
+      "check": "artifact_identity_('2016_2017', 'LGBM', 'A')",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "frozen_artifact_prediction_('2016_2017', 'LGBM', 'A_model_A_inputs')",
+      "pass": true,
+      "detail": {
+        "n": 1063,
+        "max_absolute_difference": 0.0
+      }
+    },
+    {
+      "check": "frozen_artifact_prediction_('2016_2017', 'LGBM', 'A_model_B_inputs')",
+      "pass": true,
+      "detail": {
+        "n": 1063,
+        "max_absolute_difference": 0.0
+      }
+    },
+    {
+      "check": "artifact_hash_models_20260921T093517075175Z_2016_2017_B_LR.joblib",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "artifact_prediction_('2016_2017', 'LR', 'B')",
+      "pass": true,
+      "detail": {
+        "n": 1063,
+        "max_absolute_difference": 6.938893903907228e-18
+      }
+    },
+    {
+      "check": "artifact_identity_('2016_2017', 'LR', 'B')",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "artifact_hash_models_20260921T093517075175Z_2016_2017_B_LGBM.joblib",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "artifact_prediction_('2016_2017', 'LGBM', 'B')",
+      "pass": true,
+      "detail": {
+        "n": 1063,
+        "max_absolute_difference": 0.0
+      }
+    },
+    {
+      "check": "artifact_identity_('2016_2017', 'LGBM', 'B')",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "artifact_hash_models_20260921T093517075175Z_2018_2019_A_LR.joblib",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "artifact_prediction_('2018_2019', 'LR', 'A')",
+      "pass": true,
+      "detail": {
+        "n": 946,
+        "max_absolute_difference": 2.42861286636753e-17
+      }
+    },
+    {
+      "check": "artifact_identity_('2018_2019', 'LR', 'A')",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "frozen_artifact_prediction_('2018_2019', 'LR', 'A_model_A_inputs')",
+      "pass": true,
+      "detail": {
+        "n": 946,
+        "max_absolute_difference": 2.42861286636753e-17
+      }
+    },
+    {
+      "check": "frozen_artifact_prediction_('2018_2019', 'LR', 'A_model_B_inputs')",
+      "pass": true,
+      "detail": {
+        "n": 946,
+        "max_absolute_difference": 2.42861286636753e-17
+      }
+    },
+    {
+      "check": "artifact_hash_models_20260921T093517075175Z_2018_2019_A_LGBM.joblib",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "artifact_prediction_('2018_2019', 'LGBM', 'A')",
+      "pass": true,
+      "detail": {
+        "n": 946,
+        "max_absolute_difference": 0.0
+      }
+    },
+    {
+      "check": "artifact_identity_('2018_2019', 'LGBM', 'A')",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "frozen_artifact_prediction_('2018_2019', 'LGBM', 'A_model_A_inputs')",
+      "pass": true,
+      "detail": {
+        "n": 946,
+        "max_absolute_difference": 0.0
+      }
+    },
+    {
+      "check": "frozen_artifact_prediction_('2018_2019', 'LGBM', 'A_model_B_inputs')",
+      "pass": true,
+      "detail": {
+        "n": 946,
+        "max_absolute_difference": 0.0
+      }
+    },
+    {
+      "check": "artifact_hash_models_20260921T093517075175Z_2018_2019_B_LR.joblib",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "artifact_prediction_('2018_2019', 'LR', 'B')",
+      "pass": true,
+      "detail": {
+        "n": 946,
+        "max_absolute_difference": 5.204170427930421e-18
+      }
+    },
+    {
+      "check": "artifact_identity_('2018_2019', 'LR', 'B')",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "artifact_hash_models_20260921T093517075175Z_2018_2019_B_LGBM.joblib",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "artifact_prediction_('2018_2019', 'LGBM', 'B')",
+      "pass": true,
+      "detail": {
+        "n": 946,
+        "max_absolute_difference": 0.0
+      }
+    },
+    {
+      "check": "artifact_identity_('2018_2019', 'LGBM', 'B')",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "artifact_hash_models_20260921T093517075175Z_2020_2021_A_LR.joblib",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "artifact_prediction_('2020_2021', 'LR', 'A')",
+      "pass": true,
+      "detail": {
+        "n": 845,
+        "max_absolute_difference": 4.85722573273506e-17
+      }
+    },
+    {
+      "check": "artifact_identity_('2020_2021', 'LR', 'A')",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "frozen_artifact_prediction_('2020_2021', 'LR', 'A_model_A_inputs')",
+      "pass": true,
+      "detail": {
+        "n": 845,
+        "max_absolute_difference": 4.85722573273506e-17
+      }
+    },
+    {
+      "check": "frozen_artifact_prediction_('2020_2021', 'LR', 'A_model_B_inputs')",
+      "pass": true,
+      "detail": {
+        "n": 845,
+        "max_absolute_difference": 4.85722573273506e-17
+      }
+    },
+    {
+      "check": "artifact_hash_models_20260921T093517075175Z_2020_2021_A_LGBM.joblib",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "artifact_prediction_('2020_2021', 'LGBM', 'A')",
+      "pass": true,
+      "detail": {
+        "n": 845,
+        "max_absolute_difference": 0.0
+      }
+    },
+    {
+      "check": "artifact_identity_('2020_2021', 'LGBM', 'A')",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "frozen_artifact_prediction_('2020_2021', 'LGBM', 'A_model_A_inputs')",
+      "pass": true,
+      "detail": {
+        "n": 845,
+        "max_absolute_difference": 0.0
+      }
+    },
+    {
+      "check": "frozen_artifact_prediction_('2020_2021', 'LGBM', 'A_model_B_inputs')",
+      "pass": true,
+      "detail": {
+        "n": 845,
+        "max_absolute_difference": 0.0
+      }
+    },
+    {
+      "check": "artifact_hash_models_20260921T093517075175Z_2020_2021_B_LR.joblib",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "artifact_prediction_('2020_2021', 'LR', 'B')",
+      "pass": true,
+      "detail": {
+        "n": 845,
+        "max_absolute_difference": 1.734723475976807e-17
+      }
+    },
+    {
+      "check": "artifact_identity_('2020_2021', 'LR', 'B')",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "artifact_hash_models_20260921T093517075175Z_2020_2021_B_LGBM.joblib",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "artifact_prediction_('2020_2021', 'LGBM', 'B')",
+      "pass": true,
+      "detail": {
+        "n": 845,
+        "max_absolute_difference": 0.0
+      }
+    },
+    {
+      "check": "artifact_identity_('2020_2021', 'LGBM', 'B')",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "sparse_first_fold_warning_retained",
+      "pass": true,
+      "detail": null
+    }
+  ],
+  "run_output_hashes": {
+    "models_20260921T093517075175Z_2016_2017_A_LGBM.joblib": "be6ba5a6d257795fb6ec4e8132f7570a0e54dafb934304c44bae1676e5a2e9d7",
+    "models_20260921T093517075175Z_2016_2017_A_LR.joblib": "61a8ecab55528f7fbf914447b5d755fab4ddbf8e0c7196108b77afc43526c771",
+    "models_20260921T093517075175Z_2016_2017_B_LGBM.joblib": "5a44881f5d58f7e950e2d408302dcc343e8cd6ed16b2c0227bf5c66390537cb5",
+    "models_20260921T093517075175Z_2016_2017_B_LR.joblib": "8963b5b7c06d4a60d5eaf5792d9eff29e21af4bac72211c8ab104710c1048eb9",
+    "models_20260921T093517075175Z_2018_2019_A_LGBM.joblib": "d3e5523f9142d35f426e6e2e12682db78393931afb218c4d60fa8cd1ea3c1f7a",
+    "models_20260921T093517075175Z_2018_2019_A_LR.joblib": "a13c2428506dbb0a62c2cac0ab753bcf85da4ec5dec0f20b2ea608b6841bc2a8",
+    "models_20260921T093517075175Z_2018_2019_B_LGBM.joblib": "e3d3b38264a45523ff22f24b8169c4e4365c5e2e5a098501fd05a72e03083389",
+    "models_20260921T093517075175Z_2018_2019_B_LR.joblib": "76fbe9a688721234ea08d9cbb1d7a6cce50079d5423bd13e78cfea1496ecf805",
+    "models_20260921T093517075175Z_2020_2021_A_LGBM.joblib": "6b5e1727822bf317fd62121062645d0359956c1dbb549ab4c303f2d034848309",
+    "models_20260921T093517075175Z_2020_2021_A_LR.joblib": "a40ede3df601356464d046149fb62812256af830946b785632e5cd6b7ad2ec80",
+    "models_20260921T093517075175Z_2020_2021_B_LGBM.joblib": "4bdac961cb1219ab848cd73a1918c77a91fa5bbdfbe4ce164e7066ad1d5ac473",
+    "models_20260921T093517075175Z_2020_2021_B_LR.joblib": "89191b9ba9a938880abcf4f00a7582f57f7b38f52cd4afdf67c569699dd8ac11",
+    "models_20260921T093517075175Z_frozen_a_metrics.csv": "6ec6f0b9acece917ae72b8b48386708c66ece0e501d981ecc779b8aa53564939",
+    "models_20260921T093517075175Z_frozen_a_paired_differences.csv": "64467834bcfaaef30b4dcb283e58b92bce04c695b3bff1992b854d61814ff81e",
+    "models_20260921T093517075175Z_frozen_a_predictions.parquet": "424b1469b988690dab03074998551f609aa741eda54825e2495a59e492e6b9ed",
+    "models_20260921T093517075175Z_manifest.json": "edbc6d675ee029580daba70ab50530cf456004fb20dc2a425df11cfb88b6c475",
+    "models_20260921T093517075175Z_metrics.csv": "6e0776bf96981159a5d20fd5059051cf478d891722e559860764d9747f7c1a54",
+    "models_20260921T093517075175Z_paired_differences.csv": "54987acf3222ac43638d5df50ce0c992d47ced57a179d917685ab5a1dc2d6190",
+    "models_20260921T093517075175Z_preprocessing.json": "e348cad860cc37bc0e4c64ac99d0ee9bffae23fdfeb3f4635e2744ef02b021eb",
+    "models_20260921T093517075175Z_split_membership.parquet": "92492337290adb1f6bf5b1889c7bb60d0e3f032493bf7401104096edbfbb3539",
+    "models_20260921T093517075175Z_test_predictions.parquet": "0b942e2450724c969f90a380c6d41d485d91e3b4b5e2e08a290ced5d58ba7751",
+    "models_20260921T093517075175Z_tuning.jsonl": "b2714d8e38fa007c85bcd06e624fb8d03765e4575c7ef9c1f9e8d153e2a74595",
+    "models_20260921T093517075175Z_validation_predictions.parquet": "66c733ca2160d5c7c410e1d3c0a7e9acbb748cb266893d0a6633a27f53ec20d9"
+  }
+}

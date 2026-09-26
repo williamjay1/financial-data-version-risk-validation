@@ -1,0 +1,7 @@
+block,model,AB_different_candidate_replicates,AB_different_candidate_fraction,replicates
+2016_2017,LGBM,90,0.45,200
+2016_2017,LR,37,0.185,200
+2018_2019,LGBM,135,0.675,200
+2018_2019,LR,22,0.11,200
+2020_2021,LGBM,117,0.585,200
+2020_2021,LR,3,0.015,200

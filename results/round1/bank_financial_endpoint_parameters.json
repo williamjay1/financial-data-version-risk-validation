@@ -1,0 +1,158 @@
+[
+  {
+    "in": "query",
+    "name": "api_key",
+    "description": "Api key used for api.fdic.gov",
+    "required": false,
+    "schema": {
+      "type": "string"
+    }
+  },
+  {
+    "in": "query",
+    "name": "filters",
+    "description": "The filter criteria that refines the records included in the result. All values must be entered in UPPERCASE.\nExamples:  \n* Filter data by the numeric range  \n`ASSET:[1000 TO 9999]`\n",
+    "required": false,
+    "example": "CERT:14",
+    "schema": {
+      "type": "string"
+    }
+  },
+  {
+    "in": "query",
+    "name": "fields",
+    "description": "Comma delimited list of fields with quarterly financial data to return. All values must be entered in UPPERCASE.",
+    "required": false,
+    "example": "CERT,REPDTE,ASSET,DEP",
+    "schema": {
+      "type": "string"
+    }
+  },
+  {
+    "in": "query",
+    "name": "sort_by",
+    "description": "Field name by which to sort returned data. All values must be entered in UPPERCASE.",
+    "required": false,
+    "example": "REPDTE",
+    "schema": {
+      "type": "string",
+      "default": "REPDTE"
+    }
+  },
+  {
+    "in": "query",
+    "name": "sort_order",
+    "description": "Indicator if ascending (ASC) or descending (DESC). All values must be entered in UPPERCASE.",
+    "required": false,
+    "example": "DESC",
+    "schema": {
+      "type": "string",
+      "default": "ASC"
+    }
+  },
+  {
+    "in": "query",
+    "name": "limit",
+    "description": "The number of records to return. Default is 10 and maximum is 10,000. However, if the fields request is for more than 250 fields (variables), the maximum limit is 500 to ensure the request is successful.",
+    "required": false,
+    "example": 10,
+    "schema": {
+      "type": "integer",
+      "minimum": 0,
+      "maximum": 10000,
+      "default": 10
+    }
+  },
+  {
+    "in": "query",
+    "name": "offset",
+    "description": "The offset of page to return.",
+    "required": false,
+    "example": 0,
+    "schema": {
+      "type": "integer",
+      "minimum": 0,
+      "default": 0
+    }
+  },
+  {
+    "in": "query",
+    "name": "agg_by",
+    "description": "The field by which data will be aggregated. All values must be entered in UPPERCASE.",
+    "required": false,
+    "example": "CERT",
+    "schema": {
+      "type": "string"
+    }
+  },
+  {
+    "in": "query",
+    "name": "agg_term_fields",
+    "description": "The field(s) for which aggregations will be counted for each unique term. All values must be entered in UPPERCASE.",
+    "required": false,
+    "example": "REPDTE",
+    "schema": {
+      "type": "string"
+    }
+  },
+  {
+    "in": "query",
+    "name": "agg_sum_fields",
+    "description": "The field(s) for which aggregations will be summed or aggregated. All values must be entered in UPPERCASE.",
+    "required": false,
+    "example": "ASSET",
+    "schema": {
+      "type": "string"
+    }
+  },
+  {
+    "in": "query",
+    "name": "agg_limit",
+    "description": "The limit on how many aggregated results will be displayed",
+    "required": false,
+    "example": 1,
+    "schema": {
+      "type": "integer",
+      "minimum": 0,
+      "maximum": 10000
+    }
+  },
+  {
+    "in": "query",
+    "name": "format",
+    "description": "The format of the data to return.",
+    "required": false,
+    "example": "json",
+    "schema": {
+      "type": "string",
+      "enum": [
+        "json",
+        "csv"
+      ]
+    }
+  },
+  {
+    "in": "query",
+    "name": "download",
+    "description": "Whether the data should be downloaded as a file.",
+    "required": false,
+    "example": false,
+    "schema": {
+      "type": "boolean",
+      "enum": [
+        false,
+        true
+      ]
+    }
+  },
+  {
+    "in": "query",
+    "name": "filename",
+    "description": "The filename to use when downloading data.",
+    "required": false,
+    "example": "data_file",
+    "schema": {
+      "type": "string"
+    }
+  }
+]

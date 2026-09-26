@@ -1,0 +1,15 @@
+{
+  "output": "D:\\MLWork\\scie_small_sample_topics_20260920\\finance_reframe_20260921\\manuscript\\Financial_Vintage_Registry_Prediction_Manuscript.docx",
+  "paragraphs": 160,
+  "tables": 8,
+  "inline_shapes": 3,
+  "native_equations": 13,
+  "word_count_markdown": 7532,
+  "visual_qa": "PASS_ALL_20_PAGES",
+  "rendered_pages": 20,
+  "docx_sha256": "bb394ce29bb8d2f8680ce787cac5e8761c3904274e527f88742f0d4b6b60dd11",
+  "visual_qa_records": [
+    "word_visual_qa_part1.json",
+    "word_visual_qa_part2.json"
+  ]
+}

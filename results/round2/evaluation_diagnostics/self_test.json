@@ -1,0 +1,16 @@
+{
+  "status": "PASS",
+  "hand_computable_ties": {
+    "average_precision": 0.5833333333333334,
+    "brier": 0.32800000000000007,
+    "roc_auc": 0.7083333333333334,
+    "retrospective_recall_at_5percent": 0.041666666666666664
+  },
+  "expected": {
+    "average_precision": 0.5833333333333334,
+    "roc_auc": 0.7083333333333334,
+    "retrospective_recall_at_5percent": 0.041666666666666664,
+    "brier": 0.32800000000000007
+  },
+  "independent_from_training_metric_module": true
+}

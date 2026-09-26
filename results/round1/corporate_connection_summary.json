@@ -1,0 +1,13 @@
+{
+  "n_fixed_sample": 8,
+  "status_counts": {
+    "joined_snapshot": 5,
+    "companyfacts_unavailable": 2,
+    "no_pre_event_10k_in_retrieved_history": 1
+  },
+  "n_facts_rows": 24,
+  "n_vintage_rows": 59,
+  "no_negative_labels_created": true,
+  "no_models_fitted": true,
+  "sample_plan_sha256": "0cbca25c0021aa9f94f4aae1cbe88e42d3ad552019951922e9236256f437c91b"
+}

@@ -1,0 +1,32 @@
+[
+  {
+    "url": "https://drive.usercontent.google.com/download?id=1yfQxR45DZ_vM5pkFvgyexc10NNqbxpFN&export=download&confirm=t&uuid=e4fb9762-18a6-47cb-9e9a-0030f9df5a97",
+    "request_utc": "2026-09-21T08:46:18.727068+00:00",
+    "user_agent": "Codex public-data feasibility audit/1.0 (one-off metadata access; no bulk SEC collection)",
+    "authentication": false,
+    "status": 200,
+    "final_url": "https://drive.usercontent.google.com/download?id=1yfQxR45DZ_vM5pkFvgyexc10NNqbxpFN&export=download&confirm=t&uuid=e4fb9762-18a6-47cb-9e9a-0030f9df5a97",
+    "content_type": "text/html; charset=utf-8",
+    "etag": null,
+    "last_modified": null,
+    "raw_path": "E:\\AcademicData\\scie_small_sample_topics_20260920\\raw\\finance_reframe_20260921\\universe\\universe_20260921T084618Z_87fb68cc_00.bin",
+    "bytes": 2009,
+    "sha256": "3bb1d7b87633d946abfa53f172f9f6d63c303d6d8ba99959bdba832492fc9f92",
+    "read_only": true
+  },
+  {
+    "url": "https://drive.google.com/uc?export=download&id=1nNoON97aL_6e9jZYZ38lUs-EO4kuMiCj",
+    "request_utc": "2026-09-21T08:46:21.317387+00:00",
+    "user_agent": "Codex public-data feasibility audit/1.0 (one-off metadata access; no bulk SEC collection)",
+    "authentication": false,
+    "status": 200,
+    "final_url": "https://drive.usercontent.google.com/download?id=1nNoON97aL_6e9jZYZ38lUs-EO4kuMiCj&export=download",
+    "content_type": "text/html; charset=utf-8",
+    "etag": null,
+    "last_modified": null,
+    "raw_path": "E:\\AcademicData\\scie_small_sample_topics_20260920\\raw\\finance_reframe_20260921\\universe\\universe_20260921T084618Z_87fb68cc_01.bin",
+    "bytes": 2462,
+    "sha256": "f57677206a50ae790f47f8c701dc890498d3460482024d47803ce737b8cebeaf",
+    "read_only": true
+  }
+]

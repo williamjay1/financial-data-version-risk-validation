@@ -1,0 +1,238 @@
+{
+  "audited_utc": "2026-09-21T08:00:54.627707+00:00",
+  "scope": "All failure/assistance records; financial sample deliberately selected 12 recently failed banks and 3 controls, not representative risk set.",
+  "failure_endpoint": {
+    "retrieved_rows": 4117,
+    "declared_total": 4117,
+    "min_date": "1934-04-19",
+    "max_date": "2026-07-17",
+    "invalid_dates": 0,
+    "type_counts": {
+      "FAILURE": 3524,
+      "ASSISTANCE": 593
+    },
+    "transaction_counts": {
+      "PA": 2107,
+      "A/A": 579,
+      "PO": 573,
+      "IDT": 386,
+      "P&A": 251,
+      "PI": 143,
+      "MGR": 37,
+      "ABT": 16,
+      "OBAM": 13,
+      "DINB": 9,
+      "REP": 3
+    },
+    "CERT_missing": 488,
+    "CERT_zero": 0,
+    "distinct_CERT": 3585,
+    "CERT_missing_since_1984": 0,
+    "duplicate_CERT_rows": 576,
+    "duplicate_CERT_FAILDATE_FIN_rows": 123,
+    "duplicate_known_CERT_FAILDATE_FIN_rows": 0,
+    "failure_counts_since": {
+      "1984": 2863,
+      "1992": 851,
+      "2000": 581,
+      "2010": 384,
+      "2015": 42,
+      "2020": 17
+    },
+    "meta": {
+      "total": 4117,
+      "parameters": {
+        "filters": "",
+        "limit": "10000"
+      },
+      "index": {
+        "name": "failures_1787667198788",
+        "createTimestamp": "2026-08-25T14:13:18Z"
+      }
+    }
+  },
+  "global_financial_endpoint": {
+    "declared_rows": 1682616,
+    "earliest_REPDTE": "19840331",
+    "latest_REPDTE": "20260630",
+    "caution": "Observed endpoint dates do not establish complete coverage for each predictor."
+  },
+  "sample_financials": {
+    "rows": 2165,
+    "distinct_CERT": 15,
+    "duplicate_CERT_REPDTE_rows": 0,
+    "invalid_report_dates": 0,
+    "failed_CERT_matched": 12,
+    "matched_failure_count_max_per_CERT": 1,
+    "rows_with_future_ENDEFYMD": 2165,
+    "rows_with_real_future_ENDEFYMD": 1109,
+    "rows_ENDEFYMD_sentinel_99991231": 1056,
+    "failed_CERT_last_report_ASSET_differs_QBFASSET": 5,
+    "rows_with_REPDTE_ne_RISDATE": 0,
+    "SVB_2022Q4": [
+      {
+        "ACTIVE": 1,
+        "ROA": 0.9569929993881674,
+        "REPDTE": "20221231",
+        "EFFDATE": 20220831,
+        "RISDATE": "20221231",
+        "ROE": 13.43,
+        "ASSET": 209026000,
+        "NETINC": 2024000,
+        "EQ": 15456000,
+        "DEP": 175378000,
+        "NAME": "SILICON VALLEY BANK",
+        "DEPUNINS": 151592000.0,
+        "ENDEFYMD": 20230310,
+        "CERT": 24735,
+        "LNLSNET": 73613000,
+        "ID": "24735_20221231"
+      }
+    ],
+    "meta": {
+      "total": 2165,
+      "parameters": {
+        "filters": "CERT:(24735 OR 57053 OR 59017 OR 8758 OR 25851 OR 27332 OR 4134 OR 28611 OR 5520 OR 57488 OR 25796 OR 25744 OR 628 OR 3510 OR 3511)",
+        "fields": "CERT,REPDTE,RISDATE,NAME,ASSET,DEP,EQ,NETINC,ROA,ROE,LNLSNET,DEPUNINS,ENDEFYMD,EFFDATE,ACTIVE,ID",
+        "limit": "10000"
+      },
+      "index": {
+        "name": "risview_20260819185831",
+        "createTimestamp": "2026-08-19T18:58:33Z"
+      }
+    }
+  },
+  "schema": {
+    "actual_failure_columns": [
+      "RESDATE",
+      "QBFDEP",
+      "BIDCITY",
+      "BIDSTATE",
+      "CLOSCD",
+      "PSTALP",
+      "BSTATUS",
+      "COMMENTS",
+      "CITYST",
+      "RESTYPE",
+      "COSTMOSTRECENTASOF",
+      "URL",
+      "PTRDATE",
+      "COST",
+      "QBFASSET",
+      "UNINSDEP",
+      "TERMI",
+      "FAILYR",
+      "CHCLASS",
+      "FUND",
+      "BANKNO",
+      "BIDNAME",
+      "FIN",
+      "FAILDATE",
+      "SAVR",
+      "RESTYPE1",
+      "NAME",
+      "CHCLASS1",
+      "FSL_PROG",
+      "CITY",
+      "CERT",
+      "BRDATE",
+      "ID"
+    ],
+    "actual_financial_sample_columns": [
+      "ACTIVE",
+      "ROA",
+      "REPDTE",
+      "EFFDATE",
+      "RISDATE",
+      "ROE",
+      "ASSET",
+      "NETINC",
+      "EQ",
+      "DEP",
+      "NAME",
+      "DEPUNINS",
+      "ENDEFYMD",
+      "CERT",
+      "LNLSNET",
+      "ID"
+    ],
+    "dictionary_financial_fields": 2378,
+    "dictionary_failure_fields": 21,
+    "date_named_financial_fields": [
+      "L_REPDTE",
+      "REPDTE_RAW",
+      "REPDTE",
+      "RISDATE",
+      "MNRTYDTE",
+      "CALLYMD",
+      "EFFDATE",
+      "ESTYMD",
+      "ENDEFYMD",
+      "ORG_END_NUM_DTE",
+      "INSDATE",
+      "UPDDATE"
+    ],
+    "financial_endpoint_parameter_names": [
+      "api_key",
+      "filters",
+      "fields",
+      "sort_by",
+      "sort_order",
+      "limit",
+      "offset",
+      "agg_by",
+      "agg_term_fields",
+      "agg_sum_fields",
+      "agg_limit",
+      "format",
+      "download",
+      "filename"
+    ]
+  },
+  "point_in_time_status": "Not established. REPDTE/RISDATE are reporting periods; current index timestamp is not original publication. No vintage/as-of query parameter documented in audited financial endpoint."
+}
+JOIN  CERT         latest_sample_name  financial_rows first_report last_report  failure_matches failure_date  reports_before_failure  reports_on_or_after_failure last_pre_failure_quarter  last_pre_failure_ASSET  failure_QBFASSET  rows_real_ENDEFYMD_after_REPDTE  rows_ENDEFYMD_sentinel_99991231
+  628     JPMORGAN CHASE BANK NA             170   1984-03-31  2026-06-30                0         None                       0                          NaN                     None                     NaN               NaN                                0                              170
+ 3510         BANK OF AMERICA NA             170   1984-03-31  2026-06-30                0         None                       0                          NaN                     None                     NaN               NaN                                0                              170
+ 3511        WELLS FARGO BANK NA             170   1984-03-31  2026-06-30                0         None                       0                          NaN                     None                     NaN               NaN                                0                              170
+ 4134        FIRST NB OF LINDSAY             163   1984-03-31  2024-09-30                1   2024-10-18                     163                          0.0               2024-09-30                114298.0          107850.0                              163                                0
+ 5520   SANTA ANNA NATIONAL BANK             165   1984-03-31  2025-03-31                1   2025-06-27                     165                          0.0               2025-03-31                 76938.0           76938.0                                6                              159
+ 8758              CITIZENS BANK             159   1984-03-31  2023-09-30                1   2023-11-03                     159                          0.0               2023-09-30                 65558.0           60448.0                              159                                0
+24735        SILICON VALLEY BANK             156   1984-03-31  2022-12-31                1   2023-03-10                     156                          0.0               2022-12-31             209026000.0       209026000.0                              156                                0
+25744        SMALL BUSINESS BANK             166   1984-12-31  2026-03-31                1   2026-07-17                     166                          0.0               2026-03-31                 72947.0           72947.0                               10                              156
+25796 COMMUNITY B&T WEST GEORGIA             166   1984-12-31  2026-03-31                1   2026-05-01                     166                          0.0               2026-03-31                292567.0          305716.0                               10                              156
+25851   HEARTLAND TRI-STATE BANK             153   1985-03-31  2023-03-31                1   2023-07-28                     153                          0.0               2023-03-31                139446.0          139446.0                              153                                0
+27332              REPUBLIC BANK             142   1988-09-30  2023-12-31                1   2024-04-26                     142                          0.0               2023-12-31               5866190.0         5866190.0                              142                                0
+28611       PULASKI SAVINGS BANK             163   1984-03-31  2024-09-30                1   2025-01-17                     163                          0.0               2024-09-30                 49466.0           49466.0                              163                                0
+57053             SIGNATURE BANK              87   2001-06-30  2022-12-31                1   2023-03-12                      87                          0.0               2022-12-31             110363650.0       110363650.0                               87                                0
+57488   METROPOLITAN CAPITAL B&T              84   2005-03-31  2025-12-31                1   2026-01-30                      84                          0.0               2025-12-31                235465.0          261185.0                                9                               75
+59017        FIRST REPUBLIC BANK              51   2010-09-30  2023-03-31                1   2023-05-01                      51                          0.0               2023-03-31             232944161.0       212638872.0                               51                                0
+RECENT RESTYPE  ASSISTANCE  FAILURE
+year                        
+2000              0        7
+2001              0        4
+2002              0       11
+2003              0        3
+2004              0        4
+2005              0        0
+2006              0        0
+2007              0        3
+2008              5       25
+2009              8      140
+2010              0      157
+2011              0       92
+2012              0       51
+2013              0       24
+2014              0       18
+2015              0        8
+2016              0        5
+2017              0        8
+2018              0        0
+2019              0        4
+2020              0        4
+2021              0        0
+2022              0        0
+2023              0        5
+2024              0        2
+2025              0        2
+2026              0        4

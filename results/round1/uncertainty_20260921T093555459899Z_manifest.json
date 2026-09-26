@@ -1,0 +1,47 @@
+{
+  "noncase_population_clusters": 14546,
+  "noncase_sample_clusters": 1000,
+  "certainty_clusters": 383,
+  "noncase_sampling_fraction": 0.06874742197167606,
+  "noncase_base_weight": 14.546,
+  "bootstrap_draws_per_replicate": 999,
+  "rescale_lambda": 0.9650142890280557,
+  "certainty_multiplier": 1.0,
+  "formula": "w_i* = w_i [1 + sqrt(1-n/N) (n M_i/(n-1) - 1)], M ~ Multinomial(n-1;1/n,...,1/n)",
+  "zero_domain_clusters_retained": true,
+  "same_replicate_draws_across_all_blocks_models_and_versions": true,
+  "analysis_mode": "frozen_A_inputs",
+  "n_boot": 1000,
+  "seed": 20260921,
+  "minimum_valid_fraction": 1.0,
+  "excluded_non_AB_or_unrequested_rows": 0,
+  "limitations": [
+    "Approximate pointwise design-based intervals for fixed predictions in the eligible observed domain.",
+    "Do not include model fitting/tuning/calibration uncertainty or repeated-sample model retraining.",
+    "Certainty clusters and observed registry outcomes are fixed; no registry undercapture, mapping-error, or event-population uncertainty.",
+    "Do not cover future economic regimes or crises. Three time blocks are not independent macroeconomic experiments.",
+    "Recall counts positive filing windows, not unique company-case episodes; ranking is retrospective within each time block.",
+    "No nonresponse adjustment for inaccessible XBRL; zero-domain sampled clusters remain in the SRS draw.",
+    "AP and weighted top-budget recall are nonlinear; finite-sample 95% coverage is not guaranteed by the bootstrap."
+  ],
+  "created_utc": "2026-09-21T09:35:55.477428+00:00",
+  "wall_seconds": 1.125,
+  "sampling_frame": "D:\\MLWork\\scie_small_sample_topics_20260920\\finance_reframe_20260921\\datasets\\sampling_frame.parquet",
+  "sampling_frame_sha256": "6f339ebd465f018afc463e0e3b3a854e1882ed4d836a4352c95dc6ca5d388937",
+  "sampling_summary": "D:\\MLWork\\scie_small_sample_topics_20260920\\finance_reframe_20260921\\results\\sampling_frame_summary.json",
+  "sampling_summary_sha256": "35d2b29478a2bbedb36f88fc5d1ebc84d7fece10ed623e55ba0c85a8dcb2851b",
+  "protocol": "D:\\MLWork\\scie_small_sample_topics_20260920\\finance_reframe_20260921\\phase2_protocol.json",
+  "protocol_sha256": "b18a0b9c6dfc9ff68920344d720ad2d19f6ab43dfda91be4e75c59f58bec3754",
+  "script_sha256": "3cf54d8a511b1aff6755895be0918541678847e096fd189defd6880fb65c3a26",
+  "prediction_inputs": [
+    {
+      "path": "results\\models_20260921T093517075175Z_frozen_a_predictions.parquet",
+      "sha256": "424b1469b988690dab03074998551f609aa741eda54825e2495a59e492e6b9ed"
+    }
+  ],
+  "outputs": {
+    "uncertainty_20260921T093555459899Z_cell_audits.csv": "8465c2a3e4dbfebf6d58e95b1489ace8eda59fd3972392bd40600286a3fa7715",
+    "uncertainty_20260921T093555459899Z_replicates.parquet": "c1ce4e25806000f48a0a145270fbe7e75072d55ffca39f2a6545cd9cb1d3e846",
+    "uncertainty_20260921T093555459899Z_summary.csv": "d45df253f2b461983286fe4ef5140649543dde47ed2fccf989b896715ea53cab"
+  }
+}

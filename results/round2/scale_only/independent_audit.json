@@ -1,0 +1,26 @@
+{
+  "status": "PASS",
+  "metric_cells": 144,
+  "max_metric_difference": 1.1102230246251565e-16,
+  "ab_changed_feature_cells": 2,
+  "ab_features": [
+    {
+      "cik": 1409916,
+      "accession": "0001062993-16-008351",
+      "arm": "A",
+      "feature": "log_assets",
+      "old": 12.39680456916326,
+      "new": 19.3045598481454
+    },
+    {
+      "cik": 1409916,
+      "accession": "0001062993-15-001772",
+      "arm": "B",
+      "feature": "log_assets",
+      "old": 11.564872545592976,
+      "new": 18.472627824575117
+    }
+  ],
+  "sign_disputes_applied": false,
+  "scope": "Independent metric formulas from stored predictions; not independent raw-XBRL measurement"
+}

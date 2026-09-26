@@ -1,0 +1,2680 @@
+{
+  "status": "PASS",
+  "audit_utc": "2026-09-21T09:46:44.829598+00:00",
+  "manuscript_path": "D:\\MLWork\\scie_small_sample_topics_20260920\\finance_reframe_20260921\\manuscript\\manuscript.md",
+  "manuscript_sha256": "4d6abbb6ec1529ed161a9fc8db5e454504ea5954f8ef945db43a3b30a0b39bf8",
+  "checks_passed": 310,
+  "checks_total": 310,
+  "errors": [],
+  "minor_notes": [],
+  "tables_checked": [
+    "1",
+    "2",
+    "3",
+    "4",
+    "5",
+    "A1",
+    "B1",
+    "B2"
+  ],
+  "sensitivity_runs": [
+    {
+      "kind": "verified_scale",
+      "manifest": "D:\\MLWork\\scie_small_sample_topics_20260920\\finance_reframe_20260921\\results\\sensitivity_source_scale_corrected\\models_20260921T093617431021Z_manifest.json",
+      "manifest_sha256": "856e86b830cdd04be30eab58731c24e9d849e0205a0369e37243bf1a42a37f0d",
+      "status": "completed",
+      "input_sha256": "a50cd777e61faf1ff4ca1ce5175a742f1def520005fecfc8d01a2619c42e96f6",
+      "cohort_rows": 5502,
+      "candidate_fits": 48,
+      "final_fits": 12,
+      "AP_contrasts_pp": [
+        {
+          "block": "2016_2017",
+          "learner": "LGBM",
+          "difference": 2.8391200066429008
+        },
+        {
+          "block": "2016_2017",
+          "learner": "LR",
+          "difference": -0.006034907381671437
+        },
+        {
+          "block": "2018_2019",
+          "learner": "LGBM",
+          "difference": 2.7675661568083014
+        },
+        {
+          "block": "2018_2019",
+          "learner": "LR",
+          "difference": -0.07169165841391187
+        },
+        {
+          "block": "2020_2021",
+          "learner": "LGBM",
+          "difference": 1.7662905393838746
+        },
+        {
+          "block": "2020_2021",
+          "learner": "LR",
+          "difference": -0.009020674623691494
+        }
+      ]
+    },
+    {
+      "kind": "exclude_transitions",
+      "manifest": "D:\\MLWork\\scie_small_sample_topics_20260920\\finance_reframe_20260921\\results\\sensitivity_no_transition\\models_20260921T093617432022Z_manifest.json",
+      "manifest_sha256": "6e8b33d186376c929f203fe2f0f610dd5f208fb047d226d5ed3c1876c9d12883",
+      "status": "completed",
+      "input_sha256": "9d52c4ca618920a2a878b35d2eb07efaf608fd445f6d2489a720a68470ced9a6",
+      "cohort_rows": 5490,
+      "candidate_fits": 48,
+      "final_fits": 12,
+      "AP_contrasts_pp": [
+        {
+          "block": "2016_2017",
+          "learner": "LGBM",
+          "difference": 2.8016648630765695
+        },
+        {
+          "block": "2016_2017",
+          "learner": "LR",
+          "difference": -0.013774509824292756
+        },
+        {
+          "block": "2018_2019",
+          "learner": "LGBM",
+          "difference": 2.619251244486262
+        },
+        {
+          "block": "2018_2019",
+          "learner": "LR",
+          "difference": 0.10739682499130623
+        },
+        {
+          "block": "2020_2021",
+          "learner": "LGBM",
+          "difference": -3.8978943300048767
+        },
+        {
+          "block": "2020_2021",
+          "learner": "LR",
+          "difference": -0.019497416563648423
+        }
+      ]
+    }
+  ],
+  "prose_descriptive_recomputations": {
+    "cohort_rows": 5502.0,
+    "CIKs": 990.0,
+    "positive_windows": 188.0,
+    "positive_CIKs": 188.0,
+    "cofiling_clusters": 973.0,
+    "weighted_landmarks": 63397.603999999985,
+    "later_bundles": 4128.0,
+    "later_bundle_raw_pct": 75.02726281352236,
+    "later_bundle_weighted_pct": 75.46175088888218,
+    "changed_raw_windows": 1307.0,
+    "changed_raw_pct": 23.7549981824791,
+    "changed_weighted_pct": 21.91129178951306,
+    "later_gap_median_days": 364.0,
+    "C_changed_windows": 2245.0,
+    "C_multisource_windows": 5115.0,
+    "C_multisource_weighted_pct": 93.00091214803639
+  },
+  "checks": [
+    {
+      "check": "Table1_row0_rows",
+      "pass": true,
+      "detail": {
+        "printed": "9,789",
+        "actual": 9789.0,
+        "expected_rounded": 9789.0
+      }
+    },
+    {
+      "check": "Table1_row0_ciks",
+      "pass": true,
+      "detail": {
+        "printed": "1,203",
+        "actual": 1203.0,
+        "expected_rounded": 1203.0
+      }
+    },
+    {
+      "check": "Table1_row0_positive_windows",
+      "pass": true,
+      "detail": {
+        "printed": "233",
+        "actual": 233.0,
+        "expected_rounded": 233.0
+      }
+    },
+    {
+      "check": "Table1_row1_rows",
+      "pass": true,
+      "detail": {
+        "printed": "8,398",
+        "actual": 8398.0,
+        "expected_rounded": 8398.0
+      }
+    },
+    {
+      "check": "Table1_row1_ciks",
+      "pass": true,
+      "detail": {
+        "printed": "1,203",
+        "actual": 1203.0,
+        "expected_rounded": 1203.0
+      }
+    },
+    {
+      "check": "Table1_row1_positive_windows",
+      "pass": true,
+      "detail": {
+        "printed": "209",
+        "actual": 209.0,
+        "expected_rounded": 209.0
+      }
+    },
+    {
+      "check": "Table1_row2_rows",
+      "pass": true,
+      "detail": {
+        "printed": "8,398",
+        "actual": 8398.0,
+        "expected_rounded": 8398.0
+      }
+    },
+    {
+      "check": "Table1_row2_ciks",
+      "pass": true,
+      "detail": {
+        "printed": "1,203",
+        "actual": 1203.0,
+        "expected_rounded": 1203.0
+      }
+    },
+    {
+      "check": "Table1_row2_positive_windows",
+      "pass": true,
+      "detail": {
+        "printed": "209",
+        "actual": 209.0,
+        "expected_rounded": 209.0
+      }
+    },
+    {
+      "check": "Table1_row3_rows",
+      "pass": true,
+      "detail": {
+        "printed": "7,426",
+        "actual": 7426.0,
+        "expected_rounded": 7426.0
+      }
+    },
+    {
+      "check": "Table1_row3_ciks",
+      "pass": true,
+      "detail": {
+        "printed": "1,120",
+        "actual": 1120.0,
+        "expected_rounded": 1120.0
+      }
+    },
+    {
+      "check": "Table1_row3_positive_windows",
+      "pass": true,
+      "detail": {
+        "printed": "209",
+        "actual": 209.0,
+        "expected_rounded": 209.0
+      }
+    },
+    {
+      "check": "Table1_row4_rows",
+      "pass": true,
+      "detail": {
+        "printed": "5,502",
+        "actual": 5502.0,
+        "expected_rounded": 5502.0
+      }
+    },
+    {
+      "check": "Table1_row4_ciks",
+      "pass": true,
+      "detail": {
+        "printed": "990",
+        "actual": 990.0,
+        "expected_rounded": 990.0
+      }
+    },
+    {
+      "check": "Table1_row4_positive_windows",
+      "pass": true,
+      "detail": {
+        "printed": "188",
+        "actual": 188.0,
+        "expected_rounded": 188.0
+      }
+    },
+    {
+      "check": "Table1_row5_rows",
+      "pass": true,
+      "detail": {
+        "printed": "5,502",
+        "actual": 5502.0,
+        "expected_rounded": 5502.0
+      }
+    },
+    {
+      "check": "Table1_row5_ciks",
+      "pass": true,
+      "detail": {
+        "printed": "990",
+        "actual": 990.0,
+        "expected_rounded": 990.0
+      }
+    },
+    {
+      "check": "Table1_row5_positive_windows",
+      "pass": true,
+      "detail": {
+        "printed": "188",
+        "actual": 188.0,
+        "expected_rounded": 188.0
+      }
+    },
+    {
+      "check": "Table2_2016_2017_tuning_train_n",
+      "pass": true,
+      "detail": {
+        "printed": "181",
+        "actual": 181.0,
+        "expected_rounded": 181.0
+      }
+    },
+    {
+      "check": "Table2_2016_2017_tuning_train_positive",
+      "pass": true,
+      "detail": {
+        "printed": "3",
+        "actual": 3.0,
+        "expected_rounded": 3.0
+      }
+    },
+    {
+      "check": "Table2_2016_2017_validation_n",
+      "pass": true,
+      "detail": {
+        "printed": "609",
+        "actual": 609.0,
+        "expected_rounded": 609.0
+      }
+    },
+    {
+      "check": "Table2_2016_2017_validation_positive",
+      "pass": true,
+      "detail": {
+        "printed": "7",
+        "actual": 7.0,
+        "expected_rounded": 7.0
+      }
+    },
+    {
+      "check": "Table2_2016_2017_refit_n",
+      "pass": true,
+      "detail": {
+        "printed": "2,024",
+        "actual": 2024.0,
+        "expected_rounded": 2024.0
+      }
+    },
+    {
+      "check": "Table2_2016_2017_refit_positive",
+      "pass": true,
+      "detail": {
+        "printed": "39",
+        "actual": 39.0,
+        "expected_rounded": 39.0
+      }
+    },
+    {
+      "check": "Table2_2016_2017_test_n",
+      "pass": true,
+      "detail": {
+        "printed": "1,063",
+        "actual": 1063.0,
+        "expected_rounded": 1063.0
+      }
+    },
+    {
+      "check": "Table2_2016_2017_test_positive",
+      "pass": true,
+      "detail": {
+        "printed": "51",
+        "actual": 51.0,
+        "expected_rounded": 51.0
+      }
+    },
+    {
+      "check": "Table2_2016_2017_event_rate",
+      "pass": true,
+      "detail": {
+        "printed": "0.420%",
+        "actual": 0.41950538834107004,
+        "expected_rounded": 0.42
+      }
+    },
+    {
+      "check": "Table2_2018_2019_tuning_train_n",
+      "pass": true,
+      "detail": {
+        "printed": "1,415",
+        "actual": 1415.0,
+        "expected_rounded": 1415.0
+      }
+    },
+    {
+      "check": "Table2_2018_2019_tuning_train_positive",
+      "pass": true,
+      "detail": {
+        "printed": "27",
+        "actual": 27.0,
+        "expected_rounded": 27.0
+      }
+    },
+    {
+      "check": "Table2_2018_2019_validation_n",
+      "pass": true,
+      "detail": {
+        "printed": "587",
+        "actual": 587.0,
+        "expected_rounded": 587.0
+      }
+    },
+    {
+      "check": "Table2_2018_2019_validation_positive",
+      "pass": true,
+      "detail": {
+        "printed": "24",
+        "actual": 24.0,
+        "expected_rounded": 24.0
+      }
+    },
+    {
+      "check": "Table2_2018_2019_refit_n",
+      "pass": true,
+      "detail": {
+        "printed": "3,167",
+        "actual": 3167.0,
+        "expected_rounded": 3167.0
+      }
+    },
+    {
+      "check": "Table2_2018_2019_refit_positive",
+      "pass": true,
+      "detail": {
+        "printed": "95",
+        "actual": 95.0,
+        "expected_rounded": 95.0
+      }
+    },
+    {
+      "check": "Table2_2018_2019_test_n",
+      "pass": true,
+      "detail": {
+        "printed": "946",
+        "actual": 946.0,
+        "expected_rounded": 946.0
+      }
+    },
+    {
+      "check": "Table2_2018_2019_test_positive",
+      "pass": true,
+      "detail": {
+        "printed": "28",
+        "actual": 28.0,
+        "expected_rounded": 28.0
+      }
+    },
+    {
+      "check": "Table2_2018_2019_event_rate",
+      "pass": true,
+      "detail": {
+        "printed": "0.244%",
+        "actual": 0.24351353857001998,
+        "expected_rounded": 0.244
+      }
+    },
+    {
+      "check": "Table2_2020_2021_tuning_train_n",
+      "pass": true,
+      "detail": {
+        "printed": "2,607",
+        "actual": 2607.0,
+        "expected_rounded": 2607.0
+      }
+    },
+    {
+      "check": "Table2_2020_2021_tuning_train_positive",
+      "pass": true,
+      "detail": {
+        "printed": "64",
+        "actual": 64.0,
+        "expected_rounded": 64.0
+      }
+    },
+    {
+      "check": "Table2_2020_2021_validation_n",
+      "pass": true,
+      "detail": {
+        "printed": "509",
+        "actual": 509.0,
+        "expected_rounded": 509.0
+      }
+    },
+    {
+      "check": "Table2_2020_2021_validation_positive",
+      "pass": true,
+      "detail": {
+        "printed": "20",
+        "actual": 20.0,
+        "expected_rounded": 20.0
+      }
+    },
+    {
+      "check": "Table2_2020_2021_refit_n",
+      "pass": true,
+      "detail": {
+        "printed": "4,161",
+        "actual": 4161.0,
+        "expected_rounded": 4161.0
+      }
+    },
+    {
+      "check": "Table2_2020_2021_refit_positive",
+      "pass": true,
+      "detail": {
+        "printed": "124",
+        "actual": 124.0,
+        "expected_rounded": 124.0
+      }
+    },
+    {
+      "check": "Table2_2020_2021_test_n",
+      "pass": true,
+      "detail": {
+        "printed": "845",
+        "actual": 845.0,
+        "expected_rounded": 845.0
+      }
+    },
+    {
+      "check": "Table2_2020_2021_test_positive",
+      "pass": true,
+      "detail": {
+        "printed": "44",
+        "actual": 44.0,
+        "expected_rounded": 44.0
+      }
+    },
+    {
+      "check": "Table2_2020_2021_event_rate",
+      "pass": true,
+      "detail": {
+        "printed": "0.386%",
+        "actual": 0.38605519501314,
+        "expected_rounded": 0.386
+      }
+    },
+    {
+      "check": "Table3_2016_2017_LR_A",
+      "pass": true,
+      "detail": {
+        "printed": "0.0083",
+        "actual": 0.0082562396977225,
+        "expected_rounded": 0.0083
+      }
+    },
+    {
+      "check": "Table3_2016_2017_LR_B",
+      "pass": true,
+      "detail": {
+        "printed": "0.0082",
+        "actual": 0.0081947983957367,
+        "expected_rounded": 0.0082
+      }
+    },
+    {
+      "check": "Table3_2016_2017_LR_difference_B_minus_A",
+      "pass": true,
+      "detail": {
+        "printed": "-0.006",
+        "actual": -0.006144130198581024,
+        "expected_rounded": -0.006
+      }
+    },
+    {
+      "check": "Table3_2016_2017_LR_lower",
+      "pass": true,
+      "detail": {
+        "printed": "-0.014",
+        "actual": -0.01390021558492,
+        "expected_rounded": -0.014
+      }
+    },
+    {
+      "check": "Table3_2016_2017_LR_upper",
+      "pass": true,
+      "detail": {
+        "printed": "0.025",
+        "actual": 0.02452275700818,
+        "expected_rounded": 0.025
+      }
+    },
+    {
+      "check": "Table3_2016_2017_LR_1000_valid_replicates",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "Table3_2016_2017_LGBM_A",
+      "pass": true,
+      "detail": {
+        "printed": "0.2475",
+        "actual": 0.2474686198347408,
+        "expected_rounded": 0.2475
+      }
+    },
+    {
+      "check": "Table3_2016_2017_LGBM_B",
+      "pass": true,
+      "detail": {
+        "printed": "0.2759",
+        "actual": 0.2758598199011698,
+        "expected_rounded": 0.2759
+      }
+    },
+    {
+      "check": "Table3_2016_2017_LGBM_difference_B_minus_A",
+      "pass": true,
+      "detail": {
+        "printed": "+2.839",
+        "actual": 2.8391200066429,
+        "expected_rounded": 2.839
+      }
+    },
+    {
+      "check": "Table3_2016_2017_LGBM_lower",
+      "pass": true,
+      "detail": {
+        "printed": "-0.663",
+        "actual": -0.6631534750968,
+        "expected_rounded": -0.663
+      }
+    },
+    {
+      "check": "Table3_2016_2017_LGBM_upper",
+      "pass": true,
+      "detail": {
+        "printed": "5.860",
+        "actual": 5.8601132502127795,
+        "expected_rounded": 5.86
+      }
+    },
+    {
+      "check": "Table3_2016_2017_LGBM_1000_valid_replicates",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "Table3_2018_2019_LR_A",
+      "pass": true,
+      "detail": {
+        "printed": "0.0097",
+        "actual": 0.0097027779669426,
+        "expected_rounded": 0.0097
+      }
+    },
+    {
+      "check": "Table3_2018_2019_LR_B",
+      "pass": true,
+      "detail": {
+        "printed": "0.0090",
+        "actual": 0.008985090029289,
+        "expected_rounded": 0.009
+      }
+    },
+    {
+      "check": "Table3_2018_2019_LR_difference_B_minus_A",
+      "pass": true,
+      "detail": {
+        "printed": "-0.072",
+        "actual": -0.07176879376536,
+        "expected_rounded": -0.072
+      }
+    },
+    {
+      "check": "Table3_2018_2019_LR_lower",
+      "pass": true,
+      "detail": {
+        "printed": "-0.203",
+        "actual": -0.20326755885887998,
+        "expected_rounded": -0.203
+      }
+    },
+    {
+      "check": "Table3_2018_2019_LR_upper",
+      "pass": true,
+      "detail": {
+        "printed": "1.030",
+        "actual": 1.03031582981291,
+        "expected_rounded": 1.03
+      }
+    },
+    {
+      "check": "Table3_2018_2019_LR_1000_valid_replicates",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "Table3_2018_2019_LGBM_A",
+      "pass": true,
+      "detail": {
+        "printed": "0.1556",
+        "actual": 0.1556441763943111,
+        "expected_rounded": 0.1556
+      }
+    },
+    {
+      "check": "Table3_2018_2019_LGBM_B",
+      "pass": true,
+      "detail": {
+        "printed": "0.1833",
+        "actual": 0.1833198379623941,
+        "expected_rounded": 0.1833
+      }
+    },
+    {
+      "check": "Table3_2018_2019_LGBM_difference_B_minus_A",
+      "pass": true,
+      "detail": {
+        "printed": "+2.768",
+        "actual": 2.7675661568083,
+        "expected_rounded": 2.768
+      }
+    },
+    {
+      "check": "Table3_2018_2019_LGBM_lower",
+      "pass": true,
+      "detail": {
+        "printed": "-2.719",
+        "actual": -2.7187009688364,
+        "expected_rounded": -2.719
+      }
+    },
+    {
+      "check": "Table3_2018_2019_LGBM_upper",
+      "pass": true,
+      "detail": {
+        "printed": "5.094",
+        "actual": 5.09419118148932,
+        "expected_rounded": 5.094
+      }
+    },
+    {
+      "check": "Table3_2018_2019_LGBM_1000_valid_replicates",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "Table3_2020_2021_LR_A",
+      "pass": true,
+      "detail": {
+        "printed": "0.0179",
+        "actual": 0.0179146604486521,
+        "expected_rounded": 0.0179
+      }
+    },
+    {
+      "check": "Table3_2020_2021_LR_B",
+      "pass": true,
+      "detail": {
+        "printed": "0.0178",
+        "actual": 0.017818537715259,
+        "expected_rounded": 0.0178
+      }
+    },
+    {
+      "check": "Table3_2020_2021_LR_difference_B_minus_A",
+      "pass": true,
+      "detail": {
+        "printed": "-0.010",
+        "actual": -0.00961227333930552,
+        "expected_rounded": -0.01
+      }
+    },
+    {
+      "check": "Table3_2020_2021_LR_lower",
+      "pass": true,
+      "detail": {
+        "printed": "-0.040",
+        "actual": -0.03972411541461,
+        "expected_rounded": -0.04
+      }
+    },
+    {
+      "check": "Table3_2020_2021_LR_upper",
+      "pass": true,
+      "detail": {
+        "printed": "0.041",
+        "actual": 0.04073415947983,
+        "expected_rounded": 0.041
+      }
+    },
+    {
+      "check": "Table3_2020_2021_LR_1000_valid_replicates",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "Table3_2020_2021_LGBM_A",
+      "pass": true,
+      "detail": {
+        "printed": "0.0739",
+        "actual": 0.0738966146569525,
+        "expected_rounded": 0.0739
+      }
+    },
+    {
+      "check": "Table3_2020_2021_LGBM_B",
+      "pass": true,
+      "detail": {
+        "printed": "0.0916",
+        "actual": 0.0915595200507912,
+        "expected_rounded": 0.0916
+      }
+    },
+    {
+      "check": "Table3_2020_2021_LGBM_difference_B_minus_A",
+      "pass": true,
+      "detail": {
+        "printed": "+1.766",
+        "actual": 1.7662905393838702,
+        "expected_rounded": 1.766
+      }
+    },
+    {
+      "check": "Table3_2020_2021_LGBM_lower",
+      "pass": true,
+      "detail": {
+        "printed": "0.603",
+        "actual": 0.603209338024,
+        "expected_rounded": 0.603
+      }
+    },
+    {
+      "check": "Table3_2020_2021_LGBM_upper",
+      "pass": true,
+      "detail": {
+        "printed": "8.140",
+        "actual": 8.14013930719549,
+        "expected_rounded": 8.14
+      }
+    },
+    {
+      "check": "Table3_2020_2021_LGBM_1000_valid_replicates",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "Table4_2016_2017_LR_A",
+      "pass": true,
+      "detail": {
+        "printed": "0.0083",
+        "actual": 0.0082562396977225,
+        "expected_rounded": 0.0083
+      }
+    },
+    {
+      "check": "Table4_2016_2017_LR_B",
+      "pass": true,
+      "detail": {
+        "printed": "0.0082",
+        "actual": 0.0081963159040839,
+        "expected_rounded": 0.0082
+      }
+    },
+    {
+      "check": "Table4_2016_2017_LR_difference_B_minus_A",
+      "pass": true,
+      "detail": {
+        "printed": "-0.006",
+        "actual": -0.005992379363860094,
+        "expected_rounded": -0.006
+      }
+    },
+    {
+      "check": "Table4_2016_2017_LR_lower",
+      "pass": true,
+      "detail": {
+        "printed": "-0.012",
+        "actual": -0.01220972740208,
+        "expected_rounded": -0.012
+      }
+    },
+    {
+      "check": "Table4_2016_2017_LR_upper",
+      "pass": true,
+      "detail": {
+        "printed": "0.029",
+        "actual": 0.029144697249889998,
+        "expected_rounded": 0.029
+      }
+    },
+    {
+      "check": "Table4_2016_2017_LR_1000_valid_replicates",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "Table4_2016_2017_LGBM_A",
+      "pass": true,
+      "detail": {
+        "printed": "0.2475",
+        "actual": 0.2474686198347408,
+        "expected_rounded": 0.2475
+      }
+    },
+    {
+      "check": "Table4_2016_2017_LGBM_B",
+      "pass": true,
+      "detail": {
+        "printed": "0.2197",
+        "actual": 0.2196964474158847,
+        "expected_rounded": 0.2197
+      }
+    },
+    {
+      "check": "Table4_2016_2017_LGBM_difference_B_minus_A",
+      "pass": true,
+      "detail": {
+        "printed": "-2.777",
+        "actual": -2.77721724188561,
+        "expected_rounded": -2.777
+      }
+    },
+    {
+      "check": "Table4_2016_2017_LGBM_lower",
+      "pass": true,
+      "detail": {
+        "printed": "-5.723",
+        "actual": -5.722505943066699,
+        "expected_rounded": -5.723
+      }
+    },
+    {
+      "check": "Table4_2016_2017_LGBM_upper",
+      "pass": true,
+      "detail": {
+        "printed": "1.164",
+        "actual": 1.1637619646319601,
+        "expected_rounded": 1.164
+      }
+    },
+    {
+      "check": "Table4_2016_2017_LGBM_1000_valid_replicates",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "Table4_2018_2019_LR_A",
+      "pass": true,
+      "detail": {
+        "printed": "0.0097",
+        "actual": 0.0097027779669426,
+        "expected_rounded": 0.0097
+      }
+    },
+    {
+      "check": "Table4_2018_2019_LR_B",
+      "pass": true,
+      "detail": {
+        "printed": "0.0097",
+        "actual": 0.009719703524048,
+        "expected_rounded": 0.0097
+      }
+    },
+    {
+      "check": "Table4_2018_2019_LR_difference_B_minus_A",
+      "pass": true,
+      "detail": {
+        "printed": "+0.002",
+        "actual": 0.001692555710542873,
+        "expected_rounded": 0.002
+      }
+    },
+    {
+      "check": "Table4_2018_2019_LR_lower",
+      "pass": true,
+      "detail": {
+        "printed": "-0.001",
+        "actual": -0.0012357277507249794,
+        "expected_rounded": -0.001
+      }
+    },
+    {
+      "check": "Table4_2018_2019_LR_upper",
+      "pass": true,
+      "detail": {
+        "printed": "0.005",
+        "actual": 0.004749222989810075,
+        "expected_rounded": 0.005
+      }
+    },
+    {
+      "check": "Table4_2018_2019_LR_1000_valid_replicates",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "Table4_2018_2019_LGBM_A",
+      "pass": true,
+      "detail": {
+        "printed": "0.1556",
+        "actual": 0.1556441763943111,
+        "expected_rounded": 0.1556
+      }
+    },
+    {
+      "check": "Table4_2018_2019_LGBM_B",
+      "pass": true,
+      "detail": {
+        "printed": "0.1693",
+        "actual": 0.1693174119517757,
+        "expected_rounded": 0.1693
+      }
+    },
+    {
+      "check": "Table4_2018_2019_LGBM_difference_B_minus_A",
+      "pass": true,
+      "detail": {
+        "printed": "+1.367",
+        "actual": 1.36732355574646,
+        "expected_rounded": 1.367
+      }
+    },
+    {
+      "check": "Table4_2018_2019_LGBM_lower",
+      "pass": true,
+      "detail": {
+        "printed": "0.209",
+        "actual": 0.20887404311423002,
+        "expected_rounded": 0.209
+      }
+    },
+    {
+      "check": "Table4_2018_2019_LGBM_upper",
+      "pass": true,
+      "detail": {
+        "printed": "1.994",
+        "actual": 1.99395131545051,
+        "expected_rounded": 1.994
+      }
+    },
+    {
+      "check": "Table4_2018_2019_LGBM_1000_valid_replicates",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "Table4_2020_2021_LR_A",
+      "pass": true,
+      "detail": {
+        "printed": "0.0179",
+        "actual": 0.0179146604486521,
+        "expected_rounded": 0.0179
+      }
+    },
+    {
+      "check": "Table4_2020_2021_LR_B",
+      "pass": true,
+      "detail": {
+        "printed": "0.0179",
+        "actual": 0.0178571194716066,
+        "expected_rounded": 0.0179
+      }
+    },
+    {
+      "check": "Table4_2020_2021_LR_difference_B_minus_A",
+      "pass": true,
+      "detail": {
+        "printed": "-0.006",
+        "actual": -0.005754097704553304,
+        "expected_rounded": -0.006
+      }
+    },
+    {
+      "check": "Table4_2020_2021_LR_lower",
+      "pass": true,
+      "detail": {
+        "printed": "-0.032",
+        "actual": -0.03207458407049,
+        "expected_rounded": -0.032
+      }
+    },
+    {
+      "check": "Table4_2020_2021_LR_upper",
+      "pass": true,
+      "detail": {
+        "printed": "0.030",
+        "actual": 0.02961503700118,
+        "expected_rounded": 0.03
+      }
+    },
+    {
+      "check": "Table4_2020_2021_LR_1000_valid_replicates",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "Table4_2020_2021_LGBM_A",
+      "pass": true,
+      "detail": {
+        "printed": "0.0739",
+        "actual": 0.0738966146569525,
+        "expected_rounded": 0.0739
+      }
+    },
+    {
+      "check": "Table4_2020_2021_LGBM_B",
+      "pass": true,
+      "detail": {
+        "printed": "0.0750",
+        "actual": 0.0750176750176507,
+        "expected_rounded": 0.075
+      }
+    },
+    {
+      "check": "Table4_2020_2021_LGBM_difference_B_minus_A",
+      "pass": true,
+      "detail": {
+        "printed": "+0.112",
+        "actual": 0.11210603606981999,
+        "expected_rounded": 0.112
+      }
+    },
+    {
+      "check": "Table4_2020_2021_LGBM_lower",
+      "pass": true,
+      "detail": {
+        "printed": "-0.165",
+        "actual": -0.16505600499676001,
+        "expected_rounded": -0.165
+      }
+    },
+    {
+      "check": "Table4_2020_2021_LGBM_upper",
+      "pass": true,
+      "detail": {
+        "printed": "0.227",
+        "actual": 0.22744787066853997,
+        "expected_rounded": 0.227
+      }
+    },
+    {
+      "check": "Table4_2020_2021_LGBM_1000_valid_replicates",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "TableA1_log_assets_raw",
+      "pass": true,
+      "detail": {
+        "printed": "5,502",
+        "actual": 5502.0,
+        "expected_rounded": 5502.0
+      }
+    },
+    {
+      "check": "TableA1_log_assets_weighted",
+      "pass": true,
+      "detail": {
+        "printed": "63,397.604",
+        "actual": 63397.603999999985,
+        "expected_rounded": 63397.604
+      }
+    },
+    {
+      "check": "TableA1_log_assets_changed",
+      "pass": true,
+      "detail": {
+        "printed": "9.66",
+        "actual": 9.655144065065931,
+        "expected_rounded": 9.66
+      }
+    },
+    {
+      "check": "TableA1_liabilities_to_assets_raw",
+      "pass": true,
+      "detail": {
+        "printed": "4,132",
+        "actual": 4132.0,
+        "expected_rounded": 4132.0
+      }
+    },
+    {
+      "check": "TableA1_liabilities_to_assets_weighted",
+      "pass": true,
+      "detail": {
+        "printed": "49,348.548",
+        "actual": 49348.54799999998,
+        "expected_rounded": 49348.548
+      }
+    },
+    {
+      "check": "TableA1_liabilities_to_assets_changed",
+      "pass": true,
+      "detail": {
+        "printed": "10.95",
+        "actual": 10.952918006827678,
+        "expected_rounded": 10.95
+      }
+    },
+    {
+      "check": "TableA1_equity_to_assets_raw",
+      "pass": true,
+      "detail": {
+        "printed": "5,215",
+        "actual": 5215.0,
+        "expected_rounded": 5215.0
+      }
+    },
+    {
+      "check": "TableA1_equity_to_assets_weighted",
+      "pass": true,
+      "detail": {
+        "printed": "60,211.760",
+        "actual": 60211.75999999999,
+        "expected_rounded": 60211.76
+      }
+    },
+    {
+      "check": "TableA1_equity_to_assets_changed",
+      "pass": true,
+      "detail": {
+        "printed": "11.74",
+        "actual": 11.743828780291425,
+        "expected_rounded": 11.74
+      }
+    },
+    {
+      "check": "TableA1_cash_to_assets_raw",
+      "pass": true,
+      "detail": {
+        "printed": "5,062",
+        "actual": 5062.0,
+        "expected_rounded": 5062.0
+      }
+    },
+    {
+      "check": "TableA1_cash_to_assets_weighted",
+      "pass": true,
+      "detail": {
+        "printed": "57,471.474",
+        "actual": 57471.47399999999,
+        "expected_rounded": 57471.474
+      }
+    },
+    {
+      "check": "TableA1_cash_to_assets_changed",
+      "pass": true,
+      "detail": {
+        "printed": "10.99",
+        "actual": 10.986716644852367,
+        "expected_rounded": 10.99
+      }
+    },
+    {
+      "check": "TableA1_net_income_to_assets_raw",
+      "pass": true,
+      "detail": {
+        "printed": "5,227",
+        "actual": 5227.0,
+        "expected_rounded": 5227.0
+      }
+    },
+    {
+      "check": "TableA1_net_income_to_assets_weighted",
+      "pass": true,
+      "detail": {
+        "printed": "60,359.220",
+        "actual": 60359.21999999999,
+        "expected_rounded": 60359.22
+      }
+    },
+    {
+      "check": "TableA1_net_income_to_assets_changed",
+      "pass": true,
+      "detail": {
+        "printed": "10.98",
+        "actual": 10.976351251722601,
+        "expected_rounded": 10.98
+      }
+    },
+    {
+      "check": "TableA1_revenue_to_assets_raw",
+      "pass": true,
+      "detail": {
+        "printed": "4,069",
+        "actual": 4069.0,
+        "expected_rounded": 4069.0
+      }
+    },
+    {
+      "check": "TableA1_revenue_to_assets_weighted",
+      "pass": true,
+      "detail": {
+        "printed": "45,573.944",
+        "actual": 45573.94399999998,
+        "expected_rounded": 45573.944
+      }
+    },
+    {
+      "check": "TableA1_revenue_to_assets_changed",
+      "pass": true,
+      "detail": {
+        "printed": "14.06",
+        "actual": 14.059577551593957,
+        "expected_rounded": 14.06
+      }
+    },
+    {
+      "check": "TableA1_operating_income_to_assets_raw",
+      "pass": true,
+      "detail": {
+        "printed": "4,140",
+        "actual": 4140.0,
+        "expected_rounded": 4140.0
+      }
+    },
+    {
+      "check": "TableA1_operating_income_to_assets_weighted",
+      "pass": true,
+      "detail": {
+        "printed": "45,550.122",
+        "actual": 45550.12199999999,
+        "expected_rounded": 45550.122
+      }
+    },
+    {
+      "check": "TableA1_operating_income_to_assets_changed",
+      "pass": true,
+      "detail": {
+        "printed": "15.52",
+        "actual": 15.520327256203617,
+        "expected_rounded": 15.52
+      }
+    },
+    {
+      "check": "TableA1_operating_cash_to_assets_raw",
+      "pass": true,
+      "detail": {
+        "printed": "4,159",
+        "actual": 4159.0,
+        "expected_rounded": 4159.0
+      }
+    },
+    {
+      "check": "TableA1_operating_cash_to_assets_weighted",
+      "pass": true,
+      "detail": {
+        "printed": "48,644.064",
+        "actual": 48644.063999999984,
+        "expected_rounded": 48644.064
+      }
+    },
+    {
+      "check": "TableA1_operating_cash_to_assets_changed",
+      "pass": true,
+      "detail": {
+        "printed": "14.20",
+        "actual": 14.19864508031237,
+        "expected_rounded": 14.2
+      }
+    },
+    {
+      "check": "TableA1_retained_earnings_to_assets_raw",
+      "pass": true,
+      "detail": {
+        "printed": "4,871",
+        "actual": 4871.0,
+        "expected_rounded": 4871.0
+      }
+    },
+    {
+      "check": "TableA1_retained_earnings_to_assets_weighted",
+      "pass": true,
+      "detail": {
+        "printed": "55,370.488",
+        "actual": 55370.48799999999,
+        "expected_rounded": 55370.488
+      }
+    },
+    {
+      "check": "TableA1_retained_earnings_to_assets_changed",
+      "pass": true,
+      "detail": {
+        "printed": "11.14",
+        "actual": 11.143687229196896,
+        "expected_rounded": 11.14
+      }
+    },
+    {
+      "check": "TableA1_working_capital_to_assets_raw",
+      "pass": true,
+      "detail": {
+        "printed": "4,217",
+        "actual": 4217.0,
+        "expected_rounded": 4217.0
+      }
+    },
+    {
+      "check": "TableA1_working_capital_to_assets_weighted",
+      "pass": true,
+      "detail": {
+        "printed": "45,952.226",
+        "actual": 45952.22599999998,
+        "expected_rounded": 45952.226
+      }
+    },
+    {
+      "check": "TableA1_working_capital_to_assets_changed",
+      "pass": true,
+      "detail": {
+        "printed": "13.89",
+        "actual": 13.89140974367597,
+        "expected_rounded": 13.89
+      }
+    },
+    {
+      "check": "TableB1_2016_2017_Constant_roc_auc",
+      "pass": true,
+      "detail": {
+        "printed": "0.5000",
+        "actual": 0.5,
+        "expected_rounded": 0.5
+      }
+    },
+    {
+      "check": "TableB1_2016_2017_Constant_brier",
+      "pass": true,
+      "detail": {
+        "printed": "0.004183",
+        "actual": 0.0041831426158792,
+        "expected_rounded": 0.004183
+      }
+    },
+    {
+      "check": "TableB1_2016_2017_Constant_retrospective_recall_at_5percent",
+      "pass": true,
+      "detail": {
+        "printed": "5.00",
+        "actual": 5.0,
+        "expected_rounded": 5.0
+      }
+    },
+    {
+      "check": "TableB1_2016_2017_Constant_calibration_intercept",
+      "pass": true,
+      "detail": {
+        "printed": "0.843",
+        "actual": 0.8428239312023499,
+        "expected_rounded": 0.843
+      }
+    },
+    {
+      "check": "TableB1_2016_2017_unidentified_slope",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "TableB1_2016_2017_LR A_roc_auc",
+      "pass": true,
+      "detail": {
+        "printed": "0.7057",
+        "actual": 0.70573527841508,
+        "expected_rounded": 0.7057
+      }
+    },
+    {
+      "check": "TableB1_2016_2017_LR A_brier",
+      "pass": true,
+      "detail": {
+        "printed": "0.004176",
+        "actual": 0.0041763755945386,
+        "expected_rounded": 0.004176
+      }
+    },
+    {
+      "check": "TableB1_2016_2017_LR A_retrospective_recall_at_5percent",
+      "pass": true,
+      "detail": {
+        "printed": "13.73",
+        "actual": 13.72549019607843,
+        "expected_rounded": 13.73
+      }
+    },
+    {
+      "check": "TableB1_2016_2017_LR A_calibration_intercept",
+      "pass": true,
+      "detail": {
+        "printed": "0.778",
+        "actual": 0.7777245680485785,
+        "expected_rounded": 0.778
+      }
+    },
+    {
+      "check": "TableB1_2016_2017_LR A_slope",
+      "pass": true,
+      "detail": {
+        "printed": "0.627",
+        "actual": 0.6270096050684013,
+        "expected_rounded": 0.627
+      }
+    },
+    {
+      "check": "TableB1_2016_2017_LGBM A_roc_auc",
+      "pass": true,
+      "detail": {
+        "printed": "0.9662",
+        "actual": 0.9662456690345302,
+        "expected_rounded": 0.9662
+      }
+    },
+    {
+      "check": "TableB1_2016_2017_LGBM A_brier",
+      "pass": true,
+      "detail": {
+        "printed": "0.003819",
+        "actual": 0.003819010233126,
+        "expected_rounded": 0.003819
+      }
+    },
+    {
+      "check": "TableB1_2016_2017_LGBM A_retrospective_recall_at_5percent",
+      "pass": true,
+      "detail": {
+        "printed": "74.51",
+        "actual": 74.50980392156863,
+        "expected_rounded": 74.51
+      }
+    },
+    {
+      "check": "TableB1_2016_2017_LGBM A_calibration_intercept",
+      "pass": true,
+      "detail": {
+        "printed": "0.825",
+        "actual": 0.8248440923037018,
+        "expected_rounded": 0.825
+      }
+    },
+    {
+      "check": "TableB1_2016_2017_LGBM A_slope",
+      "pass": true,
+      "detail": {
+        "printed": "0.512",
+        "actual": 0.5119930552237109,
+        "expected_rounded": 0.512
+      }
+    },
+    {
+      "check": "TableB1_2016_2017_LR B_roc_auc",
+      "pass": true,
+      "detail": {
+        "printed": "0.7050",
+        "actual": 0.7050408636575891,
+        "expected_rounded": 0.705
+      }
+    },
+    {
+      "check": "TableB1_2016_2017_LR B_brier",
+      "pass": true,
+      "detail": {
+        "printed": "0.004176",
+        "actual": 0.0041764598932301,
+        "expected_rounded": 0.004176
+      }
+    },
+    {
+      "check": "TableB1_2016_2017_LR B_retrospective_recall_at_5percent",
+      "pass": true,
+      "detail": {
+        "printed": "13.73",
+        "actual": 13.72549019607843,
+        "expected_rounded": 13.73
+      }
+    },
+    {
+      "check": "TableB1_2016_2017_LR B_calibration_intercept",
+      "pass": true,
+      "detail": {
+        "printed": "0.776",
+        "actual": 0.7761157080966887,
+        "expected_rounded": 0.776
+      }
+    },
+    {
+      "check": "TableB1_2016_2017_LR B_slope",
+      "pass": true,
+      "detail": {
+        "printed": "0.623",
+        "actual": 0.6228076277858635,
+        "expected_rounded": 0.623
+      }
+    },
+    {
+      "check": "TableB1_2016_2017_LGBM B_roc_auc",
+      "pass": true,
+      "detail": {
+        "printed": "0.9722",
+        "actual": 0.9721828081517844,
+        "expected_rounded": 0.9722
+      }
+    },
+    {
+      "check": "TableB1_2016_2017_LGBM B_brier",
+      "pass": true,
+      "detail": {
+        "printed": "0.003916",
+        "actual": 0.0039163578553058,
+        "expected_rounded": 0.003916
+      }
+    },
+    {
+      "check": "TableB1_2016_2017_LGBM B_retrospective_recall_at_5percent",
+      "pass": true,
+      "detail": {
+        "printed": "78.43",
+        "actual": 78.43137254901961,
+        "expected_rounded": 78.43
+      }
+    },
+    {
+      "check": "TableB1_2016_2017_LGBM B_calibration_intercept",
+      "pass": true,
+      "detail": {
+        "printed": "0.495",
+        "actual": 0.4948796824358445,
+        "expected_rounded": 0.495
+      }
+    },
+    {
+      "check": "TableB1_2016_2017_LGBM B_slope",
+      "pass": true,
+      "detail": {
+        "printed": "0.539",
+        "actual": 0.5386031703978942,
+        "expected_rounded": 0.539
+      }
+    },
+    {
+      "check": "TableB1_2018_2019_Constant_roc_auc",
+      "pass": true,
+      "detail": {
+        "printed": "0.5000",
+        "actual": 0.5,
+        "expected_rounded": 0.5
+      }
+    },
+    {
+      "check": "TableB1_2018_2019_Constant_brier",
+      "pass": true,
+      "detail": {
+        "printed": "0.002429",
+        "actual": 0.0024293305455467,
+        "expected_rounded": 0.002429
+      }
+    },
+    {
+      "check": "TableB1_2018_2019_Constant_retrospective_recall_at_5percent",
+      "pass": true,
+      "detail": {
+        "printed": "5.00",
+        "actual": 4.99999999999999,
+        "expected_rounded": 5.0
+      }
+    },
+    {
+      "check": "TableB1_2018_2019_Constant_calibration_intercept",
+      "pass": true,
+      "detail": {
+        "printed": "-0.136",
+        "actual": -0.1359461090139238,
+        "expected_rounded": -0.136
+      }
+    },
+    {
+      "check": "TableB1_2018_2019_unidentified_slope",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "TableB1_2018_2019_LR A_roc_auc",
+      "pass": true,
+      "detail": {
+        "printed": "0.8138",
+        "actual": 0.8138430842554385,
+        "expected_rounded": 0.8138
+      }
+    },
+    {
+      "check": "TableB1_2018_2019_LR A_brier",
+      "pass": true,
+      "detail": {
+        "printed": "0.002426",
+        "actual": 0.0024256858102445,
+        "expected_rounded": 0.002426
+      }
+    },
+    {
+      "check": "TableB1_2018_2019_LR A_retrospective_recall_at_5percent",
+      "pass": true,
+      "detail": {
+        "printed": "28.57",
+        "actual": 28.57142857142857,
+        "expected_rounded": 28.57
+      }
+    },
+    {
+      "check": "TableB1_2018_2019_LR A_calibration_intercept",
+      "pass": true,
+      "detail": {
+        "printed": "-0.283",
+        "actual": -0.2826495271698358,
+        "expected_rounded": -0.283
+      }
+    },
+    {
+      "check": "TableB1_2018_2019_LR A_slope",
+      "pass": true,
+      "detail": {
+        "printed": "1.023",
+        "actual": 1.0229374249208127,
+        "expected_rounded": 1.023
+      }
+    },
+    {
+      "check": "TableB1_2018_2019_LGBM A_roc_auc",
+      "pass": true,
+      "detail": {
+        "printed": "0.9401",
+        "actual": 0.9401297169849512,
+        "expected_rounded": 0.9401
+      }
+    },
+    {
+      "check": "TableB1_2018_2019_LGBM A_brier",
+      "pass": true,
+      "detail": {
+        "printed": "0.003763",
+        "actual": 0.0037633278262219,
+        "expected_rounded": 0.003763
+      }
+    },
+    {
+      "check": "TableB1_2018_2019_LGBM A_retrospective_recall_at_5percent",
+      "pass": true,
+      "detail": {
+        "printed": "67.86",
+        "actual": 67.85714285714286,
+        "expected_rounded": 67.86
+      }
+    },
+    {
+      "check": "TableB1_2018_2019_LGBM A_calibration_intercept",
+      "pass": true,
+      "detail": {
+        "printed": "-1.491",
+        "actual": -1.4907328417634762,
+        "expected_rounded": -1.491
+      }
+    },
+    {
+      "check": "TableB1_2018_2019_LGBM A_slope",
+      "pass": true,
+      "detail": {
+        "printed": "0.403",
+        "actual": 0.4027214608528312,
+        "expected_rounded": 0.403
+      }
+    },
+    {
+      "check": "TableB1_2018_2019_LR B_roc_auc",
+      "pass": true,
+      "detail": {
+        "printed": "0.8250",
+        "actual": 0.8249704349124838,
+        "expected_rounded": 0.825
+      }
+    },
+    {
+      "check": "TableB1_2018_2019_LR B_brier",
+      "pass": true,
+      "detail": {
+        "printed": "0.002424",
+        "actual": 0.0024244804942296,
+        "expected_rounded": 0.002424
+      }
+    },
+    {
+      "check": "TableB1_2018_2019_LR B_retrospective_recall_at_5percent",
+      "pass": true,
+      "detail": {
+        "printed": "17.86",
+        "actual": 17.85714285714285,
+        "expected_rounded": 17.86
+      }
+    },
+    {
+      "check": "TableB1_2018_2019_LR B_calibration_intercept",
+      "pass": true,
+      "detail": {
+        "printed": "-0.175",
+        "actual": -0.175049843182057,
+        "expected_rounded": -0.175
+      }
+    },
+    {
+      "check": "TableB1_2018_2019_LR B_slope",
+      "pass": true,
+      "detail": {
+        "printed": "4.292",
+        "actual": 4.29212682658245,
+        "expected_rounded": 4.292
+      }
+    },
+    {
+      "check": "TableB1_2018_2019_LGBM B_roc_auc",
+      "pass": true,
+      "detail": {
+        "printed": "0.9470",
+        "actual": 0.9469912558779898,
+        "expected_rounded": 0.947
+      }
+    },
+    {
+      "check": "TableB1_2018_2019_LGBM B_brier",
+      "pass": true,
+      "detail": {
+        "printed": "0.004005",
+        "actual": 0.0040047212130562,
+        "expected_rounded": 0.004005
+      }
+    },
+    {
+      "check": "TableB1_2018_2019_LGBM B_retrospective_recall_at_5percent",
+      "pass": true,
+      "detail": {
+        "printed": "78.57",
+        "actual": 78.57142857142857,
+        "expected_rounded": 78.57
+      }
+    },
+    {
+      "check": "TableB1_2018_2019_LGBM B_calibration_intercept",
+      "pass": true,
+      "detail": {
+        "printed": "-2.078",
+        "actual": -2.077955561109411,
+        "expected_rounded": -2.078
+      }
+    },
+    {
+      "check": "TableB1_2018_2019_LGBM B_slope",
+      "pass": true,
+      "detail": {
+        "printed": "0.376",
+        "actual": 0.3761998638153098,
+        "expected_rounded": 0.376
+      }
+    },
+    {
+      "check": "TableB1_2020_2021_Constant_roc_auc",
+      "pass": true,
+      "detail": {
+        "printed": "0.5000",
+        "actual": 0.5,
+        "expected_rounded": 0.5
+      }
+    },
+    {
+      "check": "TableB1_2020_2021_Constant_brier",
+      "pass": true,
+      "detail": {
+        "printed": "0.003847",
+        "actual": 0.0038469853738262,
+        "expected_rounded": 0.003847
+      }
+    },
+    {
+      "check": "TableB1_2020_2021_Constant_retrospective_recall_at_5percent",
+      "pass": true,
+      "detail": {
+        "printed": "5.00",
+        "actual": 5.0,
+        "expected_rounded": 5.0
+      }
+    },
+    {
+      "check": "TableB1_2020_2021_Constant_calibration_intercept",
+      "pass": true,
+      "detail": {
+        "printed": "0.357",
+        "actual": 0.3571858856570202,
+        "expected_rounded": 0.357
+      }
+    },
+    {
+      "check": "TableB1_2020_2021_unidentified_slope",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "TableB1_2020_2021_LR A_roc_auc",
+      "pass": true,
+      "detail": {
+        "printed": "0.8198",
+        "actual": 0.8198303047128965,
+        "expected_rounded": 0.8198
+      }
+    },
+    {
+      "check": "TableB1_2020_2021_LR A_brier",
+      "pass": true,
+      "detail": {
+        "printed": "0.003827",
+        "actual": 0.0038272622610294,
+        "expected_rounded": 0.003827
+      }
+    },
+    {
+      "check": "TableB1_2020_2021_LR A_retrospective_recall_at_5percent",
+      "pass": true,
+      "detail": {
+        "printed": "31.82",
+        "actual": 31.818181818181817,
+        "expected_rounded": 31.82
+      }
+    },
+    {
+      "check": "TableB1_2020_2021_LR A_calibration_intercept",
+      "pass": true,
+      "detail": {
+        "printed": "0.248",
+        "actual": 0.2479049307446883,
+        "expected_rounded": 0.248
+      }
+    },
+    {
+      "check": "TableB1_2020_2021_LR A_slope",
+      "pass": true,
+      "detail": {
+        "printed": "1.048",
+        "actual": 1.0482135897549945,
+        "expected_rounded": 1.048
+      }
+    },
+    {
+      "check": "TableB1_2020_2021_LGBM A_roc_auc",
+      "pass": true,
+      "detail": {
+        "printed": "0.8971",
+        "actual": 0.8971454752650398,
+        "expected_rounded": 0.8971
+      }
+    },
+    {
+      "check": "TableB1_2020_2021_LGBM A_brier",
+      "pass": true,
+      "detail": {
+        "printed": "0.007117",
+        "actual": 0.0071171571911158,
+        "expected_rounded": 0.007117
+      }
+    },
+    {
+      "check": "TableB1_2020_2021_LGBM A_retrospective_recall_at_5percent",
+      "pass": true,
+      "detail": {
+        "printed": "47.73",
+        "actual": 47.72727272727273,
+        "expected_rounded": 47.73
+      }
+    },
+    {
+      "check": "TableB1_2020_2021_LGBM A_calibration_intercept",
+      "pass": true,
+      "detail": {
+        "printed": "-1.523",
+        "actual": -1.5234859054875067,
+        "expected_rounded": -1.523
+      }
+    },
+    {
+      "check": "TableB1_2020_2021_LGBM A_slope",
+      "pass": true,
+      "detail": {
+        "printed": "0.353",
+        "actual": 0.3533245782262377,
+        "expected_rounded": 0.353
+      }
+    },
+    {
+      "check": "TableB1_2020_2021_LR B_roc_auc",
+      "pass": true,
+      "detail": {
+        "printed": "0.8201",
+        "actual": 0.8200943721185191,
+        "expected_rounded": 0.8201
+      }
+    },
+    {
+      "check": "TableB1_2020_2021_LR B_brier",
+      "pass": true,
+      "detail": {
+        "printed": "0.003827",
+        "actual": 0.0038273763201473,
+        "expected_rounded": 0.003827
+      }
+    },
+    {
+      "check": "TableB1_2020_2021_LR B_retrospective_recall_at_5percent",
+      "pass": true,
+      "detail": {
+        "printed": "34.09",
+        "actual": 34.090909090909086,
+        "expected_rounded": 34.09
+      }
+    },
+    {
+      "check": "TableB1_2020_2021_LR B_calibration_intercept",
+      "pass": true,
+      "detail": {
+        "printed": "0.254",
+        "actual": 0.254328764003091,
+        "expected_rounded": 0.254
+      }
+    },
+    {
+      "check": "TableB1_2020_2021_LR B_slope",
+      "pass": true,
+      "detail": {
+        "printed": "1.050",
+        "actual": 1.0500235005331124,
+        "expected_rounded": 1.05
+      }
+    },
+    {
+      "check": "TableB1_2020_2021_LGBM B_roc_auc",
+      "pass": true,
+      "detail": {
+        "printed": "0.9263",
+        "actual": 0.926267693701252,
+        "expected_rounded": 0.9263
+      }
+    },
+    {
+      "check": "TableB1_2020_2021_LGBM B_brier",
+      "pass": true,
+      "detail": {
+        "printed": "0.008345",
+        "actual": 0.0083453379713079,
+        "expected_rounded": 0.008345
+      }
+    },
+    {
+      "check": "TableB1_2020_2021_LGBM B_retrospective_recall_at_5percent",
+      "pass": true,
+      "detail": {
+        "printed": "59.09",
+        "actual": 59.09090909090909,
+        "expected_rounded": 59.09
+      }
+    },
+    {
+      "check": "TableB1_2020_2021_LGBM B_calibration_intercept",
+      "pass": true,
+      "detail": {
+        "printed": "-1.747",
+        "actual": -1.747480010523972,
+        "expected_rounded": -1.747
+      }
+    },
+    {
+      "check": "TableB1_2020_2021_LGBM B_slope",
+      "pass": true,
+      "detail": {
+        "printed": "0.443",
+        "actual": 0.44272774397282,
+        "expected_rounded": 0.443
+      }
+    },
+    {
+      "check": "TableB2_2016_2017_LRA",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "TableB2_2016_2017_LGBMA",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "TableB2_2016_2017_LRB",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "TableB2_2016_2017_LGBMB",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "TableB2_2018_2019_LRA",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "TableB2_2018_2019_LGBMA",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "TableB2_2018_2019_LRB",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "TableB2_2018_2019_LGBMB",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "TableB2_2020_2021_LRA",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "TableB2_2020_2021_LGBMA",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "TableB2_2020_2021_LRB",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "TableB2_2020_2021_LGBMB",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "verified_scale_completed_fit_counts",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "verified_scale_input_and_parent_hash_chain",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "verified_scale_12_artifact_hashes",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "verified_scale_rows_match_manifest",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "S1_same_rows_metadata_weights",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "S1_only_A_B_log_assets_changed",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "verified_scale_2016_2017_LGBM_independent_AP",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "verified_scale_2016_2017_LR_independent_AP",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "verified_scale_2018_2019_LGBM_independent_AP",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "verified_scale_2018_2019_LR_independent_AP",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "verified_scale_2020_2021_LGBM_independent_AP",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "verified_scale_2020_2021_LR_independent_AP",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "exclude_transitions_completed_fit_counts",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "exclude_transitions_input_and_parent_hash_chain",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "exclude_transitions_12_artifact_hashes",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "exclude_transitions_rows_match_manifest",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "S2_exact_exclusion_12_one_positive",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "exclude_transitions_2016_2017_LGBM_independent_AP",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "exclude_transitions_2016_2017_LR_independent_AP",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "exclude_transitions_2018_2019_LGBM_independent_AP",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "exclude_transitions_2018_2019_LR_independent_AP",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "exclude_transitions_2020_2021_LGBM_independent_AP",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "exclude_transitions_2020_2021_LR_independent_AP",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "Table5_('2016_2017', 'LR')_main",
+      "pass": true,
+      "detail": {
+        "printed": "-0.006",
+        "actual": -0.006144130198581198,
+        "expected_rounded": -0.006
+      }
+    },
+    {
+      "check": "Table5_('2016_2017', 'LR')_verified_scale",
+      "pass": true,
+      "detail": {
+        "printed": "-0.006",
+        "actual": -0.006034907381671437,
+        "expected_rounded": -0.006
+      }
+    },
+    {
+      "check": "Table5_('2016_2017', 'LR')_exclude_transitions",
+      "pass": true,
+      "detail": {
+        "printed": "-0.014",
+        "actual": -0.013774509824292756,
+        "expected_rounded": -0.014
+      }
+    },
+    {
+      "check": "Table5_('2016_2017', 'LGBM')_main",
+      "pass": true,
+      "detail": {
+        "printed": "+2.839",
+        "actual": 2.8391200066429,
+        "expected_rounded": 2.839
+      }
+    },
+    {
+      "check": "Table5_('2016_2017', 'LGBM')_verified_scale",
+      "pass": true,
+      "detail": {
+        "printed": "+2.839",
+        "actual": 2.8391200066429008,
+        "expected_rounded": 2.839
+      }
+    },
+    {
+      "check": "Table5_('2016_2017', 'LGBM')_exclude_transitions",
+      "pass": true,
+      "detail": {
+        "printed": "+2.802",
+        "actual": 2.8016648630765695,
+        "expected_rounded": 2.802
+      }
+    },
+    {
+      "check": "Table5_('2018_2019', 'LR')_main",
+      "pass": true,
+      "detail": {
+        "printed": "-0.072",
+        "actual": -0.07176879376536,
+        "expected_rounded": -0.072
+      }
+    },
+    {
+      "check": "Table5_('2018_2019', 'LR')_verified_scale",
+      "pass": true,
+      "detail": {
+        "printed": "-0.072",
+        "actual": -0.07169165841391187,
+        "expected_rounded": -0.072
+      }
+    },
+    {
+      "check": "Table5_('2018_2019', 'LR')_exclude_transitions",
+      "pass": true,
+      "detail": {
+        "printed": "+0.107",
+        "actual": 0.10739682499130623,
+        "expected_rounded": 0.107
+      }
+    },
+    {
+      "check": "Table5_('2018_2019', 'LGBM')_main",
+      "pass": true,
+      "detail": {
+        "printed": "+2.768",
+        "actual": 2.7675661568083,
+        "expected_rounded": 2.768
+      }
+    },
+    {
+      "check": "Table5_('2018_2019', 'LGBM')_verified_scale",
+      "pass": true,
+      "detail": {
+        "printed": "+2.768",
+        "actual": 2.7675661568083014,
+        "expected_rounded": 2.768
+      }
+    },
+    {
+      "check": "Table5_('2018_2019', 'LGBM')_exclude_transitions",
+      "pass": true,
+      "detail": {
+        "printed": "+2.619",
+        "actual": 2.619251244486262,
+        "expected_rounded": 2.619
+      }
+    },
+    {
+      "check": "Table5_('2020_2021', 'LR')_main",
+      "pass": true,
+      "detail": {
+        "printed": "-0.010",
+        "actual": -0.009612273339304823,
+        "expected_rounded": -0.01
+      }
+    },
+    {
+      "check": "Table5_('2020_2021', 'LR')_verified_scale",
+      "pass": true,
+      "detail": {
+        "printed": "-0.009",
+        "actual": -0.009020674623691494,
+        "expected_rounded": -0.009
+      }
+    },
+    {
+      "check": "Table5_('2020_2021', 'LR')_exclude_transitions",
+      "pass": true,
+      "detail": {
+        "printed": "-0.019",
+        "actual": -0.019497416563648423,
+        "expected_rounded": -0.019
+      }
+    },
+    {
+      "check": "Table5_('2020_2021', 'LGBM')_main",
+      "pass": true,
+      "detail": {
+        "printed": "+1.766",
+        "actual": 1.7662905393838702,
+        "expected_rounded": 1.766
+      }
+    },
+    {
+      "check": "Table5_('2020_2021', 'LGBM')_verified_scale",
+      "pass": true,
+      "detail": {
+        "printed": "+1.766",
+        "actual": 1.7662905393838746,
+        "expected_rounded": 1.766
+      }
+    },
+    {
+      "check": "Table5_('2020_2021', 'LGBM')_exclude_transitions",
+      "pass": true,
+      "detail": {
+        "printed": "-3.898",
+        "actual": -3.8978943300048767,
+        "expected_rounded": -3.898
+      }
+    },
+    {
+      "check": "Table5_six_unique_comparisons",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "prose_cohort_rows",
+      "pass": true,
+      "detail": {
+        "actual": 5502.0,
+        "stated": 5502
+      }
+    },
+    {
+      "check": "prose_CIKs",
+      "pass": true,
+      "detail": {
+        "actual": 990.0,
+        "stated": 990
+      }
+    },
+    {
+      "check": "prose_positive_windows",
+      "pass": true,
+      "detail": {
+        "actual": 188.0,
+        "stated": 188
+      }
+    },
+    {
+      "check": "prose_positive_CIKs",
+      "pass": true,
+      "detail": {
+        "actual": 188.0,
+        "stated": 188
+      }
+    },
+    {
+      "check": "prose_cofiling_clusters",
+      "pass": true,
+      "detail": {
+        "actual": 973.0,
+        "stated": 973
+      }
+    },
+    {
+      "check": "prose_weighted_landmarks",
+      "pass": true,
+      "detail": {
+        "actual": 63397.603999999985,
+        "stated": 63397.604
+      }
+    },
+    {
+      "check": "prose_later_bundles",
+      "pass": true,
+      "detail": {
+        "actual": 4128.0,
+        "stated": 4128
+      }
+    },
+    {
+      "check": "prose_changed_raw_windows",
+      "pass": true,
+      "detail": {
+        "actual": 1307.0,
+        "stated": 1307
+      }
+    },
+    {
+      "check": "prose_later_gap_median_days",
+      "pass": true,
+      "detail": {
+        "actual": 364.0,
+        "stated": 364
+      }
+    },
+    {
+      "check": "prose_C_changed_windows",
+      "pass": true,
+      "detail": {
+        "actual": 2245.0,
+        "stated": 2245
+      }
+    },
+    {
+      "check": "prose_C_multisource_windows",
+      "pass": true,
+      "detail": {
+        "actual": 5115.0,
+        "stated": 5115
+      }
+    },
+    {
+      "check": "prose_later_bundle_raw_pct",
+      "pass": true,
+      "detail": {
+        "actual": 75.02726281352236,
+        "stated": 75.0
+      }
+    },
+    {
+      "check": "prose_later_bundle_weighted_pct",
+      "pass": true,
+      "detail": {
+        "actual": 75.46175088888218,
+        "stated": 75.5
+      }
+    },
+    {
+      "check": "prose_changed_raw_pct",
+      "pass": true,
+      "detail": {
+        "actual": 23.7549981824791,
+        "stated": 23.8
+      }
+    },
+    {
+      "check": "prose_changed_weighted_pct",
+      "pass": true,
+      "detail": {
+        "actual": 21.91129178951306,
+        "stated": 21.9
+      }
+    },
+    {
+      "check": "prose_C_multisource_weighted_pct",
+      "pass": true,
+      "detail": {
+        "actual": 93.00091214803639,
+        "stated": 93.0
+      }
+    },
+    {
+      "check": "abstract_present_5,502",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "abstract_present_990",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "abstract_present_188",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "abstract_present_23.8%",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "abstract_present_12 transition-report",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "abstract_present_−3.90",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "abstract_LGBM_2016_2017",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "abstract_LGBM_2018_2019",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "abstract_LGBM_2020_2021",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "abstract_transition_reversal",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "all_LGBM_Brier_worsen",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "scale_LGBM_AP_same_reported_precision",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "prose_recall_reversal",
+      "pass": true,
+      "detail": {
+        "main_pp": 11.36363636363636,
+        "no_transition_pp": -11.363636363636349
+      }
+    },
+    {
+      "check": "input_change_threshold_matches_figure_code",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "capacity_and_uncertainty_qualifiers",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "sparse_first_fold_limitation_retained",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "eight_unique_captioned_tables",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "manuscript_unchanged_during_audit",
+      "pass": true,
+      "detail": null
+    }
+  ],
+  "scope": "All numeric cells of Tables 1-5, A1, B1, B2; main abstract numerical highlights; selected descriptive/protocol/capacity statements; sensitivity completion/hash chains and independently recomputed AP pairs. No refitting, no repeated full main-model audit, no new source-HTML or bibliographic verification.",
+  "real_data_models_fitted": 0,
+  "manuscript_modified": false,
+  "original_numeric_audit_manuscript_sha256": "86ae1bf887316a0501f0f9b591977625c43de99ea7ca59c8a8f1389227d906f5",
+  "resolutions": [
+    {
+      "issue": "manuscript_content_summary.json tables was 9; actual captioned tables 8",
+      "status": "resolved",
+      "verified_tables": 8,
+      "verified_utc": "2026-09-21T09:49:59.000844+00:00"
+    }
+  ],
+  "limited_revision_audit": {
+    "audit_utc": "2026-09-21T09:49:59.000844+00:00",
+    "previous_manuscript_sha256": "86ae1bf887316a0501f0f9b591977625c43de99ea7ca59c8a8f1389227d906f5",
+    "current_manuscript_sha256": "4d6abbb6ec1529ed161a9fc8db5e454504ea5954f8ef945db43a3b30a0b39bf8",
+    "references_bib_sha256": "4ec3c771b8c3ed229b30e61c3ac04e883fec85bc62e9476557e6b59160769c66",
+    "checks": [
+      {
+        "check": "table_count_metadata_resolved_to_8",
+        "pass": true
+      },
+      {
+        "check": "abstract_three_and_seven_event_warning_added",
+        "pass": true
+      },
+      {
+        "check": "abstract_word_count_244",
+        "pass": true,
+        "actual_words": 244
+      },
+      {
+        "check": "figure1_panel_A_B_caption_matches_figure_code",
+        "pass": true
+      },
+      {
+        "check": "AI_disclosure_names_OpenAI_Codex",
+        "pass": true
+      },
+      {
+        "check": "four_SEC_publishers_protected_as_corporate_names",
+        "pass": true
+      },
+      {
+        "check": "Zhang_2026_explicit_preprint_publisher",
+        "pass": true
+      }
+    ],
+    "checks_passed": 7,
+    "checks_total": 7,
+    "prior_310_numeric_checks_rerun": false,
+    "note": "Bounded follow-up requested by root. Original numeric audit retained; no model runs or table recalculations repeated. Root reports result tables unchanged."
+  }
+}

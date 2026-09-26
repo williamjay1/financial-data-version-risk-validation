@@ -1,0 +1,28 @@
+[
+  {
+    "url": "https://data.sec.gov/submissions/CIK0001657853.json",
+    "request_utc": "2026-09-21T07:53:24.320462+00:00",
+    "user_agent": "Codex public-data feasibility audit/1.0 (one-off access test; no bulk collection)",
+    "used_authentication": false,
+    "status": 200,
+    "final_url": "https://data.sec.gov/submissions/CIK0001657853.json",
+    "content_type": "application/json",
+    "bytes": 141959,
+    "raw_path": "E:\\AcademicData\\scie_small_sample_topics_20260920\\raw\\finance_reframe_20260921\\corporate\\probe_20260921T075324Z_82bda946_00.bin",
+    "sha256": "4985bf3c8fb326c1d18334eba829ed9c4165fd0009930bba2e68f1dcea74d0ab",
+    "response_headers": {}
+  },
+  {
+    "url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0001657853.json",
+    "request_utc": "2026-09-21T07:53:26.605872+00:00",
+    "user_agent": "Codex public-data feasibility audit/1.0 (one-off access test; no bulk collection)",
+    "used_authentication": false,
+    "status": 200,
+    "final_url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0001657853.json",
+    "content_type": "application/json",
+    "bytes": 2202614,
+    "raw_path": "E:\\AcademicData\\scie_small_sample_topics_20260920\\raw\\finance_reframe_20260921\\corporate\\probe_20260921T075324Z_82bda946_01.bin",
+    "sha256": "55e58c385f14407a31e40ff71d3b850f04f33c8cbb92fb426226c58cd53e83d8",
+    "response_headers": {}
+  }
+]

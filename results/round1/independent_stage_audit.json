@@ -1,0 +1,96 @@
+{
+  "checked_utc": "2026-09-21T08:08:17.057795+00:00",
+  "recorded_raw_hashes_checked": 54,
+  "raw_files_including_literature": 54,
+  "raw_bytes": 28869601,
+  "raw_not_readonly": [],
+  "brd_shape": [
+    1218,
+    217
+  ],
+  "brd_2009_2022_cases": 426,
+  "brd_2009_2022_unique_cik": 409,
+  "fixed_positive_case_audit_status": {
+    "joined_snapshot": 5,
+    "companyfacts_unavailable": 2,
+    "no_pre_event_10k_in_retrieved_history": 1
+  },
+  "corporate_facts_raw_matched_and_pre_event": 24,
+  "brd_link_date_checks": [
+    {
+      "cik": "0000842635",
+      "name": "Lyondell Chemical Company",
+      "event_date": "2009-01-06",
+      "accession": "0000842635-08-000019",
+      "form": "10-K",
+      "filed": "2008-03-31",
+      "filed_after_event": false
+    },
+    {
+      "cik": "0000029806",
+      "name": "Constar International Inc. (2011)",
+      "event_date": "2011-01-11",
+      "accession": "0000950123-10-027798",
+      "form": "10-K",
+      "filed": "2010-03-24",
+      "filed_after_event": false
+    },
+    {
+      "cik": "0001123541",
+      "name": "Penson Worldwide, Inc.",
+      "event_date": "2013-01-11",
+      "accession": "0001193125-12-117406",
+      "form": "10-K",
+      "filed": "2012-03-15",
+      "filed_after_event": false
+    },
+    {
+      "cik": "0000858395",
+      "name": "Caesars Entertainment Operating Company, Inc.",
+      "event_date": "2015-01-12",
+      "accession": "0000858395-14-000024",
+      "form": "10-Q",
+      "filed": "2014-11-14",
+      "filed_after_event": false
+    },
+    {
+      "cik": "0001509589",
+      "name": "Bonanza Creek Energy, Inc.",
+      "event_date": "2017-01-04",
+      "accession": "0001509589-17-000005",
+      "form": "10-K",
+      "filed": "2017-03-16",
+      "filed_after_event": true
+    },
+    {
+      "cik": "0000786110",
+      "name": "Gymboree Corporation (2019)",
+      "event_date": "2019-01-16",
+      "accession": "0001193125-16-751374",
+      "form": "10-KT",
+      "filed": "2016-10-28",
+      "filed_after_event": false
+    },
+    {
+      "cik": "0000922358",
+      "name": "Ferrellgas Partners, L.P. (Ferrellgas Partners Finance Corp.)",
+      "event_date": "2021-01-11",
+      "accession": "0001558370-20-011490",
+      "form": "10-K",
+      "filed": "2020-10-15",
+      "filed_after_event": false
+    },
+    {
+      "cik": "0001522690",
+      "name": "GWG Holdings, Inc.",
+      "event_date": "2022-04-20",
+      "accession": "0001522690-21-000008",
+      "form": "10-K",
+      "filed": "2021-11-05",
+      "filed_after_event": false
+    }
+  ],
+  "fdic_event_rows": 4117,
+  "issues": [],
+  "interpretation": "Data-connection audit only; case-only sample cannot establish prevalence, model quality, or population error rates."
+}

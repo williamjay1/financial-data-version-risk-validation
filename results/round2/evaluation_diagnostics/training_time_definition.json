@@ -1,0 +1,37 @@
+{
+  "status": "PASS_EXACT_SAVED_REFIT_MEMBERSHIP",
+  "cutoff": "Jan1 first test year; model final refit, not each original observation origin",
+  "maturity": "origin+365+90days <= cutoff",
+  "future_definition": "Selected later B source filed strictly after cutoff. Same-day source is separately reported because time-of-day is unavailable.",
+  "refit_counts": {
+    "2016_2017": 2024,
+    "2018_2019": 3167,
+    "2020_2021": 4161
+  },
+  "row_identity_checks": [
+    {
+      "block": "2016_2017",
+      "reconstructed_n": 2024,
+      "saved_n": 2024,
+      "exact_row_set_match": true
+    },
+    {
+      "block": "2018_2019",
+      "reconstructed_n": 3167,
+      "saved_n": 3167,
+      "exact_row_set_match": true
+    },
+    {
+      "block": "2020_2021",
+      "reconstructed_n": 4161,
+      "saved_n": 4161,
+      "exact_row_set_match": true
+    }
+  ],
+  "validation_reference": {
+    "path": "D:\\MLWork\\scie_small_sample_topics_20260920\\finance_reframe_20260921\\results\\models_20260921T093517075175Z_split_membership.parquet",
+    "sha256": "92492337290adb1f6bf5b1889c7bb60d0e3f032493bf7401104096edbfbb3539",
+    "use": "Post-computation validation reference only; no definition change from frozen plan."
+  },
+  "distinction": "Historical revisions after a training row origin but before the final fit date are not future relative to that fit cutoff. All versions remain current-API reconstructions."
+}

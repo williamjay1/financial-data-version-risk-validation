@@ -1,0 +1,12 @@
+{
+  "created_utc": "2026-09-22T16:06:10.164976+00:00",
+  "status": "frozen_before_fitting",
+  "correction_key_count": 22,
+  "source": "D:\\MLWork\\scie_small_sample_topics_20260920\\finance_reframe_20260921\\revision_20260922_round2\\results\\source_semantics\\scale_supported_corrections.csv",
+  "source_sha256": "168b64f16248e25a89794b5fa92223e897d1ededd7863d8a86df7802fec9538f",
+  "meaning": "Display-supported common scale adjustment, not human or original-XBRL certification",
+  "excluded": "Four sign-disputed contexts are not applied; prior 26-context analysis is a separate disputed sensitivity",
+  "expected_structure": "Two A/B log_assets cells change; common bundle scaling cancels within nine financial ratios",
+  "base_engine_sha256": "ac2289599a2d17f115703be5a979bbd180d60087254d0ee340aeacaa0c966856",
+  "wrapper_sha256": "e75f13f92cd5958b76a654efa9b0679a544594d1075e1491017ec711f4579034"
+}
