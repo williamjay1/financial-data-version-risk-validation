@@ -1,0 +1,22 @@
+{
+  "doi": "10.5281/zenodo.22977542",
+  "concept_doi": "10.5281/zenodo.22977363",
+  "concept_recid": "22977363",
+  "title": "Financial data version risk in bankruptcy model validation: separating scoring, development and evaluation effects",
+  "version": "v1.0.1",
+  "publication_date": "2026-09-26",
+  "resource_type": "software",
+  "license": "mit-license",
+  "creators": [
+    "Zhang, Junjie"
+  ],
+  "related_identifiers": [
+    "https://github.com/williamjay1/financial-data-version-risk-validation/tree/v1.0.1"
+  ],
+  "files": [
+    "williamjay1/financial-data-version-risk-validation-v1.0.1.zip"
+  ],
+  "file_count": 1,
+  "total_bytes": 44746871,
+  "html": "https://zenodo.org/records/22977542"
+}
